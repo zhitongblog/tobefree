@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e0824f"/>
-      <stop offset="1" stop-color="#c1521f"/>
+      <stop offset="0" stop-color="#35b57e"/>
+      <stop offset="1" stop-color="#1c8457"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="15" fill="url(#g)"/>
   <!-- a bird taking flight -->
   <path d="M16 40c8 2 15-1 20-8 2-3 5-6 9-6-2 4-2 7-5 10-5 6-14 9-24 8-1 0-1-3 0-4z"
-        fill="#fff" opacity="0.96"/>
-  <path d="M34 25c3-4 8-6 13-5-2 2-2 4-5 6-3 2-6 2-8 1z" fill="#fff" opacity="0.85"/>
-  <circle cx="44" cy="24" r="1.6" fill="#c1521f"/>
+        fill="#fff" opacity="0.97"/>
+  <path d="M34 25c3-4 8-6 13-5-2 2-2 4-5 6-3 2-6 2-8 1z" fill="#fff" opacity="0.88"/>
+  <circle cx="44" cy="24" r="1.6" fill="#1c8457"/>
 </svg>

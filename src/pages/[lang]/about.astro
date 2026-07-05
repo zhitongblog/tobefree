@@ -28,6 +28,13 @@ const c = {
     buildTitle: '这个站本身',
     build: '本站用 Astro 构建，纯静态托管在 Cloudflare 上 —— 没有后端、没有数据库、没有一行追踪代码。它自己就是"无负担"的样子。网站开源，欢迎推荐好工具。',
     cta: '推荐一款工具',
+    faqTitle: '常见问题',
+    faq: [
+      ['这些软件都真的免费吗？', '是。我们只收录核心功能永久免费的工具 —— 不是限时试用，也不是"免费版残废到不能用"。标注"有免费版"的是 freemium：免费额度足够日常使用，只有进阶功能才付费，我们会明确标出来。'],
+      ['为什么有些不是开源的？', '开源是加分项，不是硬性要求。像 Everything、Obsidian 这类闭源但真正免费、无广告、无负担的好工具也值得收录。我们用徽章把"是否开源"透明标出来，让你自己判断。'],
+      ['你们提供软件下载吗？', '不。我们只链接到每个工具的官方网站和官方下载页，绝不自己托管安装包 —— 这样你拿到的永远是最新、最可信的官方版本，也避免任何捆绑或安全风险。'],
+      ['怎么推荐一个工具？', '在我们的 GitHub 仓库提交即可。只要符合"真免费、无广告、无负担"的标准，都欢迎。'],
+    ] as [string, string][],
   },
   en: {
     lead: 'To Be Free believes something simple: using software should not be a luxury. Too many good features hide behind subscriptions, ads, sign-up walls and data tracking. We built this place to hand-pick the tools that are genuinely free, genuinely usable, and genuinely burden-free — one at a time.',
@@ -44,11 +51,28 @@ const c = {
     buildTitle: 'This site itself',
     build: 'Built with Astro and hosted fully static on Cloudflare — no backend, no database, not a single line of tracking. It is what "burden-free" looks like. The site is open source; tool suggestions are welcome.',
     cta: 'Suggest a tool',
+    faqTitle: 'Frequently asked questions',
+    faq: [
+      ['Are these tools really free?', 'Yes. We only list tools whose core features are permanently free — not timed trials, not crippled "free versions". Tools marked "Free tier" are freemium: the free allowance is enough for everyday use and only advanced features are paid, which we always label clearly.'],
+      ['Why are some not open source?', 'Open source is a bonus, not a hard requirement. Closed-source but genuinely free, ad-free, burden-free gems like Everything and Obsidian deserve a place too. We mark whether each tool is open source with a badge so you can judge for yourself.'],
+      ['Do you host downloads?', 'No. We only link to each tool’s official website and official downloads page — we never host installers ourselves. That way you always get the newest, most trustworthy official build, with no bundling or security risk.'],
+      ['How do I suggest a tool?', 'Submit it on our GitHub repository. As long as it meets the "genuinely free, ad-free, burden-free" standard, it’s welcome.'],
+    ] as [string, string][],
   },
 }[lang];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: c.faq.map(([q, a]) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+};
 ---
 
-<BaseLayout title={t('about.title')} description={c.lead}>
+<BaseLayout title={t('about.title')} description={c.lead} jsonLd={jsonLd}>
   <article class="about container section">
     <header class="head">
       <p class="eyebrow">🕊️ {t('site.tagline')}</p>
@@ -86,6 +110,18 @@ const c = {
     <section class="block">
       <h2><span class="num">04</span> {c.buildTitle}</h2>
       <p>{c.build}</p>
+    </section>
+
+    <section class="block faq">
+      <h2><span class="num">05</span> {c.faqTitle}</h2>
+      <dl>
+        {c.faq.map(([q, a]) => (
+          <div class="qa">
+            <dt>{q}</dt>
+            <dd>{a}</dd>
+          </div>
+        ))}
+      </dl>
     </section>
 
     <div class="cta-row">
@@ -175,5 +211,24 @@ const c = {
   .cta-row {
     text-align: center;
     margin-top: 3rem;
+  }
+  .faq dl {
+    display: grid;
+    gap: 0.9rem;
+  }
+  .qa {
+    padding: 1.1rem 1.3rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .qa dt {
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    font-size: 1.02rem;
+  }
+  .qa dd {
+    color: var(--text-soft);
+    line-height: 1.75;
   }
 </style>

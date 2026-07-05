@@ -10,8 +10,8 @@ interface Props {
   description?: string;
   /** Absolute or root-relative OG image path. */
   image?: string;
-  /** Extra JSON-LD object rendered as a script tag. */
-  jsonLd?: Record<string, unknown>;
+  /** Extra JSON-LD object(s) rendered as script tags. */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const lang = getLangFromUrl(Astro.url);
@@ -42,6 +42,7 @@ const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href={canonical} />
 
     <!-- hreflang -->
@@ -56,6 +57,9 @@ const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={pageTitle} />
     <meta property="og:locale" content={ogLocale} />
 
     <!-- Twitter -->
@@ -68,12 +72,15 @@ const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
     <meta name="theme-color" content="#191410" media="(prefers-color-scheme: dark)" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="alternate" type="application/rss+xml" href="/sitemap-index.xml" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    {jsonLd && (
-      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-    )}
+    {jsonLd &&
+      (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((obj) => (
+        <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+      ))}
 
     <!-- No-flash theme init -->
     <script is:inline>

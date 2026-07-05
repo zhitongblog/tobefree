@@ -10,7 +10,7 @@ export const SITE = {
   defaultLocale: 'zh' as const,
   locales: ['zh', 'en'] as const,
   /** GitHub repo used by the "submit a tool" flow; edit to your repo. */
-  repo: 'https://github.com/tobefree/tobefree',
+  repo: 'https://github.com/zhitongblog/tobefree',
 };
 
 export type Locale = (typeof SITE.locales)[number];
