@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Logo from '../../components/Logo.astro';
 import { BADGES, pick, type Locale } from '../../consts';
 import { useTranslations, localizedPath, type Lang } from '../../i18n/utils';
 import { localePaths } from '../../lib/tools';
@@ -75,7 +76,7 @@ const jsonLd = {
 <BaseLayout title={t('about.title')} description={c.lead} jsonLd={jsonLd}>
   <article class="about container section">
     <header class="head">
-      <p class="eyebrow">🕊️ {t('site.tagline')}</p>
+      <p class="eyebrow brand-eyebrow"><Logo size={17} /> {t('site.tagline')}</p>
       <h1>{t('about.title')}</h1>
       <p class="lead">{c.lead}</p>
     </header>
@@ -137,6 +138,11 @@ const jsonLd = {
   .head {
     text-align: center;
     margin-bottom: 3rem;
+  }
+  .brand-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
   }
   .head h1 {
     font-size: clamp(2rem, 6vw, 3.2rem);
