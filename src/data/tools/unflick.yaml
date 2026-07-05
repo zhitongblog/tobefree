@@ -1,0 +1,35 @@
+name: Unflick
+accent: '#C0392B'
+initials: UN
+category: media
+price: free
+license: 'MIT'
+website: https://unflick.app
+download: https://github.com/zhitongblog/unflick/releases
+repo: https://github.com/zhitongblog/unflick
+featured: false
+selfMade: true
+added: '2026-07-05'
+tags: [播放器, video, mpv, ai, mcp]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 给人类和 AI 的视频播放器
+  en: A video player for humans and AI
+description:
+  zh: 基于 libmpv 的视频播放器，内置 SponsorBlock 自动跳过、本地 AI 字幕生成。同时提供 GUI、CLI 和 MCP（39 个工具），让 AI 也能控制播放、剪辑、转录和检索媒体库。MIT 开源，无广告无追踪。
+  en: A libmpv-based video player with built-in SponsorBlock auto-skip and local AI subtitle generation. Ships as a GUI, a CLI and an MCP server (39 tools) so AI can control playback, editing, transcription and library search. MIT-licensed, no ads, no tracking.
+review:
+  zh: |
+    视频播放器本该只是安静地放好一段视频，却常被广告、追踪和臃肿功能拖累。Unflick 用 libmpv 把"放得好"
+    这件事做扎实，还顺手加了 SponsorBlock 自动跳广告、本地 AI 生成字幕 —— 全部在本地完成。
+
+    它同时是给 AI 用的：GUI、CLI、MCP 三形态，39 个工具让智能体能控制播放、转录、检索你的媒体库。
+    MIT 开源，永久免费。
+  en: |
+    A video player should just play video well, but too many drag in ads, tracking and bloat. Unflick uses
+    libmpv to nail the "plays well" part, then adds SponsorBlock auto-skip and local AI subtitle generation —
+    all done on-device.
+
+    It's also built for AI: GUI, CLI and MCP forms, with 39 tools letting agents control playback, transcribe,
+    and search your media library. MIT-licensed, free forever.

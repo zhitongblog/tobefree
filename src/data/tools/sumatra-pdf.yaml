@@ -1,0 +1,22 @@
+name: Sumatra PDF
+accent: '#8B2E2E'
+initials: SP
+category: office
+price: free
+license: 'GPL-3.0'
+website: https://www.sumatrapdfreader.org
+download: https://www.sumatrapdfreader.org/download-free-pdf-viewer
+repo: https://github.com/sumatrapdfreader/sumatrapdf
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [pdf, 阅读器, 轻量, 电子书]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 极致轻量的 Windows PDF 阅读器
+  en: An ultra-lightweight PDF reader for Windows
+description:
+  zh: 启动飞快、占用极小的多格式阅读器，除 PDF 外还支持 EPUB、MOBI、CBZ、DjVu、XPS 等，可做成绿色单文件从 U 盘运行，无广告无捆绑。
+  en: A blazing-fast, tiny multi-format reader that opens not just PDFs but also EPUB, MOBI, CBZ, DjVu and XPS, runs as a single portable file from a USB stick, and bundles no ads or extras.

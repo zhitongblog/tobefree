@@ -1,0 +1,22 @@
+name: 7-Zip
+accent: '#1D6F42'
+initials: '7Z'
+category: utility
+price: free
+license: 'LGPL-2.1'
+website: https://www.7-zip.org
+download: https://www.7-zip.org/download.html
+repo: ''
+featured: false
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [压缩, 解压, archive, zip]
+platforms: [windows, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 干净利落的压缩解压工具，没有任何弹窗
+  en: A clean, no-nonsense archiver — zero nag screens
+description:
+  zh: 支持几乎所有压缩格式，压缩率高、速度快。开源、无广告、无捆绑，是 WinRAR 弹窗的终结者。
+  en: Handles nearly every archive format with high ratios and speed. Open source, ad-free, no bundleware — the cure for WinRAR nag screens.

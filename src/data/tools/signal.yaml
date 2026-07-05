@@ -1,0 +1,31 @@
+name: Signal
+accent: '#3A76F0'
+initials: SG
+category: privacy
+price: free
+license: 'AGPL-3.0 / GPL-3.0'
+website: https://signal.org
+download: https://signal.org/download/
+repo: https://github.com/signalapp
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [即时通讯, 加密, 隐私, messenger]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform]
+tagline:
+  zh: 端到端加密的即时通讯，隐私是默认设置而不是选项
+  en: End-to-end encrypted messaging where privacy is the default, not an option
+description:
+  zh: 所有消息、语音和视频通话默认端到端加密，服务器上看不到任何内容。由非营利基金会运营，靠捐款维持，不卖广告、不收集数据。
+  en: Every message, voice and video call is end-to-end encrypted by default, invisible to the servers. Run by a nonprofit foundation on donations — no ads, no data collection.
+review:
+  zh: |
+    Signal 是隐私通讯的黄金标准。它的加密协议被 WhatsApp 等大厂反过来采用，代码全部开源可审计，连元数据都尽量不留。你不需要懂密码学，装上就默认加密。
+
+    它由非营利基金会运营，唯一的收入是捐款——没有广告、没有画像、没有"免费背后的代价"。缺点是注册需要手机号，但换来的是一个真正把用户利益放第一位的通讯工具。
+  en: |
+    Signal is the gold standard for private messaging. Its encryption protocol was adopted by giants like WhatsApp, the entire codebase is open source and auditable, and it minimizes even metadata. You don't need to understand cryptography — install it and everything is encrypted by default.
+
+    It's run by a nonprofit whose only revenue is donations: no ads, no profiling, no hidden cost behind "free." The one catch is that signup requires a phone number — but in return you get a messenger that genuinely puts users first.

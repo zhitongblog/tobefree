@@ -1,0 +1,21 @@
+name: Inkscape
+accent: '#000000'
+initials: IN
+category: creative
+price: free
+license: 'GPL-3.0'
+website: https://inkscape.org
+download: https://inkscape.org/release/
+repo: https://gitlab.com/inkscape/inkscape
+featured: false
+selfMade: false
+added: '2026-07-05'
+tags: [矢量, svg, 设计, 插画]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 专业矢量绘图，Illustrator 的开源替代
+  en: Professional vector graphics — the open-source answer to Illustrator
+description:
+  zh: 以 SVG 为原生格式的矢量设计工具，做 logo、图标、插画都合适。功能扎实，完全免费开源。
+  en: A vector design tool with SVG as its native format — great for logos, icons and illustration. Solid and completely free and open.

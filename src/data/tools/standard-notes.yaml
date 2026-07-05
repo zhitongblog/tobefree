@@ -1,0 +1,22 @@
+name: Standard Notes
+accent: '#086DD6'
+initials: SN
+category: productivity
+price: freemium
+license: 'AGPL-3.0'
+website: https://standardnotes.com
+download: https://standardnotes.com/download
+repo: https://github.com/standardnotes/app
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [笔记, 端到端加密, 隐私, 同步, 跨平台]
+platforms: [windows, macos, linux, ios, android, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 默认端到端加密、无限设备免费同步的笔记应用
+  en: End-to-end encrypted notes with free unlimited-device sync
+description:
+  zh: 一款以隐私和长期可用为设计理念的开源加密笔记工具，免费版即可无限笔记、无限设备加密同步，也可自建服务器；付费仅解锁编辑器、主题等增强功能。
+  en: An open-source encrypted notes app built around privacy and longevity. The free tier gives unlimited notes and encrypted sync across unlimited devices, and you can self-host the server; paid tiers only add editors, themes and extras.

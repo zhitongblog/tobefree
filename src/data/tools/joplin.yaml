@@ -1,0 +1,37 @@
+name: Joplin
+accent: '#2862E9'
+initials: JO
+category: productivity
+price: free
+license: 'AGPL-3.0'
+website: https://joplinapp.org
+download: https://joplinapp.org/download/
+repo: https://github.com/laurent22/joplin
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [notes, markdown, todo, 加密同步, 知识库]
+platforms: [windows, macos, linux, ios, android, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 开源、离线优先、端到端加密的笔记与待办工具
+  en: Open-source, offline-first note-taking with end-to-end encrypted sync
+description:
+  zh: 一款隐私优先的开源笔记与待办应用，笔记以 Markdown 存储在本地，可选端到端加密同步到 Nextcloud、Dropbox、OneDrive 等你自己的云。
+  en: A privacy-first, open-source notes and to-do app. Notes are stored locally as Markdown and can be synced end-to-end encrypted to your own Nextcloud, Dropbox or OneDrive.
+review:
+  zh: |
+    Joplin 把"笔记"和"同步"这两件事都做成了完全免费、完全属于你的样子。所有笔记都是本地的 Markdown 文件，
+    不联网也能用；想同步时，可以走端到端加密，钥匙只在你手里，连开发者都看不到内容。没有账号门槛、没有广告、没有埋点。
+
+    它最难得的是"逃生通道"很宽：可以随时导出全部笔记，也能自己搭同步服务器，永远不会被某个云服务绑架。
+    从手机到桌面到命令行都有官方客户端，剪藏浏览器网页也有官方插件。想要一个能托付多年的免费笔记系统，Joplin 是最稳妥的选择之一。
+  en: |
+    Joplin makes both the notes and the sync completely free and completely yours. Every note is a local
+    Markdown file that works fully offline, and when you do sync, you can turn on end-to-end encryption so
+    the key never leaves your device — not even the developers can read your content. No account wall, no ads, no telemetry.
+
+    What sets it apart is how wide the escape hatch is: export everything anytime, or run your own sync
+    server so no cloud can ever hold your notes hostage. Official clients span phone, desktop and the command
+    line, plus a browser web-clipper. If you want a free note system to trust for years, Joplin is one of the safest bets.

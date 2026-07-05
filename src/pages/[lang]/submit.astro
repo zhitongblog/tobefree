@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../consts';
+import { useTranslations, localizedPath, type Lang } from '../../i18n/utils';
+import { localePaths } from '../../lib/tools';
+
+export function getStaticPaths() {
+  return localePaths();
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useTranslations(lang);
+
+const issueUrl = `${SITE.repo}/issues/new?title=${encodeURIComponent(
+  lang === 'zh' ? '推荐工具：' : 'Suggest a tool: ',
+)}&labels=suggestion`;
+
+const checklist =
+  lang === 'zh'
+    ? ['真免费（核心功能永久免费）', '完全无广告、无捆绑', '不强制注册、不追踪你的数据']
+    : ['Genuinely free (core features free forever)', 'Completely ad-free, no bundleware', 'No forced sign-up, no data tracking'];
+---
+
+<BaseLayout title={t('submit.title')} description={t('submit.intro')}>
+  <section class="section container narrow">
+    <div class="section-head">
+      <p class="eyebrow">{t('nav.submit')}</p>
+      <h2>{t('submit.title')}</h2>
+      <p>{t('submit.intro')}</p>
+    </div>
+
+    <ul class="check">
+      {checklist.map((item) => (
+        <li><span aria-hidden="true">✓</span> {item}</li>
+      ))}
+    </ul>
+
+    <div class="cta">
+      <a class="btn btn-primary" href={issueUrl} target="_blank" rel="noopener">{t('submit.cta')} ↗</a>
+      <a class="btn btn-ghost" href={localizedPath(lang, 'about')}>{t('hero.cta.about')}</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .narrow {
+    max-width: 620px;
+  }
+  .check {
+    list-style: none;
+    display: grid;
+    gap: 0.7rem;
+    margin: 0 0 2rem;
+  }
+  .check li {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.9rem 1.2rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+  }
+  .check span {
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 999px;
+    background: var(--green-soft);
+    color: var(--green);
+    font-weight: 800;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+  }
+  .cta {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+</style>

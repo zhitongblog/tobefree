@@ -1,0 +1,22 @@
+name: Zim Desktop Wiki
+accent: '#5C8AC6'
+initials: ZI
+category: productivity
+price: free
+license: 'GPL-2.0'
+website: https://zim-wiki.org
+download: https://zim-wiki.org/downloads.html
+repo: https://github.com/zim-desktop-wiki/zim-desktop-wiki
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [桌面wiki, 笔记, 纯文本, 知识库, 待办]
+platforms: [windows, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 像用维基一样管理笔记的纯文本桌面知识库
+  en: A plain-text desktop wiki for managing notes the way you use a wiki
+description:
+  zh: 用维基的方式维护本地笔记的开源桌面应用，所有内容以纯文本文件存储，支持页面互链、附件、任务清单，还有公式编辑、版本控制等插件扩展。
+  en: An open-source desktop app that maintains local notes like a wiki. Everything is stored as plain-text files, with inter-page links, attachments and task lists, plus plugins for equations, version control and more.

@@ -1,0 +1,31 @@
+name: mpv
+accent: '#691F69'
+initials: mp
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://mpv.io/
+download: https://mpv.io/installation/
+repo: https://github.com/mpv-player/mpv
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [播放器, 视频, 命令行, player]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 极简高性能的开源媒体播放器
+  en: A minimalist, high-performance open-source media player
+description:
+  zh: 支持几乎所有音视频格式与字幕，基于 GPU 的高质量渲染、色彩管理与 HDR，脚本能力强大，界面极简、启动飞快，完全本地运行。
+  en: Plays virtually every audio and video format with GPU-based high-quality rendering, color management and HDR, powerful scripting, a minimal UI and instant startup — all fully offline.
+review:
+  zh: |
+    mpv 走的是极简路线：没有臃肿的界面，视频上只有一条轻量控制条，却在画质上下了重功夫 —— 高质量缩放算法、色彩管理、帧时序、插值和 HDR，视频发烧友最爱这些。启动快、占用低，拖进去就能播。
+
+    它完全开源，可作为库嵌入其他程序，脚本系统让它几乎能被改造成任何样子。无广告、无遥测、纯本地，是替代臃肿播放器的清爽之选。
+  en: |
+    mpv takes the minimalist route: no bloated interface, just a slim control bar over the video — but it puts serious work into image quality, with high-quality scaling, color management, frame timing, interpolation and HDR that videophiles love. It starts fast, stays light, and just plays whatever you throw at it.
+
+    Fully open source, it can be embedded as a library, and its scripting system lets you reshape it into almost anything. No ads, no telemetry, purely local — a clean alternative to bloated players.

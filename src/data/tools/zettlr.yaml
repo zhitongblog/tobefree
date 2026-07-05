@@ -1,0 +1,22 @@
+name: Zettlr
+accent: '#1CB27E'
+initials: ZE
+category: productivity
+price: free
+license: 'GPL-3.0'
+website: https://www.zettlr.com
+download: https://www.zettlr.com/download
+repo: https://github.com/Zettlr/Zettlr
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [markdown, 学术写作, 引用, zettelkasten, 写作]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 为研究者与写作者打造的一站式 Markdown 写作台
+  en: A one-stop Markdown workbench for researchers and writers
+description:
+  zh: 面向学术与长文写作的开源 Markdown 编辑器，内置 Zotero/JabRef 文献引用、Zettelkasten 双链、LaTeX 公式与导出。文件全在本地，无强制云同步、无遥测。
+  en: An open-source Markdown editor for academic and long-form writing, with built-in Zotero/JabRef citations, Zettelkasten links, LaTeX math and export. Files stay local, with no forced cloud sync and no telemetry.

@@ -1,0 +1,22 @@
+name: darktable
+accent: '#4B4B4B'
+initials: DT
+category: creative
+price: free
+license: 'GPL-3.0'
+website: https://www.darktable.org
+download: https://www.darktable.org/install/
+repo: https://github.com/darktable-org/darktable
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [raw, 摄影后期, 修图, 数字暗房]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费开源的 RAW 摄影后期与数字暗房
+  en: A free, open-source RAW workflow and virtual darkroom
+description:
+  zh: 面向摄影师的 RAW 冲洗与管理工具，全流程无损编辑，原图永不被修改。装完即用，永不订阅。
+  en: A RAW developer and photo manager for photographers, with fully non-destructive editing that never touches your originals. Install once, never subscribe.

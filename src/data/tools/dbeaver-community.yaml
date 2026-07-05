@@ -1,0 +1,37 @@
+name: DBeaver Community
+accent: '#382E75'
+initials: DB
+category: dev
+price: free
+license: 'Apache-2.0'
+website: https://dbeaver.io
+download: https://dbeaver.io/download/
+repo: https://github.com/dbeaver/dbeaver
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [数据库, sql, 客户端, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-signup, offline, cross-platform]
+tagline:
+  zh: 一款工具连遍所有数据库的开源 SQL 客户端
+  en: One open-source SQL client for every database
+description:
+  zh: 通用数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Oracle 等上百种数据库。强大的 SQL 编辑器、数据浏览、导入导出与图形化管理，Community 版永久免费开源。
+  en: A universal database tool supporting MySQL, PostgreSQL, SQLite, Oracle and 100+ more. Powerful SQL editor, data browsing, import/export and visual admin — the Community edition is free and open source forever.
+review:
+  zh: |
+    DBeaver Community 解决了每个开发者都头疼的问题：为不同数据库装一堆各不相同的客户端。它用一套界面连通几乎所有主流数据库，
+    自动补全的 SQL 编辑器、像电子表格一样编辑数据的网格、ER 图、数据导入导出一应俱全，而 Community 版全部免费、按 Apache 许可开源。
+
+    它是本地桌面应用，连接信息存在自己机器上，不强制登录、不塞广告。付费的 PRO 版只是额外增加了 NoSQL 和企业特性，
+    日常关系型数据库的活儿 Community 版已经绰绰有余。对于需要天天和数据库打交道的人，这是最省心也最没有负担的选择之一。
+  en: |
+    DBeaver Community fixes a headache every developer knows: juggling a different client for each database. It
+    speaks to nearly every mainstream database from one interface, with an autocompleting SQL editor, a spreadsheet-like
+    data grid, ER diagrams and import/export — and the Community edition is entirely free and Apache-licensed.
+
+    It's a local desktop app: connection details stay on your machine, with no forced login and no ads. The paid PRO
+    edition only adds NoSQL and enterprise extras, so for everyday relational work the Community edition is more than
+    enough. For anyone who lives in databases day to day, it's one of the most capable and burden-free choices around.

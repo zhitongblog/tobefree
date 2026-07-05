@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ToolCard from '../../../components/ToolCard.astro';
+import { CATEGORIES, categoryById, pick, type Locale } from '../../../consts';
+import { locales, useTranslations, localizedPath, type Lang } from '../../../i18n/utils';
+import { getAllTools, inCategory } from '../../../lib/tools';
+
+export async function getStaticPaths() {
+  return locales.flatMap((lang) =>
+    CATEGORIES.map((c) => ({ params: { lang, category: c.id }, props: { lang, category: c.id } })),
+  );
+}
+
+const { lang, category } = Astro.props as { lang: Lang; category: string };
+const loc = lang as Locale;
+const t = useTranslations(lang);
+const cat = categoryById[category];
+
+const all = await getAllTools();
+const tools = inCategory(all, category);
+---
+
+<BaseLayout
+  title={cat ? pick(cat.label, loc) : category}
+  description={cat ? `${pick(cat.label, loc)} · ${t('site.description')}` : t('site.description')}
+>
+  <section class="section container">
+    <a class="back" href={localizedPath(lang, 'tools')}>← {t('tool.back')}</a>
+    <div class="section-head">
+      <p class="eyebrow">{t('nav.categories')}</p>
+      <h2>{cat?.icon} {cat ? pick(cat.label, loc) : category}</h2>
+      <p>{t('tools.count', { n: tools.length })}</p>
+    </div>
+
+    {tools.length > 0 ? (
+      <div class="grid cards-grid">
+        {tools.map((tool) => <ToolCard tool={tool} lang={lang} />)}
+      </div>
+    ) : (
+      <p class="empty">{t('tools.empty')}</p>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .back {
+    display: inline-block;
+    color: var(--text-soft);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .back:hover {
+    color: var(--accent-ink);
+  }
+  .empty {
+    color: var(--text-faint);
+    padding: 2rem 0;
+  }
+</style>

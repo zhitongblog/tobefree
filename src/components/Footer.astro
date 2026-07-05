@@ -1,0 +1,126 @@
+---
+import { SITE, BADGES, pick } from '../consts';
+import { getLangFromUrl, useTranslations, localizedPath } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const navLinks = [
+  { href: localizedPath(lang, 'tools'), label: t('nav.tools') },
+  { href: localizedPath(lang, 'self-made'), label: t('nav.selfmade') },
+  { href: localizedPath(lang, 'about'), label: t('nav.about') },
+  { href: localizedPath(lang, 'submit'), label: t('nav.submit') },
+];
+
+const year = 2026;
+---
+
+<footer class="site-footer">
+  <div class="container inner">
+    <div class="col brand-col">
+      <div class="brand"><span aria-hidden="true">🕊️</span> To Be Free</div>
+      <p class="tagline">{t('footer.tagline')}</p>
+      <a class="oss" href={SITE.repo} target="_blank" rel="noopener">
+        ★ {t('footer.opensource')}
+      </a>
+    </div>
+
+    <div class="col">
+      <h3>{t('footer.nav')}</h3>
+      <ul>
+        {navLinks.map((l) => (
+          <li><a href={l.href}>{l.label}</a></li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="col">
+      <h3>{t('footer.principles')}</h3>
+      <ul class="badges">
+        {BADGES.slice(0, 5).map((b) => (
+          <li><span aria-hidden="true">{b.icon}</span> {pick(b.label, lang)}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container sub">
+    <span>© {year} To Be Free</span>
+    <span class="built">{t('footer.built')}</span>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 4rem;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    padding-block: 3rem 1.5rem;
+  }
+  .inner {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1fr;
+    gap: 2.5rem;
+  }
+  .brand {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .tagline {
+    color: var(--text-soft);
+    margin-top: 0.6rem;
+    max-width: 34ch;
+  }
+  .oss {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .col h3 {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 0.9rem;
+  }
+  .col ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+  .col a {
+    color: var(--text-soft);
+  }
+  .col a:hover {
+    color: var(--accent-ink);
+  }
+  .badges li {
+    color: var(--text-soft);
+    font-size: 0.92rem;
+  }
+  .sub {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--border-soft);
+    color: var(--text-faint);
+    font-size: 0.85rem;
+  }
+  @media (max-width: 680px) {
+    .inner {
+      grid-template-columns: 1fr 1fr;
+    }
+    .brand-col {
+      grid-column: 1 / -1;
+    }
+  }
+</style>

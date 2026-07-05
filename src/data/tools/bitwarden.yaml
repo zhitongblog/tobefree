@@ -1,0 +1,35 @@
+name: Bitwarden
+accent: '#175DDC'
+initials: BW
+category: privacy
+price: freemium
+license: 'GPL-3.0 / AGPL-3.0'
+website: https://bitwarden.com
+download: https://bitwarden.com/download/
+repo: https://github.com/bitwarden
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [密码管理, password-manager, 加密, 安全]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 开源密码管理器，免费额度就足够个人用一辈子
+  en: An open-source password manager whose free tier covers a lifetime of personal use
+description:
+  zh: 端到端加密的密码库，跨所有设备同步。免费版即支持无限密码、无限设备，还能自建服务器完全掌控数据。
+  en: An end-to-end encrypted vault that syncs across every device. The free tier includes unlimited passwords and devices, and you can self-host for full control.
+review:
+  zh: |
+    密码管理器是每个人都该用、却常被付费墙劝退的东西。Bitwarden 把这件事做对了：免费版就支持无限密码、
+    无限设备同步，够绝大多数人用一辈子。全线客户端开源，加密逻辑公开可审计。
+
+    进阶用户还能把整个服务自建在自己的服务器上 —— 数据从此只属于你。这是"免费又不牺牲安全"的范本。
+  en: |
+    A password manager is something everyone should use but many are scared off by paywalls. Bitwarden
+    gets it right: the free tier supports unlimited passwords and unlimited device sync — enough for a
+    lifetime for most people. Every client is open source and the crypto is publicly auditable.
+
+    Power users can self-host the whole thing on their own server, so the data belongs to you alone.
+    It's the model for "free without compromising security."

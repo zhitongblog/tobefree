@@ -1,0 +1,22 @@
+name: Firefox
+accent: '#FF7139'
+initials: FF
+category: privacy
+price: free
+license: 'MPL-2.0'
+website: https://www.firefox.com
+download: https://www.firefox.com/en-US/download/all/
+repo: https://github.com/mozilla-firefox/firefox
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [浏览器, 反追踪, 隐私, browser]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform]
+tagline:
+  zh: 由非营利组织打造、默认保护隐私的开源浏览器
+  en: An open-source browser built by a nonprofit that protects privacy by default
+description:
+  zh: Mozilla 出品的开源浏览器，默认拦截数千种追踪器，隐私窗口关闭即清空记录。同步数据端到端加密，不出售用户信息，是主流浏览器里少有的以用户为先的选择。
+  en: Mozilla's open-source browser blocks thousands of trackers by default, and Private Windows wipe everything on close. Synced data is end-to-end encrypted, your information is never sold — a rare user-first choice among mainstream browsers.

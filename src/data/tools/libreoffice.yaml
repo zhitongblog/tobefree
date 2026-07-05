@@ -1,0 +1,35 @@
+name: LibreOffice
+accent: '#18A303'
+initials: LO
+category: office
+price: free
+license: 'MPL-2.0'
+website: https://www.libreoffice.org
+download: https://www.libreoffice.org/download/download/
+repo: https://git.libreoffice.org/core
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [办公套件, word替代, excel替代, 文档]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 完整的办公套件，兼容 Office 文档，永久免费
+  en: A complete office suite, Office-compatible, free forever
+description:
+  zh: 文字、表格、演示、绘图、公式、数据库六大组件齐全，能打开和保存 Word / Excel / PowerPoint 格式。
+  en: Writer, Calc, Impress, Draw, Math and Base — a full six-app suite that opens and saves Word / Excel / PowerPoint files.
+review:
+  zh: |
+    对绝大多数人来说，办公软件的需求就是"打开、编辑、保存一份文档"，而这件事本不该每年付费。LibreOffice
+    提供了完整的六件套，兼容微软 Office 格式，离线可用，没有任何订阅或云端强绑定。
+
+    它是很多政府机构和学校的正式选择。如果你只是偶尔写写文档、做做表格，装它就够了，省下的是一整套 Office 的钱。
+  en: |
+    For most people, an office suite just needs to open, edit and save a document — something that
+    shouldn't cost a yearly fee. LibreOffice offers the full six-app suite, stays compatible with
+    Microsoft formats, works offline, and has no subscription or cloud lock-in.
+
+    It's the official choice of many governments and schools. If you only write the occasional document
+    or spreadsheet, it's all you need — and it saves you a whole Office subscription.

@@ -1,0 +1,22 @@
+name: Trilium Notes
+accent: '#4C7BD9'
+initials: TR
+category: productivity
+price: free
+license: 'AGPL-3.0'
+website: https://triliumnotes.org
+download: https://github.com/TriliumNext/Trilium/releases
+repo: https://github.com/TriliumNext/Trilium
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [知识库, 笔记, 树状结构, 自托管, wiki]
+platforms: [windows, macos, linux, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 面向大型个人知识库的树状笔记应用
+  en: A hierarchical note app built for large personal knowledge bases
+description:
+  zh: 由社区接手维护的开源笔记工具（TriliumNext），支持任意深度的树状结构、笔记克隆、脚本化和全文搜索，可本地离线使用或搭在自己的服务器上同步。
+  en: A community-maintained open-source note app (TriliumNext) with arbitrarily deep note trees, note cloning, scripting and full-text search. Use it locally offline or sync it via your own server.

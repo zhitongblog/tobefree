@@ -1,0 +1,37 @@
+name: Obsidian
+accent: '#7C4DFF'
+initials: OB
+category: productivity
+price: free
+license: 'Proprietary · 个人免费'
+website: https://obsidian.md
+download: https://obsidian.md/download
+repo: ''
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [notes, markdown, 知识库, local-first]
+platforms: [windows, macos, linux, ios, android]
+badges: [no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 本地优先的知识库，你的笔记永远属于你
+  en: A local-first knowledge base — your notes stay yours
+description:
+  zh: 基于纯文本 Markdown 的笔记与知识管理工具。所有文件都在你自己的硬盘上，没有账号、没有云锁定、没有订阅门槛。
+  en: A Markdown-based notes and knowledge tool. Every file lives on your own disk — no account, no cloud lock-in, no subscription wall.
+review:
+  zh: |
+    Obsidian 最打动人的地方，是它把"数据主权"还给了你。你的笔记是一堆躺在文件夹里的 `.md` 文件，
+    今天用 Obsidian，明天换任何编辑器都能打开，十年后也不会因为某家公司倒闭而丢失。
+
+    个人使用完全免费，核心功能不设墙、不逼你注册、不看广告。丰富的社区插件让它能长成你想要的任何样子 ——
+    从写作、日记到 PPT、看板。如果你在找一个"值得托付一辈子笔记"的工具，先从它开始。
+  en: |
+    What makes Obsidian special is that it gives data ownership back to you. Your notes are plain
+    `.md` files sitting in a folder — open them in Obsidian today, any editor tomorrow, and they'll
+    still be readable in ten years no matter what happens to the company.
+
+    It's completely free for personal use, with no paywall on core features, no forced sign-up, and
+    no ads. A huge ecosystem of community plugins lets it become whatever you need. If you're looking
+    for a tool to trust a lifetime of notes to, start here.

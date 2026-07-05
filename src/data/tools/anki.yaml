@@ -1,0 +1,22 @@
+name: Anki
+accent: '#0093D0'
+initials: AN
+category: productivity
+price: free
+license: 'AGPL-3.0'
+website: https://apps.ankiweb.net
+download: https://apps.ankiweb.net/#download
+repo: https://github.com/ankitects/anki
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [flashcards, 间隔重复, 记忆, 学习, spaced-repetition]
+platforms: [windows, macos, linux, android, web]
+badges: [open-source, no-ads, no-tracking, offline, cross-platform]
+tagline:
+  zh: 用间隔重复算法，把知识刻进长期记忆的记忆卡片工具
+  en: Spaced-repetition flashcards that lock knowledge into long-term memory
+description:
+  zh: 基于间隔重复算法的记忆卡片软件，帮你把时间花在快忘的内容上。桌面版（Windows/macOS/Linux）、AnkiDroid 安卓版与 AnkiWeb 网页同步全部免费。
+  en: Flashcard software built on spaced repetition, so you spend time on what you're about to forget. The desktop apps (Windows/macOS/Linux), AnkiDroid for Android, and AnkiWeb sync are all free.

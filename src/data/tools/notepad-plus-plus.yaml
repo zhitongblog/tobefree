@@ -1,0 +1,22 @@
+name: Notepad++
+accent: '#8FC831'
+initials: NP
+category: dev
+price: free
+license: 'GPL-3.0'
+website: https://notepad-plus-plus.org
+download: https://notepad-plus-plus.org/downloads/
+repo: https://github.com/notepad-plus-plus/notepad-plus-plus
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [编辑器, 文本, windows, 开源]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: Windows 上的经典开源代码与文本编辑器
+  en: The classic open-source code and text editor for Windows
+description:
+  zh: 轻快的 Windows 源码编辑器与记事本替代品，支持约 80 种语言的语法高亮、代码折叠与多标签编辑。基于 Scintilla，启动快、占用小，永久免费开源。
+  en: A fast Windows source-code editor and Notepad replacement with syntax highlighting for around 80 languages, code folding and tabbed editing. Built on Scintilla — quick to launch, light on resources, free and open source forever.

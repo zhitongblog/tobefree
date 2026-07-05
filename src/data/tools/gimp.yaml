@@ -1,0 +1,35 @@
+name: GIMP
+accent: '#5C5543'
+initials: GI
+category: creative
+price: free
+license: 'GPL-3.0'
+website: https://www.gimp.org
+download: https://www.gimp.org/downloads/
+repo: https://gitlab.gnome.org/GNOME/gimp
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [图像编辑, photoshop替代, 修图, raster]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费的专业图像编辑器，Photoshop 的开源替代
+  en: A free, professional image editor — the open-source answer to Photoshop
+description:
+  zh: 功能完整的位图编辑软件：图层、蒙版、通道、滤镜、脚本一应俱全。装完即用，永不订阅。
+  en: A full-featured raster editor with layers, masks, channels, filters and scripting. Install once, never subscribe.
+review:
+  zh: |
+    当 Photoshop 走向每月订阅，GIMP 依然是那个"下载完就能用一辈子"的选择。图层、蒙版、路径、批处理，
+    专业修图需要的它基本都有，社区还提供大量插件和笔刷。
+
+    界面和 PS 有差异，需要一点适应；但对于绝大多数抠图、修图、设计需求，它足够胜任，而且完全免费开源。
+  en: |
+    As Photoshop moved to monthly subscriptions, GIMP remained the "download once, use forever" option.
+    Layers, masks, paths, batch processing — the essentials of serious photo work are all here, plus a
+    rich community of plugins and brushes.
+
+    Its interface differs from PS and takes some adjusting, but for the vast majority of editing and
+    design work it's more than capable — and completely free and open.

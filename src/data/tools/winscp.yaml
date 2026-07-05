@@ -1,0 +1,22 @@
+name: WinSCP
+accent: '#2A67B1'
+initials: WS
+category: dev
+price: free
+license: 'GPL-3.0 · 源码开源'
+website: https://winscp.net
+download: https://winscp.net/eng/download.php
+repo: https://github.com/winscp/winscp
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [文件传输, sftp, ftp, windows, 开源]
+platforms: [windows]
+badges: [open-source, no-ads, offline, no-signup]
+tagline:
+  zh: Windows 上免费好用的 SFTP/FTP 文件传输客户端
+  en: A free, capable SFTP/FTP file-transfer client for Windows
+description:
+  zh: 老牌 Windows 文件传输工具，支持 SFTP、FTP、FTPS、SCP、S3、WebDAV。提供双栏与资源管理器两种界面，可做目录同步与脚本自动化，免费且源码开源。
+  en: A long-standing Windows file-transfer tool supporting SFTP, FTP, FTPS, SCP, S3 and WebDAV. It offers Norton-Commander and Explorer-style interfaces, directory sync and scripting automation — free, with source code open.

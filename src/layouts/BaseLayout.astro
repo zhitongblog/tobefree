@@ -1,0 +1,100 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../consts';
+import { getLangFromUrl, useTranslations, altLangPath } from '../i18n/utils';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Absolute or root-relative OG image path. */
+  image?: string;
+  /** Extra JSON-LD object rendered as a script tag. */
+  jsonLd?: Record<string, unknown>;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const {
+  title,
+  description = t('site.description'),
+  image = '/og-default.png',
+  jsonLd,
+} = Astro.props;
+
+const pageTitle = title
+  ? `${title} · ${SITE.name}`
+  : `${SITE.name} — ${t('site.tagline')}`;
+
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const ogImage = new URL(image, SITE.url).href;
+const altPath = altLangPath(Astro.url, lang);
+const altHref = new URL(altPath, SITE.url).href;
+const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
+---
+
+<!doctype html>
+<html lang={lang === 'zh' ? 'zh-CN' : 'en'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang={lang === 'zh' ? 'zh-CN' : 'en-US'} href={canonical} />
+    <link rel="alternate" hreflang={lang === 'zh' ? 'en-US' : 'zh-CN'} href={altHref} />
+    <link rel="alternate" hreflang="x-default" href={new URL('/', SITE.url).href} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={ogLocale} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <meta name="theme-color" content="#fbf6ee" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#191410" media="(prefers-color-scheme: dark)" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" href="/sitemap-index.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
+
+    <!-- No-flash theme init -->
+    <script is:inline>
+      (function () {
+        try {
+          const stored = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const theme = stored || (prefersDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="visually-hidden">Skip to content</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

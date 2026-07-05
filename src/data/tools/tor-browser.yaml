@@ -1,0 +1,31 @@
+name: Tor Browser
+accent: '#7D4698'
+initials: TB
+category: privacy
+price: free
+license: 'MPL-2.0'
+website: https://www.torproject.org
+download: https://www.torproject.org/download/
+repo: https://gitlab.torproject.org/tpo/applications/tor-browser
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [匿名浏览, 隐私, 反追踪, anonymity]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 把流量三重加密、多次跳转，真正匿名地上网
+  en: Triple-encrypted, multi-hop traffic for truly anonymous browsing
+description:
+  zh: 基于 Firefox 定制的浏览器，流量经全球志愿者节点三重加密转发，隐藏真实位置和身份。默认抵御追踪与指纹识别，也能访问被封锁的网站。
+  en: A Firefox-based browser that relays your traffic through volunteer-run nodes with three layers of encryption, hiding your location and identity. Blocks tracking and fingerprinting by default, and reaches censored sites.
+review:
+  zh: |
+    Tor Browser 是对抗监控和审查的最后一道防线。你的流量会经过至少三个随机中继节点，每一跳都被加密，没有任何单点能同时知道你是谁、你在看什么。它由非营利的 Tor Project 维护，完全开源。
+
+    它牺牲了一点速度换来匿名性，但对记者、维权者和任何在意隐私的人来说，这是无可替代的工具。开箱即用，无需注册，无需付费。
+  en: |
+    Tor Browser is the last line of defense against surveillance and censorship. Your traffic passes through at least three random relays, each hop encrypted, so no single point knows both who you are and what you're viewing. It's maintained by the nonprofit Tor Project and fully open source.
+
+    It trades a little speed for anonymity, but for journalists, activists, and anyone who cares about privacy, it's irreplaceable. Works out of the box — no signup, no payment.

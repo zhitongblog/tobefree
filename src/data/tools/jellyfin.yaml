@@ -1,0 +1,31 @@
+name: Jellyfin
+accent: '#00A4DC'
+initials: Je
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://jellyfin.org/
+download: https://jellyfin.org/downloads/
+repo: https://github.com/jellyfin/jellyfin
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [媒体服务器, 自托管, 流媒体, media-server]
+platforms: [windows, macos, linux, web, android, ios]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable, cross-platform]
+tagline:
+  zh: 完全自主可控的免费媒体服务器
+  en: A fully self-controlled, free media server
+description:
+  zh: 把电影、剧集、音乐、照片整理成自己的私人流媒体库，架在自家服务器上随处观看。没有追踪、不回传数据、没有任何隐藏收费。
+  en: Organize your movies, shows, music and photos into your own private streaming library on your own server, watchable anywhere — with no tracking, no phone-home, and no hidden fees.
+review:
+  zh: |
+    Jellyfin 是 Plex、Emby 这类媒体服务器的自由软件替代品：把你收藏的影视音乐架在自己的机器上，自动刮削海报、分季归类，然后用手机、电视、浏览器随时随地流畅播放。全部数据留在你自己手里。
+
+    它由志愿者维护，明确承诺没有追踪、没有回传、没有中央服务器收集你的数据，服务端和官方客户端永久免费。想摆脱订阅制、真正掌控自己媒体库的人，这是首选。
+  en: |
+    Jellyfin is the free-software answer to media servers like Plex and Emby: host your movie, TV and music collection on your own machine, let it auto-fetch artwork and sort by season, then stream smoothly to phones, TVs and browsers anywhere. All the data stays with you.
+
+    Built by volunteers, it explicitly promises no tracking, no phone-home, and no central servers harvesting your data, with the server and official clients free forever. For anyone who wants out of subscriptions and real control over their library, it's the top pick.

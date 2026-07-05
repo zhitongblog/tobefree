@@ -1,0 +1,22 @@
+name: VLC
+accent: '#E8590C'
+initials: VL
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://www.videolan.org/vlc/
+download: https://www.videolan.org/vlc/#download
+repo: https://code.videolan.org/videolan/vlc
+featured: false
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [播放器, 视频, 音频, media-player]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 什么格式都能播的万能播放器
+  en: The universal player that plays anything
+description:
+  zh: 几乎能播放任何音视频格式，无需另装解码器。开源、无广告、跨全平台，永远的桌面必备。
+  en: Plays virtually any audio or video format with no extra codecs. Open source, ad-free, cross-platform — an eternal desktop staple.

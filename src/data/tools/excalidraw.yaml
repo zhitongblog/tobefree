@@ -1,0 +1,22 @@
+name: Excalidraw
+accent: '#6965DB'
+initials: EX
+category: creative
+price: freemium
+license: 'MIT'
+website: https://excalidraw.com
+download: ''
+repo: https://github.com/excalidraw/excalidraw
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [白板, 手绘风, 流程图, 草图]
+platforms: [web]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 手绘风格的免费协作白板
+  en: A free, collaborative whiteboard with a hand-drawn feel
+description:
+  zh: 在浏览器里即开即用的手绘风白板，画流程图、示意图、草图都很顺手，无需注册，绘图数据存在本地，协作时端到端加密。
+  en: A hand-drawn-style whiteboard that runs right in the browser for flowcharts, diagrams and sketches. No sign-up, drawings stay local, and collaboration is end-to-end encrypted.

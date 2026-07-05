@@ -1,0 +1,22 @@
+name: VSCodium
+accent: '#2F80ED'
+initials: VC
+category: dev
+price: free
+license: 'MIT'
+website: https://vscodium.com
+download: https://github.com/VSCodium/vscodium/releases
+repo: https://github.com/VSCodium/vscodium
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [编辑器, 编程, 零遥测, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 去掉微软遥测的 VS Code 干净构建版
+  en: Clean, telemetry-free builds of VS Code
+description:
+  zh: 用微软开源的 VS Code 源码，按 MIT 许可重新构建的干净版本，默认关闭遥测、去掉微软品牌与专有授权。使用体验与 VS Code 几乎一致，插件也照常用。
+  en: Freely-licensed binaries built from VS Code's open-source code under MIT, with telemetry disabled and Microsoft branding removed by default. The experience mirrors VS Code, and extensions still work.

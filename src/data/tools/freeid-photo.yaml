@@ -1,0 +1,34 @@
+name: FreeID Photo
+accent: '#3E7CB1'
+initials: FI
+category: creative
+price: free
+license: 'Freeware'
+website: https://doaipm.com/zh/products/freeid/
+download: ''
+repo: https://github.com/zhitongblog/freeid-photo
+featured: false
+selfMade: true
+added: '2026-07-05'
+tags: [证件照, id-photo, 拍照, 本地处理]
+platforms: [ios, cli]
+badges: [no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 本地处理的证件照 App，无水印、无付费墙
+  en: On-device ID photos — no watermark, no paywall
+description:
+  zh: 免费的证件照 App，实时引导你拍出合规照片，覆盖 10 个国家 16 种规格。全程在手机本地处理，不上传、无水印、不收费。
+  en: A free ID-photo app that guides you to a compliant shot in real time, covering 16 specs across 10 countries. Everything runs on-device — no uploads, no watermark, no paywall.
+review:
+  zh: |
+    拍证件照这件小事，被太多 App 做成了"拍完加水印，去水印要付费"。FreeID Photo 反过来：全程在你手机
+    本地完成，实时引导构图，导出即是合规、无水印的成片，覆盖 10 国 16 种规格。
+
+    照片是隐私，理应留在你自己的设备上。它不上传、不收费，还附带 CLI 与 MCP，能被自动化和 AI 调用。
+  en: |
+    Taking an ID photo is a small thing that too many apps turn into "shoot it, then pay to remove the
+    watermark." FreeID Photo flips that: everything happens on your phone, with live framing guidance, and
+    the export is a compliant, watermark-free photo — across 16 specs in 10 countries.
+
+    Your photos are private and should stay on your own device. It never uploads, never charges, and ships
+    a CLI and MCP server so automation and AI can use it too.

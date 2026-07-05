@@ -1,0 +1,22 @@
+name: Calibre
+accent: '#663399'
+initials: CA
+category: office
+price: free
+license: 'GPL-3.0'
+website: https://calibre-ebook.com
+download: https://calibre-ebook.com/download
+repo: https://github.com/kovidgoyal/calibre
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [电子书, 阅读, 格式转换, 图书管理]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 一站式电子书管理与格式转换
+  en: All-in-one e-book management and conversion
+description:
+  zh: 集图书库管理、格式转换、元数据编辑、内置阅读器与设备同步于一体，支持 EPUB、MOBI、PDF 等几乎所有主流格式，可把电子书推送到 Kindle 等阅读设备。
+  en: Combines library management, format conversion, metadata editing, a built-in reader and device sync, supporting EPUB, MOBI, PDF and nearly every major format — including sending books to Kindle and other e-readers.

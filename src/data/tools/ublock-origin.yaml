@@ -1,0 +1,22 @@
+name: uBlock Origin
+accent: '#800000'
+initials: uB
+category: privacy
+price: free
+license: 'GPL-3.0'
+website: https://github.com/gorhill/uBlock
+download: ''
+repo: https://github.com/gorhill/uBlock
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [广告拦截, 反追踪, 浏览器扩展, ad-blocker]
+platforms: [web]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 高效省内存的广告与追踪拦截器，装上就清净
+  en: A fast, memory-light blocker for ads and trackers — install and breathe
+description:
+  zh: 广谱内容拦截浏览器扩展，默认拦截广告、追踪器、挖矿脚本和恶意站点。占用资源极低，支持 Firefox、Chrome、Edge 等主流浏览器。
+  en: A wide-spectrum content-blocking browser extension that stops ads, trackers, cryptominers and malware sites by default. Extremely light on resources, and works across Firefox, Chrome, Edge and more.

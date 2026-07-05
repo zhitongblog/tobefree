@@ -1,0 +1,31 @@
+name: Shotcut
+accent: '#5D8AA8'
+initials: Sh
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://shotcut.org/
+download: https://shotcut.org/download/
+repo: https://github.com/mltframework/shotcut
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [视频剪辑, 剪辑, video, editor]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费开源的跨平台视频剪辑器，支持 4K
+  en: A free, open-source cross-platform video editor with 4K support
+description:
+  zh: 基于 FFmpeg 支持海量音视频格式，无需转码即可直接编辑，多轨时间线、滤镜与转场齐全，最高支持 4K，完全本地、无水印。
+  en: Powered by FFmpeg, it edits a huge range of formats natively with no import step — multi-track timeline, filters and transitions included, up to 4K, fully offline with no watermark.
+review:
+  zh: |
+    Shotcut 是少有的三大桌面系统体验一致的免费剪辑器。它基于 MLT 与 FFmpeg，能直接把各种格式、分辨率和帧率的素材混在一条时间线上编辑，省去繁琐的转码步骤。滤镜、转场、色彩调整和音频处理都够日常使用。
+
+    官方承诺从官网下载的安装包不含恶意软件、间谍软件和广告。完全开源、无水印、无导出时长限制，是从零学剪辑或做轻量项目的稳妥选择。
+  en: |
+    Shotcut is one of the few free editors that feels the same across all three desktop platforms. Built on MLT and FFmpeg, it mixes clips of different formats, resolutions and frame rates on one timeline without a separate transcode step. Filters, transitions, color and audio tools cover everyday work.
+
+    The team pledges that downloads from the official site are free of malware, spyware and adware. Fully open source with no watermark and no export limits, it's a solid pick for learning to edit or for lightweight projects.

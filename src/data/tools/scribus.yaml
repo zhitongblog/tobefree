@@ -1,0 +1,22 @@
+name: Scribus
+accent: '#CB0000'
+initials: SC
+category: creative
+price: free
+license: 'GPL-2.0'
+website: https://www.scribus.net
+download: https://wiki.scribus.net/canvas/Download
+repo: https://github.com/scribusproject/scribus
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [排版, 桌面出版, dtp, 印刷]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费开源的桌面出版与排版软件
+  en: Free, open-source desktop publishing and layout software
+description:
+  zh: 专业级桌面出版工具，支持 CMYK、专色、ICC 色彩管理和高质量 PDF 输出，适合排版报刊、画册、海报与书籍。装完即用，永不订阅。
+  en: A professional desktop publishing tool with CMYK, spot colors, ICC color management and high-quality PDF output — ideal for newsletters, brochures, posters and books. Install once, never subscribe.

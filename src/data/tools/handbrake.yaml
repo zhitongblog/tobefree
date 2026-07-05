@@ -1,0 +1,31 @@
+name: HandBrake
+accent: '#F5C518'
+initials: HB
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://handbrake.fr/
+download: https://handbrake.fr/downloads.php
+repo: https://github.com/HandBrake/HandBrake
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [视频转码, 压缩, 格式转换, video]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 开源视频转码神器，压缩转格式全本地完成
+  en: The open-source video transcoder — compress and convert entirely offline
+description:
+  zh: 把几乎任何格式的视频转成 MP4、MKV、WebM，内置大量预设，压缩体积、改分辨率、批量处理都在本地完成，不上传、无水印。
+  en: Convert video from nearly any format to MP4, MKV or WebM with rich built-in presets — shrink size, change resolution and batch process entirely on your machine, no uploads, no watermark.
+review:
+  zh: |
+    HandBrake 基于 FFmpeg、x264、x265 等成熟工具，把复杂的转码参数封装成一套开箱即用的预设，选一个"手机""1080p"之类的档位就能出片。想深挖的人也能手动调编码器、码率、滤镜，专业到位。
+
+    所有处理都在本地完成，不上传服务器、不加水印、没有订阅费。完全开源、无广告、无遥测，是压缩和格式转换的可靠首选。
+  en: |
+    Built on mature tools like FFmpeg, x264 and x265, HandBrake wraps complex transcoding into ready-to-use presets — pick something like "Phone" or "1080p" and you're done. Power users can still tune the encoder, bitrate and filters by hand.
+
+    Everything runs locally: no server uploads, no watermark, no subscription. Fully open source with no ads and no telemetry, it's the dependable choice for compression and format conversion.

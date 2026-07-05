@@ -1,0 +1,333 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { CATEGORIES, SITE, pick, type Locale } from '../../consts';
+import { useTranslations, localizedPath, type Lang } from '../../i18n/utils';
+import {
+  getAllTools, getFeatured, getPopular, getSelfMade, inCategory, localePaths,
+} from '../../lib/tools';
+
+export function getStaticPaths() {
+  return localePaths();
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const loc = lang as Locale;
+const t = useTranslations(lang);
+
+const all = await getAllTools();
+const popular = await getPopular();
+const featured = await getFeatured();
+const selfMade = await getSelfMade();
+
+// Editor's picks grid = featured tools that aren't already in the popular band.
+const picks = featured.filter((tool) => !tool.data.popular).slice(0, 9);
+
+const openCount = all.filter((x) => x.data.badges.includes('open-source')).length;
+const stats = [
+  { n: `${all.length}`, label: t('hero.stat.tools') },
+  { n: '100%', label: t('hero.stat.free') },
+  { n: `${openCount}`, label: t('hero.stat.opensource') },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url,
+  description: t('site.description'),
+  inLanguage: lang === 'zh' ? 'zh-CN' : 'en-US',
+};
+---
+
+<BaseLayout jsonLd={jsonLd}>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">🕊️ {t('site.tagline')}</p>
+      <h1 set:html={t('hero.title')} />
+      <p class="lede" set:html={t('hero.subtitle')} />
+      <div class="cta">
+        <a class="btn btn-primary" href={localizedPath(lang, 'tools')}>{t('hero.cta.browse')} →</a>
+        <a class="btn btn-ghost" href={localizedPath(lang, 'about')}>{t('hero.cta.about')}</a>
+      </div>
+      <ul class="stats">
+        {stats.map((s) => (
+          <li>
+            <strong>{s.n}</strong>
+            <span>{s.label}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- 🔥 Popular free software — the spotlight "ad" band -->
+  {popular.length > 0 && (
+    <section class="spotlight-band">
+      <div class="container">
+        <div class="section-head spot-head">
+          <p class="eyebrow">🔥 {t('home.popular')}</p>
+          <h2>{t('home.popular')}</h2>
+          <p>{t('home.popular.sub')}</p>
+        </div>
+        <div class="grid cards-grid">
+          {popular.map((tool) => <ToolCard tool={tool} lang={lang} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Editor's picks — emphasize the free-software list -->
+  {picks.length > 0 && (
+    <section class="section container">
+      <div class="section-head with-link">
+        <div>
+          <p class="eyebrow">{t('home.featured')}</p>
+          <h2>{t('home.featured')}</h2>
+          <p>{t('home.featured.sub')}</p>
+        </div>
+        <a class="see-all" href={localizedPath(lang, 'tools')}>{t('home.all.n', { n: all.length })} →</a>
+      </div>
+      <div class="grid cards-grid">
+        {picks.map((tool) => <ToolCard tool={tool} lang={lang} />)}
+      </div>
+      <div class="center more">
+        <a class="btn btn-primary" href={localizedPath(lang, 'tools')}>{t('home.all.n', { n: all.length })} →</a>
+      </div>
+    </section>
+  )}
+
+  <!-- Categories -->
+  <section class="section container">
+    <div class="section-head">
+      <h2>{t('home.categories')}</h2>
+    </div>
+    <div class="cat-grid">
+      {CATEGORIES.map((c) => {
+        const count = inCategory(all, c.id).length;
+        return (
+          <a class="cat" href={localizedPath(lang, `category/${c.id}`)}>
+            <span class="cat-icon" aria-hidden="true">{c.icon}</span>
+            <span class="cat-name">{pick(c.label, loc)}</span>
+            <span class="cat-count">{count}</span>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Made by us — modest secondary strip -->
+  {selfMade.length > 0 && (
+    <section class="selfmade-strip">
+      <div class="container">
+        <div class="strip-head">
+          <div>
+            <span class="eyebrow">✦ {t('home.selfmade')}</span>
+            <p>{t('home.selfmade.sub')}</p>
+          </div>
+          <a class="see-all" href={localizedPath(lang, 'self-made')}>{t('home.selfmade.more')}</a>
+        </div>
+        <ul class="mini-list">
+          {selfMade.map((tool) => (
+            <li>
+              <a href={localizedPath(lang, `tools/${tool.id}`)} style={`--card-accent:${tool.data.accent}`}>
+                <span class="mini-av" aria-hidden="true">
+                  {tool.data.initials ?? tool.data.name.slice(0, 2).toUpperCase()}
+                </span>
+                <span class="mini-body">
+                  <strong>{tool.data.name}</strong>
+                  <small>{pick(tool.data.tagline, loc)}</small>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-block: clamp(3.5rem, 9vw, 6rem) clamp(1.5rem, 4vw, 3rem);
+    text-align: center;
+  }
+  .hero .eyebrow {
+    display: inline-block;
+    margin-bottom: 1.1rem;
+  }
+  .hero h1 {
+    font-size: clamp(2.4rem, 7vw, 4.4rem);
+    line-height: 1.05;
+    max-width: 16ch;
+    margin-inline: auto;
+  }
+  .lede {
+    font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+    color: var(--text-soft);
+    max-width: 42ch;
+    margin: 1.4rem auto 0;
+    line-height: 1.6;
+  }
+  .lede :global(em) {
+    font-style: normal;
+    color: var(--accent-ink);
+    font-weight: 600;
+  }
+  .cta {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .stats {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: clamp(1.5rem, 6vw, 4rem);
+    margin-top: 2.6rem;
+  }
+  .stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stats strong {
+    font-family: var(--font-serif);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    color: var(--accent-ink);
+    line-height: 1;
+  }
+  .stats span {
+    color: var(--text-faint);
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+  }
+
+  /* Spotlight band */
+  .spotlight-band {
+    background:
+      radial-gradient(900px 320px at 50% 0%, var(--accent-soft), transparent 70%),
+      var(--surface);
+    border-block: 1px solid var(--border);
+    padding-block: clamp(2.5rem, 6vw, 4rem);
+    margin-top: 1rem;
+  }
+  .spot-head h2 {
+    font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+  }
+
+  .section-head.with-link {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .see-all {
+    font-weight: 600;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    color: var(--accent-ink);
+  }
+  .more {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .cat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.9rem;
+  }
+  .cat {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1rem 1.15rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    transition: transform 0.18s var(--ease), border-color 0.18s, box-shadow 0.18s;
+  }
+  .cat:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-md);
+    color: var(--text);
+  }
+  .cat-icon { font-size: 1.35rem; }
+  .cat-name { font-weight: 600; flex-grow: 1; font-size: 0.95rem; }
+  .cat-count { color: var(--text-faint); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+
+  /* Self-made — modest strip */
+  .selfmade-strip {
+    padding-block: clamp(2.5rem, 5vw, 3.5rem);
+    margin-top: 1rem;
+    border-top: 1px solid var(--border-soft);
+  }
+  .strip-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.3rem;
+  }
+  .strip-head p {
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    margin-top: 0.3rem;
+  }
+  .mini-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 0.7rem;
+  }
+  .mini-list a {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .mini-list a:hover {
+    border-color: var(--card-accent, var(--accent));
+    transform: translateY(-2px);
+    color: var(--text);
+  }
+  .mini-av {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--card-accent, var(--accent));
+  }
+  .mini-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .mini-body strong { font-size: 0.92rem; }
+  .mini-body small {
+    color: var(--text-faint);
+    font-size: 0.78rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .center { text-align: center; }
+</style>

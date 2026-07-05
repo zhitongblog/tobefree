@@ -1,0 +1,31 @@
+name: Kdenlive
+accent: '#527EB2'
+initials: Kd
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://kdenlive.org/
+download: https://kdenlive.org/download/
+repo: https://github.com/KDE/kdenlive
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [视频剪辑, 剪辑, KDE, video]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: KDE 出品的专业级免费视频剪辑器
+  en: A professional-grade free video editor from KDE
+description:
+  zh: 无限音视频轨道、丰富的特效与转场、调色、音频后期与字幕工具一应俱全，基于 FFmpeg 直接编辑几乎任何格式，完全免费无水印。
+  en: Unlimited audio and video tracks, rich effects and transitions, color grading, audio post and subtitle tools — built on FFmpeg to edit almost any format directly, fully free with no watermark.
+review:
+  zh: |
+    Kdenlive 是 KDE 社区维护多年的非线性剪辑器，功能密度直逼商业软件：无限轨道、关键帧动画、代理剪辑、丰富的特效转场和内置字幕编辑器，做复杂项目也扛得住。基于 FFmpeg，几乎任何格式都能直接拖进时间线。
+
+    它完全开源、跨三大桌面系统，没有水印、没有付费墙、没有强制账号，默认也不做遥测。对想深入学剪辑又不想花钱的人，是一个可以长期依赖的选择。
+  en: |
+    Maintained by the KDE community for years, Kdenlive is a non-linear editor whose feature depth rivals commercial software: unlimited tracks, keyframe animation, proxy editing, plenty of effects and transitions, and a built-in subtitle editor that holds up on complex projects. Thanks to FFmpeg, almost any format drops straight onto the timeline.
+
+    It's fully open source across all three desktop platforms, with no watermark, no paywall, no forced account, and no telemetry by default. For anyone serious about learning to edit without spending money, it's a tool you can rely on long-term.

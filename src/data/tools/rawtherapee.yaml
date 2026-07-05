@@ -1,0 +1,22 @@
+name: RawTherapee
+accent: '#4A4A4A'
+initials: RT
+category: creative
+price: free
+license: 'GPL-3.0'
+website: https://www.rawtherapee.com
+download: https://www.rawtherapee.com/downloads/
+repo: https://github.com/RawTherapee/RawTherapee
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [raw, 摄影后期, 修图, 数字暗房]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费开源的强大 RAW 照片冲洗程序
+  en: A powerful, free and open-source RAW photo developer
+description:
+  zh: 跨平台的 RAW 冲洗工具，采用 32 位浮点无损处理引擎，提供先进的去马赛克与精细的色彩、细节调整。装完即用，永不订阅。
+  en: A cross-platform RAW developer built on a 32-bit floating-point non-destructive engine, with advanced demosaicing and fine color and detail control. Install once, never subscribe.

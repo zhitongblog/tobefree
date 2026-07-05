@@ -1,0 +1,22 @@
+name: VeraCrypt
+accent: '#5C7E10'
+initials: VC
+category: privacy
+price: free
+license: 'Apache-2.0 / TrueCrypt License'
+website: https://veracrypt.io
+download: https://veracrypt.io/en/Downloads.html
+repo: https://github.com/veracrypt/VeraCrypt
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [磁盘加密, 加密容器, 安全, disk-encryption]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 给硬盘和 U 盘上锁的开源磁盘加密工具
+  en: Open-source disk encryption that locks down drives and USB sticks
+description:
+  zh: 创建加密的虚拟磁盘或整盘加密，实时透明加解密，性能几乎无损。基于 TrueCrypt 改进而来，支持隐藏卷等高级功能，完全离线运行。
+  en: Creates encrypted virtual disks or encrypts entire drives, with real-time transparent on-the-fly encryption and near-zero performance loss. Built on TrueCrypt with hidden volumes and other advanced features, running fully offline.

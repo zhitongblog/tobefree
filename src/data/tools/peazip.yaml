@@ -1,0 +1,22 @@
+name: PeaZip
+accent: '#3C8C3C'
+initials: PZ
+category: utility
+price: free
+license: 'LGPL-3.0'
+website: https://peazip.github.io
+download: https://peazip.github.io/peazip-64bit.html
+repo: https://github.com/peazip/PeaZip
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [压缩, 解压, 加密, 归档]
+platforms: [windows, linux, macos]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 支持 200+ 格式的跨平台归档管理器
+  en: A cross-platform archive manager for 200+ formats
+description:
+  zh: 免费开源的文件压缩与解压工具，支持 7Z、RAR、TAR、ZIP 等 200 多种格式，内置强加密、分卷压缩和文件管理器。Windows、macOS、Linux 全平台可用。
+  en: A free and open-source archiver supporting 200+ formats including 7Z, RAR, TAR and ZIP, with built-in strong encryption, split archives and a file manager. Runs on Windows, macOS and Linux.

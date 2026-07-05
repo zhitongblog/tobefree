@@ -1,0 +1,9 @@
+{
+  "// 说明": "把这段合并进 Claude Code / Claude Desktop 的 MCP 配置，即可让 AI 直接收录工具。路径改成你机器上的绝对路径。",
+  "mcpServers": {
+    "tobefree": {
+      "command": "node",
+      "args": ["D:/code/tobefree/tools/mcp-server.mjs"]
+    }
+  }
+}

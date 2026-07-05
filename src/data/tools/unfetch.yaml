@@ -1,0 +1,33 @@
+name: unfetch
+accent: '#7C4DFF'
+initials: UF
+category: utility
+price: free
+license: 'Open Source'
+website: https://unfetch.org
+download: ''
+repo: ''
+featured: false
+selfMade: true
+added: '2026-07-05'
+tags: [下载, download-manager, ai, mcp]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 给人类和 AI 的下载管理器
+  en: A download manager for humans and AI
+description:
+  zh: 轻量（约 8MB）、跨三平台的下载管理器，人和 AI 都能用。开源、无广告、无追踪，同样自带 CLI 与 MCP，能被自动化脚本和 AI 直接驱动。
+  en: A lightweight (~8MB) cross-platform download manager for both people and AI. Open source, no ads, no tracking — with a CLI and MCP server so scripts and AI can drive it directly.
+review:
+  zh: |
+    下载管理器是个老品类，却常年被广告和捆绑塞满。unfetch 把它做回干净的样子：约 8MB、跨平台、开源，
+    没有广告也没有追踪。
+
+    它同时面向"人"和"AI"—— 自带 CLI 和 MCP，你可以在脚本里排队下载，也可以让 AI 帮你抓取和管理任务。
+  en: |
+    Download managers are an old category that somehow stayed full of ads and bundleware. unfetch makes it
+    clean again: about 8MB, cross-platform, open source, with no ads and no tracking.
+
+    It's built for both people and AI — a bundled CLI and MCP server let you queue downloads in scripts, or
+    let an AI fetch and manage tasks for you.

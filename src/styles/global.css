@@ -1,0 +1,221 @@
+/* ==========================================================================
+   To Be Free — design tokens & base styles
+   Warm, humane, paper-like. Light + dark. System fonts (fast, CN-friendly).
+   ========================================================================== */
+
+:root {
+  /* Warm paper palette (light) */
+  --bg: #fbf6ee;
+  --bg-soft: #f4ead9;
+  --surface: #fffdf9;
+  --surface-2: #faf1e4;
+  --text: #2b2119;
+  --text-soft: #6e5f51;
+  --text-faint: #9c8b7a;
+  --border: #e9ddca;
+  --border-soft: #f0e7d8;
+
+  --accent: #d96c3f;
+  --accent-ink: #b0481f;
+  --accent-soft: #f8e7da;
+  --green: #4c7a5b;
+  --green-soft: #e2efe4;
+
+  --shadow-sm: 0 1px 2px rgba(80, 55, 30, 0.06), 0 1px 3px rgba(80, 55, 30, 0.05);
+  --shadow-md: 0 4px 14px rgba(90, 60, 30, 0.08), 0 2px 6px rgba(90, 60, 30, 0.05);
+  --shadow-lg: 0 12px 34px rgba(90, 55, 25, 0.13), 0 4px 12px rgba(90, 55, 25, 0.07);
+
+  --font-serif: 'Fraunces', ui-serif, Georgia, 'Songti SC', 'Noto Serif SC', 'STSong', serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace;
+
+  --radius-sm: 9px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --maxw: 1120px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root[data-theme='dark'] {
+  --bg: #191410;
+  --bg-soft: #211811;
+  --surface: #241c16;
+  --surface-2: #2d2319;
+  --text: #f1e7da;
+  --text-soft: #c3b3a0;
+  --text-faint: #8c7b69;
+  --border: #382c22;
+  --border-soft: #2b2119;
+
+  --accent: #ea8b5d;
+  --accent-ink: #f2a883;
+  --accent-soft: #3a281e;
+  --green: #7fb08c;
+  --green-soft: #26332a;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  background-image: radial-gradient(
+    1200px 600px at 50% -10%,
+    var(--bg-soft),
+    transparent 70%
+  );
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+  transition: background-color 0.4s var(--ease), color 0.3s var(--ease);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--accent-ink);
+  text-decoration: none;
+  transition: color 0.15s var(--ease);
+}
+a:hover {
+  color: var(--accent);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---------- layout helpers ---------- */
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: clamp(1.1rem, 4vw, 2rem);
+}
+
+.section {
+  padding-block: clamp(3rem, 7vw, 5.5rem);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.section-head {
+  margin-bottom: 2rem;
+}
+.section-head h2 {
+  font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+  margin-top: 0.4rem;
+}
+.section-head p {
+  color: var(--text-soft);
+  margin-top: 0.5rem;
+  max-width: 46ch;
+}
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s var(--ease), box-shadow 0.2s var(--ease),
+    background-color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--shadow-md);
+}
+.btn-primary:hover {
+  background: var(--accent-ink);
+  color: #fff;
+}
+.btn-ghost {
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+}
+.btn-ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* ---------- utility ---------- */
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+.cards-grid {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

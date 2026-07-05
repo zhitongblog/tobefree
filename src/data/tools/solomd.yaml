@@ -1,0 +1,36 @@
+name: SoloMD
+accent: '#DB6A3F'
+initials: SM
+category: productivity
+price: free
+license: 'MIT'
+website: https://solomd.app
+download: https://github.com/zhitongblog/solomd/releases
+repo: https://github.com/zhitongblog/solomd
+featured: false
+selfMade: true
+added: '2026-07-05'
+tags: [markdown, 编辑器, 笔记, 本地优先, ai]
+platforms: [windows, macos, linux, ios, android, cli]
+badges: [open-source, no-tracking, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: 免费开源的 Markdown 编辑器，一个文件，一个窗口，专心写
+  en: A free, open-source Markdown editor — one file, one window, just write
+description:
+  zh: 轻量、无干扰的跨平台 Markdown 编辑器：实时预览、Wiki 链接、本地语义搜索、AutoGit 版本管理，还内置 MCP 与 CLI。离线优先，默认零遥测，永久免费。
+  en: A lightweight, distraction-free cross-platform Markdown editor with live preview, wiki links, local semantic search, AutoGit versioning, plus built-in MCP and CLI. Offline-first, zero telemetry, free forever.
+review:
+  zh: |
+    SoloMD 是我们自己每天在用的 Markdown 编辑器，也是"自由软件"这件事最直接的实践。它免费、MIT 开源、
+    默认不发送任何遥测，笔记全在你本地。桌面到手机（Windows / macOS / Linux / iOS / Android）全平台覆盖。
+
+    它不止是编辑器：本地语义搜索让你在自己的文库里检索，AutoGit 自动帮你留版本，自带 CLI 和 MCP 服务，
+    能被 Claude 这样的 AI 直接调用。想接 AI 也行 —— 支持自带 Key 接入多家模型，钱和数据都握在你自己手里。
+  en: |
+    SoloMD is the Markdown editor we use every day, and the most direct expression of what "free
+    software" means to us. It's free, MIT-licensed, sends no telemetry by default, and keeps every note
+    on your own machine — across desktop and mobile (Windows / macOS / Linux / iOS / Android).
+
+    It's more than an editor: local semantic search lets you query your own library, AutoGit keeps
+    versions for you, and a bundled CLI and MCP server let AI tools like Claude drive it directly. Want
+    AI inside? Bring your own key for many providers — your money and your data stay yours.

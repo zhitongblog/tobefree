@@ -1,0 +1,22 @@
+name: Cryptomator
+accent: '#4993E6'
+initials: CM
+category: privacy
+price: free
+license: 'GPL-3.0'
+website: https://cryptomator.org
+download: https://cryptomator.org/downloads/
+repo: https://github.com/cryptomator/cryptomator
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [文件加密, 云存储, 加密, encryption]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 上传云盘前先加密，密钥只在你手里
+  en: Encrypt files before they hit the cloud — the key stays with you
+description:
+  zh: 在本地为云盘文件做客户端加密，文件内容和文件名都用 AES-256 加密。上传 Dropbox、Google Drive、OneDrive 等前先建一个加密"保险库"，云服务商看不到明文。
+  en: Client-side encryption for your cloud files, protecting both contents and filenames with AES-256. Create an encrypted vault before syncing to Dropbox, Google Drive, OneDrive and more — the provider never sees plaintext.

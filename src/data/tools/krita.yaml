@@ -1,0 +1,31 @@
+name: Krita
+accent: '#3453D0'
+initials: KR
+category: creative
+price: free
+license: 'GPL-3.0'
+website: https://krita.org
+download: https://krita.org/en/download/
+repo: https://invent.kde.org/graphics/krita
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [数字绘画, 板绘, 插画, 概念设计]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 由艺术家打造的免费专业数字绘画软件
+  en: A free, professional digital painting app made by artists
+description:
+  zh: 面向插画、概念设计、漫画与动画的开源绘画程序，拥有强大的笔刷引擎和无损图层。装完即用，永不订阅。
+  en: An open-source painting program for illustration, concept art, comics and animation, with a powerful brush engine and non-destructive layers. Install once, never subscribe.
+review:
+  zh: |
+    Krita 是少数由一线画师主导开发的绘画软件，笔刷引擎细腻、笔压支持出色，画起来的手感一点不输付费软件。图层、蒙版、滤镜、矢量文字、逐帧动画一应俱全，还内置了大量高质量预设笔刷。
+
+    它完全免费开源，没有订阅、没有水印、没有账号，装完拔网线也能一直用。对于想认真练板绘却不想被订阅绑架的人，这是最踏实的选择。
+  en: |
+    Krita is one of the rare painting apps driven by working artists. Its brush engine is refined and its pressure handling excellent, so it feels just as good to draw in as any paid tool. Layers, masks, filters, vector text and frame-by-frame animation are all here, alongside a big library of quality preset brushes.
+
+    It's fully free and open source — no subscription, no watermark, no account. Install it, pull the network cable, and it keeps working forever. For anyone serious about digital painting who doesn't want to be locked into a subscription, this is the dependable choice.

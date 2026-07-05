@@ -1,0 +1,36 @@
+name: Unterm
+accent: '#3A3740'
+initials: UT
+category: dev
+price: free
+license: 'MIT'
+website: https://unterm.app
+download: https://github.com/zhitongblog/unterm/releases/latest
+repo: https://github.com/zhitongblog/unterm
+featured: false
+selfMade: true
+added: '2026-07-05'
+tags: [终端, terminal, ai-agent, mcp, cli]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: AI 智能体可以直接驱动的终端
+  en: The terminal AI agents can drive
+description:
+  zh: 把终端本身变成 AI 可安全操作的界面：创建窗格、执行命令、读取屏幕、录制会话。通过 MCP 暴露 67 个方法，Claude Code、Cursor、Codex 等都能直接接管。MIT 开源，跨平台。
+  en: Turns the terminal into a surface AI can safely operate — spawn panes, run commands, read the screen, record sessions. Exposes 67 methods over MCP so Claude Code, Cursor, Codex and more can take the wheel. MIT-licensed, cross-platform.
+review:
+  zh: |
+    大多数"AI 终端"是把 AI 塞进终端里；Unterm 反其道而行 —— 让终端本身成为一个可被任何外部智能体
+    握住的界面。它通过 MCP 暴露 65+ 个方法，从开窗格、跑命令到读屏、录制、多实例编排，人类始终握有最终控制权。
+
+    它是 Rust 写的、MIT 开源、跨 Windows / macOS / Linux，还带 22 条命令的 CLI。如果你喜欢让 AI 帮你在
+    终端里干活、又不想把控制权交出去，这是一种全新的工作方式。
+  en: |
+    Most "AI terminals" cram an AI inside the terminal; Unterm does the opposite — it makes the terminal
+    itself a surface any external agent can grip. Over MCP it exposes 65+ methods, from spawning panes and
+    running commands to reading the screen, recording, and multi-instance orchestration — with the human
+    always holding final control.
+
+    It's written in Rust, MIT-licensed, runs on Windows / macOS / Linux, and ships a 22-command CLI. If you
+    like letting AI work in your terminal without handing over the keys, it's a genuinely new way to work.

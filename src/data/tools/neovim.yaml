@@ -1,0 +1,37 @@
+name: Neovim
+accent: '#57A143'
+initials: NV
+category: dev
+price: free
+license: 'Apache-2.0 · Vim'
+website: https://neovim.io
+download: https://github.com/neovim/neovim/releases
+repo: https://github.com/neovim/neovim
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [编辑器, vim, 终端, 可扩展, 开源]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 超可扩展的现代 Vim，内置 LSP 与 Lua
+  en: A hyperextensible modern Vim with built-in LSP and Lua
+description:
+  zh: 从 Vim 分叉而来、专注扩展性与可维护性的终端编辑器。内置语言服务器协议、Lua 脚本与异步任务，可从零打造成一套完整 IDE，全程离线、无账号。
+  en: A Vim fork focused on extensibility and usability. With built-in Language Server Protocol, Lua scripting and async jobs, it can grow into a full IDE — fully offline, no account.
+review:
+  zh: |
+    Neovim 把"编辑器该属于用户"这件事做到了极致。它是纯开源、纯本地的终端编辑器，装好即用，不联网、不埋点、不需要任何账号。
+    内置的 LSP、Treesitter 和 Lua 脚本让它既能当轻量记事本，也能被配置成媲美商业 IDE 的开发环境，而这一切完全免费。
+
+    它的学习曲线确实陡，但换来的是几乎无限的可塑性和惊人的运行速度。庞大的插件生态、活跃的社区、清晰的官方文档，让你随时找得到答案。
+    如果你想要一个能陪你写十年代码、永远不会被订阅或云服务绑架的编辑器，Neovim 是最值得投入的选择之一。
+  en: |
+    Neovim takes "your editor belongs to you" to its logical end. It's a fully open-source, fully local terminal
+    editor that works the moment it's installed — no network, no telemetry, no account. Built-in LSP, Treesitter
+    and Lua let it be a lightweight scratchpad or a config-built rival to commercial IDEs, all completely free.
+
+    The learning curve is real, but what you get back is near-limitless malleability and remarkable speed. A huge
+    plugin ecosystem, an active community and clear official docs mean help is always within reach. If you want an
+    editor to trust for a decade — one no subscription or cloud can ever hold hostage — Neovim is one of the best bets.

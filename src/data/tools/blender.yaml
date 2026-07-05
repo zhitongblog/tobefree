@@ -1,0 +1,31 @@
+name: Blender
+accent: '#E87D0D'
+initials: BL
+category: creative
+price: free
+license: 'GPL-3.0'
+website: https://www.blender.org
+download: https://www.blender.org/download/
+repo: https://projects.blender.org/blender/blender
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [三维建模, 3d, 动画, 渲染, 视频剪辑]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费开源的全流程三维创作套件
+  en: The free and open-source 3D creation suite
+description:
+  zh: 覆盖建模、雕刻、绑定、动画、仿真、渲染、合成到视频剪辑的完整 3D 管线，功能媲美万元级商业软件。装完即用，永不订阅。
+  en: A complete 3D pipeline covering modeling, sculpting, rigging, animation, simulation, rendering, compositing and even video editing — rivaling software that costs thousands. Install once, never subscribe.
+review:
+  zh: |
+    Blender 大概是开源界最不可思议的成就之一：一款完全免费的软件，却能撑起从个人短片到院线电影的完整 3D 制作，奥斯卡获奖动画《Flow》就是用它做出来的。建模、雕刻、动画、Cycles/Eevee 渲染、几何节点、视频剪辑全部内建，还有海量社区插件。
+
+    它没有订阅、没有账号、没有联网限制，商用也完全免费。学习曲线确实陡，但一旦入门，你手里就是一整套价值不菲的专业工具，而它一分钱不要。
+  en: |
+    Blender is one of open source's most improbable achievements: a completely free program that can carry a full 3D production from a solo short film all the way to the cinema — the Oscar-winning film "Flow" was made with it. Modeling, sculpting, animation, Cycles/Eevee rendering, geometry nodes and video editing are all built in, backed by a huge library of community add-ons.
+
+    There's no subscription, no account and no online restriction, and it's free even for commercial work. The learning curve is genuinely steep, but once you're in, you hold an entire suite of professional tools that would otherwise cost a fortune — and it asks for nothing.

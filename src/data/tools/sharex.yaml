@@ -1,0 +1,31 @@
+name: ShareX
+accent: '#2885F1'
+initials: SX
+category: utility
+price: free
+license: 'GPL-3.0'
+website: https://getsharex.com
+download: https://getsharex.com/downloads
+repo: https://github.com/ShareX/ShareX
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [截图, 录屏, GIF, 上传]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 一键截图、录屏、上传的全能利器
+  en: The all-in-one capture, record and upload powerhouse
+description:
+  zh: 一键截取或录制屏幕任意区域，内置图片编辑、标注、GIF 录制和自动化工作流，支持上传到 80+ 目标。开源、无广告、无水印。
+  en: Capture or record any part of your screen with one keystroke. Built-in editor, annotation, GIF recording and automation workflows, with upload to 80+ destinations. Open source, ad-free, no watermark.
+review:
+  zh: |
+    ShareX 是免费截图工具里功能天花板级别的存在。别的工具还在纠结要不要加水印、要不要付费解锁编辑器时，它已经把截图、录屏、GIF、OCR、上传、自动化流水线全都免费给你了。
+
+    它的强大也意味着上手需要一点时间，但配置一次就能长期受益。完全开源、无广告、无追踪，所有功能永久免费，是重度截图用户绕不开的选择。
+  en: |
+    ShareX sits at the ceiling of what a free capture tool can do. While others agonize over adding watermarks or locking the editor behind a paywall, ShareX hands you capture, recording, GIF, OCR, upload and automation pipelines — all free.
+
+    That power means a slightly steeper learning curve, but you configure it once and reap the benefits for years. Fully open source, no ads, no tracking, every feature free forever. For heavy screenshot users it's unavoidable.

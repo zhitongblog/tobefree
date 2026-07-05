@@ -1,0 +1,28 @@
+{
+  "name": "tobefree",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "To Be Free — 让每个人都能自由使用软件。收录真正免费、可用、无负担的工具。",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "deploy": "astro build && wrangler pages deploy dist --project-name tobefree --branch main --commit-dirty=true",
+    "admin": "node tools/admin.mjs",
+    "cli": "node tools/cli.mjs",
+    "mcp": "node tools/mcp-server.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.1.1",
+    "marked": "^15.0.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "js-yaml": "^4.1.0",
+    "typescript": "^5.7.2"
+  }
+}

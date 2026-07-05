@@ -1,0 +1,22 @@
+name: Zotero
+accent: '#CC2936'
+initials: ZO
+category: office
+price: freemium
+license: 'AGPL-3.0'
+website: https://www.zotero.org
+download: https://www.zotero.org/download/
+repo: https://github.com/zotero/zotero
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [文献管理, 参考文献, 科研, 引用]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, cross-platform]
+tagline:
+  zh: 免费的文献与参考管理工具
+  en: A free reference and research manager
+description:
+  zh: 帮你收集、整理、标注和引用研究资料，支持 9000+ 种引用格式，可直接在 Word、LibreOffice 与 Google Docs 中插入参考文献。应用本身免费开源，仅云端存储扩容为付费项。
+  en: Collects, organizes, annotates and cites your research sources with 9,000+ citation styles, inserting references directly in Word, LibreOffice and Google Docs. The app itself is free and open source; only extra cloud storage is paid.

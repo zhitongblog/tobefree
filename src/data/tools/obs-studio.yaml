@@ -1,0 +1,35 @@
+name: OBS Studio
+accent: '#302E3A'
+initials: OB
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://obsproject.com
+download: https://obsproject.com/download
+repo: https://github.com/obsproject/obs-studio
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [录屏, 直播, streaming, recording]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 专业级录屏与直播，完全开源、完全免费
+  en: Pro-grade screen recording and live streaming — fully open, fully free
+description:
+  zh: 行业标准的录制与直播软件，多场景、多来源、实时混流。没有水印、没有时长限制、没有付费墙。
+  en: The industry-standard recording and streaming tool with scenes, sources, and live mixing. No watermark, no time limit, no paywall.
+review:
+  zh: |
+    几乎所有付费录屏软件能做的，OBS 都能做，而且做得更好 —— 多路画面、绿幕抠像、实时切换、推流到任意平台。
+    它是无数主播、老师、UP 主的幕后工具，却一分钱不收、一个水印不加。
+
+    唯一的"代价"是它功能太多、初次上手需要花点时间。但一旦配好，你就再也不需要为"录个屏"去买软件了。
+  en: |
+    Almost anything paid screen-recorders can do, OBS does — and often better: multi-source scenes,
+    chroma key, live switching, streaming to any platform. It's the tool behind countless streamers
+    and teachers, yet it charges nothing and stamps no watermark.
+
+    The only "cost" is a learning curve from its sheer depth. But once configured, you'll never pay
+    for screen recording again.

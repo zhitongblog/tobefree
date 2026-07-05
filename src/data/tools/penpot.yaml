@@ -1,0 +1,22 @@
+name: Penpot
+accent: '#111111'
+initials: PP
+category: creative
+price: free
+license: 'MPL-2.0'
+website: https://penpot.app
+download: ''
+repo: https://github.com/penpot/penpot
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [ui设计, 原型, 界面设计, figma替代]
+platforms: [web]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 开源的界面设计与原型平台，Figma 的自由替代
+  en: An open-source design and prototyping platform — the free answer to Figma
+description:
+  zh: 面向产品团队的设计与原型工具，设计即代码（SVG/CSS/HTML）。可用官方云端，也能完全自托管掌控数据。
+  en: A design and prototyping tool for product teams where designs are real code (SVG/CSS/HTML). Use the official cloud, or self-host it to fully own your data.

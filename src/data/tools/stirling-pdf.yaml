@@ -1,0 +1,31 @@
+name: Stirling-PDF
+accent: '#009688'
+initials: SP
+category: office
+price: freemium
+license: 'MIT'
+website: https://stirling.com
+download: https://github.com/Stirling-Tools/Stirling-PDF/releases
+repo: https://github.com/Stirling-Tools/Stirling-PDF
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [pdf, 工具箱, 自托管, 转换, 合并]
+platforms: [web, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 自托管的全能 PDF 工具箱
+  en: A self-hosted all-in-one PDF toolbox
+description:
+  zh: 50+ 个 PDF 工具的本地 Web 应用：合并、拆分、转换、压缩、OCR、加水印、签名、脱敏等一应俱全。用 Docker 部署在自己的服务器上，文件不外传第三方。
+  en: A locally hosted web app with 50+ PDF tools — merge, split, convert, compress, OCR, watermark, sign, redact and more. Deploy it on your own server via Docker so files never leave for a third party.
+review:
+  zh: |
+    在线 PDF 工具用起来方便，但你上传的合同、发票、简历都被送到了别人的服务器上。Stirling-PDF 把这些能力搬回你自己家：一个 Docker 容器，50 多个工具，全部在本地跑。
+
+    核心功能基于 MIT 开源、永久免费，无广告、无需注册。只有面向企业的团队管理、SSO 等增强项才收费，个人和自托管场景完全够用，是隐私敏感者处理 PDF 的理想选择。
+  en: |
+    Online PDF tools are convenient, but every contract, invoice and resume you upload lands on someone else's server. Stirling-PDF brings those capabilities back home: one Docker container, 50-plus tools, all running locally.
+
+    Its core features are MIT-licensed, permanently free, ad-free and require no account. Only enterprise extras like team management and SSO are paid, so individual and self-hosted use is fully covered — an ideal pick for privacy-conscious PDF work.

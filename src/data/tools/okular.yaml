@@ -1,0 +1,22 @@
+name: Okular
+accent: '#1D99F3'
+initials: OK
+category: office
+price: free
+license: 'GPL-2.0-or-later'
+website: https://okular.kde.org
+download: https://okular.kde.org/download/
+repo: https://github.com/KDE/okular
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [文档阅读器, pdf, 标注, epub]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: KDE 出品的全能文档阅读器
+  en: The universal document viewer from KDE
+description:
+  zh: 一个阅读器打开几乎所有文档格式：PDF、EPUB、DjVu、漫画（CBR/CBZ）、图片等，支持高亮、批注、内嵌笔记与表单填写，完全免费开源。
+  en: One reader for almost every document format — PDF, EPUB, DjVu, comics (CBR/CBZ), images and more — with highlighting, annotations, inline notes and form filling, all free and open source.

@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { BADGES, pick, type Locale } from '../../consts';
+import { useTranslations, localizedPath, type Lang } from '../../i18n/utils';
+import { localePaths } from '../../lib/tools';
+
+export function getStaticPaths() {
+  return localePaths();
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const loc = lang as Locale;
+const t = useTranslations(lang);
+
+const c = {
+  zh: {
+    lead: 'To Be Free 相信一件简单的事：使用软件，不该是奢侈。太多好用的功能被藏在订阅、广告、注册墙和数据追踪背后。我们做这个站，是想把那些真正免费、真正能用、真正不给你添负担的工具，一款款挑出来放在这里。',
+    hardTitle: '硬性标准（必须全部满足）',
+    hard: [
+      ['真免费', '核心功能永久免费 —— 不是限时试用，也不是"免费版残废到没法用"。'],
+      ['完全无广告', '不弹窗、不塞推广、不捆绑第三方软件。'],
+      ['无负担', '不强制注册、不绑定手机号、不在后台静默上传你的数据。'],
+    ],
+    softTitle: '加分项（优先，但不强制开源）',
+    softIntro: '开源当然更让人安心，但像 Everything、Obsidian 这样闭源却真正无负担的好工具也值得收。我们不搞一刀切，而是把每款工具的特性用徽章明明白白标出来，让你自己判断：',
+    linkTitle: '关于链接：只指向官方，不自己托管',
+    link: '我们只链接到工具的官方网站和官方下载页，绝不自己托管安装包。这样能保证你拿到的永远是最新、最可信的官方版本，也避免任何捆绑或安全风险。对开源项目，我们会额外附上源代码地址。',
+    buildTitle: '这个站本身',
+    build: '本站用 Astro 构建，纯静态托管在 Cloudflare 上 —— 没有后端、没有数据库、没有一行追踪代码。它自己就是"无负担"的样子。网站开源，欢迎推荐好工具。',
+    cta: '推荐一款工具',
+  },
+  en: {
+    lead: 'To Be Free believes something simple: using software should not be a luxury. Too many good features hide behind subscriptions, ads, sign-up walls and data tracking. We built this place to hand-pick the tools that are genuinely free, genuinely usable, and genuinely burden-free — one at a time.',
+    hardTitle: 'Hard requirements (all must be met)',
+    hard: [
+      ['Genuinely free', 'Core features are free forever — not a timed trial, not a crippled "free version".'],
+      ['Completely ad-free', 'No pop-ups, no promotions, no bundled third-party software.'],
+      ['Burden-free', 'No forced sign-up, no phone-number binding, no silent uploading of your data.'],
+    ],
+    softTitle: 'Bonus points (preferred, but open source not required)',
+    softIntro: 'Open source is reassuring, but closed-source yet truly burden-free gems like Everything and Obsidian deserve a place too. Rather than a blanket rule, we mark every trait with a badge so you can judge for yourself:',
+    linkTitle: 'On links: official sources only, never self-hosted',
+    link: 'We only link to a tool’s official website and official download page — we never host installers ourselves. That guarantees you always get the newest, most trustworthy official build, and avoids any bundling or security risk. For open-source projects, we add the source code link too.',
+    buildTitle: 'This site itself',
+    build: 'Built with Astro and hosted fully static on Cloudflare — no backend, no database, not a single line of tracking. It is what "burden-free" looks like. The site is open source; tool suggestions are welcome.',
+    cta: 'Suggest a tool',
+  },
+}[lang];
+---
+
+<BaseLayout title={t('about.title')} description={c.lead}>
+  <article class="about container section">
+    <header class="head">
+      <p class="eyebrow">🕊️ {t('site.tagline')}</p>
+      <h1>{t('about.title')}</h1>
+      <p class="lead">{c.lead}</p>
+    </header>
+
+    <section class="block">
+      <h2><span class="num">01</span> {c.hardTitle}</h2>
+      <ul class="reqs">
+        {c.hard.map(([title, desc]) => (
+          <li>
+            <strong>{title}</strong>
+            <span>{desc}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2><span class="num">02</span> {c.softTitle}</h2>
+      <p>{c.softIntro}</p>
+      <div class="badge-grid">
+        {BADGES.map((b) => (
+          <span class="badge"><span aria-hidden="true">{b.icon}</span> {pick(b.label, loc)}</span>
+        ))}
+      </div>
+    </section>
+
+    <section class="block">
+      <h2><span class="num">03</span> {c.linkTitle}</h2>
+      <p>{c.link}</p>
+    </section>
+
+    <section class="block">
+      <h2><span class="num">04</span> {c.buildTitle}</h2>
+      <p>{c.build}</p>
+    </section>
+
+    <div class="cta-row">
+      <a class="btn btn-primary" href={localizedPath(lang, 'submit')}>{c.cta} →</a>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .about {
+    max-width: 760px;
+  }
+  .head {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .head h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    margin-top: 0.6rem;
+  }
+  .lead {
+    color: var(--text-soft);
+    font-size: 1.15rem;
+    line-height: 1.75;
+    margin-top: 1.2rem;
+  }
+  .block {
+    margin-bottom: 2.6rem;
+  }
+  .block h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  .num {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .block p {
+    color: var(--text-soft);
+    line-height: 1.8;
+  }
+  .reqs {
+    list-style: none;
+    display: grid;
+    gap: 0.9rem;
+  }
+  .reqs li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 1.1rem 1.3rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+  }
+  .reqs strong {
+    font-size: 1.05rem;
+  }
+  .reqs span {
+    color: var(--text-soft);
+    font-size: 0.95rem;
+  }
+  .badge-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    background: var(--surface-2);
+    border: 1px solid var(--border-soft);
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+  }
+  .cta-row {
+    text-align: center;
+    margin-top: 3rem;
+  }
+</style>

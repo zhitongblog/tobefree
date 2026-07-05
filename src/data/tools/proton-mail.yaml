@@ -1,0 +1,22 @@
+name: Proton Mail
+accent: '#6D4AFF'
+initials: PM
+category: privacy
+price: freemium
+license: 'GPL-3.0 (clients)'
+website: https://proton.me/mail
+download: https://proton.me/mail/download
+repo: https://github.com/ProtonMail
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [加密邮件, 隐私, 邮箱, email]
+platforms: [web, ios, android, windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, cross-platform]
+tagline:
+  zh: 瑞士出品的端到端加密邮箱，免费额度够日常用
+  en: Swiss end-to-end encrypted email with a free tier that covers everyday use
+description:
+  zh: 世界最大的端到端加密邮件服务，邮件在离开设备前就加密，Proton 自己也读不到内容。位于瑞士、受严格隐私法保护，客户端开源、经独立审计。免费版即可拥有一个私密邮箱。
+  en: The world's largest end-to-end encrypted email service — mail is encrypted before it leaves your device, so not even Proton can read it. Based in Switzerland under strict privacy law, with open-source, independently audited clients. The free tier gives you a private mailbox.

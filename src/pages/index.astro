@@ -1,0 +1,31 @@
+---
+// Root entry — detect the visitor's language and redirect to /zh/ or /en/.
+// Static-friendly: uses a meta refresh + a small inline script.
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To Be Free — 让每个人都能自由使用软件</title>
+    <meta name="description" content="收录真正免费、可用、无负担的工具。" />
+    <link rel="canonical" href="https://tobefree.app/zh/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://tobefree.app/zh/" />
+    <link rel="alternate" hreflang="en-US" href="https://tobefree.app/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://tobefree.app/zh/" />
+    <meta http-equiv="refresh" content="0; url=/zh/" />
+    <script is:inline>
+      (function () {
+        var lang = (navigator.language || 'zh').toLowerCase();
+        var target = lang.indexOf('zh') === 0 ? '/zh/' : '/en/';
+        location.replace(target);
+      })();
+    </script>
+  </head>
+  <body>
+    <p style="font-family: system-ui; padding: 2rem">
+      Redirecting… · 正在跳转… <a href="/zh/">中文</a> / <a href="/en/">English</a>
+    </p>
+  </body>
+</html>

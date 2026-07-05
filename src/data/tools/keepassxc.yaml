@@ -1,0 +1,21 @@
+name: KeePassXC
+accent: '#2C3E50'
+initials: KP
+category: privacy
+price: free
+license: 'GPL-3.0'
+website: https://keepassxc.org
+download: https://keepassxc.org/download/
+repo: https://github.com/keepassxreboot/keepassxc
+featured: false
+selfMade: false
+added: '2026-07-05'
+tags: [密码管理, 离线, 加密, offline]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 纯离线的密码库，一个加密文件全部搞定
+  en: A fully offline password vault — one encrypted file holds it all
+description:
+  zh: 把所有密码存进一个本地加密数据库，不联网、不上云、不注册。极度看重隐私的人的首选。
+  en: Stores every password in a single local encrypted database — no network, no cloud, no account. The pick for the privacy-serious.

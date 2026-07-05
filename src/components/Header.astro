@@ -1,0 +1,149 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+import { getLangFromUrl, useTranslations, localizedPath, altLangPath } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const path = Astro.url.pathname;
+
+const nav = [
+  { href: localizedPath(lang, ''), label: t('nav.home'), match: /^\/(zh|en)\/?$/ },
+  { href: localizedPath(lang, 'tools'), label: t('nav.tools'), match: /\/(tools|category)/ },
+  { href: localizedPath(lang, 'self-made'), label: t('nav.selfmade'), match: /\/self-made/ },
+  { href: localizedPath(lang, 'about'), label: t('nav.about'), match: /\/about/ },
+];
+const submitHref = localizedPath(lang, 'submit');
+const altHref = altLangPath(Astro.url, lang);
+
+const isActive = (re: RegExp) => re.test(path);
+---
+
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href={localizedPath(lang, '')} aria-label="To Be Free">
+      <span class="mark" aria-hidden="true">🕊️</span>
+      <span class="wordmark">To Be Free</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      {nav.map((item) => (
+        <a href={item.href} class:list={['nav-link', { active: isActive(item.match) }]}>
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <div class="actions">
+      <a class="nav-link submit" href={submitHref}>{t('nav.submit')}</a>
+      <a class="lang" href={altHref} aria-label="Switch language">{t('lang.switch')}</a>
+      <ThemeToggle />
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: saturate(1.4) blur(12px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 62px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .brand:hover {
+    color: var(--text);
+  }
+  .mark {
+    font-size: 1.4rem;
+    line-height: 1;
+    filter: saturate(1.1);
+  }
+  .wordmark {
+    font-family: var(--font-serif);
+    font-size: 1.18rem;
+    letter-spacing: -0.01em;
+  }
+  .nav {
+    display: flex;
+    gap: 0.3rem;
+    margin-inline: auto;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-link {
+    color: var(--text-soft);
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: color 0.15s, background-color 0.15s;
+  }
+  .nav-link:hover {
+    color: var(--text);
+    background: var(--surface-2);
+  }
+  .nav-link.active {
+    color: var(--accent-ink);
+    background: var(--accent-soft);
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    flex-shrink: 0;
+  }
+  .submit {
+    color: var(--accent-ink);
+    font-weight: 600;
+  }
+  .lang {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+  }
+  .lang:hover {
+    color: var(--accent-ink);
+    border-color: var(--accent);
+  }
+
+  @media (max-width: 760px) {
+    .wordmark {
+      display: none;
+    }
+    .nav {
+      margin-inline: 0;
+      order: 3;
+      flex-basis: 100%;
+    }
+    .bar {
+      flex-wrap: wrap;
+      height: auto;
+      padding-block: 0.6rem;
+      row-gap: 0.4rem;
+    }
+    .submit {
+      display: none;
+    }
+  }
+</style>

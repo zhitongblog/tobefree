@@ -1,0 +1,21 @@
+name: VS Code
+accent: '#0065A9'
+initials: VS
+category: dev
+price: free
+license: 'MIT · 源码开源'
+website: https://code.visualstudio.com
+download: https://code.visualstudio.com/Download
+repo: https://github.com/microsoft/vscode
+featured: false
+selfMade: false
+added: '2026-07-05'
+tags: [编辑器, ide, 编程, 开发]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-signup, offline, cross-platform]
+tagline:
+  zh: 最流行的代码编辑器，海量插件，完全免费
+  en: The most popular code editor — endless extensions, completely free
+description:
+  zh: 轻量却强大的编辑器，插件生态几乎覆盖所有语言和框架。源码开源（想要零遥测可选 VSCodium 构建）。
+  en: A lightweight yet powerful editor with an extension ecosystem covering nearly every language. Source is open (choose VSCodium builds for zero telemetry).

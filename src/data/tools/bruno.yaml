@@ -1,0 +1,22 @@
+name: Bruno
+accent: '#F4703A'
+initials: BR
+category: dev
+price: free
+license: 'MIT'
+website: https://www.usebruno.com
+download: https://www.usebruno.com/downloads
+repo: https://github.com/usebruno/bruno
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [api, 接口测试, git, 离线, 开源]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 离线优先、Git 原生的开源 API 客户端
+  en: An offline-first, Git-native open-source API client
+description:
+  zh: Postman 的开源本地替代品。请求以纯文本文件存在你的文件系统里，可直接用 Git 版本管理和团队协作。没有账号、不上云、数据永远只在本地。
+  en: An open-source, local alternative to Postman. Requests are saved as plain-text files on your filesystem, so you version and share them with Git. No account, no cloud — your data stays on your machine.

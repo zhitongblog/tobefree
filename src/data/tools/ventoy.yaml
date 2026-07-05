@@ -1,0 +1,22 @@
+name: Ventoy
+accent: '#4A90D9'
+initials: VT
+category: utility
+price: free
+license: 'GPL-3.0'
+website: https://www.ventoy.net
+download: https://www.ventoy.net/en/download.html
+repo: https://github.com/ventoy/Ventoy
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [启动盘, ISO, U盘, 多系统]
+platforms: [windows, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 拖进 ISO 就能启动的多系统 U 盘方案
+  en: Drop in an ISO and boot — the multi-ISO USB solution
+description:
+  zh: 一次安装到 U 盘，之后只需把 ISO/WIM/IMG 等文件直接拖进去即可启动，无需反复格式化。一个 U 盘承载多个系统，启动时菜单选择。
+  en: Install once to a USB drive, then just drag ISO/WIM/IMG files onto it and boot directly — no reformatting ever again. One stick holds many systems with a boot-time menu.

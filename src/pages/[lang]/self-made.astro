@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { useTranslations, type Lang } from '../../i18n/utils';
+import { getSelfMade, localePaths } from '../../lib/tools';
+
+export function getStaticPaths() {
+  return localePaths();
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useTranslations(lang);
+const tools = await getSelfMade();
+
+const intro =
+  lang === 'zh'
+    ? '既然我们相信"人人都该自由地使用软件"，就不能只做搬运工。这里是我们自己在做的免费工具 —— 无广告、无追踪、无负担，和我们收录的标准一模一样。'
+    : 'If we believe everyone deserves to use software freely, we can’t just curate — we build too. These are the free tools we make ourselves: no ads, no tracking, no strings — held to the exact same standard we curate by.';
+---
+
+<BaseLayout title={t('nav.selfmade')} description={intro}>
+  <section class="section container">
+    <div class="section-head">
+      <p class="eyebrow">✦ {t('home.selfmade')}</p>
+      <h2>{t('home.selfmade')}</h2>
+      <p class="lede">{intro}</p>
+    </div>
+    {tools.length > 0 ? (
+      <div class="grid cards-grid">
+        {tools.map((tool) => <ToolCard tool={tool} lang={lang} />)}
+      </div>
+    ) : (
+      <p class="empty">{t('tools.empty')}</p>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .lede {
+    max-width: 56ch !important;
+    line-height: 1.7;
+  }
+  .empty {
+    color: var(--text-faint);
+  }
+</style>

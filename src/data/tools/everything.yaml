@@ -1,0 +1,37 @@
+name: Everything
+accent: '#F2B705'
+initials: EV
+category: utility
+price: free
+license: 'Freeware · 闭源'
+website: https://www.voidtools.com
+download: https://www.voidtools.com/downloads/
+repo: ''
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [文件搜索, search, windows, 效率]
+platforms: [windows]
+badges: [no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: Windows 上最快的文件搜索，输入即出结果
+  en: The fastest file search on Windows — results as you type
+description:
+  zh: 秒级索引整块硬盘，输入文件名瞬间定位。极小、极快、无广告、无打扰，很多人的开机必备。
+  en: Indexes an entire drive in seconds and finds any filename instantly. Tiny, blazing fast, ad-free — a daily essential for many.
+review:
+  zh: |
+    Windows 自带的搜索有多慢，用过的人都懂。Everything 靠读取 NTFS 文件索引，几秒建好全盘目录，之后
+    你敲下文件名的瞬间结果就出来了 —— 快到像在作弊。
+
+    它只有几 MB，闭源但完全免费、没有广告、不联网上传任何东西。虽然不开源，但它是"无负担"的最好证明：
+    一个把一件事做到极致、又不打扰你的小工具。
+  en: |
+    Anyone who's used Windows' built-in search knows how slow it is. Everything reads the NTFS file
+    index directly, builds a full drive listing in seconds, and shows results the instant you type a
+    name — fast enough to feel like cheating.
+
+    It's a few megabytes, closed-source but completely free, with no ads and no phoning home. Though
+    not open source, it's the best proof of "burden-free": a tiny tool that does one thing perfectly
+    and never gets in your way.

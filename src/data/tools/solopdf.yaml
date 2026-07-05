@@ -1,0 +1,36 @@
+name: SoloPDF
+accent: '#4A7C6F'
+initials: SP
+category: office
+price: free
+license: 'MIT'
+website: https://doaipm.com/zh/products/solopdf/
+download: https://github.com/zhitongblog/solopdf/releases
+repo: https://github.com/zhitongblog/solopdf
+featured: false
+selfMade: true
+added: '2026-07-05'
+tags: [pdf, 阅读器, 标注, 高亮, markdown]
+platforms: [macos, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 本地优先的 PDF 阅读器，高亮即笔记
+  en: A local-first PDF reader — your highlights become notes
+description:
+  zh: 免费、无广告的 PDF 阅读器：你划的高亮会自动生成 Markdown 笔记文件，还能按文本指纹在 PDF 更新后重新定位。支持表单填写、中文搜索、暗色模式与加密 PDF。MIT 开源，零遥测。
+  en: A free, ad-free PDF reader that turns your highlights into Markdown note files automatically, relocating them by text fingerprint even after the PDF updates. Handles form filling, Chinese search, dark mode and encrypted PDFs. MIT-licensed, zero telemetry.
+review:
+  zh: |
+    读 PDF 时划的重点，大多数软件只是把它存进自己的私有格式。SoloPDF 反过来：每一处高亮都变成一份
+    你能自由带走的 Markdown 笔记文件，而且用文本指纹追踪，PDF 换版后还能自动对上位置。
+
+    它免费、MIT 开源、零遥测，处理全在本地完成，没有上传、没有水印、没有付费墙。同样自带 CLI 和 MCP，
+    能被 AI 直接读取和导出标注。这是我们对"读文档也该自由"的回答。
+  en: |
+    When you highlight something in a PDF, most apps just lock it into their own private format.
+    SoloPDF flips that: every highlight becomes a Markdown note file you can freely take with you, and
+    text-fingerprint tracking keeps highlights anchored even after the PDF changes.
+
+    It's free, MIT-licensed, zero-telemetry, and everything happens locally — no uploads, no watermarks,
+    no paywall. It also ships a CLI and MCP server so AI can read and export your annotations directly.
+    It's our answer to "reading documents should be free too."

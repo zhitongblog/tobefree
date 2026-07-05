@@ -1,0 +1,163 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { badgeById, pick, type Locale } from '../consts';
+import { useTranslations, localizedPath, type Lang } from '../i18n/utils';
+
+interface Props {
+  tool: CollectionEntry<'tools'>;
+  lang: Lang;
+}
+
+const { tool, lang } = Astro.props;
+const t = useTranslations(lang);
+const d = tool.data;
+const loc = lang as Locale;
+
+const href = localizedPath(lang, `tools/${tool.id}`);
+const initials = d.initials ?? d.name.replace(/[^A-Za-z0-9一-龥]/g, '').slice(0, 2).toUpperCase();
+const shownBadges = d.badges.slice(0, 4);
+---
+
+<a class="card" href={href} style={`--card-accent:${d.accent}`}>
+  {d.selfMade && <span class="self">✦ {t('card.selfmade')}</span>}
+  <div class="top">
+    <span class="avatar" aria-hidden="true">{initials}</span>
+    <div class="price">{d.price === 'free' ? t('card.free') : t('card.freemium')}</div>
+  </div>
+  <h3 class="name">{d.name}</h3>
+  <p class="tagline">{pick(d.tagline, loc)}</p>
+
+  {shownBadges.length > 0 && (
+    <ul class="badges" aria-label="freedom badges">
+      {shownBadges.map((b) => {
+        const badge = badgeById[b];
+        return badge ? (
+          <li title={pick(badge.label, loc)}>
+            <span aria-hidden="true">{badge.icon}</span>
+            <span class="blabel">{pick(badge.label, loc)}</span>
+          </li>
+        ) : null;
+      })}
+    </ul>
+  )}
+</a>
+
+<style>
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.4rem;
+    color: var(--text);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    transition: transform 0.22s var(--ease), box-shadow 0.22s var(--ease),
+      border-color 0.22s var(--ease);
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 3px;
+    background: var(--card-accent, var(--accent));
+    opacity: 0;
+    transition: opacity 0.22s var(--ease);
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: color-mix(in srgb, var(--card-accent, var(--accent)) 45%, var(--border));
+    color: var(--text);
+  }
+  .card:hover::before {
+    opacity: 1;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+  .avatar {
+    display: grid;
+    place-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 13px;
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    background: linear-gradient(
+      145deg,
+      var(--card-accent, var(--accent)),
+      color-mix(in srgb, var(--card-accent, var(--accent)) 70%, #000)
+    );
+    box-shadow: var(--shadow-sm);
+  }
+  .price {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--green);
+    background: var(--green-soft);
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+  }
+  .name {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  .tagline {
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    line-height: 1.55;
+    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .badges {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 1rem;
+  }
+  .badges li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.28rem;
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    background: var(--surface-2);
+    border: 1px solid var(--border-soft);
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+  }
+  .self {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--accent);
+    padding: 0.25rem 0.7rem;
+    border-bottom-left-radius: 12px;
+    letter-spacing: 0.03em;
+  }
+  @media (max-width: 420px) {
+    .blabel {
+      display: none;
+    }
+    .badges li {
+      padding: 0.3rem;
+    }
+  }
+</style>

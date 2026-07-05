@@ -1,0 +1,22 @@
+name: Flameshot
+accent: '#EF6C33'
+initials: FS
+category: utility
+price: free
+license: 'GPL-3.0'
+website: https://flameshot.org
+download: https://flameshot.org/#download
+repo: https://github.com/flameshot-org/flameshot
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [截图, 标注, 编辑]
+platforms: [windows, linux, macos]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 简单顺手的开源截图标注工具
+  en: A simple, handy open-source screenshot annotator
+description:
+  zh: 一键截取屏幕区域，即时用箭头、文字、马赛克、高亮等工具标注，快捷高效。跨平台、开源、无广告，命令行也能调用。
+  en: Grab a screen region with one shortcut and annotate it on the spot with arrows, text, blur and highlight. Cross-platform, open source, ad-free, with a CLI as well.

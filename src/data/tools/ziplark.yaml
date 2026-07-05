@@ -1,0 +1,34 @@
+name: Ziplark
+accent: '#C99A2E'
+initials: ZL
+category: utility
+price: free
+license: 'MIT'
+website: https://ziplark.app
+download: https://github.com/zhitongblog/ziplark/releases
+repo: https://github.com/zhitongblog/ziplark
+featured: false
+selfMade: true
+added: '2026-07-05'
+tags: [压缩, 解压, archive, zip, 7z]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费、快速、跨平台的压缩解压工具
+  en: A free, fast, cross-platform archiver
+description:
+  zh: 解压 ZIP / RAR / 7z / tar / ISO 等多种格式，创建 ZIP（AES-256 加密）/ 7z / tar。桌面应用、CLI 与 MCP 三种形态。MIT 开源，无广告、无弹窗。
+  en: Extracts ZIP / RAR / 7z / tar / ISO and more, and creates ZIP (with AES-256), 7z and tar. Ships as a desktop app, a CLI and an MCP server. MIT-licensed, no ads, no nag screens.
+review:
+  zh: |
+    压缩解压这么基础的事，本不该被弹窗和"请购买"打扰。Ziplark 把它做回该有的样子：一个界面干净、
+    跨平台、支持几乎所有主流格式的解压/压缩工具，还能给 ZIP 加 AES-256 加密。
+
+    它同时提供 CLI 和 MCP —— 你可以在脚本里用，也可以让 AI 帮你批量打包解包。MIT 开源，永久免费，没有任何广告。
+  en: |
+    Something as basic as zipping and unzipping shouldn't be interrupted by pop-ups and "please buy" nags.
+    Ziplark puts it back the way it should be: a clean, cross-platform tool that extracts and creates nearly
+    every common format, with optional AES-256 encryption for ZIPs.
+
+    It also ships a CLI and MCP server — use it in scripts, or let an AI batch-pack and unpack for you.
+    MIT-licensed, free forever, with no ads whatsoever.

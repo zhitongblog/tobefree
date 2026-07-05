@@ -1,0 +1,22 @@
+name: Rufus
+accent: '#DA3B3B'
+initials: RF
+category: utility
+price: free
+license: 'GPL-3.0'
+website: https://rufus.ie
+download: https://rufus.ie/#download
+repo: https://github.com/pbatard/rufus
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [启动盘, U盘, ISO, 系统安装]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 小巧快速的可启动 U 盘制作工具
+  en: A tiny, fast bootable USB creator
+description:
+  zh: 只有几百 KB 的绿色小工具，把 Windows、Linux 等 ISO 快速写入 U 盘制成启动盘，支持 UEFI 与 BIOS、GPT 与 MBR。免安装、开源、无广告。
+  en: A few-hundred-KB portable tool that writes Windows, Linux and other ISOs to USB as a bootable drive, with UEFI/BIOS and GPT/MBR support. No install, open source, ad-free.

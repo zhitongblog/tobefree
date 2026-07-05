@@ -1,0 +1,37 @@
+name: AppFlowy
+accent: '#9327FF'
+initials: AF
+category: productivity
+price: freemium
+license: 'AGPL-3.0'
+website: https://appflowy.com
+download: https://appflowy.com/download
+repo: https://github.com/AppFlowy-IO/AppFlowy
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [notion替代, 文档, 数据库, 看板, 工作区]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 数据握在自己手里的开源 Notion 替代品
+  en: The open-source Notion alternative that keeps your data in your hands
+description:
+  zh: 把文档、维基、看板和项目管理集成到一个工作区的开源协作工具，可完全离线本地使用，也能用 Docker 自托管，不必把数据交给第三方云。
+  en: An open-source workspace that brings docs, wikis, kanban and project tracking together. It runs fully offline and locally, and can be self-hosted with Docker so your data never leaves your hands.
+review:
+  zh: |
+    AppFlowy 想解决的正是 Notion 让人不安的地方：数据到底在谁手上。它把文档、表格、看板、日历都做进一个本地优先的工作区，
+    单机就能用，不联网、不注册也能立刻上手，基础功能没有任何付费墙，也没有广告。
+
+    作为开源项目，它可以用 Docker 完全自托管，团队协作和同步都能跑在自己的服务器上。如果你喜欢 Notion 的"万物皆积木"，
+    又不想把公司文档和个人笔记托付给别人的云，AppFlowy 是当下最成熟的免费自主选择。
+  en: |
+    AppFlowy tackles the exact thing that makes Notion uneasy: who actually holds your data. It packs docs,
+    databases, kanban and calendars into a local-first workspace that runs standalone — no internet, no sign-up
+    needed to start — with no paywall on the core features and no ads.
+
+    Being open source, it can be fully self-hosted with Docker, so team collaboration and sync run on your own
+    server. If you love Notion's "everything is a block" model but don't want to hand your company docs and
+    personal notes to someone else's cloud, AppFlowy is the most mature free-and-sovereign choice today.

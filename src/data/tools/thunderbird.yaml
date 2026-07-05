@@ -1,0 +1,22 @@
+name: Mozilla Thunderbird
+accent: '#1373D9'
+initials: TB
+category: office
+price: free
+license: 'MPL-2.0'
+website: https://www.thunderbird.net
+download: https://www.thunderbird.net/download/
+repo: https://github.com/thunderbird/thunderbird-android
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [邮件客户端, 邮箱, 日历, 联系人]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 老牌免费邮件客户端，隐私优先
+  en: The veteran free email client that puts privacy first
+description:
+  zh: 由 Mozilla 维护的开源邮件客户端，支持 IMAP/POP/SMTP/Exchange，可同时管理多个邮箱账户，并内置日历与联系人。不投放广告、不收集个人数据。
+  en: A Mozilla-maintained open-source email client supporting IMAP/POP/SMTP/Exchange, managing multiple accounts at once with built-in calendar and contacts. No ads, no personal data collection.

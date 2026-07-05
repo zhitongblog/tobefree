@@ -1,0 +1,22 @@
+name: Hoppscotch
+accent: '#31C48D'
+initials: HP
+category: dev
+price: free
+license: 'MIT'
+website: https://hoppscotch.io
+download: ''
+repo: https://github.com/hoppscotch/hoppscotch
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [api, 接口测试, graphql, web, 开源]
+platforms: [web, windows, macos, linux, cli]
+badges: [open-source, no-ads, cross-platform, self-hostable]
+tagline:
+  zh: 打开网页就能用的开源 API 开发工具
+  en: An open-source API tool you use straight from the browser
+description:
+  zh: 轻量的开源 API 开发生态，浏览器里即开即用。支持 HTTP、GraphQL、WebSocket、MQTT 等协议，也提供桌面端与 CLI，还能自托管在自己的服务器上。
+  en: A lightweight open-source API development ecosystem that runs right in the browser. It supports HTTP, GraphQL, WebSocket, MQTT and more, with desktop and CLI apps, and can be self-hosted on your own server.

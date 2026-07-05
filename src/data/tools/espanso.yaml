@@ -1,0 +1,22 @@
+name: Espanso
+accent: '#00A4A6'
+initials: ES
+category: utility
+price: free
+license: 'GPL-3.0'
+website: https://espanso.org
+download: https://espanso.org/install/
+repo: https://github.com/espanso/espanso
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [文本扩展, 效率, 快捷输入, 隐私]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 隐私优先的跨平台文本扩展工具
+  en: A privacy-first, cross-platform text expander
+description:
+  zh: 用 Rust 编写的文本扩展器，输入短触发词即可自动展开为常用邮件、代码片段或任意长文本。基于 YAML 配置，可跨应用工作。开源、免费、无账号。
+  en: A text expander written in Rust — type a short trigger and it expands into your common emails, code snippets or any long text. YAML-based config that works across every app. Open source, free, no account.

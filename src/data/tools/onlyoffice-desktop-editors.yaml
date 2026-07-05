@@ -1,0 +1,31 @@
+name: ONLYOFFICE Desktop Editors
+accent: '#FF6F3D'
+initials: OO
+category: office
+price: free
+license: 'AGPL-3.0'
+website: https://www.onlyoffice.com/desktop
+download: https://www.onlyoffice.com/download-desktop
+repo: https://github.com/ONLYOFFICE/DesktopEditors
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [办公套件, 文档, 表格, 演示, pdf]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 兼容性极强的免费办公套件
+  en: A free office suite with outstanding format compatibility
+description:
+  zh: 文字、表格、演示、PDF 与表单编辑器集于一身，对 docx/xlsx/pptx 的还原度在开源套件里名列前茅，界面接近 MS Office，全程离线可用。
+  en: Text, spreadsheet, presentation, PDF and form editors in one app, with best-in-class fidelity for docx/xlsx/pptx and an MS Office-like interface — fully offline.
+review:
+  zh: |
+    如果你被 Office 文档的排版兼容折磨过，ONLYOFFICE 值得一试。它对 docx、xlsx、pptx 的还原度在开源套件里数一数二，打开别人发来的复杂表格和演示也很少错位。
+
+    桌面版基于 AGPL-3.0 开源，核心编辑功能永久免费，不塞广告、不强制登录、全程本地运行。选项卡式界面几乎无学习成本，从 MS Office 迁移过来的人上手很快。
+  en: |
+    If Office document compatibility has ever burned you, ONLYOFFICE is worth a look. Its fidelity for docx, xlsx and pptx is among the best of any open-source suite, and complex spreadsheets or decks from others rarely break on open.
+
+    The desktop app is AGPL-3.0 open source, its core editors are permanently free, and it runs fully locally with no ads and no forced sign-in. The ribbon-style UI feels familiar, so anyone coming from MS Office gets productive fast.

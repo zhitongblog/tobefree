@@ -1,0 +1,31 @@
+name: Kodi
+accent: '#17B2E7'
+initials: Ko
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://kodi.tv/
+download: https://kodi.tv/download/
+repo: https://github.com/xbmc/xbmc
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [媒体中心, 家庭影院, HTPC, media-center]
+platforms: [windows, macos, linux, android, ios]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 把电视变成家庭影院的开源媒体中心
+  en: The open-source media center that turns your TV into a home theater
+description:
+  zh: 把本地和网络上的影视、音乐、图片和直播电视整理成精美的影院界面，支持海报刮削、遥控操作与海量插件皮肤，完全免费无广告。
+  en: Organize local and network movies, music, photos and live TV into a beautiful theater interface, with artwork scraping, remote control and a huge add-on and skin ecosystem — fully free with no ads.
+review:
+  zh: |
+    Kodi 前身是 XBMC，是老牌的家庭影院软件。把它装在电视盒子或 HTPC 上，本地和局域网里的影音就变成了带海报、演员表、分季归类的漂亮影院界面，配合遥控器躺沙发上就能操作。强大的皮肤引擎和社区插件让你随意定制。
+
+    由非营利的 Kodi 基金会和全球志愿者维护，完全开源、无广告、不追踪，覆盖 Windows、macOS、Linux、Android 和 iOS 等系统。请注意从官网下载并只使用可信来源的插件。
+  en: |
+    Formerly XBMC, Kodi is a long-standing home theater application. Install it on a TV box or HTPC and your local and network media becomes a polished theater interface with posters, cast info and season sorting, all drivable from the couch with a remote. A powerful skin engine and community add-ons let you customize freely.
+
+    Maintained by the non-profit Kodi Foundation and volunteers worldwide, it's fully open source, ad-free and non-tracking, spanning Windows, macOS, Linux, Android and iOS. Just download from the official site and stick to trusted add-on sources.

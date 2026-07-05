@@ -1,0 +1,31 @@
+name: Microsoft PowerToys
+accent: '#0078D4'
+initials: PT
+category: utility
+price: free
+license: 'MIT'
+website: https://learn.microsoft.com/windows/powertoys/
+download: https://github.com/microsoft/PowerToys/releases
+repo: https://github.com/microsoft/PowerToys
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [效率, 系统增强, Windows, 快捷键]
+platforms: [windows]
+badges: [open-source, no-ads, no-signup, offline]
+tagline:
+  zh: 微软官方出品的 Windows 高手工具箱
+  en: Microsoft's official power-user toolbox for Windows
+description:
+  zh: 一整套系统增强小工具集合，包含 FancyZones 窗口管理、批量重命名、颜色选择器、命令面板等 25+ 实用功能。微软亲自开源，完全免费。
+  en: A whole suite of system utilities in one app — FancyZones window management, PowerRename, Color Picker, Command Palette and 25+ more. Open sourced by Microsoft itself, completely free.
+review:
+  zh: |
+    PowerToys 是 Windows 用户体验的官方补丁。微软把那些系统里"本该有却没有"的功能——网格化窗口布局、批量正则改名、屏幕取色、快捷启动器——打包成一个开源应用，且更新极其活跃。
+
+    没有任何广告、订阅或账号门槛，安装即用。对于任何长期使用 Windows 的人来说，它几乎是无脑必装。你不需要每个功能都用，但总有几个会成为你每天离不开的习惯。
+  en: |
+    PowerToys is the official patch for the Windows experience. Microsoft bundled all the features the OS "should have had" — grid window layouts, batch regex renaming, on-screen color picking, a keyboard launcher — into one actively-developed open-source app.
+
+    No ads, no subscription, no account. Install and go. For anyone who lives in Windows it's a near-mandatory install. You won't use every module, but a few will quietly become part of your daily muscle memory.

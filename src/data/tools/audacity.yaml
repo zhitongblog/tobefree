@@ -1,0 +1,31 @@
+name: Audacity
+accent: '#0000CC'
+initials: Au
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://www.audacityteam.org/
+download: https://www.audacityteam.org/download/
+repo: https://github.com/audacity/audacity
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [音频, 录音, 剪辑, audio]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, offline, no-signup, cross-platform]
+tagline:
+  zh: 全球最流行的免费录音与音频剪辑软件
+  en: The world's most popular free audio recorder and editor
+description:
+  zh: 多轨录音、剪辑、降噪、变调变速一应俱全，支持 WAV/MP3/FLAC 等多种格式，本地运行无水印。
+  en: Multi-track recording, editing, noise reduction, pitch and tempo tools with support for WAV, MP3, FLAC and more — runs locally with no watermark.
+review:
+  zh: |
+    从播客剪辑到会议录音，从消除杂音到给音频变速，Audacity 二十多年来一直是无数人的第一款音频软件。多轨编辑、丰富的效果器和插件生态，几乎覆盖日常音频处理的全部需求。
+
+    它完全开源、完全免费，没有导出时长限制，也没有水印。较新版本默认关闭了可选的错误报告与遥测，首次启动会明确征询你的选择，隐私上足够放心。
+  en: |
+    From podcast editing to meeting recordings, from removing hiss to time-stretching a clip, Audacity has been the first audio tool for countless people for over two decades. Multi-track editing plus a rich effects and plugin ecosystem cover nearly every everyday audio need.
+
+    It's fully open source and free, with no export limits and no watermark. Recent versions ship optional telemetry off by default and ask you clearly on first launch, so it's reassuring on privacy.

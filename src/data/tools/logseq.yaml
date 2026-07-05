@@ -1,0 +1,21 @@
+name: Logseq
+accent: '#002B36'
+initials: LS
+category: productivity
+price: free
+license: 'AGPL-3.0'
+website: https://logseq.com
+download: https://github.com/logseq/logseq/releases
+repo: https://github.com/logseq/logseq
+featured: false
+selfMade: false
+added: '2026-07-05'
+tags: [笔记, 大纲, 双链, outliner]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 开源的大纲式笔记，双向链接构建你的知识网
+  en: An open-source outliner with bidirectional links to grow your knowledge graph
+description:
+  zh: 以块为单位的大纲笔记，天生适合日记、任务和知识关联。数据是本地纯文本，完全开源。
+  en: A block-based outliner built for journaling, tasks and linked thinking. Your data is local plain text, and it's fully open source.
