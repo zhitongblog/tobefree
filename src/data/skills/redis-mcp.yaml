@@ -1,0 +1,21 @@
+kind: mcp
+name: Redis MCP
+accent: '#DC382D'
+initials: RD
+license: 'MIT'
+website: https://redis.io
+repo: https://github.com/redis/mcp-redis
+install: 'uvx --from redis-mcp-server@latest redis-mcp-server --url redis://localhost:6379/0'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [redis, database, cache, 缓存]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable, cross-platform]
+tagline:
+  zh: 用自然语言管理和检索 Redis 数据
+  en: Manage and search Redis data in natural language
+description:
+  zh: Redis 官方开源的 MCP 服务器，为 Agent 提供对 Redis 的自然语言接口，支持字符串、哈希、列表、集合、有序集合、流、JSON 以及向量检索等数据结构。可连本地 Redis，无需账号。
+  en: Redis's official open-source MCP server giving agents a natural-language interface to Redis across strings, hashes, lists, sets, sorted sets, streams, JSON and vector search. Point it at a local Redis with no account required.

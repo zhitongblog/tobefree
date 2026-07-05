@@ -1,0 +1,21 @@
+kind: mcp
+name: Notion MCP
+accent: '#2F2F2F'
+initials: NO
+license: 'MIT'
+website: https://developers.notion.com
+repo: https://github.com/makenotion/notion-mcp-server
+install: 'npx -y @notionhq/notion-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [notion, 笔记, 文档, productivity]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 让 AI 读写你的 Notion 页面和数据库
+  en: Let AI read and write your Notion pages and databases
+description:
+  zh: Notion 官方的开源 MCP 服务器，通过 Notion API 让 Agent 检索、创建和更新页面、数据库、块与评论。适合把 Notion 当知识库或任务系统交给 AI 操作。需要 Notion 集成 Token。
+  en: Notion's official open-source MCP server that lets agents search, create and update pages, databases, blocks and comments through the Notion API. Great for handing your Notion knowledge base or task system to AI. Requires a Notion integration token.

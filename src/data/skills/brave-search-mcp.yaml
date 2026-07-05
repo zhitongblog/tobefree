@@ -1,0 +1,21 @@
+kind: mcp
+name: Brave Search MCP
+accent: '#FB542B'
+initials: BR
+license: 'MIT'
+website: https://brave.com/search/api/
+repo: https://github.com/brave/brave-search-mcp-server
+install: 'npx -y @brave/brave-search-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [search, 搜索, web, 网络]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 用 Brave 独立搜索索引给 AI 联网
+  en: Give AI the web via Brave's independent search index
+description:
+  zh: Brave 官方的 MCP 服务器，通过 Brave Search API 提供网页、新闻、图片、视频和本地地点搜索。索引独立、注重隐私，适合给 Agent 做实时联网检索。需要免费 API Key。
+  en: Brave's official MCP server exposing web, news, image, video and local search through the Brave Search API. An independent, privacy-focused index — ideal for giving agents live web retrieval. Requires a free API key.

@@ -1,0 +1,21 @@
+kind: mcp
+name: arXiv MCP
+accent: '#B31B1B'
+initials: AX
+license: 'MIT'
+website: https://github.com/blazickjp/arxiv-mcp-server
+repo: https://github.com/blazickjp/arxiv-mcp-server
+install: 'uvx arxiv-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [arxiv, 论文, research, 学术]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 搜索、下载与研读 arXiv 论文
+  en: Search, download and read arXiv papers
+description:
+  zh: 一个 MCP 服务器，让 Agent 按关键词、日期和分类搜索 arXiv 论文，下载全文并本地缓存后逐篇研读，适合做文献调研与科研辅助。直接查询 arXiv 公共接口，无需 API Key。
+  en: An MCP server that lets agents search arXiv by keyword, date and category, download full papers and read them from a local cache — ideal for literature review and research assistance. Queries arXiv's public API directly, no API key needed.

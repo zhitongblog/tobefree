@@ -1,0 +1,34 @@
+kind: mcp
+name: Ruflo
+accent: '#0E7FA6'
+initials: RF
+license: 'MIT'
+website: https://github.com/ruvnet/ruflo
+repo: https://github.com/ruvnet/ruflo
+install: 'npx ruflo init'
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [多智能体, swarm, 编排, orchestration, claude-code]
+clients: [Claude Code, Codex, Hermes, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 把 Claude Code 变成会自我进化的多智能体蜂群
+  en: Turn Claude Code into a self-evolving multi-agent swarm
+description:
+  zh: 领先的智能体元框架：一条 npx ruflo init 就给 Claude Code 装上"神经系统" —— 314 个 MCP 工具、60+ 种智能体、蜂群协调、自学习记忆、跨机联邦。MIT 开源，4 万+ star。
+  en: The leading agent meta-harness — one `npx ruflo init` gives Claude Code a nervous system — 314 MCP tools, 60+ agent types, swarm coordination, self-learning memory and cross-machine federation. MIT-licensed, 40k+ stars.
+review:
+  zh: |
+    如果说单个 MCP 服务器是给 AI 加一件工具，Ruflo 则是给 AI 加一整套"组织架构"。它让智能体自组织成蜂群、
+    从每个任务中学习、跨会话记忆，甚至安全地和别的机器上的智能体协作 —— 一条命令就装好。
+
+    完全 MIT 开源、免费、可自建，不上传你的数据。想认真玩多智能体编排的人，这是绕不开的一个。
+  en: |
+    If a single MCP server hands the AI one tool, Ruflo hands it an entire org chart. Agents self-organize
+    into swarms, learn from every task, remember across sessions, and even collaborate securely with agents
+    on other machines — all set up with one command.
+
+    Fully MIT open source, free, self-hostable, and it doesn't ship your data anywhere. If you're serious
+    about multi-agent orchestration, it's unavoidable.

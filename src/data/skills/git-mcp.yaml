@@ -1,0 +1,21 @@
+kind: mcp
+name: Git MCP
+accent: '#F05133'
+initials: GT
+license: 'MIT'
+website: https://github.com/modelcontextprotocol/servers/tree/main/src/git
+repo: https://github.com/modelcontextprotocol/servers
+install: 'uvx mcp-server-git'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [git, 版本控制]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 读取和操作 Git 仓库
+  en: Let AI read and operate on Git repositories
+description:
+  zh: 官方参考实现的 MCP 服务器，提供查看状态、diff、日志、提交、分支等读取和操作本地 Git 仓库的工具。
+  en: An official reference MCP server exposing tools to read and manipulate local Git repositories — status, diff, log, commit, branch and more.

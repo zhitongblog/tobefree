@@ -1,0 +1,21 @@
+kind: mcp
+name: Google Calendar MCP
+accent: '#4285F4'
+initials: GC
+license: 'MIT'
+website: https://github.com/nspady/google-calendar-mcp
+repo: https://github.com/nspady/google-calendar-mcp
+install: 'npx @cocal/google-calendar-mcp'
+featured: false
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [calendar, 日历, google, 日程, productivity]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 让 AI 管理你的 Google 日历
+  en: Let AI manage your Google Calendar
+description:
+  zh: 开源的 MCP 服务器，让 Agent 查询、创建、修改和删除 Google 日历事件，支持多账号、空闲时间查询和自然语言排程。需要自建 Google OAuth 凭据。
+  en: An open-source MCP server that lets agents list, create, update and delete Google Calendar events, with multi-account support, free/busy queries and natural-language scheduling. Requires your own Google OAuth credentials.

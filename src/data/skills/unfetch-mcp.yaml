@@ -1,0 +1,21 @@
+kind: mcp
+name: unfetch
+accent: '#7C4DFF'
+initials: UF
+license: 'Open Source'
+website: https://unfetch.org
+repo: ''
+install: ''
+featured: false
+popular: false
+selfMade: true
+added: '2026-07-05'
+tags: [下载, download, 自动化]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 让 AI 帮你排队和管理下载
+  en: Lets AI queue and manage downloads for you
+description:
+  zh: unfetch 是我们自研的下载管理器，自带 MCP 服务，让智能体能发起、排队和管理下载任务 —— 轻量、开源、无追踪。
+  en: unfetch is our own download manager with a built-in MCP server, letting agents start, queue and manage downloads — lightweight, open source, no tracking.

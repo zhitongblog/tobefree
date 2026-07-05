@@ -1,0 +1,36 @@
+kind: skill
+name: Superpowers
+accent: '#E11D48'
+initials: SP
+license: 'MIT'
+website: https://github.com/obra/superpowers
+repo: https://github.com/obra/superpowers
+install: '/plugin install superpowers@claude-plugins-official'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [工作流, tdd, 代码审查, 调试, 社区]
+clients: [Claude Code, Codex, Cursor, Factory Droid, GitHub Copilot CLI]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 一整套给编码 Agent 用的工程化技能框架
+  en: A full agentic-skills framework for coding agents
+description:
+  zh: >-
+    Jesse Vincent（obra）开源（MIT）的技能框架，把一套软件工程方法论装进可组合的技能里：先澄清需求、
+    再做计划、用 TDD 开发、最后代码审查把关。让编码 Agent 交出"工程级"而非"玩具级"的代码。
+  en: >-
+    An open-source (MIT) skills framework by Jesse Vincent (obra) that packs a full
+    software-engineering methodology into composable skills: clarify requirements,
+    plan, develop with TDD, then gate on code review — pushing coding agents to
+    ship engineering-grade rather than toy-grade code.
+review:
+  zh: |
+    大模型写代码常常"看着能跑、细看全是坑"。Superpowers 的思路是给 Agent 配一位"资深工程师导师"：任务开始前先检查有没有对应技能，然后强制走系统化调试、完成前验证等一整套流程，而不是随手一改。
+
+    它以 MIT 协议开源，通过官方 Claude 插件市场一键安装，也支持 Codex、Cursor、Factory Droid、GitHub Copilot CLI 等多种客户端，无广告、无追踪、无需注册。
+  en: |
+    LLMs love to produce code that looks like it runs but falls apart on inspection. Superpowers pairs the agent with a "senior engineer mentor": before any task it checks for a relevant skill, then forces a full process — systematic debugging, verification-before-completion — instead of a careless patch.
+
+    It's MIT-licensed, installs in one command from the official Claude plugin marketplace, and also works with Codex, Cursor, Factory Droid and GitHub Copilot CLI. No ads, no tracking, no sign-up.

@@ -1,0 +1,21 @@
+kind: mcp
+name: Wikipedia MCP
+accent: '#3366CC'
+initials: WP
+license: 'MIT'
+website: https://github.com/Rudra-ravi/wikipedia-mcp
+repo: https://github.com/Rudra-ravi/wikipedia-mcp
+install: 'uvx wikipedia-mcp'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [wikipedia, 维基百科, knowledge, 百科]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 让模型实时查询维基百科
+  en: Query Wikipedia in real time from the model
+description:
+  zh: 一个 MCP 服务器，为 LLM 提供维基百科的实时检索、文章获取、摘要与结构化内容提取，用作准确、可溯源的知识来源。无需 API Key（可选令牌以避免限流）。
+  en: An MCP server giving LLMs real-time Wikipedia search, article retrieval, summaries and structured extraction as an accurate, traceable knowledge source. No API key required (an optional token avoids rate limits).

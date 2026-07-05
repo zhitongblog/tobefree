@@ -1,0 +1,21 @@
+kind: mcp
+name: Time MCP
+accent: '#10B981'
+initials: TM
+license: 'MIT'
+website: https://github.com/modelcontextprotocol/servers/tree/main/src/time
+repo: https://github.com/modelcontextprotocol/servers
+install: 'uvx mcp-server-time'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [时间, 时区, 转换]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 获取当前时间并做时区转换
+  en: Let AI get the current time and convert time zones
+description:
+  zh: 官方参考实现的 MCP 服务器，提供获取当前时间和在不同 IANA 时区之间转换时间的工具，全部在本地完成。
+  en: An official reference MCP server that provides tools to get the current time and convert times between IANA time zones, all computed locally.

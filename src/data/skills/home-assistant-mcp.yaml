@@ -1,0 +1,21 @@
+kind: mcp
+name: Home Assistant MCP
+accent: '#18BCF2'
+initials: HA
+license: 'Apache-2.0'
+website: https://www.home-assistant.io/integrations/mcp_server/
+repo: https://github.com/home-assistant/core
+install: 'uvx mcp-proxy --transport=streamablehttp http://homeassistant.local:8123/api/mcp'
+featured: false
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [smart-home, 智能家居, home-assistant, iot, automation]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, self-hostable]
+tagline:
+  zh: 让 AI 控制你的智能家居
+  en: Let AI control your smart home
+description:
+  zh: Home Assistant 官方内置的 MCP Server 集成，把家里暴露的设备与自动化通过 Assist API 交给 AI，用自然语言查询状态、开关设备、触发场景。本地自托管，需长期访问令牌，客户端经 mcp-proxy 连接。
+  en: The official MCP Server integration built into Home Assistant, exposing your devices and automations through the Assist API so AI can query states, toggle devices and trigger scenes in natural language. Self-hosted and local; needs a long-lived access token, with clients connecting via mcp-proxy.

@@ -1,0 +1,21 @@
+kind: mcp
+name: Cloudflare MCP
+accent: '#F38020'
+initials: CF
+license: 'Apache-2.0'
+website: https://github.com/cloudflare/mcp-server-cloudflare
+repo: https://github.com/cloudflare/mcp-server-cloudflare
+install: 'npx mcp-remote https://observability.mcp.cloudflare.com/mcp'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [cloudflare, devops, workers, 云]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 用自然语言操作 Cloudflare 账户与服务
+  en: Operate your Cloudflare account and services in natural language
+description:
+  zh: Cloudflare 官方开源的一组 MCP 服务器，覆盖可观测性、Workers、DNS、Radar、日志等多种服务，让模型通过 OAuth 授权管理你的 Cloudflare 账户。通过 mcp-remote 连接，需 Cloudflare 账户。
+  en: Cloudflare's official open-source collection of MCP servers spanning observability, Workers, DNS, Radar, logs and more, letting the model manage your Cloudflare account via OAuth. Connect through mcp-remote; a Cloudflare account is required.

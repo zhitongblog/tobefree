@@ -1,0 +1,30 @@
+kind: mcp
+name: Filesystem MCP
+accent: '#2E9E6B'
+initials: FS
+license: 'MIT'
+website: https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
+repo: https://github.com/modelcontextprotocol/servers
+install: 'npx -y @modelcontextprotocol/server-filesystem /path/to/allowed/dir'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [文件系统, 本地文件, 读写]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 安全地读写本地文件
+  en: Let AI securely read and write local files
+description:
+  zh: 官方参考实现的 MCP 服务器，向模型提供受控的本地文件读写、搜索、移动和目录操作能力，可配置允许访问的目录范围。
+  en: An official reference MCP server exposing controlled local file read/write, search, move and directory tools to the model, with configurable allowed-directory access.
+review:
+  zh: |
+    Filesystem 几乎是每个 Agent 工作流的地基。它把「读文件、写文件、列目录、搜索内容」这些最基础的能力用标准协议暴露出来，并通过白名单目录把访问范围牢牢锁死——模型只能碰你明确授权的路径，不会误伤系统其他部分。
+
+    它完全在本地运行，不联网、不需要账号或 API Key，也没有任何遥测。作为官方参考实现，代码简洁、行为可预测，是学习 MCP 和搭建本地自动化的首选起点。
+  en: |
+    Filesystem is the foundation of nearly every agent workflow. It exposes the most basic capabilities — read, write, list, search — over a standard protocol, and locks access down with an allow-listed directory model so the model can only touch paths you explicitly authorize.
+
+    It runs entirely locally with no network, no account, no API key, and no telemetry. As an official reference implementation the code is small and its behavior predictable, making it the best starting point for learning MCP and building local automation.

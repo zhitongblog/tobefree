@@ -7,6 +7,7 @@ import { useTranslations, localizedPath, type Lang } from '../../i18n/utils';
 import {
   getAllTools, getFeatured, getPopular, getSelfMade, inCategory, localePaths,
 } from '../../lib/tools';
+import { getAllSkills } from '../../lib/skills';
 
 export function getStaticPaths() {
   return localePaths();
@@ -20,6 +21,7 @@ const all = await getAllTools();
 const popular = await getPopular();
 const featured = await getFeatured();
 const selfMade = await getSelfMade();
+const skillsCount = (await getAllSkills()).length;
 
 // Editor's picks grid = featured tools that aren't already in the popular band.
 const picks = featured.filter((tool) => !tool.data.popular).slice(0, 9);
@@ -117,6 +119,22 @@ const jsonLd = {
       })}
     </div>
   </section>
+
+  <!-- Skills & MCP — extend your AI, freely -->
+  {skillsCount > 0 && (
+    <section class="skills-cta">
+      <div class="container">
+        <div class="skills-inner">
+          <div class="skills-copy">
+            <p class="eyebrow">🔌 {t('skills.title')} · {skillsCount}</p>
+            <h2>{t('home.skills')}</h2>
+            <p>{t('home.skills.sub')}</p>
+          </div>
+          <a class="btn btn-primary" href={localizedPath(lang, 'skills')}>{t('home.skills.cta')}</a>
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- Made by us — modest secondary strip -->
   {selfMade.length > 0 && (
@@ -335,4 +353,33 @@ const jsonLd = {
     text-overflow: ellipsis;
   }
   .center { text-align: center; }
+
+  /* Skills & MCP callout */
+  .skills-cta {
+    background:
+      radial-gradient(720px 300px at 50% 0%, var(--green-soft), transparent 70%),
+      var(--surface);
+    border-block: 1px solid var(--border);
+    padding-block: clamp(2.2rem, 5vw, 3.2rem);
+    margin-top: 1rem;
+  }
+  .skills-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .skills-copy .eyebrow {
+    color: var(--green);
+  }
+  .skills-copy h2 {
+    font-size: clamp(1.5rem, 3.4vw, 2.1rem);
+    margin-top: 0.3rem;
+  }
+  .skills-copy p {
+    color: var(--text-soft);
+    margin-top: 0.4rem;
+    max-width: 48ch;
+  }
 </style>

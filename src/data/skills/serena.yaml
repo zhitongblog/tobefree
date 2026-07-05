@@ -1,0 +1,21 @@
+kind: mcp
+name: Serena
+accent: '#7C5CFF'
+initials: SE
+license: 'MIT'
+website: https://oraios.github.io/serena
+repo: https://github.com/oraios/serena
+install: 'uvx --from git+https://github.com/oraios/serena serena start-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [code, 编程, agent, semantic]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, self-hostable]
+tagline:
+  zh: 给 Agent 一套语义级代码理解与编辑工具
+  en: Semantic code retrieval and editing tools for your agent
+description:
+  zh: 一个开源的编码 Agent 工具箱，借助语言服务器在符号级别理解代码——按符号查找、引用、精准编辑与重构，而不是靠行号和字符串匹配。让 AI 在大型代码库里更快更可靠，是 Cursor、Windsurf 的免费替代。纯本地运行。
+  en: An open-source coding-agent toolkit that understands code at the symbol level via language servers — find symbols, references, and edit or refactor precisely instead of relying on line numbers and string matching. It makes AI faster and more reliable in large codebases, a free alternative to Cursor and Windsurf. Runs fully locally.

@@ -1,0 +1,30 @@
+kind: skill
+name: Claude Code Templates
+accent: '#EC4899'
+initials: CT
+license: 'MIT'
+website: https://aitmpl.com
+repo: https://github.com/davila7/claude-code-templates
+install: 'npx claude-code-templates@latest'
+featured: false
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [claude-code, 组件库, agents, commands, mcp]
+clients: [Claude Code]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Claude Code 的组件库与配置 CLI（aitmpl）
+  en: A component library and config CLI for Claude Code (aitmpl)
+description:
+  zh: >-
+    Daniel Avila 开源（MIT）的 Claude Code 组件库与 CLI，收录 900+ 现成组件——AI Agent、自定义命令、
+    设置、hooks、MCP 集成与项目模板，一条 npx 命令即可安装，还内置本地分析看板监控用量。
+    配套网站 aitmpl.com 可视化浏览，被称为 Claude Code 生态的"包管理器"。GitHub 上 2.8 万+ star。
+  en: >-
+    Daniel Avila's open-source (MIT) component library and CLI for Claude Code, hosting
+    900+ ready-to-use components — AI agents, custom commands, settings, hooks, MCP
+    integrations and project templates — installable in one npx command, with a built-in
+    local analytics dashboard for usage. The companion site aitmpl.com lets you browse
+    everything visually. Often called the "package manager" for the Claude Code ecosystem.
+    28k+ GitHub stars.

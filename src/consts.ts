@@ -66,6 +66,14 @@ export const PLATFORM_IDS = PLATFORMS.map((p) => p.id) as [PlatformId, ...Platfo
 export const PRICE_MODELS = ['free', 'freemium'] as const;
 export type PriceModel = (typeof PRICE_MODELS)[number];
 
+/** Kinds in the Skills & MCP module. */
+export const SKILL_KINDS = [
+  { id: 'mcp', icon: '🔌', label: { zh: 'MCP 服务', en: 'MCP Server' } },
+  { id: 'skill', icon: '✨', label: { zh: '技能', en: 'Skill' } },
+] as const;
+export type SkillKind = (typeof SKILL_KINDS)[number]['id'];
+export const skillKindById = Object.fromEntries(SKILL_KINDS.map((k) => [k.id, k]));
+
 // Lookup helpers -------------------------------------------------------------
 
 export const categoryById = Object.fromEntries(CATEGORIES.map((c) => [c.id, c]));

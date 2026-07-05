@@ -1,0 +1,21 @@
+kind: mcp
+name: Todoist MCP
+accent: '#E44332'
+initials: TD
+license: 'MIT'
+website: https://github.com/Doist/todoist-mcp
+repo: https://github.com/Doist/todoist-mcp
+install: 'claude mcp add --transport http todoist https://ai.todoist.net/mcp'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [todoist, 任务, tasks, todo, productivity]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 用自然语言管理 Todoist 任务
+  en: Manage Todoist tasks in natural language
+description:
+  zh: Doist 官方开源的 MCP 服务器，让 Agent 用自然语言创建、查询、更新和完成 Todoist 任务与项目。可用官方托管的 HTTP 端点，也可克隆自建，需要 Todoist API Token。
+  en: Doist's official open-source MCP server that lets agents create, search, update and complete Todoist tasks and projects in natural language. Use the official hosted HTTP endpoint or self-host from source; requires a Todoist API token.

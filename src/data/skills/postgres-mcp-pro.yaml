@@ -1,0 +1,21 @@
+kind: mcp
+name: Postgres MCP Pro
+accent: '#336791'
+initials: PG
+license: 'MIT'
+website: https://www.crystaldba.ai
+repo: https://github.com/crystaldba/postgres-mcp
+install: 'pipx install postgres-mcp'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [database, postgres, 数据库, sql]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, self-hostable]
+tagline:
+  zh: 会调优的 Postgres 数据库 MCP
+  en: A Postgres MCP that also tunes your database
+description:
+  zh: Crystal DBA 出品的开源 MCP 服务器，为 AI Agent 提供 Postgres 的读写访问、健康检查、索引调优和 EXPLAIN 执行计划分析。支持只读的受限模式，可安全用于生产环境，全程本地运行。
+  en: An open-source MCP server from Crystal DBA giving AI agents read/write access to Postgres plus database health checks, index tuning and EXPLAIN plan analysis. A restricted read-only mode makes it safe for production, and it runs entirely locally.

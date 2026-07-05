@@ -1,0 +1,21 @@
+kind: mcp
+name: Memory MCP
+accent: '#7C3AED'
+initials: ME
+license: 'MIT'
+website: https://github.com/modelcontextprotocol/servers/tree/main/src/memory
+repo: https://github.com/modelcontextprotocol/servers
+install: 'npx -y @modelcontextprotocol/server-memory'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [记忆, 知识图谱, 持久化]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 给 AI 一个基于知识图谱的持久记忆
+  en: Give AI a knowledge-graph persistent memory
+description:
+  zh: 官方参考实现的 MCP 服务器，用本地知识图谱存储实体、关系和观察，让模型在多次会话之间记住并检索信息。
+  en: An official reference MCP server that stores entities, relations and observations in a local knowledge graph, letting the model remember and retrieve information across sessions.

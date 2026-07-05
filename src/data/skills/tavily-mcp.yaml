@@ -1,0 +1,30 @@
+kind: mcp
+name: Tavily MCP
+accent: '#1CA39A'
+initials: TV
+license: 'MIT'
+website: https://docs.tavily.com/documentation/mcp
+repo: https://github.com/tavily-ai/tavily-mcp
+install: 'npx -y tavily-mcp@latest'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [search, 搜索, research, crawl]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 专为 Agent 打造的实时搜索、抓取与爬站
+  en: Real-time search, extract, map and crawl built for agents
+description:
+  zh: Tavily 官方的 MCP 服务器，把实时网页搜索、内容提取、站点地图与整站爬取四合一，结果面向 LLM 优化、可直接引用，非常适合做检索增强与自动化研究。需要免费 API Key。
+  en: Tavily's official MCP server bundling real-time web search, content extraction, site mapping and full-site crawl, with LLM-optimized, citation-ready results — a natural fit for RAG and automated research. Requires a free API key.
+review:
+  zh: |
+    Tavily 是专门为 AI Agent 设计的搜索 API，把「搜索、提取、建图、爬站」四件事打包成一个 MCP 服务器。它不只返回链接，还会把网页内容清洗成结构化、可直接引用的结果，省去了 Agent 自己抓取和解析的麻烦，非常适合做检索增强（RAG）和自动化研究。
+
+    官方维护、MIT 开源、可本地运行，接入简单，一行 npx 即可启动。免费额度对个人和原型开发很友好，是在网页搜索之外还想要内容提取和整站爬取能力时的稳妥选择。
+  en: |
+    Tavily is a search API purpose-built for AI agents, packaging search, extract, map and crawl into a single MCP server. It doesn't just return links — it cleans page content into structured, citation-ready results, sparing the agent from fetching and parsing itself. That makes it a natural fit for RAG and automated research.
+
+    Officially maintained, MIT-licensed and runnable locally, it starts with a single npx command. The free tier is friendly for individuals and prototypes, making it a solid choice when you want extraction and full-site crawling on top of plain web search.

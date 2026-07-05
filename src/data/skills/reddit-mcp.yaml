@@ -1,0 +1,21 @@
+kind: mcp
+name: Reddit MCP
+accent: '#FF4500'
+initials: RE
+license: 'MIT'
+website: https://github.com/Hawstein/mcp-server-reddit
+repo: https://github.com/Hawstein/mcp-server-reddit
+install: 'uvx mcp-server-reddit'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [reddit, 社区, community, news, knowledge]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 浏览 Reddit 的热帖和讨论
+  en: Let AI browse Reddit posts and discussions
+description:
+  zh: 开源的 MCP 服务器，让模型抓取 Reddit 的首页与子版热门/最新/最佳帖子、版块信息以及帖子详情和评论。基于公开接口，无需 API 凭据或账号。
+  en: An open-source MCP server that lets the model fetch Reddit frontpage and subreddit hot/new/top posts, subreddit info, and post details with comments. Built on the public API, so it needs no API credentials or account.

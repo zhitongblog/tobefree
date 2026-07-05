@@ -1,0 +1,48 @@
+kind: skill
+name: wshobson Agents
+accent: '#6366F1'
+initials: WA
+license: 'MIT'
+website: https://github.com/wshobson/agents
+repo: https://github.com/wshobson/agents
+install: '/plugin marketplace add wshobson/agents'
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [claude-code, subagents, 插件市场, 技能集, 多客户端]
+clients: [Claude Code, Codex, Cursor, OpenCode, Gemini CLI, GitHub Copilot]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 生产级的 Agent / Skill 插件市场，按需组装
+  en: A production-grade agent & skill plugin marketplace you compose on demand
+description:
+  zh: >-
+    Will Hobson 开源（MIT）的大型 Claude Code 插件市场，含约 88 个插件、190+ 专职子 Agent、
+    150+ 技能与 100+ 斜杠命令。理念是可组合：只装你需要的，控制 token 预算，用多个专家 Agent
+    协作完成复杂任务。GitHub 上 3.7 万+ star。
+  en: >-
+    Will Hobson's open-source (MIT) marketplace for Claude Code — around 88 plugins,
+    190+ specialized subagents, 150+ skills and 100+ slash commands. The bet is
+    composability: install only what you need, keep token budgets tight, and orchestrate
+    multiple expert agents for complex tasks. 37k+ GitHub stars.
+review:
+  zh: |
+    很多 Agent 合集是"一大坨都塞给你"，wshobson/agents 反其道而行：它是一个插件市场，把子 Agent、
+    技能、命令拆成几十个小包，你按项目类型（Python 开发、DevOps、安全审计……）只装用得到的那几个，
+    避免把上下文塞爆。每个子 Agent 都是聚焦某一领域的专家，复杂任务由多个 Agent 编排协作。
+
+    它以 MIT 开源、免费、无追踪、无需注册。最大的亮点是"一份 Markdown 源、多端可用"——同一套定义能
+    生成 Claude Code、Codex、Cursor、OpenCode、Gemini CLI、GitHub Copilot 各自的原生产物，是目前
+    最受欢迎的 Claude Code 生态项目之一。
+  en: |
+    Many agent collections dump everything on you at once; wshobson/agents does the opposite. It's a
+    marketplace that splits subagents, skills and commands into dozens of small plugins, so you install
+    only the ones a project needs (Python development, DevOps, security audit…) without blowing up your
+    context. Each subagent is a focused domain expert, and complex tasks are handled by orchestrating
+    several of them together.
+
+    It's MIT-licensed, free, no tracking and no sign-up. Its standout trait is "one Markdown source,
+    many harnesses" — the same definitions generate native artifacts for Claude Code, Codex, Cursor,
+    OpenCode, Gemini CLI and GitHub Copilot, making it one of the most popular projects in the whole
+    Claude Code ecosystem.

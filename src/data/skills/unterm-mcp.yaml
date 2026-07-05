@@ -1,0 +1,34 @@
+kind: mcp
+name: Unterm
+accent: '#3A3740'
+initials: UT
+license: 'MIT'
+website: https://unterm.app
+repo: https://github.com/zhitongblog/unterm
+install: ''
+featured: false
+popular: false
+selfMade: true
+added: '2026-07-05'
+tags: [终端, terminal, 自动化]
+clients: [Claude, Claude Code, Cursor, Codex, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 把整个终端暴露成 65+ 个 MCP 方法
+  en: Exposes an entire terminal as 65+ MCP methods
+description:
+  zh: Unterm 是我们自研的终端，通过 MCP 暴露 65+ 个方法（跨 11 个命名空间）—— 开窗格、跑命令、读屏、录制、多实例编排，让任意 AI 客户端安全地驱动终端。
+  en: Unterm is our own terminal that exposes 65+ MCP methods across 11 namespaces — spawn panes, run commands, read the screen, record, orchestrate instances — so any AI client can safely drive a terminal.
+review:
+  zh: |
+    大多数 MCP 服务器只暴露一两个能力，Unterm 直接把"一个终端能做的一切"都开放给 AI：从执行命令、读取屏幕，
+    到录制会话、多窗口编排，共 65+ 个方法。人类始终握有最终控制权。
+
+    它是 Rust 写的、MIT 开源、跨平台。想让 AI 真正在终端里替你干活、又不失控，这是最完整的一套。
+  en: |
+    Most MCP servers expose one or two capabilities; Unterm opens up everything a terminal can do — from
+    running commands and reading the screen to recording sessions and orchestrating windows — across 65+
+    methods, with the human always in final control.
+
+    It's written in Rust, MIT-licensed and cross-platform. If you want AI to genuinely work in your terminal
+    without losing oversight, this is the most complete kit.

@@ -1,0 +1,21 @@
+kind: mcp
+name: Ziplark
+accent: '#C99A2E'
+initials: ZL
+license: 'MIT'
+website: https://ziplark.app
+repo: https://github.com/zhitongblog/ziplark
+install: ''
+featured: false
+popular: false
+selfMade: true
+added: '2026-07-05'
+tags: [压缩, 解压, archive]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 让 AI 帮你打包解包各种压缩文件
+  en: Lets AI pack and unpack archives for you
+description:
+  zh: Ziplark 自带 ziplark-mcp 服务器，把解压 ZIP/RAR/7z/tar、创建 ZIP/7z/tar 的能力开放给 AI —— 全部在本地完成，无需联网。
+  en: Ziplark ships a ziplark-mcp server that exposes extracting ZIP/RAR/7z/tar and creating ZIP/7z/tar to AI — all done locally, no network needed.

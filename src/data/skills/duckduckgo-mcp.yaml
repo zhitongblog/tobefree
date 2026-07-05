@@ -1,0 +1,21 @@
+kind: mcp
+name: DuckDuckGo MCP
+accent: '#DE5833'
+initials: DD
+license: 'MIT'
+website: https://github.com/nickclyde/duckduckgo-mcp-server
+repo: https://github.com/nickclyde/duckduckgo-mcp-server
+install: 'uvx duckduckgo-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [search, 搜索, privacy, 隐私]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 无需 API Key 的隐私网页搜索
+  en: Privacy web search with no API key
+description:
+  zh: 社区维护的 MCP 服务器，通过 DuckDuckGo 为 Agent 提供网页搜索，并能抓取、解析结果页内容为干净文本。无需账号或 API Key，注重隐私、开箱即用。
+  en: A community MCP server that gives agents web search via DuckDuckGo and can fetch and parse result pages into clean text. No account or API key required — privacy-focused and ready out of the box.

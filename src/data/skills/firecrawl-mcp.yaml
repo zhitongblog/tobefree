@@ -1,0 +1,21 @@
+kind: mcp
+name: Firecrawl MCP
+accent: '#FF5A1F'
+initials: FC
+license: 'MIT'
+website: https://www.firecrawl.dev
+repo: https://github.com/mendableai/firecrawl-mcp-server
+install: 'npx -y firecrawl-mcp'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [scraping, 爬虫, web, crawl]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 把整个网站抓成干净的 AI 可读内容
+  en: Turn whole websites into clean, agent-ready content
+description:
+  zh: Firecrawl 官方的 MCP 服务器，为 Agent 提供网页抓取、批量爬取、站点地图与结构化提取，输出干净的 Markdown。可用官方免费额度，也能自建 Firecrawl 指向本地实例。需要 API Key。
+  en: Firecrawl's official MCP server giving agents web scraping, batch crawling, site mapping and structured extraction, output as clean Markdown. Use the hosted free tier or self-host Firecrawl and point it at your own instance. Requires an API key.

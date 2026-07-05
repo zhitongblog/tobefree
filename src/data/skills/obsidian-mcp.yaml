@@ -1,0 +1,21 @@
+kind: mcp
+name: Obsidian MCP
+accent: '#7C3AED'
+initials: OB
+license: 'MIT'
+website: https://github.com/MarkusPfundstein/mcp-obsidian
+repo: https://github.com/MarkusPfundstein/mcp-obsidian
+install: 'uvx mcp-obsidian'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [obsidian, 笔记, notes, 知识库, knowledge]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, self-hostable]
+tagline:
+  zh: 让 AI 读写你的 Obsidian 知识库
+  en: Let AI read and write your Obsidian vault
+description:
+  zh: 开源的 MCP 服务器，通过 Obsidian 的 Local REST API 社区插件访问本地知识库，让 Agent 检索、阅读、创建和编辑笔记。数据全程留在本机，需要该插件生成的 API Key。
+  en: An open-source MCP server that reaches your local vault through Obsidian's Local REST API community plugin, letting agents search, read, create and edit notes. Everything stays on your machine; it needs the API key the plugin generates.

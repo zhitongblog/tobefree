@@ -1,0 +1,21 @@
+kind: mcp
+name: Fetch MCP
+accent: '#3B82F6'
+initials: FE
+license: 'MIT'
+website: https://github.com/modelcontextprotocol/servers/tree/main/src/fetch
+repo: https://github.com/modelcontextprotocol/servers
+install: 'uvx mcp-server-fetch'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [网页抓取, markdown, 联网]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 抓取网页并转成 Markdown 喂给模型
+  en: Fetch a web page and convert it to Markdown for the model
+description:
+  zh: 官方参考实现的 MCP 服务器，抓取指定 URL 的内容并转换为简洁的 Markdown，便于模型高效阅读，支持分段获取长页面。
+  en: An official reference MCP server that fetches a URL and converts its content into clean Markdown for efficient model consumption, with chunked reading of long pages.

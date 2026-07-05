@@ -1,0 +1,26 @@
+kind: skill
+name: Frontend Design
+accent: '#EC4899'
+initials: FD
+license: 'Apache-2.0'
+website: https://github.com/anthropics/skills/tree/main/skills/frontend-design
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [设计, 前端, ui, 排版, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 让 Agent 做出有辨识度、不"模板味"的界面
+  en: Helps an agent design UI that doesn't look templated
+description:
+  zh: >-
+    Anthropic 官方开源（Apache-2.0）技能，在构建或改造界面时给 Claude 提供审美方向、字体排版和布局上的指导，
+    帮它做出有主张、不落俗套的设计，避免千篇一律的"默认模板"观感。
+  en: >-
+    An official open-source (Apache-2.0) skill that gives Claude aesthetic
+    direction, typography and layout guidance when building or reshaping UI, helping
+    it make distinctive, intentional choices instead of templated defaults.

@@ -1,0 +1,21 @@
+kind: mcp
+name: Spotify MCP
+accent: '#1DB954'
+initials: SP
+license: 'MIT'
+website: https://github.com/varunneal/spotify-mcp
+repo: https://github.com/varunneal/spotify-mcp
+install: 'uvx --python 3.12 --from git+https://github.com/varunneal/spotify-mcp spotify-mcp'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [spotify, 音乐, music, playback, entertainment]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 用自然语言控制 Spotify 播放
+  en: Control Spotify playback in natural language
+description:
+  zh: 开源的 MCP 服务器，让 AI 连上 Spotify，实现播放、暂停、跳曲、搜索曲目/专辑/歌单，以及管理播放队列和歌单。需要自建 Spotify 开发者应用凭据和 Premium 账号。
+  en: An open-source MCP server that connects AI to Spotify to start, pause and skip playback, search tracks/albums/playlists, and manage the queue and playlists. Requires your own Spotify developer app credentials and a Premium account.

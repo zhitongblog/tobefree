@@ -1,0 +1,21 @@
+kind: mcp
+name: Sequential Thinking MCP
+accent: '#0EA5E9'
+initials: ST
+license: 'MIT'
+website: https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
+repo: https://github.com/modelcontextprotocol/servers
+install: 'npx -y @modelcontextprotocol/server-sequential-thinking'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [推理, 思维链, 结构化思考]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 分步骤结构化地思考问题
+  en: Let AI reason through problems step by step
+description:
+  zh: 官方参考实现的 MCP 服务器，提供一套结构化的分步思考工具，支持修正、分支和回溯，帮助模型进行更严谨的反思式推理。
+  en: An official reference MCP server offering a structured step-by-step thinking tool that supports revision, branching and backtracking for more rigorous, reflective reasoning.

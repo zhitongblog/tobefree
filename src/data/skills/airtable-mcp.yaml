@@ -1,0 +1,21 @@
+kind: mcp
+name: Airtable MCP
+accent: '#2D7FF9'
+initials: AT
+license: 'MIT'
+website: https://github.com/domdomegg/airtable-mcp-server
+repo: https://github.com/domdomegg/airtable-mcp-server
+install: 'npx -y airtable-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [airtable, 数据库, database, no-code, productivity]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 让 AI 读写你的 Airtable 数据表
+  en: Let AI read and write your Airtable bases
+description:
+  zh: 开源的 MCP 服务器，让模型检查 Airtable 表结构、读取和写入记录，把 Airtable 当轻量数据库交给 Agent 操作。需要 Airtable 个人访问令牌。
+  en: An open-source MCP server that lets the model inspect Airtable schemas and read and write records, handing your Airtable bases to agents as a lightweight database. Requires an Airtable personal access token.

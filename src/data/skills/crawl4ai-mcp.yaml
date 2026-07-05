@@ -1,0 +1,21 @@
+kind: mcp
+name: Crawl4AI MCP
+accent: '#22A699'
+initials: C4
+license: 'Apache-2.0'
+website: https://docs.crawl4ai.com
+repo: https://github.com/unclecode/crawl4ai
+install: 'docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g unclecode/crawl4ai:latest'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [crawl, 爬虫, scraping, web]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 完全自托管、为 LLM 而生的开源爬虫
+  en: A fully self-hosted, open-source crawler built for LLMs
+description:
+  zh: Crawl4AI 官方内置的 MCP 服务器，一个完全开源、可自托管的 LLM 友好网页爬虫。通过 Docker 本地运行即可抓取网页并输出干净的 Markdown，本地部署无需第三方 API Key。
+  en: The MCP server built into Crawl4AI, a fully open-source, self-hostable, LLM-friendly web crawler. Run it locally via Docker to crawl pages and produce clean Markdown — no third-party API key for local use.

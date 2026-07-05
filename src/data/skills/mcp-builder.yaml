@@ -1,0 +1,27 @@
+kind: skill
+name: MCP Builder
+accent: '#0EA5E9'
+initials: MB
+license: 'Apache-2.0'
+website: https://github.com/anthropics/skills/tree/main/skills/mcp-builder
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [mcp, 服务端, fastmcp, typescript, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 教 Agent 构建高质量的 MCP 服务器
+  en: Teaches an agent to build high-quality MCP servers
+description:
+  zh: >-
+    Anthropic 官方开源（Apache-2.0）技能，指导 Claude 构建设计良好的 MCP（Model Context Protocol）服务器，
+    把外部 API 或服务封装成规范的工具。支持 Python（FastMCP）和 Node/TypeScript（MCP SDK）两套技术栈。
+  en: >-
+    An official open-source (Apache-2.0) skill that guides Claude in building
+    well-designed MCP (Model Context Protocol) servers, wrapping external APIs or
+    services into clean, well-specified tools. Covers both Python (FastMCP) and
+    Node/TypeScript (MCP SDK) stacks.

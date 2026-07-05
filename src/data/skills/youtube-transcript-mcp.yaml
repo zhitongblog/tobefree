@@ -1,0 +1,21 @@
+kind: mcp
+name: YouTube Transcript MCP
+accent: '#FF0000'
+initials: YT
+license: 'MIT'
+website: https://github.com/sinco-lab/mcp-youtube-transcript
+repo: https://github.com/sinco-lab/mcp-youtube-transcript
+install: 'npx -y @sinco-lab/mcp-youtube-transcript'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [youtube, transcript, 字幕, video]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 一键抓取 YouTube 视频字幕
+  en: Pull YouTube video transcripts in one call
+description:
+  zh: 一个 TypeScript 编写的 MCP 服务器，为 Agent 抓取 YouTube 视频的字幕/文字稿，支持多语言，请求从本机发起，便于做视频内容总结与分析。无需 API Key。
+  en: A TypeScript MCP server that fetches YouTube video transcripts for agents, with multi-language support and requests made from your own machine — great for summarizing and analyzing video content. No API key required.

@@ -1,0 +1,30 @@
+kind: mcp
+name: Context7
+accent: '#2E9E6B'
+initials: C7
+license: 'MIT'
+website: https://context7.com
+repo: https://github.com/upstash/context7
+install: 'npx -y @upstash/context7-mcp'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [docs, 文档, api]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 给 AI 实时、版本准确的库文档
+  en: Up-to-date, version-accurate library docs for AI
+description:
+  zh: 一个 MCP 服务器，把最新的官方库文档和代码示例按版本喂给模型，减少过时或凭空捏造的 API 用法。在提示词里加一句 use context7 即可拉取。
+  en: An MCP server that feeds current, version-specific official library docs and code examples to the model, cutting stale or hallucinated APIs. Just add "use context7" to your prompt.
+review:
+  zh: |
+    大模型对库的记忆停在训练截止那一刻，写出来的代码常常引用早已改名或废弃的 API。Context7 的思路很直接：在你提问时实时抓取该库当前版本的官方文档和示例，塞进上下文，让模型照着最新写法来。
+
+    它开源、MIT 许可，本地跑一个 npx 命令即可接入 Claude、Cursor、Cline 等几乎所有 MCP 客户端，基础用量无需注册。对天天和第三方库打交道的人来说，这是把幻觉 API 压到最低的最省事办法之一。
+  en: |
+    An LLM's memory of a library freezes at its training cutoff, so it happily writes code against APIs that were renamed or removed long ago. Context7's approach is simple: at query time it pulls the current version's official docs and examples into context so the model codes against the real, latest surface.
+
+    It's open source under MIT, runs as a single local npx command, and plugs into Claude, Cursor, Cline and virtually any MCP client — with basic usage needing no sign-up. For anyone living in third-party libraries, it's one of the lowest-effort ways to squash hallucinated APIs.

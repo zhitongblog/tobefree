@@ -1,0 +1,21 @@
+kind: mcp
+name: Apple Notes MCP
+accent: '#E8B800'
+initials: AN
+license: 'MIT'
+website: https://github.com/Dan8Oren/mcp-apple-notes
+repo: https://github.com/Dan8Oren/mcp-apple-notes
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [apple-notes, 笔记, notes, macos, knowledge]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 读写你的 Apple 备忘录
+  en: Let AI read and write your Apple Notes
+description:
+  zh: 开源的 macOS MCP 服务器，通过 JXA 脚本桥访问 Apple Notes，支持增删改查、按文件夹浏览，并在本地跑嵌入模型做语义搜索。100% 本地运行，无需 API Key，数据不出本机。
+  en: An open-source macOS MCP server that reaches Apple Notes via the JXA scripting bridge, supporting full CRUD, folder browsing and local-embedding semantic search. Runs 100% locally with no API keys, so your data never leaves the machine.

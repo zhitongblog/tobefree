@@ -1,0 +1,29 @@
+kind: skill
+name: Awesome Claude Code Subagents
+accent: '#F59E0B'
+initials: AC
+license: 'MIT'
+website: https://github.com/VoltAgent/awesome-claude-code-subagents
+repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+install: ''
+featured: false
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [claude-code, subagents, 技能集, 社区, 精选]
+clients: [Claude Code]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 150+ 专职 Claude Code 子 Agent 的精选合集
+  en: A curated collection of 150+ specialized Claude Code subagents
+description:
+  zh: >-
+    VoltAgent 维护的开源（MIT）子 Agent 合集，收录 150+ 个覆盖核心开发、基础设施、安全、数据、
+    业务分析等 10 大类的专职子 Agent。每个都是独立上下文、有精心编写指令与工具权限的领域专家，
+    可全局或按项目安装。GitHub 上 2 万+ star。
+  en: >-
+    An open-source (MIT) subagent collection maintained by VoltAgent, gathering 150+
+    specialized subagents across 10 categories — core development, infrastructure,
+    security, data, business analysis and more. Each runs in its own context with
+    carefully written instructions and tool permissions, installable globally or per
+    project. 20k+ GitHub stars.

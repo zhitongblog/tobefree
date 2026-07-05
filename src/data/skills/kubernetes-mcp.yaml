@@ -1,0 +1,30 @@
+kind: mcp
+name: Kubernetes MCP
+accent: '#326CE5'
+initials: K8
+license: 'MIT'
+website: https://github.com/Flux159/mcp-server-kubernetes
+repo: https://github.com/Flux159/mcp-server-kubernetes
+install: 'npx mcp-server-kubernetes'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [kubernetes, k8s, devops, 集群]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable, cross-platform]
+tagline:
+  zh: 用自然语言操作和排障 Kubernetes 集群
+  en: Operate and troubleshoot Kubernetes clusters in natural language
+description:
+  zh: 一个开源 MCP 服务器，连接你的 Kubernetes 集群，让模型列 Pod、看日志、描述资源并跑系统化排障流程。提供只读/非破坏性模式并对 Secret 脱敏，沿用现有 kubeconfig，无需额外注册。
+  en: An open-source MCP server that connects to your Kubernetes cluster so the model can list pods, read logs, describe resources and run systematic troubleshooting flows. Offers a read-only/non-destructive mode with secrets masking, reuses your existing kubeconfig, and needs no extra sign-up.
+review:
+  zh: |
+    当你的服务跑在 Kubernetes 上，排障往往意味着在 kubectl、日志和一堆 YAML 之间反复横跳。这个 MCP 服务器把集群操作直接接给模型：列 Pod、看日志、描述资源、跑排障流程，甚至按关键字对某个命名空间做系统化的故障诊断——全部用自然语言完成。它从多个来源按优先级加载 kubeconfig，沿用你已有的集群凭据。
+
+    它提供「非破坏性模式」，只允许只读和创建/更新操作、并对 Secret 做脱敏，避免模型误删生产资源；还可选接入 OpenTelemetry 观测。MIT 许可、一条 npx 命令即可接入 Claude、Cursor、Cline 等客户端，不需要额外注册。对天天和集群打交道的人来说，这是把 AI 变成随叫随到的 SRE 助手的实用起点。
+  en: |
+    When your services live on Kubernetes, debugging usually means bouncing between kubectl, logs, and a pile of YAML. This MCP server hands cluster operations to the model: list pods, read logs, describe resources, run troubleshooting flows, even do a systematic diagnosis of a namespace by keyword — all in natural language. It loads kubeconfig from multiple sources in priority order, reusing the cluster credentials you already have.
+
+    It ships a non-destructive mode that allows read and create/update-only access with secrets masking, so the model can't delete production resources by accident, plus optional OpenTelemetry observability. It's MIT-licensed and connects to Claude, Cursor, Cline and others with a single npx command and no extra sign-up. For anyone living in clusters, it's a practical start to turning AI into an on-call SRE assistant.

@@ -1,0 +1,21 @@
+kind: mcp
+name: Hacker News MCP
+accent: '#FF6600'
+initials: HN
+license: 'MIT'
+website: https://github.com/erithwik/mcp-hn
+repo: https://github.com/erithwik/mcp-hn
+install: 'uvx mcp-hn'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [hackernews, hn, news, 资讯]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 让 Agent 浏览 Hacker News 头条与讨论
+  en: Let agents browse Hacker News stories and threads
+description:
+  zh: 一个 MCP 服务器，基于官方 Hacker News API，为 Agent 提供头条、最新、Ask/Show 榜单以及帖子评论的读取，方便追踪技术圈热点与讨论。无需 API Key。
+  en: An MCP server built on the official Hacker News API, giving agents access to top, new, Ask/Show listings and post comments — handy for tracking tech news and discussion. No API key required.

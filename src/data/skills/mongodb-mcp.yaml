@@ -1,0 +1,21 @@
+kind: mcp
+name: MongoDB MCP
+accent: '#00ED64'
+initials: MG
+license: 'Apache-2.0'
+website: https://www.mongodb.com
+repo: https://github.com/mongodb-js/mongodb-mcp-server
+install: 'npx -y @mongodb-js/mongodb-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [mongodb, database, atlas, 数据库]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable, cross-platform]
+tagline:
+  zh: 让 AI 连接并查询 MongoDB 与 Atlas
+  en: Connect and query MongoDB and Atlas from AI
+description:
+  zh: MongoDB 官方开源的 MCP 服务器，让模型连接本地 MongoDB 或 Atlas 集群，运行查询、聚合、管理集合与索引，并操作 Atlas 资源。本地以 npx 运行，需提供连接字符串或 Atlas 凭据。
+  en: MongoDB's official open-source MCP server that lets the model connect to a local MongoDB or an Atlas cluster to run queries and aggregations, manage collections and indexes, and administer Atlas resources. Runs locally via npx and needs a connection string or Atlas credentials.

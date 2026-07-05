@@ -1,0 +1,21 @@
+kind: mcp
+name: MarkItDown MCP
+accent: '#083FA1'
+initials: MD
+license: 'MIT'
+website: https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp
+repo: https://github.com/microsoft/markitdown
+install: 'uvx markitdown-mcp'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [markdown, 文档转换, convert, 抓取]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, self-hostable]
+tagline:
+  zh: 把各种文档和网页转成干净的 Markdown
+  en: Convert documents and pages into clean Markdown
+description:
+  zh: 微软官方 markitdown 的 MCP 服务器，通过一个 convert_to_markdown 工具，把 PDF、Word、PPT、Excel、图片、HTML 以及网页 URL 转换成适合 LLM 阅读的干净 Markdown。本地运行、无需 API Key。
+  en: The MCP server for Microsoft's markitdown, exposing a single convert_to_markdown tool that turns PDF, Word, PowerPoint, Excel, images, HTML and web URLs into clean, LLM-ready Markdown. Runs locally with no API key.

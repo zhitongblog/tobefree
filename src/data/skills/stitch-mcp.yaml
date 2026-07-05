@@ -1,0 +1,21 @@
+kind: mcp
+name: Google Stitch MCP
+accent: '#4285F4'
+initials: ST
+license: 'Open Source'
+website: https://stitch.withgoogle.com/docs/mcp/setup/
+repo: https://github.com/davideast/stitch-mcp
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [ui, 设计, design-to-code]
+clients: [Claude Code, Claude Desktop, Cursor, Windsurf, Any MCP client]
+badges: [open-source, no-ads, no-tracking]
+tagline:
+  zh: 把 Google Stitch 生成的 UI 直接接进你的代码
+  en: Pipe Google Stitch-generated UI straight into your code
+description:
+  zh: 一个开源 MCP 服务器，把 Google Stitch 里 AI 生成的界面设计搬进你的开发流程 —— 拿到屏幕代码、截图，按路由拼出站点。客户端开源，使用需一个免费 Google 账号。
+  en: An open-source MCP server that moves AI-generated UI designs from Google Stitch into your dev workflow — fetch screen code, images, and assemble sites by route. The client is open source; use needs a free Google account.

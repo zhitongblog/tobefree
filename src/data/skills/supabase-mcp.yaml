@@ -1,0 +1,21 @@
+kind: mcp
+name: Supabase MCP
+accent: '#3ECF8E'
+initials: SB
+license: 'Apache-2.0'
+website: https://supabase.com
+repo: https://github.com/supabase-community/supabase-mcp
+install: 'npx -y @supabase/mcp-server-supabase@latest --access-token <token>'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [supabase, database, backend, 数据库]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 让 AI 管理你的 Supabase 项目与数据库
+  en: Let AI manage your Supabase projects and database
+description:
+  zh: Supabase 社区维护的开源 MCP 服务器，让模型通过管理 API 操作 Supabase 项目、查询数据库、管理表和 Edge Functions。本地以 npx 运行，需要个人访问令牌。
+  en: A community-maintained open-source MCP server that lets the model work with Supabase projects via the Management API — query the database, manage tables and Edge Functions. Runs locally via npx and requires a personal access token.

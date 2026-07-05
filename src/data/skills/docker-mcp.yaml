@@ -1,0 +1,30 @@
+kind: mcp
+name: Docker MCP
+accent: '#2496ED'
+initials: DK
+license: 'GPL-3.0'
+website: https://github.com/ckreiling/mcp-server-docker
+repo: https://github.com/ckreiling/mcp-server-docker
+install: 'uvx mcp-server-docker'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [docker, containers, devops, 容器]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable, cross-platform]
+tagline:
+  zh: 用自然语言管理 Docker 容器与镜像
+  en: Manage Docker containers and images in natural language
+description:
+  zh: 一个开源 MCP 服务器，连接本机或远程（SSH）的 Docker 守护进程，让模型创建容器、跑 compose、查看日志与实时状态，并管理镜像、网络和卷。完全本地运行，无需账号或 API Key。
+  en: An open-source MCP server that connects to your local or remote (SSH) Docker daemon, letting the model create containers, run compose, inspect logs and live status, and manage images, networks and volumes. Runs fully locally with no account or API key.
+review:
+  zh: |
+    Docker 几乎是现代软件的默认打包与运行方式，而这个 MCP 服务器把「起容器、看日志、查状态、跑 compose」这些日常操作用自然语言接到了模型手里。它连接你本机（或通过 SSH 的远程）Docker 守护进程，让 Agent 直接管理容器、镜像、网络和卷，还能读取每个容器的 CPU、内存等实时指标。
+
+    它完全在本地运行，不需要注册账号或 API Key，也没有任何遥测。出于安全考虑，作者刻意不暴露 --privileged、--cap-add 这类高危选项，避免模型误操作放大权限。采用 GPL-3.0 许可、用 Python 编写，是把 AI 接入容器运维最成熟的开源选择之一。
+  en: |
+    Docker is the default way modern software gets packaged and run, and this MCP server hands the model the everyday moves — spin up containers, tail logs, check status, run compose — through natural language. It talks to your local (or remote-over-SSH) Docker daemon so an agent can manage containers, images, networks and volumes directly, and even read live CPU and memory stats per container.
+
+    It runs entirely on your machine with no account, no API key, and no telemetry. For safety the author deliberately refuses dangerous options like --privileged and --cap-add, so the model can't quietly escalate privileges. Licensed under GPL-3.0 and written in Python, it's one of the most mature open-source ways to put AI in charge of container operations.

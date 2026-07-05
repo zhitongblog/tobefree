@@ -1,0 +1,36 @@
+kind: skill
+name: gstack
+accent: '#111111'
+initials: GS
+license: 'MIT'
+website: https://gstacks.org
+repo: https://github.com/garrytan/gstack
+install: 'npx gstack@latest init'
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [claude-code, 工作流, 团队, sprint, 开发]
+clients: [Claude Code, Cursor, Codex, Cline, Any AI coding agent]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 把 Claude Code 变成一整支软件团队
+  en: Turn Claude Code into a whole software team
+description:
+  zh: Garry Tan 开源的 Claude Code 技能框架，用 23 个斜杠命令覆盖规划、设计、工程评审、QA、安全与发布，把单人开发组织成有结构交接的"虚拟团队"。GitHub 上 10 万+ star。
+  en: Garry Tan's open-source Claude Code skills framework — 23 slash-command skills covering planning, design, engineering review, QA, security and release, turning a solo developer into a structured "virtual team". 100k+ GitHub stars.
+review:
+  zh: |
+    gstack 是眼下最火的 Claude Code 技能框架之一。它不是又一堆散装 prompt，而是把"一家创业公司真正要做的事"
+    编排成有结构的冲刺流程：设计文档被工程评审读取、评审写出测试计划、QA 再接手 —— 环环相扣的交接，才是它和
+    随手提示的区别。
+
+    完全 MIT 开源、免费、无追踪，一条命令即可装。如果你也用 Claude Code，它几乎是必装的"团队增强包"。
+  en: |
+    gstack is one of the hottest Claude Code skills frameworks right now. It isn't just another pile of
+    prompts — it orchestrates "what a startup actually needs to do" into a structured sprint: design docs
+    are read by the engineering review, which writes a test plan that QA then picks up. Those chained
+    hand-offs are what set it apart from ad-hoc prompting.
+
+    Fully MIT open source, free, no tracking, installed with one command. If you use Claude Code, it's
+    close to a must-have "team booster".

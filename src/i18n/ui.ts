@@ -13,6 +13,7 @@ export const ui = {
 
     'nav.home': '首页',
     'nav.tools': '全部工具',
+    'nav.skills': 'Skills & MCP',
     'nav.selfmade': '自研',
     'nav.about': '关于',
     'nav.submit': '推荐工具',
@@ -60,6 +61,22 @@ export const ui = {
     'tool.back': '返回全部工具',
     'tool.related': '同类工具',
 
+    'skills.title': 'Skills & MCP',
+    'skills.sub': '免费、开源的 MCP 服务器与 Agent Skills —— 让你自由扩展 AI，把能力握在自己手里。',
+    'skills.count': '共 {n} 个',
+    'skills.kind.mcp': 'MCP 服务',
+    'skills.kind.skill': '技能',
+    'skills.selfmade': '我们自己做的',
+    'skills.clients': '兼容客户端',
+    'skills.install': '安装 / 添加',
+    'skills.visit': '访问主页',
+    'skills.source': '源代码',
+    'skills.back': '返回 Skills & MCP',
+    'skills.related': '同类',
+    'home.skills': '自由扩展你的 AI',
+    'home.skills.sub': '免费开源的 MCP 服务器与 Agent Skills，让智能体的能力握在你自己手里',
+    'home.skills.cta': '逛 Skills & MCP →',
+
     'about.title': '关于 To Be Free',
 
     'submit.title': '推荐一款工具',
@@ -84,6 +101,7 @@ export const ui = {
 
     'nav.home': 'Home',
     'nav.tools': 'All Tools',
+    'nav.skills': 'Skills & MCP',
     'nav.selfmade': 'Made by Us',
     'nav.about': 'About',
     'nav.submit': 'Suggest',
@@ -130,6 +148,22 @@ export const ui = {
     'tool.source': 'Source code',
     'tool.back': 'Back to all tools',
     'tool.related': 'Similar tools',
+
+    'skills.title': 'Skills & MCP',
+    'skills.sub': 'Free, open-source MCP servers and Agent Skills — extend your AI freely and keep the capabilities in your own hands.',
+    'skills.count': '{n} entries',
+    'skills.kind.mcp': 'MCP Servers',
+    'skills.kind.skill': 'Skills',
+    'skills.selfmade': 'Made by Us',
+    'skills.clients': 'Works with',
+    'skills.install': 'Install / Add',
+    'skills.visit': 'Visit homepage',
+    'skills.source': 'Source code',
+    'skills.back': 'Back to Skills & MCP',
+    'skills.related': 'Similar',
+    'home.skills': 'Extend your AI, freely',
+    'home.skills.sub': 'Free, open-source MCP servers and Agent Skills — keep agent capabilities in your own hands',
+    'home.skills.cta': 'Browse Skills & MCP →',
 
     'about.title': 'About To Be Free',
 

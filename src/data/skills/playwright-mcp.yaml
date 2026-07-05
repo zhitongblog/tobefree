@@ -1,0 +1,30 @@
+kind: mcp
+name: Playwright MCP
+accent: '#2EAD33'
+initials: PW
+license: 'Apache-2.0'
+website: https://github.com/microsoft/playwright-mcp
+repo: https://github.com/microsoft/playwright-mcp
+install: 'npx @playwright/mcp@latest'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [浏览器自动化, playwright, 网页测试]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 微软官方的浏览器自动化 MCP 服务器
+  en: Microsoft's official browser automation MCP server
+description:
+  zh: 微软官方开源的 MCP 服务器，基于 Playwright，让模型通过结构化的无障碍树快照来导航、点击、填表和抓取网页，无需依赖截图。
+  en: Microsoft's official open-source MCP server built on Playwright, letting the model navigate, click, fill forms and scrape pages via structured accessibility-tree snapshots rather than screenshots.
+review:
+  zh: |
+    Playwright MCP 是浏览器自动化领域的标杆。它没有走「截图 + 视觉识别」的老路，而是把网页的无障碍树（accessibility tree）快照喂给模型——结构化、体积小、语义清晰，模型据此就能精准地点击、输入、跳转，比像素级识别可靠得多。
+
+    作为微软官方维护、基于成熟的 Playwright 引擎，它跨浏览器、稳定、无需账号即可本地运行。无论是端到端测试、网页抓取还是自动化操作，它都是当前最值得优先选择的浏览器 MCP。
+  en: |
+    Playwright MCP sets the standard for browser automation. Instead of the old screenshot-plus-vision approach, it feeds the model a snapshot of the page's accessibility tree — structured, compact and semantically clear — so the model can click, type and navigate precisely, far more reliably than pixel-level recognition.
+
+    Officially maintained by Microsoft and built on the mature Playwright engine, it is cross-browser, stable, and runs locally with no account required. For end-to-end testing, web scraping or general automation, it is the browser MCP to reach for first.

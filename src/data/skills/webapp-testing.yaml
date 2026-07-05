@@ -1,0 +1,27 @@
+kind: skill
+name: Webapp Testing
+accent: '#F59E0B'
+initials: WT
+license: 'Apache-2.0'
+website: https://github.com/anthropics/skills/tree/main/skills/webapp-testing
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [测试, playwright, 前端, 截图, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 让 Agent 用 Playwright 测试本地网页应用
+  en: Lets an agent test local web apps with Playwright
+description:
+  zh: >-
+    Anthropic 官方开源（Apache-2.0）技能，为 Claude 提供一套用 Playwright 操作和测试本地 Web
+    应用的工具箱：验证前端功能、调试 UI 行为、抓取浏览器截图、查看浏览器日志，适合自查刚写好的页面。
+  en: >-
+    An official open-source (Apache-2.0) skill giving Claude a Playwright-based
+    toolkit to drive and test local web apps: verify frontend functionality, debug
+    UI behavior, capture browser screenshots, and inspect browser logs — ideal for
+    dogfooding a page you just built.

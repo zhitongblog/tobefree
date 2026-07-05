@@ -1,0 +1,28 @@
+kind: skill
+name: Claude Code Subagents (0xfurai)
+accent: '#14B8A6'
+initials: CS
+license: 'MIT'
+website: https://github.com/0xfurai/claude-code-subagents
+repo: https://github.com/0xfurai/claude-code-subagents
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [claude-code, subagents, 技能集, 语言专家, 框架专家]
+clients: [Claude Code]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 100+ 生产级开发子 Agent，即插即用
+  en: 100+ production-ready development subagents, drop-in ready
+description:
+  zh: >-
+    0xfurai 开源（MIT）的子 Agent 合集，含 100+ 个覆盖编程语言、框架、数据库、DevOps 等领域的
+    专职子 Agent。把仓库放进 ~/.claude/agents/ 即可，Claude Code 会按上下文自动调用或由你显式指定，
+    每个子 Agent 都是聚焦某一技术栈的领域专家。
+  en: >-
+    An open-source (MIT) subagent collection by 0xfurai with 100+ specialized subagents
+    spanning programming languages, frameworks, databases and DevOps. Drop the repo into
+    ~/.claude/agents/ and Claude Code invokes them automatically by context or on demand;
+    each subagent is a domain expert focused on one stack.

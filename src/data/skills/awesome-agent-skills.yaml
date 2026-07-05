@@ -1,0 +1,29 @@
+kind: skill
+name: Awesome Agent Skills
+accent: '#8B5CF6'
+initials: AS
+license: 'MIT'
+website: https://github.com/VoltAgent/awesome-agent-skills
+repo: https://github.com/VoltAgent/awesome-agent-skills
+install: ''
+featured: false
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [agent-skills, 精选, 社区, 多客户端, 技能集]
+clients: [Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, Windsurf]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 1400+ Agent Skill 的精选目录
+  en: A curated directory of 1400+ agent skills
+description:
+  zh: >-
+    VoltAgent 维护的开源（MIT）精选目录，汇集来自官方团队（Anthropic、Google、Vercel、Stripe 等）
+    与社区的 1400+ 个 Agent Skill，均为人工精选而非 AI 生成，覆盖开发、测试、安全、设计、营销、
+    云基础设施等方向，兼容 Claude Code、Codex、Gemini CLI、Cursor 等多种客户端。GitHub 上 2.7 万+ star。
+  en: >-
+    An open-source (MIT) curated directory maintained by VoltAgent, aggregating 1400+
+    agent skills from official teams (Anthropic, Google, Vercel, Stripe…) and the
+    community — hand-picked, not AI-generated — across development, testing, security,
+    design, marketing and cloud infrastructure, compatible with Claude Code, Codex,
+    Gemini CLI, Cursor and more. 27k+ GitHub stars.

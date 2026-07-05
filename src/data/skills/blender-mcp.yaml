@@ -1,0 +1,30 @@
+kind: mcp
+name: Blender MCP
+accent: '#EA7600'
+initials: BL
+license: 'MIT'
+website: https://github.com/ahujasid/blender-mcp
+repo: https://github.com/ahujasid/blender-mcp
+install: 'uvx blender-mcp'
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [3d, blender, 建模, creative, 创意]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 用自然语言驱动 Blender 做 3D 建模
+  en: Drive Blender for 3D modeling with natural language
+description:
+  zh: 开源的 MCP 服务器，通过一个 Blender 插件把本地 Blender 会话交给模型，让 AI 用自然语言创建、修改场景、调材质、跑 Python 脚本，还能接入 Poly Haven 素材库。
+  en: An open-source MCP server that hands a live local Blender session to the model via an add-on, letting AI create and modify scenes, tweak materials and run Python scripts in natural language, with optional Poly Haven asset access.
+review:
+  zh: |
+    Blender MCP 把「用嘴建模」从概念变成了现实。它由一个 Blender 插件和一个 Python MCP 服务器组成，通过本地 socket 把你正在编辑的 Blender 会话直接暴露给模型——AI 能读取场景状态、创建和摆放物体、调整材质与灯光，甚至直接在 Blender 里执行 Python 脚本来完成复杂操作。
+
+    它完全开源（MIT），核心运行在本地、无需账号或 API Key，遥测为零。对 3D 创作者来说，它把繁琐的重复操作交给自然语言，把注意力还给创意本身；对想学习 MCP 的人来说，它也是「让 AI 操作专业软件」这一范式最出圈的示范之一。
+  en: |
+    Blender MCP turns "modeling by talking" from a demo into something you actually use. It ships as a Blender add-on plus a Python MCP server that exposes your live editing session over a local socket — the AI can read scene state, create and place objects, adjust materials and lighting, and even run Python inside Blender to pull off complex operations.
+
+    It is fully open source (MIT), runs its core locally with no account or API key, and ships zero telemetry. For 3D creators it hands the tedious, repetitive work to natural language and gives attention back to the creative part; for anyone learning MCP it is one of the most compelling demonstrations of the "let AI drive professional software" pattern.

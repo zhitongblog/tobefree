@@ -1,0 +1,21 @@
+kind: mcp
+name: SQLite MCP
+accent: '#003B57'
+initials: SQ
+license: 'MIT'
+website: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite
+repo: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite
+install: 'uvx mcp-server-sqlite --db-path ./database.db'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [database, sqlite, 数据库, sql]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, self-hostable]
+tagline:
+  zh: 让 AI 直接读写本地 SQLite 数据库
+  en: Let AI query and edit a local SQLite database
+description:
+  zh: MCP 官方的参考服务器，让模型直接对一个本地 SQLite 文件执行 SQL 查询、建表、写入并汇总数据洞察。纯本地、无需账号，是给 Agent 接数据库最轻量的起点。项目现已归档但仍开源可用。
+  en: An official MCP reference server that lets the model run SQL, create tables, write rows and summarize insights against a local SQLite file. Fully local with no account — the lightest way to give an agent a database. The project is now archived but remains open source and usable.

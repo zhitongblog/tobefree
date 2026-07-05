@@ -1,0 +1,21 @@
+kind: mcp
+name: E2B MCP
+accent: '#FF8800'
+initials: E2
+license: 'Apache-2.0'
+website: https://e2b.dev
+repo: https://github.com/e2b-dev/mcp-server
+install: 'npx -y @e2b/mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [sandbox, code-execution, agents, 沙箱]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking]
+tagline:
+  zh: 给 Agent 一个安全隔离的代码执行沙箱
+  en: A secure, isolated code-execution sandbox for agents
+description:
+  zh: E2B 官方开源的 MCP 服务器，让模型在 E2B 云端沙箱里安全地运行代码。沙箱基于 Firecracker 微虚拟机做硬件级隔离，适合让 Agent 执行不受信任的代码。需要 E2B API Key。
+  en: E2B's official open-source MCP server that lets the model run code safely inside an E2B cloud sandbox. Sandboxes use Firecracker microVMs for hardware-level isolation, ideal for letting agents execute untrusted code. Requires an E2B API key.

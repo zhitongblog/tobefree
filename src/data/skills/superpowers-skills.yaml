@@ -1,0 +1,27 @@
+kind: skill
+name: Superpowers Skills
+accent: '#F97316'
+initials: SS
+license: 'MIT'
+website: https://github.com/obra/superpowers-skills
+repo: https://github.com/obra/superpowers-skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [技能集, 社区, 可编辑, skill, obra]
+clients: [Claude Code, Codex, Cursor, Factory Droid, GitHub Copilot CLI]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Superpowers 插件的社区可编辑技能库
+  en: The community-editable skill library for Superpowers
+description:
+  zh: >-
+    obra/superpowers 插件配套的社区技能仓库（MIT），收录一批可直接编辑和贡献的 Agent Skill——
+    从头脑风暴、写计划到并行子 Agent、代码审查等。想扩展 Superpowers 或参考现成技能写法，从这里入手。
+  en: >-
+    The community skill repository (MIT) that accompanies the obra/superpowers
+    plugin, collecting a set of directly editable, contributable Agent Skills —
+    from brainstorming and writing plans to dispatching parallel sub-agents and
+    code review. A good place to extend Superpowers or study real skill patterns.

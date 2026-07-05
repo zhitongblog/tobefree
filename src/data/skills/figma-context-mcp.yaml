@@ -1,0 +1,30 @@
+kind: mcp
+name: Framelink Figma MCP
+accent: '#F24E1E'
+initials: FI
+license: 'MIT'
+website: https://github.com/GLips/Figma-Context-MCP
+repo: https://github.com/GLips/Figma-Context-MCP
+install: 'npx -y figma-developer-mcp --stdio'
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [figma, 设计, design, ui, frontend]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 把 Figma 设计稿喂给 AI，一次性还原界面
+  en: Give AI your Figma designs to one-shot the UI
+description:
+  zh: 开源的 MCP 服务器，通过 Figma API 把设计稿的布局与样式信息精简后交给 Cursor、Claude 等编码 Agent，让它们据此更准确地实现界面。需要 Figma 访问令牌。
+  en: An open-source MCP server that pulls layout and styling from the Figma API, simplifies it, and feeds it to coding agents like Cursor and Claude so they implement the UI far more accurately. Requires a Figma access token.
+review:
+  zh: |
+    Framelink Figma MCP 解决了「AI 照着设计稿写代码」这件事上最恼人的痛点：光靠截图，模型只能猜像素；而它直接读取 Figma 文件的结构化数据——图层、约束、间距、颜色、字体——再把冗余信息裁掉，只留最相关的布局与样式喂给模型，一次性还原的准确度因此高出一大截。
+
+    它以 MIT 协议开源，可以自行部署，只需一枚 Figma 访问令牌即可运行。对前端和设计工程师来说，它把「设计到代码」的鸿沟压缩成了一条链接：贴上 Figma 链接，让 Agent 直接产出贴近原稿的界面代码，是目前设计交付类 MCP 里最成熟、最受欢迎的选择之一。
+  en: |
+    Framelink Figma MCP fixes the most frustrating part of "AI builds from a design": with only a screenshot the model has to guess pixels, but this server reads the structured data behind a Figma file — layers, constraints, spacing, colors, fonts — trims the noise, and feeds just the relevant layout and styling to the model, so one-shot accuracy jumps dramatically.
+
+    It is open source under MIT, self-hostable, and runs on nothing more than a Figma access token. For frontend and design engineers it collapses the design-to-code gap into a single link: paste a Figma URL and let the agent emit UI code that closely matches the source. It is one of the most mature and popular MCP servers in the design-handoff space.

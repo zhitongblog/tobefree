@@ -1,0 +1,30 @@
+kind: mcp
+name: Exa MCP
+accent: '#3B6EF6'
+initials: EX
+license: 'MIT'
+website: https://docs.exa.ai/reference/exa-mcp
+repo: https://github.com/exa-labs/exa-mcp-server
+install: 'npx -y exa-mcp-server'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [search, 搜索, research, ai搜索]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 给 Agent 一个为 AI 而生的语义网页搜索
+  en: Give agents a semantic web search built for AI
+description:
+  zh: Exa 官方的 MCP 服务器，基于神经语义搜索引擎，为 Agent 提供网页搜索、内容抓取、公司与人物调研，以及深度研究工作流，结果面向 LLM 优化。需要免费 API Key。
+  en: Exa's official MCP server backed by a neural, semantic search engine, giving agents web search, content crawling, company and people research, and deep-research workflows, with results optimized for LLMs. Requires a free API key.
+review:
+  zh: |
+    Exa 不是传统的关键词搜索，而是为 AI 打造的神经语义搜索引擎——你用自然语言描述想找什么，它就能理解意图、返回真正相关的结果，而不是一堆 SEO 垃圾。对于需要做资料调研、追踪最新信息的 Agent，这种「按意思搜」的能力往往比关键词匹配靠谱得多。
+
+    官方维护、MIT 开源、可本地运行，除了网页搜索还内置内容抓取、公司/人物调研和 deep researcher 工作流，一个服务器覆盖了研究场景的大半需求。免费额度足够日常使用，是给 Agent 接入实时联网检索时最值得优先尝试的一个。
+  en: |
+    Exa isn't keyword search — it's a neural, semantic search engine built for AI. You describe what you want in natural language and it understands intent, returning genuinely relevant results instead of SEO noise. For agents doing research or tracking fresh information, searching "by meaning" is often far more reliable than keyword matching.
+
+    Officially maintained, MIT-licensed and runnable locally, it bundles content crawling, company/people research and a deep-researcher workflow alongside plain web search — one server covering most of a research agent's needs. The free tier is generous enough for everyday use, making it a top pick when wiring live web retrieval into an agent.

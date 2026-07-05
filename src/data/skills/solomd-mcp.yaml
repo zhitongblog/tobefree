@@ -1,0 +1,21 @@
+kind: mcp
+name: SoloMD
+accent: '#DB6A3F'
+initials: SM
+license: 'MIT'
+website: https://solomd.app
+repo: https://github.com/zhitongblog/solomd
+install: ''
+featured: false
+popular: false
+selfMade: true
+added: '2026-07-05'
+tags: [markdown, 笔记, 知识库]
+clients: [Claude, Claude Desktop, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 让 AI 读取你本地的 Markdown 知识库
+  en: Lets AI read your local Markdown knowledge base
+description:
+  zh: SoloMD 内置一个约 1.5MB 的 MCP 服务器，暴露 8 个只读工具，让 Claude、Cursor 等安全地检索、读取你本地的 Markdown 笔记 —— 数据不出本机。
+  en: SoloMD ships a ~1.5MB MCP server exposing 8 read-only tools so Claude, Cursor and others can search and read your local Markdown notes — your data never leaves your machine.

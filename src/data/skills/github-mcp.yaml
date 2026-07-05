@@ -1,0 +1,21 @@
+kind: mcp
+name: GitHub MCP Server
+accent: '#24292E'
+initials: GH
+license: 'MIT'
+website: https://github.com/github/github-mcp-server
+repo: https://github.com/github/github-mcp-server
+install: 'docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [github, api, issues, pull-request]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: GitHub 官方 MCP 服务器，接入 GitHub API
+  en: GitHub's official MCP server for the GitHub API
+description:
+  zh: GitHub 官方开源、用 Go 编写的 MCP 服务器，让模型读写仓库、管理 issue 与 PR、检索代码并自动化工作流。需要 GitHub 个人访问令牌或 OAuth 授权。
+  en: GitHub's official open-source MCP server written in Go, letting the model read/write repositories, manage issues and PRs, search code and automate workflows. Requires a GitHub personal access token or OAuth.

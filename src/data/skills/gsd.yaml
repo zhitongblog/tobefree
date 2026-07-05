@@ -1,0 +1,47 @@
+kind: skill
+name: Get Shit Done (GSD)
+accent: '#16A34A'
+initials: GD
+license: 'MIT'
+website: https://github.com/open-gsd/gsd-core
+repo: https://github.com/open-gsd/gsd-core
+install: 'npx @opengsd/gsd-core@latest'
+featured: true
+popular: true
+selfMade: false
+added: '2026-07-05'
+tags: [claude-code, 工作流, spec-driven, 上下文工程, 社区]
+clients: [Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Windsurf]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 规范驱动、上下文工程的 AI 编码工作流系统
+  en: A spec-driven, context-engineering workflow system for AI coding
+description:
+  zh: >-
+    由 TÂCHES 发起、现由 open-gsd 社区维护（MIT）的 Claude Code 工作流框架。把开发拆成
+    讨论→计划→执行→验证→交付的循环，用 fresh-context 子 Agent 承担研究与规划，主会话保持精简，
+    产出干净的 git 历史与人机确认点。原始仓库曾在 GitHub 收获 6 万+ star。
+  en: >-
+    A Claude Code workflow framework started by TÂCHES and now maintained by the
+    open-gsd community (MIT). It breaks development into a discuss → plan → execute →
+    verify → ship loop, offloading research and planning to fresh-context subagents
+    so the main session stays lean, yielding clean git history and human checkpoints.
+    The original repo drew 60k+ GitHub stars.
+review:
+  zh: |
+    GSD 常和 Superpowers、gstack 一起被拿来比较，三者都想解决同一个痛点：让编码 Agent 别在长对话里
+    "越写越飘"。GSD 的答案是"上下文工程"——把重活丢给一次性的子 Agent 做研究和规划，主会话只保留
+    结论，配合原子提交和分阶段的斜杠命令，把 vibe coding 变成可复现、可回滚的工程流程。
+
+    项目以 MIT 开源、免费、无追踪、无需注册，一条 npx 命令即可装。原始 gsd-build 仓库已归档并迁到
+    open-gsd 社区治理，除 Claude Code 外还适配 Codex、Cursor、OpenCode、Copilot、Windsurf 等多种客户端。
+  en: |
+    GSD is routinely compared with Superpowers and gstack — all three attack the same pain: keeping a
+    coding agent from drifting as a conversation grows long. GSD's answer is "context engineering":
+    hand the heavy research and planning to disposable subagents, keep only the conclusions in the main
+    session, and pair that with atomic commits and phased slash commands to turn vibe coding into a
+    reproducible, rollback-friendly engineering process.
+
+    It's MIT-licensed, free, no tracking and no sign-up, installable with a single npx command. The
+    original gsd-build repo was archived and moved to open-gsd community governance, and beyond Claude
+    Code it targets Codex, Cursor, OpenCode, Copilot and Windsurf.

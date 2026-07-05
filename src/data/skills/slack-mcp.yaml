@@ -1,0 +1,21 @@
+kind: mcp
+name: Slack MCP
+accent: '#4A154B'
+initials: SL
+license: 'MIT'
+website: https://github.com/korotovsky/slack-mcp-server
+repo: https://github.com/korotovsky/slack-mcp-server
+install: 'npx -y slack-mcp-server@latest --transport stdio'
+featured: false
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [slack, chat, messaging, 团队协作]
+clients: [Claude, Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 让 AI 读取、搜索和发送 Slack 消息
+  en: Let AI read, search and post Slack messages
+description:
+  zh: 一个功能强大的开源 Slack MCP 服务器，支持 Stdio/SSE/HTTP 传输、DM 与群 DM、按日期或数量的智能历史抓取，可用 OAuth 或无需安装应用的「隐身」模式运行。需要 Slack 令牌。
+  en: A powerful open-source Slack MCP server supporting Stdio/SSE/HTTP transports, DMs and group DMs, and smart history fetch by date or count. Runs via OAuth or a permission-less stealth mode with no app install. Requires a Slack token.

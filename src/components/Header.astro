@@ -10,6 +10,7 @@ const path = Astro.url.pathname;
 const nav = [
   { href: localizedPath(lang, ''), label: t('nav.home'), match: /^\/(zh|en)\/?$/ },
   { href: localizedPath(lang, 'tools'), label: t('nav.tools'), match: /\/(tools|category)/ },
+  { href: localizedPath(lang, 'skills'), label: t('nav.skills'), match: /\/skills/ },
   { href: localizedPath(lang, 'self-made'), label: t('nav.selfmade'), match: /\/self-made/ },
   { href: localizedPath(lang, 'about'), label: t('nav.about'), match: /\/about/ },
 ];

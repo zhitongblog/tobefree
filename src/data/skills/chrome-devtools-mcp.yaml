@@ -1,0 +1,30 @@
+kind: mcp
+name: Chrome DevTools MCP
+accent: '#4285F4'
+initials: CD
+license: 'Apache-2.0'
+website: https://developer.chrome.com/blog/chrome-devtools-mcp
+repo: https://github.com/ChromeDevTools/chrome-devtools-mcp
+install: 'npx -y chrome-devtools-mcp@latest'
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [browser, 调试, debugging, 浏览器]
+clients: [Claude, Claude Code, Cursor, Copilot, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 直接开一个真实 Chrome 来调试
+  en: Let AI drive a real Chrome to debug your app
+description:
+  zh: Google 官方出品的 MCP 服务器，把 Chrome DevTools 的能力开放给编码 Agent：控制真实浏览器、录制性能 trace、分析网络请求、抓控制台报错、截图与自动化操作，全部在本地进行。
+  en: 'An official Google MCP server that hands Chrome DevTools to your coding agent: drive a real browser, record performance traces, inspect network requests, read console errors, take screenshots and automate actions — all locally.'
+review:
+  zh: |
+    过去 AI 帮你写完前端代码，也只能靠你手动打开浏览器去验证。Chrome DevTools MCP 把这一步交还给 Agent——它能开一个真实的 Chrome，点击页面、看网络瀑布、读控制台报错、录制性能 trace，然后拿着真实数据来定位问题，而不是猜。
+
+    它由 Google Chrome 团队官方维护，Apache-2.0 开源，一行 npx 即可接入 Claude、Cursor、Copilot 等客户端，纯本地运行、无需账号。对于调试网页性能和排查线上问题，这是目前最靠谱的官方选择。
+  en: |
+    Until now, when AI finished your frontend code you still had to open a browser and verify by hand. Chrome DevTools MCP gives that step back to the agent — it launches a real Chrome, clicks around, reads the network waterfall and console errors, records performance traces, and diagnoses from real data instead of guessing.
+
+    Maintained officially by Google's Chrome team and open-sourced under Apache-2.0, it plugs into Claude, Cursor, Copilot and more with a single npx line, running fully locally with no account. For debugging web performance and chasing production issues, it's the most trustworthy official option today.

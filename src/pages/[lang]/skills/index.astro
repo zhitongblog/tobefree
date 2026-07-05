@@ -1,0 +1,168 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SkillCard from '../../../components/SkillCard.astro';
+import { SKILL_KINDS, skillKindById, pick, type Locale } from '../../../consts';
+import { useTranslations, type Lang } from '../../../i18n/utils';
+import { getAllSkills, skillLocalePaths } from '../../../lib/skills';
+
+export function getStaticPaths() {
+  return skillLocalePaths();
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const loc = lang as Locale;
+const t = useTranslations(lang);
+const all = await getAllSkills();
+
+const usedKinds = SKILL_KINDS.filter((k) => all.some((s) => s.data.kind === k.id));
+
+function searchString(s: (typeof all)[number]): string {
+  const d = s.data;
+  const kind = skillKindById[d.kind];
+  return [
+    d.name,
+    pick(d.tagline, loc),
+    pick(d.description, loc),
+    d.tags.join(' '),
+    d.clients.join(' '),
+    kind ? pick(kind.label, loc) : '',
+  ]
+    .join(' ')
+    .toLowerCase();
+}
+---
+
+<BaseLayout title={t('skills.title')} description={t('skills.sub')}>
+  <section class="section container">
+    <div class="section-head">
+      <p class="eyebrow">🔌 {t('skills.title')}</p>
+      <h2>{t('skills.title')}</h2>
+      <p>{t('skills.sub')}</p>
+    </div>
+
+    <div class="controls">
+      <div class="search">
+        <span aria-hidden="true">🔍</span>
+        <input id="skill-search" type="search" placeholder={t('search.placeholder')} autocomplete="off" />
+      </div>
+      <div class="chips" role="tablist">
+        <button class="chip active" data-kind="all">{lang === 'zh' ? '全部' : 'All'}</button>
+        {usedKinds.map((k) => (
+          <button class="chip" data-kind={k.id}>
+            <span aria-hidden="true">{k.icon}</span> {pick(k.label, loc)}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <ul id="skill-grid" class="grid cards-grid skill-list">
+      {all.map((skill) => (
+        <li class="skill-item" data-kind={skill.data.kind} data-search={searchString(skill)}>
+          <SkillCard skill={skill} lang={lang} />
+        </li>
+      ))}
+    </ul>
+    <p id="empty" class="empty" hidden>{t('search.empty')}</p>
+  </section>
+</BaseLayout>
+
+<style>
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.2rem 1.1rem;
+    max-width: 420px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .search:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .search input {
+    border: 0;
+    background: transparent;
+    font: inherit;
+    color: var(--text);
+    padding: 0.6rem 0;
+    width: 100%;
+    outline: none;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .chip {
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+  }
+  .chip:hover {
+    color: var(--text);
+    border-color: var(--accent);
+  }
+  .chip.active {
+    color: #fff;
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .skill-list {
+    list-style: none;
+  }
+  .skill-item.hidden {
+    display: none;
+  }
+  .empty {
+    text-align: center;
+    color: var(--text-faint);
+    padding: 3rem 0;
+  }
+</style>
+
+<script>
+  const search = document.getElementById('skill-search') as HTMLInputElement | null;
+  const empty = document.getElementById('empty');
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.chip'));
+  const items = Array.from(document.querySelectorAll<HTMLLIElement>('.skill-item'));
+  let activeKind = 'all';
+
+  function apply() {
+    const q = (search?.value || '').trim().toLowerCase();
+    let visible = 0;
+    for (const item of items) {
+      const matchKind = activeKind === 'all' || item.dataset.kind === activeKind;
+      const matchText = !q || (item.dataset.search || '').includes(q);
+      const show = matchKind && matchText;
+      item.classList.toggle('hidden', !show);
+      if (show) visible++;
+    }
+    if (empty) empty.hidden = visible !== 0;
+  }
+
+  search?.addEventListener('input', apply);
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      chips.forEach((c) => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeKind = chip.dataset.kind || 'all';
+      apply();
+    });
+  }
+</script>

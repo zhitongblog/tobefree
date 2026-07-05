@@ -1,0 +1,36 @@
+kind: skill
+name: Skill Creator
+accent: '#7C5CFC'
+initials: SC
+license: 'Apache-2.0'
+website: https://github.com/anthropics/skills/tree/main/skills/skill-creator
+repo: https://github.com/anthropics/skills
+install: ''
+featured: true
+popular: false
+selfMade: false
+added: '2026-07-05'
+tags: [meta, 技能开发, skill, eval, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 用来创建和优化其它 Agent Skill 的元技能
+  en: A meta-skill for building and improving other Agent Skills
+description:
+  zh: >-
+    Anthropic 官方开源（Apache-2.0）的元技能：教 Claude 从零创建新技能、修改和优化已有技能，还能跑 eval
+    做方差分析、优化描述以提高触发准确率。是入门写 Skill 最权威的起点。
+  en: >-
+    Anthropic's official open-source (Apache-2.0) meta-skill: it teaches Claude to
+    create new skills from scratch, edit and optimize existing ones, run evals with
+    variance analysis, and tune a skill's description for better trigger accuracy.
+    The canonical starting point for authoring your own Skills.
+review:
+  zh: |
+    Agent Skill 就是一个装着说明书和脚本的文件夹，但"怎么写好一个 Skill"本身是门手艺。Skill Creator 把 Anthropic 内部的经验固化成一个技能：帮你搭结构、写触发描述、生成脚本，还能用 eval 量化效果。
+
+    它以 Apache-2.0 开源，随官方 skills 仓库一起发布，无广告、无追踪、无需注册。想给自己的 Agent 加能力，从这个技能学起最靠谱。
+  en: |
+    An Agent Skill is just a folder of instructions and scripts — but writing a good one is its own craft. Skill Creator distills Anthropic's in-house practice into a skill: it scaffolds the structure, writes the trigger description, generates scripts, and quantifies results with evals.
+
+    It's Apache-2.0 open source, shipped alongside the official skills repo, with no ads, no tracking and no sign-up. If you want to give your agent new abilities, this is the most authoritative place to start.
