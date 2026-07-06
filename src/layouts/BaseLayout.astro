@@ -103,5 +103,14 @@ const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
       <slot />
     </main>
     <Footer />
+
+    {SITE.analytics && (
+      <script
+        is:inline
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${SITE.analytics}"}`}
+      />
+    )}
   </body>
 </html>

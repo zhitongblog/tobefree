@@ -11,6 +11,12 @@ export const SITE = {
   locales: ['zh', 'en'] as const,
   /** GitHub repo used by the "submit a tool" flow; edit to your repo. */
   repo: 'https://github.com/zhitongblog/tobefree',
+  /**
+   * Cloudflare Web Analytics beacon token (privacy-friendly, cookieless).
+   * Get it at: Cloudflare dashboard → Analytics & Logs → Web Analytics →
+   * Add a site → copy the token. Paste it here. Leave '' to disable.
+   */
+  analytics: '',
 };
 
 export type Locale = (typeof SITE.locales)[number];
