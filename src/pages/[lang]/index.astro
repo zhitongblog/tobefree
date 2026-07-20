@@ -41,9 +41,20 @@ const jsonLd = {
   description: t('site.description'),
   inLanguage: lang === 'zh' ? 'zh-CN' : 'en-US',
 };
+
+const pageSeo = {
+  zh: {
+    title: '免费无广告软件推荐',
+    description: `To Be Free 收录 ${all.length} 款真正免费、可用、无广告或少打扰的软件工具，覆盖办公、设计、开发、隐私、系统实用和音视频场景。`,
+  },
+  en: {
+    title: 'Free, Ad-Free Software Directory',
+    description: `To Be Free curates ${all.length} genuinely free, usable and low-friction tools for office work, design, development, privacy, utilities and media workflows.`,
+  },
+}[lang];
 ---
 
-<BaseLayout jsonLd={jsonLd}>
+<BaseLayout title={pageSeo.title} description={pageSeo.description} jsonLd={jsonLd}>
   <!-- Hero -->
   <section class="hero">
     <div class="container">

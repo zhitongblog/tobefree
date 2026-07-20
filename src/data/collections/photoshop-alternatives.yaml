@@ -1,0 +1,33 @@
+title:
+  zh: Photoshop 免费替代软件推荐
+  en: Free Photoshop Alternatives
+description:
+  zh: 免费图片编辑、绘画、RAW 处理和矢量设计工具，适合寻找 Photoshop、Lightroom、Illustrator 替代品的用户。
+  en: Free tools for photo editing, painting, RAW processing and vector design when looking for Photoshop, Lightroom or Illustrator alternatives.
+intro:
+  zh: 如果你只是修图、做封面、画画、处理 RAW 或做基础设计，不一定需要订阅整套商业软件。这个专题收录能完成真实创作任务的免费设计工具。
+  en: If you need photo edits, covers, drawing, RAW processing or basic design, you may not need a full commercial subscription. This collection highlights free tools capable of real creative work.
+criteria:
+  zh:
+    - 能完成图片编辑、绘画、RAW、矢量或排版中的明确任务。
+    - 免费版导出可用，不强制水印。
+    - 优先开源、跨平台和成熟社区工具。
+  en:
+    - Covers clear creative jobs such as photo editing, drawing, RAW processing, vector work or layout.
+    - Free exports are usable without forced watermarks.
+    - Mature open-source and cross-platform tools are preferred.
+tools: [gimp, krita, rawtherapee, darktable, inkscape, penpot, scribus, blender]
+skills: [figma-context-mcp, blender-mcp]
+faq:
+  zh:
+    - q: GIMP 能完全替代 Photoshop 吗？
+      a: 对很多修图和图像处理任务可以，但专业商业流程、插件生态和团队协作仍有差距。
+    - q: 绘画应该选 GIMP 还是 Krita？
+      a: 绘画优先 Krita；通用图片编辑和修图优先 GIMP。
+  en:
+    - q: Can GIMP fully replace Photoshop?
+      a: It can cover many image editing tasks, but professional workflows, plugins and team collaboration may still differ.
+    - q: Should I choose GIMP or Krita for drawing?
+      a: Choose Krita for drawing and painting. Choose GIMP for general image editing and photo manipulation.
+featured: false
+added: '2026-07-20'

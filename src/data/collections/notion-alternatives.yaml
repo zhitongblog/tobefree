@@ -1,0 +1,33 @@
+title:
+  zh: Notion 免费替代工具推荐
+  en: Free Notion Alternatives
+description:
+  zh: 免费 Notion 替代工具，覆盖本地 Markdown、双链笔记、团队知识库、开源协作和个人资料整理。
+  en: Free Notion alternatives for local Markdown, linked notes, team knowledge bases, open-source collaboration and personal organization.
+intro:
+  zh: Notion 很强，但并不适合所有人：离线、本地文件、数据迁移、开源自控和轻量写作都是常见替代需求。这个专题按不同使用方式收录免费选择。
+  en: Notion is powerful, but not ideal for everyone. Offline use, local files, data portability, open-source control and lightweight writing are common reasons to look for alternatives.
+criteria:
+  zh:
+    - 免费版能承担真实笔记、知识库或协作场景。
+    - 优先数据可导出、本地优先或开源工具。
+    - 覆盖个人笔记、团队协作和 Markdown 写作等不同需求。
+  en:
+    - Free features can support real note, knowledge base or collaboration workflows.
+    - Exportable, local-first or open-source tools are prioritized.
+    - Personal notes, team collaboration and Markdown writing are all covered.
+tools: [obsidian, logseq, joplin, appflowy, trilium-notes, zettlr, zim, solomd]
+skills: [obsidian-mcp, filesystem-mcp, notion-mcp]
+faq:
+  zh:
+    - q: 哪个最像 Notion？
+      a: AppFlowy 更接近 Notion 的块编辑和协作方向；Obsidian、Logseq、Joplin 更偏个人知识管理和本地数据。
+    - q: 想离线使用选哪个？
+      a: Obsidian、Joplin、Logseq、Zettlr、Zim 都更适合离线和本地文件工作流。
+  en:
+    - q: Which one feels closest to Notion?
+      a: AppFlowy is closer to Notion-style block editing and collaboration. Obsidian, Logseq and Joplin lean more toward personal knowledge management and local data.
+    - q: Which alternatives are best offline?
+      a: Obsidian, Joplin, Logseq, Zettlr and Zim fit offline and local-file workflows better.
+featured: false
+added: '2026-07-20'

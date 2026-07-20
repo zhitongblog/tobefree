@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { SITE, pick, type Locale } from '../../../consts';
+import { useTranslations, localizedPath, type Lang } from '../../../i18n/utils';
+import { getAllCollectionPages, collectionLocalePaths } from '../../../lib/collections';
+
+export function getStaticPaths() {
+  return collectionLocalePaths();
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const loc = lang as Locale;
+const t = useTranslations(lang);
+const pages = await getAllCollectionPages();
+
+const pageSeo = {
+  zh: {
+    title: '免费软件专题清单',
+    description: '按具体场景浏览免费、无广告、开源优先的软件推荐清单，包括 Windows、PDF、笔记、剪辑、隐私安全和 AI/MCP 工具。',
+    heading: '免费软件专题清单',
+    intro: '如果你不是在找某一个软件名，而是在找一个场景的最佳免费选择，从这些专题开始更快。',
+  },
+  en: {
+    title: 'Free Software Collections',
+    description: 'Browse free, ad-free and open-source-first software collections for Windows, PDF, notes, video editing, privacy, security and AI/MCP workflows.',
+    heading: 'Free Software Collections',
+    intro: 'When you are not looking for a single app name, but the best free choices for a specific job, start with these collections.',
+  },
+}[lang];
+
+const abs = (p: string) => new URL(p, SITE.url).href;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: pageSeo.title,
+  description: pageSeo.description,
+  url: abs(localizedPath(lang, 'collections')),
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: pages.length,
+    itemListElement: pages.map((page, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: pick(page.data.title, loc),
+      url: abs(localizedPath(lang, `collections/${page.id}`)),
+    })),
+  },
+};
+---
+
+<BaseLayout title={pageSeo.title} description={pageSeo.description} jsonLd={jsonLd}>
+  <section class="section container">
+    <div class="section-head">
+      <p class="eyebrow">{t('site.name')}</p>
+      <h1>{pageSeo.heading}</h1>
+      <p>{pageSeo.intro}</p>
+    </div>
+
+    <div class="collection-grid">
+      {pages.map((page) => (
+        <a class="collection-card" href={localizedPath(lang, `collections/${page.id}`)}>
+          <span class="kind">{lang === 'zh' ? '专题' : 'Collection'}</span>
+          <h2>{pick(page.data.title, loc)}</h2>
+          <p>{pick(page.data.description, loc)}</p>
+          <small>
+            {page.data.tools.length + page.data.skills.length}
+            {' '}
+            {lang === 'zh' ? '个推荐' : 'recommendations'}
+          </small>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .section-head h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+  .collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .collection-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+    padding: 1.4rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.18s var(--ease), border-color 0.18s, box-shadow 0.18s;
+  }
+  .collection-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-md);
+    color: var(--text);
+  }
+  .collection-card .kind {
+    width: fit-content;
+    color: var(--accent-ink);
+    background: var(--accent-soft);
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.24rem 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+  .collection-card h2 {
+    font-size: 1.18rem;
+    margin-bottom: 0.55rem;
+  }
+  .collection-card p {
+    color: var(--text-soft);
+    line-height: 1.65;
+    flex-grow: 1;
+  }
+  .collection-card small {
+    color: var(--text-faint);
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+</style>

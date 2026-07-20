@@ -1,0 +1,33 @@
+title:
+  zh: Windows 免费软件推荐
+  en: Free Windows Software
+description:
+  zh: 新电脑和日常 Windows 工作流必备的免费软件，涵盖压缩、搜索、截图、PDF、办公、播放器和系统增强。
+  en: Essential free Windows software for new PCs and everyday workflows, including compression, search, screenshots, PDFs, office work, media and system utilities.
+intro:
+  zh: Windows 上最容易遇到的问题是下载站捆绑、广告弹窗和“免费版只能看不能用”。这份清单优先选择官方来源明确、长期维护、日常使用频率高的免费工具。
+  en: Windows users often run into bundled download sites, pop-ups and crippled free tiers. This list focuses on official-source, actively maintained and frequently useful free tools.
+criteria:
+  zh:
+    - 支持 Windows，安装和卸载方式清楚。
+    - 适合新电脑初始化或高频日常使用。
+    - 尽量选择无广告、无捆绑、可离线工作的工具。
+  en:
+    - Works well on Windows with clear install and uninstall paths.
+    - Useful for new PC setup or repeated daily work.
+    - Ad-free, unbundled and offline-capable tools are prioritized.
+tools: [7-zip, everything, powertoys, sharex, sumatra-pdf, vlc, libreoffice, onlyoffice-desktop-editors, bitwarden, keepassxc, obs-studio, rufus, ventoy, winscp, notepad-plus-plus]
+skills: []
+faq:
+  zh:
+    - q: 新电脑应该先装哪些？
+      a: 可以先从 7-Zip、Everything、PowerToys、ShareX、SumatraPDF、VLC 和 Bitwarden 开始，覆盖最常见的文件、搜索、截图、阅读、播放和密码管理需求。
+    - q: 为什么不直接去软件下载站？
+      a: 下载站经常有旧版本、广告按钮和捆绑安装。这里优先指向官方页面。
+  en:
+    - q: What should I install first on a new Windows PC?
+      a: Start with 7-Zip, Everything, PowerToys, ShareX, SumatraPDF, VLC and Bitwarden for files, search, screenshots, reading, media and passwords.
+    - q: Why avoid generic download sites?
+      a: They often contain outdated builds, ad-like buttons or bundled installers. Official pages are safer.
+featured: true
+added: '2026-07-20'

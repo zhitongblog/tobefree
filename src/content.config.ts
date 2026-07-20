@@ -7,6 +7,16 @@ const localized = z.object({
   en: z.string(),
 });
 
+const localizedList = z.object({
+  zh: z.array(z.string()),
+  en: z.array(z.string()),
+});
+
+const localizedFaq = z.object({
+  zh: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+  en: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+});
+
 /** Optional URL that also accepts an empty string (treated as "not set"). */
 const optionalUrl = z.preprocess(
   (v) => (v === '' || v == null ? undefined : v),
@@ -80,4 +90,19 @@ const skills = defineCollection({
   }),
 });
 
-export const collections = { tools, skills };
+const collectionPages = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './src/data/collections' }),
+  schema: z.object({
+    title: localized,
+    description: localized,
+    intro: localized,
+    criteria: localizedList.default({ zh: [], en: [] }),
+    tools: z.array(z.string()).default([]),
+    skills: z.array(z.string()).default([]),
+    faq: localizedFaq.default({ zh: [], en: [] }),
+    featured: z.boolean().default(false),
+    added: z.string(),
+  }),
+});
+
+export const collections = { tools, skills, collectionPages };

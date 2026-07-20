@@ -1,0 +1,33 @@
+title:
+  zh: 免费无广告软件推荐
+  en: Free Ad-Free Software
+description:
+  zh: 一份适合长期使用的免费无广告软件清单，覆盖办公、开发、媒体、隐私和系统实用工具。
+  en: A practical list of free, ad-free software for office work, development, media, privacy and everyday utilities.
+intro:
+  zh: 很多“免费软件”靠弹窗、捆绑安装、导出限制或账号墙赚钱。这个专题优先收录核心功能免费、没有明显广告打扰、可以直接上手使用的工具，适合作为新电脑和日常工作流的基础清单。
+  en: Many free apps pay for themselves with pop-ups, bundled installers, export limits or forced accounts. This collection prioritizes tools with useful free core features, minimal advertising friction and practical day-to-day value.
+criteria:
+  zh:
+    - 核心功能永久免费，不是短期试用。
+    - 优先无广告、无捆绑、无需注册或可离线使用。
+    - 官方下载地址清晰，尽量避免第三方下载站。
+  en:
+    - Core features are free permanently, not just a time-limited trial.
+    - Ad-free, unbundled, no-sign-up or offline-friendly tools are prioritized.
+    - Official download and source links are preferred over third-party mirrors.
+tools: [7-zip, everything, sumatra-pdf, vlc, obsidian, libreoffice, bitwarden, keepassxc, obs-studio, sharex, powertoys, vscodium]
+skills: []
+faq:
+  zh:
+    - q: 免费无广告软件一定开源吗？
+      a: 不一定。开源是强加分项，但有些闭源工具也能做到免费、无广告、少打扰。页面会用徽章标明是否开源。
+    - q: 这里会提供安装包下载吗？
+      a: 不会。To Be Free 只链接官方地址和源码地址，避免安装包过期、被篡改或被捆绑。
+  en:
+    - q: Is every ad-free free app open source?
+      a: No. Open source is strongly preferred, but some closed-source tools are still free, useful and low-friction. Badges make those traits visible.
+    - q: Does To Be Free host installers?
+      a: No. We link to official websites and source repositories to avoid stale, modified or bundled installers.
+featured: true
+added: '2026-07-20'

@@ -1,0 +1,33 @@
+title:
+  zh: 免费剪辑软件无水印推荐
+  en: Free Video Editors Without Watermarks
+description:
+  zh: 免费、无强制水印或少限制的视频剪辑、录制和转码工具，适合入门创作、课程、短视频和日常处理。
+  en: Free video editing, recording and transcoding tools without forced watermarks or harsh export limits.
+intro:
+  zh: 很多免费视频工具在导出时才告诉你有水印或分辨率限制。这个专题优先收录能真正导出作品的免费工具，适合课程录制、短视频、素材处理和日常剪辑。
+  en: Many free video tools reveal watermarks or resolution limits only at export time. This collection focuses on tools that can actually produce usable work for tutorials, short videos, media cleanup and everyday editing.
+criteria:
+  zh:
+    - 免费版可以导出可用视频，不强制水印。
+    - 支持常见格式和日常剪辑、录制或转码需求。
+    - 优先开源、跨平台、无广告工具。
+  en:
+    - The free version can export usable videos without forced watermarks.
+    - Common formats and everyday editing, recording or transcoding workflows are supported.
+    - Open-source, cross-platform and ad-free tools are preferred.
+tools: [kdenlive, shotcut, obs-studio, handbrake, vlc, mpv]
+skills: []
+faq:
+  zh:
+    - q: 这些工具适合专业影视后期吗？
+      a: 复杂商业后期仍可能需要专业套件，但入门剪辑、课程录制、视频转码和日常创作已经足够。
+    - q: OBS Studio 是剪辑软件吗？
+      a: OBS Studio 主要用于录制和直播，不是剪辑器，但它是免费视频工作流里非常常用的一环。
+  en:
+    - q: Are these tools enough for professional post-production?
+      a: Complex commercial post-production may still need specialist suites, but these tools are strong for learning, recording, transcoding and everyday creation.
+    - q: Is OBS Studio a video editor?
+      a: OBS Studio is mainly for recording and streaming, not editing, but it is a core part of many free video workflows.
+featured: false
+added: '2026-07-20'

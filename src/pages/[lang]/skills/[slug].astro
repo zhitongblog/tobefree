@@ -28,6 +28,14 @@ const initials = d.initials ?? d.name.replace(/[^A-Za-z0-9]/g, '').slice(0, 2).t
 const reviewHtml = d.review ? marked.parse(pick(d.review, loc), { async: false }) : '';
 const copyLabel = lang === 'zh' ? '复制' : 'Copy';
 const copiedLabel = lang === 'zh' ? '已复制' : 'Copied';
+const pageTitle =
+  lang === 'zh'
+    ? `${d.name} 安装与使用`
+    : `${d.name} Install and Review`;
+const pageDescription =
+  lang === 'zh'
+    ? `${d.name} 是一个免费开源的 ${kind ? pick(kind.label, loc) : d.kind}：${pick(d.description, loc)}`
+    : `${d.name} is a free, open-source ${kind ? pick(kind.label, loc) : d.kind}: ${pick(d.description, loc)}`;
 
 const abs = (p: string) => new URL(p, SITE.url).href;
 const jsonLd = [
@@ -54,7 +62,7 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout title={d.name} description={pick(d.description, loc)} jsonLd={jsonLd}>
+<BaseLayout title={pageTitle} description={pageDescription} jsonLd={jsonLd}>
   <article class="tool container">
     <a class="back" href={localizedPath(lang, 'skills')}>← {t('skills.back')}</a>
 

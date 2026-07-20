@@ -31,6 +31,14 @@ const rel = related(all, tool);
 const cat = categoryById[d.category];
 const initials = d.initials ?? d.name.replace(/[^A-Za-z0-9一-龥]/g, '').slice(0, 2).toUpperCase();
 const reviewHtml = d.review ? marked.parse(pick(d.review, loc), { async: false }) : '';
+const pageTitle =
+  lang === 'zh'
+    ? `${d.name} 免费软件推荐`
+    : `${d.name} Free Software Review`;
+const pageDescription =
+  lang === 'zh'
+    ? `${d.name} 是一款${d.price === 'free' ? '免费' : '有免费版'}的${cat ? pick(cat.label, loc) : '软件工具'}：${pick(d.description, loc)}`
+    : `${d.name} is a ${d.price === 'free' ? 'free' : 'free-tier'} ${cat ? pick(cat.label, loc) : 'software tool'}: ${pick(d.description, loc)}`;
 
 const abs = (p: string) => new URL(p, SITE.url).href;
 
@@ -59,7 +67,7 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout title={d.name} description={pick(d.description, loc)} jsonLd={jsonLd}>
+<BaseLayout title={pageTitle} description={pageDescription} jsonLd={jsonLd}>
   <article class="tool container">
     <a class="back" href={localizedPath(lang, 'tools')}>← {t('tool.back')}</a>
 

@@ -13,6 +13,7 @@ export const ui = {
 
     'nav.home': '首页',
     'nav.tools': '全部工具',
+    'nav.collections': '专题',
     'nav.skills': 'Skills & MCP',
     'nav.selfmade': '自研',
     'nav.about': '关于',
@@ -101,6 +102,7 @@ export const ui = {
 
     'nav.home': 'Home',
     'nav.tools': 'All Tools',
+    'nav.collections': 'Collections',
     'nav.skills': 'Skills & MCP',
     'nav.selfmade': 'Made by Us',
     'nav.about': 'About',

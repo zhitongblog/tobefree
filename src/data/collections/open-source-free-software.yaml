@@ -1,0 +1,33 @@
+title:
+  zh: 免费开源软件推荐
+  en: Free Open-Source Software
+description:
+  zh: 精选免费开源软件，覆盖开发、设计、笔记、办公、媒体、隐私安全和系统工具。
+  en: A curated set of free open-source software for development, design, notes, office work, media, privacy, security and utilities.
+intro:
+  zh: 开源不只是“能看源码”，也意味着更容易审计、更容易迁移、更不容易被突然改成强订阅。这个专题收录适合普通用户和专业用户长期使用的免费开源工具。
+  en: Open source is not just about visible code. It often means easier auditing, better portability and less risk of sudden lock-in. This collection highlights free open-source tools suitable for long-term use.
+criteria:
+  zh:
+    - 源码地址明确，许可证清晰。
+    - 核心功能免费可用，不依赖强制订阅。
+    - 优先跨平台、可离线、数据可迁移的软件。
+  en:
+    - Source repository and license are clear.
+    - Useful core features are free without forced subscriptions.
+    - Cross-platform, offline-friendly and portable data models are preferred.
+tools: [vscodium, firefox, 7-zip, bitwarden, keepassxc, libreoffice, gimp, krita, inkscape, blender, kdenlive, shotcut, obs-studio, joplin, logseq, zotero, syncthing, veracrypt]
+skills: [filesystem-mcp, git-mcp, sqlite-mcp, fetch-mcp, context7]
+faq:
+  zh:
+    - q: 免费开源软件适合普通用户吗？
+      a: 适合。很多开源软件已经非常成熟，比如 Firefox、LibreOffice、OBS Studio、Bitwarden 和 7-Zip。
+    - q: 开源就一定更安全吗？
+      a: 不一定。开源让审计成为可能，但仍要看维护状态、发布渠道、社区质量和使用方式。
+  en:
+    - q: Is open-source software practical for non-technical users?
+      a: Yes. Many open-source apps are mature and mainstream, including Firefox, LibreOffice, OBS Studio, Bitwarden and 7-Zip.
+    - q: Is open source automatically safer?
+      a: No. Open source enables auditability, but safety still depends on maintenance, release channels, community quality and usage.
+featured: true
+added: '2026-07-20'

@@ -1,0 +1,33 @@
+title:
+  zh: 免费 PDF 工具推荐
+  en: Free PDF Tools
+description:
+  zh: 免费 PDF 阅读、编辑、合并、拆分、压缩和转换工具，适合学习、办公和个人文档处理。
+  en: Free PDF tools for reading, editing, merging, splitting, compressing and converting documents.
+intro:
+  zh: PDF 工具最常见的坑是导出水印、上传隐私文档、功能藏在订阅后面。这里优先收录本地可用、免费额度实用、官方来源清晰的 PDF 工具。
+  en: PDF tools often hide watermarks, upload private documents or lock basic exports behind subscriptions. This list focuses on practical free tools with clear official sources and local-first options where possible.
+criteria:
+  zh:
+    - 阅读、合并、拆分、压缩、转换等核心场景能免费完成。
+    - 优先本地处理或可自建，减少敏感文档上传。
+    - 不推荐有强水印或恶意弹窗的软件。
+  en:
+    - Core tasks such as reading, merging, splitting, compressing and converting are usable for free.
+    - Local or self-hostable processing is preferred for sensitive documents.
+    - Strong watermarking or aggressive pop-ups are avoided.
+tools: [sumatra-pdf, stirling-pdf, solopdf, okular, libreoffice, onlyoffice-desktop-editors]
+skills: []
+faq:
+  zh:
+    - q: 敏感 PDF 可以用在线工具吗？
+      a: 不建议。合同、证件、财务和内部资料优先用本地工具或自建工具处理。
+    - q: 免费 PDF 编辑和 Acrobat 差距大吗？
+      a: 复杂表单、批量企业流程和高级 OCR 会有差距，但阅读、合并、拆分、压缩、基础编辑通常有免费替代。
+  en:
+    - q: Should I upload sensitive PDFs to online tools?
+      a: Avoid it when possible. Contracts, IDs, financial and internal documents are better handled locally or with self-hosted tools.
+    - q: Can free PDF tools replace Acrobat?
+      a: For advanced enterprise workflows and OCR, not always. For reading, merging, splitting, compression and basic edits, free tools often work well.
+featured: true
+added: '2026-07-20'

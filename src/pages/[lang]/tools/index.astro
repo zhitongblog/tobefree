@@ -13,6 +13,18 @@ const { lang } = Astro.props as { lang: Lang };
 const loc = lang as Locale;
 const t = useTranslations(lang);
 const all = await getAllTools();
+const pageSeo = {
+  zh: {
+    title: '免费软件大全',
+    description: `按分类浏览 ${all.length} 款免费、无广告、无追踪或无需注册的软件工具，覆盖 Windows、macOS、Linux、网页和移动端。`,
+    intro: '这里不是普通软件下载站，而是一份偏长期使用的免费软件清单。每款工具都会标出是否开源、是否无广告、是否无需注册、是否离线可用，以及官方地址和源码地址。',
+  },
+  en: {
+    title: 'Free Software Directory',
+    description: `Browse ${all.length} free, ad-free, no-tracking or no-sign-up tools for Windows, macOS, Linux, web and mobile platforms.`,
+    intro: 'This is not a download mirror. It is a curated software directory for tools worth using long term, with clear badges for open source, ads, tracking, sign-up requirements, offline support, official sites and source code.',
+  },
+}[lang];
 
 // Only show categories that actually have tools.
 const usedCats = CATEGORIES.filter((c) => all.some((x) => x.data.category === c.id));
@@ -32,12 +44,13 @@ function searchString(tool: (typeof all)[number]): string {
 }
 ---
 
-<BaseLayout title={t('tools.title')} description={t('site.description')}>
+<BaseLayout title={pageSeo.title} description={pageSeo.description}>
   <section class="section container">
     <div class="section-head">
       <p class="eyebrow">{t('site.name')}</p>
       <h2>{t('tools.title')}</h2>
-      <p>{t('tools.count', { n: all.length })}</p>
+      <p>{pageSeo.intro}</p>
+      <p class="count">{t('tools.count', { n: all.length })}</p>
     </div>
 
     <div class="controls">
@@ -72,6 +85,11 @@ function searchString(tool: (typeof all)[number]): string {
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 2rem;
+  }
+  .count {
+    color: var(--text-faint) !important;
+    font-size: 0.92rem;
+    margin-top: 0.45rem;
   }
   .search {
     display: flex;

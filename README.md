@@ -5,6 +5,8 @@
 一个中英双语、纯静态、零追踪的免费软件目录站。用 [Astro](https://astro.build) 构建，
 托管在 [Cloudflare Pages](https://pages.cloudflare.com)（免费）。
 
+- **在线访问**：[tobefree.app](https://tobefree.app/zh/)
+- **专题清单**：[免费软件专题](https://tobefree.app/zh/collections/) · [Free software collections](https://tobefree.app/en/collections/)
 - **纯静态**：没有后端、没有数据库、没有运行成本。
 - **数据驱动**：收录一个工具 = 加一个 YAML 文件，网站自动生成详情页、分类页、搜索、sitemap。
 - **三种自助录入**：可视化后台 / CLI / MCP —— 日常加工具不需要写代码。
@@ -45,6 +47,15 @@ git add . && git commit -m "add: 某工具" && git push
 - **链接策略**：只链官方网站与官方下载页，**绝不自己托管安装包**
 
 详见站内 `/zh/about` 页。
+
+## 热门专题
+
+- [免费无广告软件推荐](https://tobefree.app/zh/collections/ad-free-free-software/)
+- [Windows 免费软件推荐](https://tobefree.app/zh/collections/windows-free-software/)
+- [免费开源软件推荐](https://tobefree.app/zh/collections/open-source-free-software/)
+- [免费 PDF 工具推荐](https://tobefree.app/zh/collections/free-pdf-tools/)
+- [免费笔记软件推荐](https://tobefree.app/zh/collections/free-note-taking-apps/)
+- [MCP Server 推荐](https://tobefree.app/zh/collections/mcp-servers/)
 
 ## 项目结构
 

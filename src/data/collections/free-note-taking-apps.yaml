@@ -1,0 +1,33 @@
+title:
+  zh: 免费笔记软件推荐
+  en: Free Note-Taking Apps
+description:
+  zh: 免费笔记、知识管理、写作和资料整理工具，适合本地笔记、双链笔记、Markdown 写作和长期知识库。
+  en: Free note-taking, knowledge management and writing tools for local notes, linked notes, Markdown and long-term personal knowledge bases.
+intro:
+  zh: 好的笔记软件不应该把你的知识锁死在账号和订阅里。这里优先选择免费、数据相对可控、适合长期积累的笔记和写作工具。
+  en: Good note-taking software should not trap your knowledge behind accounts and subscriptions. This collection highlights free, durable and data-conscious tools for writing and long-term knowledge management.
+criteria:
+  zh:
+    - 免费版足够日常记录、整理和检索。
+    - 优先支持 Markdown、本地文件、导出或同步自由。
+    - 适合长期知识库，而不是只适合临时便签。
+  en:
+    - Free features are enough for everyday capture, organization and retrieval.
+    - Markdown, local files, export options or flexible sync are preferred.
+    - Tools should support long-term knowledge bases, not just temporary notes.
+tools: [obsidian, joplin, logseq, zettlr, zim, trilium-notes, appflowy, standard-notes, solomd]
+skills: [obsidian-mcp, apple-notes-mcp, filesystem-mcp]
+faq:
+  zh:
+    - q: Notion、Obsidian、Logseq 怎么选？
+      a: 想要协作和数据库选 Notion 类；想要本地 Markdown 和插件生态选 Obsidian；喜欢大纲和双链思维可以看 Logseq。
+    - q: 免费笔记软件最该看什么？
+      a: 看导出能力、数据格式、同步方式、离线可用性和长期维护，而不是只看界面。
+  en:
+    - q: How should I choose between Notion, Obsidian and Logseq?
+      a: Choose Notion-like tools for collaboration and databases, Obsidian for local Markdown and plugins, and Logseq for outline-first linked thinking.
+    - q: What matters most in a free notes app?
+      a: Export, data format, sync model, offline use and long-term maintenance matter more than surface polish.
+featured: false
+added: '2026-07-20'
