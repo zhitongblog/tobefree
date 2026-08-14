@@ -11,6 +11,7 @@ export const ROOT = join(__dirname, '..');
 export const TOOLS_DIR = join(ROOT, 'src', 'data', 'tools');
 
 export const CATEGORIES = [
+  { id: 'ai', label: { zh: 'AI · 大模型', en: 'AI & LLM' } },
   { id: 'productivity', label: { zh: '效率 · 笔记', en: 'Productivity' } },
   { id: 'creative', label: { zh: '创意 · 设计', en: 'Creative' } },
   { id: 'media', label: { zh: '音频 · 视频', en: 'Audio & Video' } },

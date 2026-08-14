@@ -1,0 +1,43 @@
+title:
+  zh: 免费在本地跑大模型的工具
+  en: Free Tools to Run LLMs Locally
+description:
+  zh: 在自己电脑上跑大模型的四个常见选择，全部免费、不需要注册账号、可离线运行。含协议真相与安装包体积实测。
+  en: "Four common ways to run large language models on your own machine: all free, no account required, all able to run offline. Includes licence facts and measured installer sizes."
+intro:
+  zh: 在本地跑大模型现在不需要显卡集群，也不需要给谁付订阅费。但这几个常被并排比较的工具其实处在不同的层——有的是引擎，有的是桌面应用，有的是自建的网页界面。选错层比选错产品更常见。这个专题按「你缺哪一层」来分，所有数字截至 2026 年 8 月，可在各自发布页核对。
+  en: Running a model locally no longer needs a GPU cluster or a subscription. But the tools people compare side by side actually sit at different layers — one is an engine, two are desktop apps, one is a self-hosted web interface. Picking the wrong layer is a more common mistake than picking the wrong product. This collection sorts them by which layer you are missing. All figures verified August 2026 against official release pages.
+criteria:
+  zh:
+    - 核心功能永久免费，不是限时试用。
+    - 不需要注册账号即可下载和使用。
+    - 可以完全离线运行，模型和对话留在本机。
+    - 协议按实际 LICENSE 文件标注，不采信仓库页的自动识别。
+  en:
+    - Core features are free permanently, not a time-limited trial.
+    - No account required to download or use.
+    - Runs fully offline, with models and conversations staying on your machine.
+    - Licences are recorded from the actual LICENSE file, not the repository page's auto-detection.
+tools: [ollama, lm-studio, jan, open-webui]
+skills: []
+featured: true
+added: '2026-08-14'
+faq:
+  zh:
+    - q: 这四个应该装哪一个？
+      a: 看你缺哪一层。完全不想碰命令行，装 LM Studio 或 Jan，一个应用就够。想把本地模型接进编辑器、脚本或自己写的程序，装 Ollama，它的本地 API 是这个生态事实上的标准接口。想在浏览器里用、或者给几个人共用，Ollama 加 Open WebUI 是最常见的组合。
+    - q: 本地跑需要什么样的硬件？
+      a: 一个 7B 规模的模型通常还要额外 4 到 5 GB 硬盘，显存不够时可以退到 CPU 跑，只是慢。装之前先看硬盘：Ollama 的 Windows 安装包本身就有 1492 MB（打包了 CUDA、ROCm 运行时），macOS 版 174.6 MB，Jan 的 Windows 版只有 55 MB。
+    - q: Open WebUI 是开源的吗？
+      a: 严格说不是。它的 License 主体是 BSD-3-Clause，但加了第 4 条禁止修改或移除 Open WebUI 的品牌标识，限制修改自由，按 OSI 的开源定义不成立，属于「源码可见」。不过条款有例外：滚动 30 天内终端用户不超过 50 人的部署可以改品牌，所以个人和小团队用基本不受影响。
+    - q: LM Studio 闭源，商用要付费吗？
+      a: 不要。2025 年 7 月起个人和商用都免费，不需要申请授权也不需要填表，下载模型同样不要账号。另有面向组织的 Enterprise 付费版，提供 SSO 和模型管控，跟普通用户无关。
+  en:
+    - q: Which of the four should I install?
+      a: "It depends on which layer you are missing. If you never want to touch a terminal, install LM Studio or Jan — one app is enough. If you want a local model wired into an editor, a script or your own program, install Ollama, whose local API is the de-facto standard interface. If you want browser access or want to share it with a few people, Ollama plus Open WebUI is the usual pairing."
+    - q: What hardware do I need?
+      a: "A 7B-class model typically adds 4-5 GB of disk on top of the app, and it can fall back to CPU when VRAM is short — just slower. Check disk space first: Ollama's Windows installer alone is 1492 MB because it bundles CUDA and ROCm runtimes, against 174.6 MB on macOS and just 55 MB for Jan on Windows."
+    - q: Is Open WebUI open source?
+      a: "Strictly speaking, no. Its licence is BSD-3-Clause plus a fourth clause forbidding alteration or removal of Open WebUI branding. Restricting modification fails the OSI definition, making it source-available. There is an exception, though: deployments with 50 or fewer end users in any rolling 30-day period may change the branding, so personal and small-team use is effectively unaffected."
+    - q: LM Studio is closed source — does commercial use cost money?
+      a: "No. It has been free for both personal and commercial use since July 2025, with no licence request or form, and no account needed to download models. A paid Enterprise tier exists for organizations wanting SSO and model gating, which is irrelevant to individual users."

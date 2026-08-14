@@ -1,0 +1,44 @@
+name: Ollama
+accent: '#4C4C4C'
+initials: OL
+category: ai
+price: free
+license: 'MIT'
+website: https://ollama.com
+download: https://ollama.com/download
+repo: https://github.com/ollama/ollama
+featured: true
+selfMade: false
+added: '2026-08-14'
+tags: [大模型, llm, 本地运行, 离线, api]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup, self-hostable]
+tagline:
+  zh: 在自己电脑上跑大模型，一条命令的事
+  en: Run large language models on your own machine, one command away
+description:
+  zh: MIT 开源的本地大模型运行器。负责下载模型、管理显存、对外提供本地 API，是这个生态事实上的标准接口——绝大多数本地 AI 工具都优先支持接 Ollama。没有图形界面，装完得到的是一条命令和一个本地服务。不需要注册，断网可用。
+  en: "An MIT-licensed local LLM runner. It downloads models, manages VRAM and exposes a local API that has become the de-facto standard interface — most local AI tools support Ollama first. No GUI: you get a command and a local service. No account, works offline."
+review:
+  zh: |
+    Ollama 是本地跑大模型的默认答案。178,502 颗星，MIT 协议，模型库最全，社区教程最多，
+    你想接的那个工具大概率已经支持它。
+
+    要先知道一个数字：Windows 安装包 1492 MB，macOS 版 174.6 MB。差这么多是因为 Windows 版
+    把 CUDA、ROCm 这些 GPU 运行时一起打包了。装之前留够空间——这还没算模型本身，
+    一个 7B 模型通常还要 4 到 5 GB。
+
+    它没有图形界面。想要点开就能聊的窗口，得在前面配一个（比如 Open WebUI），
+    或者直接用 LM Studio、Jan。但只要你打算把本地模型接进编辑器、脚本或自己写的程序，
+    Ollama 那个本地 API 是最省事的路。
+  en: |
+    Ollama is the default answer for running models locally. 178,502 stars, MIT-licensed, the widest
+    model library, and whatever tool you want to plug in probably supports it already.
+
+    One number to know first: the Windows installer is 1492 MB, versus 174.6 MB on macOS. The gap is
+    CUDA and ROCm GPU runtimes bundled into the Windows build. Leave room before installing — and
+    that is before any model, where a 7B typically adds another 4-5 GB.
+
+    There is no GUI. If you want a window you can just click and chat in, pair it with a front end
+    like Open WebUI, or use LM Studio or Jan instead. But the moment you want a local model wired
+    into an editor, a script or your own program, Ollama's local API is the path of least resistance.

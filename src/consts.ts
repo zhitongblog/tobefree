@@ -28,6 +28,7 @@ export interface LocalizedText {
 
 /** Tool categories. `id` is used in URLs and data files. */
 export const CATEGORIES = [
+  { id: 'ai', icon: '🤖', label: { zh: 'AI · 大模型', en: 'AI & LLM' } },
   { id: 'productivity', icon: '✍️', label: { zh: '效率 · 笔记', en: 'Productivity' } },
   { id: 'creative', icon: '🎨', label: { zh: '创意 · 设计', en: 'Creative' } },
   { id: 'media', icon: '🎬', label: { zh: '音频 · 视频', en: 'Audio & Video' } },
@@ -45,6 +46,20 @@ export const CATEGORY_SEO: Record<CategoryId, {
   description: LocalizedText;
   intro: LocalizedText;
 }> = {
+  ai: {
+    title: {
+      zh: '免费 AI 工具与本地大模型软件推荐',
+      en: 'Free AI Tools and Local LLM Software',
+    },
+    description: {
+      zh: '精选真正免费的 AI 工具：本地大模型运行器、开源对话客户端、AI 编程助手和图像生成工具，多数可离线运行、无需注册、数据留在本机。',
+      en: 'Genuinely free AI tools: local LLM runners, open-source chat clients, AI coding assistants and image generation software — most run offline, need no account, and keep your data on your own machine.',
+    },
+    intro: {
+      zh: '主流 AI 产品大多要订阅、要注册，还要把你的内容传到别人的服务器上。这里只收核心功能免费、不逼你注册的 AI 工具，优先开源、可离线运行、可自建。适合想在本机跑大模型、找 ChatGPT 或 Copilot 免费替代方案的人。',
+      en: 'Most mainstream AI products want a subscription, an account, and your content on their servers. This category collects AI tools whose core features are free and that do not force a sign-up, prioritizing open source, offline capability and self-hosting. Start here to run models on your own machine or to find free alternatives to ChatGPT and Copilot.',
+    },
+  },
   productivity: {
     title: {
       zh: '免费效率与笔记软件推荐',

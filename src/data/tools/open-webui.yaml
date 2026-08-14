@@ -1,0 +1,47 @@
+name: Open WebUI
+accent: '#1DA57A'
+initials: OW
+category: ai
+price: free
+license: 'Source-available'
+website: https://openwebui.com
+download: https://github.com/open-webui/open-webui
+repo: https://github.com/open-webui/open-webui
+featured: false
+selfMade: false
+added: '2026-08-14'
+tags: [大模型, llm, 自建, web界面, ollama]
+platforms: [web, linux, windows, macos]
+badges: [self-hostable, offline, cross-platform, no-ads]
+tagline:
+  zh: 自建的大模型网页界面，通常接在 Ollama 前面
+  en: A self-hosted web interface for local LLMs, usually placed in front of Ollama
+description:
+  zh: 自建的大模型网页前端，本身不跑模型，需要连到 Ollama 或其他 API。解决的是「在浏览器里用、多人共用、要账号和历史记录」这类问题，通常用 Docker 部署。授权不是标准开源协议：BSD-3 基础上加了品牌保护条款，滚动 30 天内终端用户超过 50 人的部署不得修改 Open WebUI 品牌标识。
+  en: "A self-hosted web front end for local LLMs. It does not run models itself — you point it at Ollama or another API. It solves browser access, multi-user sharing, accounts and chat history, and is usually deployed with Docker. Not a standard open-source licence: BSD-3 plus a branding clause that forbids altering Open WebUI branding for deployments exceeding 50 end users in any rolling 30-day window."
+review:
+  zh: |
+    Open WebUI 是把本地模型变成「浏览器里能用、还能分享给别人」的那一层。它自己不跑模型，
+    最常见的搭法是 Ollama 在后面跑模型、它在前面出界面。148,737 颗星，生态成熟。
+
+    有一条得说清楚，因为几乎所有介绍它的文章都写错了：它不是标准意义上的开源。
+    License 主体是 BSD-3-Clause，但加了第 4 条——禁止修改、移除、遮挡或替换 Open WebUI 的
+    名称、logo 和任何视觉标识。限制修改自由，按 OSI 的开源定义就不成立，它属于「源码可见」。
+
+    条款里有例外，说全才公平：滚动 30 天内终端用户不超过 50 人的部署，可以改品牌标识。
+    所以自己用、家里用、小团队用，实质跟 BSD-3 没区别。只有当你要在公司里铺开，
+    或者想基于它二次开发换成自己的品牌时，才需要认真算这个人数。
+  en: |
+    Open WebUI is the layer that turns a local model into something usable in a browser and shareable
+    with other people. It runs no models itself; the usual setup is Ollama behind it serving the
+    model. 148,737 stars, mature ecosystem.
+
+    One thing needs stating plainly, because nearly every write-up gets it wrong: it is not open
+    source in the standard sense. The licence is BSD-3-Clause plus a fourth clause forbidding any
+    alteration, removal or replacement of the Open WebUI name, logo or visual identifiers.
+    Restricting modification fails the OSI definition — this is source-available software.
+
+    To be fair, the clause has an exception: deployments with 50 or fewer end users in any rolling
+    30-day period may change the branding. So for personal, household or small-team use it behaves
+    like BSD-3. It only becomes a real consideration if you plan to roll it out across a company or
+    rebrand it as your own product.

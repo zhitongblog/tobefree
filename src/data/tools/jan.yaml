@@ -1,0 +1,43 @@
+name: Jan
+accent: '#3B82F6'
+initials: JN
+category: ai
+price: free
+license: 'Apache-2.0'
+website: https://jan.ai
+download: https://github.com/menloresearch/jan/releases
+repo: https://github.com/menloresearch/jan
+featured: false
+selfMade: false
+added: '2026-08-14'
+tags: [大模型, llm, 本地运行, 离线, chatgpt替代]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: 开源的 ChatGPT 替代品，100% 离线跑在自己机器上
+  en: An open-source ChatGPT alternative that runs 100% offline on your own machine
+description:
+  zh: Apache 2.0 开源的桌面端大模型客户端，定位是可以完全离线运行的 ChatGPT 替代品。模型下载与对话都在同一个窗口完成，不需要命令行、不需要注册账号。安装包在同类里最小，Windows 版仅 55 MB。
+  en: An Apache 2.0 desktop LLM client positioned as a fully offline ChatGPT alternative. Model downloads and chat happen in one window — no command line, no account. Its installer is the smallest of its class at 55 MB on Windows.
+review:
+  zh: |
+    先澄清一件容易被误会的事：GitHub 上 Jan 的协议显示成 NOASSERTION，看起来像协议不明。
+    实际打开 LICENSE 文件，是标准的 Apache 2.0，只是文末多了一句致谢，GitHub 自动识别没认出来。
+
+    它和 LM Studio 是同一类——点开就能聊的桌面应用——区别是它开源，而且安装包小得多：
+    Windows 55 MB、macOS 97.8 MB，对比 Ollama 的 1492 MB 和 174.6 MB。
+
+    短板是规模。43,996 颗星，是这几个里最少的，社区、教程和第三方集成都比不过 Ollama。
+    但如果你要的就是一个开源的、能离线用的聊天窗口，它是最直接的答案。
+  en: |
+    One thing worth clearing up first: GitHub reports Jan's licence as NOASSERTION, which makes it
+    look unclear. Open the LICENSE file and it is a standard Apache 2.0 — GitHub's auto-detection
+    simply fails on an extra attribution line at the end.
+
+    It is the same class of thing as LM Studio — a desktop app you open and chat in — except it is
+    open source and much smaller: 55 MB on Windows and 97.8 MB on macOS, against Ollama's 1492 MB
+    and 174.6 MB.
+
+    Its weakness is scale. At 43,996 stars it is the smallest of this group, and community,
+    tutorials and third-party integrations all trail Ollama. But if what you want is an open-source
+    chat window that works offline, this is the most direct answer.

@@ -1,0 +1,42 @@
+name: MarkText
+accent: '#4A9E6F'
+initials: MT
+category: productivity
+price: free
+license: 'MIT'
+website: https://www.marktext.me
+download: https://github.com/marktext/marktext/releases
+repo: https://github.com/marktext/marktext
+featured: false
+selfMade: false
+added: '2026-08-14'
+tags: [markdown, 编辑器, 笔记, 实时预览, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: 免费开源的 Markdown 编辑器，实时预览，界面干净
+  en: A free, open-source Markdown editor with real-time preview and a clean interface
+description:
+  zh: MIT 开源的跨平台 Markdown 编辑器：实时预览（所见即所得）、源码/打字机/专注三种编辑模式，支持 CommonMark、GFM 和部分 Pandoc 语法，内置 KaTeX 数学公式、表格编辑和图片粘贴，可导出 HTML 与 PDF。下载即用，不需要注册账号。
+  en: An MIT-licensed cross-platform Markdown editor with real-time WYSIWYG preview and source / typewriter / focus modes. Supports CommonMark, GFM and part of Pandoc Markdown, with KaTeX math, table editing, clipboard image paste, and HTML / PDF export. No account required.
+review:
+  zh: |
+    MarkText 是免费开源阵营里最稳的一个选择。MIT 协议，GitHub 上 60,007 颗星，
+    界面干净、实时预览流畅，写作时几乎不需要配置。
+
+    网上一度传它停止维护，实际没有：2026 年 6 月还发布了 v0.19.1，7 月底仍在提交代码。
+
+    要注意的是体积。它基于 Electron，每个应用自带一份 Chromium，Windows 安装包 106 MB、
+    macOS 版 121 MB —— 同类里用 Tauri 写的编辑器通常只有十几 MB。如果你介意这个，
+    可以再看看更轻的方案；如果不介意，MarkText 是那种装上就能一直用下去的工具。
+  en: |
+    MarkText is the most solid pick in the free and open-source camp. MIT-licensed, 60,007 stars on
+    GitHub, with a clean interface and smooth real-time preview that needs almost no configuration.
+
+    It was widely rumoured to be abandoned. It isn't: v0.19.1 shipped in June 2026, and commits were
+    still landing at the end of July.
+
+    The one thing to weigh is size. It's built on Electron, so each install carries its own copy of
+    Chromium — 106 MB on Windows, 121 MB on macOS. Editors built on Tauri are typically a tenth of
+    that. If the footprint matters to you, look at lighter options; if it doesn't, MarkText is the
+    kind of tool you install once and keep.

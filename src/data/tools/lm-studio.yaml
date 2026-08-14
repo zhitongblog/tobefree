@@ -1,0 +1,41 @@
+name: LM Studio
+accent: '#7B5CD6'
+initials: LM
+category: ai
+price: free
+license: 'Proprietary'
+website: https://lmstudio.ai
+download: https://lmstudio.ai/download
+featured: false
+selfMade: false
+added: '2026-08-14'
+tags: [大模型, llm, 本地运行, 离线, 桌面应用]
+platforms: [windows, macos, linux]
+badges: [offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: 图形界面跑本地大模型，个人和商用都免费
+  en: Run local LLMs in a desktop GUI — free for personal and commercial use
+description:
+  zh: 桌面端本地大模型客户端：模型搜索、量化版本选择、显存占用预估、参数调节全在图形界面里，不用碰命令行。闭源，但 2025 年 7 月起个人与商用均免费，不需要申请授权，也不需要注册账号即可下载模型。另有面向组织的 Enterprise 付费版。
+  en: "A desktop client for local LLMs: model search, quantization picker, VRAM estimates and parameter tuning all in a GUI, no command line needed. Closed source, but free for both personal and commercial use since July 2025 — no licence request, no account required to download models. A paid Enterprise tier exists for organizations."
+review:
+  zh: |
+    四个常见选择里唯一闭源的一个，但授权比不少开源项目还宽松：2025 年 7 月起个人和商用都免费，
+    不用填表申请，下载模型也不要账号。
+
+    它赢在完成度。模型搜不搜得到、这个量化版本你的显存够不够、参数怎么调，界面里全给你标好了，
+    对不想碰命令行的人是这几个里最省事的。
+
+    代价是闭源：你没法审计它到底做了什么，也没法自己改。如果这点让你不舒服，
+    同类里 Jan 是 Apache 2.0 的那个。
+  en: |
+    The only closed-source option among the common four — yet its terms are more permissive than some
+    open projects: free for personal and commercial use since July 2025, no form to fill in, and no
+    account needed to download models.
+
+    It wins on polish. Whether a model is findable, whether your VRAM can hold a given quantization,
+    how to tune the parameters — it is all surfaced in the UI. For anyone who would rather not touch
+    a terminal, this is the least friction of the group.
+
+    The cost is that it is closed source: you cannot audit what it does, and you cannot modify it. If
+    that bothers you, Jan is the Apache 2.0 equivalent.
