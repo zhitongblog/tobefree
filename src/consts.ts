@@ -36,6 +36,15 @@ export const CATEGORIES = [
   { id: 'utility', icon: '🧰', label: { zh: '系统 · 实用', en: 'Utilities' } },
   { id: 'privacy', icon: '🛡️', label: { zh: '隐私 · 安全', en: 'Privacy' } },
   { id: 'office', icon: '📄', label: { zh: '办公 · 文档', en: 'Office' } },
+  { id: 'browser', icon: '🌐', label: { zh: '浏览器 · 上网', en: 'Browsers' } },
+  { id: 'network', icon: '📡', label: { zh: '下载 · 网络', en: 'Downloads & Network' } },
+  { id: 'chat', icon: '💬', label: { zh: '通讯 · 会议', en: 'Chat & Meetings' } },
+  { id: 'remote', icon: '🖥️', label: { zh: '远程 · 传输', en: 'Remote & Transfer' } },
+  { id: 'selfhosted', icon: '🏠', label: { zh: '自建 · 服务器', en: 'Self-hosted' } },
+  { id: 'learning', icon: '📚', label: { zh: '学习 · 科研', en: 'Learning & Science' } },
+  { id: 'cad', icon: '📐', label: { zh: '工程 · CAD', en: 'Engineering & CAD' } },
+  { id: 'finance', icon: '💰', label: { zh: '财务 · 记账', en: 'Finance' } },
+  { id: 'gaming', icon: '🎮', label: { zh: '游戏 · 模拟器', en: 'Gaming' } },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];
@@ -156,6 +165,132 @@ export const CATEGORY_SEO: Record<CategoryId, {
     intro: {
       zh: '办公文档软件常见痛点是格式兼容、导出限制、广告和订阅。这里收录免费的 Office、PDF、电子书、文献管理和文档阅读工具，适合学习、工作和个人资料整理。',
       en: 'Office and document software often comes with compatibility pain, export limits, ads or subscriptions. This category collects free tools for office documents, PDFs, ebooks, references and reading workflows.',
+    },
+  },
+  browser: {
+    title: {
+      zh: '免费浏览器推荐：无广告、不追踪',
+      en: 'Free Browsers Without Ads or Tracking',
+    },
+    description: {
+      zh: '精选免费浏览器：默认拦截广告与追踪、不绑定账号、不上传浏览记录，覆盖隐私优先、可高度自定义和极端匿名等不同需求。',
+      en: 'Free browsers that block ads and trackers by default, require no account, and do not upload your browsing history — from privacy-first defaults to highly customizable and fully anonymous options.',
+    },
+    intro: {
+      zh: '浏览器是你每天用得最久的软件，也是被追踪得最狠的入口。这里收录默认就拦广告、不强制登录账号、不把浏览记录同步到厂商服务器的免费浏览器，从「装完就干净」到「极端匿名」都有。适合在找 Chrome 替代方案的人。',
+      en: 'The browser is the software you use most and the surface where you get tracked hardest. This category collects free browsers that block ads out of the box, never force an account, and do not ship your history to a vendor — from clean-by-default to fully anonymous. Start here if you are looking for a Chrome replacement.',
+    },
+  },
+  network: {
+    title: {
+      zh: '免费下载工具与网络软件推荐',
+      en: 'Free Download Managers and Network Tools',
+    },
+    description: {
+      zh: '免费的 BT 下载、多线程下载器、视频下载和组网工具，全部无广告、无限速、无「开会员提速」。',
+      en: 'Free BitTorrent clients, multi-threaded download managers, video downloaders and networking tools — no ads, no throttling, no paid "speed boost".',
+    },
+    intro: {
+      zh: '下载工具是国内软件生态里最脏的一块：限速、弹窗、捆绑、开会员才能满速。这里收录的下载器全部开源或免费无广告，不限速、不劫持、不装全家桶，另外附上几个自己搭内网的免费组网工具。',
+      en: 'Download tools are where bundled installers, pop-ups and artificial speed limits are worst. Everything here is open source or genuinely free and ad-free: no throttling, no hijacking, no bundled extras — plus a few free tools for wiring your own devices together across networks.',
+    },
+  },
+  chat: {
+    title: {
+      zh: '免费加密通讯与视频会议软件推荐',
+      en: 'Free Encrypted Messaging and Video Meeting Apps',
+    },
+    description: {
+      zh: '精选免费的端到端加密聊天、去中心化通讯和免注册视频会议软件，适合重视隐私和数据自主的用户。',
+      en: 'Free end-to-end encrypted messengers, decentralized chat networks and no-signup video meeting tools for people who care about privacy.',
+    },
+    intro: {
+      zh: '主流聊天软件把你的社交关系、位置和消息元数据都变成了商品。这里收录端到端加密、协议开放、可自建服务器的免费通讯工具，以及不用注册就能开的视频会议。重点看加密是否默认开启、服务器能不能自己搭、元数据留多少。',
+      en: 'Mainstream chat apps turn your contacts, location and message metadata into a product. This category collects free messengers with end-to-end encryption, open protocols and self-hostable servers, plus video meetings you can start without an account. The things that matter: is encryption on by default, can you run your own server, and how much metadata is left behind.',
+    },
+  },
+  remote: {
+    title: {
+      zh: '免费远程控制与文件传输工具推荐',
+      en: 'Free Remote Desktop and File Transfer Tools',
+    },
+    description: {
+      zh: '免费远程桌面、串流、局域网传输和设备投屏工具，无设备数限制、无商业用途弹窗、可自建中继服务器。',
+      en: 'Free remote desktop, game streaming, local file transfer and screen mirroring tools — no device limits, no "commercial use detected" pop-ups, self-hostable relays.',
+    },
+    intro: {
+      zh: '远程控制软件的免费版通常有三种坑：限设备数、误判「商业用途」封你、把画面转发经过厂商服务器。这里收录可以自建中继、不看广告、不限时长的远程与传输工具，也包括局域网内点对点直传文件的方案。',
+      en: 'Free tiers of remote desktop software usually hide three traps: device caps, being flagged for "commercial use", and routing your screen through a vendor relay. This category collects remote and transfer tools you can point at your own relay, with no ads and no session timers — plus peer-to-peer file transfer that never leaves your LAN.',
+    },
+  },
+  selfhosted: {
+    title: {
+      zh: '免费自建服务与家庭服务器软件推荐',
+      en: 'Free Self-hosted Server Software',
+    },
+    description: {
+      zh: '精选可自建的免费开源服务：网盘、相册、智能家居、密码库、全屋去广告和监控面板，数据完全留在自己的机器上。',
+      en: 'Free open-source software you can host yourself: cloud storage, photo libraries, smart home hubs, password vaults, network-wide ad blocking and status monitoring — all on your own hardware.',
+    },
+    intro: {
+      zh: '自建的意义不是省钱，是「服务不会某天被关掉，数据不会某天被涨价绑架」。这里收录一台旧电脑或 NAS 就能跑起来的开源服务：网盘、相册、智能家居、密码库、全屋去广告。大多有官方 Docker 镜像，一条命令起服务。',
+      en: 'Self-hosting is not about saving money — it is about services that cannot be shut down and data that cannot be held hostage by a price hike. Everything here runs on an old PC or a NAS: cloud storage, photo libraries, smart home hubs, password vaults, network-wide ad blocking. Most ship official Docker images and come up with a single command.',
+    },
+  },
+  learning: {
+    title: {
+      zh: '免费学习与科研软件推荐',
+      en: 'Free Learning and Science Software',
+    },
+    description: {
+      zh: '免费的记忆背诵、文献管理、数学几何、天文观星、地理信息和少儿编程软件，适合学生、教师和研究者。',
+      en: 'Free software for spaced repetition, reference management, mathematics, astronomy, GIS and kids programming — for students, teachers and researchers.',
+    },
+    intro: {
+      zh: '学习和科研软件的付费版往往贵得离谱，但这个领域恰恰是开源做得最扎实的地方——很多工具本来就诞生于大学和研究机构。这里收录背单词、管文献、画函数、看星空、做地图和给孩子入门编程的免费工具，多数可离线使用。',
+      en: 'Academic software is often absurdly expensive, yet this is where open source is strongest — many of these tools were born inside universities and research institutes. This category covers spaced repetition, reference management, graphing, astronomy, GIS and kids programming, most of it usable entirely offline.',
+    },
+  },
+  cad: {
+    title: {
+      zh: '免费 CAD 与工程设计软件推荐',
+      en: 'Free CAD and Engineering Design Software',
+    },
+    description: {
+      zh: '免费开源的三维建模、参数化设计、电路板设计、二维制图和家装设计软件，商用免费、无水印、无导出限制。',
+      en: 'Free and open-source 3D modeling, parametric design, PCB layout, 2D drafting and home design software — free for commercial use, no watermarks, no export limits.',
+    },
+    intro: {
+      zh: 'CAD 是正版软件最贵的领域之一，也是「个人版免费、商用就要授权」套路最多的地方。这里收录的工具全部开源，商业用途同样免费，导出没有水印和格式阉割，适合 3D 打印、电子硬件、机械设计和家装规划。',
+      en: 'CAD is among the most expensive software categories, and the one with the most "free for personal use, license required for business" traps. Everything here is open source and equally free commercially, with no watermarked or crippled exports — suitable for 3D printing, electronics, mechanical design and home planning.',
+    },
+  },
+  finance: {
+    title: {
+      zh: '免费记账与个人财务软件推荐',
+      en: 'Free Accounting and Personal Finance Software',
+    },
+    description: {
+      zh: '免费的个人记账、复式记账、预算管理和自建财务系统，数据存在本地或自己的服务器，不上传银行账号。',
+      en: 'Free personal bookkeeping, double-entry accounting, budgeting and self-hosted finance tools that keep data on your machine and never ask for bank credentials.',
+    },
+    intro: {
+      zh: '记账软件最不该做的事，就是把你的收支明细和银行账号传到别人的服务器上，然后按月收订阅费。这里收录数据存本地或自建服务器的免费记账工具，涵盖简单流水、信封预算和标准复式记账，导出格式开放，不会把你锁死。',
+      en: 'The last thing a finance app should do is upload your transactions and bank logins to someone else\'s server and then bill you monthly. This category collects free bookkeeping tools that keep data local or on your own server, covering simple ledgers, envelope budgeting and proper double-entry accounting, with open export formats so you are never locked in.',
+    },
+  },
+  gaming: {
+    title: {
+      zh: '免费游戏模拟器与游戏管理工具推荐',
+      en: 'Free Game Emulators and Game Library Tools',
+    },
+    description: {
+      zh: '免费开源的主机模拟器、掌机模拟器、老游戏运行环境和游戏库管理工具，无广告、无内购、不捆绑游戏平台。',
+      en: 'Free open-source console and handheld emulators, classic game engines and library managers — no ads, no in-app purchases, no bundled storefronts.',
+    },
+    intro: {
+      zh: '模拟器生态里山寨版和挂广告的「加强版」特别多，很多还是拿开源项目改个图标就上架收费。这里只收官方开源版本：主机与掌机模拟器、老游戏运行环境、跨平台游戏库管理。请自行准备合法拥有的游戏与 BIOS 文件。',
+      en: 'The emulator world is full of ad-laden repackages — many are open-source projects reskinned and sold. This category lists only the official open-source builds: console and handheld emulators, engines that keep classic games playable, and cross-platform library managers. Bring your own legally obtained games and BIOS files.',
     },
   },
 };

@@ -1,0 +1,78 @@
+name: Dolphin
+accent: '#5A3E9B'
+initials: DO
+category: gaming
+price: free
+license: 'GPL-2.0-or-later'
+website: https://dolphin-emu.org
+download: https://dolphin-emu.org/download/
+repo: https://github.com/dolphin-emu/dolphin
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [模拟器, gamecube, wii, 高清渲染, 开源]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: GameCube 和 Wii 游戏，用 1080P 甚至 4K 跑
+  en: GameCube and Wii games at 1080p, or 4K if you like
+description:
+  zh: GameCube 与 Wii 主机模拟器，也是同类里技术最成熟的项目之一。支持把当年 480P 的游戏以 1080P 乃至 4K 内部分辨率渲染，兼容手柄、Wii 遥控器和体感设备，可即时存档、加金手指、替换材质。
+  en: A GameCube and Wii emulator, and one of the most technically mature projects of its kind. Games originally rendered at 480p can be drawn at 1080p or even 4K internally, with support for gamepads, Wii Remotes and motion peripherals, plus save states, cheats and texture replacement.
+review:
+  zh: |
+    Dolphin 是模拟器领域被研究得最透的项目之一，开发了近二十年，
+    官方博客里那些逐月的进度报告本身就是一份图形和逆向工程的教材。
+
+    它最实际的效果和 PPSSPP 类似但幅度更大：GameCube 和 Wii 当年输出 480P，
+    在 Dolphin 里可以直接设成 1080P、1440P 甚至 4K 内部渲染，
+    再叠加各向异性过滤和抗锯齿。那些你记忆里模糊的画面会变得异常锐利，
+    很多人第一次看到会愣一下。
+
+    外设支持做得很足：普通手柄可以映射成 GameCube 手柄；
+    真正的 Wii 遥控器可以通过蓝牙直接连接，体感游戏照玩；
+    也支持用手柄或鼠标模拟指向操作。
+
+    兼容性在主流游戏上很好，社区维护的游戏兼容性数据库可以查具体某个游戏的状态和推荐设置。
+
+    几个要注意的点：
+
+    - **对硬件有要求**。它不像 PSP 模拟器那样轻松，
+      模拟 GameCube/Wii 的 CPU 需要较强的单核性能，老机器上部分游戏会掉帧。
+      开高分辨率还要看显卡。
+    - **发布方式和别的项目不同**。它不怎么打 GitHub Release，
+      而是在官网提供持续更新的开发版（development builds）和阶段性的 beta 版。
+      官网下载页会告诉你该选哪个，一般直接拿最新开发版即可——这是项目常态，不是不稳定。
+    - **游戏文件自备**。请从你拥有的光盘转储，Dolphin 不提供任何游戏内容。
+
+    另外它的 Android 版也可用，但手机性能要求较高，旗舰机型体验较好。
+  en: |
+    Dolphin is among the most thoroughly engineered projects in emulation, developed over nearly two
+    decades, and its monthly progress reports read as a graphics and reverse-engineering curriculum in
+    their own right.
+
+    Its practical effect resembles PPSSPP's but at greater magnitude: GameCube and Wii output 480p
+    natively, while Dolphin can render internally at 1080p, 1440p or 4K with anisotropic filtering and
+    antialiasing layered on. Scenes you remember as soft become startlingly crisp — most people pause
+    the first time they see it.
+
+    Peripheral support is thorough: ordinary gamepads map onto GameCube controllers, genuine Wii
+    Remotes connect over Bluetooth so motion games work properly, and pointer control can also be
+    emulated with a pad or mouse.
+
+    Compatibility with mainstream titles is strong, and a community-maintained database documents the
+    status and recommended settings for specific games.
+
+    Points to watch:
+
+    - **It is hardware-hungry.** Unlike PSP emulation this is demanding: emulating the GameCube and
+      Wii CPUs wants strong single-core performance, and older machines will drop frames in some
+      titles. High internal resolutions then add GPU load on top.
+    - **Its release model differs from most projects.** It rarely tags GitHub releases, instead
+      publishing continuously updated development builds and periodic betas on its own site. The
+      download page explains which to take, and the latest development build is usually right — this
+      is the project's normal practice, not a sign of instability.
+    - **Bring your own game files.** Dump from discs you own; Dolphin ships no game content.
+
+    An Android build exists as well, though it demands a fairly powerful phone to run comfortably.

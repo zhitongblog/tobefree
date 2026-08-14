@@ -1,0 +1,107 @@
+name: IntelliJ IDEA Community
+accent: '#FE315D'
+initials: IJ
+category: dev
+price: free
+license: 'Apache-2.0'
+website: https://www.jetbrains.com/idea/
+download: https://www.jetbrains.com/idea/download/
+repo: https://github.com/JetBrains/intellij-community
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [ide, java, kotlin, 重构, 调试]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, cross-platform]
+tagline:
+  zh: 写 Java 和 Kotlin 的重型 IDE，社区版商用也免费
+  en: The heavyweight Java and Kotlin IDE, free for commercial use too
+description:
+  zh: JetBrains 的 Java/Kotlin 集成开发环境，社区版以 Apache-2.0 开源，商业项目同样免费。以深度代码分析、重构能力和调试器著称，内置 Git、构建工具（Maven/Gradle）和测试框架集成。
+  en: JetBrains' integrated development environment for Java and Kotlin. The Community Edition is Apache-2.0 open source and free for commercial projects as well. It is known for deep code analysis, refactoring and debugging, with Git, build tools (Maven and Gradle) and testing frameworks integrated.
+review:
+  zh: |
+    编辑器和 IDE 的区别，在 Java 这类语言上体现得最明显。
+    VS Code 加插件能写 Java，但 IntelliJ 对代码的理解深度是另一个层级——
+    它把整个项目建成语义索引，所以重命名一个方法能准确改掉所有调用点
+    （包括反射字符串和配置文件里的引用），提取方法、内联变量、
+    改变方法签名这类重构是真正安全的，而不是文本替换。
+
+    社区版（Community Edition）是 **Apache-2.0 开源**的，
+    在 GitHub 上能看到全部源码，**商业项目使用也不需要付费**——
+    这一点经常被误解，很多人以为 IntelliJ 全系都要买。
+
+    社区版包含的核心能力：
+
+    - **Java 和 Kotlin 的完整支持**：智能补全、静态分析、上千条代码检查、
+      快速修复建议。Kotlin 就是 JetBrains 做的，支持自然是第一梯队。
+    - **重构工具集**：这是它最大的价值，重命名、提取、内联、
+      移动类、改签名，几十种重构操作，跨整个项目安全执行。
+    - **调试器**：条件断点、表达式求值、字段监视点、
+      运行时修改变量值、多线程调试。
+    - **构建和测试集成**：Maven、Gradle 开箱可用，JUnit/TestNG 跑测试、看覆盖率。
+    - **Git 集成**：分支管理、冲突解决、历史比较，做得比大多数 IDE 细致。
+    - **Android 开发**：Google 的 Android Studio 就是基于 IntelliJ 平台构建的。
+
+    要说清楚的边界，这很重要：
+
+    - **社区版和 Ultimate 版功能差别不小**。社区版**不包含**：
+      Spring 框架的专门支持、JavaScript/TypeScript 前端开发、
+      数据库工具、各种应用服务器集成、远程开发、Profiler。
+      做 Spring Boot 后端开发的人会明显感觉到缺口——
+      这部分需要付费的 Ultimate 版。
+    - **只覆盖 JVM 语言**。写 Python 用 PyCharm、写 Go 用 GoLand，
+      这些是独立产品且授权政策各不相同（PyCharm 社区版也是开源免费的，
+      GoLand 没有社区版）。请以 JetBrains 官网当下的说明为准。
+    - **吃资源**。它把项目建索引是有代价的：内存占用高、
+      首次打开大项目要等索引跑完、老机器上会明显卡。8 GB 内存是下限，
+      16 GB 才舒服。安装包本身也有几百兆。
+    - **学生和教师**可以申请全套产品的免费授权，开源项目维护者也有对应计划。
+
+    适合谁：主要写 Java / Kotlin、看重重构和静态分析的开发者。
+    只是偶尔改改 Java 文件，VS Code 加 Java 扩展够用且轻得多。
+  en: |
+    The difference between an editor and an IDE shows most clearly in a language like Java. VS Code
+    with plugins can edit Java, but IntelliJ's understanding of code operates at another level: it
+    builds a semantic index of the whole project, so renaming a method correctly updates every call
+    site — including reflective strings and references in configuration files — and extract method,
+    inline variable and change signature are genuinely safe refactorings rather than text
+    substitution.
+
+    The Community Edition is **Apache-2.0 open source** with full sources on GitHub, and it is **free
+    for commercial projects too** — a point frequently misunderstood, as many assume every IntelliJ
+    edition must be bought.
+
+    What the Community Edition includes:
+
+    - **Full Java and Kotlin support:** intelligent completion, static analysis, thousands of
+      inspections and quick fixes. Kotlin is JetBrains' own language, so support is first-rate.
+    - **The refactoring toolkit,** its greatest value: rename, extract, inline, move class, change
+      signature and dozens more, executed safely across the entire project.
+    - **The debugger:** conditional breakpoints, expression evaluation, field watchpoints, modifying
+      variables at runtime, and multithreaded debugging.
+    - **Build and test integration:** Maven and Gradle out of the box, with JUnit and TestNG execution
+      and coverage.
+    - **Git integration:** branch management, conflict resolution and history comparison, handled more
+      thoroughly than in most IDEs.
+    - **Android development:** Google's Android Studio is built on the IntelliJ platform.
+
+    The boundaries matter and should be stated:
+
+    - **Community and Ultimate differ substantially.** The Community Edition does **not** include
+      dedicated Spring framework support, JavaScript/TypeScript front-end development, database tools,
+      application server integrations, remote development or the profiler. Anyone doing Spring Boot
+      work will feel that gap, and closing it requires the paid Ultimate edition.
+    - **It covers JVM languages only.** Python means PyCharm, Go means GoLand — separate products with
+      differing licensing policies (PyCharm has an open-source Community Edition; GoLand does not).
+      Check JetBrains' current terms rather than relying on this summary.
+    - **It is resource-hungry.** Indexing has a price: high memory use, a wait while a large project
+      indexes for the first time, and noticeable lag on older machines. 8 GB of RAM is the floor and
+      16 GB is comfortable. The installer alone runs to several hundred megabytes.
+    - **Students, teachers** and open-source maintainers can apply for free licences covering the full
+      product range.
+
+    Who it suits: developers working primarily in Java or Kotlin who value refactoring and static
+    analysis. For occasionally editing a Java file, VS Code with the Java extensions is sufficient and
+    far lighter.

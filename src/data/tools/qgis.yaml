@@ -1,0 +1,68 @@
+name: QGIS
+accent: '#589632'
+initials: QG
+category: learning
+price: free
+license: 'GPL-2.0'
+website: https://qgis.org
+download: https://qgis.org/download/
+repo: https://github.com/qgis/QGIS
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [地理信息, gis, 地图制作, 空间分析, 遥感]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 专业级 GIS，替掉一年几万块的商业授权
+  en: Professional GIS that replaces a licence costing thousands a year
+description:
+  zh: 功能完整的开源地理信息系统。加载矢量和栅格数据、做空间分析、处理遥感影像、出版级地图排版，支持数百种数据格式和上千个插件。商用同样免费，没有授权费和加密狗。
+  en: A complete open-source geographic information system. Load vector and raster data, run spatial analysis, process remote-sensing imagery and lay out publication-quality maps, with support for hundreds of formats and over a thousand plugins. Free for commercial use too — no licence fees, no dongles.
+review:
+  zh: |
+    GIS 领域长期被 ArcGIS 统治，一套商业授权一年几万块，学生和小机构基本用不起。
+    QGIS 是这个领域最成功的开源项目：14,215 颗星，GPL-2.0，
+    功能覆盖到了绝大多数实际工作能用的程度，而且**商业用途也完全免费**。
+
+    它能做的事包括：加载 Shapefile、GeoJSON、GeoPackage、栅格影像、
+    连接 PostGIS 数据库；做缓冲区分析、叠加分析、网络分析、地形和坡度计算；
+    处理卫星影像、做分类；最后用它的打印布局器排出带图例、比例尺、指北针的成图。
+    考古、城市规划、生态、水文、物流选址这些领域的日常工作它都接得住。
+
+    生态是它的另一半竞争力。插件库里有一千多个插件，
+    从下载 OpenStreetMap 数据、连接各种在线地图服务，到专业的水文建模、遥感处理都有。
+    另外它内置了 GDAL、GRASS、SAGA 这些老牌开源地理工具的算法，等于一次装齐一整个工具箱。
+
+    上手确实有门槛，但不是软件的问题——**是 GIS 这门学科本身有门槛**。
+    坐标系和投影是所有新手的第一道坎（数据看起来"跑到非洲去了"通常就是投影没设对）。
+    好消息是官方文档和培训手册质量很高，中文资料也不少。
+
+    版本选择上有个实用建议：官网同时提供最新版和 LTR 长期支持版。
+    如果是做正式项目、要求稳定，装 LTR；想用新功能就装最新版。
+  en: |
+    GIS was long dominated by ArcGIS, whose commercial licence runs into thousands per year — out of
+    reach for students and small organizations. QGIS is the field's most successful open-source
+    project: 14,215 stars, GPL-2.0, feature coverage that handles the overwhelming majority of real
+    work, and **completely free for commercial use.**
+
+    It loads Shapefiles, GeoJSON, GeoPackage and raster imagery, connects to PostGIS; runs buffer,
+    overlay and network analysis plus terrain and slope calculations; processes and classifies
+    satellite imagery; and finishes with a print layout engine that produces maps with legends, scale
+    bars and north arrows. Archaeology, urban planning, ecology, hydrology and logistics siting all
+    do their daily work in it.
+
+    The ecosystem is the other half of its strength. Over a thousand plugins cover everything from
+    pulling OpenStreetMap data and connecting to online map services to specialist hydrological
+    modelling and remote-sensing workflows. It also bundles the algorithms of GDAL, GRASS and SAGA,
+    so one install brings an entire toolbox.
+
+    There is a learning curve, but it is not the software's fault — **GIS as a discipline has a
+    learning curve.** Coordinate systems and projections are every beginner's first wall (data that
+    appears to have "moved to Africa" is almost always a projection that was not set). The good news
+    is that the official documentation and training manual are excellent.
+
+    One practical tip on versions: the site offers both the latest release and an LTR long-term
+    support build. For production work that must stay stable, take the LTR; take the latest if you
+    want new features.

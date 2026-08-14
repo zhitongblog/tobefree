@@ -1,0 +1,78 @@
+name: Sweet Home 3D
+accent: '#4F9D3A'
+initials: SH
+category: cad
+price: free
+license: 'GPL-2.0'
+website: https://www.sweethome3d.com
+download: https://www.sweethome3d.com/download.jsp
+repo: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [室内设计, 装修, 户型图, 家具布置, 三维预览]
+platforms: [windows, macos, linux, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 画完户型图，直接走进去看看
+  en: Draw the floor plan, then walk through it
+description:
+  zh: 面向装修和家居布置的三维设计软件。上方画二维平面图（拖墙、放门窗），下方实时生成三维效果，可以第一人称走进去看。自带家具库，也能导入模型，最后能渲染出照片级效果图和视频。
+  en: Home design software for renovation and furniture layout. Draw the 2D floor plan on top — drag walls, drop in doors and windows — while a 3D view builds live below, which you can walk through in first person. It ships a furniture library, imports models, and renders photo-quality stills and videos.
+review:
+  zh: |
+    装修时最难的事情之一，是在脑子里想象"这面墙拆了之后客厅会不会显得空"、
+    "这个沙发放进去还能不能过人"。Sweet Home 3D 把这件事变得很直观：
+    **上面画平面图，下面同步出三维，随时切到第一人称走一圈**。
+
+    用法非常朴素：导入一张户型图当底图，沿着墙描一遍，门窗直接拖进去，
+    然后从家具库里拖沙发、床、柜子、冰箱进来摆。每件家具的尺寸都可以精确输入，
+    所以"这个 2.4 米的柜子放得下吗"这类问题当场就有答案，不用等到东西送到家才发现放不下。
+
+    对普通人来说这是它最大的价值——**它不要求你懂 CAD**。
+    整个操作就是拖拽和填数字，一个下午就能把自己家画出来。
+    比起找设计公司出效果图，或者用商业家居软件（通常要注册、有素材内购、导出带水印），
+    它免费、开源、离线、无广告。
+
+    功能上还有几点实用的：可以标注尺寸和面积、可以分楼层、
+    可以调光照和材质、能渲染出比较像样的效果图和一段漫游视频、
+    支持导入网上下载的 3D 模型来补充家具库。
+
+    需要注意的：
+
+    - **它是 Java 程序**，官方安装包里已经带了运行环境，但启动速度和界面观感
+      会比原生应用略显朴素，这是它多年不变的风格。
+    - **不是专业建筑软件**。结构、施工图、水电这些它不管，
+      定位就是"给自己家做布置和预览"。真要出施工图，用 LibreCAD 或 FreeCAD。
+    - 官方也提供一个网页版，不用安装就能试，但复杂项目还是桌面版顺手。
+  en: |
+    One of the hardest parts of a renovation is imagining whether the living room will feel empty once
+    that wall comes down, or whether there is still room to walk past the sofa. Sweet Home 3D makes
+    that concrete: **draw the plan on top, watch the 3D build below, and switch to a first-person
+    walkthrough whenever you want.**
+
+    The workflow is plain. Import a floor plan as a background image, trace the walls, drag in doors
+    and windows, then pull sofas, beds, cabinets and appliances from the furniture library. Every
+    piece takes exact dimensions, so "will this 2.4 m cabinet fit?" is answered on the spot rather
+    than on delivery day.
+
+    For non-professionals that is the whole value: **it does not require CAD knowledge.** The entire
+    interaction is dragging things and typing numbers, and an afternoon is enough to reproduce your
+    own home. Compared with commissioning renderings or using commercial home design software — which
+    usually wants an account, sells asset packs and watermarks exports — this is free, open source,
+    offline and ad-free.
+
+    Other genuinely useful capabilities: dimension and area annotations, multiple floors, adjustable
+    lighting and materials, respectable rendered stills plus a walkthrough video, and imports of
+    downloaded 3D models to extend the furniture library.
+
+    Things to note:
+
+    - **It is a Java application.** The official installers bundle a runtime, but startup speed and
+      visual polish are plainer than a native app — a look it has kept for years.
+    - **It is not professional architecture software.** Structure, construction drawings and building
+      services are out of scope; it is for planning and previewing your own space. For construction
+      drawings, use LibreCAD or FreeCAD.
+    - There is an official web version for trying it without installing, though the desktop build is
+      more comfortable for a serious project.

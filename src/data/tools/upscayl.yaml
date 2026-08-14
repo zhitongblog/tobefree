@@ -1,0 +1,79 @@
+name: Upscayl
+accent: '#7C3AED'
+initials: UP
+category: ai
+price: free
+license: 'AGPL-3.0'
+website: https://upscayl.org
+download: https://github.com/upscayl/upscayl/releases/latest
+repo: https://github.com/upscayl/upscayl
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [图片放大, 老照片修复, ai超分, 离线, 批量处理]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 模糊的小图放大，细节是补出来的不是拉出来的
+  en: Enlarge a small blurry image — detail reconstructed, not stretched
+description:
+  zh: 用 AI 超分辨率模型放大图片的桌面工具。不是简单插值拉伸，而是由模型推断并补充细节，适合修复老照片、放大低分辨率素材、处理网上下载的小图。完全离线运行，支持批量处理，不加水印。Windows 安装包约 249 MB。
+  en: A desktop tool that enlarges images with AI super-resolution models. Rather than interpolating pixels, the model infers and reconstructs detail — useful for restoring old photos, enlarging low-resolution assets and rescuing small images from the web. It runs fully offline, handles batches, and adds no watermark. The Windows installer is about 249 MB.
+review:
+  zh: |
+    在线图片放大服务的套路很统一：免费额度几张、放大到 2 倍要注册、
+    4 倍要付费、导出带水印，还得把你的照片传上去。
+
+    Upscayl 把这件事拉回本地：48,227 颗星，AGPL-3.0，
+    **所有计算在你自己的电脑上完成，照片不上传，不限张数，不加水印**。
+    界面简单到不需要教程——选图片、选模型、选放大倍数、点开始。
+
+    效果上要有正确预期。它用的是 Real-ESRGAN 一类的超分模型，
+    原理是模型"猜测"高分辨率下应该有什么细节并补上去。
+    对**照片、插画、动漫图**效果通常很好，模糊的老照片放大后清晰度提升明显；
+    对**文字和精细图表**效果一般，可能出现细节被编造错的情况。
+    它内置几个不同的模型（偏写实的、偏动漫的、偏保守的），
+    同一张图换个模型结果会有差别，可以多试两个。
+
+    实用的地方：支持批量处理整个文件夹，
+    可以对比放大前后的效果，输出格式可选 PNG、JPG、WebP。
+
+    要说明的两点：
+
+    - **需要显卡**。它靠 Vulkan 做 GPU 加速，NVIDIA、AMD、Intel 核显都支持，
+      苹果芯片也能跑。纯 CPU 会非常慢，不建议。
+    - **发版节奏较慢**。当前正式版 v2.15.0 发布于 2024 年 12 月，
+      仓库在 2026 年仍有提交活动，但稳定版更新不频繁。
+      现有版本功能完整可用，只是不要期待频繁的新特性。
+
+    另外提醒：AI 补出来的细节是"推断"的，不是原图真实存在的。
+    做证据、做鉴定、做需要还原真实的用途时，这一点必须清楚。
+  en: |
+    Online upscaling services follow a familiar script: a few free images, sign up for 2×, pay for 4×,
+    watermarked exports — and you have to upload your photos to get any of it.
+
+    Upscayl brings the job back to your machine: 48,227 stars, AGPL-3.0, **all computation local, no
+    uploads, no image limits, no watermarks.** The interface needs no tutorial — pick an image, pick a
+    model, pick a scale, press go.
+
+    Set expectations about results. It uses Real-ESRGAN-class super-resolution models, which work by
+    inferring what detail should exist at higher resolution and adding it. On **photographs,
+    illustrations and anime art** the results are usually excellent, and blurry old photos gain
+    noticeable clarity. On **text and fine charts** results are mediocre and details can be
+    reconstructed incorrectly. Several models ship in the app (realistic, anime-oriented,
+    conservative), and the same image can look quite different between them — try more than one.
+
+    Practical touches: batch processing across a whole folder, a before-and-after comparison view, and
+    output as PNG, JPG or WebP.
+
+    Two things to state:
+
+    - **A GPU is needed.** Acceleration goes through Vulkan, covering NVIDIA, AMD and Intel integrated
+      graphics, and Apple silicon works too. Pure CPU is painfully slow and not recommended.
+    - **Releases are infrequent.** The current stable build, v2.15.0, dates from December 2024, and
+      while the repository still saw commits through 2026, stable updates are not frequent. What
+      exists is complete and usable — just do not expect a stream of new features.
+
+    One caution: detail added by AI is inferred, not recovered from the original. For evidence,
+    authentication or anything requiring faithful reproduction, that distinction matters.

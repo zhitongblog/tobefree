@@ -1,0 +1,61 @@
+name: Brave
+accent: '#FB542B'
+initials: BR
+category: browser
+price: free
+license: 'MPL-2.0'
+website: https://brave.com
+download: https://brave.com/download/
+repo: https://github.com/brave/brave-browser
+featured: false
+popular: true
+selfMade: false
+added: '2026-08-14'
+tags: [浏览器, chromium, 广告拦截, 隐私, 跨平台]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-signup, cross-platform]
+tagline:
+  zh: Chromium 内核，广告拦截做进浏览器本身
+  en: A Chromium browser with ad blocking built into the engine
+description:
+  zh: 基于 Chromium 的开源浏览器，内置 Brave Shields 在网络层拦截广告与追踪器，不依赖扩展，手机端同样有效。能装 Chrome 商店的扩展，兼容性和 Chrome 基本一致。
+  en: An open-source Chromium browser whose built-in Brave Shields block ads and trackers at the network layer — no extension required, and it works on mobile too. Chrome Web Store extensions install normally, so site compatibility matches Chrome.
+review:
+  zh: |
+    Brave 最实在的价值在手机上。iOS 和 Android 的 Chrome、Safari 都装不了 uBlock Origin，
+    而 Brave 的拦截是浏览器自带的，手机上照样干净——这一点目前很少有对手。
+
+    桌面端它是 Chromium 内核，Chrome 商店的扩展直接能装，那些「仅支持 Chrome」的后台系统
+    也不会出问题。相比 Firefox 系，兼容性上省心不少。
+
+    但有一件事必须说清楚，因为它和本站的收录标准直接相关：**Brave 自己也做广告业务**。
+    新标签页默认会出现赞助磁贴，另外有一个叫 Brave Rewards 的计划，看广告换代币。
+    Rewards 是要你主动开启的，赞助磁贴则可以在设置里关掉，两处都关掉之后使用体验是干净的——
+    但「默认状态就无广告」这一条它不满足，所以我们没有给它无广告徽章。
+
+    另外它默认会上报一份匿名使用统计（P3A），可以在隐私设置里关。
+
+    结论：如果你要的是 Chrome 的兼容性加上一个不用配置的拦截器，尤其是在手机上，Brave 是最省事的选择；
+    如果你要的是「厂商完全不碰广告生意」，看隔壁的 LibreWolf。
+  en: |
+    Brave's most concrete value is on phones. You cannot install uBlock Origin in Chrome or Safari on
+    iOS or Android, but Brave's blocking is part of the browser itself — so mobile browsing is clean
+    too. Very little else does that today.
+
+    On desktop it is Chromium, so Chrome Web Store extensions install directly and those
+    "Chrome only" corporate web apps behave. Compared with the Firefox family, that is noticeably
+    less friction.
+
+    One thing has to be stated plainly, because it bears directly on our inclusion criteria:
+    **Brave is itself in the advertising business.** The new tab page shows sponsored tiles by
+    default, and there is an opt-in program called Brave Rewards that pays tokens for viewing ads.
+    Rewards is off unless you enable it, and sponsored tiles can be switched off in settings — after
+    both, the experience is clean. But it does not meet "ad-free in its default state", so we did not
+    award it the no-ads badge.
+
+    It also sends anonymous usage statistics (P3A) by default, which you can disable in privacy
+    settings.
+
+    Verdict: if you want Chrome's compatibility plus a blocker that needs no setup — especially on
+    mobile — Brave is the path of least resistance. If you want a vendor with no advertising business
+    at all, look at LibreWolf instead.

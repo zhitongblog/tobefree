@@ -1,0 +1,88 @@
+name: PDFsam Basic
+accent: '#D6472B'
+initials: PS
+category: office
+price: free
+license: 'AGPL-3.0'
+website: https://pdfsam.org
+download: https://pdfsam.org/download-pdfsam-basic/
+repo: https://github.com/torakiki/pdfsam
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [pdf拆分, pdf合并, 页面旋转, 批量处理, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 拆分合并 PDF，不用把文件传到网站上
+  en: Split and merge PDFs without uploading them to a website
+description:
+  zh: 专做 PDF 页面操作的桌面工具：合并多个文件、按页数或书签拆分、提取指定页、旋转页面、混合交替合并（适合双面扫描件）。全部在本机完成，文件不上传。Windows 安装包约 94 MB。
+  en: "A desktop tool dedicated to PDF page operations: merging files, splitting by page count or bookmarks, extracting selected pages, rotating pages and alternate-mix merging for double-sided scans. Everything runs locally and no file is uploaded. The Windows installer is about 94 MB."
+review:
+  zh: |
+    "在线 PDF 合并"这类网站是个很大的隐患。合同、身份证扫描件、体检报告、
+    公司文件——大量敏感内容被随手传到了免费网站上，
+    而你不知道它存了多久、给谁看过、有没有做训练数据。
+
+    PDFsam Basic 做的是同一件事，但**文件从不离开你的电脑**。AGPL-3.0 开源，4,539 颗星。
+
+    它的功能范围很聚焦，就是 PDF 的页面级操作：
+
+    - **合并**：多个 PDF 拼成一个，可以指定每个文件取哪些页，能保留或重建书签目录。
+    - **拆分**：按固定页数拆、按书签层级拆、在指定页处拆开。
+      扫描件按章节切分这类需求很常见。
+    - **提取页面**：只要第 3、7、12-20 页，输出成新文件。
+    - **旋转**：批量把横过来的扫描页转正。
+    - **交替混合**：这个功能救急很好用——用只能单面扫描的设备扫双面文档时，
+      会得到一份正面和一份倒序的反面，它能把两份文件交替合并回正确顺序。
+
+    界面朴素但清楚，支持拖拽多个文件批量处理，处理速度很快。
+
+    要说清楚的两点：
+
+    - **它只做页面操作，不编辑内容**。改 PDF 里的文字、加批注、填表单它做不了——
+      那是 Xournal++（手写标注）、Okular（批注）或 LibreOffice Draw（简单编辑）的活。
+      要更全的 PDF 工具箱（OCR、压缩、格式转换），看 Stirling-PDF。
+    - **它有一个付费的兄弟产品**。PDFsam Enhanced / Visual 是同一家做的商业版，
+      功能更多，软件界面里会提到它。这属于开发者对自家产品的介绍，
+      不是第三方广告，也不影响 Basic 版的任何功能——Basic 是完整可用的，
+      没有页数限制、没有水印、没有试用期。
+
+    另外它是 Java 应用，官方安装包已内置运行环境，不用自己装 JDK。
+  en: |
+    Online "merge PDF" websites are a serious exposure. Contracts, scanned ID documents, medical
+    reports, company files — an enormous amount of sensitive material gets casually uploaded to free
+    sites, with no way to know how long it is kept, who sees it, or whether it becomes training data.
+
+    PDFsam Basic does the same job while **the files never leave your computer.** AGPL-3.0, 4,539
+    stars.
+
+    Its scope is deliberately narrow — page-level PDF operations:
+
+    - **Merge:** combine several PDFs, choosing which pages come from each file, preserving or
+      rebuilding the bookmark outline.
+    - **Split:** by a fixed page count, by bookmark level, or at specified pages. Cutting a scanned
+      document into chapters is a common need.
+    - **Extract pages:** take only pages 3, 7 and 12–20 into a new file.
+    - **Rotate:** batch-correct sideways scanned pages.
+    - **Alternate mix:** a genuine lifesaver — scanning a double-sided document on a single-sided
+      scanner leaves you with a front-pages file and a reverse-order back-pages file, and this
+      interleaves them back into the correct order.
+
+    The interface is plain but clear, with drag-and-drop batching and fast processing.
+
+    Two things to state:
+
+    - **It only manipulates pages; it does not edit content.** Changing text inside a PDF, annotating
+      or filling forms is out of scope — that is Xournal++ (handwritten annotation), Okular
+      (annotations) or LibreOffice Draw (light editing). For a fuller PDF toolbox with OCR,
+      compression and conversion, see Stirling-PDF.
+    - **It has a paid sibling.** PDFsam Enhanced and Visual are commercial products from the same
+      developer with more features, and the app mentions them. That is a developer describing their
+      own product rather than third-party advertising, and it does not restrict Basic in any way —
+      Basic is complete, with no page limits, watermarks or trial period.
+
+    It is a Java application, but the official installers bundle a runtime, so no separate JDK is
+    needed.

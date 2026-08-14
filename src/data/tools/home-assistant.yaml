@@ -1,0 +1,76 @@
+name: Home Assistant
+accent: '#18BCF2'
+initials: HA
+category: selfhosted
+price: free
+license: 'Apache-2.0'
+website: https://www.home-assistant.io
+download: https://www.home-assistant.io/installation/
+repo: https://github.com/home-assistant/core
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [智能家居, 本地控制, 自动化, 物联网, 可自建]
+platforms: [linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, cross-platform, self-hostable]
+tagline:
+  zh: 把不同品牌的智能设备收进一个界面，还能断网运行
+  en: One interface for every smart-home brand — and it keeps working offline
+description:
+  zh: 开源智能家居中枢，支持数千种设备和品牌，把分散在各家 App 里的灯、插座、空调、传感器、摄像头统一到一个界面，并用自动化把它们串起来。控制在本地完成，厂商服务器挂了或断网了，家里的设备照常工作。
+  en: An open-source smart home hub supporting thousands of devices and brands. It gathers the lights, plugs, air conditioners, sensors and cameras scattered across a dozen vendor apps into one interface and wires them together with automations. Control happens locally, so devices keep working when a vendor's cloud goes down or the internet drops.
+review:
+  zh: |
+    买了三个牌子的智能设备，就得装三个 App，还互相不认识——这是智能家居最真实的体验。
+    更糟的是，很多设备开关一次灯要绕一圈厂商的云服务器，网断了就成了普通灯，
+    厂商停止服务了就直接变砖。
+
+    Home Assistant 解决的正是这两件事。89,917 颗星，Apache-2.0，它支持的设备品牌数以千计，
+    把它们收进一个统一界面；更关键的是**尽可能走本地控制**——
+    Zigbee、Z-Wave、Matter 设备可以完全脱离互联网工作，很多 Wi-Fi 设备也能被本地接管。
+    断网时家里的灯还能开，这在依赖云的方案里是做不到的。
+
+    自动化是它真正上瘾的部分：日落时自动开灯、有人回家自动开空调、
+    检测到门窗传感器异常时推送到手机、湿度低于某个值就开加湿器。
+    这些规则可以用图形界面点出来，也可以写 YAML，复杂的还能用模板和脚本。
+
+    上手成本要说清楚，这是本站里门槛偏高的一个：
+
+    - **需要一台常年开机的设备**。官方推荐直接买它的 Home Assistant Green 硬件，
+      也可以装在树莓派、旧电脑、NAS 的 Docker 里，或者用官方镜像装成一个专用系统。
+    - **更新很频繁**，版本号就是年月（当前 2026.8.1），基本每月一个大版本。
+      好处是迭代快，代价是偶尔有破坏性变更，升级前先看更新日志。
+    - **前几周会花不少时间**。接设备、调界面、写自动化，这个过程是有学习曲线的。
+
+    但一旦搭好，它是那种"用了就回不去"的软件——而且因为一切都在本地，
+    你不用担心哪家公司哪天决定关掉服务器。
+  en: |
+    Buy smart devices from three brands and you install three apps that do not talk to each other —
+    that is the real smart home experience. Worse, many devices route a simple light switch through a
+    vendor's cloud, so they degrade to ordinary lights when the internet drops and become bricks when
+    the vendor shuts the service down.
+
+    Home Assistant addresses both. 89,917 stars, Apache-2.0, support for thousands of device brands
+    pulled into one interface — and, crucially, **local control wherever possible.** Zigbee, Z-Wave
+    and Matter devices work entirely without the internet, and many Wi-Fi devices can be taken over
+    locally too. Your lights still switch when the connection is down, which cloud-dependent setups
+    simply cannot do.
+
+    Automations are the genuinely addictive part: lights at sunset, air conditioning when someone
+    arrives home, a phone notification when a door sensor reports something odd, a humidifier that
+    starts below a threshold. Rules can be clicked together in a visual editor or written in YAML,
+    with templates and scripts available for the complicated ones.
+
+    Be clear about the ramp-up, because this is among the more demanding tools on this site:
+
+    - **You need an always-on device.** The official route is their Home Assistant Green hardware, but
+      a Raspberry Pi, an old PC, Docker on a NAS or the official disk image as a dedicated OS all work.
+    - **Updates are frequent.** The version number is year and month (currently 2026.8.1), with a
+      major release roughly monthly. Fast iteration is the upside; occasional breaking changes are the
+      cost, so read the release notes before upgrading.
+    - **Budget real time for the first few weeks.** Adding devices, arranging dashboards and writing
+      automations has a genuine learning curve.
+
+    Once it is running, though, it is the kind of software you cannot go back from — and because
+    everything happens locally, no company's shutdown announcement can take it away.

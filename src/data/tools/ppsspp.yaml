@@ -1,0 +1,73 @@
+name: PPSSPP
+accent: '#2C6FBB'
+initials: PP
+category: gaming
+price: free
+license: 'GPL-2.0-or-later'
+website: https://www.ppsspp.org
+download: https://www.ppsspp.org/download/
+repo: https://github.com/hrydgard/ppsspp
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [psp模拟器, 高清渲染, 手柄, 存档, 开源]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: PSP 游戏跑在现代设备上，画质还更好了
+  en: PSP games on modern hardware, looking better than they did
+description:
+  zh: PSP 掌机模拟器，可以把当年 480×272 的游戏用高分辨率重新渲染，画面比原机清晰数倍。支持手柄、存档、即时存档、纹理替换和金手指。Windows 版免安装压缩包约 19 MB。
+  en: A PlayStation Portable emulator that re-renders games originally running at 480×272 at high resolution, several times sharper than the handheld ever was. It supports controllers, saves, save states, texture replacement and cheats. The portable Windows build is about 19 MB.
+review:
+  zh: |
+    PSP 的屏幕是 480×272，放在今天看颗粒感很重。PPSSPP 最直观的价值是**内部渲染分辨率可以调高**——
+    同样的游戏用 4 倍、8 倍分辨率重新渲染，字变清楚了、边缘不锯齿了，
+    很多游戏看起来比当年在真机上好得多。这不是简单放大，是三维部分真的以更高精度重绘。
+
+    它的兼容性在掌机模拟器里属于第一梯队，主流游戏基本都能跑，
+    性能要求也不高——一台普通的安卓手机就能满速运行大部分游戏，
+    老电脑更没问题。19 MB 的体积在模拟器里算非常克制的。
+
+    实用功能：手柄即插即用（也支持触屏虚拟按键）、随时即时存档、
+    快进跳过冗长剧情、纹理替换（社区做了很多高清材质包）、
+    金手指、以及把存档同步到云盘。
+
+    需要注意：
+
+    - **游戏文件要自己准备**。它不附带任何游戏，请从你自己拥有的 UMD 光盘转储，
+      或使用你合法购买的数字版。
+    - **少数游戏有兼容性问题**，官方网站有兼容性列表可以先查。
+    - **官方版本永远免费**。应用商店里的"PPSSPP Gold"是官方推出的付费版，
+      功能和免费版完全一样，纯粹是支持开发者的方式——不买不影响任何功能。
+      但要小心其他打着 PPSSPP 名号收费或挂广告的仿冒 App，那些不是官方的。
+
+    当前稳定版 v1.20.4，项目由原作者持续维护，提交非常活跃。
+  en: |
+    The PSP's screen was 480×272, which looks distinctly chunky today. PPSSPP's most immediate value
+    is that **internal rendering resolution is adjustable** — the same game re-rendered at 4× or 8×
+    has legible text and clean edges, and often looks considerably better than it ever did on the
+    hardware. This is not upscaling; the 3D geometry is genuinely redrawn at higher precision.
+
+    Compatibility is top tier among handheld emulators, with mainstream titles broadly playable, and
+    performance demands are modest — an ordinary Android phone runs most games at full speed, and an
+    old PC certainly will. At 19 MB it is unusually restrained for an emulator.
+
+    Useful features: plug-and-play controller support (plus on-screen touch controls), save states at
+    any moment, fast forward through long cutscenes, texture replacement (the community has produced
+    many HD packs), cheats, and save sync to cloud storage.
+
+    Worth noting:
+
+    - **Bring your own game files.** It ships no content; dump from UMDs you own or use digital copies
+      you legitimately purchased.
+    - **A few titles have compatibility issues** — the official site maintains a compatibility list
+      worth checking first.
+    - **The official build is always free.** "PPSSPP Gold" in app stores is the developer's own paid
+      edition with identical functionality, purely a way to support the project — skipping it costs
+      you nothing. Do be wary of other paid or ad-supported apps trading on the PPSSPP name; those are
+      not official.
+
+    The current stable release is v1.20.4, still maintained by the original author with very active
+    commits.

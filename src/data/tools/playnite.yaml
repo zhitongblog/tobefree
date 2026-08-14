@@ -1,0 +1,86 @@
+name: Playnite
+accent: '#E86C00'
+initials: PN
+category: gaming
+price: free
+license: 'MIT'
+website: https://playnite.link
+download: https://playnite.link/#downloadModal
+repo: https://github.com/JosefNemec/Playnite
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [游戏库管理, steam, epic, gog, 手柄大屏模式]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 把七个游戏平台的库合成一个
+  en: Seven game launchers, one library
+description:
+  zh: 开源的游戏库管理器。把 Steam、Epic、GOG、育碧、EA、战网、Xbox 以及模拟器和本地安装的游戏统一到一个界面里，自动抓取封面、简介和游玩时长。带手柄操作的全屏模式，可以当客厅主机界面用。Windows 安装包约 140 MB。
+  en: An open-source game library manager. It unifies Steam, Epic, GOG, Ubisoft, EA, Battle.net and Xbox alongside emulators and locally installed games into one interface, pulling in cover art, descriptions and playtime automatically. A controller-driven fullscreen mode turns a PC into a living-room console. The Windows installer is about 140 MB.
+review:
+  zh: |
+    现在买游戏的代价之一是电脑上装了七个启动器，每个都开机自启、每个都要更新、
+    每个都在推它自己的商城。想玩某个游戏，先得回忆一下它在哪家。
+
+    Playnite 解决的就是这件事：**一个界面，所有游戏**。
+    它连接各大平台的账号（本地授权，不经过第三方服务器），
+    把你的游戏库全部导入，自动补上封面、发行年份、类型、简介、
+    以及从各平台同步过来的游玩时长。启动某个游戏时，它在后台调用对应平台的启动器，
+    你不用手动去找。
+
+    模拟器和本地游戏也能纳入同一个库——配好模拟器路径之后，
+    老主机的 ROM 和 Steam 上的 3A 大作会并排出现在同一个书架上。
+    对同时玩新老游戏的人来说，这个统一感很舒服。
+
+    几个加分项：
+
+    - **全屏模式**：专为手柄设计的大字体界面，接到电视上用手柄浏览和启动游戏，
+      体验接近主机的系统界面。装在客厅的电脑上很合适。
+    - **插件生态**：社区做了大量扩展——成就展示、价格追踪、
+      自动下载更多元数据、主题皮肤，在软件内的插件市场直接装。
+    - **完全离线可用**：不导入在线平台，纯粹管理本地和模拟器游戏也没问题。
+
+    限制说清楚：
+
+    - **只有 Windows 版**。macOS 和 Linux 用户看不了这一款，
+      Linux 上的同类可以考虑 Lutris 或 Heroic。
+    - **导入平台库需要登录对应账号**（在它内置的浏览器窗口里登录），
+      这是平台方的要求。Playnite 自己不需要注册任何账号。
+    - 首次导入大型游戏库时抓取元数据会跑一阵子。
+
+    MIT 开源，13,749 颗星，作者维护多年，当前版本 10.56。
+  en: |
+    One cost of buying games today is seven launchers on your PC — each starting with Windows, each
+    wanting updates, each promoting its own store. Playing something means first recalling which one
+    you bought it from.
+
+    Playnite solves exactly that: **one interface, all your games.** It connects to the major
+    platforms (authorized locally, with nothing routed through a third-party server), imports your
+    libraries, and fills in cover art, release year, genre, description and playtime synced from each
+    platform. Launching a game calls the appropriate launcher in the background so you never go
+    hunting.
+
+    Emulators and local games join the same library — point it at your emulator paths and console ROMs
+    sit on the same shelf as AAA titles from Steam. For anyone who plays both old and new games, that
+    coherence is genuinely pleasant.
+
+    Notable extras:
+
+    - **Fullscreen mode:** a large-type interface built for controllers, so a TV-connected PC browses
+      and launches games much like a console's system menu. Ideal for a living-room machine.
+    - **Plugin ecosystem:** the community has built achievement displays, price trackers, extra
+      metadata sources and themes, installable from an in-app add-on browser.
+    - **Fully usable offline:** skip the online platforms entirely and manage only local and emulated
+      games if you prefer.
+
+    Limits, stated plainly:
+
+    - **Windows only.** macOS and Linux users are out; on Linux, consider Lutris or Heroic instead.
+    - **Importing platform libraries requires signing into those accounts** through its embedded
+      browser window, as the platforms demand. Playnite itself requires no account.
+    - The first metadata scrape of a large library takes a while.
+
+    MIT-licensed, 13,749 stars, maintained by its author for years, currently at version 10.56.

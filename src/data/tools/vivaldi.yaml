@@ -1,0 +1,59 @@
+name: Vivaldi
+accent: '#EF3939'
+initials: VI
+category: browser
+price: free
+license: 'Proprietary · 免费'
+website: https://vivaldi.com
+download: https://vivaldi.com/download/
+repo: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [浏览器, 标签管理, 邮件客户端, 自定义, chromium]
+platforms: [windows, macos, linux, android]
+badges: [no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 给同时开一百个标签页的人做的浏览器
+  en: A browser built for people who keep a hundred tabs open
+description:
+  zh: 功能密度极高的 Chromium 浏览器：标签分组堆叠、分屏平铺、侧边栏面板，内置邮件客户端、日历和 RSS 阅读器，还带广告拦截。几乎每个界面元素都能自定义。免费、无广告，但不开源。
+  en: "A famously dense Chromium browser: tab stacking, split-screen tiling, side panels, plus a built-in mail client, calendar and RSS reader, and an ad blocker. Almost every UI element is customizable. Free and ad-free, but not open source."
+review:
+  zh: |
+    Vivaldi 是为「重度标签页患者」做的。标签能堆成组、能两屏四屏平铺对照、能纵向排列，
+    还能给每组起名。如果你经常同时查十几份资料，这套东西省下的时间是实打实的。
+
+    它还把邮件客户端、日历和 RSS 阅读器直接做进了浏览器里——不是插件，是原生功能。
+    有人觉得这是臃肿，有人觉得这正好省掉三个软件，看你怎么用。
+
+    要说清楚的边界：**它不开源**。虽然 Chromium 内核部分是开源的、UI 层的源码也可以查看，
+    但整体不是自由软件，所以我们没有给开源徽章。它的隐私承诺来自公司政策和挪威的
+    数据法规，不来自「代码你可以自己审」。
+
+    另外功能这么多是有代价的：初次打开设置面板会有点吓人，内存占用也高于同类。
+    建议用它的默认布局先跑一周，再决定要不要一项项调。
+
+    收录理由：完全免费、没有广告、不做用户画像生意、也不逼你注册同步账号（同步是可选的，
+    而且端到端加密）。适合把浏览器当工作台用的人。
+  en: |
+    Vivaldi is built for chronic tab hoarders. Tabs stack into named groups, tile two or four across
+    for side-by-side comparison, and can run vertically down the edge. If you routinely have a dozen
+    references open at once, the time this saves is real.
+
+    It also folds a mail client, a calendar and an RSS reader into the browser — native features, not
+    extensions. Some people call that bloat; others find it replaces three separate apps. It depends
+    on how you work.
+
+    The boundary worth stating: **it is not open source.** The Chromium core is, and the UI layer's
+    source can be inspected, but the product as a whole is not free software, so we did not award the
+    open-source badge. Its privacy promises rest on company policy and Norwegian data law rather than
+    on code you can audit yourself.
+
+    All those features carry a cost, too: the settings panel is genuinely intimidating on first open,
+    and memory use runs higher than its peers. Live with the default layout for a week before you
+    start tuning things one by one.
+
+    Why it is here: completely free, no ads, no user-profiling business, and no forced sync account
+    (sync is optional and end-to-end encrypted). A good fit if you treat the browser as a workbench.

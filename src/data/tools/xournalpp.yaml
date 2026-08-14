@@ -1,0 +1,98 @@
+name: Xournal++
+accent: '#2C7C4F'
+initials: XP
+category: office
+price: free
+license: 'GPL-2.0'
+website: https://xournalpp.github.io
+download: https://github.com/xournalpp/xournalpp/releases/latest
+repo: https://github.com/xournalpp/xournalpp
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [pdf标注, 手写笔记, 数位板, 电子签名, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 在 PDF 上手写批注，像在纸上一样
+  en: Handwrite on a PDF the way you would on paper
+description:
+  zh: 手写笔记和 PDF 标注软件。用数位板、触控屏或手写笔直接在 PDF 上画线、批注、圈重点，也可以当成无限延伸的手写笔记本用。支持压感、多种笔型、形状识别、插入图片和音频，标注结果可以导出成带批注的 PDF。
+  en: A handwriting and PDF annotation application. Use a graphics tablet, touchscreen or stylus to draw, annotate and highlight directly on a PDF, or treat it as an infinitely extending handwritten notebook. It supports pressure sensitivity, multiple pen types, shape recognition, image and audio insertion, and exports annotated PDFs.
+review:
+  zh: |
+    看论文要在页边写想法、批改学生作业要圈画、合同上要签个字、
+    上网课要在讲义 PDF 上记笔记——这些事在纸上很自然，
+    在电脑上却出奇地麻烦。付费方案（比如平板上那些笔记应用）大多绑定生态、按年订阅。
+
+    Xournal++ 是这个需求的开源答案。15,220 颗星，GPL-2.0，当前版本 v1.3.7。
+
+    核心用法有两种：
+
+    - **在 PDF 上标注**。打开一个 PDF，它作为背景，你在上面手写、画线、
+      高亮、贴便签。导出时可以选择"带批注的 PDF"，
+      别人用任何阅读器打开都能看到你的手写内容。原文件不被破坏。
+    - **当手写笔记本**。新建空白页，选纸张样式（横线、方格、点阵、五线谱），
+      像写在本子上一样记。页面可以无限往下加。
+
+    对手写体验做了不少功夫：支持压感（笔锋有粗细变化）、
+    橡皮擦有三种模式（划线擦、整笔擦、区域擦）、
+    有形状识别（随手画的歪圆会自动变正圆，画的直线会自动拉直）、
+    可以用套索选中一片手写内容整体移动缩放。
+
+    实用场景补充：
+
+    - **电子签名**：在 PDF 合同上直接手写签名，导出发回去，不用打印再扫描。
+    - **插入音频**：录课或开会时可以边写边录音，之后点某段笔记能跳到当时的录音位置。
+    - **LaTeX 公式**：支持插入 LaTeX 排版的数学公式，理工科记笔记很有用。
+
+    需要知道的：
+
+    - **硬件决定体验**。有数位板或触控屏加压感笔的话体验很好；
+      纯用鼠标写字会很难受——鼠标适合画框和箭头，不适合写字。
+    - **不做手写文字识别（OCR）**。写的字就是图形，不会转成可搜索的文本。
+    - **界面比较传统**，GTK 风格，功能都在但谈不上现代精致。
+
+    如果你只是想给 PDF 加文字批注和高亮、不需要手写，Okular 更轻便；
+    需要笔迹的场合，Xournal++ 是桌面上最好的免费选择。
+  en: |
+    Writing a thought in the margin of a paper, circling errors on a student's work, signing a
+    contract, taking notes on a lecture PDF — all natural on paper, and strangely awkward on a
+    computer. The paid options, mostly tablet note apps, tend to lock you into an ecosystem and bill
+    annually.
+
+    Xournal++ is the open-source answer. 15,220 stars, GPL-2.0, currently v1.3.7.
+
+    Two main ways to use it:
+
+    - **Annotate a PDF.** Open a PDF as the background and write, draw, highlight and add sticky notes
+      on top. Export as an annotated PDF and anyone can see your handwriting in any reader, with the
+      original file left intact.
+    - **As a handwritten notebook.** Start blank, choose a paper style — ruled, graph, dotted, music
+      staves — and write as you would in a notebook, adding pages indefinitely.
+
+    Considerable effort has gone into the writing feel: pressure sensitivity for varying stroke width,
+    three eraser modes (stroke section, whole stroke, area), shape recognition that straightens a
+    roughly drawn line or rounds a wobbly circle, and lasso selection to move or scale a region of
+    handwriting as a unit.
+
+    Additional practical uses:
+
+    - **Digital signatures:** sign a PDF contract by hand and export it, with no print-and-scan round
+      trip.
+    - **Audio insertion:** record while writing during a lecture or meeting, then tap a note later to
+      jump to that moment in the recording.
+    - **LaTeX formulas:** typeset mathematical expressions inline, which is genuinely useful for
+      technical note-taking.
+
+    Things to know:
+
+    - **Hardware determines the experience.** With a graphics tablet or a pressure-sensitive
+      touchscreen it is excellent; writing with a mouse is miserable — a mouse is fine for boxes and
+      arrows, not for handwriting.
+    - **No handwriting recognition.** What you write stays graphics and never becomes searchable text.
+    - **The interface is traditional** GTK styling — complete, but not modern or polished.
+
+    If you only need typed annotations and highlights on a PDF without handwriting, Okular is lighter.
+    When actual ink is required, Xournal++ is the best free desktop option.

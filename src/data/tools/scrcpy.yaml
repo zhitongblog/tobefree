@@ -1,0 +1,64 @@
+name: scrcpy
+accent: '#3DDC84'
+initials: SC
+category: remote
+price: free
+license: 'Apache-2.0'
+website: https://github.com/Genymobile/scrcpy
+download: https://github.com/Genymobile/scrcpy/releases/latest
+repo: https://github.com/Genymobile/scrcpy
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [安卓投屏, 手机控制, 录屏, 免root, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 把安卓手机投到电脑上，还能用鼠标键盘操作
+  en: Mirror an Android phone to your desktop and drive it with mouse and keyboard
+description:
+  zh: 通过 USB 或 Wi-Fi 把安卓设备的画面投到电脑上，并用电脑的鼠标键盘直接操作手机。手机端不需要装任何 App，不需要 root，不需要账号。延迟通常在几十毫秒，可录屏、可复制粘贴、可拖文件安装。
+  en: Mirrors an Android device to your desktop over USB or Wi-Fi and lets you drive it with your mouse and keyboard. Nothing is installed on the phone, no root is required and no account is involved. Latency typically sits in the tens of milliseconds, with screen recording, clipboard sync and drag-to-install.
+review:
+  zh: |
+    147,608 颗星，Apache-2.0，Genymobile 出品。它解决的问题很具体：**用电脑操作安卓手机**——
+    不管是给手机截图录屏、用实体键盘回消息、在大屏上演示 App，还是把手机当第二块显示器用。
+
+    最漂亮的一点是**手机端零安装**。它靠安卓自带的 adb 调试通道工作，
+    不用在手机上装客户端、不用 root、不用注册任何账号，插上数据线打开调试就能用。
+    用完拔线，手机上什么都没留下——这和那些要装伴生 App 还要登录的厂商投屏工具是两回事。
+
+    实用功能不少：电脑和手机剪贴板互通（在电脑上复制一段文字，手机里直接粘贴）、
+    把 APK 文件拖到窗口里就自动安装、`--record` 直接录成 mp4、
+    关掉手机屏幕但继续在电脑上操作（省电，也避免别人看到）。
+
+    两个门槛要说清楚。第一，**它是命令行工具**，`scrcpy` 一条命令启动，参数控制分辨率、码率、
+    是否录制。不接受命令行的人可以找社区做的图形前端，但官方版本就是 CLI。
+    第二，**首次使用要在手机上打开"USB 调试"**（设置 → 关于手机 → 连点版本号进开发者选项），
+    这一步是安卓的安全设计，绕不过去。
+
+    连上一次之后可以切到无线模式，同一 Wi-Fi 下拔掉数据线继续用，代价是延迟略增。
+  en: |
+    147,608 stars, Apache-2.0, from Genymobile. It solves one concrete problem: **operating an Android
+    phone from your computer** — taking screenshots and recordings, replying to messages with a real
+    keyboard, demoing an app on a big screen, or using the phone as a second panel.
+
+    The elegant part is that **nothing is installed on the phone.** It works through Android's own adb
+    debugging channel: no client app, no root, no account. Plug in a cable, enable debugging, and it
+    runs. Unplug when done and nothing is left behind — quite unlike vendor mirroring tools that want
+    a companion app and a login.
+
+    Genuinely useful features abound: a shared clipboard in both directions (copy text on the desktop,
+    paste it on the phone), drag an APK onto the window to install it, `--record` to capture straight
+    to mp4, and the ability to turn the phone's own screen off while continuing to control it (saves
+    battery, and keeps the screen private).
+
+    Two barriers to be clear about. First, **it is a command-line tool.** `scrcpy` launches it and
+    flags control resolution, bitrate and recording. Community GUI front ends exist if you want one,
+    but the official build is CLI. Second, **you must enable USB debugging on the phone the first
+    time** (Settings → About phone → tap the build number to unlock developer options). That is
+    Android's security design and there is no way around it.
+
+    After one wired connection you can switch to wireless mode and keep using it on the same Wi-Fi
+    with the cable unplugged, at the cost of slightly higher latency.

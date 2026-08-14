@@ -1,0 +1,67 @@
+name: GeoGebra
+accent: '#6557D2'
+initials: GG
+category: learning
+price: free
+license: 'Free for non-commercial use'
+website: https://www.geogebra.org
+download: https://www.geogebra.org/download
+repo: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [数学, 几何, 函数作图, 教学, 离线可用]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [no-ads, offline, no-signup, cross-platform]
+tagline:
+  zh: 把函数和几何画出来，动一动就懂了
+  en: Draw the function, drag a point, and the idea clicks
+description:
+  zh: 集几何、代数、微积分、统计和 3D 于一体的动态数学软件。输入函数就出图，拖动图上的点，方程会跟着实时变化。桌面版可完全离线使用，学生和教师免费。
+  en: Dynamic mathematics software combining geometry, algebra, calculus, statistics and 3D. Type a function and it is plotted; drag a point on the graph and the equation updates live. The desktop version works fully offline and is free for students and teachers.
+review:
+  zh: |
+    数学里很多东西讲一百遍不如动一下。参数 a 变大时抛物线怎么变、
+    三角形三条中线为什么一定交于一点、导数和切线斜率到底是什么关系——
+    GeoGebra 的做法是让你**直接拖动图形，然后看着公式跟着变**。理解发生在那一瞬间。
+
+    它覆盖的范围比大多数人以为的宽：平面几何、解析几何、函数作图、微积分（求导、积分、极限）、
+    概率统计、矩阵、3D 立体几何，还有专门的电子表格视图。中学到大学低年级的数学基本都在射程内。
+
+    几个实际优点：**桌面版完全离线**，装完断网照用，不弹广告不催你注册；
+    网页版打开就能用，适合临时算一下或者上课投屏；官方素材库里有几十万个别人做好的交互课件，
+    直接搜关键词就能用，老师备课能省大量时间。
+
+    授权情况要讲清楚，这是它和本站大多数工具不同的地方：
+    **GeoGebra 对学生、教师和个人非商业使用免费，但不是自由软件**。
+    它的部分组件基于开源协议，整体产品不是，商业用途（比如放进付费课程、
+    嵌入商业产品）需要另外获取授权。所以我们没有给它开源徽章。
+
+    如果你需要的是完全开源的替代品，可以看 Maxima、SageMath 或 Desmos 的开源同类，
+    但论"上手就能用、覆盖面广、素材现成"，GeoGebra 目前仍然是这个领域最实用的选择。
+  en: |
+    In mathematics, one drag beats a hundred explanations. How the parabola changes as parameter a
+    grows, why a triangle's three medians always meet at one point, what the derivative really has to
+    do with the slope of a tangent — GeoGebra's answer is to let you **drag the figure and watch the
+    formula change with it.** Understanding tends to arrive in that moment.
+
+    Its coverage is broader than most people expect: plane and analytic geometry, function plotting,
+    calculus (derivatives, integrals, limits), probability and statistics, matrices, 3D solids, and a
+    dedicated spreadsheet view. That spans most of secondary school through early undergraduate work.
+
+    Practical strengths: **the desktop version is fully offline** — install it, disconnect, and it
+    keeps working, with no ads and no sign-up nagging. The web version opens instantly for a quick
+    calculation or classroom projection. And the official materials library holds hundreds of
+    thousands of interactive activities built by other people, searchable by keyword, which saves
+    teachers a great deal of preparation time.
+
+    The licensing needs stating plainly, since it differs from most tools on this site:
+    **GeoGebra is free for students, teachers and personal non-commercial use, but it is not free
+    software.** Some components are open source; the product as a whole is not, and commercial use —
+    embedding it in a paid course or a commercial product — requires a separate license. That is why
+    it carries no open-source badge.
+
+    If you need a fully open alternative, look at Maxima, SageMath or similar. But for "usable
+    immediately, broad coverage, materials already made", GeoGebra remains the most practical choice
+    in this space.

@@ -1,0 +1,91 @@
+name: Thorium Reader
+accent: '#3A5BA0'
+initials: TR
+category: office
+price: free
+license: 'BSD-3-Clause'
+website: https://www.edrlab.org/software/thorium-reader/
+download: https://github.com/edrlab/thorium-reader/releases/latest
+repo: https://github.com/edrlab/thorium-reader
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [电子书阅读, epub, 无障碍, 有声书, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 电脑上读 EPUB，无障碍支持做得最认真的一个
+  en: Reading EPUB on a desktop, with the most serious accessibility work in the field
+description:
+  zh: 桌面端电子书阅读器，支持 EPUB、PDF、DAISY 和有声书格式。由非营利组织 EDRLab 开发，在无障碍阅读上投入很大：完整的屏幕阅读器支持、朗读功能、字体和行距自定义、阅读障碍友好字体。不需要账号，书籍存在本地。
+  en: "A desktop ebook reader supporting EPUB, PDF, DAISY and audiobook formats. Developed by the non-profit EDRLab, it invests heavily in accessible reading: full screen reader support, text-to-speech, customizable fonts and line spacing, and dyslexia-friendly typefaces. No account required, and books stay on your machine."
+review:
+  zh: |
+    电脑上读 EPUB 一直有点尴尬。Calibre 是很好的书库管理工具，
+    但它的内置阅读器体验一般；各家电商的桌面客户端要登录、
+    只能读自家买的书、还盯着你的阅读进度；网页版阅读器则要把书传上去。
+
+    Thorium Reader 填的是"**纯粹的桌面阅读器**"这个位置。
+    由 EDRLab 开发——这是一家欧洲的非营利机构，同时也是 EPUB 和 Readium 标准生态的重要参与者，
+    所以它对格式规范的支持相当扎实。BSD-3-Clause 开源。
+
+    阅读体验上该有的都有：单页/双页布局、字号字体行距页边距全可调、
+    深色模式、书签、高亮标注、全文搜索、目录跳转、阅读进度记忆。
+    书籍导入后存在本地，不需要注册任何账号。
+
+    它真正与众不同的地方是**无障碍**，这一块投入远超同类：
+
+    - **完整的屏幕阅读器支持**，视障用户可以用 NVDA、JAWS、VoiceOver 正常阅读。
+    - **内置朗读功能**（TTS），可以调语速，并且朗读时高亮当前句子。
+    - **支持 DAISY 格式**——这是专为阅读障碍人群设计的数字有声书标准，
+      支持它的通用阅读器非常少。
+    - **阅读障碍友好排版**：可以选专门的字体、加大字间距和行距，
+      对诵读困难（dyslexia）人群有实际帮助。
+
+    这些功能对普通用户也有用——比如做饭时让它朗读一本书，
+    或者眼睛累的时候调大字号加宽行距。
+
+    要说明的：
+
+    - **它不是书库管理器**。几百本书的分类、元数据整理、格式转换、
+      推送到 Kindle 这些是 Calibre 的活。两者配合用很合理：Calibre 管书库，
+      Thorium 负责读。
+    - **能打开带 DRM 的书吗**：它支持 LCP（一种开放的数字版权方案，
+      主要用于欧洲的图书馆借阅），但**不支持 Kindle 或其他商店的私有 DRM**。
+    - **只有桌面版**，没有手机端。手机上读 EPUB 可以看 KOReader。
+  en: |
+    Reading EPUB on a computer has always been slightly awkward. Calibre is an excellent library
+    manager but a mediocre reader; retailer desktop clients demand a login, only open books bought
+    from them, and track your reading progress; web-based readers require uploading the book.
+
+    Thorium Reader fills the "**just a desktop reader**" slot. It comes from EDRLab, a European
+    non-profit that is also a significant participant in the EPUB and Readium standards ecosystem, so
+    its format compliance is solid. BSD-3-Clause licensed.
+
+    The reading basics are all present: single or double page layout, adjustable font, size, line
+    spacing and margins, dark mode, bookmarks, highlights, full-text search, table of contents
+    navigation and remembered position. Imported books stay local and no account is needed.
+
+    What genuinely distinguishes it is **accessibility**, where its investment far exceeds its peers:
+
+    - **Full screen reader support,** so blind and low-vision users can read normally with NVDA, JAWS
+      or VoiceOver.
+    - **Built-in text-to-speech** with adjustable speed, highlighting the current sentence as it
+      reads.
+    - **DAISY format support** — the digital talking book standard designed for people with reading
+      disabilities, which very few general-purpose readers handle at all.
+    - **Dyslexia-friendly typography:** specialized typefaces and increased letter and line spacing
+      that measurably help some readers.
+
+    These features serve everyone, incidentally — having a book read aloud while cooking, or enlarging
+    type and opening up line spacing when your eyes are tired.
+
+    To be clear about:
+
+    - **It is not a library manager.** Organizing hundreds of books, cleaning metadata, converting
+      formats and sending to a Kindle are Calibre's jobs. Pairing them makes sense: Calibre manages
+      the library, Thorium does the reading.
+    - **On DRM:** it supports LCP, an open digital rights scheme used mainly by European library
+      lending, but **not Kindle or other stores' proprietary DRM.**
+    - **Desktop only** — there is no mobile version. For EPUB on a phone, look at KOReader.

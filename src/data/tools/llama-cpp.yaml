@@ -1,0 +1,78 @@
+name: llama.cpp
+accent: '#8B5A2B'
+initials: LC
+category: ai
+price: free
+license: 'MIT'
+website: https://github.com/ggml-org/llama.cpp
+download: https://github.com/ggml-org/llama.cpp/releases/latest
+repo: https://github.com/ggml-org/llama.cpp
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [本地大模型, 推理引擎, 量化, gguf, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 本地跑大模型的地基，几乎所有工具都建在它上面
+  en: The foundation nearly every local LLM tool is built on
+description:
+  zh: 用 C/C++ 写的大模型推理引擎，支持 CPU 和各种显卡，靠量化技术把大模型压缩到普通电脑能跑的程度。GGUF 模型格式就出自这个项目。它是 Ollama、LM Studio 等大量本地 AI 工具的底层。
+  en: A large language model inference engine written in C/C++ that runs on CPUs and a wide range of GPUs, using quantization to squeeze big models onto ordinary hardware. The GGUF model format originated here, and this project sits underneath Ollama, LM Studio and much of the local AI ecosystem.
+review:
+  zh: |
+    如果说 Ollama 是本地跑大模型的门面，llama.cpp 就是地基。123,874 颗星，MIT 协议。
+    你在别的工具里下载的那些 `.gguf` 模型文件，格式是这个项目定义的；
+    Ollama、LM Studio、Jan 这些好用的图形界面，推理部分很大程度上依赖它或它的衍生。
+
+    它的核心贡献是**量化**：把模型权重从 16 位浮点压到 4 位、5 位、8 位整数，
+    体积降到几分之一，精度损失控制在可接受范围内。
+    这一步是"消费级电脑能跑大模型"这件事成立的前提——
+    没有量化，一个 7B 模型要十几 GB 显存，有了量化，4 到 5 GB 就够。
+
+    另一个特点是**硬件覆盖极广**。CUDA、ROCm、Metal、Vulkan、SYCL 都支持，
+    苹果芯片上跑得尤其好（统一内存的优势），纯 CPU 也能跑（慢，但能跑）。
+    树莓派、手机上都有人成功跑起来过。
+
+    什么时候你应该直接用它，而不是用 Ollama：
+
+    - **想要最新的模型支持**。新模型架构出来后，通常是 llama.cpp 先支持，
+      上层工具再跟进。它发版极其频繁（当前 b10428，基本每天都有新构建）。
+    - **想精细控制推理参数**。上下文长度、GPU 层数分配、批处理大小、
+      各种采样参数，它全都暴露给你。
+    - **想嵌进自己的程序**。它提供 C API 和服务器模式，
+      很多产品直接把它编译进去。
+
+    门槛也很实在：**它是命令行和源码级的工具**。
+    虽然官方提供预编译的发布包，但想用上自己显卡的加速，
+    经常需要选对构建版本甚至自己编译。不想碰这些的话，
+    装 Ollama 或 LM Studio——你依然在用 llama.cpp，只是有人替你把这层包好了。
+  en: |
+    If Ollama is the face of local LLMs, llama.cpp is the foundation. 123,874 stars, MIT-licensed.
+    Those `.gguf` model files you download in other tools use a format this project defined, and the
+    friendly GUIs — Ollama, LM Studio, Jan — lean heavily on it or its derivatives for inference.
+
+    Its central contribution is **quantization**: compressing model weights from 16-bit floats down to
+    4-, 5- or 8-bit integers, cutting size to a fraction while keeping accuracy loss acceptable. That
+    step is what makes consumer hardware viable at all — without it a 7B model needs well over ten
+    gigabytes of VRAM; with it, four to five will do.
+
+    The other distinguishing trait is **breadth of hardware support**. CUDA, ROCm, Metal, Vulkan and
+    SYCL are all covered; it runs especially well on Apple silicon thanks to unified memory, and it
+    runs on pure CPU too (slowly, but it runs). People have it working on Raspberry Pis and phones.
+
+    When to use it directly instead of Ollama:
+
+    - **You want the newest model support.** New architectures usually land here first and reach
+      higher-level tools afterwards. Releases are extremely frequent — currently b10428, with builds
+      most days.
+    - **You want fine control over inference.** Context length, GPU layer offloading, batch size and
+      the full range of sampling parameters are all exposed.
+    - **You want to embed it.** It offers a C API and a server mode, and many products compile it
+      straight in.
+
+    The barrier is real: **this is a command-line, source-level tool.** Prebuilt release packages
+    exist, but getting your specific GPU accelerated often means picking the right build or compiling
+    it yourself. If you would rather not, install Ollama or LM Studio — you will still be running
+    llama.cpp, just with the layer wrapped for you.

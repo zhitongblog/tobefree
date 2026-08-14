@@ -1,7 +1,7 @@
 name: Syncthing
 accent: '#0891D1'
 initials: ST
-category: utility
+category: remote
 price: free
 license: 'MPL-2.0'
 website: https://syncthing.net

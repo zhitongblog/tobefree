@@ -1,0 +1,56 @@
+name: yt-dlp
+accent: '#FF0033'
+initials: YT
+category: network
+price: free
+license: 'Unlicense'
+website: https://github.com/yt-dlp/yt-dlp
+download: https://github.com/yt-dlp/yt-dlp/releases/latest
+repo: https://github.com/yt-dlp/yt-dlp
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [视频下载, 命令行, 字幕, 音频提取, 开源]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 视频下载这件事的事实标准，一个命令搞定
+  en: The de-facto standard for downloading video, in one command
+description:
+  zh: 命令行视频下载器，支持上千个网站，可以选清晰度、只提取音频、连字幕和封面一起下、按模板命名文件。单文件可执行，不用安装，配合 ffmpeg 可合并最高画质的音视频流。
+  en: A command-line video downloader supporting well over a thousand sites. Pick a resolution, extract audio only, pull subtitles and thumbnails alongside, or name files from a template. It ships as a single executable and pairs with ffmpeg to merge the highest-quality audio and video streams.
+review:
+  zh: |
+    184,400 颗星，Unlicense（等于放弃版权，随便用）。几乎所有你见过的「在线视频下载」网站、
+    带下载功能的播放器、各种 GUI 下载工具，底层跑的都是 yt-dlp——区别只在于那些站点会给你套广告，
+    而你直接用它不会。
+
+    它是命令行工具，这是最大的门槛，也是最大的好处。`yt-dlp <链接>` 就能开始下；
+    想只要音频加 `-x`，想要中文字幕加 `--write-subs --sub-langs zh`，想批量就喂一个链接列表文件。
+    一旦你记住三五个常用参数，它比任何图形界面都快。
+
+    两个实际提醒。第一，**装 ffmpeg**。现在高清视频的音轨和视频轨是分开的，没有 ffmpeg
+    就只能下到画质较低的合并版本，装了才能拿到最高清晰度。第二，**保持更新**。
+    视频网站经常改接口，yt-dlp 靠高频发版跟进（当前版本 2026.07.04），
+    用半年前的旧版大概率会失败，`yt-dlp -U` 或用包管理器更新一下就好。
+
+    最后说清楚：下载受版权保护的内容或违反网站条款是你自己的责任，工具本身只是个下载器。
+  en: |
+    184,400 stars, released under the Unlicense (effectively public domain). Nearly every
+    "online video downloader" website, every player with a download button and most GUI download
+    tools are yt-dlp underneath — the difference is that those wrap it in ads and you can just use it
+    directly.
+
+    Being a command-line tool is both the barrier and the point. `yt-dlp <url>` starts a download.
+    Add `-x` for audio only, `--write-subs --sub-langs en` for subtitles, or feed it a text file of
+    URLs for batches. Once three or four flags are in your muscle memory it beats any GUI on speed.
+
+    Two practical notes. First, **install ffmpeg.** High-resolution video now ships audio and video as
+    separate streams; without ffmpeg you are limited to a lower-quality pre-merged version, and with
+    it you get the real maximum. Second, **keep it current.** Sites change their internals constantly
+    and yt-dlp keeps up through frequent releases (currently 2026.07.04) — a six-month-old build will
+    likely just fail. `yt-dlp -U` or your package manager fixes that.
+
+    To be explicit: downloading copyrighted material or violating a site's terms is your
+    responsibility. The tool is just a downloader.

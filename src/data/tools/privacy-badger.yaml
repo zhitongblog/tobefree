@@ -1,0 +1,81 @@
+name: Privacy Badger
+accent: '#F5A623'
+initials: PB
+category: privacy
+price: free
+license: 'GPL-3.0'
+website: https://privacybadger.org
+download: https://privacybadger.org/#install
+repo: https://github.com/EFForg/privacybadger
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [反追踪, 浏览器扩展, eff, 自动学习, 隐私]
+platforms: [web]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 不靠名单，自己观察谁在跨站跟踪你
+  en: No blocklists — it watches which trackers follow you across sites
+description:
+  zh: 电子前哨基金会（EFF）出品的反追踪浏览器扩展。它不使用预设的拦截名单，而是在你浏览的过程中自己观察：哪个第三方域名在多个不相关的网站上重复出现并读取标识，就自动开始拦截它。支持 Chrome、Firefox、Edge 和 Opera。
+  en: "An anti-tracking browser extension from the Electronic Frontier Foundation. Instead of using a predefined blocklist, it observes as you browse: any third-party domain that appears across multiple unrelated sites while reading identifiers gets blocked automatically. Available for Chrome, Firefox, Edge and Opera."
+review:
+  zh: |
+    uBlock Origin 的工作方式是靠名单——社区维护一份巨大的广告和追踪器域名列表，
+    命中就拦。这套方法很有效，但有个结构性弱点：**新出现的、还没被收录的追踪器它认不出来**。
+
+    Privacy Badger 补的正是这个缺口。它由 EFF（美国最重要的数字权利组织之一）开发，
+    3,804 颗星，GPL-3.0，思路完全不同：**它自己学**。
+
+    具体机制是这样的：你浏览网页时，它记录每个第三方域名的行为。
+    如果某个域名在三个互不相关的网站上都出现了，并且都在读取能识别你身份的东西
+    （cookie、localStorage、canvas 指纹之类），它就判定这是跨站追踪器，
+    自动开始拦截。整个判断在你的浏览器里完成，**不需要把浏览记录发给任何人**。
+
+    这带来一个有意思的特性：**它是为你个人量身生成的**。
+    你常去的那些小众网站上的追踪器，可能永远不会进入公共拦截名单，
+    但只要它们跨站跟着你，Privacy Badger 就会发现。用得越久越准。
+
+    实用细节：它对每个域名有三档状态（放行 / 只拦 cookie / 完全拦截），
+    点开图标能看到当前页面上每个第三方的处理方式，可以手动调整。
+    某个网站因为拦截而功能异常时，把对应域名滑到放行就行。
+
+    要说清楚的：
+
+    - **它不是广告拦截器**。EFF 明确说过这一点：它拦的是追踪行为，
+      一个不追踪你的广告它不会碰。想去广告，还是要装 uBlock Origin。
+    - **两者应该一起用**，而不是二选一。uBlock 用名单覆盖已知的绝大多数，
+      Privacy Badger 用行为分析补上名单之外的。
+    - **刚装上时几乎不拦东西**，需要浏览一段时间积累判断。这是设计如此，不是坏了。
+  en: |
+    uBlock Origin works from lists — the community maintains an enormous roster of ad and tracker
+    domains, and anything matching gets blocked. That approach is effective but has a structural
+    weakness: **it cannot recognize a new tracker that no list has caught yet.**
+
+    Privacy Badger fills exactly that gap. Built by the EFF, one of the most significant digital
+    rights organizations in the US, 3,804 stars, GPL-3.0, and working on an entirely different
+    principle: **it learns.**
+
+    The mechanism: as you browse, it records the behavior of each third-party domain. When a domain
+    turns up on three unrelated sites while reading something that identifies you — cookies,
+    localStorage, canvas fingerprinting — it concludes this is a cross-site tracker and starts
+    blocking it. The entire judgment happens inside your browser, and **your browsing history is never
+    sent anywhere.**
+
+    That produces an interesting property: **the result is personal to you.** Trackers on the niche
+    sites you frequent may never reach a public blocklist, but if they follow you across sites,
+    Privacy Badger notices. It gets more accurate the longer you use it.
+
+    Practical details: each domain has three states (allow, block cookies only, block entirely), the
+    toolbar icon shows how every third party on the current page is being handled, and you can adjust
+    manually. When blocking breaks a site, slide the offending domain back to allow.
+
+    To be clear about:
+
+    - **It is not an ad blocker.** The EFF says this explicitly: it blocks tracking behavior, and an
+      ad that does not track you is left alone. For ad removal you still want uBlock Origin.
+    - **Use both together** rather than choosing between them. uBlock covers the known majority via
+      lists; Privacy Badger catches what the lists miss through behavior analysis.
+    - **It blocks almost nothing at first** and needs browsing time to build up judgments. That is by
+      design, not a fault.

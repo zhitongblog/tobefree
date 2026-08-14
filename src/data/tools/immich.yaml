@@ -1,0 +1,70 @@
+name: Immich
+accent: '#4250AF'
+initials: IM
+category: selfhosted
+price: free
+license: 'AGPL-3.0'
+website: https://immich.app
+download: https://immich.app/docs/install/requirements
+repo: https://github.com/immich-app/immich
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [照片备份, 自建相册, 谷歌相册替代, 人脸识别, 可自建]
+platforms: [linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自己的 Google 相册，容量等于你的硬盘
+  en: Google Photos on your own disk, with your disk as the storage limit
+description:
+  zh: 自建照片和视频备份服务。手机装上 App 自动上传，网页端按时间线浏览，支持人脸识别聚类、地图视图、以图搜图、去重和多用户共享相册。全部在本地运行，不看广告、不限容量、不压缩画质。
+  en: A self-hosted photo and video backup service. The mobile app uploads automatically, the web app browses by timeline, and it does face grouping, map views, search by image content, deduplication and shared albums for multiple users — all running locally, with no ads, no storage caps and no quality reduction.
+review:
+  zh: |
+    Google 相册免费额度用完之后，很多人才意识到十几年的照片被押在了别人手里。
+    Immich 是目前最完整的自建替代方案：110,470 颗星，AGPL-3.0，
+    体验做得非常接近商业产品——这一点在自建软件里不常见。
+
+    实际用起来最像 Google 相册的几个地方：
+
+    - **手机 App 自动后台备份**，可以选只在 Wi-Fi 下传，支持 iOS 和安卓，
+      上传的是原图原视频，不做二次压缩。
+    - **人脸识别**会自动把照片按人物聚类，你只需要给每张脸起个名字，之后按人搜索。
+    - **语义搜索**：直接搜"海边""生日蛋糕""红色的车"，它靠机器学习模型理解照片内容来找，
+      不依赖你手动打标签。这部分模型跑在你自己的服务器上，照片不出门。
+    - 地图视图、重复照片检测、多用户各自独立的相册加共享相册，都有。
+
+    部署方式是官方的 Docker Compose，一份配置文件起服务，文档写得很清楚。
+    机器要求比 Nextcloud 高一些——机器学习那部分吃内存和 CPU，
+    建议至少 4 GB 内存起步，照片多的话给它一块大硬盘。
+
+    **要提醒的一点是它迭代很快**（当前 v3.1.0，几乎每月都有新版本）。
+    项目已经进入成熟阶段，但升级前依然应该看一眼更新说明，并且——这条对任何自建服务都成立——
+    **认真做好备份**。自建的意思是数据归你，也意味着数据丢了没人替你负责。
+    照片这种东西，建议至少再有一份异地或离线副本。
+  en: |
+    Many people only realize a decade of photos is held hostage when the free Google Photos quota runs
+    out. Immich is currently the most complete self-hosted replacement: 110,470 stars, AGPL-3.0, and
+    an experience remarkably close to the commercial product — which is rare in self-hosted software.
+
+    The parts that feel most like Google Photos in daily use:
+
+    - **Automatic background backup from the mobile app,** restricted to Wi-Fi if you like, on both
+      iOS and Android, uploading originals with no recompression.
+    - **Face recognition** groups photos by person automatically; you just name each face and can then
+      search by person.
+    - **Semantic search:** type "beach", "birthday cake" or "red car" and it finds them by
+      understanding image content through a machine-learning model — no manual tagging. That model
+      runs on your own server, so the photos never leave.
+    - Map views, duplicate detection, and per-user libraries with shared albums are all present.
+
+    Deployment is via official Docker Compose — one configuration file brings it up, and the docs are
+    clear. Hardware demands are higher than Nextcloud's, since the machine-learning side wants memory
+    and CPU: plan on at least 4 GB of RAM, and a large disk if your library is big.
+
+    **One caveat: it iterates quickly** (currently v3.1.0, with releases close to monthly). The
+    project has reached maturity, but still read the release notes before upgrading and — this holds
+    for any self-hosted service — **take backups seriously.** Self-hosting means the data is yours,
+    which also means nobody else is responsible when it is lost. For photos specifically, keep at
+    least one offsite or offline copy.

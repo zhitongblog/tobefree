@@ -1,0 +1,80 @@
+name: Ente Auth
+accent: '#1DB954'
+initials: EA
+category: privacy
+price: free
+license: 'AGPL-3.0'
+website: https://ente.io/auth
+download: https://ente.io/auth/#download
+repo: https://github.com/ente-io/ente
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [两步验证, 2fa, totp, 端到端加密, 多设备同步]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 两步验证码多设备同步，服务器也看不见
+  en: Two-factor codes synced across devices, invisible to the server
+description:
+  zh: 开源的跨平台两步验证器，覆盖安卓、iOS、Windows、macOS、Linux 和网页端。验证码密钥在本机加密后再上传，服务器只存密文，换设备登录即可恢复。服务端代码同样开源，可以自建。
+  en: An open-source cross-platform two-factor authenticator covering Android, iOS, Windows, macOS, Linux and the web. Secrets are encrypted on your device before upload, so the server only ever holds ciphertext, and a new device restores by signing in. The server is open source too, and self-hostable.
+review:
+  zh: |
+    Aegis 把密钥锁死在一台安卓手机上，安全但不方便——你在电脑上登录某个网站时，
+    还得摸出手机来看一眼。Ente Auth 走的是另一条路：**同步，但用端到端加密保证服务器看不见**。
+
+    工作方式是：验证码密钥在你的设备上先加密，再上传。Ente 的服务器存的是一堆密文，
+    没有你的密码就解不开。换手机、加一台电脑，登录账号就能恢复全部验证码——
+    既有云同步的方便，又不用把密钥明文交给厂商。
+
+    平台覆盖是它最强的地方：安卓、iOS、Windows、macOS、Linux、网页版全都有。
+    电脑上登网站时直接在桌面 App 里复制验证码，不用碰手机——
+    这个体验差别在日常使用里非常明显。
+
+    另外它支持离线查看已有验证码（同步只是为了跨设备），
+    可以导入 Google Authenticator、Authy、2FAS、Aegis 的数据，也能导出成明文或加密格式。
+    如果你不信任它的服务器，服务端代码是 AGPL 开源的，可以自己部署一套。
+
+    要说清楚的：
+
+    - **需要注册 Ente 账号**。这是同步方案的必然代价，所以我们没有给它「无需注册」徽章。
+      如果你完全不想要账号，用 Aegis（安卓）更纯粹。
+    - **主密码丢了没人能救你**。端到端加密的另一面就是厂商也解不开你的数据。
+      恢复密钥务必单独抄下来存好。
+    - Ente 这家公司还有一个付费的加密相册产品，**但 Auth 这个验证器是免费的**，
+      不限验证码数量、不限设备数、没有功能墙。收录的就是这一部分。
+
+    怎么选：只用安卓、追求极致简单，用 Aegis；
+    多设备、需要在电脑上取码，用 Ente Auth。两个都是开源的，都比厂商托管的方案干净。
+  en: |
+    Aegis locks secrets to a single Android phone — secure, but inconvenient when you are signing into
+    something on a computer and have to reach for the phone. Ente Auth takes the other route:
+    **sync, with end-to-end encryption ensuring the server cannot see anything.**
+
+    The mechanism: secrets are encrypted on your device before upload, so Ente's servers hold only
+    ciphertext that is useless without your password. A new phone or an extra computer restores every
+    code by signing in — cloud convenience without handing plaintext secrets to a vendor.
+
+    Platform coverage is its strongest suit: Android, iOS, Windows, macOS, Linux and web. Signing into
+    a site on your computer means copying the code from the desktop app rather than picking up your
+    phone, and that difference is noticeable every single day.
+
+    It also displays existing codes offline (sync exists only for cross-device use), imports from
+    Google Authenticator, Authy, 2FAS and Aegis, and exports in plain or encrypted form. If you do not
+    trust its servers, the server code is AGPL and you can deploy your own.
+
+    To be clear about:
+
+    - **An Ente account is required.** That is inherent to a sync solution, which is why it carries no
+      no-sign-up badge. If you want no account at all, Aegis on Android is the purer choice.
+    - **Lose the master password and nobody can help you.** The flip side of end-to-end encryption is
+      that the vendor cannot decrypt your data either. Write the recovery key down and store it
+      separately.
+    - Ente the company also sells a paid encrypted photo product, **but the Auth app is free** — no
+      cap on codes, no device limit, no feature wall. That free app is what we list here.
+
+    How to choose: Android-only and want maximum simplicity, take Aegis; multiple devices and codes
+    needed on a computer, take Ente Auth. Both are open source and both are cleaner than a
+    vendor-custodied service.

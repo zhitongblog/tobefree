@@ -1,0 +1,55 @@
+name: Transmission
+accent: '#D9302E'
+initials: TR
+category: network
+price: free
+license: 'GPL-2.0-or-later'
+website: https://transmissionbt.com
+download: https://transmissionbt.com/download
+repo: https://github.com/transmission/transmission
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [bt下载, 轻量, nas, 守护进程, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 安静、轻量、可以常年挂在后台的下载器
+  en: A quiet, lightweight client you can leave running for years
+description:
+  zh: 以轻量著称的开源 BT 客户端，界面极简、占用极低。可以只跑守护进程加 Web 界面，是 NAS、树莓派和家庭服务器上最常见的下载后端之一。
+  en: An open-source BitTorrent client known for staying out of the way — minimal interface, minimal footprint. It can run as a headless daemon with a web interface, which makes it the most common download backend on NAS boxes, Raspberry Pis and home servers.
+review:
+  zh: |
+    如果 qBittorrent 是「功能齐全的桌面下载器」，Transmission 就是另一条路：**尽可能少的界面，
+    尽可能低的存在感**。它在 macOS 上是原生 Cocoa 应用，看起来就像系统自带的；在 Linux 上，
+    它几乎是各大发行版的默认 BT 客户端。
+
+    它真正的主场是无人值守。`transmission-daemon` 可以完全脱离图形界面运行，你通过浏览器
+    或手机 App 远程加任务。旧笔记本、树莓派、群晖，插上电扔在角落，几年不用管——
+    这类场景下它比带完整界面的客户端更合适。
+
+    代价是功能确实少。没有 qBittorrent 那种内置搜索，RSS 自动下载要靠第三方脚本或插件补，
+    高级选项也没那么多。这是设计取向，不是缺陷。
+
+    怎么选：桌面上偶尔下点东西、想要一个功能全的窗口，用 qBittorrent；
+    想在一台常年开机的机器上挂个下载后端、越省资源越好，用 Transmission。
+  en: |
+    If qBittorrent is the full-featured desktop client, Transmission takes the opposite road: **as
+    little interface as possible, as little presence as possible.** On macOS it is a native Cocoa app
+    that looks like it shipped with the system; on Linux it is the default BitTorrent client in most
+    major distributions.
+
+    Unattended operation is where it really belongs. `transmission-daemon` runs with no GUI at all,
+    and you add jobs from a browser or a phone app. An old laptop, a Raspberry Pi or a Synology box
+    plugged in and forgotten in a corner for years — for that job it fits better than a client
+    carrying a full desktop interface.
+
+    The trade-off is a genuinely smaller feature set. There is no built-in search like qBittorrent's,
+    RSS auto-download needs third-party scripts or plugins, and there are fewer advanced knobs. That
+    is a design choice, not a shortcoming.
+
+    How to choose: for occasional downloads on a desktop where you want a capable window, take
+    qBittorrent. For a download backend on an always-on machine where every megabyte of RAM counts,
+    take Transmission.

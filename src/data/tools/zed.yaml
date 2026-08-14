@@ -1,0 +1,97 @@
+name: Zed
+accent: '#084CCF'
+initials: ZD
+category: dev
+price: free
+license: 'GPL-3.0 · 编辑器'
+website: https://zed.dev
+download: https://zed.dev/download
+repo: https://github.com/zed-industries/zed
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [编辑器, 高性能, rust, 协作, lsp]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-signup, cross-platform]
+tagline:
+  zh: 用 Rust 重写的编辑器，快到能感觉出来
+  en: An editor rewritten in Rust, fast enough that you notice
+description:
+  zh: 由 Atom 原班团队开发的开源代码编辑器，用 Rust 写成，GPU 渲染界面。启动、打开大文件、搜索和跳转都明显快于 Electron 系编辑器。内置 LSP 语言支持、Vim 模式、终端、Git 集成和多人实时协作。
+  en: An open-source code editor from the original Atom team, written in Rust with a GPU-rendered interface. Startup, opening large files, searching and navigation are all noticeably faster than Electron-based editors. It ships with LSP language support, Vim mode, a terminal, Git integration and real-time collaboration.
+review:
+  zh: |
+    VS Code 好用，但它是 Electron 应用，本质上是个浏览器。项目一大、插件一多，
+    启动要等、搜索要转圈、打开几十兆的日志文件会卡住。这些是架构决定的，不是配置能解决的。
+
+    Zed 是 Atom 原班人马的第二次尝试——这次不用 Electron，
+    整个编辑器用 Rust 写，界面走 GPU 渲染。88,618 颗星，编辑器部分 GPL-3.0 开源。
+
+    快是它最直接的卖点，而且是能实际感知的那种快：冷启动基本是瞬间的，
+    大文件滚动不掉帧，全局搜索在大仓库里响应很快，输入延迟低到会让你觉得
+    "原来编辑器可以这么跟手"。用惯之后回到 Electron 编辑器会有明显不适。
+
+    功能上它已经不是早期那个"很快但很空"的状态了：
+
+    - **LSP 语言支持**：主流语言的补全、跳转定义、重构、诊断都通过 LSP 提供，
+      和 VS Code 同一套协议，体验接近。
+    - **内置 Vim 模式**，做得比多数编辑器的 Vim 插件完整。
+    - **内置终端和 Git 集成**：改动高亮、blame、暂存和提交都在编辑器里完成。
+    - **实时协作**：多人同时编辑同一个项目，像 Google Docs 那样看到对方光标。
+      这是它区别于其他编辑器的特色功能。
+    - **AI 集成**：可以接入各家模型做补全和对话，也能接本地模型。
+
+    要说清楚的：
+
+    - **扩展生态远不如 VS Code**。VS Code 那几万个插件是十年积累，
+      Zed 的扩展数量还很少。如果你重度依赖某个特定插件，先去它的扩展列表确认有没有。
+    - **Windows 支持起步较晚**。macOS 和 Linux 是它的主战场，
+      Windows 版现在能用（官方发布 exe 安装包），但成熟度和前两者有差距。
+    - **协作功能需要登录账号**（用 GitHub 登录），所以在协作场景下它不是零账号的。
+      单纯本地写代码不需要登录。
+    - **许可证要看清**：编辑器本体是 GPL-3.0，其 GPUI 图形框架是 Apache-2.0，
+      协作服务端是 AGPL-3.0。都是开源，但不是同一个协议。
+
+    适合谁：受够了编辑器卡顿、主要写 Rust / Go / Python / TypeScript 这类有成熟 LSP 的语言、
+    并且不依赖冷门插件的人。需要完整插件生态的，留在 VS Code 或 VSCodium。
+  en: |
+    VS Code is capable, but it is an Electron app — a browser underneath. As a project grows and
+    plugins accumulate, startup drags, search spins, and a thirty-megabyte log file stalls it. That is
+    architecture, not configuration.
+
+    Zed is the original Atom team's second attempt — no Electron this time. The whole editor is
+    written in Rust with a GPU-rendered interface. 88,618 stars, with the editor itself under GPL-3.0.
+
+    Speed is the headline and it is the kind you actually feel: cold start is essentially instant,
+    large files scroll without dropping frames, project-wide search responds quickly in big
+    repositories, and input latency is low enough to make you realize how much lag you had accepted.
+    Going back to an Electron editor afterwards is genuinely uncomfortable.
+
+    It is also no longer the "fast but empty" tool of its early days:
+
+    - **LSP language support:** completion, go-to-definition, refactoring and diagnostics for
+      mainstream languages come through LSP — the same protocol VS Code uses, with a comparable
+      experience.
+    - **Built-in Vim mode,** more complete than most editors' Vim plugins.
+    - **Built-in terminal and Git integration:** change highlighting, blame, staging and committing
+      all happen in the editor.
+    - **Real-time collaboration:** several people edit one project simultaneously, seeing each other's
+      cursors as in a shared document. This is its signature differentiator.
+    - **AI integration:** connect various providers for completion and chat, including local models.
+
+    To be clear about:
+
+    - **The extension ecosystem trails VS Code by a wide margin.** Those tens of thousands of plugins
+      represent a decade of accumulation; Zed's catalogue is still small. If you depend on a
+      particular plugin, check its extension list first.
+    - **Windows support arrived later.** macOS and Linux are its home ground; the Windows build works
+      and ships as an official installer, but it is less mature than the other two.
+    - **Collaboration requires an account** (sign in with GitHub), so it is not account-free in that
+      mode. Writing code locally requires no login.
+    - **Read the licensing carefully:** the editor is GPL-3.0, its GPUI graphics framework is
+      Apache-2.0, and the collaboration server is AGPL-3.0. All open source, but not one licence.
+
+    Who it suits: anyone tired of a sluggish editor who works mainly in Rust, Go, Python or TypeScript
+    where LSP support is mature, and who does not depend on niche plugins. If you need the full plugin
+    ecosystem, stay with VS Code or VSCodium.

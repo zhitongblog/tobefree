@@ -1,0 +1,65 @@
+name: RustDesk
+accent: '#0071FF'
+initials: RD
+category: remote
+price: free
+license: 'AGPL-3.0'
+website: https://rustdesk.com
+download: https://github.com/rustdesk/rustdesk/releases/latest
+repo: https://github.com/rustdesk/rustdesk
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [远程桌面, 远程控制, 可自建, 替代teamviewer, 开源]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 不会突然说你"疑似商业用途"的远程控制
+  en: Remote desktop that will never accuse you of "commercial use"
+description:
+  zh: 开源远程桌面软件，用法和 TeamViewer 一样——报 ID 和密码就能连。区别是它可以把中继服务器部署成你自己的，连接不经过任何第三方，也没有免费版时长、设备数和商业用途的限制。Windows 安装包约 21 MB。
+  en: An open-source remote desktop tool that works like TeamViewer — read out an ID and password and connect. The difference is you can point it at your own relay server, so nothing passes through a third party, and there are no free-tier session timers, device caps or commercial-use restrictions. The Windows installer is about 21 MB.
+review:
+  zh: |
+    帮家里长辈修电脑的人都遇过这一幕：TeamViewer 弹窗说检测到商业用途，会话五分钟就断。
+    RustDesk 就是冲着这个场景来的，120,413 颗星，AGPL-3.0 开源，是这个分类里增长最快的项目。
+
+    基本用法和 TeamViewer 一模一样：两边都装上，被控端报出 ID 和一次性密码，控制端输进去就连上了。
+    不用注册账号，不用配路由器，穿透交给它自己处理。安装包只有二十多 MB，画面延迟在国内网络下也可接受。
+
+    它真正的分水岭在**自建中继**。官方提供的公共中继服务器是免费共享的，高峰期会慢，
+    而且你的连接毕竟经过了别人的机器。RustDesk 把服务端（hbbs / hbbr）也开源了，
+    在一台便宜的云主机上跑起来，然后在客户端填上自己的服务器地址和密钥——
+    从此连接只走你自己的线路，速度稳定，数据不经第三方。这一步大概十分钟，
+    是它和所有商业远程软件最本质的区别。
+
+    实际使用中的两个提醒：Windows 上要装成服务才能在无人值守时开机自动连接；
+    macOS 需要在系统设置里手动授予"屏幕录制"和"辅助功能"权限，这一步不给就只能看不能控。
+
+    另外，正因为它能无人值守远程控制，请不要在陌生人的指导下安装它——
+    这个能力被电信诈骗利用过，工具本身没问题，但要清楚你把控制权交给了谁。
+  en: |
+    Anyone who does tech support for family has seen this: TeamViewer pops up claiming commercial use
+    was detected and kills the session after five minutes. RustDesk exists for exactly that scenario —
+    120,413 stars, AGPL-3.0, and the fastest-growing project in this category.
+
+    Basic usage mirrors TeamViewer: install on both ends, the remote machine shows an ID and one-time
+    password, you type them in and you are connected. No account, no router configuration, NAT
+    traversal handled for you. The installer is only a little over 20 MB and latency is acceptable on
+    ordinary connections.
+
+    The real dividing line is **self-hosted relays.** The official public relay is free and shared, so
+    it slows at peak times, and your session does travel through someone else's machine. RustDesk
+    open-sourced the server side too (hbbs / hbbr): run it on a cheap cloud VM, put your server
+    address and key into the clients, and from then on connections use only your own path, with
+    steady speed and no third party in the middle. It takes about ten minutes and it is the
+    fundamental difference between this and every commercial remote desktop product.
+
+    Two practical notes: on Windows, install it as a service if you want unattended access after a
+    reboot; on macOS you must grant Screen Recording and Accessibility permissions in System Settings,
+    or you will be able to see the screen but not control it.
+
+    Also, precisely because it enables unattended remote control, never install it at the direction of
+    a stranger. That capability has been abused in phone scams — the tool is fine, but be clear about
+    who you are handing control to.

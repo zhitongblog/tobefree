@@ -1,0 +1,86 @@
+name: HomeBank
+accent: '#E8A33D'
+initials: HB
+category: finance
+price: free
+license: 'GPL-2.0'
+website: https://www.gethomebank.org
+download: https://www.gethomebank.org/en/downloads.php
+repo: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [家庭记账, 简单易用, 图表分析, 离线, 导入对账单]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 不用学会计，打开就能记家庭账
+  en: Household bookkeeping with no accounting to learn first
+description:
+  zh: 面向家庭和个人的轻量记账软件，不需要理解复式记账。录入收支、分类、设预算，自动生成饼图、柱状图和趋势曲线。支持导入 CSV、OFX、QIF 格式的银行对账单，可以自动识别重复交易。
+  en: Lightweight household bookkeeping that assumes no accounting knowledge. Record income and expenses, categorize, set budgets, and get pie charts, bar charts and trend lines automatically. It imports CSV, OFX and QIF bank statements and detects duplicate transactions.
+review:
+  zh: |
+    这个分类里，GnuCash 要你学复式记账，Beancount 要你会命令行，
+    Firefly III 要你会部署服务器。**HomeBank 是那个不要求你学任何东西的选项。**
+
+    它的模型就是普通人脑子里的模型：有几个账户（工资卡、信用卡、现金、支付宝），
+    每笔收支属于某个分类，可以给分类设月度预算。录完之后，
+    自动出饼图看钱花在哪、出趋势图看几个月的变化、出预算完成度。
+    没有借贷、没有科目表、没有会计等式。
+
+    几个做得实在的功能：
+
+    - **导入对账单**：支持 CSV、OFX、QIF，很多银行能导出这些格式。
+      导入时会自动检测重复交易，不会因为两次导入重叠时段就记两遍。
+    - **自动分配规则**：可以设定"收款方包含某关键词就自动归到某分类"，
+      导入之后不用一条条手点。
+    - **定期交易**：房租、房贷、订阅费这类固定支出可以设成定期，到期自动生成待确认记录。
+    - **多账户和多币种**都支持，出国或者持有外币的人用得上。
+
+    数据完全离线，存在本地文件里，不要账号、不联网。
+    界面是 GTK 的传统桌面风格，谈不上时髦，但布局清楚、响应快，
+    在老电脑上也没有压力。
+
+    它的边界也很清楚：
+
+    - **不做投资持仓管理**。股票、基金的成本和收益跟踪它不擅长，要那个用 GnuCash。
+    - **没有移动端**，也没有同步。就是一台电脑上的单机软件。
+    - **不适合企业账务**。没有发票、应收应付、正式财务报表。
+
+    适合谁：想搞清楚"钱到底花哪了"、但不想为此学一门会计的家庭用户。
+    如果记着记着觉得不够用，再迁移到 GnuCash 也不迟——它支持导出 CSV 和 QIF。
+  en: |
+    In this category, GnuCash asks you to learn double-entry, Beancount asks for the command line and
+    Firefly III asks you to run a server. **HomeBank is the option that asks you to learn nothing.**
+
+    Its model is the one already in an ordinary person's head: a few accounts (salary card, credit
+    card, cash, a payment app), each transaction belonging to a category, and monthly budgets per
+    category. Enter the data and it produces a pie chart of where money went, trend lines across
+    months, and budget progress. No debits and credits, no chart of accounts, no accounting equation.
+
+    Features that pull their weight:
+
+    - **Statement import** in CSV, OFX and QIF, which most banks can export. It detects duplicate
+      transactions during import, so overlapping date ranges do not get recorded twice.
+    - **Automatic assignment rules:** "if the payee contains this keyword, file it under that
+      category", so an import does not require clicking through every line.
+    - **Scheduled transactions** for rent, mortgage payments and subscriptions, which generate
+      pending entries automatically when due.
+    - **Multiple accounts and currencies,** useful for anyone travelling or holding foreign currency.
+
+    Data stays entirely offline in a local file, with no account and no network. The interface is
+    traditional GTK desktop styling — not fashionable, but clearly laid out, responsive, and untaxing
+    on old hardware.
+
+    Its boundaries are equally clear:
+
+    - **No investment portfolio tracking.** Cost basis and returns on stocks and funds are not its
+      strength; use GnuCash for that.
+    - **No mobile app and no sync.** It is single-machine desktop software.
+    - **Not for business accounting.** No invoices, receivables or formal financial statements.
+
+    Who it suits: households that want to understand where the money actually goes without learning
+    accounting to find out. If you eventually outgrow it, migrating to GnuCash is straightforward — it
+    exports CSV and QIF.

@@ -1,0 +1,55 @@
+name: qBittorrent
+accent: '#2F67BA'
+initials: QB
+category: network
+price: free
+license: 'GPL-2.0-or-later'
+website: https://www.qbittorrent.org
+download: https://www.qbittorrent.org/download
+repo: https://github.com/qbittorrent/qBittorrent
+featured: true
+popular: true
+selfMade: false
+added: '2026-08-14'
+tags: [bt下载, 种子, 磁力链接, 无广告, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: BT 下载的默认答案，没有广告没有限速
+  en: The default BitTorrent client — no ads, no speed tiers
+description:
+  zh: 开源的 BitTorrent 客户端，界面接近当年的 µTorrent，但没有广告、没有捆绑、没有会员提速。支持磁力链接、顺序下载、RSS 订阅自动下载、内置搜索和远程 Web UI。Windows 安装包约 41 MB。
+  en: An open-source BitTorrent client with the classic µTorrent-style interface minus the ads, bundles and paid speed tiers. Magnet links, sequential download, RSS auto-download, built-in search and a remote Web UI. The Windows installer is about 41 MB.
+review:
+  zh: |
+    µTorrent 当年是所有人的默认选择，后来被广告、捆绑和「加速会员」毁掉了。qBittorrent 接过了那个位置：
+    39,465 颗星，GPL 开源，界面几乎是老 µTorrent 的复刻，功能只多不少，而且永远不会向你推销什么。
+
+    值得单独说的是它的 Web UI。在设置里开一下，就能从手机或另一台电脑的浏览器管理下载队列——
+    很多人为此在家里的旧电脑或 NAS 上常年挂着它，出门也能加任务。
+
+    另一个实用功能是 RSS 自动下载：订阅一个源、写一条匹配规则，符合条件的种子会自动开始下。
+    追剧、追字幕组更新的人会很熟悉这套。
+
+    唯一要提醒的是下载来源。qBittorrent 名气大，搜索引擎前几条经常混着仿冒站，那些站点提供的
+    安装包会给你塞额外的东西。**只从 qbittorrent.org 或 GitHub Releases 下**，官方包是干净的。
+
+    另外请注意：软件本身完全合法，你用它下什么由你负责。
+  en: |
+    µTorrent used to be everyone's default until ads, bundles and "accelerator" subscriptions ruined
+    it. qBittorrent took that slot: 39,465 stars, GPL, an interface that is nearly a replica of old
+    µTorrent, at least as many features, and nothing to sell you — ever.
+
+    Its Web UI deserves a separate mention. Flip one switch in settings and you can manage the queue
+    from a phone or another machine's browser. Plenty of people leave it running permanently on an
+    old PC or NAS for exactly this reason and add jobs while away from home.
+
+    RSS auto-download is the other genuinely useful feature: subscribe to a feed, write one matching
+    rule, and qualifying torrents start on their own. Anyone following a series will recognize the
+    workflow.
+
+    The one warning is about where you download it. qBittorrent is popular enough that the top search
+    results often include imitation sites, and their installers add things you did not ask for.
+    **Only download from qbittorrent.org or GitHub Releases** — the official builds are clean.
+
+    Note also: the software itself is entirely legal; what you download with it is on you.

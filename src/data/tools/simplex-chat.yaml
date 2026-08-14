@@ -1,0 +1,64 @@
+name: SimpleX Chat
+accent: '#1F1F1F'
+initials: SX
+category: chat
+price: free
+license: 'AGPL-3.0'
+website: https://simplex.chat
+download: https://simplex.chat/downloads/
+repo: https://github.com/simplex-chat/simplex-chat
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [即时通讯, 端到端加密, 匿名, 无账号, 元数据保护]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 连用户 ID 都没有的聊天工具
+  en: A messenger with no user identifiers at all
+description:
+  zh: 不使用任何用户标识的加密通讯工具——没有账号、没有用户名、没有手机号，甚至没有随机生成的 ID。加好友靠一次性的链接或二维码，消息通过单向队列中转，服务器无法知道谁在和谁说话。
+  en: An encrypted messenger with no user identifiers whatsoever — no account, no username, no phone number, not even a random ID. Contacts are added through one-time links or QR codes, and messages travel through unidirectional queues, so servers cannot tell who is talking to whom.
+review:
+  zh: |
+    Signal 已经很注重隐私了，但它仍然需要你的手机号——手机号是一个能定位到人的标识。
+    SimpleX 的思路更极端：**干脆不要标识**。它没有账号系统，你在网络上没有一个"身份"，
+    加联系人是给对方发一条一次性链接或扫个二维码，这条通道用完就专属于你们俩。
+
+    技术上，它给每一对联系人用两个独立的单向消息队列，可以放在不同的中继服务器上。
+    结果是服务器只看到一堆互不相关的队列，拼不出社交关系图。对于"谁和谁在联系"这类元数据，
+    这是目前商用聊天软件里做得最彻底的方案之一。19,255 颗星，AGPL-3.0 开源，中继服务器可以自建。
+
+    代价很实在，你必须提前知道：
+
+    - **没有用户目录**，你不能搜索到任何人，只能通过带外方式（当面扫码、发链接）交换联系方式。
+    - **换设备麻烦**，没有账号意味着没有"登录恢复"，只能靠手动备份数据库文件。丢了就是真丢了。
+    - 通知在 iOS 上受系统限制，实时性不如主流软件。
+
+    适合谁：记者、研究人员，或者任何"连'我们在联系'这件事都不想被知道"的场景。
+    日常和家人朋友聊天，Signal 的平衡点更合适。
+  en: |
+    Signal is already privacy-focused, but it still needs your phone number — and a phone number is
+    an identifier that maps to a person. SimpleX goes further: **have no identifier at all.** There
+    is no account system, you have no "identity" on the network, and contacts are added by sending a
+    one-time link or scanning a QR code that creates a channel exclusive to the two of you.
+
+    Technically, each pair of contacts gets two separate unidirectional message queues, which can sit
+    on different relay servers. The result is that a server sees a pile of unrelated queues and
+    cannot reconstruct a social graph. For "who is talking to whom" metadata, this is among the most
+    thorough designs shipping in a real messenger. 19,255 stars, AGPL-3.0, and you can run your own
+    relays.
+
+    The costs are real and you should know them upfront:
+
+    - **There is no user directory.** You cannot search for anyone; contact details must be exchanged
+      out of band, in person or over another channel.
+    - **Moving devices is manual.** No account means no "log in and restore" — you back up the
+      database file yourself. Lose it and it is genuinely gone.
+    - Notification latency on iOS is constrained by system limits and is not as instant as mainstream
+      apps.
+
+    Who it suits: journalists, researchers, or anyone in a situation where even the fact that a
+    conversation exists should not be observable. For everyday chats with family and friends,
+    Signal's balance is the more practical one.

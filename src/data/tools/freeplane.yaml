@@ -1,0 +1,99 @@
+name: Freeplane
+accent: '#7B4FA8'
+initials: FP
+category: office
+price: free
+license: 'GPL-2.0'
+website: https://www.freeplane.org
+download: https://github.com/freeplane/freeplane/releases/latest
+repo: https://github.com/freeplane/freeplane
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [思维导图, 大纲, 知识整理, 项目规划, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 思维导图不该按月收费，节点也不该限制数量
+  en: Mind maps should not be a monthly subscription, or capped by node count
+description:
+  zh: 开源思维导图与大纲工具，用于头脑风暴、知识整理、项目规划和会议记录。节点数不限、导出无水印、文件存在本地。支持节点样式、图标、条件格式、公式计算、脚本自动化和加密节点。Windows 安装包约 102 MB。
+  en: An open-source mind mapping and outlining tool for brainstorming, organizing knowledge, planning projects and taking meeting notes. No node limits, no watermarked exports, files stored locally. It supports node styling, icons, conditional formatting, formulas, scripting and encrypted nodes. The Windows installer is about 102 MB.
+review:
+  zh: |
+    思维导图软件是订阅制渗透得最彻底的品类之一：免费版限 100 个节点、
+    导出 PDF 要会员、高级样式要会员、多设备同步要会员，
+    而这本质上只是一个树形结构编辑器。
+
+    Freeplane 是这个领域的老牌开源方案（前身是 FreeMind，
+    这条血脉可以追溯到二十多年前），GPL-2.0，4,293 颗星。
+    **节点不限、导出不限、功能不设墙**。
+
+    基础操作很符合直觉：回车加同级节点，Tab 加子节点，
+    几乎全键盘操作，思路快的时候手不用离开键盘。这一点对头脑风暴很关键——
+    工具跟不上思维速度的话，想法就断了。
+
+    它比一般思维导图工具走得更远的地方：
+
+    - **条件样式**：可以设规则，比如"包含'待办'的节点自动标红加图标"，
+      整张图能随内容自动变化，当轻量项目看板用很合适。
+    - **公式计算**：节点里可以写公式引用其他节点的数值，做预算估算、
+      工时汇总这类事情不用切到表格。
+    - **脚本自动化**：支持 Groovy 脚本，可以批量处理节点、自动生成结构。
+    - **节点加密**：单个分支可以加密码，混合了敏感信息的图也能安全存放。
+    - **属性和过滤**：给节点加属性后可以按条件过滤显示，大图不至于失控。
+
+    导出方面：PNG、SVG、PDF、HTML、Markdown、OPML 大纲、
+    甚至能导出成简单的网页版供人浏览。文件格式是开放的 XML，不锁你。
+
+    要说清楚的：
+
+    - **界面是老派 Java 桌面风格**，功能密度高但谈不上精致好看。
+      和 XMind 那类商业产品比，第一眼观感会吃亏——它的价值在功能深度和自由度，
+      不在颜值。做汇报用的漂亮导图，可能需要自己调一下样式。
+    - **是 Java 应用**，官方安装包已内置运行环境。启动比原生应用慢几秒。
+    - **没有官方移动端和云同步**。想跨设备用，把文件放在 Syncthing 或
+      自己的网盘里同步即可（文件是单个 `.mm` 文件，同步很方便）。
+
+    如果你只是偶尔画个简单的图，Excalidraw 或 draw.io 更轻快；
+    要把思维导图当成长期的知识和项目结构来经营，Freeplane 的深度是免费方案里最好的。
+  en: |
+    Mind mapping is one of the categories most thoroughly colonized by subscriptions: a hundred nodes
+    on the free tier, PDF export behind a membership, advanced styling behind a membership, sync
+    behind a membership — for what is fundamentally a tree structure editor.
+
+    Freeplane is the veteran open-source answer, descended from FreeMind and traceable back more than
+    two decades. GPL-2.0, 4,293 stars, and **no node limits, no export limits, no feature walls.**
+
+    The basic interaction is intuitive: Enter adds a sibling, Tab adds a child, and almost everything
+    is keyboard-driven so your hands never leave the keys when ideas are coming fast. That matters for
+    brainstorming — when the tool cannot keep up with your thinking, the thought breaks.
+
+    Where it goes beyond typical mind mappers:
+
+    - **Conditional styling:** define rules such as "nodes containing 'TODO' turn red with an icon",
+      so the whole map reacts to its content — a decent lightweight project board.
+    - **Formulas:** nodes can compute from values in other nodes, handling budget estimates or effort
+      totals without switching to a spreadsheet.
+    - **Scripting:** Groovy scripts can process nodes in bulk or generate structure automatically.
+    - **Encrypted nodes:** password-protect an individual branch, so a map mixing sensitive material
+      can still be stored safely.
+    - **Attributes and filtering:** tag nodes with attributes and filter the display, which keeps
+      large maps manageable.
+
+    Exports cover PNG, SVG, PDF, HTML, Markdown, OPML outlines and even a simple browsable web
+    version. The file format is open XML, so nothing is locked in.
+
+    To be clear about:
+
+    - **The interface is old-school Java desktop styling** — dense with features, not visually
+      refined. Next to commercial products it loses on first impressions; its value is depth and
+      freedom, not looks. A presentation-ready map will need some styling work.
+    - **It is a Java application** with a bundled runtime in the official installers. Startup takes a
+      few seconds longer than a native app.
+    - **No official mobile app or cloud sync.** For cross-device use, put the file in Syncthing or
+      your own storage — a map is a single `.mm` file, so syncing is trivial.
+
+    For the occasional quick sketch, Excalidraw or draw.io are lighter. For running mind maps as
+    long-lived knowledge and project structures, Freeplane has the most depth of any free option.

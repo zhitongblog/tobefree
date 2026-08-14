@@ -1,0 +1,68 @@
+name: Moonlight
+accent: '#6BC72A'
+initials: ML
+category: remote
+price: free
+license: 'GPL-3.0'
+website: https://moonlight-stream.org
+download: https://moonlight-stream.org/#downloads
+repo: https://github.com/moonlight-stream/moonlight-qt
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [游戏串流, 远程游戏, 低延迟, 手柄, 开源]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 把家里游戏主机的画面串到任何一块屏幕上
+  en: Stream your gaming PC to any screen in the house
+description:
+  zh: 开源的游戏串流客户端，把家里高性能电脑的画面和声音实时传到笔记本、平板、手机、电视盒子上，手柄和鼠标操作反向传回。局域网内延迟通常只有个位数毫秒，支持 4K、HDR 和高刷新率。
+  en: An open-source game streaming client that sends video and audio from a powerful desktop to a laptop, tablet, phone or TV box in real time, with controller and mouse input travelling back. Latency on a local network is typically single-digit milliseconds, with 4K, HDR and high refresh rates supported.
+review:
+  zh: |
+    场景很明确：显卡在书房那台台式机里，而你想躺在客厅沙发上用电视玩。
+    Moonlight 做的就是这件事——把游戏画面实时串流到另一块屏幕上，手柄输入传回去。
+    局域网内的延迟低到基本感觉不出来，这是它和"云游戏"最大的区别，因为数据根本没出你家。
+
+    **有一个前提必须先讲**：Moonlight 只是客户端，你还需要在主机端装一个串流服务。
+    以前它配的是 NVIDIA GameStream，但英伟达在 2023 年停掉了这个功能。
+    现在标准做法是主机端装开源的 **Sunshine**，和 Moonlight 是一对，
+    而且 Sunshine 不挑显卡——A 卡、Intel 核显都能用，比当年只支持 N 卡还宽松。
+
+    客户端覆盖面非常广：Windows、macOS、Linux、安卓、iOS、Apple TV、树莓派、
+    甚至一些电视盒子和掌机系统都有移植版。手边有什么屏幕就用什么。
+
+    需要注意的两点。第一，**尽量走有线或 5GHz Wi-Fi**。串流对网络抖动比对带宽更敏感，
+    2.4GHz 上体验会明显打折。第二，**桌面版的正式发布节奏较慢**，
+    当前稳定版 v6.1.0 发布于 2024 年 9 月，不过仓库的开发提交一直很活跃，
+    各平台的移植版本也在持续更新——不是无人维护，只是发版保守。
+
+    另外它不止能玩游戏：串流的是整个桌面，所以远程用一下主机上的重型软件也可以，
+    只是没有专门的远程办公功能（要那个用 RustDesk）。
+  en: |
+    The scenario is specific: the graphics card is in the desktop in the study, and you want to play
+    on the TV from the sofa. Moonlight does exactly that — streams the game in real time to another
+    screen while sending controller input back. On a local network the latency is low enough to be
+    imperceptible, which is the key difference from cloud gaming: the data never leaves your house.
+
+    **One prerequisite has to be stated first:** Moonlight is only the client; you also need a
+    streaming host on the gaming PC. It used to pair with NVIDIA GameStream, but NVIDIA discontinued
+    that in 2023. The standard setup now is the open-source **Sunshine** on the host side, which
+    pairs with Moonlight and — unlike the old arrangement — is not limited to NVIDIA cards; AMD and
+    Intel integrated graphics work too.
+
+    Client coverage is unusually broad: Windows, macOS, Linux, Android, iOS, Apple TV, Raspberry Pi,
+    and ports for various TV boxes and handheld systems. Whatever screen is nearby, there is probably
+    a build.
+
+    Two things to watch. First, **use wired Ethernet or 5GHz Wi-Fi.** Streaming is more sensitive to
+    jitter than to raw bandwidth, and 2.4GHz noticeably degrades the experience. Second, **desktop
+    releases are infrequent** — the current stable build, v6.1.0, dates from September 2024 — though
+    development commits remain active and the platform ports keep updating. It is not unmaintained,
+    just conservative about tagging releases.
+
+    It is not only for games, either: what gets streamed is the whole desktop, so occasional remote
+    use of heavy software on the host works fine — it simply has no dedicated remote-work features
+    (use RustDesk for that).

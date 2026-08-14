@@ -1,0 +1,92 @@
+name: ComfyUI
+accent: '#1A1A2E'
+initials: CU
+category: ai
+price: free
+license: 'GPL-3.0'
+website: https://www.comfy.org
+download: https://www.comfy.org/download
+repo: https://github.com/comfyanonymous/ComfyUI
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [ai绘画, stable diffusion, 节点工作流, 本地生成, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 把 AI 出图流程拆成节点，每一步都归你控制
+  en: AI image generation broken into nodes, every step under your control
+description:
+  zh: 节点式的 AI 图像生成界面。把模型加载、提示词编码、采样、放大、后处理拆成一个个节点用连线组装，工作流可以保存、分享和复用。在自己电脑上运行，不联网、不限次数、不加水印，出图版权归你。
+  en: A node-based interface for AI image generation. Model loading, prompt encoding, sampling, upscaling and post-processing become individual nodes you wire together, and workflows can be saved, shared and reused. It runs on your own machine — offline, unlimited, watermark-free, and the output is yours.
+review:
+  zh: |
+    在线 AI 画图服务的问题很一致：按张收费或按积分扣、有生成队列、
+    出图带水印或有分辨率限制、你的提示词和图片都在别人服务器上、
+    而且模型和参数你动不了。
+
+    ComfyUI 是另一条路——**整套流程跑在你自己的显卡上**。127,508 颗星，GPL-3.0。
+    不限次数、不排队、断网也能出图，用什么模型、什么采样器、
+    什么参数完全由你决定。
+
+    它的核心设计是节点式工作流。别的界面把生成过程包成几个滑块，
+    ComfyUI 把它拆开摊在你面前：模型加载是一个节点、
+    提示词编码是一个节点、采样器是一个节点、放大是一个节点，
+    你用线把它们连起来。这个设计有两个好处：
+
+    - **每一步都可见可改**。想在采样之后插一步换脸、
+      想让两个模型的输出混合、想同一批提示词跑三种采样器对比，
+      改连线就行，不用等作者加功能。
+    - **工作流可以整个分享**。一张 PNG 图片里就嵌着生成它的完整工作流，
+      别人拖进 ComfyUI 就能复现。社区因此积累了大量现成的高级工作流，
+      新手可以直接拿来用再慢慢理解。
+
+    要说清楚的成本：
+
+    - **需要一块像样的显卡**。NVIDIA 显卡体验最好，8 GB 显存是比较舒服的起点，
+      6 GB 也能跑但要挑模型。苹果芯片可以跑，速度慢一些。纯 CPU 理论可行、实际难忍。
+    - **学习曲线明显**。第一次打开会看到一堆节点和连线，
+      不理解扩散模型的流程会比较懵。建议从官方模板或社区工作流开始，
+      跑通一次再逐个节点去理解。
+    - **模型要自己下载**。ComfyUI 本身不含任何模型，
+      需要从模型社区下载 checkpoint、LoRA 等文件放进对应目录。
+      下载和使用模型时请注意各自的授权条款，有些模型禁止商用。
+
+    如果你只想输入一句话就出图、不想碰参数，这个工具会让你痛苦；
+    如果你想把 AI 出图当成一条可控的生产管线来搭，它目前是最强的选择。
+  en: |
+    Online image generators share a consistent set of problems: per-image or credit-based billing,
+    generation queues, watermarks or resolution caps, your prompts and images living on someone else's
+    servers, and no access to the models or parameters underneath.
+
+    ComfyUI takes the other road — **the whole pipeline runs on your own GPU.** 127,508 stars,
+    GPL-3.0. No limits, no queue, works offline, and the model, sampler and every parameter are yours
+    to choose.
+
+    Its defining design is the node graph. Other interfaces wrap generation into a few sliders;
+    ComfyUI takes it apart and lays it out: model loading is a node, prompt encoding is a node, the
+    sampler is a node, upscaling is a node, and you connect them with wires. Two benefits follow:
+
+    - **Every step is visible and editable.** Insert a face swap after sampling, blend the outputs of
+      two models, or run the same prompt through three samplers for comparison — rewire it yourself
+      rather than waiting for a feature request.
+    - **Workflows are shareable whole.** A generated PNG embeds the complete workflow that produced
+      it, so dragging it into ComfyUI reproduces the setup. The community has accumulated a large
+      library of advanced workflows that beginners can run first and understand later.
+
+    The costs, stated plainly:
+
+    - **You need a decent GPU.** NVIDIA cards work best, 8 GB of VRAM is a comfortable starting point,
+      and 6 GB works with careful model choices. Apple silicon runs it more slowly. Pure CPU is
+      theoretically possible and practically unbearable.
+    - **The learning curve is real.** The first launch presents a tangle of nodes and wires, which is
+      bewildering without a mental model of the diffusion process. Start from an official template or
+      a community workflow, get one running, then unpack it node by node.
+    - **Models are downloaded separately.** ComfyUI ships none; you fetch checkpoints, LoRAs and
+      similar files from model communities into the right directories. Check each model's own licence,
+      as some prohibit commercial use.
+
+    If you want to type a sentence and get a picture without touching parameters, this tool will
+    frustrate you. If you want to build image generation as a controllable production pipeline, it is
+    currently the strongest option available.

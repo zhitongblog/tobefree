@@ -1,0 +1,79 @@
+name: ScummVM
+accent: '#C87A2F'
+initials: SV
+category: gaming
+price: free
+license: 'GPL-3.0'
+website: https://www.scummvm.org
+download: https://www.scummvm.org/downloads/
+repo: https://github.com/scummvm/scummvm
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [老游戏, 冒险解谜, 游戏引擎重写, 跨平台, 开源]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 让九十年代的冒险游戏在今天的系统上跑起来
+  en: Keeps 1990s adventure games running on today's systems
+description:
+  zh: 把上百款经典冒险解谜游戏的引擎重新实现了一遍，让原本只能在 DOS 或早期 Windows 上运行的游戏，直接跑在现代的 Windows、macOS、Linux、手机和掌机上。你提供游戏的原始数据文件，它负责让它们跑起来。
+  en: A reimplementation of the engines behind hundreds of classic adventure games, so titles that only ever ran on DOS or early Windows now run on modern Windows, macOS, Linux, phones and handhelds. You supply the original game data files; it supplies the engine.
+review:
+  zh: |
+    ScummVM 做的事和模拟器不太一样。模拟器是模拟一台硬件，
+    ScummVM 是**把游戏引擎本身重写了一遍**——它读取原版游戏的数据文件
+    （剧本、图像、音乐、脚本），用现代代码重新执行。
+
+    结果是这些几十年前的游戏在今天跑得比在原始环境里还稳：
+    不用配 DOS 内存、不会因为 CPU 太快而崩溃、支持任意窗口大小和全屏、
+    可以随时存档、可以在手机上用触屏玩、字幕和语音能分别开关。
+
+    它支持的游戏名单很长——猴岛小英雄、疯狂大楼、极速天龙、
+    神秘岛、断剑、鬼屋魔影这些九十年代冒险游戏的代表作大多在列，
+    项目名字里的 SCUMM 就来自卢卡斯艺界当年的那套脚本引擎，
+    但如今支持的引擎早已扩展到几十种。
+
+    值得一提的是，官方还整理了一份**合法免费游戏列表**：
+    有些开发商把老游戏的版权释放了，或者授权免费分发，
+    这些可以直接从 ScummVM 官网下载来玩，完全合法。第一次用可以从这些开始。
+
+    需要知道的：
+
+    - **它不含游戏内容**。你需要自己拥有游戏的原始文件——
+      从当年的光盘拷贝，或者在 GOG、Steam 上购买（这些平台卖的老游戏很多本身就打包了 ScummVM）。
+    - **不是所有老游戏都支持**。它专注于冒险解谜类和特定引擎，
+      要跑其他类型的 DOS 老游戏，DOSBox 更合适。
+    - 官方兼容性列表会标注每个游戏的支持状态，装之前可以先查。
+
+    GPL-3.0，项目从 2001 年维护至今，当前版本 v2026.3.0。
+    这是那种"让文化遗产不至于因为系统升级而消失"的软件。
+  en: |
+    ScummVM does something different from an emulator. An emulator simulates hardware; ScummVM
+    **reimplements the game engines themselves** — it reads the original data files (scripts, art,
+    music) and executes them with modern code.
+
+    The result is that decades-old games run more reliably today than they did originally: no DOS
+    memory configuration, no crashes from a CPU that is too fast, arbitrary window sizes and
+    fullscreen, save anywhere, touch controls on a phone, and independent toggles for subtitles and
+    voice.
+
+    The supported list is long — Monkey Island, Maniac Mansion, Myst, Broken Sword, Alone in the Dark
+    and most of the defining adventure games of the 1990s. The SCUMM in the name comes from LucasArts'
+    scripting engine, though the project now covers dozens of unrelated engines.
+
+    Worth noting that the project also maintains a **list of legally free games**: some publishers have
+    released old titles or licensed them for free distribution, and those can be downloaded straight
+    from the ScummVM site and played entirely legally. A good place to start.
+
+    Things to know:
+
+    - **It contains no game content.** You need the original files — copied from discs you own, or
+      purchased on GOG or Steam, where many classic titles already ship bundled with ScummVM.
+    - **Not every old game is supported.** It focuses on adventure games and specific engines; for
+      other DOS-era genres, DOSBox is the right tool.
+    - The official compatibility list documents each game's status and is worth checking first.
+
+    GPL-3.0, maintained continuously since 2001, currently at v2026.3.0. This is software that keeps
+    cultural heritage from disappearing with each OS upgrade.

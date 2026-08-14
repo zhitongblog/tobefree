@@ -1,0 +1,95 @@
+name: DB Browser for SQLite
+accent: '#0F80CC'
+initials: DB
+category: dev
+price: free
+license: 'MPL-2.0 · GPL-3.0'
+website: https://sqlitebrowser.org
+download: https://sqlitebrowser.org/dl/
+repo: https://github.com/sqlitebrowser/sqlitebrowser
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [sqlite, 数据库, 可视化, 导入导出, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 打开 SQLite 文件，像用表格一样改数据
+  en: Open a SQLite file and edit it like a spreadsheet
+description:
+  zh: 专门用于 SQLite 数据库的图形工具。像表格一样浏览和编辑数据、可视化建表改字段、执行 SQL、导入导出 CSV，还能查看和编辑数据库结构。不需要服务器、不需要配置连接，双击打开 .db 文件即可。Windows 安装包约 17 MB。
+  en: A graphical tool dedicated to SQLite databases. Browse and edit rows like a spreadsheet, create and alter tables visually, run SQL, import and export CSV, and inspect or edit the schema. No server, no connection setup — just open the .db file. The Windows installer is about 17 MB.
+review:
+  zh: |
+    SQLite 无处不在：手机 App 的本地数据、浏览器的历史记录和 Cookie、
+    很多桌面软件的配置和缓存、小型项目的数据库、
+    以及各种数据分析场景里的中间存储。你的电脑上大概躺着几十个 `.db` 文件。
+
+    要打开它们看看，DBeaver 那种全能客户端有点重（先建连接、选驱动、下载 jar）。
+    DB Browser for SQLite 就是那个**双击就能看**的工具。24,452 颗星。
+
+    它做的事很聚焦：
+
+    - **浏览数据**：表格视图，可以排序、筛选、直接改单元格然后保存。
+      对于"我就想看看这张表里到底存了什么"这个最常见的需求，它是最快的路径。
+    - **可视化建表和改结构**：加字段、改类型、设主键和外键、建索引，
+      不用手写 ALTER TABLE（SQLite 的 ALTER 限制很多，它会帮你处理重建表的过程）。
+    - **执行 SQL**：有语法高亮的编辑器，结果可以直接导出。
+    - **导入导出**：CSV 双向互通，SQL dump 导出，也能把查询结果存成新表。
+      "把一个 CSV 塞进数据库然后用 SQL 查"这个流程它做得很顺。
+    - **加密数据库支持**：可以打开 SQLCipher 加密的库（需要对应版本）。
+
+    完全离线、不联网、不需要账号，处理敏感数据时不用担心。
+
+    要说清楚的：
+
+    - **只支持 SQLite**。MySQL、PostgreSQL 这些要用 DBeaver。这是定位不是缺点。
+    - **正式发布版本更新较慢**。当前稳定版 v3.13.1 发布于 2024 年 10 月，
+      不过仓库的开发提交一直在继续（最近仍有更新）。
+      它是一个成熟稳定的工具，功能变化不大，但如果你需要最新特性，
+      官网也提供开发构建（nightly）。
+    - **不适合超大数据库**。几百兆以上的库，表格视图加载会变慢，
+      那种规模建议直接用命令行的 `sqlite3` 或写脚本处理。
+    - **改数据要记得点保存**。它的编辑是有事务的，改完不写入不会生效，
+      这一点第一次用容易忘。
+
+    对写代码的人、做数据分析的人、以及想看看某个 App 本地存了什么的人，
+    这是一个装了不占地方、用到就省事的小工具。
+  en: |
+    SQLite is everywhere: local data in mobile apps, browser history and cookies, configuration and
+    caches for countless desktop programs, small project databases, and intermediate storage in data
+    analysis. There are probably dozens of `.db` files on your machine right now.
+
+    Opening one to look inside is heavier than it should be with a full client like DBeaver — create a
+    connection, pick a driver, download a jar. DB Browser for SQLite is the tool you **just
+    double-click.** 24,452 stars.
+
+    Its scope is focused:
+
+    - **Browse data** in a spreadsheet view with sorting, filtering and direct cell editing. For the
+      most common need — "I just want to see what is actually in this table" — it is the fastest path.
+    - **Visual schema editing:** add columns, change types, set primary and foreign keys, create
+      indexes, without hand-writing ALTER TABLE (SQLite's ALTER is heavily restricted, and it handles
+      the table-rebuild dance for you).
+    - **Run SQL** in a syntax-highlighted editor with directly exportable results.
+    - **Import and export:** CSV both ways, SQL dumps, and saving query results as new tables. The
+      "load a CSV into a database and query it with SQL" workflow is smooth here.
+    - **Encrypted database support** for SQLCipher databases with the appropriate build.
+
+    Entirely offline, no network, no account — safe for sensitive data.
+
+    To be clear about:
+
+    - **SQLite only.** MySQL and PostgreSQL belong to DBeaver. That is positioning, not a shortcoming.
+    - **Stable releases come slowly.** The current stable build, v3.13.1, dates from October 2024,
+      although development commits continue in the repository. It is a mature, stable tool with little
+      functional churn, and the official site offers nightly development builds if you need newer
+      features.
+    - **Not for very large databases.** Past a few hundred megabytes the grid view slows down; at that
+      scale, use the `sqlite3` command line or a script.
+    - **Remember to press save.** Edits are transactional and do not take effect until written back —
+      easy to forget the first time.
+
+    For developers, analysts, and anyone curious about what an app stores locally, this is a small
+    tool that costs nothing to keep installed and saves real effort when needed.

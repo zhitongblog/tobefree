@@ -1,0 +1,79 @@
+name: GnuCash
+accent: '#3B7D3B'
+initials: GC
+category: finance
+price: free
+license: 'GPL-2.0'
+website: https://www.gnucash.org
+download: https://www.gnucash.org/download.phtml
+repo: https://github.com/Gnucash/gnucash
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [记账, 复式记账, 个人财务, 小企业账务, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 真正的复式记账，账目对不上它会告诉你
+  en: Real double-entry accounting — it tells you when the books do not balance
+description:
+  zh: 面向个人和小企业的开源财务软件，采用标准复式记账法。支持多账户、多币种、投资持仓、发票和应收应付，能生成资产负债表、损益表和现金流量表。数据存在本地文件里，不联网、不要账号。
+  en: Open-source finance software for individuals and small businesses, built on standard double-entry bookkeeping. It handles multiple accounts and currencies, investment holdings, invoices and receivables, and produces balance sheets, income statements and cash flow reports. Data lives in a local file — no network, no account.
+review:
+  zh: |
+    大多数记账 App 做的是"流水账"：记一笔支出，分个类，月底看饼图。
+    GnuCash 做的是**真正的复式记账**——每一笔钱都同时记在两个账户上，
+    一边减一边加。工资到账是"银行存款增加、收入增加"，
+    刷卡消费是"支出增加、信用卡负债增加"。
+
+    这套方法学起来要花几个晚上，但它给你一样东西是流水账给不了的：
+    **账目自洽性**。资产等于负债加权益，等式不平就说明你哪笔记错了，软件会直接指出来。
+    对于要认真管理资产、有信用卡和贷款、有投资持仓的人，这个价值是实打实的。
+
+    功能覆盖得相当完整：多币种自动换算、股票和基金持仓跟踪（可以自动抓价格）、
+    定期交易自动生成、发票和应收应付管理、贷款还款计划表，
+    以及标准的资产负债表、损益表、现金流量表。小企业和个体户拿它做正经账务是够用的。
+
+    数据完全在本地。它把账本存成一个文件（XML 或 SQLite），你想放哪放哪、
+    想怎么备份怎么备份，不上传、不要账号、断网照用。这在记账软件里越来越少见了。
+
+    要说清楚的两点：
+
+    - **门槛在会计概念，不在软件**。如果你完全不了解借贷记账法，
+      前几天会比较难受。官方的入门教程写得不错，值得先花两小时读一遍。
+    - **界面是传统桌面风格**，功能强但谈不上现代美观，
+      这是一个二十多年的老项目该有的样子。
+
+    如果你只想要"记一笔今天花了多少"，用 Actual Budget 或者手机上的简单记账 App 更合适。
+    GnuCash 是给"想把家庭财务当正经账来管"的人准备的。
+  en: |
+    Most budgeting apps keep a running list: log an expense, tag it, look at a pie chart at month end.
+    GnuCash does **actual double-entry bookkeeping** — every amount is recorded in two accounts at
+    once, one decreasing as the other increases. Salary arriving is "bank balance up, income up"; a
+    card purchase is "expense up, credit card liability up".
+
+    Learning the method costs a few evenings, but it gives you something a running list cannot:
+    **books that check themselves.** Assets equal liabilities plus equity, and when the equation does
+    not balance you have mis-entered something and the software says so. For anyone seriously managing
+    assets, credit cards, loans and investment holdings, that is worth real money.
+
+    Coverage is thorough: multi-currency with automatic conversion, stock and fund holdings with
+    automatic price retrieval, scheduled recurring transactions, invoices and receivables, loan
+    amortization schedules, plus proper balance sheets, income statements and cash flow reports. A
+    small business can run legitimate books on it.
+
+    Data stays entirely local. The ledger is a file — XML or SQLite — that you store and back up
+    however you like, with nothing uploaded, no account, and full functionality offline. That has
+    become rare in finance software.
+
+    Two things to be clear about:
+
+    - **The barrier is accounting concepts, not the software.** If debits and credits are new to you,
+      the first few days are uncomfortable. The official tutorial is good and worth two hours before
+      you start.
+    - **The interface is traditional desktop styling** — powerful but not modern-looking, which is
+      what a twenty-year-old project tends to look like.
+
+    If all you want is to note what you spent today, Actual Budget or a simple phone app fits better.
+    GnuCash is for people who want household finances kept as real books.

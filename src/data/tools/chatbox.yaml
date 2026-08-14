@@ -1,0 +1,81 @@
+name: Chatbox
+accent: '#4A90D9'
+initials: CB
+category: ai
+price: freemium
+license: 'GPL-3.0'
+website: https://chatboxai.app
+download: https://chatboxai.app/zh#download
+repo: https://github.com/Bin-Huang/chatbox
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [大模型客户端, 多模型切换, 本地存储, 提示词管理, 跨平台]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [open-source, no-ads, cross-platform]
+tagline:
+  zh: 一个窗口切换所有大模型，对话存在本地
+  en: One window for every model, with conversations stored locally
+description:
+  zh: 桌面端大模型对话客户端。可以在同一个界面里切换不同厂商的模型和本地 Ollama 模型，对话记录保存在本机。支持提示词模板管理、多会话、图片输入、Markdown 和代码高亮。
+  en: A desktop client for chatting with large language models. Switch between different providers and local Ollama models in one interface, with conversation history stored on your own machine. It supports prompt template management, multiple sessions, image input, Markdown and code highlighting.
+review:
+  zh: |
+    如果你手上有几个模型服务的 API key，或者本地跑着 Ollama，
+    你需要的是一个像样的对话窗口，而不是每家开一个网页、
+    每家一套账号、聊天记录散在各处。
+
+    Chatbox 就是这个窗口。41,438 颗星，GPL-3.0，
+    Windows、macOS、Linux、iOS、安卓和网页版都有。
+    在设置里填上各家的 API key，或者填上本地 Ollama 的地址，
+    之后在同一个界面里随时切换用哪个模型回答——
+    甚至可以在同一个对话里换模型继续。
+
+    做得实在的几处：
+
+    - **对话记录存在本地**，不上传到第三方（用云端模型时，
+      消息内容当然会发给该模型服务商，这是必然的，但历史记录本身在你机器上）。
+    - **提示词模板管理**：把常用的角色设定和指令存下来，
+      新建对话时一键套用，不用每次重新粘贴。
+    - **支持本地模型**：接上 Ollama 就完全离线，适合处理敏感内容。
+    - 支持图片输入、文件解析、Markdown 渲染和代码块高亮，日常够用。
+
+    需要说清楚的商业模式：**这个项目有免费开源版和付费服务两条线**。
+    GitHub 上的开源版（GPL-3.0）功能完整、免费，你自带 API key 使用；
+    官方另外提供一个叫 Chatbox AI 的付费订阅，
+    相当于帮你把模型服务也一起打包了，省去自己找 API key 的步骤。
+    我们收录的是**开源自带 key 的那条路**，它不含广告、不限功能。
+    下载时注意区分，官网会同时推荐这两种用法。
+
+    另外，自带 API key 意味着模型调用的费用由你直接付给模型服务商，
+    Chatbox 本身不从中收费——但这部分不是免费的，用之前心里有数。
+  en: |
+    If you hold API keys for a few model providers, or run Ollama locally, what you need is a decent
+    chat window — not a browser tab per vendor, an account per vendor, and conversation history
+    scattered across all of them.
+
+    Chatbox is that window. 41,438 stars, GPL-3.0, with builds for Windows, macOS, Linux, iOS, Android
+    and the web. Enter your API keys, or the address of a local Ollama instance, and switch models
+    freely inside one interface — you can even change model mid-conversation and continue.
+
+    What it does well:
+
+    - **Conversation history is stored locally** rather than on a third-party service. (When using a
+      cloud model, message content necessarily goes to that provider — but the history itself stays on
+      your machine.)
+    - **Prompt template management:** save frequently used role definitions and instructions and apply
+      them to a new conversation in one click instead of re-pasting.
+    - **Local model support:** connect Ollama and it works entirely offline, suitable for sensitive
+      material.
+    - Image input, file parsing, Markdown rendering and code highlighting cover everyday needs.
+
+    The business model needs stating: **this project has both a free open-source track and a paid
+    service.** The GPL-3.0 build on GitHub is complete and free, used with your own API keys.
+    Separately, the company offers a paid Chatbox AI subscription that bundles model access so you do
+    not have to obtain keys yourself. What we list here is **the open-source, bring-your-own-key
+    path**, which carries no ads and no feature limits. The official site promotes both, so check
+    which one you are downloading.
+
+    Note also that bringing your own key means model usage is billed directly by the provider. Chatbox
+    takes no cut — but that portion is not free, so go in aware of it.

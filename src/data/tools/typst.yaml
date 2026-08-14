@@ -1,0 +1,101 @@
+name: Typst
+accent: '#239DAD'
+initials: TY
+category: office
+price: free
+license: 'Apache-2.0'
+website: https://typst.app
+download: https://github.com/typst/typst/releases/latest
+repo: https://github.com/typst/typst
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [排版, latex替代, 论文, 数学公式, 实时预览]
+platforms: [windows, macos, linux, web, cli]
+badges: [open-source, no-ads, offline, no-signup, cross-platform]
+tagline:
+  zh: 比 LaTeX 好学十倍的排版系统，编译是秒级的
+  en: A typesetting system ten times easier than LaTeX, compiling in milliseconds
+description:
+  zh: 现代排版系统，面向论文、报告、书籍和演示文稿。语法比 LaTeX 简洁得多，编译速度以毫秒计，改一行立刻看到结果。数学公式、参考文献、交叉引用、图表编号都是内置能力，不需要装几百兆的宏包生态。
+  en: A modern typesetting system for papers, reports, books and slides. Its syntax is far simpler than LaTeX's and compilation happens in milliseconds, so an edit shows up instantly. Mathematics, bibliographies, cross-references and figure numbering are built in rather than requiring a sprawling package ecosystem.
+review:
+  zh: |
+    LaTeX 排出来的文档确实漂亮，尤其是数学公式，学术界用了几十年。
+    但用过的人都知道代价：装一个 TeX Live 要好几个 GB、
+    编译一次等十几秒、报错信息像天书、
+    想改个页边距要查半小时资料、宏包之间还会互相冲突。
+
+    Typst 是这套东西的重做版。55,454 颗星，Apache-2.0，编译器用 Rust 写的。
+    它想保留 LaTeX 的排版质量，同时把使用体验拉回现代：
+
+    - **快**。编译是增量的，通常在毫秒级完成。配合编辑器可以做到**改一个字，
+      右边预览立刻更新**——这个反馈速度彻底改变了写作节奏，
+      LaTeX 那种"改完等编译再看"的循环没有了。
+    - **语法简单**。标记方式接近 Markdown（`*粗体*`、`= 一级标题`），
+      需要编程能力时它有一套完整的脚本语言（变量、函数、循环、条件），
+      不像 LaTeX 那样把宏和排版混在一起。
+    - **错误信息可读**。哪一行出了什么问题说得清清楚楚，
+      不是 LaTeX 那种一行报错追溯半天。
+    - **不用装宏包地狱**。数学、参考文献（支持 BibTeX 和 CSL 引用格式）、
+      交叉引用、图表自动编号、目录都是内置的，开箱可用。
+
+    实际适合的场景：学位论文、课程报告、技术文档、简历、
+    会议 poster、演示文稿（有专门的模板包）。数学和物理公式的排版质量对得起 LaTeX 的标准。
+
+    需要说清楚的：
+
+    - **生态还年轻**。当前版本 v0.15.1——版本号仍在 0.x，意味着语法可能还有变动。
+      模板和第三方包的数量远不如 LaTeX 几十年的积累，
+      **某些期刊或学校只接受 LaTeX 模板**，投稿前一定先确认要求。
+      如果你的学校有指定的 LaTeX 论文模板，那还是得用 LaTeX。
+    - **商业模式要注意**。命令行编译器是 Apache-2.0 完全开源免费的，
+      本地写作、编译、出 PDF 全部不花钱。
+      官方另有一个网页版协作平台（typst.app），团队协作和部分高级功能是付费订阅。
+      **我们收录的是开源的本地编译器那条路**，它不含广告、功能不设限。
+    - **中文排版需要配置字体**，默认字体对中文支持不完整，
+      文档里说明了怎么指定，配好之后效果很好。
+
+    一句话：新开始一个写作项目、没有硬性 LaTeX 要求的话，可以直接从 Typst 开始，
+    你会省下大量和排版系统搏斗的时间。
+  en: |
+    LaTeX produces beautiful documents, especially mathematics, and academia has relied on it for
+    decades. Anyone who has used it also knows the cost: a multi-gigabyte TeX Live installation,
+    compilation waits measured in seconds, error messages that read like hieroglyphics, half an hour
+    of research to change a margin, and packages that conflict with each other.
+
+    Typst is that system rebuilt. 55,454 stars, Apache-2.0, with a compiler written in Rust. It aims
+    to keep LaTeX's typographic quality while dragging the experience into the present:
+
+    - **Speed.** Compilation is incremental and typically finishes in milliseconds. Paired with an
+      editor you get **change a word, see the preview update instantly** — a feedback rate that
+      genuinely changes how you write, eliminating LaTeX's edit-compile-look cycle.
+    - **Simple syntax.** Markup resembles Markdown (`*bold*`, `= Heading`), and when you need
+      programmability there is a complete scripting language with variables, functions, loops and
+      conditionals, rather than LaTeX's tangle of macros and layout.
+    - **Readable errors.** It states which line has what problem, instead of sending you on an
+      archaeological dig.
+    - **No package hell.** Mathematics, bibliographies (BibTeX and CSL citation styles),
+      cross-references, automatic figure numbering and tables of contents are all built in.
+
+    Where it fits: theses, course reports, technical documentation, résumés, conference posters and
+    slides (dedicated template packages exist). The quality of mathematical and scientific typesetting
+    holds up to LaTeX's standard.
+
+    To be clear about:
+
+    - **The ecosystem is young.** The current version is v0.15.1 — still 0.x, meaning syntax can still
+      change. Templates and third-party packages are nowhere near LaTeX's decades of accumulation, and
+      **some journals and universities accept only LaTeX templates**, so confirm requirements before
+      submitting. If your institution mandates a LaTeX thesis template, you still need LaTeX.
+    - **Note the business model.** The command-line compiler is fully open source under Apache-2.0 and
+      free — writing, compiling and producing PDFs locally costs nothing. Separately there is an
+      official web collaboration platform (typst.app) where team features and some advanced
+      functionality are a paid subscription. **What we list is the open-source local compiler**, which
+      carries no ads and no feature limits.
+    - **CJK typesetting needs font configuration**, as the defaults do not fully cover it; the
+      documentation explains how, and results are excellent once set.
+
+    In short: starting a new writing project with no hard LaTeX requirement, begin with Typst and save
+    yourself a great deal of wrestling with the typesetting system.

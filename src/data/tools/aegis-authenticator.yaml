@@ -1,0 +1,82 @@
+name: Aegis Authenticator
+accent: '#2B6EF2'
+initials: AE
+category: privacy
+price: free
+license: 'GPL-3.0'
+website: https://getaegis.app
+download: https://github.com/beemdevelopment/Aegis/releases/latest
+repo: https://github.com/beemdevelopment/Aegis
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [两步验证, 2fa, totp, 离线, 安卓]
+platforms: [android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 两步验证码存本机，加密上锁，不联网
+  en: Two-factor codes on your phone, encrypted, never online
+description:
+  zh: 安卓上的开源两步验证器。所有验证码密钥用主密码或指纹加密后存在本机，App 不申请联网权限，也没有账号系统。可以导出加密备份，也能从 Google Authenticator、Authy 等导入。安装包约 6 MB。
+  en: An open-source two-factor authenticator for Android. Every secret is encrypted with a master password or fingerprint and stored on the device; the app requests no network permission and has no account system. Encrypted exports are supported, as are imports from Google Authenticator, Authy and others. The APK is about 6 MB.
+review:
+  zh: |
+    两步验证器是很多人安全链条上最脆弱的一环。Google Authenticator 多年不支持加密备份，
+    换手机就是一场灾难；Authy 绑定手机号、密钥托管在厂商服务器上，
+    而它在 2024 年停掉了桌面版，很多人被迫迁移。
+
+    Aegis 的取向完全相反：**密钥永远不离开这台手机**。12,899 颗星，GPL-3.0。
+
+    几个关键设计：
+
+    - **数据库整体加密**。打开 App 要主密码或指纹，就算手机被解锁，
+      别人也拿不到你的验证码列表。这一点 Google Authenticator 至今做得不好。
+    - **不申请联网权限**。你可以在系统里确认这件事——它根本没有网络权限，
+      所以密钥不可能被上传，这比任何隐私承诺都可靠。
+    - **导出你自己控制**。可以导出加密的备份文件，存到你信任的地方
+      （本地、自己的网盘、加密卷都行）。换手机时导入即可，不依赖任何厂商。
+    - **迁移友好**。支持从 Google Authenticator、Authy、FreeOTP、andOTP 等导入，
+      离开的时候也能干净地导出，不锁你。
+
+    使用上的两点提醒：
+
+    - **只有安卓版**。iOS 用户看不了这一款，可以考虑同样开源的 Ente Auth，
+      或者系统自带的密码 App。
+    - **备份是你的责任**。没有云端托管的另一面是：手机丢了、没有备份，
+      那些验证码就真的没了。设置好之后**第一件事就是导出一份加密备份**，
+      并且把每个网站的恢复码单独存好。这一步偷懒的代价非常大。
+
+    如果你在找一个"不需要相信任何公司"的两步验证方案，它是安卓上的标准答案。
+  en: |
+    The authenticator app is the weakest link in many people's security setup. Google Authenticator
+    went years without encrypted backups, making a phone change a disaster; Authy ties you to a phone
+    number and keeps secrets on the vendor's servers, and when it discontinued its desktop app in 2024
+    a lot of people were forced to migrate anyway.
+
+    Aegis takes the opposite position: **the secrets never leave this phone.** 12,899 stars, GPL-3.0.
+
+    Key design decisions:
+
+    - **The whole database is encrypted.** Opening the app requires a master password or fingerprint,
+      so even an unlocked phone does not hand over your code list. Google Authenticator still handles
+      this poorly.
+    - **It requests no network permission.** You can verify this in Android's own settings — with no
+      network access, uploading secrets is impossible, which beats any privacy promise on a website.
+    - **Exports are under your control.** Encrypted backup files can be stored wherever you trust:
+      locally, in your own cloud, inside an encrypted volume. Restoring on a new phone depends on no
+      vendor at all.
+    - **Migration-friendly.** It imports from Google Authenticator, Authy, FreeOTP and andOTP, and it
+      exports cleanly when you leave. No lock-in in either direction.
+
+    Two practical warnings:
+
+    - **Android only.** iOS users should look at Ente Auth, which is also open source, or the
+      system's built-in password app.
+    - **Backups are your responsibility.** The flip side of no cloud custody is that a lost phone with
+      no backup means those codes are genuinely gone. **Export an encrypted backup as the very first
+      thing you do**, and store each site's recovery codes separately. Skipping this step is
+      expensive.
+
+    If you want two-factor authentication that requires trusting no company, this is the standard
+    answer on Android.

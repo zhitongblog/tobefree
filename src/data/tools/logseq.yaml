@@ -19,3 +19,23 @@ tagline:
 description:
   zh: 以块为单位的大纲笔记，天生适合日记、任务和知识关联。数据是本地纯文本，完全开源。
   en: A block-based outliner built for journaling, tasks and linked thinking. Your data is local plain text, and it's fully open source.
+review:
+  zh: |
+    Logseq 是大纲式笔记里做得最彻底的一个。44,449 颗星，AGPL-3.0，数据是本地纯文本。
+
+    它的核心是「块」——每一行都是可被引用的独立单元，你可以把某一天日记里的一段直接引到项目页面，
+    两边同步更新。习惯用列表思考、做每日记录和任务串联的人，会觉得它比传统笔记顺手很多。
+
+    但形态是把双刃剑：如果你写的是成段的长文，被强制拆成大纲会别扭。
+    选它之前先想清楚你是「列清单的人」还是「写段落的人」。
+  en: |
+    Logseq is the most committed outliner of the group. 44,449 stars, AGPL-3.0, and your data stays
+    as local plain text.
+
+    Everything is a block — each line is an independently referenceable unit, so a paragraph from
+    today's journal can be embedded into a project page and stay in sync on both sides. If you think
+    in lists, keep a daily log and chain tasks together, it will feel far more natural than a
+    conventional note app.
+
+    The format cuts both ways. If you write long-form prose, being forced into an outline is
+    awkward. Decide first whether you are a list person or a paragraph person.

@@ -1,0 +1,93 @@
+name: ClamAV
+accent: '#3B7C9E'
+initials: CA
+category: privacy
+price: free
+license: 'GPL-2.0'
+website: https://www.clamav.net
+download: https://www.clamav.net/downloads
+repo: https://github.com/Cisco-Talos/clamav
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [杀毒, 病毒扫描, 邮件网关, 服务器, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 开源杀毒引擎，不弹窗、不推销、不上传你的文件
+  en: An open-source antivirus engine that never pops up, upsells or uploads your files
+description:
+  zh: 开源的病毒扫描引擎，由 Cisco Talos 维护。主要用于服务器、邮件网关和文件共享服务的按需扫描，也可以在桌面上手动扫描可疑文件。没有常驻弹窗、没有付费升级提示，病毒库免费且每日更新。
+  en: An open-source virus scanning engine maintained by Cisco Talos. It is mainly used for on-demand scanning on servers, mail gateways and file shares, and also works on the desktop for manually checking suspicious files. No resident pop-ups, no upgrade prompts, and the signature database is free and updated daily.
+review:
+  zh: |
+    免费杀毒软件是这个行业最脏的一块：常驻弹窗提醒你"发现 3 个风险，升级到专业版修复"、
+    捆绑安装浏览器和"加速球"、扫描结果虚报、甚至把你的文件传到云端"分析"。
+
+    ClamAV 是另一种东西。7,130 颗星，GPL-2.0，由思科的 Talos 安全团队维护，
+    它本来就不是做给普通消费者的桌面产品——**它是一个引擎**，
+    大量邮件服务器、文件服务器、NAS 和网关在用它做流量扫描。
+
+    这决定了它的性格：没有界面弹窗，没有商业版，没有推销，
+    你让它扫哪它扫哪，扫完输出结果。病毒库完全免费，每天更新，
+    用 `freshclam` 命令拉取。
+
+    实际适用场景：
+
+    - **服务器和 NAS**：扫上传的文件、扫共享目录。群晖等 NAS 系统里内置的杀毒套件，
+      底层用的就是 ClamAV。
+    - **邮件网关**：配合 Postfix、Exim 扫附件，这是它最经典的用途。
+    - **桌面上手动查可疑文件**：下载了来路不明的东西，扫一遍再打开。
+    - **给别人的机器做检查**：Linux 上扫 Windows 分区里的恶意软件，
+      这类"交叉检查"用它很合适。
+
+    必须说清楚的局限，这点很重要：
+
+    - **它不是给 Windows 桌面做实时防护的**。虽然有 Windows 版，
+      但它没有主流杀软那种实时监控、行为分析、勒索软件防护。
+      **Windows 用户最该用的是系统自带的 Microsoft Defender**——
+      免费、实时、和系统深度集成，独立测评成绩这些年一直不错，
+      而且同样没有广告和推销。装第三方免费杀软通常是降级而不是升级。
+    - **检出率不如商业引擎**。它靠特征库匹配为主，对新型未知威胁的能力有限。
+      拿它当唯一防线不合适，拿它做补充扫描很好。
+    - **需要联网更新病毒库**，所以我们没有给它离线徽章。
+
+    结论：服务器、邮件网关、NAS 上它是标准选择；
+    Windows 桌面上，用好 Defender 就够了，ClamAV 作为手动二次扫描的补充。
+  en: |
+    Free antivirus is one of the dirtiest corners of the software industry: resident pop-ups
+    announcing "3 risks found, upgrade to Pro to fix", bundled browsers and "system boosters",
+    inflated detection counts, and files quietly uploaded to the cloud for "analysis".
+
+    ClamAV is a different animal. 7,130 stars, GPL-2.0, maintained by Cisco's Talos security team, and
+    never intended as a consumer desktop product — **it is an engine**, and a great many mail servers,
+    file servers, NAS boxes and gateways use it to scan traffic.
+
+    That shapes its character: no pop-ups, no commercial edition, no upselling. It scans what you point
+    it at and prints the result. The signature database is entirely free and updates daily via the
+    `freshclam` command.
+
+    Where it genuinely fits:
+
+    - **Servers and NAS boxes:** scanning uploads and shared directories. The antivirus packages built
+      into NAS systems such as Synology's are ClamAV underneath.
+    - **Mail gateways:** scanning attachments alongside Postfix or Exim, its most classic role.
+    - **Manually checking suspicious files** on a desktop before opening something of unclear origin.
+    - **Cross-checking another machine** — scanning a Windows partition for malware from Linux is a
+      job it suits well.
+
+    The limitations matter and must be stated:
+
+    - **It is not real-time protection for Windows desktops.** A Windows build exists, but it has none
+      of the real-time monitoring, behavioral analysis or ransomware protection that mainstream
+      security suites provide. **Windows users should mainly rely on the built-in Microsoft
+      Defender** — free, real-time, deeply integrated, consistently decent in independent testing, and
+      equally free of ads and upsells. Installing a third-party free antivirus is usually a downgrade
+      rather than an upgrade.
+    - **Detection rates trail commercial engines.** It relies primarily on signature matching, which
+      limits it against novel threats. Poor as a sole defense, good as a supplementary scanner.
+    - **It needs network access to update signatures,** which is why it carries no offline badge.
+
+    Verdict: the standard choice on servers, mail gateways and NAS boxes. On a Windows desktop, use
+    Defender properly and keep ClamAV as a manual second opinion.

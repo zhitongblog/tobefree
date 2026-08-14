@@ -1,0 +1,72 @@
+name: KiCad
+accent: '#314CB0'
+initials: KI
+category: cad
+price: free
+license: 'GPL-3.0'
+website: https://www.kicad.org
+download: https://www.kicad.org/download/
+repo: https://gitlab.com/kicad/code/kicad
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [电路设计, pcb, 原理图, 硬件开发, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 画原理图、排 PCB、导出打样文件，全套免费
+  en: Schematic capture, PCB layout and fab files — the whole chain, free
+description:
+  zh: 完整的电子设计自动化（EDA）套件：画原理图、分配封装、布线排版、3D 预览、导出 Gerber 打样文件。没有层数限制、没有板子尺寸限制、没有元件数量限制，商业项目同样免费。
+  en: "A complete electronics design automation suite: schematic capture, footprint assignment, PCB routing, 3D preview and Gerber export for fabrication. No layer caps, no board size limits, no component count limits, and free for commercial projects too."
+review:
+  zh: |
+    电路设计软件的免费版通常有一堆隐形墙：只能两层板、板子不能超过 10 厘米、
+    元件超过 100 个就不让导出、商业用途要买授权。KiCad 没有任何一条——
+    GPL-3.0 开源，**你拿它设计要卖钱的产品也完全免费**。
+
+    它的流程是完整的一条线：在原理图编辑器里画电路、给每个元件分配实际封装、
+    进入 PCB 编辑器布局布线、用 3D 查看器看看装配起来长什么样（可以导出给机械设计做结构配合）、
+    最后导出 Gerber 和钻孔文件发给打样厂。这一整条链上没有任何一步需要付费或换软件。
+
+    KiCad 在近几年的版本里进步非常大——推挤式布线、差分对、交互式长度匹配、
+    多通道设计这些以前只有商业软件才有的功能都补齐了，
+    界面和易用性也和当年那个"能用但难用"的版本判若两人。
+    现在不少开源硬件项目和小规模量产项目直接用它做主力。
+
+    值得一提的是它背后有 CERN（欧洲核子研究组织）的长期投入，
+    很多关键功能是 CERN 的工程师为了自己的实验设备需求开发并回馈给项目的。
+    这让它不像很多小众开源软件那样有断更风险。
+
+    上手建议：**元件库和封装库的关系是新手最容易懵的地方**。
+    原理图里的符号（长什么样）和 PCB 上的封装（占多大地方、焊盘在哪）是两套独立的库，
+    需要手动关联。理解了这一点，剩下的流程就顺了。
+
+    另外提醒，源码主仓库在 GitLab 而不是 GitHub，下载请认准官网 kicad.org。
+  en: |
+    Free tiers of PCB software usually hide a wall: two layers only, boards under 10 cm, no export
+    past 100 components, licence required for commercial use. KiCad has none of them — GPL-3.0, and
+    **designing a product you intend to sell costs nothing.**
+
+    The workflow is one unbroken chain: draw the circuit in the schematic editor, assign real
+    footprints to each component, lay out and route in the PCB editor, check the assembly in the 3D
+    viewer (exportable for mechanical fit checks), then generate Gerber and drill files for the
+    fabricator. Not one step in that chain requires payment or a different program.
+
+    Recent releases improved enormously — push-and-shove routing, differential pairs, interactive
+    length matching and multi-channel design were all features once exclusive to commercial tools, and
+    the interface bears little resemblance to the "usable but painful" versions of years past. Many
+    open hardware projects and small production runs now use it as their primary tool.
+
+    Worth noting that CERN has invested in it long-term, with their engineers building features for
+    their own instrumentation needs and contributing them back. That makes it far less exposed to the
+    abandonment risk that shadows many niche open-source projects.
+
+    A tip for starting out: **the relationship between symbol libraries and footprint libraries is
+    where beginners get lost.** The schematic symbol (what it looks like) and the PCB footprint (how
+    much space it takes and where the pads are) are two separate libraries you associate manually.
+    Once that clicks, the rest of the flow follows.
+
+    Note also that the source repository lives on GitLab rather than GitHub; download from the
+    official kicad.org.

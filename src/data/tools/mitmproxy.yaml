@@ -1,0 +1,103 @@
+name: mitmproxy
+accent: '#C63C3C'
+initials: MP
+category: dev
+price: free
+license: 'MIT'
+website: https://mitmproxy.org
+download: https://mitmproxy.org/downloads/
+repo: https://github.com/mitmproxy/mitmproxy
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [抓包, https调试, 接口调试, 代理, python脚本]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 看清 App 和网页到底发了什么请求
+  en: See exactly what requests an app or page is really making
+description:
+  zh: 开源的 HTTP/HTTPS 抓包与调试代理。拦截、查看、修改和重放请求与响应，支持 HTTP/2、WebSocket 和 gRPC。提供终端界面、网页界面和命令行三种用法，还能用 Python 脚本对流量做任意自动化处理。
+  en: An open-source HTTP/HTTPS interception proxy for debugging. Intercept, inspect, modify and replay requests and responses, with HTTP/2, WebSocket and gRPC support. It offers a terminal UI, a web UI and a command-line mode, and Python scripts can automate arbitrary processing of the traffic.
+review:
+  zh: |
+    调接口时最常见的困境是"看不见"：手机 App 报错但不知道它请求了什么、
+    前端说后端返回有问题、第三方 SDK 偷偷在发数据、
+    某个网页的接口想拿来自己用但不知道参数格式。
+
+    mitmproxy 就是那副眼镜。44,695 颗星，MIT，Python 写的，
+    功能上对标 Charles 和 Fiddler，但完全免费开源。
+
+    工作原理是**中间人代理**：把设备的网络代理指向它，
+    所有流量都经过它转发。为了能看 HTTPS 内容，需要在设备上安装它生成的根证书，
+    这样它才能解密再重新加密——这也是"中间人"这个名字的由来。
+
+    三种用法覆盖不同场景：
+
+    - **mitmproxy**：终端界面，键盘操作，看流量列表、展开某个请求的细节。
+      适合 SSH 到服务器上抓包。
+    - **mitmweb**：网页界面，浏览器打开，鼠标点击，对不熟悉终端的人更友好。
+    - **mitmdump**：命令行模式，无界面，把流量输出或存成文件，适合脚本和自动化。
+
+    真正让它区别于同类的是**可编程**。你可以写一个几十行的 Python 脚本挂上去，
+    对流量做任何事：把所有响应里的某个字段改掉、自动给请求加上认证头、
+    统计某个域名的请求量、把符合条件的请求存下来、模拟服务端故障和慢响应。
+    做接口测试和逆向分析时，这个能力比图形界面上的点点点强太多。
+
+    要说清楚的：
+
+    - **装证书这一步有安全含义**。根证书装上之后，这台设备的 HTTPS 流量
+      对 mitmproxy 是透明的。**调试完请及时删掉证书**，
+      不要在别人的设备上留一个你的根证书，也不要装来路不明的证书。
+    - **很多 App 抓不到**。现代 App 普遍用证书绑定（certificate pinning）
+      拒绝非官方证书，这是正确的安全设计。绕过它需要改 App 或用 Frida 之类的工具，
+      **只应在你自己拥有或获得明确授权的应用上做**。
+    - **只抓 HTTP 系协议**。要看更底层的 TCP/UDP 包，用 Wireshark。
+    - **仅用于你有权分析的流量**。抓自己的应用、自己的设备、自己的接口没问题；
+      在未经授权的网络上截取他人流量是违法的。
+
+    适合谁：调接口的前后端开发、做移动端开发和测试的人、
+    以及需要搞清楚"这个软件到底往外发了什么"的隐私研究者。
+  en: |
+    The recurring problem when debugging APIs is that you cannot see: a mobile app errors without
+    showing its request, the front end blames the back end's response, a third-party SDK quietly ships
+    data somewhere, or you want to reuse a site's endpoint but do not know its parameter format.
+
+    mitmproxy is the pair of glasses. 44,695 stars, MIT, written in Python, functionally comparable to
+    Charles and Fiddler but entirely free and open source.
+
+    It works as a **man-in-the-middle proxy**: point a device's network proxy at it and all traffic
+    flows through. To see HTTPS content you install its generated root certificate on the device so it
+    can decrypt and re-encrypt — hence the name.
+
+    Three modes cover different situations:
+
+    - **mitmproxy:** a terminal UI, keyboard-driven, listing flows and expanding request details. Good
+      for capturing over SSH on a server.
+    - **mitmweb:** a browser-based UI, mouse-driven, friendlier for anyone uncomfortable in a
+      terminal.
+    - **mitmdump:** headless command-line output or file capture, suited to scripting and automation.
+
+    What truly separates it from its peers is that it is **programmable.** Attach a Python script of a
+    few dozen lines and do anything to the traffic: rewrite a field in every response, inject
+    authentication headers, count requests to a domain, save matching requests, or simulate server
+    failures and slow responses. For API testing and reverse engineering, this beats clicking around a
+    GUI by a wide margin.
+
+    To be clear about:
+
+    - **Installing the certificate has security implications.** Once the root certificate is trusted,
+      that device's HTTPS traffic is transparent to mitmproxy. **Remove the certificate when you finish
+      debugging**, never leave your root certificate on someone else's device, and never install
+      certificates of unknown origin.
+    - **Many apps cannot be intercepted.** Modern apps commonly use certificate pinning to reject
+      non-official certificates, which is correct security design. Bypassing it requires modifying the
+      app or using tools like Frida, and **should only be done on applications you own or are
+      explicitly authorized to test.**
+    - **It only handles HTTP-family protocols.** For lower-level TCP/UDP inspection, use Wireshark.
+    - **Only analyze traffic you have the right to analyze.** Your own apps, devices and APIs are
+      fine; intercepting other people's traffic on a network without authorization is illegal.
+
+    Who it suits: front-end and back-end developers debugging APIs, mobile developers and testers, and
+    privacy researchers who need to establish what a piece of software actually sends.

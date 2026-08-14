@@ -1,0 +1,61 @@
+name: Jitsi Meet
+accent: '#1D76BA'
+initials: JM
+category: chat
+price: free
+license: 'Apache-2.0'
+website: https://jitsi.org
+download: https://jitsi.org/downloads/
+repo: https://github.com/jitsi/jitsi-meet
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [视频会议, 屏幕共享, 开源, 可自建, 浏览器直接用]
+platforms: [web, windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 开个链接就能视频会议，人数和时长都不卡你
+  en: Share a link and start a meeting — no seat caps, no 40-minute timer
+description:
+  zh: 开源视频会议系统，浏览器打开链接就能参会，不用装软件、不用注册。支持屏幕共享、录制、聊天、举手和虚拟背景。整套系统可以部署在自己的服务器上。
+  en: An open-source video conferencing system you join by opening a link in a browser — no install, no account. Screen sharing, recording, chat, raise-hand and virtual backgrounds included, and the whole stack can be deployed on your own server.
+review:
+  zh: |
+    Zoom 免费版卡你 40 分钟，腾讯会议要装客户端要登录。Jitsi 的做法是：**发个链接，对方点开就进来了**，
+    浏览器里直接跑，参会者不需要账号、不需要装任何东西。29,735 颗星，Apache-2.0 开源。
+
+    功能上该有的都有——屏幕共享、录制、聊天、举手、虚拟背景、把某人固定在大画面。
+    对上课、远程面试、小团队站会这类场景完全够用。
+
+    有一点变化需要说明：**官方的公共服务器 meet.jit.si 现在需要登录才能创建会议**
+    （用 Google、GitHub 等第三方身份），受邀参会的人仍然不用登录。这是为了防滥用加的，
+    和几年前"完全匿名开会"的体验有区别。
+
+    而这恰好也是它最大的优势所在：整套系统开源，你可以在自己的服务器上部署一份，
+    然后连"创建会议要登录"这条限制都没有了，会议数据也完全不经过第三方。
+    很多学校、社区和小公司就是这么做的，一台配置普通的云主机能支撑不小的并发。
+
+    要注意的是，人数很多（几十人同时开摄像头）时对服务器带宽和 CPU 要求会明显上升，
+    自建前先估一下规模。
+  en: |
+    Zoom's free tier cuts you off at 40 minutes; most Chinese alternatives require an installed client
+    and a login. Jitsi's approach: **send a link and the other person is in** — it runs in the
+    browser, and participants need no account and no download. 29,735 stars, Apache-2.0.
+
+    The feature set covers the basics properly — screen sharing, recording, chat, raise hand, virtual
+    backgrounds, pinning a speaker. For classes, remote interviews and small team standups it is
+    entirely sufficient.
+
+    One change worth flagging: **the official public server, meet.jit.si, now requires a sign-in to
+    create a meeting** (via Google, GitHub and similar), while invited participants still join
+    without one. This was added to curb abuse and differs from the fully anonymous experience of a
+    few years ago.
+
+    That is also where its main advantage lies: the whole stack is open source, so you can deploy it
+    on your own server — at which point even the create-a-meeting sign-in requirement disappears and
+    no meeting data touches a third party. Plenty of schools, community groups and small companies do
+    exactly this, and a modest cloud VM handles a fair amount of concurrency.
+
+    Do note that bandwidth and CPU demands climb steeply once you have dozens of cameras on at once,
+    so size the machine before self-hosting for a crowd.

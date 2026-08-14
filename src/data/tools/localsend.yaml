@@ -1,0 +1,69 @@
+name: LocalSend
+accent: '#2F7DF6'
+initials: LS
+category: remote
+price: free
+license: 'Apache-2.0'
+website: https://localsend.org
+download: https://localsend.org/download
+repo: https://github.com/localsend/localsend
+featured: true
+popular: true
+selfMade: false
+added: '2026-08-14'
+tags: [局域网传输, 隔空投送替代, 跨平台, 手机传电脑, 离线]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 手机和电脑互传文件，不走网、不装群、不压缩
+  en: Move files between phone and PC without the cloud, a chat group or recompression
+description:
+  zh: 跨平台的局域网文件传输工具，同一个 Wi-Fi 下自动发现设备，点选文件直接发送。不需要账号、不需要联网、不上传到任何服务器，文件原样传输不压缩。Windows、macOS、Linux、iOS、Android 全平台可用。
+  en: Cross-platform local file transfer. Devices on the same Wi-Fi find each other automatically; pick files and send. No account, no internet connection, nothing uploaded to any server, and files arrive uncompressed and unmodified. Available on Windows, macOS, Linux, iOS and Android.
+review:
+  zh: |
+    "把手机里的照片传到电脑上"这件小事，被各家做得莫名其妙地麻烦：发到微信文件传输助手会被压缩，
+    用数据线要装驱动，云盘要登录还要等上传下载两遍。AirDrop 很好，但它只在苹果设备之间管用。
+
+    LocalSend 就是补上这个缺口的：**AirDrop 的开箱体验，但全平台通用**。
+    两端都装上，连同一个 Wi-Fi，打开就能看到对方，选文件、点发送、对方确认，结束。
+    88,256 颗星，Apache-2.0 开源。
+
+    几个真正重要的细节：
+
+    - **文件不压缩、不改名、不转格式**，原图就是原图，视频还是原视频。
+    - **完全走局域网**，断开外网也能用。数据不经过任何服务器，也没有流量消耗。
+    - **不用注册**，没有账号体系，装完就是可用状态。
+    - 传输走 HTTPS 加密，设备之间会先确认对方身份。
+
+    限制也很直白：**双方必须在同一个局域网内**。它不做跨网络传输，出门在外给同事发文件用不上它。
+    另外部分公司或学校的 Wi-Fi 开启了"客户端隔离"，同一个网络下设备互相看不见，
+    这种情况它也没办法——可以改用一端开热点的方式绕过。
+
+    Android 端的官方 APK 有多个架构版本，普通手机下 arm64 那个（约 44 MB）即可。
+  en: |
+    Getting photos from a phone onto a computer has become absurdly awkward: chat apps recompress
+    them, a USB cable means drivers, and cloud storage means logging in and waiting through both an
+    upload and a download. AirDrop solved this well — but only between Apple devices.
+
+    LocalSend fills that gap: **AirDrop's experience, on every platform.** Install on both ends, join
+    the same Wi-Fi, open the app and the other device appears. Pick files, hit send, accept on the
+    other side, done. 88,256 stars, Apache-2.0.
+
+    The details that actually matter:
+
+    - **Files are not compressed, renamed or converted.** An original photo stays the original; a
+      video stays the video.
+    - **It runs entirely over the local network,** so it works with the internet disconnected. Nothing
+      touches a server and nothing counts against a data plan.
+    - **No sign-up.** There is no account system; it is usable the moment it is installed.
+    - Transfers are encrypted over HTTPS, with devices confirming each other first.
+
+    The limitation is equally plain: **both devices must be on the same local network.** It does not
+    do transfers across the internet, so it is no help sending a file to a colleague while you are
+    out. Some corporate and campus Wi-Fi also enables client isolation, which hides devices from each
+    other — nothing the app can do about that, though turning one device into a hotspot works around
+    it.
+
+    The Android build ships in several architectures; for an ordinary phone take the arm64 APK
+    (about 44 MB).

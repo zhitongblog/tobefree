@@ -1,0 +1,62 @@
+name: Stellarium
+accent: '#1B2A5E'
+initials: ST
+category: learning
+price: free
+license: 'GPL-2.0'
+website: https://stellarium.org
+download: https://stellarium.org/zh/
+repo: https://github.com/Stellarium/stellarium
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [天文, 星图, 观星, 望远镜控制, 离线可用]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 电脑上的天文馆，看到的和肉眼一样
+  en: A planetarium on your desktop, showing exactly what your eyes would see
+description:
+  zh: 开源桌面天文馆软件。输入位置和时间，它渲染出那一刻真实的星空，可以看到六十万颗恒星、行星轨迹、星座连线、日月食和流星雨。支持控制望远镜，也能倒推几千年前或几千年后的天象。Windows 安装包约 456 MB。
+  en: An open-source desktop planetarium. Give it a location and a time and it renders the sky exactly as it would appear, with hundreds of thousands of stars, planetary motion, constellation lines, eclipses and meteor showers. It can drive a telescope and can wind the sky thousands of years forwards or backwards. The Windows installer is about 456 MB.
+review:
+  zh: |
+    Stellarium 是那种"第一次打开会安静看很久"的软件。它不是示意图，
+    是按真实天体数据渲染的——你设定成今晚八点、自己所在的城市，
+    屏幕上出现的星空和你走到楼下抬头看到的是同一片，连光害造成的可见度差异都能模拟。
+
+    实用的地方在于它把"抬头看到一个亮点，不知道是什么"这个问题解决了。
+    出门前在电脑上对一下，就知道今晚哪颗是木星、国际空间站几点过境、
+    某个星座在哪个方位。观星爱好者用它规划当晚的观测目标，
+    支持的望远镜还能直接由它控制指向。
+
+    另一个很有意思的用法是时间旅行：把日期调到公元前 3000 年，
+    看看当时的北极星是哪一颗；或者查一下某个历史事件当天有没有日食。
+    历史研究和写作的人偶尔会用到这个。
+
+    9,871 颗星，GPL-2.0，桌面版完全离线运行，不需要账号。
+
+    **要提醒的是安装包很大**——Windows 版约 456 MB，Linux 的 AppImage 甚至到 540 MB 以上。
+    这些体积主要是星表和高清纹理数据，下载前留够空间和时间。
+    如果只是临时查一下，它也有网页版和手机版可用，功能少一些但打开即用。
+  en: |
+    Stellarium is the kind of software you open once and then just watch for a while. It is not a
+    diagram — everything is rendered from real astronomical data. Set it to eight tonight in your own
+    city and the sky on screen is the sky you would see stepping outside, down to a simulation of how
+    light pollution reduces visibility.
+
+    Its practical value is solving "there is a bright dot up there and I have no idea what it is."
+    Check before heading out and you know which one is Jupiter, when the ISS passes over, and where a
+    given constellation will be. Stargazers use it to plan a night's targets, and supported
+    telescopes can be pointed directly from the app.
+
+    Time travel is the other delightful use: set the date to 3000 BC and see which star was the pole
+    star then, or check whether an eclipse fell on the day of some historical event. Historians and
+    writers occasionally need exactly this.
+
+    9,871 stars, GPL-2.0, fully offline on the desktop, no account required.
+
+    **Do note the download size** — the Windows installer runs around 456 MB and the Linux AppImage
+    exceeds 540 MB. That weight is mostly star catalogues and high-resolution textures, so leave room
+    and time. For a quick lookup there are lighter web and mobile versions with a reduced feature set.

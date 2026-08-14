@@ -20,3 +20,23 @@ tagline:
 description:
   zh: 由社区接手维护的开源笔记工具（TriliumNext），支持任意深度的树状结构、笔记克隆、脚本化和全文搜索，可本地离线使用或搭在自己的服务器上同步。
   en: A community-maintained open-source note app (TriliumNext) with arbitrarily deep note trees, note cloning, scripting and full-text search. Use it locally offline or sync it via your own server.
+review:
+  zh: |
+    Trilium 是层级化知识库里功能最深的一个：37,409 颗星，AGPL-3.0，支持脚本、属性、关系图和自定义视图，
+    复杂结构撑得住。
+
+    有一条得澄清：**网上说它停止维护是过时信息。** 原作者 zadam 退出后社区接手了，
+    现在的规范仓库是 TriliumNext/Trilium，2026 年 8 月 14 日仍在提交代码，老链接会自动跳转过去。
+
+    代价是上手门槛。它的可定制程度接近一个小型应用平台，愿意折腾能搭出很称手的系统，
+    只想随手记点东西的话会觉得重。
+  en: |
+    Trilium is the most capable of the hierarchical knowledge bases: 37,409 stars, AGPL-3.0, with
+    scripting, attributes, relation maps and custom views that hold up under complex structures.
+
+    One correction worth making: **the widespread claim that it is abandoned is out of date.** After
+    the original author, zadam, stepped back, the community took over. The canonical repository is
+    now TriliumNext/Trilium, with commits still landing on 14 August 2026; the old links redirect.
+
+    The cost is the learning curve. Its customizability approaches that of a small application
+    platform — rewarding if you are willing to tinker, heavy if you just want to jot things down.

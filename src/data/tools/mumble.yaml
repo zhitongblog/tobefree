@@ -1,0 +1,59 @@
+name: Mumble
+accent: '#7A3E9D'
+initials: MU
+category: chat
+price: free
+license: 'BSD-3-Clause'
+website: https://www.mumble.info
+download: https://www.mumble.info/downloads/
+repo: https://github.com/mumble-voip/mumble
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [语音聊天, 低延迟, 游戏开黑, 可自建, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 延迟最低的开黑语音，服务器开在自己家
+  en: The lowest-latency voice chat, running on your own server
+description:
+  zh: 面向游戏和团队协作的低延迟语音通讯软件，支持位置音频（游戏里队友在你左边，声音就从左边来）。服务端可以自己部署，一台小机器就能承载几十人同时说话。
+  en: Low-latency voice chat built for gaming and team coordination, with positional audio — a teammate to your left in-game sounds like they are to your left. The server component is self-hosted, and a small machine handles dozens of simultaneous speakers.
+review:
+  zh: |
+    Discord 好用，但它是一家公司的服务：要账号、会分析你的数据、语音要过它的服务器，
+    而且它随时可以改规则。Mumble 是另一条路——**你自己开服务器**，BSD 开源，用了快二十年，
+    在竞技游戏和无线电爱好者圈子里一直是标准答案。
+
+    它最硬的指标是延迟。Mumble 用 Opus 编码并针对低延迟做了大量优化，实测下来通常比主流语音软件
+    更跟手，对配合要求高的游戏和乐队远程排练这类场景很关键。位置音频是另一个特色：
+    支持的游戏里，队友的声音方位和他在游戏中的位置一致。
+
+    它需要你接受两件事。第一，**得有一台服务器**。官方的服务端程序（murmur）很轻，
+    一台最便宜的云主机、家里的旧电脑或者树莓派都能跑，但这一步绕不过去，
+    也可以加入别人开的公共服务器。第二，**界面很朴素**。它是工程师审美，没有花哨的社区功能、
+    没有表情包、没有视频，就是干净的语音树和权限管理。
+
+    适合谁：想要一个不受任何公司政策影响、延迟尽可能低的长期语音频道。
+    如果你要的是社区氛围和一站式功能，Discord 那类更合适——但那就不是免费无追踪的范畴了。
+  en: |
+    Discord is convenient, but it is one company's service: it wants an account, it analyzes your
+    data, your voice goes through its servers, and it can change the rules at any time. Mumble is the
+    other road — **you run the server.** BSD-licensed, going on twenty years old, and still the
+    standard answer among competitive gamers and radio hobbyists.
+
+    Latency is its hard metric. Mumble uses Opus and is heavily tuned for low delay; in practice it
+    generally feels tighter than mainstream voice apps, which matters for games that demand precise
+    coordination and for remote band rehearsals. Positional audio is the other signature feature: in
+    supported games, a teammate's voice comes from where they actually are.
+
+    Two things you have to accept. First, **you need a server.** The server component (murmur) is
+    tiny — the cheapest cloud VM, an old PC or a Raspberry Pi will do — but the step is unavoidable,
+    though you can also join a public server someone else runs. Second, **the interface is plain.**
+    It is engineer aesthetics: no community features, no stickers, no video, just a clean channel
+    tree and permission management.
+
+    Who it suits: anyone who wants a permanent voice channel with minimal latency that no company's
+    policy change can touch. If you want community features and an all-in-one experience, something
+    like Discord fits better — but that leaves the free-and-untracked category entirely.

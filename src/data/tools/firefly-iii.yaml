@@ -1,0 +1,88 @@
+name: Firefly III
+accent: '#CD5029'
+initials: F3
+category: finance
+price: free
+license: 'AGPL-3.0'
+website: https://www.firefly-iii.org
+download: https://docs.firefly-iii.org/how-to/firefly-iii/installation/docker/
+repo: https://github.com/firefly-iii/firefly-iii
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [记账, 自建服务, 预算, 财务报表, 网页版]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 跑在自己服务器上的个人财务系统
+  en: A personal finance system running on your own server
+description:
+  zh: 自建的个人财务管理系统，网页界面。管理多个账户、预算、账单、储蓄目标和定期支出，支持规则引擎自动分类交易，提供丰富的报表和图表。有完整的 API，可以自己写脚本导入数据。
+  en: A self-hosted personal finance manager with a web interface. It tracks multiple accounts, budgets, bills, savings goals and recurring expenses, auto-categorizes transactions through a rule engine, and offers extensive reports and charts. A full API lets you script your own imports.
+review:
+  zh: |
+    Firefly III 和 Actual Budget 的定位差别在于：Actual 是本地优先的桌面应用，
+    Firefly 从一开始就是**服务器上的网页应用**。你在一台机器上部署它，
+    然后从任何设备的浏览器登录进去记账，数据在你自己的服务器上。
+    24,307 颗星，AGPL-3.0。
+
+    它的功能面比一般记账软件宽：
+
+    - **账户体系完整**：资产账户、支出账户、收入账户、负债（信用卡、贷款）分得很清楚，
+      账户之间的转账不会被误记成收支。
+    - **规则引擎**：可以写规则，比如"收款方包含'超市'就归到'食品'分类并打上标签"，
+      导入的历史数据可以批量整理。
+    - **预算和账单**：预算按类别设上限，账单可以设定预期金额和周期，
+      到期没记录会提醒你，避免漏记固定支出。
+    - **报表丰富**：收支趋势、分类占比、净资产曲线、按标签和按账户的多维分析。
+
+    最有价值的可能是它的 **API**。所有功能都有对应接口，
+    社区因此做出了各种导入工具——从银行 CSV、从其他记账软件、从支付账单。
+    会写点脚本的人可以把自己的账单自动灌进去，省掉手动录入。
+
+    需要接受的成本：
+
+    - **必须自建**，没有官方托管版。官方推荐 Docker 部署，
+      配一个数据库（MySQL 或 PostgreSQL），文档写得很详细，但这一步绕不开。
+      没有服务器维护经验的人，Actual Budget 或 GnuCash 更合适。
+    - **没有官方移动 App**。网页界面对手机做了适配，可以用，
+      但体验不如原生应用；社区有第三方 App 可选。
+    - 数据库和上传文件要自己备份。
+
+    适合谁：已经在自建其他服务（比如跑着 Nextcloud 或群晖）、
+    希望财务数据也留在自己机器上、并且喜欢用规则和 API 自动化的人。
+  en: |
+    The difference between Firefly III and Actual Budget is architectural: Actual is a local-first
+    desktop app, while Firefly is **a web application on a server** from the start. You deploy it on
+    one machine and log in from any device's browser, with the data on your own hardware. 24,307
+    stars, AGPL-3.0.
+
+    Its feature surface is wider than typical budgeting software:
+
+    - **A complete account model:** asset, expense, revenue and liability accounts (credit cards,
+      loans) are cleanly separated, so transfers between your own accounts are never miscounted as
+      income or spending.
+    - **A rule engine:** write rules such as "if the payee contains 'supermarket', categorize as
+      groceries and add a tag", and apply them in bulk to imported history.
+    - **Budgets and bills:** budgets set category ceilings, while bills carry an expected amount and
+      period and remind you when an expected entry has not appeared, so fixed costs stop slipping
+      through.
+    - **Extensive reports:** income and expense trends, category shares, net worth curves, and
+      multi-dimensional analysis by tag and account.
+
+    Its **API** may be the most valuable part. Every feature has an endpoint, which is why the
+    community has built importers for bank CSVs, other finance apps and payment statements. Anyone
+    comfortable writing a script can pipe statements straight in and skip manual entry entirely.
+
+    Costs to accept:
+
+    - **Self-hosting is mandatory** — there is no official hosted version. Docker plus a database
+      (MySQL or PostgreSQL) is the recommended path and the documentation is thorough, but the step is
+      unavoidable. Without server experience, Actual Budget or GnuCash suits better.
+    - **There is no official mobile app.** The web interface adapts to phones and is usable, but it is
+      not a native experience; third-party community apps exist.
+    - Backing up the database and uploads is your responsibility.
+
+    Who it suits: people already self-hosting other services who want financial data on their own
+    machine too, and who enjoy automating with rules and APIs.

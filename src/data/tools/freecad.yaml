@@ -1,0 +1,74 @@
+name: FreeCAD
+accent: '#CB333B'
+initials: FC
+category: cad
+price: free
+license: 'LGPL-2.1'
+website: https://www.freecad.org
+download: https://www.freecad.org/downloads.php
+repo: https://github.com/FreeCAD/FreeCAD
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [三维建模, 参数化设计, 3d打印, 机械设计, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 参数化 3D 建模，改一个尺寸整个模型跟着变
+  en: Parametric 3D modeling — change one dimension and the whole model follows
+description:
+  zh: 开源的参数化三维建模软件。模型由带尺寸约束的草图和特征构成，改动任意一个参数，整个模型自动重算。覆盖零件设计、装配、工程图出图、有限元分析和 CAM，可导出 STL 用于 3D 打印。商用免费。Windows 安装包约 495 MB。
+  en: Open-source parametric 3D modeling. Models are built from dimensioned sketches and features, so changing any parameter recomputes the whole part. It covers part design, assemblies, technical drawings, finite element analysis and CAM, and exports STL for 3D printing. Free for commercial use. The Windows installer is about 495 MB.
+review:
+  zh: |
+    参数化建模和"画个立体图形"是两回事。你先画一张带尺寸标注的草图，
+    再拉伸成实体，之后想把某个孔的直径从 5 毫米改成 6 毫米，
+    只需要改那个数字，与之关联的所有特征自动更新——不用重画。
+    这是 SolidWorks、Fusion 360 那类专业软件的核心工作方式，FreeCAD 提供的是同一套范式。
+
+    32,850 颗星，LGPL-2.1。它的结构是"工作台"式的：
+    零件设计、草图、装配、工程图、有限元分析（FEM）、数控加工（CAM）、
+    建筑（BIM）、船舶设计各有一套工作台，切换过去界面和工具就换成对应领域的。
+    这也意味着它不是一个"3D 打印软件"或"机械软件"，而是一个平台。
+
+    对 3D 打印玩家来说它很实用：建完模直接导出 STL 或 3MF 丢进切片软件。
+    比起用网格软件捏形状，参数化建模做功能性零件（卡扣、支架、齿轮、外壳）
+    在精度和可修改性上是碾压级的。
+
+    要有心理准备的两件事：
+
+    - **学习曲线陡**。参数化 CAD 本身就需要建立"约束"的思维，
+      加上 FreeCAD 的界面是工程师风格，前几个小时会比较挫败。
+      建议跟一套完整的入门教程走完，而不是自己乱点。
+    - **安装包大**（Windows 约 495 MB，Linux AppImage 约 783 MB），
+      因为它把 Python 运行时和一大堆求解器都打包了进来。
+
+    1.x 版本相比早年的 0.x 在稳定性和拓扑命名问题上有明显改善，
+    如果你几年前试过并被劝退，现在值得再看一次。
+  en: |
+    Parametric modeling is a different activity from "drawing a 3D shape". You start with a
+    dimensioned sketch, extrude it into a solid, and later — when a hole needs to go from 5 mm to
+    6 mm — you change that one number and every dependent feature recomputes. No redrawing. This is
+    how SolidWorks and Fusion 360 work, and FreeCAD offers the same paradigm.
+
+    32,850 stars, LGPL-2.1. It is organized into workbenches: part design, sketcher, assembly,
+    technical drawing, finite element analysis, CAM, architecture/BIM and ship design each swap the
+    interface and tools to that domain. Which means it is not "a 3D printing app" or "a mechanical
+    app" — it is a platform.
+
+    For 3D printing it is genuinely practical: model the part, export STL or 3MF, drop it into your
+    slicer. Compared with sculpting shapes in a mesh tool, parametric modeling is overwhelmingly
+    better for functional parts — clips, brackets, gears, enclosures — in both precision and
+    revisability.
+
+    Two things to be ready for:
+
+    - **The learning curve is steep.** Parametric CAD requires building an intuition for constraints,
+      and FreeCAD's interface is unapologetically engineer-flavoured, so the first few hours are
+      frustrating. Follow one complete beginner course rather than clicking around.
+    - **The download is large** (about 495 MB on Windows, around 783 MB for the Linux AppImage),
+      because a Python runtime and a pile of solvers are bundled in.
+
+    The 1.x releases improved stability and the long-standing topological naming problem considerably
+    over the old 0.x line. If you tried it years ago and gave up, it deserves another look.

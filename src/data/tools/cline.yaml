@@ -1,0 +1,84 @@
+name: Cline
+accent: '#3A3A3A'
+initials: CL
+category: ai
+price: free
+license: 'Apache-2.0'
+website: https://cline.bot
+download: https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
+repo: https://github.com/cline/cline
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [ai编程, vscode插件, 编程助手, 自带api, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-signup, cross-platform]
+tagline:
+  zh: 开源的 AI 编程助手，模型你自己挑
+  en: An open-source AI coding assistant — you choose the model
+description:
+  zh: VS Code 里的 AI 编程扩展，能读写文件、执行终端命令、跑测试、修错误，每一步都要你确认后才执行。插件本身开源免费，模型接哪家由你决定——可以接云端 API，也可以接 Ollama 上的本地模型。
+  en: "A VS Code extension that reads and writes files, runs terminal commands, executes tests and fixes errors — asking for your approval before each step. The extension itself is open source and free, and you decide which model backs it: a cloud API, or a local model served by Ollama."
+review:
+  zh: |
+    AI 编程工具现在多得数不过来，但大多是订阅制的闭源产品，
+    模型是它选的，代码要过它的服务器。Cline 是另一种形态：
+    **插件开源免费（Apache-2.0，66,168 颗星），模型自带。**
+
+    它的工作方式是"代理式"的——你描述要做什么，
+    它自己去读相关文件、写代码、跑命令、看报错、再改。
+    关键设计是**每一步动作都会先展示给你看，你点确认它才执行**：
+    要改哪个文件、改成什么样（diff 形式展示）、
+    要在终端里跑什么命令，全部可见可拒绝。
+    对于"让 AI 动我的代码库"这件事，这种可控性很重要。
+
+    模型接入是它最大的灵活性，也是必须讲清楚的部分：
+
+    - **接云端 API**（各家大模型服务）效果最好，
+      但**这部分是要花钱的**——按 token 计费，费用直接付给模型服务商。
+      Cline 本身不收你一分钱，但请别以为整件事完全免费。
+      复杂任务跑一次可能消耗不少 token，建议先设好预算上限。
+    - **接本地模型**（通过 Ollama、LM Studio）则完全免费且离线，
+      代码一行都不出本机。代价是本地模型在复杂编程任务上的能力
+      通常明显弱于顶级云端模型，适合简单任务和隐私敏感场景。
+
+    所以我们没有给它"离线可用"徽章——插件本身可以离线跑，
+    但是否离线取决于你接什么模型。
+
+    其他值得一提的：支持 MCP（可以让它调用外部工具和数据源）、
+    能看懂浏览器截图做前端调试、上下文里可以直接引用文件和文件夹。
+
+    适合谁：想用 AI 辅助编程但不想被某家产品锁死、
+    希望自己控制模型选择和数据流向的开发者。
+  en: |
+    AI coding tools are now too numerous to count, but most are closed-source subscriptions where the
+    vendor picks the model and your code passes through their servers. Cline is a different shape:
+    **the extension is open source and free (Apache-2.0, 66,168 stars), and you bring the model.**
+
+    It works agentically — you describe the goal and it reads the relevant files, writes code, runs
+    commands, reads the errors and iterates. The critical design decision is that **every action is
+    shown to you and executes only after you approve it**: which file it wants to change, what the
+    change looks like as a diff, what command it wants to run in the terminal — all visible and all
+    refusable. For letting an AI touch your codebase, that control matters.
+
+    Model connectivity is its greatest flexibility and the part that must be stated clearly:
+
+    - **Cloud APIs** give the best results, but **that part costs money** — billed per token, paid
+      directly to the model provider. Cline itself charges nothing, but do not assume the whole
+      arrangement is free. A complex task can consume a substantial number of tokens, so set a
+      spending cap first.
+    - **Local models** via Ollama or LM Studio are free and offline, with no code leaving your
+      machine. The trade-off is that local models are usually markedly weaker than frontier cloud
+      models on complex programming work, making them better suited to simpler tasks and
+      privacy-sensitive situations.
+
+    That is why we did not award the offline badge — the extension can run offline, but whether the
+    whole system does depends on the model you attach.
+
+    Also worth mentioning: MCP support (letting it call external tools and data sources), the ability
+    to read browser screenshots for front-end debugging, and direct file and folder references in
+    context.
+
+    Who it suits: developers who want AI assistance without being locked into one product, and who
+    want to control both the model choice and where their data goes.

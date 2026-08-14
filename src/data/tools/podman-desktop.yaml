@@ -1,0 +1,105 @@
+name: Podman Desktop
+accent: '#892CA0'
+initials: PM
+category: dev
+price: free
+license: 'Apache-2.0'
+website: https://podman-desktop.io
+download: https://podman-desktop.io/downloads
+repo: https://github.com/containers/podman-desktop
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [容器, docker替代, kubernetes, 无守护进程, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 管容器不用买授权，命令和 Docker 一样
+  en: Container management with no licence to buy, and Docker's own commands
+description:
+  zh: 容器管理的图形界面，基于 Podman。可以构建、运行、查看容器和镜像，管理 Pod 和本地 Kubernetes 集群。命令行与 Docker 兼容（`podman` 可以直接替换 `docker`），支持 Docker Compose 文件，且没有商业授权限制。
+  en: A graphical container management application built on Podman. Build and run containers, inspect images, manage pods and work with local Kubernetes clusters. Its CLI is Docker-compatible (`podman` substitutes for `docker`), it reads Docker Compose files, and it carries no commercial licensing restrictions.
+review:
+  zh: |
+    Docker Desktop 从 2021 年起对规模较大的公司改成了付费订阅，
+    这让很多团队突然发现自己日常开发的基础工具需要采购流程。
+    个人和小团队仍可免费使用，但"这个工具的授权条款会不会再变"成了一个真实的顾虑。
+
+    Podman 是红帽主导的开源容器引擎，Podman Desktop 是它的图形界面。
+    Apache-2.0，7,927 颗星，**无论公司多大都免费**。
+
+    迁移成本比想象的低：
+
+    - **命令行兼容**。`podman run`、`podman build`、`podman ps` 的参数和 Docker 一致，
+      很多人直接 `alias docker=podman` 就继续工作了。
+    - **镜像通用**。用的是 OCI 标准镜像，Docker Hub 上的镜像照拉照用。
+    - **支持 Compose**。可以跑 docker-compose.yml，也能把 Compose 转成 Kubernetes 配置。
+
+    架构上它有一个实质区别：**无守护进程（daemonless）**。
+    Docker 需要一个常驻的 root 守护进程，所有容器都是它的子进程；
+    Podman 直接以你的用户身份启动容器（rootless），不需要后台服务常驻。
+    这带来两个好处：安全边界更清楚（容器逃逸不等于拿到 root），
+    以及不用为了一个容器让后台一直跑着服务。
+
+    图形界面里能做的事：查看和管理容器/镜像/卷/网络、看日志、进容器终端、
+    构建镜像、管理 Pod（把几个容器编成一组）、一键起一个本地 Kubernetes（Kind 或 Minikube）
+    并把镜像推进去测试。也有扩展机制，可以接 Docker 引擎、Lima、各种云。
+
+    要说清楚的：
+
+    - **Windows 和 macOS 上它跑在虚拟机里**。容器是 Linux 技术，
+      Podman 在这两个系统上通过一个轻量 Linux 虚拟机（podman machine，
+      Windows 上走 WSL2）来实现——这一点和 Docker Desktop 是一样的，不是它的缺点，
+      但意味着会占用内存，第一次初始化要下载虚拟机镜像。
+    - **生态和文档仍不如 Docker**。遇到问题时搜到的答案大多是 Docker 的，
+      多数能直接套用，偶尔有差异。
+    - **少数深度依赖 Docker 特性的工具**（比如某些 CI 工具、
+      通过挂载 docker.sock 操作宿主 Docker 的容器）需要额外配置才能工作。
+
+    适合谁：受 Docker Desktop 授权条款困扰的团队、
+    想要 rootless 安全模型的人、以及在做 Kubernetes 相关开发的人。
+    个人学习用途下，两者体验差别不大，Podman 的优势主要在"不用担心授权"。
+  en: |
+    Docker Desktop moved to paid subscriptions for larger companies in 2021, which left many teams
+    discovering that a daily development tool now required a procurement process. Individuals and
+    small teams still use it free, but "will these licensing terms change again" became a legitimate
+    concern.
+
+    Podman is Red Hat's open-source container engine, and Podman Desktop is its graphical interface.
+    Apache-2.0, 7,927 stars, and **free regardless of company size.**
+
+    Migration costs less than expected:
+
+    - **CLI compatibility.** `podman run`, `podman build` and `podman ps` take the same arguments as
+      Docker's, and many people simply `alias docker=podman` and carry on.
+    - **Images are interchangeable.** It uses OCI standard images, so anything on Docker Hub pulls and
+      runs normally.
+    - **Compose support.** It runs docker-compose.yml files, and can also convert Compose definitions
+      into Kubernetes manifests.
+
+    Architecturally there is one substantive difference: **it is daemonless.** Docker requires a
+    resident root daemon that owns every container as a child process; Podman launches containers
+    directly as your own user (rootless) with no background service. That yields a clearer security
+    boundary — a container escape does not hand over root — and no permanently running service just to
+    keep one container alive.
+
+    The GUI handles containers, images, volumes and networks, log viewing, shelling into a container,
+    image builds, pod management for grouping containers, and spinning up a local Kubernetes cluster
+    (Kind or Minikube) to push images into for testing. An extension mechanism connects it to the
+    Docker engine, Lima and various clouds.
+
+    To be clear about:
+
+    - **On Windows and macOS it runs inside a virtual machine.** Containers are Linux technology, so
+      Podman uses a lightweight Linux VM (podman machine, backed by WSL2 on Windows) — exactly as
+      Docker Desktop does. Not a drawback, but it consumes memory and the first run downloads a VM
+      image.
+    - **The ecosystem and documentation still trail Docker's.** Search results for a problem will
+      mostly be about Docker; most translate directly, occasionally they do not.
+    - **A few tools that depend deeply on Docker internals** — some CI tooling, or containers that
+      mount docker.sock to drive the host's Docker — need extra configuration.
+
+    Who it suits: teams affected by Docker Desktop's licensing, anyone who wants the rootless security
+    model, and people doing Kubernetes work. For personal learning the two feel much alike, and
+    Podman's advantage is mainly not having to think about licensing at all.

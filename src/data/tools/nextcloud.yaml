@@ -1,0 +1,67 @@
+name: Nextcloud
+accent: '#0082C9'
+initials: NC
+category: selfhosted
+price: free
+license: 'AGPL-3.0'
+website: https://nextcloud.com
+download: https://nextcloud.com/install/
+repo: https://github.com/nextcloud/server
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [私有网盘, 文件同步, 协作办公, 日历通讯录, 可自建]
+platforms: [linux, windows, macos, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自己的那块硬盘，也能有网盘的所有功能
+  en: Everything a cloud drive does, on a disk you own
+description:
+  zh: 自建私有云平台。文件同步、共享链接、在线预览、日历、通讯录、任务、协同编辑文档，功能对齐商业网盘，但整套跑在你自己的服务器上，没有容量套餐、没有限速、没有文件审查。
+  en: A self-hosted private cloud. File sync, share links, in-browser preview, calendar, contacts, tasks and collaborative document editing — the feature set of a commercial cloud drive, running entirely on your own server with no storage tiers, no throttling and no file scanning.
+review:
+  zh: |
+    商业网盘的三个老问题：容量按月收费、非会员限速、文件可能因为审查被删。
+    Nextcloud 的答案是把整套服务搬到你自己的机器上——**容量等于你的硬盘，速度等于你的网络，
+    没有人会审查你的文件**。36,417 颗星，AGPL-3.0，是自建领域最成熟的项目之一。
+
+    它比"网盘"要大得多。装完核心之后，应用市场里有上千个官方和社区应用：
+    日历和通讯录（可以让手机系统日历直接订阅）、待办、笔记、看板、密码库、邮件客户端，
+    接上 Collabora 或 ONLYOFFICE 还能在浏览器里多人协同编辑 Word 和 Excel 文档。
+    很多小团队用它整个替掉了办公套件的在线部分。
+
+    桌面客户端支持 Windows、macOS、Linux，行为和 Dropbox 一样——选择性同步、
+    虚拟文件（占位不占空间，用到再下）都有；手机端可以自动备份相册。
+
+    要投入的成本讲清楚：**你需要一台常年开机的机器**。旧笔记本、NAS、树莓派或者便宜的云主机都行，
+    官方提供 Docker 镜像和一体化的 AIO 部署方案，跑起来不难，但后续的更新、备份、
+    HTTPS 证书是你的责任。另外它是 PHP 应用，机器配置太低时（比如一代树莓派）
+    网页界面会明显偏慢，用 PostgreSQL 而不是 SQLite、加上 Redis 缓存能改善很多。
+
+    如果你只想要照片备份，Immich 更专注也更快；只想要密码同步，Vaultwarden 更轻。
+    Nextcloud 是那个"一台机器解决全部"的选项。
+  en: |
+    Commercial cloud storage has three chronic problems: capacity billed monthly, throttling for
+    non-subscribers, and files that can vanish to content scanning. Nextcloud's answer is to move the
+    whole service onto your own hardware — **capacity equals your disk, speed equals your network,
+    and nobody scans your files.** 36,417 stars, AGPL-3.0, and one of the most mature projects in
+    self-hosting.
+
+    It is far more than a drive. After the core install, an app store offers hundreds of official and
+    community apps: calendar and contacts (which your phone's built-in apps can subscribe to
+    directly), tasks, notes, kanban boards, a password vault, a mail client — and with Collabora or
+    ONLYOFFICE attached, real-time collaborative editing of Word and Excel documents in the browser.
+    Plenty of small teams use it to replace an entire online office suite.
+
+    Desktop clients cover Windows, macOS and Linux and behave like Dropbox, including selective sync
+    and virtual files that occupy no space until opened. Mobile apps handle automatic photo backup.
+
+    Be clear about the cost: **you need a machine that stays on.** An old laptop, a NAS, a Raspberry
+    Pi or a cheap cloud VM all work, and official Docker images plus the all-in-one AIO deployment
+    make setup manageable — but updates, backups and HTTPS certificates become your job. It is also a
+    PHP application, so on very modest hardware (an early Raspberry Pi, say) the web interface feels
+    sluggish; using PostgreSQL instead of SQLite and adding Redis caching helps a great deal.
+
+    If you only want photo backup, Immich is more focused and faster; if you only want password sync,
+    Vaultwarden is lighter. Nextcloud is the "one machine handles everything" option.

@@ -1,0 +1,71 @@
+name: LibreCAD
+accent: '#C8102E'
+initials: LC
+category: cad
+price: free
+license: 'GPL-2.0'
+website: https://librecad.org
+download: https://librecad.org/#download
+repo: https://github.com/LibreCAD/LibreCAD
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [二维制图, dxf, autocad替代, 工程图, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 只做二维图纸，轻、快、认 DXF
+  en: 2D drafting only — light, fast, and it speaks DXF
+description:
+  zh: 轻量的二维 CAD 制图软件，专注平面图纸：建筑平面、机械二视图、装修图、示意图。原生使用 DXF 格式，能和 AutoCAD 互通。界面和快捷键沿袭传统 CAD 习惯，老用户上手很快。
+  en: A lightweight 2D CAD program focused on flat drawings — floor plans, mechanical views, renovation layouts and diagrams. It uses DXF natively, so files move between it and AutoCAD, and its interface and shortcuts follow traditional CAD conventions that veterans pick up immediately.
+review:
+  zh: |
+    不是所有画图都需要三维。装修时画个户型图、做个零件的二视图、
+    给施工方出张标注清楚的平面图——这些工作用 FreeCAD 那种三维软件反而是杀鸡用牛刀，
+    启动都要等半天。
+
+    LibreCAD 就是专门做这件事的：**只做二维，所以它很轻**。
+    安装包只有几十兆，打开几乎是瞬间的，在老电脑上也跑得动。
+    工具就是画线、圆、弧、多段线、标注、图层、块，全是二维制图的基本功。
+
+    对从 AutoCAD 过来的人，它的过渡成本很低。命令行输入方式、
+    图层管理、快捷键逻辑都是熟悉的那一套，**原生格式就是 DXF**，
+    和 AutoCAD 之间来回传文件基本没问题（复杂图纸的个别对象可能有兼容差异，
+    重要图纸建议传完检查一遍）。
+
+    要清楚它的边界：
+
+    - **它不做三维**。需要建模、渲染、装配的，看 FreeCAD。
+    - **不支持 DWG**（AutoCAD 的私有格式）。对方给你 DWG 文件的话，
+      需要先用转换工具转成 DXF。这不是 LibreCAD 的问题，DWG 是封闭格式。
+    - 功能深度不如商业软件，做超大型复杂工程图会吃力。
+
+    适合谁：偶尔需要出一张规范二维图纸的人——装修业主、DIY 玩家、
+    学生、需要给工厂发加工图的小团队。开源、免费、商用也不用授权。
+  en: |
+    Not every drawing needs three dimensions. Sketching a floor plan for a renovation, producing two
+    views of a part, handing a contractor a properly dimensioned layout — using a 3D package for those
+    is overkill that makes you wait through a long startup for nothing.
+
+    LibreCAD does exactly this one job: **2D only, and therefore light.** The installer is a few tens
+    of megabytes, it opens essentially instantly, and it runs fine on old hardware. The toolset is
+    lines, circles, arcs, polylines, dimensions, layers and blocks — the fundamentals of drafting.
+
+    For anyone coming from AutoCAD the transition is cheap. Command-line entry, layer management and
+    shortcut logic all follow the familiar conventions, and **DXF is its native format**, so files
+    move back and forth without much trouble (complex drawings may show minor object-level
+    differences, so check anything important after a round trip).
+
+    Be clear about the boundaries:
+
+    - **It does no 3D.** For modeling, rendering or assemblies, use FreeCAD.
+    - **It does not support DWG,** AutoCAD's proprietary format. A DWG from someone else must be
+      converted to DXF first. That is not LibreCAD's failing — DWG is a closed format.
+    - Feature depth trails commercial packages, and very large, complex engineering drawings will
+      strain it.
+
+    Who it suits: anyone who occasionally needs one proper 2D drawing — homeowners planning a
+    renovation, DIY builders, students, and small teams sending fabrication drawings to a shop. Open
+    source, free, and no licence needed for commercial work.

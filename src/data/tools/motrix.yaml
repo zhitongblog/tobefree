@@ -1,0 +1,64 @@
+name: Motrix
+accent: '#3D8BFF'
+initials: MO
+category: network
+price: free
+license: 'MIT'
+website: https://motrix.app
+download: https://motrix.app/download
+repo: https://github.com/agalwood/Motrix
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [下载器, 多线程, aria2, bt下载, 图形界面]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 给 aria2 套一个好看的壳，替掉那些流氓下载器
+  en: A clean GUI for aria2 — the replacement for adware download managers
+description:
+  zh: 基于 aria2 的图形化下载工具，支持 HTTP、FTP、BT 和磁力链接，单任务最多 64 线程。界面清爽，没有广告、没有捆绑、没有「开会员提速」。Windows 安装包约 59 MB。
+  en: A graphical download manager built on aria2, handling HTTP, FTP, BitTorrent and magnet links with up to 64 connections per task. Clean interface, no ads, no bundled extras, no paid speed tier. The Windows installer is about 59 MB.
+review:
+  zh: |
+    国内的下载工具生态相当糟糕：限速、弹窗、装完多三个软件、满速要开会员。Motrix 存在的意义
+    就是给这个位置一个干净的答案——底层是成熟的 aria2，上层是一个不打扰你的界面，MIT 开源，
+    52,466 颗星。
+
+    实际体验里最有用的是多线程。对普通 HTTP 直链，它默认会开多个连接同时拉，
+    在很多国外源上比浏览器自带的下载快出好几倍。BT 和磁力也支持，虽然做种能力不如
+    qBittorrent 专业。
+
+    **一个必须说明的问题：它的发版停滞了。** 最新正式版是 v1.8.19，发布于 2023 年 5 月，
+    到今天已经三年多。仓库里还有零星提交，但没有新的稳定版本出来。
+
+    这意味着什么：作为下载器它今天仍然能正常工作，aria2 内核和协议本身没怎么变；
+    但你不应该指望它修新出现的问题，也不应该期待新功能。如果你要的是「装上就能用、
+    替掉迅雷那类软件」，它够用；如果你要一个长期活跃维护的项目，
+    考虑直接用命令行的 aria2，或者把 BT 部分交给 qBittorrent。
+
+    我们仍然收录它，因为它确实免费、无广告、开源，而且在它擅长的事情上没有退化——
+    但停更这件事你有权提前知道。
+  en: |
+    The download-manager landscape is unusually bad: throttling, pop-ups, three extra programs after
+    install, full speed behind a subscription. Motrix exists to give that slot a clean answer —
+    mature aria2 underneath, an interface that leaves you alone on top, MIT-licensed, 52,466 stars.
+
+    Multi-connection downloading is what you notice in daily use. For ordinary HTTP links it opens
+    several connections in parallel by default, which on many overseas mirrors is several times
+    faster than a browser's built-in downloader. BitTorrent and magnet links work too, though it is
+    no match for qBittorrent as a seeding client.
+
+    **One problem must be stated: releases have stalled.** The latest stable build is v1.8.19,
+    published in May 2023 — over three years ago. The repository still sees occasional commits, but
+    no new stable version has shipped.
+
+    What that means in practice: it still works fine as a downloader, since the aria2 core and the
+    protocols have not meaningfully changed. But you should not expect newly discovered issues to be
+    fixed, or new features to arrive. If you want something that installs and immediately replaces an
+    adware download manager, it does the job. If you want an actively maintained project, use aria2
+    from the command line directly, or hand the BitTorrent side to qBittorrent.
+
+    We list it anyway because it is genuinely free, ad-free and open source, and it has not regressed
+    at what it does well — but you deserve to know about the stall before you install.

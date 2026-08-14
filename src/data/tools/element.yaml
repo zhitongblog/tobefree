@@ -1,0 +1,61 @@
+name: Element
+accent: '#0DBD8B'
+initials: EL
+category: chat
+price: free
+license: 'AGPL-3.0'
+website: https://element.io
+download: https://element.io/download
+repo: https://github.com/element-hq/element-web
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [即时通讯, matrix, 端到端加密, 去中心化, 团队协作]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 聊天界的电子邮件——协议开放，服务器可以是你自己的
+  en: Email, but for chat — an open protocol with a server you can own
+description:
+  zh: Matrix 协议的旗舰客户端。像邮箱一样，不同服务器上的用户可以互相聊天，你也可以自己搭一台服务器把数据完全握在手里。私聊默认端到端加密，支持群组、语音视频通话和跨平台同步。
+  en: The flagship client for the Matrix protocol. Like email, users on different servers can talk to each other — and you can run your own server and keep every message on your hardware. Direct messages are end-to-end encrypted by default, with groups, voice and video calls and cross-platform sync.
+review:
+  zh: |
+    大部分聊天软件的问题不是不加密，是**你没有选择**：微信只能连腾讯的服务器，Slack 只能连 Slack 的。
+    Matrix 想做的事和电子邮件一样——协议公开，谁都能开服务器，不同服务器上的人照样能对话。
+    Element 是这套协议最成熟的客户端，AGPL-3.0 开源。
+
+    对个人用户，你可以直接用公共的 matrix.org 服务器，注册即用，私聊默认端到端加密。
+    对团队和组织，真正的价值在自建：一台自己的 Synapse 服务器，成员名单、聊天记录、文件全部留在你的机器上，
+    不用担心哪天服务商改条款或者涨价。有一些政府和高校就是这么用的。
+
+    要有心理准备的地方：**它比微信复杂**。加密密钥需要你备份（换设备后没有密钥就看不到历史消息，
+    这一步一定要做）；房间、空间、联邦这些概念第一次接触会绕；公共服务器高峰期偶尔慢。
+    此外，端到端加密保护的是消息内容，你在哪个服务器、和谁聊、什么时候聊这些元数据，服务器是知道的——
+    自建能解决这一点。
+
+    适合谁：想让团队沟通不被单一厂商绑定、愿意自己维护一台服务器的人。
+    只想要一个安全的私聊工具、不想折腾的，看 Signal 或 SimpleX。
+  en: |
+    The problem with most chat apps is not that they lack encryption — it is that **you have no
+    choice of server.** Matrix aims to work the way email does: an open protocol, anyone can run a
+    server, and people on different servers can still talk. Element is that protocol's most mature
+    client, AGPL-3.0 licensed.
+
+    As an individual you can just use the public matrix.org server: sign up and go, with end-to-end
+    encryption on by default for direct messages. For teams and organizations the real value is
+    self-hosting — your own Synapse server, with the member list, message history and files all on
+    your hardware, immune to a provider changing terms or raising prices. Several governments and
+    universities run exactly this way.
+
+    Set expectations, though: **it is more complex than a consumer messenger.** Encryption keys must
+    be backed up (without them, a new device cannot read old messages — do not skip this step);
+    rooms, spaces and federation take a while to click; and the public server can be slow at peak
+    times. Also note that end-to-end encryption protects message content, while metadata — which
+    server you are on, who you talk to and when — is visible to the server. Self-hosting is the
+    answer to that.
+
+    Who it suits: people who want team communication that is not locked to one vendor and who are
+    willing to maintain a server. If you just want a secure private messenger with no admin work,
+    look at Signal or SimpleX instead.

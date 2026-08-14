@@ -1,5 +1,6 @@
 // Shared helpers for the local tooling (CLI / admin / MCP).
-// Vocabulary mirrors src/consts.ts — keep the two in sync when you add options.
+// The vocabulary below is read straight out of src/consts.ts at startup, so
+// adding a category / badge / platform is a one-file change.
 
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -10,38 +11,32 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export const ROOT = join(__dirname, '..');
 export const TOOLS_DIR = join(ROOT, 'src', 'data', 'tools');
 
-export const CATEGORIES = [
-  { id: 'ai', label: { zh: 'AI · 大模型', en: 'AI & LLM' } },
-  { id: 'productivity', label: { zh: '效率 · 笔记', en: 'Productivity' } },
-  { id: 'creative', label: { zh: '创意 · 设计', en: 'Creative' } },
-  { id: 'media', label: { zh: '音频 · 视频', en: 'Audio & Video' } },
-  { id: 'dev', label: { zh: '开发 · 编程', en: 'Developer' } },
-  { id: 'utility', label: { zh: '系统 · 实用', en: 'Utilities' } },
-  { id: 'privacy', label: { zh: '隐私 · 安全', en: 'Privacy' } },
-  { id: 'office', label: { zh: '办公 · 文档', en: 'Office' } },
-];
+const CONSTS_SRC = readFileSync(join(ROOT, 'src', 'consts.ts'), 'utf8');
 
-export const BADGES = [
-  { id: 'open-source', label: { zh: '开源', en: 'Open Source' } },
-  { id: 'no-ads', label: { zh: '无广告', en: 'No Ads' } },
-  { id: 'no-tracking', label: { zh: '无追踪', en: 'No Tracking' } },
-  { id: 'offline', label: { zh: '离线可用', en: 'Offline' } },
-  { id: 'no-signup', label: { zh: '无需注册', en: 'No Sign-up' } },
-  { id: 'cross-platform', label: { zh: '跨平台', en: 'Cross-platform' } },
-  { id: 'self-hostable', label: { zh: '可自建', en: 'Self-hostable' } },
-];
+/**
+ * Pull an `export const NAME = [...] as const;` array of `{ id, label }` entries
+ * out of consts.ts. We only parse the shape we control, so a plain regex sweep
+ * is enough — and it keeps this file from drifting out of sync again.
+ */
+function readVocab(name) {
+  const block = CONSTS_SRC.match(new RegExp(`export const ${name} = \\[([\\s\\S]*?)\\n\\] as const;`));
+  if (!block) throw new Error(`consts.ts: could not find "export const ${name}"`);
+  const entries = [...block[1].matchAll(
+    /\{\s*id:\s*'([^']+)'[^}]*?label:\s*\{\s*zh:\s*'([^']*)',\s*en:\s*'([^']*)'\s*\}/g,
+  )].map((m) => ({ id: m[1], label: { zh: m[2], en: m[3] } }));
+  if (!entries.length) throw new Error(`consts.ts: "${name}" parsed to an empty list`);
+  return entries;
+}
 
-export const PLATFORMS = [
-  { id: 'windows', label: 'Windows' },
-  { id: 'macos', label: 'macOS' },
-  { id: 'linux', label: 'Linux' },
-  { id: 'web', label: 'Web' },
-  { id: 'ios', label: 'iOS' },
-  { id: 'android', label: 'Android' },
-  { id: 'cli', label: 'CLI' },
-];
+export const CATEGORIES = readVocab('CATEGORIES');
+export const BADGES = readVocab('BADGES');
+export const PLATFORMS = readVocab('PLATFORMS').map((p) => ({ id: p.id, label: p.label.en }));
 
-export const PRICE_MODELS = ['free', 'freemium'];
+export const PRICE_MODELS = (() => {
+  const m = CONSTS_SRC.match(/export const PRICE_MODELS = \[([^\]]+)\] as const;/);
+  if (!m) throw new Error('consts.ts: could not find "export const PRICE_MODELS"');
+  return [...m[1].matchAll(/'([^']+)'/g)].map((x) => x[1]);
+})();
 
 export const CATEGORY_IDS = CATEGORIES.map((c) => c.id);
 export const BADGE_IDS = BADGES.map((b) => b.id);

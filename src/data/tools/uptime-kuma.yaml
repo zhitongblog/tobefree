@@ -1,0 +1,69 @@
+name: Uptime Kuma
+accent: '#5CDD8B'
+initials: UK
+category: selfhosted
+price: free
+license: 'MIT'
+website: https://uptime.kuma.pet
+download: https://github.com/louislam/uptime-kuma/releases/latest
+repo: https://github.com/louislam/uptime-kuma
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [监控, 网站监测, 告警通知, 状态页, 可自建]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 网站挂了第一时间通知你，不用买监控服务
+  en: Know the moment your site goes down, without paying for monitoring
+description:
+  zh: 自建的服务可用性监控工具。定时检查网站、API、端口、容器和证书有效期，出问题时通过微信、Telegram、邮件、Webhook 等九十多种渠道推送告警，还能生成对外公开的状态页。界面清爽，部署只要一个容器。
+  en: Self-hosted uptime monitoring. It checks websites, APIs, ports, containers and certificate expiry on a schedule, and pushes alerts through more than ninety channels including Telegram, email and webhooks when something breaks. It also generates public status pages. Clean interface, one container to deploy.
+review:
+  zh: |
+    商业监控服务的免费额度通常只给几个监控项、检查间隔五分钟起、告警渠道还要加钱。
+    Uptime Kuma 把这件事变成了"跑一个容器"：90,166 颗星，MIT 开源，
+    界面做得比很多付费产品还好看。
+
+    它能监控的东西比名字暗示的多：HTTP(S) 网站和 API（可以校验返回的关键字和状态码）、
+    TCP 端口、Ping、DNS 解析、数据库连接、Docker 容器状态，
+    还有**SSL 证书到期提醒**——这一条救过很多人，证书过期导致的事故实在太常见了。
+
+    告警渠道支持九十多种，Telegram、邮件、企业微信、钉钉、飞书、Slack、Discord、
+    通用 Webhook 都在里面，配置就是填一个地址或 token。
+
+    另一个实用功能是**公开状态页**：把几个监控项组成一页对外公开，
+    用户不用来问"是不是你们挂了"，自己去看就行。个人博客、开源项目、小团队都用得上。
+
+    部署很轻——发布包只有 7 MB 左右，官方 Docker 镜像一条命令起来，数据默认存 SQLite，
+    没有额外依赖。一台一直开着的小机器就够。
+
+    唯一需要想清楚的是**监控点的位置**。如果把它和被监控的服务放在同一台机器上，
+    那台机器整个挂掉时它也一起挂了，就没人告诉你了。
+    真正重要的服务，建议把 Uptime Kuma 放在另一台机器、最好是另一个网络里。
+  en: |
+    Free tiers of commercial monitoring services typically allow a handful of checks, a five-minute
+    minimum interval, and charge extra for alert channels. Uptime Kuma turns the whole thing into
+    "run one container": 90,166 stars, MIT-licensed, with an interface nicer than many paid products.
+
+    It monitors more than the name suggests: HTTP(S) sites and APIs (with keyword and status-code
+    assertions), TCP ports, ping, DNS resolution, database connections, Docker container health — and
+    **SSL certificate expiry,** which has saved a lot of people, since expired certificates cause an
+    absurd share of outages.
+
+    Over ninety notification channels are supported — Telegram, email, Slack, Discord, generic
+    webhooks and many regional services — and configuring one usually means pasting a URL or token.
+
+    Public status pages are the other genuinely useful feature: group several checks onto a page
+    anyone can view, so users check for themselves instead of asking whether you are down. Personal
+    blogs, open-source projects and small teams all get value from it.
+
+    Deployment is light — the release bundle is around 7 MB, the official Docker image starts with one
+    command, and data goes into SQLite with no other dependencies. A small always-on machine is
+    plenty.
+
+    The one thing to think through is **where the monitor lives.** If it runs on the same machine as
+    the services it watches, a total failure of that machine takes the monitor down too, and nobody
+    tells you. For anything that genuinely matters, put Uptime Kuma on a different machine — ideally
+    on a different network.

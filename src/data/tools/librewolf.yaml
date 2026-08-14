@@ -1,0 +1,54 @@
+name: LibreWolf
+accent: '#00ACFF'
+initials: LW
+category: browser
+price: free
+license: 'MPL-2.0'
+website: https://librewolf.net
+download: https://librewolf.net/installation/
+repo: https://codeberg.org/librewolf
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [浏览器, firefox, 隐私, 去遥测, 广告拦截]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 把 Firefox 里所有回传厂商的东西拆干净
+  en: Firefox with every phone-home path removed
+description:
+  zh: 基于 Firefox 的独立分支，出厂就关掉全部遥测、崩溃上报、赞助磁贴和 Pocket 推荐，预装 uBlock Origin，默认开启严格追踪防护。不需要账号，装完就是干净状态，不用自己调几十项 about:config。
+  en: An independent Firefox fork that ships with all telemetry, crash reporting, sponsored tiles and Pocket recommendations removed, uBlock Origin preinstalled and strict tracking protection on by default. No account, clean from the first launch, no about:config marathon needed.
+review:
+  zh: |
+    Firefox 本身已经算隐私友好了，但它仍然默认开着遥测、新标签页会推赞助内容、还捆着 Pocket。
+    LibreWolf 做的事情很朴素：把这些全部拿掉，然后把隐私相关的开关一次性调到位。
+
+    装完你会直接得到：uBlock Origin 已经就位、指纹防护开着、每次关闭浏览器自动清 cookie。
+    对大多数人来说，这省掉了照着教程改二三十项 about:config 的过程。
+
+    但要提前知道两个代价。第一，DRM 默认是关的，Netflix、Spotify 网页版这类会直接放不了，
+    得自己去设置里打开。第二，它没有 Firefox 那种后台静默更新，你得靠 winget、Homebrew、
+    Flatpak 这类包管理器或者手动下新版——如果你是那种半年不管更新的人，这点要认真掂量。
+
+    还有一点：严格的指纹防护会让少数网站表现异常，比如网页的深色模式跟不上系统设置。
+    这是防护生效的副作用，不是 bug。能接受这些，它就是目前开箱即用程度最高的隐私浏览器。
+  en: |
+    Firefox is already privacy-friendly, but it still ships with telemetry on, sponsored content on
+    the new tab page and Pocket bundled in. LibreWolf's job is unglamorous: strip all of that out,
+    then set every privacy-related switch the way a hardened setup would.
+
+    Out of the box you get uBlock Origin already installed, fingerprinting resistance enabled, and
+    cookies wiped every time you close the browser. For most people that replaces an afternoon of
+    following an about:config hardening guide.
+
+    Two costs to know upfront. First, DRM is disabled by default, so Netflix and Spotify Web simply
+    will not play until you turn it back on in settings. Second, there is no silent background
+    updater like Firefox's — you update through winget, Homebrew, Flatpak or by downloading the new
+    build yourself. If you are the type to ignore updates for six months, weigh that seriously.
+
+    One more thing: strict fingerprinting resistance makes a handful of sites behave oddly — for
+    instance, a page's dark mode may not follow your system setting. That is the protection working,
+    not a bug. If you can live with these, it is the most privacy-complete browser you can get
+    without configuring anything yourself.

@@ -1,0 +1,97 @@
+name: KOReader
+accent: '#4A4A4A'
+initials: KR
+category: office
+price: free
+license: 'AGPL-3.0'
+website: https://koreader.rocks
+download: https://github.com/koreader/koreader/releases/latest
+repo: https://github.com/koreader/koreader
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [电子书阅读, 墨水屏, kindle, 安卓, 排版精细]
+platforms: [android, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 装进 Kindle 和墨水屏设备，把阅读器换成你自己的
+  en: Install it on a Kindle or e-ink device and take the reader back
+description:
+  zh: 为墨水屏设备设计的开源阅读器，支持 EPUB、PDF、DJVU、漫画等格式。可以安装到 Kindle、Kobo、文石、PocketBook 等设备上，也有安卓版。排版控制极其精细，PDF 重排、字典查词、翻译、统计阅读时长都有。
+  en: An open-source reader designed for e-ink devices, handling EPUB, PDF, DJVU, comics and more. It installs onto Kindle, Kobo, Onyx Boox and PocketBook hardware, and an Android build exists too. Typography control is unusually fine-grained, with PDF reflow, dictionary lookup, translation and reading statistics.
+review:
+  zh: |
+    电纸书设备的原厂系统通常有三个问题：格式支持有限（Kindle 长期不认 EPUB）、
+    首页推荐你买书、阅读数据回传厂商。而设备硬件本身其实很好。
+
+    KOReader 是把这些设备"解放"出来的方案。28,983 颗星，AGPL-3.0，
+    可以装到 Kindle、Kobo、文石 Boox、PocketBook 等常见墨水屏设备上，
+    也有安卓版和 Linux 桌面版。
+
+    它最被称道的是**排版控制的精细程度**，这在墨水屏上尤其重要：
+
+    - 字体、字号、行距、字间距、段间距、页边距全部可调，而且是连续微调不是几档预设。
+    - 支持嵌入字体和自定义字体，中文排版可以自己挑合适的字体。
+    - **PDF 重排**——这是杀手功能。学术论文那种双栏 PDF 在六寸屏上根本没法读，
+      KOReader 能把文字流重新排版成适合小屏的单栏，字号可调。
+    - 可以按设备刷新特性调整墨水屏的局部刷新和全刷频率，减少残影。
+
+    阅读辅助功能也齐：内置字典查词（可以导入 StarDict 词典，查中英文都行）、
+    划词翻译、高亮和批注、书签、跨设备同步阅读进度（可自建同步服务器）、
+    详细的阅读统计（读了多久、平均速度、每本书进度）。
+
+    格式覆盖比原厂系统宽得多：EPUB、PDF、DJVU、MOBI、FB2、CBZ/CBR 漫画、
+    TXT、CHM 都能读。
+
+    要说清楚的：
+
+    - **安装需要动手**。Kindle 上要先越狱（jailbreak），
+      Kobo 相对简单，安卓版直接装 APK 最省事。
+      越狱有风险，虽然社区教程成熟且大多可逆，但**请自己评估**，
+      设备保修和变砖的可能性要考虑清楚。
+    - **界面朴素**。它是功能导向的，菜单层级深、选项极多，
+      第一次用会觉得眼花。好在默认设置就能读，高级选项可以慢慢摸。
+    - **不是书库管理器**。管理几百本书、转格式、抓元数据还是用 Calibre，
+      然后把书传到设备上给 KOReader 读。
+
+    如果你有一台墨水屏设备并且对原厂阅读体验不满，这基本是唯一且最好的答案。
+    只在电脑上读书的话，看 Thorium Reader。
+  en: |
+    Stock firmware on e-readers usually has three problems: limited format support (Kindle long
+    refused EPUB), a home screen selling you books, and reading data reported back to the vendor. The
+    hardware itself is generally excellent.
+
+    KOReader liberates that hardware. 28,983 stars, AGPL-3.0, installable on Kindle, Kobo, Onyx Boox
+    and PocketBook devices, with Android and Linux desktop builds as well.
+
+    Its most praised quality is **granular typography control**, which matters enormously on e-ink:
+
+    - Font, size, line spacing, letter spacing, paragraph spacing and margins are all adjustable as
+      continuous values rather than a handful of presets.
+    - Embedded and custom fonts are supported, so you can choose typefaces that suit your language.
+    - **PDF reflow** is the killer feature. A two-column academic paper is unreadable on a six-inch
+      screen; KOReader reflows the text into a single column sized for the display.
+    - Partial and full e-ink refresh behavior can be tuned per device to reduce ghosting.
+
+    Reading aids are thorough: a built-in dictionary (importable StarDict dictionaries), lookup
+    translation, highlights and annotations, bookmarks, cross-device progress sync with a
+    self-hostable sync server, and detailed statistics on time read, average speed and per-book
+    progress.
+
+    Format coverage far exceeds stock firmware: EPUB, PDF, DJVU, MOBI, FB2, CBZ/CBR comics, TXT and
+    CHM.
+
+    To be clear about:
+
+    - **Installation takes effort.** Kindle requires jailbreaking first; Kobo is comparatively simple;
+      the Android APK is the easiest path. Jailbreaking carries risk — community guides are mature and
+      the process is usually reversible, but **assess it yourself**, weighing warranty and the
+      possibility of bricking the device.
+    - **The interface is plain.** It is function-driven, with deep menus and an overwhelming number of
+      options. Defaults are readable, and the advanced settings can wait.
+    - **It is not a library manager.** Organizing hundreds of books, converting formats and fetching
+      metadata remain Calibre's job; transfer the results to the device for KOReader to read.
+
+    If you own an e-ink device and are unhappy with its stock reading experience, this is essentially
+    the only and the best answer. For reading only on a computer, see Thorium Reader.

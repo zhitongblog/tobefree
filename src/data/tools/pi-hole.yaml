@@ -1,0 +1,77 @@
+name: Pi-hole
+accent: '#96060C'
+initials: PH
+category: selfhosted
+price: free
+license: 'EUPL-1.2'
+website: https://pi-hole.net
+download: https://pi-hole.net/#gs
+repo: https://github.com/pi-hole/pi-hole
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [去广告, dns, 全屋拦截, 树莓派, 可自建]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 一台设备，让全家所有屏幕都不见广告
+  en: One device, and every screen in the house loses its ads
+description:
+  zh: 运行在局域网里的 DNS 层广告拦截器。所有设备把 DNS 指向它之后，广告和追踪域名在解析阶段就被拦掉——手机 App 里的广告、智能电视的广告、游戏机的追踪请求都一起拦，不需要在每台设备上装扩展。
+  en: A network-level ad blocker that runs as your LAN's DNS server. Once devices point their DNS at it, ad and tracker domains are blocked at resolution time — ads inside phone apps, on smart TVs and tracking calls from game consoles all disappear, with no extension to install per device.
+review:
+  zh: |
+    浏览器扩展只能管浏览器。手机 App 里的横幅广告、智能电视首页的推荐位、
+    各种设备偷偷发回厂商的遥测，扩展一个都拦不到。Pi-hole 换了个位置解决问题——
+    **它站在 DNS 这一层**，设备要连广告服务器就得先问域名，它直接回答"查无此地址"。
+
+    效果是全屋级的：一次部署，家里连着 Wi-Fi 的每一样东西都受益，
+    包括那些根本不允许你装软件的设备。60,356 颗星，EUPL 开源。
+
+    它还附带一个信息量很大的管理面板：哪台设备发了多少请求、
+    请求最多的域名是什么、拦截率多少。第一次看这个面板的人通常会被吓一跳——
+    你会发现家里某台设备每天默默发出成千上万次请求。
+
+    部署门槛比想象中低。经典做法是一块树莓派（项目名字就是这么来的），
+    但任何一台常年开机的 Linux 机器、NAS 上的 Docker 容器都可以，
+    官方一条安装脚本搞定。装好之后在路由器 DHCP 设置里把 DNS 改成它的地址，全家自动生效。
+
+    要知道的三个局限：
+
+    - **它拦域名，不拦内容**。同域名下的广告（比如 YouTube 视频里插播的广告）它拦不掉，
+      那种还得靠浏览器里的 uBlock Origin。两者是互补的，很多人两个都用。
+    - **偶尔会误伤**。某些 App 的图片或链接跳转可能被拦，表现是"打不开"。
+      面板里能查最近被拦的域名并一键加白名单，遇到问题先去那看。
+    - **它成了单点**。这台机器挂了，全家都上不了网（因为 DNS 没人应答）。
+      建议在路由器里配一个备用 DNS，或者跑两个实例。
+  en: |
+    A browser extension only covers the browser. Banner ads inside phone apps, promoted tiles on a
+    smart TV's home screen, telemetry quietly sent home by assorted devices — an extension catches
+    none of it. Pi-hole attacks the problem from a different layer: **it sits at DNS,** so when a
+    device tries to reach an ad server it must ask for the domain first, and Pi-hole simply answers
+    that there is no such address.
+
+    The effect is house-wide. Deploy once and everything on the Wi-Fi benefits, including devices that
+    would never let you install software. 60,356 stars, EUPL-licensed.
+
+    It also ships a surprisingly informative dashboard: how many requests each device made, which
+    domains dominate, what share was blocked. First-time users are usually startled — you tend to
+    discover one device quietly making thousands of requests a day.
+
+    Setup is easier than expected. The classic host is a Raspberry Pi (hence the name), but any
+    always-on Linux machine or a Docker container on a NAS works, and the official install script
+    handles the rest. Point your router's DHCP settings at its address and the whole household is
+    covered.
+
+    Three limits to know:
+
+    - **It blocks domains, not content.** Ads served from the same domain as the content — YouTube's
+      in-video ads, for instance — get through; those still need uBlock Origin in the browser. The two
+      are complementary and many people run both.
+    - **False positives happen.** An app's images or a redirect can get blocked, showing up as
+      "won't load". The dashboard lists recently blocked domains with one-click whitelisting; start
+      there when something breaks.
+    - **It becomes a single point of failure.** If that machine goes down, nothing on the network
+      resolves DNS and the internet appears dead. Configure a fallback DNS on the router, or run two
+      instances.

@@ -1,0 +1,67 @@
+name: Tailscale
+accent: '#242424'
+initials: TS
+category: network
+price: freemium
+license: 'BSD-3-Clause · 客户端开源'
+website: https://tailscale.com
+download: https://tailscale.com/download
+repo: https://github.com/tailscale/tailscale
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [组网, wireguard, 内网穿透, 远程访问, vpn]
+platforms: [windows, macos, linux, ios, android, cli]
+badges: [open-source, no-ads, cross-platform, self-hostable]
+tagline:
+  zh: 把你所有设备连成一个私有内网，不用配路由器
+  en: Wires all your devices into one private network — no router config
+description:
+  zh: 基于 WireGuard 的组网工具。装上并登录后，你的电脑、手机、家里的服务器会自动获得固定内网 IP，彼此直接互通，不需要公网 IP、不需要端口映射、不需要动路由器。个人免费额度为 100 台设备、3 个用户。
+  en: A WireGuard-based mesh network. Install it, sign in, and your laptop, phone and home server all get stable private IPs and can reach each other directly — no public IP, no port forwarding, no router configuration. The personal free plan covers 100 devices and 3 users.
+review:
+  zh: |
+    远程访问家里的机器，传统做法是折腾公网 IP、DDNS、端口映射、防火墙规则，运营商还可能不给你公网 IP。
+    Tailscale 把这一整套都跳过了：每台设备装个客户端登录同一个账号，它们就出现在同一个虚拟内网里，
+    互相 ping 得通，SSH、远程桌面、访问 NAS 全部照常。
+
+    技术上它是 WireGuard 的封装，加密和性能都来自 WireGuard 本身，尽可能建立点对点直连，
+    实在打不通洞才走中继。日常用起来基本感觉不到延迟差异。
+
+    收录时必须讲清楚它的免费边界，这跟本站其他工具不太一样：
+
+    - **客户端是 BSD 开源的，但协调服务器是公司的 SaaS**，那部分不开源。
+    - **必须登录账号**（用 Google、GitHub、Microsoft 等身份登录），所以它拿不到「无需注册」徽章。
+    - 个人免费计划给到 100 台设备、3 个用户，对家用和个人开发绰绰有余，但这是公司政策，公司可以改。
+
+    如果这三点里有你不能接受的，有两条替代路：用开源的 **Headscale** 自建协调服务器
+    （Tailscale 客户端可以直接指过去），或者直接手写 WireGuard 配置——更自由，但要自己处理密钥分发和内网穿透。
+
+    结论：功能上它是这个领域体验最好的，代价是要接受一个中心化的登录环节。清楚这一点再决定。
+  en: |
+    Reaching a machine at home traditionally means wrestling with public IPs, DDNS, port forwarding
+    and firewall rules — and your ISP may not hand out a public IP at all. Tailscale skips the whole
+    chain: install a client on each device, sign in with the same account, and they appear on one
+    virtual private network where they can ping each other, and SSH, remote desktop and NAS access
+    just work.
+
+    Technically it is a wrapper around WireGuard, so encryption and throughput come from WireGuard
+    itself. It establishes peer-to-peer links wherever possible and falls back to a relay only when
+    NAT traversal fails. In daily use the difference is hard to feel.
+
+    Its free boundaries need stating plainly, because they differ from most tools on this site:
+
+    - **The client is BSD-licensed open source, but the coordination server is the company's SaaS**
+      and is not open.
+    - **An account is mandatory** (sign in via Google, GitHub, Microsoft and so on), which is why it
+      does not carry the no-sign-up badge.
+    - The personal free plan allows 100 devices and 3 users — ample for home and solo development —
+      but it is company policy, and policy can change.
+
+    If any of those is a dealbreaker, there are two exits: run the open-source **Headscale** as your
+    own coordination server (Tailscale clients can be pointed straight at it), or write WireGuard
+    configs by hand — more freedom, but key distribution and NAT traversal become your problem.
+
+    Verdict: functionally this is the best experience in the category, and the price is accepting one
+    centralized sign-in step. Decide with that in view.

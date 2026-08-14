@@ -1,0 +1,94 @@
+name: lazygit
+accent: '#2E8B57'
+initials: LG
+category: dev
+price: free
+license: 'MIT'
+website: https://github.com/jesseduffield/lazygit
+download: https://github.com/jesseduffield/lazygit/releases/latest
+repo: https://github.com/jesseduffield/lazygit
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [git, 终端界面, 版本控制, 交互式变基, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 终端里的 Git 界面，暂存和变基不用再背命令
+  en: A Git interface in your terminal — no more memorizing rebase flags
+description:
+  zh: 终端里的 Git 图形界面。在一个窗口里看到分支、提交、暂存区和文件改动，用单键完成暂存、提交、切分支、合并、变基、拣选和撤销。支持逐行暂存和交互式变基，操作可撤销。Windows 版压缩包约 7 MB。
+  en: A terminal user interface for Git. See branches, commits, the staging area and file changes in one window, and stage, commit, switch branches, merge, rebase, cherry-pick and undo with single keystrokes. It supports line-by-line staging and interactive rebase, and actions can be undone. The Windows archive is about 7 MB.
+review:
+  zh: |
+    Git 的命令行很强，但有些操作的心智负担确实高：交互式变基要记参数、
+    只想提交某个文件里的三行要用 `git add -p` 一段段确认、
+    看分支关系要 `git log --graph --oneline --all` 这种一串东西、
+    手滑之后想撤销要现查 reflog 怎么用。
+
+    lazygit 把这些包成了一个终端界面。81,337 颗星，MIT，Go 写的单文件可执行程序，
+    Windows 版解压出来只有 7 MB 左右。
+
+    实际体验里最省事的几件事：
+
+    - **逐行暂存**。进入文件的 diff 视图，用方向键选中要提交的那几行，
+      按空格暂存。把一次混乱的改动拆成几个干净的提交，这是它最常被夸的功能。
+    - **交互式变基可视化**。在提交列表里直接对某个提交按键选择 squash、
+      fixup、drop、reword、edit，不用编辑那个 rebase todo 文件。
+    - **撤销**。按 `z` 撤销上一步操作，它内部靠 reflog 实现。
+      对于"刚才那下按错了"的场景，这比自己查 reflog 快得多。
+    - **一屏看全局**。左边是分支、提交、暂存文件的面板，右边是 diff，
+      切分支、看某个提交改了什么、比较分支差异都在同一个界面里。
+
+    它不是把 Git 简化了，而是**把 Git 已有的能力做成了可见可点的**。
+    你在里面做的每一步都对应一条真实的 git 命令（可以按 `@` 看它执行了什么），
+    所以用它不会让你的 Git 知识退化。
+
+    要说清楚的：
+
+    - **它是终端程序**，不是桌面 GUI。习惯图形窗口、拖拽操作的人可能不适应，
+      那种需求可以看 GitHub Desktop 或 Git Extensions。
+    - **需要先装 Git**。它是 Git 的界面，不是 Git 的替代品。
+    - **快捷键要花一两天肌肉记忆**。界面里按 `x` 随时能调出当前上下文的快捷键列表，
+      不用背。
+    - **不做代码托管平台的事**。Pull Request、Issue、Review 这些要去网页或用 gh 命令。
+
+    如果你每天都在用 Git，并且还在用命令行手工敲那些复杂操作，这个工具大概能给你省下不少时间。
+  en: |
+    Git's command line is powerful, but some operations carry real mental overhead: interactive rebase
+    means remembering flags, committing three lines out of one file means stepping through
+    `git add -p`, seeing branch topology means typing `git log --graph --oneline --all`, and undoing a
+    slip means looking up how reflog works again.
+
+    lazygit wraps all of that in a terminal interface. 81,337 stars, MIT, a single Go binary — the
+    Windows archive unpacks to about 7 MB.
+
+    What it saves most in daily use:
+
+    - **Line-by-line staging.** Open a file's diff, arrow to the lines you want and press space to
+      stage them. Splitting one messy change into several clean commits is its most-praised feature.
+    - **Visual interactive rebase.** Press a key on a commit in the list to squash, fixup, drop,
+      reword or edit — no editing the rebase todo file.
+    - **Undo.** Press `z` to undo the last operation, implemented on top of reflog. For "that
+      keystroke was a mistake", this beats looking reflog up yourself.
+    - **Everything on one screen.** Branch, commit and staging panels on the left, diff on the right —
+      switching branches, inspecting what a commit changed and comparing branches all happen in one
+      view.
+
+    It does not simplify Git so much as **make Git's existing capabilities visible and clickable.**
+    Every action maps to a real git command (press `@` to see what it ran), so using it does not erode
+    your Git knowledge.
+
+    To be clear about:
+
+    - **It is a terminal program,** not a desktop GUI. Anyone who wants windows and drag-and-drop
+      should look at GitHub Desktop or Git Extensions instead.
+    - **Git must be installed.** This is an interface to Git, not a replacement for it.
+    - **Keybindings take a day or two** to become muscle memory. Press `x` at any point for a
+      context-sensitive keybinding list, so there is nothing to memorize.
+    - **It does not do forge features.** Pull requests, issues and reviews belong to the web interface
+      or the `gh` command.
+
+    If you use Git every day and still type out the complicated operations by hand, this will probably
+    save you a meaningful amount of time.

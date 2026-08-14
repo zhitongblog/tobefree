@@ -3,7 +3,7 @@ accent: '#2862E9'
 initials: JO
 category: productivity
 price: free
-license: 'AGPL-3.0'
+license: 'AGPL-3.0（服务端仅限个人使用）'
 website: https://joplinapp.org
 download: https://joplinapp.org/download/
 repo: https://github.com/laurent22/joplin

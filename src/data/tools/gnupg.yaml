@@ -1,0 +1,95 @@
+name: GnuPG
+accent: '#0093DD'
+initials: GP
+category: privacy
+price: free
+license: 'GPL-3.0'
+website: https://gnupg.org
+download: https://gnupg.org/download/
+repo: https://github.com/gpg/gnupg
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [加密, 数字签名, pgp, 邮件加密, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 加密和签名的老标准，三十年了还在用
+  en: The long-standing standard for encryption and signatures
+description:
+  zh: OpenPGP 标准的自由实现，用于加密文件、加密邮件和给数据做数字签名。它是验证软件下载完整性的通用工具（几乎所有开源项目的发布签名都靠它），也是端到端加密邮件的基础设施。Windows 上通常通过 Gpg4win 安装，自带 Kleopatra 图形界面。
+  en: The free implementation of the OpenPGP standard, used to encrypt files and email and to sign data digitally. It is the universal tool for verifying software downloads — nearly every open-source project signs releases with it — and the infrastructure behind end-to-end encrypted email. On Windows it is usually installed via Gpg4win, which includes the Kleopatra graphical interface.
+review:
+  zh: |
+    GnuPG 不是那种"装上就变得更安全"的软件，它是**一件基础设施**。
+    你可能没直接用过它，但你几乎肯定间接依赖过：
+
+    - 你下载的 Linux 发行版镜像、开源软件安装包，官方给的那串签名文件，
+      验证它的就是 GnuPG。这是确认"我下的东西没被中间人换过"的唯一可靠方法。
+    - Git 提交上那个绿色的 Verified 标记，背后是 GPG 签名。
+    - Thunderbird 里的端到端加密邮件、各种发行版的软件源验证，底层都是它。
+
+    它的核心是非对称加密：你有一对密钥，公钥可以随便发给别人，
+    私钥自己保管。别人用你的公钥加密，只有你的私钥能解；
+    你用私钥签名，所有人都能用公钥验证这确实是你发的、且没被改过。
+
+    平台上的实际用法：
+
+    - **Windows** 装 [Gpg4win](https://gpg4win.org)，它打包了 GnuPG 加上 Kleopatra 图形界面，
+      不用碰命令行就能生成密钥、加解密文件、验证签名。
+    - **macOS** 可以用 GPG Suite，或者 `brew install gnupg`。
+    - **Linux** 基本都预装了，命令是 `gpg`。
+
+    必须诚实说明的部分：
+
+    - **它不好学**。密钥、子密钥、信任网、密钥服务器、过期时间、吊销证书——
+      这套概念体系是九十年代设计的，对普通用户不友好，这也是它三十年没能普及到大众的原因。
+      如果你只是想加密几个文件，VeraCrypt 或 Cryptomator 简单得多。
+    - **私钥丢了，加密的东西就永久解不开了**。生成密钥后请立刻做两件事：
+      备份私钥到离线介质、生成吊销证书并单独保存。
+    - **加密邮件有元数据泄露问题**。PGP 加密的是正文，收件人、主题、时间这些依然是明文。
+      要真正的私密通信，Signal 或 SimpleX 是更现代的答案。
+
+    什么时候你真的需要它：验证软件下载的真实性、给代码提交签名、
+    和固定的少数人做加密邮件往来、长期归档加密文件。
+    这些场景里，它至今没有替代品。
+  en: |
+    GnuPG is not software that makes you safer by installing it — it is **infrastructure.** You may
+    never have used it directly, but you have almost certainly depended on it:
+
+    - The signature file published alongside a Linux ISO or an open-source installer is verified with
+      GnuPG. That is the only reliable way to confirm that what you downloaded was not swapped in
+      transit.
+    - The green "Verified" badge on a Git commit is a GPG signature underneath.
+    - End-to-end encrypted mail in Thunderbird and package repository verification across
+      distributions all rest on it.
+
+    At its core is asymmetric cryptography: you hold a key pair, hand out the public key freely and
+    guard the private one. Others encrypt with your public key and only your private key opens it;
+    you sign with the private key and anyone can verify with the public one that the message is
+    genuinely yours and unaltered.
+
+    How it is actually installed:
+
+    - **Windows:** use [Gpg4win](https://gpg4win.org), which bundles GnuPG with the Kleopatra GUI, so
+      generating keys, encrypting files and verifying signatures never requires a terminal.
+    - **macOS:** GPG Suite, or `brew install gnupg`.
+    - **Linux:** almost always preinstalled; the command is `gpg`.
+
+    The honest caveats:
+
+    - **It is hard to learn.** Keys, subkeys, the web of trust, keyservers, expiry dates, revocation
+      certificates — this conceptual apparatus was designed in the 1990s and is unfriendly to ordinary
+      users, which is precisely why thirty years have not made it mainstream. If you only want to
+      encrypt a few files, VeraCrypt or Cryptomator are far simpler.
+    - **Lose the private key and the encrypted data is gone forever.** After generating a key, do two
+      things immediately: back the private key up to offline media, and create a revocation
+      certificate stored separately.
+    - **Encrypted email leaks metadata.** PGP encrypts the body; recipients, subject line and
+      timestamps remain in the clear. For genuinely private conversation, Signal or SimpleX are the
+      modern answers.
+
+    When you genuinely need it: verifying that a download is authentic, signing commits, exchanging
+    encrypted mail with a small fixed group, and archiving encrypted files long-term. For those jobs
+    it still has no replacement.

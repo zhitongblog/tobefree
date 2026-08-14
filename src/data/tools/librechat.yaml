@@ -1,0 +1,86 @@
+name: LibreChat
+accent: '#17A2A2'
+initials: LB
+category: ai
+price: free
+license: 'MIT'
+website: https://www.librechat.ai
+download: https://www.librechat.ai/docs/local
+repo: https://github.com/danny-avila/LibreChat
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [自建chatgpt, 多模型, 多用户, 团队共用, 可自建]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 自己搭一个 ChatGPT，全家或全团队共用
+  en: Host your own ChatGPT for a household or a whole team
+description:
+  zh: 自建的多模型对话平台，界面接近 ChatGPT。支持接入多家云端模型和本地 Ollama，可以创建多个用户账号供团队共用，带对话搜索、自定义助手、文件上传问答和 MCP 工具调用。
+  en: A self-hosted multi-model chat platform with an interface close to ChatGPT's. It connects to several cloud providers and to local Ollama, supports multiple user accounts for team use, and includes conversation search, custom assistants, document Q&A and MCP tool calling.
+review:
+  zh: |
+    Chatbox 解决的是"我一个人要一个好用的客户端"，
+    LibreChat 解决的是"**我们几个人要共用一套 AI 环境**"。
+    42,017 颗星，MIT 开源。
+
+    它是部署在服务器上的网页应用，界面几乎就是 ChatGPT 那一套，
+    上手没有学习成本。管理员在后台配好模型和 key，
+    然后给团队成员各开一个账号——大家共用同一份 API 额度，
+    不用每人去申请一套 key，也不用每人交一份订阅费。
+    对小团队、工作室、实验室、甚至一个家庭来说，这个模式很省。
+
+    模型接入很广：主流云端服务、兼容 OpenAI 接口的各种服务、
+    以及本地的 Ollama 都能接。同一个界面里可以给不同对话选不同模型，
+    也可以让同一个问题同时发给几个模型对比回答。
+
+    功能上比较完整：全文搜索历史对话、自定义助手（预设角色和参数）、
+    上传文档做问答、代码解释器、生成图片、
+    以及 MCP 支持（让模型调用外部工具）。
+    管理端能看用量统计，也能给不同用户设权限和额度。
+
+    要接受的成本：
+
+    - **必须自己部署**。官方提供 Docker Compose 配置，
+      文档写得详细，但需要一台服务器和基本的运维能力。
+      不想折腾的话，个人用 Chatbox 更直接。
+    - **模型费用另算**。软件免费，但你接的云端模型按 token 收费，
+      账单来自模型服务商。全部用本地 Ollama 则完全免费，
+      代价是能力上限受本地硬件限制。
+    - **需要照看安全**。既然是多人访问的网页服务，
+      HTTPS、登录策略、是否暴露到公网这些要认真配置。
+
+    适合谁：需要给一小群人提供统一 AI 入口，
+    又不想按人头买商业订阅、不想让对话记录落在别人服务器上的组织。
+  en: |
+    Chatbox answers "I want a good client for myself." LibreChat answers "**we need a shared AI
+    environment for several people.**" 42,017 stars, MIT-licensed.
+
+    It is a web application deployed on a server, with an interface close enough to ChatGPT's that
+    nobody needs training. An administrator configures models and keys once, then issues accounts to
+    team members who share the same API allowance — no key per person, no subscription per person. For
+    a small team, a studio, a lab or even a household, the economics are compelling.
+
+    Model connectivity is broad: mainstream cloud providers, any OpenAI-compatible endpoint, and local
+    Ollama. Different conversations can use different models in the same interface, and the same
+    question can be sent to several models at once for comparison.
+
+    The feature set is complete: full-text search across conversation history, custom assistants with
+    preset roles and parameters, document upload for Q&A, a code interpreter, image generation, and
+    MCP support for tool calling. The admin side shows usage statistics and allows per-user
+    permissions and quotas.
+
+    Costs to accept:
+
+    - **You must deploy it yourself.** Official Docker Compose configuration and thorough
+      documentation exist, but a server and basic operational skills are required. For solo use
+      without the hassle, Chatbox is more direct.
+    - **Model costs are separate.** The software is free; cloud models you connect bill per token,
+      invoiced by the provider. Running entirely on local Ollama is free, bounded by your hardware.
+    - **Security is your responsibility.** As a multi-user web service, HTTPS, login policy and
+      whether to expose it publicly all need deliberate configuration.
+
+    Who it suits: organizations that need one AI entry point for a small group without buying
+    commercial seats per person, and without conversation history landing on someone else's servers.

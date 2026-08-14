@@ -20,3 +20,23 @@ tagline:
 description:
   zh: 用维基的方式维护本地笔记的开源桌面应用，所有内容以纯文本文件存储，支持页面互链、附件、任务清单，还有公式编辑、版本控制等插件扩展。
   en: An open-source desktop app that maintains local notes like a wiki. Everything is stored as plain-text files, with inter-page links, attachments and task lists, plus plugins for equations, version control and more.
+review:
+  zh: |
+    Zim 是这批里最朴素的一个：2,193 颗星，GPL-2.0，桌面维基，笔记以纯文本文件夹形式存在硬盘上。
+
+    界面谈不上好看，更新也最慢（最近一次提交是 2026 年 7 月 26 日）。但它换来的是极轻和极稳——
+    在配置很老的机器上照样开得动，格式简单到十年后用记事本也能打开。
+
+    适合两种人：机器性能有限的，和只想要一个不会被厂商改来改去的纯文本知识库的。
+    要花哨功能就别看它了。
+  en: |
+    Zim is the plainest of this group: 2,193 stars, GPL-2.0, a desktop wiki that stores notes as a
+    folder of plain text files on disk.
+
+    The interface is not pretty and updates are the slowest here — the most recent commit was 26
+    July 2026. What you get in return is lightness and stability: it runs on old hardware, and the
+    format is simple enough to open in a text editor a decade from now.
+
+    It suits two kinds of people: those on limited hardware, and those who just want a plain-text
+    knowledge base no vendor will redesign out from under them. Look elsewhere for bells and
+    whistles.

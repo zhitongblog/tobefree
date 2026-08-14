@@ -1,0 +1,101 @@
+name: Tails
+accent: '#56347C'
+initials: TA
+category: privacy
+price: free
+license: 'GPL-3.0'
+website: https://tails.net
+download: https://tails.net/install/
+repo: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [匿名系统, live系统, tor, 不留痕迹, u盘启动]
+platforms: [linux]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 从 U 盘启动的系统，关机后什么都不剩
+  en: An operating system on a USB stick that forgets everything at shutdown
+description:
+  zh: 基于 Debian 的便携操作系统，从 U 盘启动，全部网络流量强制经过 Tor。默认只在内存里运行，关机后不留任何痕迹——不写入电脑硬盘，也不保留本次会话的记录。由 Tor Project 开发，2024 年双方正式合并。
+  en: A portable Debian-based operating system that boots from a USB stick and forces all network traffic through Tor. By default it runs entirely in RAM and leaves no trace at shutdown — nothing is written to the computer's disk and no record of the session survives. It is developed by the Tor Project, which merged with the Tails project in 2024.
+review:
+  zh: |
+    Tails 解决的是一个别的工具都解决不了的问题：**你不信任你正在用的这台电脑**。
+
+    Tor Browser 能保护你的浏览流量，但它跑在你的操作系统上——
+    如果系统里有键盘记录器、如果硬盘会留下缓存和日志、
+    如果这台电脑不是你的，那浏览器再安全也没用。
+
+    Tails 的做法是把整个操作系统换掉。你把它写进一个 U 盘，
+    插到任何一台电脑上从 U 盘启动，进入的是一个干净的 Debian 系统。
+    这台电脑原本的 Windows 或 macOS 完全不被触碰，也不被读取。
+    **全部网络流量强制走 Tor**，不走 Tor 的连接会被直接阻断，
+    没有"忘了开代理"这种可能。
+
+    最关键的设计是**遗忘**。系统运行在内存里，关机的一刻，
+    这次会话的一切——打开过的网页、下载的文件、临时密钥——全部随内存一起消失。
+    下次启动又是全新的。这就是它名字里 "Amnesic"（失忆）的含义。
+
+    如果你确实需要保存点东西，它提供**加密的持久存储卷**：
+    在 U 盘上划一块加密区域，明确指定哪些内容（比如你的 GPG 密钥、
+    某个工作目录）需要跨会话保留。这是可选的，默认关闭。
+
+    它的可信度背书很硬：由 Tor Project 开发（2024 年两个项目正式合并），
+    斯诺登、EFF、Access Now 等都公开推荐过。系统里预装了 Tor Browser、
+    KeePassXC、Thunderbird、GnuPG、Electrum 等一整套隐私工具。
+
+    要非常清楚的边界：
+
+    - **它不是日常系统**。每次启动都是新的，你的软件、设置、文件都不在，
+      开机还得插 U 盘。它是为特定场景准备的工具，不是 Windows 的替代品。
+    - **它保护不了你的行为习惯**。用 Tails 登录你的实名社交账号，
+      匿名性瞬间归零。工具只负责技术层面，操作纪律得你自己守。
+    - **速度慢**。Tor 网络本身有延迟，U 盘读写也不快，别期待流畅体验。
+    - **安装要花点时间**，官方安装向导写得很细，按步骤走即可，不要从非官方渠道下载镜像。
+
+    适合谁：记者和消息源、人权工作者、需要在不属于自己的电脑上处理敏感事务的人，
+    以及任何"这次上网不希望留下任何痕迹"的场景。
+    日常隐私需求用 LibreWolf 加 uBlock Origin 就够了，不必上这个。
+  en: |
+    Tails solves a problem no other tool addresses: **you do not trust the computer you are sitting
+    at.**
+
+    Tor Browser protects your browsing traffic, but it runs on your operating system — and if that
+    system has a keylogger, if the disk retains caches and logs, or if the machine is not yours, no
+    amount of browser security helps.
+
+    Tails replaces the operating system instead. You write it to a USB stick, boot any computer from
+    that stick, and land in a clean Debian system. The machine's own Windows or macOS install is
+    neither touched nor read. **All network traffic is forced through Tor**, and connections that
+    would bypass Tor are blocked outright, so "I forgot to turn the proxy on" cannot happen.
+
+    The defining design choice is **forgetting.** The system runs in RAM, and at shutdown everything
+    from that session — pages visited, files downloaded, temporary keys — disappears with the memory.
+    The next boot starts fresh. That is what the "amnesic" in its description means.
+
+    When you genuinely need to keep something, it offers an **encrypted Persistent Storage** volume:
+    an encrypted region on the USB stick where you explicitly designate what survives between
+    sessions, such as your GPG keys or a working directory. It is optional and off by default.
+
+    Its credibility is well established: developed by the Tor Project, with which Tails formally
+    merged in 2024, and publicly recommended by Edward Snowden, the EFF and Access Now. The system
+    ships with Tor Browser, KeePassXC, Thunderbird, GnuPG, Electrum and a full set of privacy tools.
+
+    Be very clear about the boundaries:
+
+    - **It is not a daily driver.** Every boot is new: your software, settings and files are absent,
+      and you need the USB stick to start. It is a tool for specific situations, not a Windows
+      replacement.
+    - **It cannot protect you from your own behavior.** Log into a real-name social account inside
+      Tails and anonymity evaporates instantly. The technical layer is its job; operational discipline
+      is yours.
+    - **It is slow.** The Tor network adds latency and USB storage is not fast. Do not expect a
+      smooth experience.
+    - **Installation takes some time.** The official installation wizard is thorough — follow it, and
+      never download the image from an unofficial source.
+
+    Who it suits: journalists and their sources, human rights workers, anyone handling sensitive
+    matters on a computer they do not own, and any situation where this session must leave no trace.
+    For everyday privacy, LibreWolf plus uBlock Origin is enough — you do not need this.

@@ -1,0 +1,98 @@
+name: Pandoc
+accent: '#1F5C8B'
+initials: PD
+category: office
+price: free
+license: 'GPL-2.0'
+website: https://pandoc.org
+download: https://pandoc.org/installing.html
+repo: https://github.com/jgm/pandoc
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [格式转换, markdown, word, latex, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 文档格式之间的万能转换器
+  en: The universal translator between document formats
+description:
+  zh: 文档格式转换工具，支持数十种输入和输出格式之间的互转：Markdown、Word、HTML、LaTeX、EPUB、PDF、reStructuredText、Org-mode、Jupyter 笔记本等。可以套用模板、自动生成目录、处理参考文献和引用。Windows 安装包约 39 MB。
+  en: A document conversion tool that translates between dozens of input and output formats — Markdown, Word, HTML, LaTeX, EPUB, PDF, reStructuredText, Org-mode, Jupyter notebooks and more. It applies templates, generates tables of contents automatically, and handles bibliographies and citations. The Windows installer is about 39 MB.
+review:
+  zh: |
+    "把这份 Markdown 转成 Word 交给领导""把这堆 Word 转成网页发布"
+    "把博客文章打包成 EPUB""把论文从 Markdown 排成 LaTeX 的 PDF"——
+    这类需求以前要么手动复制粘贴重排，要么在网上找转换网站（还要上传文件）。
+
+    Pandoc 是这个问题的通用解。45,864 颗星，作者是学者 John MacFarlane，
+    维护快二十年了。它的工作方式是把任何输入格式先解析成统一的中间文档结构，
+    再输出成任何目标格式——所以支持的组合是"输入格式数 × 输出格式数"，非常庞大。
+
+    最常用的几条路径：
+
+    - **Markdown → Word**：写作用 Markdown（舒服），交付用 .docx（对方要求）。
+      可以指定一个 Word 模板文件，让输出直接符合公司或期刊的格式规范。
+    - **Markdown → PDF**：底层调 LaTeX 排版，出来的 PDF 质量远超浏览器打印。
+      这条路径需要额外装一个 LaTeX 发行版（TeX Live 或 MiKTeX），体积不小。
+    - **Word → Markdown**：把别人发来的 .docx 转成纯文本，方便进版本管理或静态博客。
+    - **一堆 Markdown → EPUB**：自己写的东西打包成电子书。
+    - **HTML → 任何格式**：网页存档转可编辑文档。
+
+    进阶能力里最值得说的是**参考文献处理**：配合 BibTeX 或 CSL 文件，
+    它能自动生成符合指定引用格式（APA、MLA、GB/T 7714 等）的文内引用和参考文献列表。
+    写论文的人省下的时间非常可观。
+
+    要有准备的：
+
+    - **它是命令行工具**。基本用法是 `pandoc 输入.md -o 输出.docx`，
+      很简单，但确实要打命令。不想碰命令行的话，
+      很多编辑器（VS Code、Typora、Obsidian 的导出插件）内部就是调用它，
+      你可以间接享受成果。
+    - **复杂排版不会 100% 还原**。Word 里精细调过的样式、
+      浮动图文混排、复杂表格，转换后可能需要手工微调。简单文档基本无损。
+    - **转 PDF 需要额外装 LaTeX**，这一步是很多人卡住的地方，
+      官方文档里也可以选用 wkhtmltopdf 或 weasyprint 作为更轻的替代引擎。
+
+    它属于那种"平时不用，用到的时候能省一整天"的工具，建议提前装好。
+  en: |
+    "Convert this Markdown to Word for my manager." "Turn these Word files into web pages."
+    "Package these blog posts as an EPUB." "Typeset this Markdown paper into a LaTeX PDF." These
+    tasks used to mean manual copy-paste reformatting, or a conversion website that wants your file
+    uploaded.
+
+    Pandoc is the general solution. 45,864 stars, written by the scholar John MacFarlane and
+    maintained for nearly two decades. It parses any input format into a single intermediate document
+    structure and then writes any target format, so the supported combinations multiply out to an
+    enormous matrix.
+
+    The most-used paths:
+
+    - **Markdown → Word:** write in Markdown because it is comfortable, deliver .docx because that is
+      what was asked for. Supply a Word template file and the output conforms to a company or journal
+      style automatically.
+    - **Markdown → PDF:** typeset through LaTeX underneath, producing quality far beyond browser
+      printing. This path requires installing a LaTeX distribution (TeX Live or MiKTeX), which is not
+      small.
+    - **Word → Markdown:** turn someone's .docx into plain text for version control or a static blog.
+    - **A folder of Markdown → EPUB:** package your own writing as an ebook.
+    - **HTML → anything:** convert archived web pages into editable documents.
+
+    Among the advanced capabilities, **bibliography handling** is the standout: with a BibTeX or CSL
+    file it generates in-text citations and reference lists conforming to a specified style (APA, MLA
+    and many others). For anyone writing papers, the time saved is substantial.
+
+    Be prepared for:
+
+    - **It is a command-line tool.** The basic form is `pandoc input.md -o output.docx` — simple, but
+      typed. If you would rather not, many editors (VS Code, Typora, Obsidian export plugins) call it
+      internally, so you benefit indirectly.
+    - **Complex layouts do not round-trip perfectly.** Finely styled Word documents, floating
+      text-wrapped images and intricate tables may need manual touch-up. Simple documents convert
+      essentially losslessly.
+    - **PDF output needs LaTeX installed,** which is where most people get stuck; the documentation
+      also covers lighter alternative engines such as wkhtmltopdf and weasyprint.
+
+    It is the kind of tool you do not use daily and that saves an entire day when you do. Worth
+    installing before you need it.

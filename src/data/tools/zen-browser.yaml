@@ -1,0 +1,54 @@
+name: Zen Browser
+accent: '#F76F53'
+initials: ZE
+category: browser
+price: free
+license: 'MPL-2.0'
+website: https://zen-browser.app
+download: https://zen-browser.app/download
+repo: https://github.com/zen-browser/desktop
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [浏览器, firefox, 分屏, 工作区, 极简]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 把浏览器界面收进侧边，专心看内容
+  en: Puts the browser's chrome on the side so the page can breathe
+description:
+  zh: 基于 Firefox 的开源浏览器，主打纵向标签栏、工作区分组和同屏分栏。界面尽量隐藏，把屏幕让给网页本身。不含广告、不含遥测，可以装 Firefox 扩展。
+  en: An open-source Firefox-based browser built around vertical tabs, workspaces and split views. The interface stays out of the way so the page gets the screen. No ads, no telemetry, and Firefox extensions work.
+review:
+  zh: |
+    Zen 是这两年冒出来最快的浏览器项目之一，43,921 颗星，MPL-2.0 开源。它想解决的问题很具体：
+    宽屏显示器上，浏览器的工具栏、标签栏、地址栏加起来吃掉了顶部一大条，而网页其实只需要中间那块。
+
+    它的做法是把标签栏竖过来放侧边并可收起，再配上工作区（把「工作」「学习」「杂事」的标签分开，
+    互不干扰）和同屏分栏（两个网页并排，改文档时对着资料看很顺手）。底子是 Firefox，
+    所以扩展生态直接继承，uBlock Origin 之类照装不误。
+
+    必须提醒的是**它还很年轻**。当前版本号仍带 beta 标记（1.21.14b），发布节奏是几乎每周一版，
+    界面和快捷键在版本之间可能变。想要一个五年不变的稳定环境，现在还不是它；
+    想尝试一种明显不同的浏览方式、并且不介意偶尔跟着更新调整习惯，它很值得试。
+
+    如果你喜欢它的思路但需要更成熟的方案，可以看 Vivaldi——功能更全，代价是不开源。
+  en: |
+    Zen is one of the fastest-rising browser projects of the last couple of years: 43,921 stars,
+    MPL-2.0. The problem it attacks is specific — on a widescreen monitor, the toolbar, tab strip and
+    address bar eat a thick band across the top, when all you actually need is the page.
+
+    Its answer is to turn the tab strip vertical and collapsible, then add workspaces (keep "work",
+    "study" and "errands" tabs in separate lanes) and split view (two pages side by side, which is
+    excellent when writing against a reference). The base is Firefox, so the extension ecosystem
+    comes along — uBlock Origin and friends install as usual.
+
+    The caveat worth stating: **it is young.** The current version still carries a beta marker
+    (1.21.14b) and releases land close to weekly, so UI and shortcuts can shift between builds. If
+    you want an environment that will look identical in five years, this is not it yet. If you want a
+    genuinely different way of browsing and do not mind adjusting occasionally, it is well worth a
+    try.
+
+    If you like the idea but want something more settled, look at Vivaldi — more features, at the
+    cost of not being open source.

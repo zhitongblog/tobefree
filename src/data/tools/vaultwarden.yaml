@@ -1,0 +1,74 @@
+name: Vaultwarden
+accent: '#1F7A3D'
+initials: VW
+category: selfhosted
+price: free
+license: 'AGPL-3.0'
+website: https://github.com/dani-garcia/vaultwarden
+download: https://github.com/dani-garcia/vaultwarden/releases/latest
+repo: https://github.com/dani-garcia/vaultwarden
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [密码管理, 自建服务器, bitwarden兼容, rust, 可自建]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自己搭一台密码库服务器，官方客户端照常用
+  en: Run your own password vault server — the official clients still work
+description:
+  zh: 用 Rust 重写的 Bitwarden 兼容服务端，资源占用极小，一台树莓派就能跑。Bitwarden 官方的浏览器扩展、手机 App 和桌面客户端可以直接连上来，密码数据存在你自己的机器上。
+  en: A Bitwarden-compatible server rewritten in Rust with a tiny footprint — a Raspberry Pi runs it comfortably. Bitwarden's official browser extensions, mobile apps and desktop clients connect to it directly, while the vault data lives on your machine.
+review:
+  zh: |
+    Bitwarden 本身已经是很好的密码管理器，官方也允许你自建服务端。
+    问题是官方服务端是一整套 .NET 加 SQL Server 的东西，跑起来相当重。
+
+    Vaultwarden 的价值就在这：**同样的 API，用 Rust 重写，占用小到可以忽略**。
+    65,396 颗星，AGPL-3.0。一台树莓派、一个几十兆的容器就能承载全家人的密码库，
+    而你继续用 Bitwarden 官方的浏览器扩展和手机 App——客户端一行代码都不用改，
+    只需要在设置里把服务器地址指向自己的域名。
+
+    还有一个很多人看重的点：Bitwarden 官方的一些付费功能（比如 TOTP 双因素验证码存储、
+    附件、组织和共享集合），在 Vaultwarden 上是全部开放的。这不是破解，
+    是它自己实现了这些 API——但如果你用得上，也请考虑给上游的 Bitwarden 和本项目捐赠。
+
+    必须严肃说明的几件事，因为这是密码：
+
+    - **它是社区项目，不是 Bitwarden 官方产品**，安全审计的强度和官方托管服务不在一个量级。
+      密码库本身是端到端加密的（服务器看不到明文），但服务器的运维安全归你负责。
+    - **必须配 HTTPS**，且不要直接暴露在公网上裸奔。常见做法是套在反向代理后面，
+      或者只在自己的内网 / Tailscale 网络内访问。
+    - **备份，备份，备份**。这台机器上的数据库丢了，等于所有账号密码一起丢。
+
+    如果你没有维护服务器的意愿或经验，用 Bitwarden 官方的免费托管版更稳妥——
+    它的免费额度对个人已经足够。Vaultwarden 是给"我就是要自己掌控"的人准备的。
+  en: |
+    Bitwarden is already an excellent password manager, and the company allows self-hosting. The
+    problem is that the official server is a full .NET plus SQL Server stack and is fairly heavy to
+    run.
+
+    That is Vaultwarden's value: **the same API, rewritten in Rust, with a footprint small enough to
+    ignore.** 65,396 stars, AGPL-3.0. A Raspberry Pi or a container of a few dozen megabytes can hold
+    the whole family's vault, and you keep using Bitwarden's official browser extensions and mobile
+    apps — no client changes at all, just point the server URL at your own domain in settings.
+
+    Another point many people value: several of Bitwarden's paid features — TOTP code storage,
+    attachments, organizations and shared collections — are all available here. This is not a crack;
+    the project implements those APIs itself. If you rely on them, consider donating to both upstream
+    Bitwarden and this project.
+
+    Some things must be stated seriously, because this is passwords:
+
+    - **It is a community project, not an official Bitwarden product,** and the depth of security
+      auditing is not comparable to the hosted service. The vault itself is end-to-end encrypted (the
+      server never sees plaintext), but the operational security of that server is now your job.
+    - **HTTPS is mandatory,** and do not expose it bare to the internet. The common approach is behind
+      a reverse proxy, or reachable only on your LAN or Tailscale network.
+    - **Back it up, repeatedly.** Losing the database on that machine means losing every account
+      credential at once.
+
+    If you have neither the appetite nor the experience for server maintenance, Bitwarden's official
+    free hosted tier is the safer choice — its free allowance is ample for an individual. Vaultwarden
+    is for people who specifically want to hold the keys themselves.

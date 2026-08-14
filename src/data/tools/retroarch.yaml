@@ -1,0 +1,80 @@
+name: RetroArch
+accent: '#1B1B1B'
+initials: RA
+category: gaming
+price: free
+license: 'GPL-3.0'
+website: https://www.retroarch.com
+download: https://www.retroarch.com/?page=platforms
+repo: https://github.com/libretro/RetroArch
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [模拟器, 复古游戏, 手柄, 全平台, 开源]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 一个界面，装下所有老主机模拟器
+  en: One interface for every retro console emulator
+description:
+  zh: 模拟器的统一前端。红白机、超任、世嘉、GBA、PS1、街机等各平台的模拟器以"核心"的形式装进同一个程序，共用一套界面、手柄配置、存档、即时回放和画面滤镜。覆盖 Windows、macOS、Linux、安卓、iOS 和各种掌机系统。
+  en: A unified front end for emulators. Systems from the NES and SNES through Sega, Game Boy Advance, PlayStation and arcade boards load as "cores" inside one program, sharing a single interface, controller mapping, save system, rewind feature and video filters. It runs on Windows, macOS, Linux, Android, iOS and a long list of handheld systems.
+review:
+  zh: |
+    玩老游戏最烦的不是找模拟器，是**每个平台一个模拟器**：
+    界面不一样、手柄要重新配一遍、存档格式各不相同、画面设置各调各的。
+
+    RetroArch 的解法是做一个统一的壳。各个平台的模拟器被封装成"核心"，
+    在它的界面里一键下载安装，之后所有平台共用同一套操作逻辑：
+    手柄配一次全部通用、统一的存档和即时存档、统一的截图和录像。
+
+    它还带来一些单个模拟器很难提供的能力：
+
+    - **即时回放**（rewind）：打错了按一下倒带，回到几秒前重来。
+    - **运行时快进**：刷剧情、跑图的时候按住加速。
+    - **着色器滤镜**：可以模拟当年 CRT 显像管的扫描线和圆角，
+      也可以用现代算法把画面锐化放大，看个人口味。
+    - **网络联机**：部分核心支持联网对战，异地也能一起打。
+
+    覆盖面是它另一个杀手锏——同一份配置可以在电脑、安卓手机、
+    iOS、树莓派、甚至各种开源掌机上重现。
+
+    要说清楚的：
+
+    - **上手不算容易**。它的菜单是为手柄操作设计的，层级比较深，
+      第一次配置核心、目录、手柄会花点时间。习惯之后效率很高，但不是"打开就玩"。
+    - **游戏和 BIOS 要自己准备**。RetroArch 不提供任何游戏文件，
+      部分核心（如 PS1）需要你自己提供合法获得的 BIOS。请只运行你拥有合法副本的游戏。
+    - **注意山寨版**。应用商店里有不少打着 RetroArch 旗号、挂广告甚至收费的仿冒品。
+      认准 retroarch.com 官网或官方 GitHub Releases。
+  en: |
+    The annoying part of playing old games is not finding an emulator — it is that **every system
+    needs a different one**: different interfaces, controller mappings redone each time, incompatible
+    save formats, video settings tuned separately.
+
+    RetroArch's answer is a single shell. Individual emulators are packaged as "cores", installable
+    from within its interface, after which every system shares the same operating logic: map the
+    controller once, one save and save-state system, one screenshot and recording pipeline.
+
+    It also brings capabilities individual emulators rarely offer:
+
+    - **Rewind:** mistime a jump and roll the game back a few seconds to try again.
+    - **Fast forward:** hold a button to skip through dialogue or backtracking.
+    - **Shader filters:** simulate the scanlines and rounded corners of a period CRT, or upscale with
+      modern algorithms — whichever you prefer.
+    - **Netplay:** some cores support online multiplayer across locations.
+
+    Its reach is the other advantage — the same configuration reappears on a desktop, an Android
+    phone, iOS, a Raspberry Pi and a variety of open handhelds.
+
+    To be clear about:
+
+    - **It is not effortless to learn.** The menu is designed for controller navigation and runs deep,
+      so first-time setup of cores, directories and controllers takes a while. It is efficient once
+      internalized, but it is not "open and play".
+    - **Bring your own games and BIOS files.** RetroArch ships no game content, and some cores (the
+      PlayStation one, for example) require a BIOS you obtained legally. Only run games you legitimately
+      own.
+    - **Watch out for imitations.** App stores carry ad-laden and even paid knockoffs trading on the
+      RetroArch name. Use retroarch.com or the official GitHub releases.

@@ -1,0 +1,80 @@
+name: Actual Budget
+accent: '#6B46C1'
+initials: AB
+category: finance
+price: free
+license: 'MIT'
+website: https://actualbudget.org
+download: https://actualbudget.org/docs/install/
+repo: https://github.com/actualbudget/actual
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [预算, 信封记账, 本地优先, 可自建, 端到端加密]
+platforms: [windows, macos, linux, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 信封预算法，把每一块钱都先分配好工作
+  en: Envelope budgeting — give every dollar a job before you spend it
+description:
+  zh: 采用信封预算法（零基预算）的开源理财工具：把这个月实际有的钱分配到各个类别，超支的类别必须从别处调剂。数据本地优先，可以自建同步服务器实现多设备同步，同步内容端到端加密。
+  en: "An open-source budgeting app built on envelope (zero-based) budgeting: allocate the money you actually have across categories, and an overspent category must be covered by moving money from another. It is local-first, with an optional self-hosted sync server and end-to-end encrypted sync."
+review:
+  zh: |
+    Actual 的核心方法叫**零基预算**：不是记录你花了什么，而是在花之前，
+    把账户里现有的每一块钱分配到具体类别——房租、吃饭、油费、给孩子的补习班。
+    分完为止，不能预支下个月的钱。某个类别花超了？必须从另一个类别里挪，
+    这个动作会逼你面对"那这个月哪里要少花"这个真问题。
+
+    这套方法本身不新（YNAB 把它做成了付费产品，一年几百块），
+    Actual 的价值在于**它是 MIT 开源的，而且数据在你自己手里**。
+    28,135 颗星。
+
+    技术上它是本地优先的：数据先存在本地，界面响应是即时的，断网完全可用。
+    如果要在电脑和手机之间同步，可以自己搭一个同步服务器（官方有 Docker 镜像），
+    同步的内容端到端加密——服务器只是个中转，看不到你的账目。
+    不想自建的话，也有官方提供的托管服务（收费），或者干脆就单机用。
+
+    实际体验里做得好的几处：录入交易时会自动补全收款方和类别；
+    支持规则自动分类；可以导入 YNAB4、nYNAB 和 CSV 的历史数据；
+    报表能看类别趋势和净资产变化。界面是现代 Web 风格，比 GnuCash 舒服很多。
+
+    要说清楚的限制：
+
+    - **国内银行没有自动对接**。国外用户可以通过第三方服务同步银行流水，
+      国内基本只能手动录入或导入 CSV/账单文件。这是它在国内最大的摩擦点。
+    - **它是预算工具，不是会计软件**。没有复式记账、没有发票和应收应付、
+      不适合做企业账。要那个用 GnuCash。
+
+    适合谁：想认真控制月度开销、愿意每周花十分钟对一下账的个人和家庭。
+  en: |
+    Actual's method is **zero-based budgeting**: rather than recording what you spent, you assign
+    every dollar currently in your accounts to a specific category — rent, groceries, fuel, the kids'
+    lessons — before spending any of it. When it is all assigned, you stop; you cannot borrow from
+    next month. Overspend a category and you must move money from another, an action that forces the
+    real question: where does this month spend less?
+
+    The method is not new — YNAB built a paid product on it — and Actual's contribution is that
+    **it is MIT-licensed open source and the data stays yours.** 28,135 stars.
+
+    Technically it is local-first: data lives locally, the interface responds instantly, and it works
+    fully offline. To sync between a computer and a phone you can run your own sync server (an
+    official Docker image exists), with sync content end-to-end encrypted so the server is only a
+    relay and cannot read your books. There is also an official paid hosted option, or you can simply
+    stay single-device.
+
+    Things it does well in practice: payee and category autocompletion during entry, rule-based
+    automatic categorization, imports from YNAB4, nYNAB and CSV, and reports covering category trends
+    and net worth over time. The interface is modern web styling and far more pleasant than GnuCash's.
+
+    Limits to be clear about:
+
+    - **Automatic bank connections are region-limited.** Users in some countries can sync transactions
+      through third-party aggregators; elsewhere it is manual entry or CSV import. This is the biggest
+      friction point depending on where you bank.
+    - **It is a budgeting tool, not accounting software.** No double-entry, no invoices or
+      receivables, not suited to company books. Use GnuCash for that.
+
+    Who it suits: individuals and households who want real control over monthly spending and are
+    willing to spend ten minutes a week reconciling.

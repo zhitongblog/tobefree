@@ -1,0 +1,92 @@
+name: Proton VPN
+accent: '#6D4AFF'
+initials: PV
+category: privacy
+price: freemium
+license: 'GPL-3.0 · 客户端开源'
+website: https://protonvpn.com
+download: https://protonvpn.com/download
+repo: https://github.com/ProtonVPN
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [vpn, 免费不限流量, 无日志, 瑞士, 开源客户端]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform]
+tagline:
+  zh: 免费版不限流量的 VPN，这在行业里几乎是孤例
+  en: A free VPN tier with no data cap — nearly unique in this industry
+description:
+  zh: 瑞士公司 Proton 提供的 VPN 服务，全部客户端开源并经过独立审计。免费版不限流量、不限速、没有广告，可同时连接 1 台设备，服务器国家有限。采用无日志政策，不记录你的浏览活动。
+  en: A VPN from the Swiss company Proton, with all clients open source and independently audited. The free tier has no data cap, no speed limit and no ads, allows one device at a time, and offers a limited set of server countries. It operates under a no-logs policy and does not record your browsing activity.
+review:
+  zh: |
+    "免费 VPN"通常是一个危险的词。这个行业的免费产品，商业模式往往就是你本人：
+    卖你的浏览数据、往页面里注入广告、把你的设备当出口节点转卖流量。
+    出过事的免费 VPN 名单很长。
+
+    Proton VPN 值得单独拿出来说，因为它的免费版有一个行业里罕见的特征：**不限流量**。
+    官方页面明确写着 "Unlimited and free forever"、"no data or speed limits"。
+    绝大多数竞品的免费档要么每月给几个 GB，要么限速到不可用。
+
+    它敢这么做，是因为收入来自付费订阅用户，而不是来自免费用户的数据。
+    公司在瑞士（隐私法律环境较好），母公司就是做加密邮件 Proton Mail 的那家。
+
+    可以核实的几点：
+
+    - **客户端全部开源**（GPL-3.0，代码在 GitHub 上），并且做过第三方独立安全审计，
+      审计报告公开。这比任何"我们绝不记录"的口头承诺都有价值。
+    - **无日志政策**，官方声明不记录浏览活动。
+    - **免费版没有广告**，不注入任何东西到你的网页里。
+
+    免费版的实际限制，说清楚：
+
+    - **同时只能连 1 台设备**。手机和电脑要来回切。
+    - **可选服务器国家很少**（付费版是 110 多个国家）。高峰期免费节点会比较挤，速度不稳定。
+    - **没有 P2P 和流媒体解锁**这类高级功能，Secure Core 多跳也是付费的。
+
+    所以它适合：偶尔在公共 Wi-Fi 上保护一下流量、临时访问某些内容、
+    对隐私有要求但不想为此付费的人。如果你要常年高速使用、多设备同时在线，
+    那要么付费，要么考虑自建（用 WireGuard 或 Tailscale 在自己的服务器上搭一个，
+    完全可控，成本只有一台便宜的云主机）。
+
+    另外提醒：**VPN 不等于匿名**。它把你的流量交给了 VPN 服务商而不是运营商，
+    是信任转移，不是信任消除。要真正的匿名，看 Tor Browser 或 Tails。
+  en: |
+    "Free VPN" is usually a warning sign. In this industry the free product's business model is often
+    you: selling your browsing data, injecting ads into pages, or reselling your device as an exit
+    node. The list of free VPNs caught doing this is long.
+
+    Proton VPN deserves separate mention because its free tier has a property that is rare in the
+    category: **no data cap.** The official page states plainly that it is "unlimited and free
+    forever" with "no data or speed limits". Most competitors' free tiers either allow a few gigabytes
+    a month or throttle to the point of uselessness.
+
+    It can afford this because revenue comes from paying subscribers rather than from free users' data.
+    The company is Swiss, with its relatively strong privacy law, and is the same organization behind
+    the encrypted mail service Proton Mail.
+
+    Verifiable points:
+
+    - **All clients are open source** (GPL-3.0, code on GitHub) and have undergone third-party
+      security audits with published reports. That is worth considerably more than a verbal "we never
+      log" promise.
+    - **A no-logs policy,** with the company stating it does not record browsing activity.
+    - **The free tier carries no ads** and injects nothing into your pages.
+
+    The free tier's real limits, stated plainly:
+
+    - **One device at a time.** Switching between phone and laptop means disconnecting one.
+    - **Few server countries** (paid plans advertise 110+). Free servers get crowded at peak hours and
+      speeds fluctuate.
+    - **No P2P or streaming-oriented features,** and multi-hop Secure Core is paid.
+
+    So it suits: occasionally protecting traffic on public Wi-Fi, reaching content temporarily, and
+    anyone who wants privacy without paying for it. For sustained high-speed use across several
+    devices, either pay, or consider self-hosting — WireGuard or Tailscale on your own server gives
+    full control for the price of a cheap cloud VM.
+
+    One more caution: **a VPN is not anonymity.** It hands your traffic to a VPN provider instead of
+    your ISP — that is a transfer of trust, not its elimination. For genuine anonymity, look at Tor
+    Browser or Tails.

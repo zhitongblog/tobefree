@@ -1,7 +1,7 @@
 name: Tor Browser
 accent: '#7D4698'
 initials: TB
-category: privacy
+category: browser
 price: free
 license: 'MPL-2.0'
 website: https://www.torproject.org

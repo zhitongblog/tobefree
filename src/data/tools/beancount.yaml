@@ -1,0 +1,97 @@
+name: Beancount
+accent: '#2E5B8A'
+initials: BC
+category: finance
+price: free
+license: 'GPL-2.0'
+website: https://beancount.github.io
+download: https://pypi.org/project/beancount/
+repo: https://github.com/beancount/beancount
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [纯文本记账, 复式记账, 命令行, git版本管理, 程序员记账]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 账本就是一个文本文件，能进 Git
+  en: Your ledger is a text file — and it belongs in Git
+description:
+  zh: 纯文本复式记账工具。账本是人类可读的文本文件，用命令行工具校验和查询，配套的 Fava 提供网页报表界面。数据格式开放且永久可读，可以用 Git 做版本管理，也能用脚本批量处理。
+  en: Plain-text double-entry accounting. The ledger is a human-readable text file, validated and queried by command-line tools, with the companion Fava providing a web reporting interface. The format is open and permanently readable, version-controllable with Git and scriptable in bulk.
+review:
+  zh: |
+    Beancount 属于"纯文本记账"这一流派，它的账本长这样：
+
+    ```
+    2026-08-14 * "超市" "买菜"
+      Expenses:Food:Groceries    128.50 CNY
+      Assets:Bank:CMB
+    ```
+
+    就这么简单——一个日期、一段描述、几行账户和金额。整个账本就是一个 `.beancount` 文本文件。
+
+    这带来一串好处，对程序员来说尤其明显：
+
+    - **能进 Git**。每一次记账都是一次 commit，什么时候改过什么一目了然，
+      改错了可以回滚。这是任何数据库型记账软件都给不了的。
+    - **格式永远可读**。二十年后没有任何软件能打开某个私有格式的账本文件时，
+      文本文件还是文本文件。
+    - **能被脚本处理**。批量导入、自动分类、生成自定义报表，都是写几行 Python 的事。
+    - **校验严格**。它做的是标准复式记账，账不平会直接报错，还能对账户做各种约束检查。
+
+    配套的 **Fava** 是必装的：一个网页界面，把文本账本渲染成资产负债表、
+    损益表、净资产曲线、各种维度的图表。有了它，日常查看和分析就不用在命令行里翻了。
+
+    要说清楚的：
+
+    - **门槛在这个站里排前几**。你要接受用文本编辑器记账、要懂复式记账、
+      最好会一点命令行和 Python。不是所有人都适合。
+    - **没有移动端**。手机上随手记一笔这件事它做不到，
+      常见做法是先用别的方式草记，回到电脑上整理。
+    - **上游发版节奏慢**。当前主要通过 PyPI 分发，仓库的正式 Release 标记不多，
+      版本演进主要看分支和 PyPI。这是它一贯的风格，功能本身很稳定。
+
+    同类的还有 hledger 和 Ledger（更老的两个纯文本记账工具），
+    思路一样，语法略有差异，可以一起看看再选。
+  en: |
+    Beancount belongs to the plain-text accounting school. A ledger entry looks like this:
+
+    ```
+    2026-08-14 * "Supermarket" "Groceries"
+      Expenses:Food:Groceries    128.50 USD
+      Assets:Bank:Checking
+    ```
+
+    That is all — a date, a description, and a few account-and-amount lines. The entire ledger is one
+    `.beancount` text file.
+
+    That brings a chain of advantages, especially for programmers:
+
+    - **It goes into Git.** Every entry is a commit, the history of what changed and when is plainly
+      visible, and mistakes can be reverted. No database-backed finance app offers this.
+    - **The format stays readable forever.** In twenty years, when nothing can open some proprietary
+      ledger format, a text file is still a text file.
+    - **Scripts can process it.** Bulk imports, automatic categorization and custom reports are a few
+      lines of Python away.
+    - **Validation is strict.** It implements proper double-entry, errors out when the books do not
+      balance, and supports assorted account-level assertions.
+
+    The companion **Fava** is effectively mandatory: a web interface that renders the text ledger into
+    balance sheets, income statements, net worth curves and charts across dimensions. With it,
+    day-to-day review no longer happens in a terminal.
+
+    To be clear about:
+
+    - **The barrier is among the highest on this site.** You must be willing to keep books in a text
+      editor, understand double-entry, and ideally know some command line and Python. It is not for
+      everyone.
+    - **There is no mobile app.** Jotting an expense on a phone is not something it does; the common
+      workaround is capturing roughly elsewhere and tidying up at the computer.
+    - **Upstream releases are infrequent.** Distribution is mainly through PyPI and the repository
+      carries few tagged releases, with development tracked through branches instead. That is the
+      project's long-standing style; the functionality itself is stable.
+
+    hledger and Ledger are the two older siblings in the same school — same idea, slightly different
+    syntax — and worth comparing before you commit.

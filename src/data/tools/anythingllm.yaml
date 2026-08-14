@@ -1,0 +1,84 @@
+name: AnythingLLM
+accent: '#46C8B2'
+initials: AL
+category: ai
+price: free
+license: 'MIT'
+website: https://anythingllm.com
+download: https://anythingllm.com/desktop
+repo: https://github.com/Mintplex-Labs/anything-llm
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [知识库问答, rag, 本地大模型, 文档对话, 可自建]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 把自己的文档喂给本地大模型，让它按你的资料回答
+  en: Feed your own documents to a local model and get answers from your material
+description:
+  zh: 一体化的本地知识库问答工具。把 PDF、Word、网页、代码仓库导入工作区，模型回答时会引用这些内容并标出来源。内置向量数据库和嵌入模型，配合 Ollama 等本地模型可以做到全程离线。Windows 桌面版安装包约 378 MB。
+  en: An all-in-one local knowledge base assistant. Import PDFs, Word files, web pages and code repositories into a workspace, and the model answers from that material with source citations. It bundles a vector database and embedding model, and paired with a local runner such as Ollama it works entirely offline. The Windows desktop installer is about 378 MB.
+review:
+  zh: |
+    "让 AI 读我的资料再回答"这件事（业内叫 RAG），
+    自己搭一套要装向量数据库、选嵌入模型、写切分逻辑、调检索参数，
+    对普通用户门槛太高。AnythingLLM 的价值是**把这一整套打包成一个装完就能用的桌面应用**。
+    64,707 颗星，MIT 开源。
+
+    用法很直接：新建一个工作区，把文档拖进去——PDF、Word、TXT、Markdown、
+    网页链接、甚至整个 GitHub 仓库都可以。它自动完成解析、切分、向量化、入库。
+    之后你在这个工作区里提问，模型会先检索相关片段再回答，
+    并且**标出答案来自哪份文档的哪一段**，这一点对核查很重要。
+
+    工作区是隔离的，你可以给"公司制度"、"项目文档"、"读书笔记"各建一个，
+    互不干扰。
+
+    它的模型接入很灵活：可以接 Ollama、LM Studio 等本地模型
+    （这样全程离线，资料一个字都不出本机），也可以填 OpenAI、Anthropic 等云端 API 的 key
+    （效果更好，但资料会发给服务商，也会产生费用）。**选择权在你手里，这是关键。**
+    嵌入模型和向量数据库默认用内置的本地方案，不需要额外配置。
+
+    要注意的：
+
+    - **安装包偏大**（Windows 约 378 MB，macOS 约 483 MB），
+      因为把嵌入模型和向量库一起打包了。
+    - **回答质量取决于你接的模型**。用一个小参数量的本地模型，
+      它检索得再准，总结能力也有限。资料重要的话，建议至少用 7B 以上的模型。
+    - **它不是全文搜索**。RAG 靠语义相似度检索片段，
+      对"某个词在哪出现过"这类精确查找，不如直接用搜索工具。
+
+    另外它也有 Docker 版本可以部署成团队共用的服务，
+    以及一个付费的云托管版本——桌面版和自建版本身完全免费，不限功能。
+  en: |
+    Getting an AI to read your own material before answering — the pattern called RAG — normally means
+    installing a vector database, choosing an embedding model, writing chunking logic and tuning
+    retrieval. That is far too much for most people. AnythingLLM's value is **packaging the whole
+    stack into a desktop app that works on install.** 64,707 stars, MIT-licensed.
+
+    Usage is direct: create a workspace and drag documents in — PDF, Word, TXT, Markdown, web links,
+    even an entire GitHub repository. It handles parsing, chunking, embedding and indexing. Ask a
+    question inside that workspace and the model retrieves relevant passages before answering, **citing
+    which document and section each answer came from**, which matters enormously for verification.
+
+    Workspaces are isolated, so you can keep separate ones for company policies, project documentation
+    and reading notes without cross-contamination.
+
+    Model connectivity is flexible: point it at a local runner such as Ollama or LM Studio (fully
+    offline, with not one word of your material leaving the machine), or paste an API key for OpenAI,
+    Anthropic and others (better quality, but your material goes to the provider and costs money).
+    **The choice is yours, and that is the point.** The embedding model and vector store default to
+    bundled local implementations requiring no configuration.
+
+    Things to note:
+
+    - **The download is large** (about 378 MB on Windows, 483 MB on macOS) because the embedding model
+      and vector database ship inside.
+    - **Answer quality depends on the model you attach.** A small local model retrieves accurately but
+      summarizes weakly. For material that matters, use something in the 7B class or above.
+    - **It is not full-text search.** RAG retrieves by semantic similarity, so for "where exactly does
+      this word appear" a plain search tool remains better.
+
+    A Docker deployment exists for shared team use, alongside a paid cloud-hosted edition — the
+    desktop and self-hosted versions themselves are entirely free with no feature limits.

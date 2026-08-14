@@ -1,0 +1,84 @@
+name: whisper.cpp
+accent: '#4A6FA5'
+initials: WC
+category: ai
+price: free
+license: 'MIT'
+website: https://github.com/ggml-org/whisper.cpp
+download: https://github.com/ggml-org/whisper.cpp/releases/latest
+repo: https://github.com/ggml-org/whisper.cpp
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [语音转文字, 字幕生成, 离线, 会议记录, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 录音转文字，全程在本机，一句话都不上传
+  en: Audio to text, entirely on your machine, nothing uploaded
+description:
+  zh: OpenAI Whisper 语音识别模型的高效本地实现，用 C/C++ 重写，无需 Python 环境。支持九十多种语言的转写和翻译，可直接输出 SRT、VTT 字幕文件。完全离线运行，音频不会离开你的电脑。
+  en: An efficient local implementation of OpenAI's Whisper speech recognition model, rewritten in C/C++ with no Python environment required. It transcribes and translates across more than ninety languages and outputs SRT and VTT subtitle files directly. Fully offline — your audio never leaves the machine.
+review:
+  zh: |
+    语音转文字的在线服务几乎都要你上传音频。会议录音、采访素材、
+    医患对话、法律咨询——很多内容根本不该传到别人的服务器上。
+
+    whisper.cpp 解决的就是这个问题。它是 OpenAI 开源的 Whisper 模型的本地实现，
+    52,886 颗星，MIT 协议，作者是写 llama.cpp 的同一个人，
+    所以工程风格一致：C/C++ 写成，**不需要装 Python，不需要配环境**，
+    下个可执行文件和一个模型文件就能跑。
+
+    实际能力：支持九十多种语言的识别，中文和英文效果都不错；
+    可以直接把非英语音频转写并翻译成英文；
+    输出格式支持纯文本、SRT、VTT、JSON，**给视频配字幕是最常见的用法之一**——
+    转出 SRT 直接丢进剪辑软件就行。
+
+    模型分几个档次，从 tiny 到 large，体积和准确率成正比。
+    普通用途 base 或 small 就够，对准确率要求高就上 medium 或 large，
+    代价是更慢、更吃内存。苹果芯片上有 Core ML 加速，
+    NVIDIA 显卡有 CUDA 加速，速度差别很大。
+
+    要说清楚的：
+
+    - **它是命令行工具**。基本用法是 `whisper-cli -m 模型 -f 音频.wav`，
+      参数不复杂但需要打字。不想碰命令行的话，
+      社区有基于它做的图形界面版本可以找找。
+    - **音频格式有要求**。原生吃 16kHz 的 WAV，
+      其他格式（mp3、m4a、视频里的音轨）需要先用 ffmpeg 转一下，一条命令的事。
+    - **不做说话人区分**。它转出的是连续文本，
+      不会标注"这句是 A 说的、那句是 B 说的"。多人会议记录需要这个功能的话，
+      得配合其他工具处理。
+
+    对于任何"内容敏感、不能上传"的转写需求，这是目前最实用的方案。
+  en: |
+    Nearly every online transcription service requires uploading your audio. Meeting recordings,
+    interview material, medical conversations, legal consultations — plenty of content should simply
+    never reach someone else's server.
+
+    whisper.cpp solves that. It is a local implementation of OpenAI's open-sourced Whisper model,
+    52,886 stars, MIT-licensed, written by the same author as llama.cpp — so the engineering style
+    matches: C/C++, **no Python installation, no environment setup**, just an executable and a model
+    file.
+
+    What it does: recognition across more than ninety languages with solid results in major ones;
+    direct transcription and translation of non-English audio into English; and output as plain text,
+    SRT, VTT or JSON. **Subtitling video is among the most common uses** — export SRT and drop it
+    straight into an editor.
+
+    Models come in tiers from tiny to large, with size tracking accuracy. Base or small suffices for
+    ordinary use; medium or large is worth it when accuracy matters, at the cost of speed and memory.
+    Core ML acceleration on Apple silicon and CUDA on NVIDIA cards make a substantial difference.
+
+    To be clear about:
+
+    - **It is a command-line tool.** The basic invocation is `whisper-cli -m model -f audio.wav` — not
+      complicated, but it involves typing. Community GUI wrappers exist if you would rather not.
+    - **Audio format matters.** It natively wants 16 kHz WAV; mp3, m4a and video audio tracks need one
+      ffmpeg command first.
+    - **It does not do speaker diarization.** Output is continuous text with no "this line was speaker
+      A, that one speaker B". Multi-person meeting notes need an additional tool for that.
+
+    For any transcription need where the content genuinely cannot be uploaded, this is the most
+    practical option available.

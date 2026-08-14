@@ -20,3 +20,23 @@ tagline:
 description:
   zh: 面向学术与长文写作的开源 Markdown 编辑器，内置 Zotero/JabRef 文献引用、Zettelkasten 双链、LaTeX 公式与导出。文件全在本地，无强制云同步、无遥测。
   en: An open-source Markdown editor for academic and long-form writing, with built-in Zotero/JabRef citations, Zettelkasten links, LaTeX math and export. Files stay local, with no forced cloud sync and no telemetry.
+review:
+  zh: |
+    Zettlr 是为研究者和长文写作者做的，不是通用笔记软件。13,382 颗星，GPL-3.0。
+
+    它把学术写作那条链路打通了：引用文献管理、Zotero 集成、脚注、导出成符合期刊格式的
+    PDF 和 Word。写论文、写书、写需要参考文献的长稿，它比通用笔记软件省事一大截。
+
+    反过来说，如果你只是记日常笔记和待办，它那套学术功能你一个都用不上，
+    不如挑更轻的。选它的判据很简单：你写的东西需不需要挂参考文献。
+  en: |
+    Zettlr is built for researchers and long-form writers rather than general note-taking. 13,382
+    stars, GPL-3.0.
+
+    It closes the loop on academic writing: citation management, Zotero integration, footnotes, and
+    export to journal-ready PDF and Word. For papers, books or any long piece that needs a
+    bibliography, it saves considerably more effort than a general note app.
+
+    The reverse also holds. If you only keep daily notes and to-dos, none of that machinery applies
+    and something lighter will serve you better. The test is simple: does what you write need
+    citations?
