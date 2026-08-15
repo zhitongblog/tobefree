@@ -1,0 +1,116 @@
+name: SoloPic
+accent: '#E07A3F'
+initials: SP
+category: creative
+price: free
+license: 'MIT'
+website: https://solopic.doaipm.com
+download: https://solopic.doaipm.com
+repo: https://github.com/zhitongblog/solopic
+featured: false
+selfMade: true
+added: '2026-08-15'
+tags: [批量处理, 图像, 文档增强, cli, mcp]
+platforms: [windows, macos, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 一整个文件夹的图，一条命令处理完
+  en: A whole folder of images, handled in one command
+description:
+  zh: 免费离线的批量图像处理工具。批量裁边、按映射表改名、批量调整亮度对比度、以及把手机拍的文档一键变清楚（去阴影、背景变白、自动纠斜）。一个 Rust 内核，三种用法：图形界面、命令行 `pic`、MCP Server。
+  en: A free, offline batch image processor. Crop from edges, rename in bulk from a mapping file, adjust brightness and contrast across a folder, and clean up photographed documents in one pass (shadow removal, background whitening, auto-deskew). One Rust core with three interfaces — GUI, a `pic` command line, and an MCP server.
+review:
+  zh: |
+    批量处理图片这件事，通常卡在两头：图形软件要一张张点，
+    ImageMagick 够强但要记参数、而且顺序敏感容易出错。
+
+    SoloPic 做的是中间那一段——**四件最常做的事，三种用法**。
+    MIT 开源，Rust 写的，v1.0.0（2026 年 7 月）。
+
+    四个功能：
+
+    - **批量裁边**：按像素从边缘切（左切 100px、下切 57px）。
+      每张图按自身尺寸裁，一批图尺寸不统一也没问题——
+      截图去掉状态栏、扫描件去掉黑边这类需求最常用。
+    - **批量改名**：喂一个映射文件，每行 `旧名,新名`，一次改完，**可撤销**。
+      整理一堆 IMG_1234.jpg 时省事。
+    - **批量调整**：亮度 / 对比度 / 饱和度 / 锐度 / 灰度，系数 1.0 表示不变。
+    - **智能文档增强**：这个最实用——手机拍的纸质文档一键去阴影、
+      光照均衡、背景变白、文字加深，还能自动纠斜（±12°）。
+      拍合同、拍笔记之后直接能用，不用再开扫描 App。
+
+    三种用法共用同一个内核：
+
+    - **图形界面**：左边选图、右边选功能，实时看"原图 → 处理后"对比。
+      界面支持 8 种语言。
+    - **命令行 `pic`**：`pic crop --left 100 --bottom 57 D:\照片`，能写进脚本。
+    - **MCP Server**：可以让 Claude 这类 AI 助手直接调用它处理图片。
+
+    默认输出到 `pic-output` 子文件夹，**不动原图**（也可以选择覆盖）。
+    支持 png / jpg / webp / bmp / gif / tif，自动处理手机照片的 EXIF 方向。
+
+    **自研产品，局限一样要写清楚：**
+
+    - **它不做缩放**。四个功能里没有 resize——要改分辨率、压体积，
+      用 ImageMagick 或 Squoosh。它补的是裁边、改名、增强这几件事。
+    - **裁剪只能从边缘按像素切**，没有按比例裁、没有框选裁、没有自动识别主体。
+      这是刻意的取舍（这样才能批量套用到尺寸不一的图上），但要知道边界。
+    - **没有 Linux 预编译包**。GitHub Releases 目前提供 macOS，
+      官网提供 Windows x64 便携版，Linux 需要自己 `cargo build`。
+    - **下载位置分散**：Windows 便携版在官网，macOS 在 GitHub Releases，
+      这一点确实不够统一，从官网进最稳妥。
+    - **v1.0.0 还年轻**，功能范围窄而确定，但复杂场景请先在副本上试。
+
+    什么时候它是对的选择：手头有一整个文件夹要做同一件事、
+    想把图片处理接进脚本或 AI 助手、
+    或者经常需要把拍的文档整理成能看的样子。
+  en: |
+    Batch image work usually gets stuck at one of two ends: graphical editors make you click through
+    every file, while ImageMagick is powerful but requires remembering flags whose order changes the
+    result.
+
+    SoloPic covers the middle — **the four things people do most, through three interfaces.** MIT,
+    written in Rust, v1.0.0 (July 2026).
+
+    The four functions:
+
+    - **Batch edge cropping** by pixels (100 from the left, 57 from the bottom). Each image is cropped
+      relative to its own dimensions, so a mixed-size batch is fine — ideal for stripping status bars
+      from screenshots or black borders from scans.
+    - **Batch renaming** from a mapping file of `old,new` per line, applied in one pass and
+      **undoable.** A relief when facing a pile of IMG_1234.jpg.
+    - **Batch adjustment:** brightness, contrast, saturation, sharpness and grayscale, where 1.0 means
+      unchanged.
+    - **Smart document enhancement,** the most practical one — photographed paper documents get shadow
+      removal, illumination equalization, whitened backgrounds, darkened text and automatic deskewing
+      within ±12°. Photograph a contract or notes and the result is usable without a scanner app.
+
+    Three interfaces over one core:
+
+    - **A GUI** with image selection on the left, functions on the right, and a live before/after
+      preview. Localized in eight languages.
+    - **The `pic` command line:** `pic crop --left 100 --bottom 57 /photos`, scriptable.
+    - **An MCP server,** so an assistant like Claude can drive image processing directly.
+
+    Output goes to a `pic-output` subfolder by default, **leaving originals untouched**, with
+    overwriting available. Formats cover png, jpg, webp, bmp, gif and tif, with EXIF orientation
+    applied automatically.
+
+    **It is ours, so the limits get stated just as plainly:**
+
+    - **It does not resize.** There is no resize among the four functions — changing resolution or
+      compressing file size belongs to ImageMagick or Squoosh. This tool covers cropping, renaming and
+      enhancement.
+    - **Cropping is edge-based in pixels only.** No aspect-ratio crop, no marquee selection, no subject
+      detection. That is deliberate, since it is what allows one operation to apply across mixed-size
+      batches — but know the boundary.
+    - **There is no prebuilt Linux binary.** GitHub Releases carries macOS builds, the official site
+      carries the Windows x64 portable build, and Linux means `cargo build`.
+    - **Downloads are split across two places** — Windows on the site, macOS on GitHub Releases — which
+      is admittedly inconsistent; going through the official site is the safest route.
+    - **v1.0.0 is young.** The scope is narrow and well-defined, but test on copies before running
+      anything complex.
+
+    When it is the right choice: a whole folder needing the same treatment, wiring image processing
+    into a script or an AI assistant, or regularly turning photographed documents into something
+    legible.
