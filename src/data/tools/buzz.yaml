@@ -1,0 +1,38 @@
+name: Buzz
+accent: '#D97706'
+initials: BZ
+category: ai
+price: free
+license: 'MIT'
+website: https://github.com/chidiwilliams/buzz
+download: https://github.com/chidiwilliams/buzz/releases
+repo: https://github.com/chidiwilliams/buzz
+featured: false
+selfMade: false
+added: '2026-08-15'
+tags: [语音转文字, whisper, 桌面应用, 字幕, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "拖个文件进去就转，支持批量和多种导出格式"
+  en: "Drag a file in and transcribe — batch jobs and multiple export formats"
+description:
+  zh: "桌面端语音转文字应用，界面直白，拖文件进去就能转，支持批量处理和多种字幕/文本导出格式，不需要碰命令行。macOS 安装包偏大，ARM64 版 449 MB。"
+  en: "A desktop transcription app with a straightforward interface: drag files in, run batches, and export to several subtitle and text formats without touching a terminal. The macOS build is large at 449 MB for ARM64."
+review:
+  zh: |
+    Buzz 是这一批里功能最全的桌面应用。20,966 颗星，MIT 协议，批量转写和导出格式都比同类多，
+    最新 v1.4.4（2026 年 3 月 14 日）。
+
+    要注意体积：macOS ARM64 安装包 449 MB，比同类的 Vibe（macOS 39.8 MB）大一个数量级。
+    硬盘紧张的话先看这个数。
+
+    功能和体积之间选一个：要批量和更多导出格式选它，要轻选 Vibe。
+  en: |
+    Buzz is the most full-featured desktop app of this group. 20,966 stars, MIT, with more batch
+    options and export formats than its peers; latest v1.4.4 (14 March 2026).
+
+    Watch the size: the macOS ARM64 build is 449 MB, an order of magnitude larger than Vibe's
+    39.8 MB on macOS. Check that number first if disk is tight.
+
+    It is a straight trade: take Buzz for batch work and export formats, take Vibe for lightness.

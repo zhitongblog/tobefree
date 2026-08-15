@@ -1,0 +1,43 @@
+title:
+  zh: 免费语音转文字工具
+  en: Free Speech-to-Text Tools
+description:
+  zh: 在本机离线把录音转成文字的免费工具，会议纪要、视频字幕、采访转写都能用，全部开源、不需要注册账号。
+  en: "Free tools that turn recordings into text offline on your own machine — meeting notes, video subtitles, interview transcripts. All open source, no account required."
+intro:
+  zh: 这些工具跑的是同一批 Whisper 模型，所以中文准不准取决于你选多大的模型，不取决于你用哪个工具。真正的差别在形态：有的是引擎（命令行/库），有的是桌面应用（拖文件就转），还有一个专做字幕（词级时间戳 + 说话人分离）。这个专题按「你缺哪一层」来分，所有数字截至 2026 年 8 月，可在各自仓库核对。
+  en: "These tools run the same Whisper models, so accuracy depends on which model size you can run, not which tool you choose. The real difference is form: some are engines (command line or library), some are desktop apps you drag files into, and one is built for subtitles with word-level timestamps and speaker diarization. This collection sorts them by which layer you are missing. All figures verified August 2026 against their repositories."
+criteria:
+  zh:
+    - 完全免费，核心功能没有次数或时长限制。
+    - 可以完全离线运行，音频不上传到任何服务器。
+    - 不需要注册账号。
+    - 协议按实际 LICENSE 文件标注，不采信仓库页的自动识别。
+  en:
+    - Completely free, with no usage or duration caps on core features.
+    - Runs fully offline; audio never leaves your machine.
+    - No account required.
+    - Licences recorded from the actual LICENSE file, not repository auto-detection.
+tools: [whisper-cpp, faster-whisper, whisperx, buzz, vibe]
+skills: []
+featured: true
+added: '2026-08-15'
+faq:
+  zh:
+    - q: 中文识别哪个最准？
+      a: 这个问题问错了对象。五个工具跑的是同一批 Whisper 模型，同样用 large-v3，出来的文字是一样的。准不准取决于你选多大的模型：tiny 只有 75 MiB 但错字多，medium 要 1.5 GiB，large-v3 要 2.9 GiB。机器一般的话优先试 large-v3 的量化版，只有 1.1 GiB。
+    - q: 不想碰命令行选哪个？
+      a: Vibe 或 Buzz，都是装完拖文件进去就能转的桌面应用。硬盘紧张选 Vibe（Windows 43.2 MB、macOS 39.8 MB），要批量处理和更多导出格式选 Buzz（macOS ARM64 版 449 MB）。
+    - q: 要做字幕、还要区分谁在说话呢？
+      a: whisperX。它在 Whisper 之上加了词级时间戳和说话人分离，是这几个里唯一开箱具备这两项的。代价是依赖链长，装起来比较折腾。
+    - q: faster-whisper 还能用吗？
+      a: 能用，但要知道它维护停滞了：最后一次提交是 2025 年 11 月 19 日，最新版 v1.2.1 发布于 2025 年 10 月 31 日，315 个 issue 未关闭。仓库没归档，已有项目继续用没问题；要接进长期维护的东西，建议改用 whisper.cpp。
+  en:
+    - q: Which one is most accurate for non-English speech?
+      a: "Wrong target for the question. All five run the same Whisper models: give them large-v3 and the output text is identical. Accuracy depends on the model size you can run — tiny is 75 MiB but error-prone, medium is 1.5 GiB, large-v3 is 2.9 GiB. On modest hardware try the quantized large-v3 at 1.1 GiB first."
+    - q: Which should I pick if I never want to touch a terminal?
+      a: "Vibe or Buzz — both are desktop apps where you drag a file in. Take Vibe if disk is tight (43.2 MB on Windows, 39.8 MB on macOS), Buzz for batch work and more export formats (449 MB for the macOS ARM64 build)."
+    - q: What if I need subtitles and speaker labels?
+      a: "WhisperX. It adds word-level timestamps and speaker diarization on top of Whisper and is the only one here with both out of the box. The trade-off is a longer dependency chain and a fussier install."
+    - q: Is faster-whisper still usable?
+      a: "Yes, but know that maintenance has stalled: the last commit was 19 November 2025, the last release v1.2.1 on 31 October 2025, and 315 issues are open. The repo is not archived, so existing projects are fine; for something you plan to maintain long-term, prefer whisper.cpp."

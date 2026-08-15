@@ -1,0 +1,43 @@
+name: faster-whisper
+accent: '#3E7CB1'
+initials: FW
+category: ai
+price: free
+license: 'MIT'
+website: https://github.com/SYSTRAN/faster-whisper
+download: https://github.com/SYSTRAN/faster-whisper/releases
+repo: https://github.com/SYSTRAN/faster-whisper
+featured: false
+selfMade: false
+added: '2026-08-15'
+tags: [语音转文字, whisper, python, 离线, ctranslate2]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "基于 CTranslate2 的 Whisper 实现，同模型更快更省显存"
+  en: "A CTranslate2 Whisper implementation — same models, faster, less VRAM"
+description:
+  zh: "用 CTranslate2 重新实现的 Whisper 推理，跑同样的模型速度更快、显存占用更低，长期是很多项目的默认后端。Python 库形态，没有图形界面。注意维护已停滞：最后一次提交是 2025 年 11 月。"
+  en: "A Whisper inference stack rebuilt on CTranslate2: same models, faster, lower VRAM, and long the default backend for many projects. A Python library with no GUI. Note that maintenance has stalled, with the last commit in November 2025."
+review:
+  zh: |
+    faster-whisper 快是真的快，同样的模型比原版实现省时间也省显存，很多上层项目默认接的就是它。
+    24,911 颗星，MIT 协议。
+
+    但要说清楚现在的状态：**维护停滞了。** 最后一次提交是 2025 年 11 月 19 日，
+    最新版 v1.2.1 发布于 2025 年 10 月 31 日，到 2026 年 8 月已经九个多月没动，
+    仓库里挂着 315 个未关闭的 issue。
+
+    仓库没有归档，代码照样能跑，已有项目继续用没问题。但如果你要把它接进一个打算长期维护的东西，
+    这个状态得先算进去——或者看看 whisper.cpp。
+  en: |
+    faster-whisper is genuinely fast: the same models finish sooner and use less VRAM than the
+    reference implementation, and many downstream projects default to it. 24,911 stars, MIT.
+
+    But the current state needs stating plainly: **maintenance has stalled.** The last commit was
+    19 November 2025 and the last release, v1.2.1, was 31 October 2025 — over nine months of no
+    activity as of August 2026, with 315 issues left open.
+
+    The repo is not archived and the code still works, so existing projects are fine. If you are
+    wiring it into something you plan to maintain for years, factor that in — or look at
+    whisper.cpp.

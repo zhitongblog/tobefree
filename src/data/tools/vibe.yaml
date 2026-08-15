@@ -1,0 +1,40 @@
+name: Vibe
+accent: '#2E9E8F'
+initials: VB
+category: ai
+price: free
+license: 'MIT'
+website: https://thewh1teagle.github.io/vibe/
+download: https://github.com/thewh1teagle/vibe/releases
+repo: https://github.com/thewh1teagle/vibe
+featured: false
+selfMade: false
+added: '2026-08-15'
+tags: [语音转文字, whisper, 桌面应用, 轻量, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "最轻的本地语音转文字桌面应用，安装包只有几十 MB"
+  en: "The lightest local transcription desktop app — a few dozen MB to install"
+description:
+  zh: "跨平台的本地语音转文字桌面应用，点开拖文件就能用，完全离线。安装包在同类里最小：Windows 43.2 MB、macOS 39.8 MB、Linux deb 约 38 MB，约为 Buzz macOS 版的十分之一。"
+  en: "A cross-platform desktop transcription app: open it, drag a file in, fully offline. Its installers are the smallest of the class at 43.2 MB on Windows, 39.8 MB on macOS and roughly 38 MB for the Linux deb — about a tenth of Buzz's macOS build."
+review:
+  zh: |
+    Vibe 走的是轻的路子。7,091 颗星，MIT 协议，最新 v3.0.23（2026 年 7 月 15 日），
+    更新比 Buzz 还勤。
+
+    最直接的优势是体积：Windows 43.2 MB、macOS 39.8 MB，对比 Buzz 的 macOS ARM64 版 449 MB。
+    功能上没 Buzz 全（批量和导出格式少一些），但日常把一段录音转成文字这件事它做得很干净。
+
+    星数是这几个里最少的，社区规模小，遇到问题能搜到的答案没那么多。
+  en: |
+    Vibe optimizes for lightness. 7,091 stars, MIT, latest v3.0.23 (15 July 2026) — shipping even
+    more often than Buzz.
+
+    The obvious advantage is size: 43.2 MB on Windows and 39.8 MB on macOS, against Buzz's 449 MB
+    macOS ARM64 build. It has fewer features (less batch tooling, fewer export formats), but for
+    the everyday job of turning one recording into text it is clean.
+
+    It has the fewest stars here, so the community is small and there are fewer answers to find
+    when something goes wrong.

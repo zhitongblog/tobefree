@@ -1,0 +1,41 @@
+name: WhisperX
+accent: '#8E5BB5'
+initials: WX
+category: ai
+price: free
+license: 'BSD-2-Clause'
+website: https://github.com/m-bain/whisperX
+download: https://github.com/m-bain/whisperX/releases
+repo: https://github.com/m-bain/whisperX
+featured: false
+selfMade: false
+added: '2026-08-15'
+tags: [语音转文字, 字幕, 说话人分离, whisper, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "做字幕用的 Whisper：词级时间戳 + 说话人分离"
+  en: "Whisper for subtitles — word-level timestamps and speaker diarization"
+description:
+  zh: "在 Whisper 之上加了词级时间戳和说话人分离，字幕能卡到每个词，多人对话能标出谁说的哪句。做访谈转写、会议纪要和视频字幕时，这是同类里唯一开箱具备这两项能力的。"
+  en: "Adds word-level timestamps and speaker diarization on top of Whisper, so subtitles align per word and multi-speaker audio is labelled by who said what. For interview transcripts, meeting notes and video subtitles it is the only one here with both out of the box."
+review:
+  zh: |
+    如果你的活是做字幕或者转写多人对话，whisperX 基本没有替代品。23,575 颗星，BSD-2-Clause，
+    最新 v3.8.6（2026 年 5 月 25 日）。
+
+    它解决的是另外两个工具不管的事：词级时间戳让字幕能精确卡到每个词，说话人分离让访谈稿知道
+    哪句是谁说的。这两样自己拼很麻烦，它开箱就有。
+
+    代价是依赖链更长，装起来比 whisper.cpp 折腾。只是要一段文字的话，用不上它，
+    挑个桌面应用更省事。
+  en: |
+    If your work is subtitles or multi-speaker transcripts, WhisperX has essentially no substitute.
+    23,575 stars, BSD-2-Clause, latest v3.8.6 (25 May 2026).
+
+    It handles what the other tools do not: word-level timestamps so subtitles align precisely, and
+    speaker diarization so an interview transcript knows who said which line. Assembling those
+    yourself is a chore; here they come built in.
+
+    The cost is a longer dependency chain and a fussier install than whisper.cpp. If you only need
+    a block of text, skip it and take a desktop app instead.
