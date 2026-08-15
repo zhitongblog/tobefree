@@ -1,0 +1,99 @@
+name: digiKam
+accent: '#4A7FBF'
+initials: DK
+category: creative
+price: free
+license: 'GPL-2.0'
+website: https://www.digikam.org
+download: https://www.digikam.org/download/
+repo: https://invent.kde.org/graphics/digikam
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [照片管理, raw, 人脸识别, 元数据, 图库]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 十万张照片的图库管理，全部离线，不上传
+  en: Managing a hundred thousand photos, entirely offline, nothing uploaded
+description:
+  zh: 专业级照片管理软件，由 KDE 社区开发。管理大型照片库、读取和编辑 RAW、按人脸识别自动归类、按地点在地图上浏览、批量重命名和转换、维护标签与评分。全部在本机运行，不需要账号也不上传任何照片。
+  en: Professional photo library management from the KDE community. Handle large collections, read and process RAW files, group photos automatically by recognized faces, browse by location on a map, batch rename and convert, and maintain tags and ratings. Everything runs locally with no account and no uploads.
+review:
+  zh: |
+    照片管理有个尴尬的断层：手机相册和 Google Photos 这类服务很方便但要上传；
+    Lightroom 是行业标准但按月订阅；而本地免费的选项里，
+    大多数只是"看图工具"，撑不住几万张照片的库。
+
+    digiKam 填的就是这个位置。KDE 社区维护了二十年，GPL-2.0，
+    定位是**离线的专业照片管理**——它管的是"库"，不是"文件夹"。
+
+    核心能力：
+
+    - **大库不崩**。它用数据库索引照片（SQLite 或 MySQL），
+      十万张以上的库照样能快速筛选和搜索。这是普通看图软件做不到的。
+    - **RAW 支持完整**。基于 libraw，能读几乎所有相机的 RAW 格式，
+      内置的图像编辑器可以做曝光、白平衡、镜头校正等基础处理
+      （深度调整还是交给 darktable 或 RawTherapee，它们能直接从 digiKam 调起）。
+    - **人脸识别**。本地跑的模型，自动检测人脸并聚类，你给每个人命名之后，
+      就能按人搜索整个图库。**照片不出本机**，这是和云相册最本质的区别。
+    - **地图视图**。有 GPS 信息的照片按地点铺在地图上，也能手动给照片打地理标签。
+    - **元数据管理**。读写 EXIF、IPTC、XMP，批量改拍摄时间
+      （相机时间设错了可以整批偏移）、批量重命名、批量加版权信息。
+    - **标签、评分、颜色标记**，配合高级搜索能做出很复杂的筛选条件。
+    - **批处理队列**：批量转格式、缩放、加水印、转黑白。
+
+    要说清楚的：
+
+    - **界面复杂，学习曲线明显**。它是功能导向的工程师审美，
+      菜单层级深、选项极多，第一次打开会不知道从哪下手。
+      **建议先只用"导入 + 标签 + 搜索"三件事**，其他功能用到再找。
+    - **首次建库要花时间**。几万张照片的初次扫描、缩略图生成、
+      人脸检测可能要跑几个小时，让它慢慢跑。
+    - **它不是修图软件**。基础调整有，但精修请用 darktable、RawTherapee（RAW）
+      或 GIMP、Krita（像素）。它的价值在"管理"。
+    - **不做云同步**。想在手机上看家里的照片库，那是 Immich 的活——
+      两者定位不同：digiKam 是桌面端的深度管理，Immich 是自建的云相册。
+      有人两个都用：digiKam 整理，Immich 分享和随身看。
+
+    如果你有多年积累的照片、拍 RAW、并且不想把它们交给任何云服务，这是最强的免费选择。
+  en: |
+    Photo management has an awkward gap: phone galleries and services like Google Photos are convenient
+    but require uploading; Lightroom is the industry standard but bills monthly; and among free local
+    options, most are viewers that collapse under tens of thousands of images.
+
+    digiKam fills that gap. Maintained by the KDE community for two decades, GPL-2.0, positioned as
+    **offline professional photo management** — it manages a library, not a folder.
+
+    Core capabilities:
+
+    - **Large libraries hold up.** Photos are indexed in a database (SQLite or MySQL), so collections
+      beyond a hundred thousand images still filter and search quickly. Ordinary viewers cannot do this.
+    - **Complete RAW support** via libraw, reading essentially every camera's RAW format, with a
+      built-in editor for exposure, white balance and lens correction (deeper work goes to darktable or
+      RawTherapee, which digiKam can launch directly).
+    - **Face recognition** running locally: faces are detected and clustered, and once named the whole
+      library becomes searchable by person. **The photos never leave your machine**, which is the
+      fundamental difference from cloud galleries.
+    - **Map view** placing GPS-tagged photos geographically, with manual geotagging available.
+    - **Metadata management:** read and write EXIF, IPTC and XMP, shift capture times in bulk when the
+      camera clock was wrong, batch rename, and apply copyright information across a set.
+    - **Tags, ratings and color labels** combined with advanced search for genuinely complex filters.
+    - **Batch queue** for format conversion, resizing, watermarking and monochrome conversion.
+
+    To be clear about:
+
+    - **The interface is complex with a real learning curve.** It is function-driven engineer
+      aesthetics, with deep menus and an overwhelming number of options; the first launch is
+      disorienting. **Start with import, tagging and search only** and discover the rest as needed.
+    - **Building the library initially takes time.** The first scan, thumbnail generation and face
+      detection across tens of thousands of photos can run for hours. Let it.
+    - **It is not a photo editor.** Basic adjustments exist, but serious work belongs in darktable or
+      RawTherapee for RAW, or GIMP and Krita for pixels. Its value is management.
+    - **No cloud sync.** Viewing your home library from a phone is Immich's job — the two differ in
+      purpose: digiKam is deep desktop management, Immich is a self-hosted cloud gallery. Plenty of
+      people run both, organizing in digiKam and sharing through Immich.
+
+    If you have years of accumulated photographs, shoot RAW, and would rather not hand them to any
+    cloud service, this is the strongest free option available.

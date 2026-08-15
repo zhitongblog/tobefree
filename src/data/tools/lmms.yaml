@@ -1,0 +1,124 @@
+name: LMMS
+accent: '#12B0A0'
+initials: LM
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://lmms.io
+download: https://lmms.io/download
+repo: https://github.com/LMMS/lmms
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [音乐制作, daw, 编曲, 合成器, midi]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 免费的编曲软件，做电子音乐的入门选择
+  en: Free music production software, the entry point for electronic music
+description:
+  zh: 开源的数字音频工作站（DAW），面向电子音乐制作。内置多个合成器和采样器、钢琴卷帘编辑器、节拍编排器、混音台和效果器，支持 VST 插件和 MIDI 键盘输入，可导出 WAV、OGG、MP3 和 MIDI。
+  en: An open-source digital audio workstation aimed at electronic music production. It includes several synthesizers and samplers, a piano roll editor, a beat sequencer, a mixer and effects, with VST plugin and MIDI keyboard support, exporting WAV, OGG, MP3 and MIDI.
+review:
+  zh: |
+    做音乐的软件（DAW）是个昂贵的品类：FL Studio、Ableton Live、
+    Logic Pro 都在几百到上千元区间，而你在决定"要不要认真学编曲"之前，
+    很难先花这笔钱。
+
+    LMMS 是这条路上的免费入口。10,242 颗星，GPL-2.0，
+    界面和工作流对 FL Studio 用户来说会很眼熟。
+
+    它提供的东西：
+
+    - **节拍编排器**：做鼓组循环，点格子就行，电子音乐的骨架从这里开始。
+    - **钢琴卷帘**：画音符做旋律和和弦，支持力度、滑音、自动化曲线。
+    - **内置乐器**：多个合成器（包括模拟 SID、AY 芯片的复古音源）、
+      采样播放器 AudioFileProcessor、以及 ZynAddSubFX 这个功能很强的软合成器。
+    - **效果器和混音台**：均衡、压缩、混响、延迟，多轨混音和总线。
+    - **VST 支持**：可以加载第三方插件乐器和效果（Windows 上最顺，
+      Linux 上通过桥接）。
+    - **自动化**：几乎任何参数都能画自动化曲线做变化。
+    - **导出**：WAV、OGG、FLAC、MP3，也能导出 MIDI 给别的软件继续做。
+
+    **必须诚实说明一个问题，这也是我们犹豫是否收录它的原因：**
+
+    **它的正式稳定版停在 v1.2.2，发布于 2020 年 7 月，到现在六年了。**
+
+    但仓库本身**仍在活跃开发**（2026 年 8 月还有提交），
+    下一个大版本 1.3 长期处于 alpha 阶段。社区里实际在用的
+    大多是官网提供的 1.3 alpha 构建，它修了大量 1.2 的问题、
+    加了新功能，但按项目自己的标注是 alpha。
+
+    这意味着什么：
+
+    - **你要在"六年前的稳定版"和"在用但标着 alpha 的新版"之间选**。
+      多数人建议直接用 1.3 alpha，体验明显更好，但要接受偶发的不稳定，
+      **勤存盘**。
+    - 这是一个由志愿者维护、发版节奏很慢的项目，
+      不要期待商业 DAW 那样的迭代速度和支持。
+
+    其他限制：
+
+    - **不擅长录音**。它的强项是用软件乐器编曲（做电子音乐、
+      游戏配乐、demo），**多轨录音和混音的工作流很弱**——
+      要录人声和真实乐器，Ardour（Linux/跨平台）或
+      Cakewalk 一类更合适。
+    - **音源质量一般**。内置乐器够用来搭想法，
+      但要出成品音色，通常需要加载第三方 VST 音色库。
+    - **学习曲线**。DAW 这个品类本身概念多（轨道、总线、
+      自动化、路由），不是打开就会。
+
+    收录理由：**它确实免费、开源、无广告、离线可用，
+    并且是"零成本开始学编曲"这条路上最现实的起点。**
+    真正入门之后，你会更清楚自己需要什么，再决定是否投资商业 DAW。
+  en: |
+    Music production software is an expensive category: FL Studio, Ableton Live and Logic Pro all sit in
+    the hundreds of dollars, which is hard to commit to before deciding whether you are serious about
+    making music at all.
+
+    LMMS is the free entry point. 10,242 stars, GPL-2.0, with an interface and workflow that will feel
+    familiar to FL Studio users.
+
+    What it provides:
+
+    - **A beat sequencer** for drum loops, built by clicking a grid — where the skeleton of electronic
+      music usually starts.
+    - **A piano roll** for drawing melodies and chords, with velocity, slides and automation.
+    - **Built-in instruments:** several synthesizers including retro chip emulations, the
+      AudioFileProcessor sampler, and the capable ZynAddSubFX soft synth.
+    - **Effects and a mixer:** EQ, compression, reverb, delay, with multitrack mixing and buses.
+    - **VST support** for third-party instruments and effects — smoothest on Windows, bridged on Linux.
+    - **Automation** curves on essentially any parameter.
+    - **Export** to WAV, OGG, FLAC and MP3, plus MIDI for continuing elsewhere.
+
+    **One problem must be stated honestly, and it is why we hesitated to list it at all:**
+
+    **The tagged stable release is still v1.2.2, published in July 2020 — six years ago.**
+
+    The repository itself **remains under active development**, with commits through August 2026, while
+    the next major version, 1.3, has spent a long time in alpha. What the community actually runs is
+    mostly the 1.3 alpha builds from the official site, which fix a great many 1.2 issues and add
+    features — but which the project itself labels alpha.
+
+    What that means for you:
+
+    - **You choose between a six-year-old stable release and a widely used build marked alpha.** Most
+      advice points to the 1.3 alpha for a clearly better experience, accepting occasional instability.
+      **Save often.**
+    - This is a volunteer-maintained project with a slow release cadence; do not expect the iteration
+      speed or support of a commercial DAW.
+
+    Other limitations:
+
+    - **It is weak at recording.** Its strength is composing with software instruments — electronic
+      music, game soundtracks, demos — while **multitrack recording and mixing workflows are limited.**
+      For recording vocals and real instruments, Ardour or something in the Cakewalk class fits better.
+    - **Stock sounds are ordinary.** The built-in instruments are fine for sketching ideas, but
+      finished-sounding results usually require third-party VST libraries.
+    - **There is a learning curve.** DAWs carry inherent complexity — tracks, buses, automation,
+      routing — and none of it is obvious on first open.
+
+    Why we list it anyway: **it is genuinely free, open source, ad-free and offline, and it is the most
+    realistic starting point for learning music production at zero cost.** Once you know what you
+    actually need, you will be far better placed to judge whether a commercial DAW is worth buying.

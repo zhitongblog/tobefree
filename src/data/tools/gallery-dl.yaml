@@ -1,0 +1,114 @@
+name: gallery-dl
+accent: '#7B5EA7'
+initials: GD
+category: network
+price: free
+license: 'GPL-2.0'
+website: https://github.com/mikf/gallery-dl
+download: https://github.com/mikf/gallery-dl/releases/latest
+repo: https://github.com/mikf/gallery-dl
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [图片下载, 批量抓取, 命令行, 图集, 归档]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 图片界的 yt-dlp，整个图集一条命令下完
+  en: yt-dlp for images — an entire gallery in one command
+description:
+  zh: 命令行图片批量下载器，支持数百个图站和社交平台。给它一个图集、用户主页或标签页的链接，它会按原始画质下载全部图片，并按可配置的规则组织目录和文件名，同时保存元数据。
+  en: A command-line batch image downloader supporting hundreds of image hosts and social platforms. Give it a gallery, user page or tag URL and it downloads every image at original quality, organizing directories and filenames by configurable rules while saving metadata alongside.
+review:
+  zh: |
+    保存网上的图片，手动做是一张张右键另存为——遇到几百张的图集就没法办了。
+    浏览器扩展多数只能抓当前页面可见的图，而且经常抓到的是缩略图而不是原图。
+
+    gallery-dl 是这类需求的通用解，和 yt-dlp 是同一个思路的产物：
+    **一条命令，一个链接，把整组内容按原始画质拿下来。**
+    19,209 颗星，GPL-2.0，Python 写的。
+
+    基本用法就是：
+
+    ```
+    gallery-dl <图集链接>
+    ```
+
+    它支持的站点数以百计，涵盖主流图片社区、插画站、
+    社交平台和各类图床。给的链接可以是单张图、一个图集、
+    一个用户的全部作品，甚至一个标签下的内容。
+
+    实用之处：
+
+    - **拿原图**。它解析站点接口找到最高分辨率的原始文件，
+      不是页面上显示的压缩版。
+    - **目录和命名可配置**。可以设成 `作者/作品名/序号.jpg` 这样的结构，
+      下载几千张图之后仍然是有序的。
+    - **保存元数据**。可以同时把标题、作者、标签、原始链接、
+      发布时间存成 JSON，日后归档检索用得上。
+    - **增量下载**。再次运行时跳过已下载的，只拿新增的，
+      适合定期同步关注的作者。
+    - **支持登录**。可以传 Cookie 来访问需要登录才能看的内容
+      （只用于你自己有权访问的账号内容）。
+
+    要说清楚的：
+
+    - **命令行工具**，没有图形界面。参数不复杂，
+      但要接受打命令。配置写在一个 JSON 文件里，配好一次长期受用。
+    - **需要 Python 环境**（或者用打包好的独立可执行文件）。
+      `pip install gallery-dl` 最简单。
+    - **站点会变，工具要跟着更新**。和 yt-dlp 一样，
+      网站改版会导致抓取失败，保持更新即可。
+    - **版权和使用条款是你的责任**。工具只负责下载，
+      **下载受版权保护的作品用于再分发或商业用途是侵权**。
+      请尊重创作者，很多平台的服务条款也禁止批量抓取，
+      下载前想清楚用途，并控制请求频率不要给对方服务器造成压力。
+
+    适合谁：做资料归档、收集参考素材、备份自己发布过的内容、
+    或者担心某个平台哪天关停而想留一份本地副本的人。
+  en: |
+    Saving images from the web by hand means right-click and save, one at a time — impossible for a
+    gallery of several hundred. Most browser extensions only capture what is visible on the current
+    page, and frequently grab thumbnails rather than originals.
+
+    gallery-dl is the general answer, built on the same premise as yt-dlp: **one command, one link, the
+    whole set at original quality.** 19,209 stars, GPL-2.0, written in Python.
+
+    Basic usage:
+
+    ```
+    gallery-dl <gallery url>
+    ```
+
+    It supports hundreds of sites across image communities, illustration platforms, social networks and
+    assorted image hosts. The URL can be a single image, a gallery, everything by one user, or a tag.
+
+    What makes it useful:
+
+    - **Original files.** It resolves site APIs to find the highest-resolution source rather than the
+      compressed version displayed on the page.
+    - **Configurable paths and names,** such as `artist/work/index.jpg`, so thousands of files stay
+      organized.
+    - **Metadata capture:** title, author, tags, source URL and publication time saved as JSON
+      alongside, valuable for later archival search.
+    - **Incremental downloads** that skip what you already have and fetch only new items, suited to
+      periodically syncing artists you follow.
+    - **Authenticated access** by passing cookies for content requiring a login — used only for
+      material your own account is entitled to see.
+
+    To be clear about:
+
+    - **It is a command-line tool** with no GUI. The flags are simple, but typing is required.
+      Configuration lives in a JSON file, set up once and reused.
+    - **It needs Python** (or one of the packaged standalone executables). `pip install gallery-dl` is
+      the easiest route.
+    - **Sites change and the tool must be updated.** As with yt-dlp, a site redesign breaks extraction
+      until a new version lands, so keep it current.
+    - **Copyright and terms of service are your responsibility.** The tool only downloads;
+      **downloading copyrighted work for redistribution or commercial use is infringement.** Respect
+      creators, note that many platforms' terms prohibit bulk scraping, be clear about your purpose,
+      and throttle your requests so you do not burden someone's server.
+
+    Who it suits: people archiving reference material, collecting research images, backing up their own
+    published work, or keeping a local copy in case a platform shuts down.

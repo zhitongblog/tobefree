@@ -1,0 +1,106 @@
+name: BleachBit
+accent: '#4A8C6F'
+initials: BB
+category: utility
+price: free
+license: 'GPL-3.0'
+website: https://www.bleachbit.org
+download: https://www.bleachbit.org/download
+repo: https://github.com/bleachbit/bleachbit
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [系统清理, 隐私痕迹, 缓存清理, 安全擦除, 开源]
+platforms: [windows, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 清缓存和使用痕迹，不推销"加速"也不弹广告
+  en: Clears caches and traces without selling you a "speed boost"
+description:
+  zh: 开源的系统清理工具。清除浏览器缓存与历史、应用临时文件、日志、缩略图缓存、回收站等，也能安全擦除文件（覆写后删除，避免被恢复）和擦除磁盘空闲空间。支持上千个应用的清理规则。
+  en: An open-source system cleaner. It clears browser caches and history, application temporary files, logs, thumbnail caches and the recycle bin, and can also shred files (overwriting before deletion to prevent recovery) and wipe free disk space. Cleaning rules cover over a thousand applications.
+review:
+  zh: |
+    "系统清理"是免费软件里最脏的品类之一：装完常驻托盘、
+    每天弹窗告诉你"发现 1,247 个垃圾文件、C 盘健康度 62 分"、
+    一键加速、捆绑浏览器、然后引导你买高级版。
+    很多这类软件本身才是最大的垃圾。
+
+    BleachBit 是这个位置上干净的选项。6,574 颗星，GPL-3.0，
+    没有托盘常驻、没有"健康评分"、没有加速球、没有付费版。
+    你打开它，勾选要清理的项目，点预览看会删什么，确认后清理，然后关掉。
+
+    它能清的东西：
+
+    - **浏览器**：Firefox、Chrome、Edge 等的缓存、历史、Cookie、
+      会话、表单记录（可以只清缓存保留登录）。
+    - **应用临时文件**：系统临时目录、日志、崩溃报告、缩略图缓存、
+      各种软件的缓存目录。规则库覆盖上千个应用。
+    - **回收站和最近使用记录**。
+    - **Linux 上还能清**：APT/DNF 的包缓存（这个通常能腾出不少空间）、
+      旧内核、本地化文件。
+
+    另外两个功能属于隐私范畴：
+
+    - **安全擦除文件（shred）**：普通删除只是标记空间可用，数据还在盘上。
+      它会先用随机数据覆写再删除，让恢复软件找不回来。
+    - **擦除空闲空间**：把磁盘上"已删除但还没被覆盖"的区域填满再清空，
+      处理旧硬盘要转手时有用。
+
+    要说清楚的：
+
+    - **先用"预览"**。它的默认勾选不激进，但"清理"是不可撤销的。
+      预览会列出具体会删哪些文件，看一眼再动手。
+      **特别注意别顺手清掉浏览器的 Cookie 和密码**——
+      那意味着所有网站都要重新登录。
+    - **清理不会让电脑变快**。这一点要诚实：现代系统删掉几个 G 的缓存，
+      性能几乎没有变化。它的价值在**腾空间**和**清痕迹**，不在"加速"。
+      任何声称清理能显著提速的软件都在夸大。
+    - **没有 macOS 版**（曾经有过，现在官方只提供 Windows 和 Linux）。
+    - **SSD 上不需要多次覆写擦除**。SSD 的磨损均衡机制让覆写不可靠，
+      真要彻底清除应该用硬盘自带的 Secure Erase 或全盘加密。
+
+    适合谁：想定期腾点空间、清一下使用痕迹，并且**不想为此在系统里常驻一个流氓软件**的人。
+  en: |
+    "System cleaner" is one of the dirtiest categories in free software: a permanent tray icon, daily
+    pop-ups announcing "1,247 junk files found, drive health 62/100", one-click acceleration, a bundled
+    browser, and a funnel toward the premium version. Frequently the cleaner is the worst thing on the
+    machine.
+
+    BleachBit is the clean option in that slot. 6,574 stars, GPL-3.0 — no tray resident, no health
+    score, no boost button, no paid tier. Open it, tick what to clean, preview what would be deleted,
+    confirm, and close it again.
+
+    What it clears:
+
+    - **Browsers:** caches, history, cookies, sessions and form data for Firefox, Chrome, Edge and
+      others, selectively enough to clear caches while keeping logins.
+    - **Application temporary files:** system temp directories, logs, crash reports, thumbnail caches
+      and per-application cache folders, with rules covering over a thousand programs.
+    - **The recycle bin and recent-documents lists.**
+    - **On Linux additionally:** APT and DNF package caches (often a substantial recovery), old
+      kernels, and localization files.
+
+    Two further features belong to privacy:
+
+    - **File shredding:** ordinary deletion only marks space as free while the data remains on disk.
+      Shredding overwrites with random data first, so recovery tools find nothing.
+    - **Wiping free space:** fills and clears the "deleted but not yet overwritten" regions of a disk,
+      useful before handing an old drive on.
+
+    To be clear about:
+
+    - **Use the preview.** Its defaults are not aggressive, but cleaning cannot be undone. The preview
+      lists exactly which files would go — read it first. **Be especially careful not to clear browser
+      cookies and passwords casually**, which means logging back into everything.
+    - **Cleaning does not make a computer faster.** This deserves honesty: deleting a few gigabytes of
+      cache on a modern system changes performance essentially not at all. The value is **reclaimed
+      space** and **cleared traces**, not speed. Any software claiming cleaning produces meaningful
+      speedups is overselling.
+    - **No macOS build.** One existed historically; official downloads now cover Windows and Linux.
+    - **Multi-pass wiping is not meaningful on SSDs.** Wear levelling makes overwrites unreliable;
+      genuine erasure on an SSD means the drive's own Secure Erase or full-disk encryption.
+
+    Who it suits: anyone who wants to reclaim space and clear traces periodically **without leaving a
+    predatory utility resident on their system.**

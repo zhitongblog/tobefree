@@ -1,0 +1,117 @@
+name: Money Manager EX
+accent: '#3B7D5A'
+initials: MM
+category: finance
+price: free
+license: 'GPL-2.0'
+website: https://moneymanagerex.org
+download: https://moneymanagerex.org/download
+repo: https://github.com/moneymanagerex/moneymanagerex
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [记账, 个人财务, 轻量, 预算, 离线]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 记账、预算、看图表，装完就会用
+  en: Accounts, budgets and charts — usable the moment it opens
+description:
+  zh: 轻量的个人财务软件。管理银行账户、信用卡、现金和投资，记录收支、设预算、看图表报表，支持定期交易和多币种。数据存在本地的 SQLite 文件里，可以加密，有配套的安卓 App 用于随手记账。
+  en: Lightweight personal finance software. Manage bank accounts, credit cards, cash and investments; record transactions, set budgets and view chart reports; handle recurring transactions and multiple currencies. Data lives in a local SQLite file that can be encrypted, with a companion Android app for quick entry on the go.
+review:
+  zh: |
+    这个分类里的工具各有各的门槛：GnuCash 要懂复式记账，
+    Beancount 要会命令行，Firefly III 和 Ghostfolio 要会部署服务器，
+    Actual Budget 要接受信封预算那套方法。
+
+    Money Manager EX 的定位是**没有门槛的那个**——
+    装上打开，建几个账户，开始记，图表自动出来。
+    2,251 颗星，GPL-2.0，维护了十几年。
+
+    功能覆盖日常所需：
+
+    - **多账户**：储蓄卡、信用卡、现金、贷款、投资账户分开管，
+      也能看合并后的净资产。
+    - **收支记录**：分类和子分类、备注、附件、拆分交易
+      （一笔消费拆到几个分类）。
+    - **预算**：按分类设月度或年度预算，看执行进度。
+    - **定期交易**：房租、订阅、还款自动生成待确认记录。
+    - **报表和图表**：收支趋势、分类占比、现金流、净资产曲线，
+      还有一个自定义报表功能（会写 SQL 的话可以做任意统计）。
+    - **多币种**：持有外币和出国消费能正确折算。
+    - **导入**：支持 CSV、QIF、OFX 格式的银行对账单。
+    - **投资跟踪**：能记录股票基金的持仓和成本（比较基础，
+      要专业的收益率分析看 Portfolio Performance）。
+
+    数据存在一个本地 SQLite 文件里，**可以设密码加密**，
+    你想放哪放哪、怎么备份怎么备份。
+
+    有一个**安卓 App**（Money Manager Ex for Android），
+    可以在手机上随手记一笔，之后和电脑上的文件同步——
+    这一点是它相对 GnuCash、HomeBank 的实际优势，
+    因为记账最难坚持的就是"当场记下来"。
+
+    要说清楚的：
+
+    - **不是复式记账**。它用的是普通的收支流水模型，
+      没有借贷平衡校验。**优点是不用学会计，
+      缺点是账目自洽性不如 GnuCash**——你记错了它不会告诉你。
+      个人和家庭用足够，正经做企业账不合适。
+    - **界面传统**。wxWidgets 的桌面风格，清楚但谈不上现代美观。
+    - **同步要自己解决**。手机和电脑之间没有官方云同步，
+      常见做法是把数据文件放进 Syncthing 或自己的网盘。
+      **注意不要在两端同时编辑**，会冲突。
+    - **投资功能较弱**，别指望用它做资产配置分析。
+
+    和同类怎么选：**完全不想学任何东西、要有手机端** → Money Manager EX；
+    **想要复式记账的严谨** → GnuCash；
+    **想认真控制月度开销** → Actual Budget；
+    **只做投资分析** → Portfolio Performance。
+  en: |
+    Every tool in this category has a barrier: GnuCash wants double-entry knowledge, Beancount wants a
+    command line, Firefly III and Ghostfolio want a server, Actual Budget wants you to adopt envelope
+    budgeting.
+
+    Money Manager EX is **the one without a barrier** — install it, create a few accounts, start
+    recording, and the charts appear on their own. 2,251 stars, GPL-2.0, maintained for well over a
+    decade.
+
+    Coverage of everyday needs:
+
+    - **Multiple accounts:** checking, credit cards, cash, loans and investment accounts managed
+      separately with a consolidated net worth view.
+    - **Transaction recording** with categories and subcategories, notes, attachments and split
+      transactions across several categories.
+    - **Budgets** set monthly or annually per category with progress tracking.
+    - **Recurring transactions** generating pending entries for rent, subscriptions and repayments.
+    - **Reports and charts:** income and expense trends, category shares, cash flow, net worth curves,
+      plus a custom report feature allowing arbitrary analysis if you write SQL.
+    - **Multiple currencies,** converting correctly for foreign holdings and travel spending.
+    - **Import** of CSV, QIF and OFX bank statements.
+    - **Investment tracking** for holdings and cost basis — fairly basic, with serious return analysis
+      belonging to Portfolio Performance.
+
+    Data lives in a local SQLite file that **can be password-encrypted**, stored and backed up however
+    you like.
+
+    There is an **Android app** for jotting an expense on the spot and syncing with the desktop file —
+    a real advantage over GnuCash and HomeBank, since the hardest part of bookkeeping is recording the
+    transaction at the moment it happens.
+
+    To be clear about:
+
+    - **It is not double-entry.** It uses an ordinary income-and-expense model with no balancing
+      validation. **The upside is needing no accounting knowledge; the downside is that it will not
+      tell you when you have made a mistake,** unlike GnuCash. Ample for households, unsuited to real
+      business books.
+    - **The interface is traditional** wxWidgets desktop styling — clear, but not modern or elegant.
+    - **Sync is your problem.** There is no official cloud sync between phone and desktop; the usual
+      approach is placing the data file in Syncthing or your own storage. **Do not edit on both ends
+      simultaneously** or you will create conflicts.
+    - **Investment features are weak;** do not expect allocation analysis from it.
+
+    How to choose among the peers: **want to learn nothing and need a mobile app** → Money Manager EX;
+    **want double-entry rigor** → GnuCash; **want serious control of monthly spending** → Actual Budget;
+    **only analyzing investments** → Portfolio Performance.

@@ -1,0 +1,103 @@
+name: AdGuard Home
+accent: '#68BC71'
+initials: AH
+category: selfhosted
+price: free
+license: 'GPL-3.0'
+website: https://adguard.com/adguard-home/overview.html
+download: https://github.com/AdguardTeam/AdGuardHome/releases/latest
+repo: https://github.com/AdguardTeam/AdGuardHome
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [去广告, dns, 加密dns, 家长控制, 全屋拦截]
+platforms: [linux, windows, macos, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, self-hostable]
+tagline:
+  zh: 全屋去广告，还顺手把 DNS 加密了
+  en: Network-wide ad blocking, with encrypted DNS thrown in
+description:
+  zh: 自建的 DNS 层广告与追踪拦截服务。和 Pi-hole 同类，但内置支持加密 DNS（DoH、DoT、DoQ）既作为客户端也作为服务端，自带图形化配置界面，单个可执行文件即可运行，不需要额外的 Web 服务器。
+  en: A self-hosted DNS-level ad and tracker blocker in the same category as Pi-hole, but with encrypted DNS (DoH, DoT, DoQ) built in both as client and server, a graphical setup interface included, and a single executable that runs without a separate web server.
+review:
+  zh: |
+    它和 Pi-hole 做的是同一件事——**站在 DNS 这一层，
+    把广告和追踪域名在解析阶段就挡掉**，全家所有设备一次生效，
+    包括那些装不了扩展的电视和手机 App。
+
+    既然功能重叠，收录两个的意义在于它们的取舍不同。
+    AdGuard Home 有 36,103 颗星，GPL-3.0，由做 AdGuard 广告拦截器的团队开发。
+
+    它相对 Pi-hole 的几个实际差别：
+
+    - **加密 DNS 是内置的**。它可以用 DoH / DoT / DoQ 去上游查询
+      （这样你的 DNS 请求内容运营商看不到），
+      **也能作为加密 DNS 服务端**——手机在外面用移动网络时，
+      也能通过加密连接用回家里的过滤服务。Pi-hole 要做到这些得额外配组件。
+    - **安装更简单**。单个可执行文件，自带 Web 界面和引导式配置向导，
+      不需要单独装 Web 服务器。跑在 Windows 和 macOS 上也很方便，
+      Pi-hole 基本是 Linux 专属。
+    - **家长控制**。内置安全搜索强制、成人内容过滤、
+      可以按设备设不同规则（比如孩子的平板走更严格的过滤）、按时间段设规则。
+    - **每个客户端独立配置**。可以给不同设备分配不同的过滤规则和上游 DNS，
+      Pi-hole 的分组功能相对简单一些。
+
+    Pi-hole 的优势则在社区规模、教程数量和第三方生态，
+    以及它更"纯粹"（只做 DNS 过滤这一件事）。
+
+    **两个都装是没有意义的**，选一个即可。
+    大致的选法：**想要加密 DNS、家长控制、或者要装在 Windows / macOS 上** → AdGuard Home；
+    **树莓派上跑、想要最成熟的社区支持** → Pi-hole。
+
+    要说清楚的：
+
+    - **它拦域名，不拦内容**。同域名下的广告（比如视频网站的贴片）拦不掉，
+      仍然需要浏览器里的 uBlock Origin 配合。
+    - **会误伤**。某些 App 的功能可能因为域名被拦而异常，
+      界面里能查最近拦截记录并加白名单。
+    - **它是单点**。这台机器挂了全家断网（DNS 无人应答），
+      建议在路由器里配备用 DNS。
+    - **注意区分产品线**。AdGuard 这家公司还有付费的浏览器扩展、
+      桌面客户端和 DNS 服务。**AdGuard Home 这个自建版本是完全免费开源的**，
+      不要和它们的付费产品混淆。
+  en: |
+    It does the same job as Pi-hole — **sitting at the DNS layer and refusing to resolve ad and tracker
+    domains** — covering every device in the house at once, including TVs and phone apps where no
+    extension can be installed.
+
+    Given the overlap, listing both is only useful because their trade-offs differ. AdGuard Home has
+    36,103 stars, GPL-3.0, built by the team behind the AdGuard ad blocker.
+
+    Practical differences from Pi-hole:
+
+    - **Encrypted DNS is built in.** It queries upstream over DoH, DoT or DoQ so your ISP cannot read
+      your DNS requests, and **it can act as an encrypted DNS server itself** — so a phone on mobile
+      data elsewhere can still use your home filtering over an encrypted connection. Pi-hole needs
+      additional components for this.
+    - **Installation is simpler:** a single executable with a built-in web interface and a guided setup
+      wizard, requiring no separate web server. It also runs comfortably on Windows and macOS, whereas
+      Pi-hole is effectively Linux-only.
+    - **Parental controls:** enforced safe search, adult content filtering, per-device rules (a child's
+      tablet on stricter filtering) and time-based schedules.
+    - **Per-client configuration,** assigning different filter rules and upstream servers to different
+      devices, where Pi-hole's grouping is comparatively basic.
+
+    Pi-hole's advantages are community size, the volume of tutorials and third-party tooling, and being
+    more single-purpose.
+
+    **Running both is pointless** — pick one. Roughly: **want encrypted DNS, parental controls, or to
+    install on Windows or macOS** → AdGuard Home; **running on a Raspberry Pi and want the most mature
+    community support** → Pi-hole.
+
+    To be clear about:
+
+    - **It blocks domains, not content.** Ads served from the same domain as the content still get
+      through, so uBlock Origin in the browser remains complementary.
+    - **False positives happen.** An app may misbehave because a domain was blocked; the interface shows
+      recent blocks and allows whitelisting.
+    - **It is a single point of failure.** If that machine goes down, nothing resolves DNS and the whole
+      house appears offline. Configure a fallback DNS on the router.
+    - **Distinguish the product lines.** The AdGuard company also sells browser extensions, desktop
+      clients and a DNS service. **AdGuard Home, the self-hosted version, is entirely free and open
+      source** — do not confuse it with their paid products.

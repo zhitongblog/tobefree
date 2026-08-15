@@ -1,0 +1,103 @@
+name: Delta Chat
+accent: '#2C8C4A'
+initials: DC
+category: chat
+price: free
+license: 'GPL-3.0'
+website: https://delta.chat
+download: https://delta.chat/en/download
+repo: https://github.com/deltachat/deltachat-desktop
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [即时通讯, 邮件协议, 端到端加密, 去中心化, 无需服务器]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 用电子邮箱当聊天账号，对方没装也能收到
+  en: Chat over email — the other person does not even need the app
+description:
+  zh: 界面是聊天软件，底层跑的是电子邮件。用你已有的邮箱登录，聊天记录通过邮件协议收发，双方都装了 Delta Chat 时自动端到端加密。因为基于邮件，不需要任何新账号，也没有中心化的服务商能封禁你。
+  en: A messenger interface running on top of email. Sign in with an email account you already have, messages travel over standard mail protocols, and when both sides use Delta Chat the conversation is end-to-end encrypted automatically. Because it is email underneath, no new account is needed and no central provider can lock you out.
+review:
+  zh: |
+    每出现一个新的聊天软件，就多一套账号、多一份联系人列表，
+    而且你能联系到谁，取决于对方装没装。
+    Signal 很好，但你妈没装 Signal。
+
+    Delta Chat 的思路很聪明：**用一个所有人都已经有的网络——电子邮件。**
+
+    你用现有的邮箱登录（Gmail、Outlook、公司邮箱、自建邮箱都行），
+    界面看起来就是普通的聊天软件，消息实际上是一封封邮件收发的。
+    这带来几个别的软件没有的性质：
+
+    - **不需要注册新账号**。你的邮箱就是你的 ID，不用手机号。
+    - **对方没装也能聊**。你发的消息对方在普通邮箱里能收到（是一封邮件），
+      他回复你也能收到。等他装了 Delta Chat，对话就自动变成聊天形式并开始加密。
+      **这解决了新通讯软件最难的冷启动问题。**
+    - **去中心化**。没有一家公司拥有这个网络。你的邮箱服务商换了、
+      被封了，换一个继续用，联系人不变。
+    - **自动端到端加密**。双方都用 Delta Chat 时，
+      基于 Autocrypt 标准自动协商密钥，不需要你懂 PGP。
+
+    功能上已经不只是文字：支持图片、语音、视频、文件传输、
+    群聊、表情回应、消息撤回，还有基于 WebXDC 的小应用
+    （在聊天里跑一个共享的清单、投票、小游戏）。
+
+    要说清楚的：
+
+    - **元数据不如专用通讯软件**。邮件协议决定了服务器知道
+      谁给谁发了信、什么时候、多大。**加密的是内容，不是"你在和谁联系"这件事。**
+      需要连元数据都保护，用 SimpleX 或 Signal。
+    - **和非用户聊天时是明文的**。对方没装 Delta Chat 的话，
+      消息就是一封普通邮件——没有加密。界面里会明确标出加密状态，注意看。
+    - **速度取决于邮箱服务商**。邮件的实时性不如即时通讯协议，
+      有些服务商推送慢，消息可能延迟几秒到几十秒。
+    - **部分邮箱需要配置**。Gmail 这类可能需要应用专用密码或 OAuth，
+      官方文档有说明。用自建邮箱或对 IMAP 友好的服务商体验最好。
+    - **群聊在邮件模型上有局限**，大群的体验不如专门的通讯软件。
+
+    适合谁：想要加密通讯但不愿意让家人朋友再装一个 App 的人、
+    重视去中心化和抗封禁的人、以及已经在自建邮件服务的人。
+  en: |
+    Every new messenger means another account, another contact list, and a reach limited to whoever
+    installed it. Signal is excellent, but your mother has not installed Signal.
+
+    Delta Chat's idea is clever: **use a network everyone already has — email.**
+
+    Sign in with an existing account (Gmail, Outlook, a work address, your own server), the interface
+    looks like an ordinary messenger, and messages are actually sent and received as mail. That yields
+    properties no other app has:
+
+    - **No new account.** Your email address is your identity, and no phone number is involved.
+    - **You can message people who do not have it.** Your message arrives in their normal inbox as an
+      email, and their reply comes back. Once they install Delta Chat the thread automatically becomes
+      a chat and starts encrypting. **This solves the cold-start problem that kills most new
+      messengers.**
+    - **Decentralized.** No single company owns the network. Change or lose your mail provider and you
+      continue with another; your contacts are unchanged.
+    - **Automatic end-to-end encryption.** When both sides use Delta Chat, keys are negotiated
+      automatically under the Autocrypt standard, requiring no understanding of PGP.
+
+    It is no longer text-only either: images, voice messages, video, file transfer, group chats, emoji
+    reactions, message deletion, and WebXDC mini-apps that run a shared checklist, poll or small game
+    inside a conversation.
+
+    To be clear about:
+
+    - **Metadata protection trails purpose-built messengers.** Email protocols mean servers know who
+      wrote to whom, when and how large the message was. **The content is encrypted; the fact of the
+      contact is not.** For metadata protection, use SimpleX or Signal.
+    - **Messages to non-users are plaintext.** If the recipient has no Delta Chat, your message is an
+      ordinary unencrypted email. The interface labels encryption status clearly — read it.
+    - **Speed depends on the mail provider.** Email is less immediate than a chat protocol, and slow
+      push on some providers delays messages by seconds to tens of seconds.
+    - **Some mailboxes need configuration.** Providers like Gmail may require an app-specific password
+      or OAuth, documented officially. Self-hosted mail or IMAP-friendly providers work best.
+    - **Group chat is constrained by the email model** and large groups feel worse than in a dedicated
+      messenger.
+
+    Who it suits: people who want encrypted messaging without asking family and friends to install
+    anything, those who value decentralization and censorship resistance, and anyone already running
+    their own mail server.

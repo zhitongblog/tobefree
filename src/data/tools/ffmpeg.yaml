@@ -1,0 +1,118 @@
+name: FFmpeg
+accent: '#3E7A2E'
+initials: FF
+category: media
+price: free
+license: 'LGPL-2.1+ · 部分 GPL'
+website: https://ffmpeg.org
+download: https://ffmpeg.org/download.html
+repo: https://github.com/FFmpeg/FFmpeg
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [转码, 剪辑, 命令行, 格式转换, 音视频处理]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 几乎所有音视频软件的地基，你早就在用它了
+  en: The foundation under nearly all media software — you already use it
+description:
+  zh: 音视频处理的通用命令行工具与函数库。转码、剪切、合并、抽取音轨、压制字幕、调整分辨率码率、录屏、推流、批量处理，几乎所有你能想到的音视频操作它都能做。VLC、HandBrake、OBS、yt-dlp 等大量软件底层都依赖它。
+  en: The universal command-line tool and library set for audio and video. Transcode, cut, concatenate, extract audio, burn subtitles, change resolution or bitrate, capture screens, stream and batch-process — nearly any media operation you can name. VLC, HandBrake, OBS, yt-dlp and a great deal of other software depend on it underneath.
+review:
+  zh: |
+    FFmpeg 是那种"你没听说过，但你每天都在用"的软件。
+    你用 VLC 播放的视频、用 HandBrake 压的片子、用 OBS 推的流、
+    用 yt-dlp 下载后合并的音视频轨、
+    甚至很多在线转码网站和手机 App 的后台——底层跑的都是它。
+    63,297 颗星，LGPL-2.1+（部分可选组件是 GPL）。
+
+    它是命令行工具，这既是门槛也是它无可替代的原因：**图形界面能做的事有限，
+    命令行能组合的事无限**。几个真实场景：
+
+    **把视频转成 mp4**（保持画质，兼容性最好）：
+    ```
+    ffmpeg -i input.mkv -c:v libx264 -crf 20 -c:a aac output.mp4
+    ```
+
+    **无损截取一段**（不重新编码，秒完成）：
+    ```
+    ffmpeg -ss 00:01:30 -to 00:02:45 -i input.mp4 -c copy clip.mp4
+    ```
+
+    **从视频里抽出音频**：
+    ```
+    ffmpeg -i video.mp4 -vn -c:a copy audio.m4a
+    ```
+
+    **把字幕压进画面**（硬字幕，任何播放器都能看）：
+    ```
+    ffmpeg -i video.mp4 -vf subtitles=sub.srt output.mp4
+    ```
+
+    再往上，批量处理是它真正的杀手锏：一个循环就能把整个文件夹的视频统一转码、
+    统一改分辨率、统一加水印。这种事在图形软件里要点几百次。
+
+    要说清楚的：
+
+    - **它没有图形界面**。装完不会出现一个图标，你得开终端。
+      不想碰命令行的话：转码用 HandBrake、剪辑用 Shotcut 或 Kdenlive、
+      无损切割用 LosslessCut——**这些工具的内核都是 FFmpeg**，
+      等于有人替你把命令包好了。
+    - **参数极多**。官方文档庞大，选项成百上千。
+      好消息是日常用到的就那几条，记住上面四个模板能覆盖大部分需求。
+    - **Windows 上要手动配置**。官方不提供安装程序，
+      下载压缩包后需要把 `bin` 目录加进系统 PATH 才能在任意位置调用。
+      或者用 `winget install ffmpeg`、`scoop install ffmpeg` 一条命令搞定。
+    - **协议有两个版本**。默认构建是 LGPL，包含某些组件（如 x264）的构建是 GPL。
+      个人使用无所谓，**要嵌进商业产品里发布的话请认真看协议**。
+
+    如果你经常处理视频，学会它的基础命令是一次性投入、长期受益的事。
+  en: |
+    FFmpeg is software you have never heard of and use every day. The video VLC plays, the file
+    HandBrake compresses, the stream OBS pushes, the audio and video tracks yt-dlp merges after a
+    download, and the backends of many online converters and mobile apps are all FFmpeg underneath.
+    63,297 stars, LGPL-2.1+ with some optional components under GPL.
+
+    It is a command-line tool, which is both the barrier and the reason nothing replaces it: **a GUI
+    can do a fixed set of things, while a command line composes infinitely.** Some real examples:
+
+    **Convert to mp4** for maximum compatibility while keeping quality:
+    ```
+    ffmpeg -i input.mkv -c:v libx264 -crf 20 -c:a aac output.mp4
+    ```
+
+    **Cut a segment losslessly** without re-encoding, finishing in seconds:
+    ```
+    ffmpeg -ss 00:01:30 -to 00:02:45 -i input.mp4 -c copy clip.mp4
+    ```
+
+    **Extract the audio track:**
+    ```
+    ffmpeg -i video.mp4 -vn -c:a copy audio.m4a
+    ```
+
+    **Burn subtitles into the picture** so any player shows them:
+    ```
+    ffmpeg -i video.mp4 -vf subtitles=sub.srt output.mp4
+    ```
+
+    Batch processing is where it truly wins: one loop transcodes an entire folder, resizes everything
+    uniformly or watermarks a whole library — hundreds of clicks in a graphical tool.
+
+    To be clear about:
+
+    - **There is no GUI.** Installing produces no icon; you open a terminal. If you would rather not:
+      HandBrake for transcoding, Shotcut or Kdenlive for editing, LosslessCut for lossless
+      trimming — **all of them are FFmpeg inside**, with someone else having written the commands.
+    - **The options are overwhelming.** The documentation is vast and the flags number in the hundreds.
+      The good news is that daily work uses very few; the four templates above cover most needs.
+    - **Windows needs manual setup.** There is no official installer — download the archive and add its
+      `bin` directory to PATH, or simply run `winget install ffmpeg` or `scoop install ffmpeg`.
+    - **Two licence situations.** Default builds are LGPL; builds including certain components such as
+      x264 are GPL. Irrelevant for personal use, but **read the licence carefully before shipping it
+      inside a commercial product.**
+
+    If you handle video regularly, learning its basic commands is a one-time investment that pays back
+    indefinitely.

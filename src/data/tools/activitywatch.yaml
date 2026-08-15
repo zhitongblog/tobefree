@@ -1,0 +1,111 @@
+name: ActivityWatch
+accent: '#2E7D7B'
+initials: AW
+category: productivity
+price: free
+license: 'MPL-2.0'
+website: https://activitywatch.net
+download: https://activitywatch.net/downloads/
+repo: https://github.com/ActivityWatch/activitywatch
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [时间追踪, 自动记录, 数据本地, 隐私, 使用统计]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 自动记录时间去哪了，数据一个字节都不上传
+  en: Automatically records where your time went, uploading not one byte
+description:
+  zh: 自动时间追踪工具。在后台记录你用了哪些程序、打开了哪些网页、每个窗口停留多久，生成可视化的时间报告。**所有数据存在本机的数据库里**，不联网、不上传、没有账号，和商业时间追踪服务的模式完全相反。
+  en: An automatic time tracker. It records in the background which applications you used, which pages you opened and how long each window held focus, then visualizes the result. **All data lives in a local database** — no network, no upload, no account — the opposite of how commercial time-tracking services operate.
+review:
+  zh: |
+    "今天怎么又什么都没干成"——大多数人对自己时间的实际去向估计得很差。
+    手动记录的问题是你根本记不住，而商业的自动追踪工具（尤其是公司装的那类）
+    会把你的每一次点击传到别人的服务器上。
+
+    ActivityWatch 的定位就是这两难之间的第三条路：**自动记录，但数据完全留在你自己机器上**。
+    18,589 颗星，MPL-2.0。
+
+    它的工作方式是后台跑几个"观察器"：
+
+    - **窗口观察器**：记录当前活跃窗口的程序名和标题、持续多久。
+    - **浏览器扩展**：记录当前标签页的网址（这样"用了 3 小时浏览器"
+      能细化成"1 小时文档、2 小时视频网站"）。
+    - **AFK 检测**：识别你离开键盘的时间，不把发呆算进工作时长。
+    - 还有社区做的编辑器插件（VS Code、Vim 等），能记录你在哪个项目、哪个文件上花了时间。
+
+    数据汇总成网页仪表盘：今天用得最多的程序、访问最多的网站、
+    按类别（工作/娱乐/沟通）的时间分布、一天的时间线。
+    分类规则自己定，用正则匹配程序名和窗口标题。
+
+    **隐私设计是它的核心卖点，值得展开说：**
+
+    - 数据存在本机的 SQLite 数据库里，你可以直接打开看、导出、删除。
+    - 服务端只监听本地回环地址，默认外部访问不了。
+    - 没有账号，没有云端，没有遥测。开源可审计。
+    - 它有一个可选的同步功能，但那也是你自己在自己的设备之间同步。
+
+    这一点和公司发的"效率监控软件"有本质区别——**它是给你自己看的，不是给别人看的**。
+
+    要说清楚的：
+
+    - **正式发版很慢**。当前稳定版 v0.13.2 发布于 2024 年 10 月，
+      而仓库在 2026 年仍有持续提交。功能是稳定可用的，
+      但如果你希望频繁看到新版本，这个节奏要有心理准备。
+    - **它只记录，不干预**。没有"网站拦截""强制专注"这类功能，
+      它给你数据，改变习惯还是靠你自己。
+    - **窗口标题可能包含敏感信息**（比如文档名、聊天对象）。
+      虽然数据在本地，但如果你的电脑被别人用，建议给它设置排除规则，
+      或者干脆在敏感场景下暂停记录。
+    - **安卓版功能较简单**，主要记录 App 使用时长。
+
+    如果你想认真回答"我的时间到底花在哪了"，同时不愿意为此把数据交给任何公司，
+    目前基本没有比它更合适的选择。
+  en: |
+    "How did I get nothing done again today?" Most people estimate their own time use badly. Manual
+    logging fails because you cannot remember, and commercial automatic trackers — especially the kind
+    installed by employers — ship every click to someone else's servers.
+
+    ActivityWatch is the third road between those: **automatic recording with the data staying entirely
+    on your machine.** 18,589 stars, MPL-2.0.
+
+    It runs several "watchers" in the background:
+
+    - **Window watcher:** the active window's application name and title, and how long it held focus.
+    - **Browser extension:** the URL of the active tab, so "three hours in a browser" resolves into an
+      hour of documentation and two hours of video.
+    - **AFK detection:** recognizes when you left the keyboard so idle time is not counted as work.
+    - Community editor plugins for VS Code, Vim and others record which project and file consumed the
+      time.
+
+    The data feeds a web dashboard: most-used applications, most-visited sites, time distributed across
+    categories you define (work, leisure, communication) and a timeline of the day. Categorization
+    rules are yours, matched by regular expression against application names and window titles.
+
+    **Its privacy architecture is the core of the pitch and worth spelling out:**
+
+    - Data lives in a local SQLite database you can open, export or delete yourself.
+    - The server binds to localhost only and is not externally reachable by default.
+    - No account, no cloud, no telemetry, and open source so it can be audited.
+    - An optional sync feature exists, but it syncs between your own devices.
+
+    That is fundamentally different from employer-issued monitoring software — **this one reports to
+    you, not about you.**
+
+    To be clear about:
+
+    - **Releases are infrequent.** The current stable version, v0.13.2, dates from October 2024 while
+      the repository saw continuing commits through 2026. The functionality is stable and usable, but
+      set expectations if you like seeing frequent releases.
+    - **It records without intervening.** There is no site blocking or forced focus mode; it gives you
+      data, and changing habits remains your job.
+    - **Window titles can contain sensitive information** such as document names or chat contacts. The
+      data is local, but on a shared computer set exclusion rules or pause recording for sensitive
+      work.
+    - **The Android version is simpler,** mainly logging app usage duration.
+
+    If you genuinely want to answer where your time goes without handing that record to any company,
+    there is currently little better.

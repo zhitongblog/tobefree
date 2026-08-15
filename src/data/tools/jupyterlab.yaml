@@ -1,0 +1,126 @@
+name: JupyterLab
+accent: '#F37726'
+initials: JL
+category: learning
+price: free
+license: 'BSD-3-Clause'
+website: https://jupyter.org
+download: https://jupyter.org/install
+repo: https://github.com/jupyterlab/jupyterlab
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [notebook, 数据分析, 可复现, python, 教学]
+platforms: [windows, macos, linux, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 代码、结果和说明写在同一份文档里
+  en: Code, results and explanation living in one document
+description:
+  zh: 交互式笔记本环境。把代码、运行结果、图表和文字说明按单元格排在同一份文档里，改一段代码重跑一格就能看到新结果。支持 Python、R、Julia 等数十种内核，笔记本文件可以分享、可以进版本管理、别人拿到能重跑。
+  en: An interactive notebook environment. Code, output, charts and prose live as cells in one document, and changing a snippet and re-running that cell shows the new result immediately. It supports dozens of kernels including Python, R and Julia, and notebook files can be shared, version-controlled and re-run by others.
+review:
+  zh: |
+    做数据分析、写实验报告、准备教学材料时，
+    传统流程是三个东西分开：代码在编辑器里、
+    图表导出成图片、说明写在 Word 里。改了一个参数，
+    三样东西都要重新对一遍，很快就对不上了。
+
+    Jupyter 的做法是把它们合成一份文档。代码是一个单元格，
+    运行结果（数字、表格、图表）直接显示在它下面，
+    中间可以插 Markdown 写说明和公式。**改代码、重跑、
+    结果和文档同步更新**，不存在"图是旧的"这种问题。
+
+    JupyterLab 是它的现代界面（15,253 颗星，BSD-3-Clause），
+    相比经典的 Jupyter Notebook 多了文件浏览器、多标签、
+    分屏、终端、可拖拽的布局，更像一个完整的工作环境。
+
+    它真正重要的价值是**可复现**：
+
+    - 一份 `.ipynb` 文件里同时装着代码、输出和解释。
+      别人拿到它，可以从头重跑一遍，得到同样的结果——
+      而不是看你截的图然后猜你怎么算的。
+    - 这在科研、数据分析和教学里意义很大。
+      很多论文的补充材料、很多课程的实验讲义现在直接就是 notebook。
+
+    生态非常大：
+
+    - **内核**：Python 最常用，也支持 R、Julia、Scala、
+      甚至 C++ 和 SQL，几十种语言。
+    - **可视化**：matplotlib、plotly、bokeh 等的图表直接嵌在输出里，
+      交互式图表也能用。
+    - **扩展**：变量查看器、代码格式化、Git 集成、实时协作编辑。
+    - **导出**：可以转成 HTML、PDF、幻灯片或纯脚本
+      （配合 Pandoc 效果更好）。
+
+    要说清楚的：
+
+    - **它是环境，不是语言**。你还是要会 Python（或别的语言）。
+      装的时候通常连带装 Python 生态，新手推荐从 Anaconda 或 miniforge 入手，
+      少踩环境配置的坑。
+    - **版本管理不友好**。`.ipynb` 是 JSON 格式，
+      里面混着输出数据（包括图片的 base64），
+      **直接进 Git 的 diff 几乎没法读，还容易冲突**。
+      解决办法是用 nbstripout 之类的工具在提交前清掉输出，
+      或者用 Jupytext 把笔记本和 .py 文件配对。这是团队协作时必须先处理的问题。
+    - **执行顺序陷阱**。单元格可以任意顺序运行，
+      于是"从上到下重跑一遍会报错"的笔记本非常常见。
+      **交付之前请务必重启内核并从头运行一次**，确认真的可复现。
+    - **不适合写正式软件**。做探索、做分析、做教学很好，
+      但产品代码应该整理成正规的模块和脚本，不要留在笔记本里。
+    - **在服务器上开放访问要注意安全**。JupyterLab 能执行任意代码，
+      暴露到公网必须配密码或 token 加 HTTPS。
+
+    适合谁：数据分析、机器学习、科研计算、
+    以及任何需要"边算边解释"的场景——教学讲义和实验报告尤其合适。
+  en: |
+    Doing data analysis, writing up an experiment or preparing teaching material traditionally splits
+    into three pieces: code in an editor, charts exported as images, prose in a document. Change one
+    parameter and all three need reconciling, which they quickly stop being.
+
+    Jupyter merges them into one document. Code is a cell, its output — numbers, tables, charts —
+    appears directly beneath it, and Markdown cells carry explanation and formulas in between. **Edit,
+    re-run, and the results and the document update together**, so there is no such thing as a stale
+    figure.
+
+    JupyterLab is its modern interface (15,253 stars, BSD-3-Clause), adding a file browser, tabs, split
+    panes, terminals and a draggable layout over the classic Notebook — much closer to a complete
+    working environment.
+
+    Its genuinely important property is **reproducibility**:
+
+    - A single `.ipynb` file carries code, output and explanation together. Someone receiving it can
+      re-run everything from the top and obtain the same results, rather than looking at your
+      screenshots and guessing at the method.
+    - That matters enormously in research, analysis and teaching. Supplementary materials for papers
+      and lab handouts for courses are frequently notebooks now.
+
+    The ecosystem is large:
+
+    - **Kernels:** Python most commonly, plus R, Julia, Scala, even C++ and SQL — dozens of languages.
+    - **Visualization:** matplotlib, plotly and bokeh charts embed directly in output, including
+      interactive ones.
+    - **Extensions:** variable inspectors, code formatting, Git integration, real-time collaborative
+      editing.
+    - **Export** to HTML, PDF, slides or plain scripts, with Pandoc improving the results.
+
+    To be clear about:
+
+    - **It is an environment, not a language.** You still need Python or another language. Installation
+      usually brings a whole scientific stack, and newcomers are better served starting from Anaconda
+      or miniforge to avoid environment problems.
+    - **Version control is awkward.** `.ipynb` is JSON containing output data including base64 images,
+      so **raw Git diffs are nearly unreadable and conflicts are easy.** The fix is stripping output
+      before commit with something like nbstripout, or pairing notebooks with .py files via Jupytext.
+      Any team must address this first.
+    - **The execution-order trap.** Cells can run in any order, so notebooks that fail when re-run from
+      top to bottom are extremely common. **Before sharing, restart the kernel and run everything from
+      the beginning** to confirm it actually reproduces.
+    - **It is not for writing production software.** Excellent for exploration, analysis and teaching;
+      product code belongs in proper modules and scripts, not left in a notebook.
+    - **Exposing it on a server requires care.** JupyterLab executes arbitrary code, so a
+      public-facing instance needs a password or token plus HTTPS.
+
+    Who it suits: data analysis, machine learning, scientific computing, and anything requiring
+    calculation alongside explanation — teaching materials and lab reports especially.

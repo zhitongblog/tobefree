@@ -1,0 +1,118 @@
+name: Apache Guacamole
+accent: '#578E3F'
+initials: AG
+category: remote
+price: free
+license: 'Apache-2.0'
+website: https://guacamole.apache.org
+download: https://guacamole.apache.org/releases/
+repo: https://github.com/apache/guacamole-server
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [远程桌面, 网页访问, 无需客户端, rdp, ssh]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 用浏览器连远程桌面，什么客户端都不用装
+  en: Remote desktop in a browser — no client to install anywhere
+description:
+  zh: 无客户端的远程桌面网关。部署在服务器上之后，任何设备只要有浏览器就能连接内网里的机器，支持 RDP、VNC 和 SSH 协议。不需要在使用的设备上安装任何软件，也不需要给每台目标机器做端口映射。
+  en: A clientless remote desktop gateway. Once deployed on a server, any device with a browser can reach machines on the internal network over RDP, VNC or SSH. Nothing is installed on the device you are using, and no per-machine port forwarding is required.
+review:
+  zh: |
+    远程桌面的常见麻烦是"你手上这台设备装不了客户端"：
+    公司电脑不给装软件、朋友家的电脑、网吧、
+    或者一台你只想临时用五分钟的平板。
+
+    Guacamole 的解法是把远程桌面变成一个网页。它是 Apache 基金会的项目，
+    Apache-2.0 协议。你在自己的服务器上部署一次，
+    之后**任何有浏览器的设备打开一个网址就能连**——
+    手机、平板、别人的电脑，不装任何东西。
+
+    它支持三种协议：
+
+    - **RDP**：连 Windows 机器的桌面。
+    - **VNC**：连 Linux 或任何支持 VNC 的机器。
+    - **SSH / Telnet**：直接在浏览器里开终端。
+
+    典型用法是当作**跳板**：把它部署在内网入口，
+    然后内网里那些机器不需要各自暴露到公网。
+    你从外面只连 Guacamole 一个地址，登录之后能看到所有配置好的机器，
+    点一下就进去。
+
+    实用之处：
+
+    - **集中管理连接**。所有机器的地址和凭据配置在一处，
+      不用在每台设备上重复填。
+    - **多用户和权限**。可以给不同的人分配不同的机器访问权限，
+      团队或家庭共用时很有用。
+    - **会话录制**。可以录下操作过程，审计或者教学用。
+    - **剪贴板和文件传输**，浏览器里也能传文件。
+    - **两步验证**支持（通过扩展）。
+
+    要说清楚的：
+
+    - **部署有一定复杂度**。它分两部分：guacd（后台守护进程，
+      负责真正说 RDP/VNC 协议）和一个 Java Web 应用。
+      官方有 Docker 方案，但比装一个桌面软件复杂得多，
+      **需要一点服务器基础**。只是想帮家里人修电脑的话，RustDesk 简单太多。
+    - **安全责任重大**。它是一个通往你所有机器的入口。
+      **必须配 HTTPS、必须用强密码、强烈建议开两步验证**，
+      不要裸奔暴露在公网上。这是它最需要认真对待的一点。
+    - **性能不如原生客户端**。画面经过服务器转码再推到浏览器，
+      延迟和流畅度比直连的 RDP 客户端差一些，
+      看视频和玩游戏不合适（那是 Moonlight 的领域）。
+    - **不做 NAT 穿透**。它要求服务器能直接访问目标机器，
+      不像 RustDesk 那样帮你打洞。
+
+    适合谁：需要给多人提供内网机器访问的团队、
+    自建服务较多的人、以及经常需要从"装不了软件的设备"上远程办公的人。
+  en: |
+    The recurring problem with remote desktop is the device in your hand that cannot install a client:
+    a locked-down work computer, a friend's machine, an internet café, or a tablet you want to use for
+    five minutes.
+
+    Guacamole turns remote desktop into a web page. An Apache Foundation project under Apache-2.0,
+    deployed once on your own server, after which **any device with a browser opens a URL and
+    connects** — phone, tablet, someone else's computer, with nothing installed.
+
+    It speaks three protocols:
+
+    - **RDP** for Windows desktops.
+    - **VNC** for Linux or anything else serving VNC.
+    - **SSH and Telnet** for a terminal directly in the browser.
+
+    The typical deployment is as a **jump host**: put it at the edge of your network so the machines
+    behind it need no individual exposure to the internet. From outside you reach one address, sign in,
+    see every configured machine and click into any of them.
+
+    Useful properties:
+
+    - **Centralized connection management.** Addresses and credentials live in one place rather than
+      being re-entered on every device.
+    - **Multiple users and permissions,** granting different people access to different machines —
+      valuable for teams and shared households.
+    - **Session recording** for auditing or training.
+    - **Clipboard and file transfer** through the browser.
+    - **Two-factor authentication** via extensions.
+
+    To be clear about:
+
+    - **Deployment is non-trivial.** It has two parts: guacd, the daemon that actually speaks RDP and
+      VNC, and a Java web application. Docker options exist, but this is considerably more involved than
+      installing a desktop app and **requires some server background.** For helping a family member fix
+      their computer, RustDesk is far simpler.
+    - **The security responsibility is serious.** This is a gateway to all your machines. **HTTPS is
+      mandatory, strong passwords are mandatory, and two-factor authentication is strongly
+      recommended.** Never expose it bare to the internet. This deserves more care than anything else
+      about it.
+    - **Performance trails native clients.** Frames are transcoded by the server and pushed to a
+      browser, so latency and smoothness fall short of a direct RDP client. Video and gaming are out of
+      scope — that is Moonlight's territory.
+    - **It does no NAT traversal.** The server must be able to reach the target machines directly; it
+      will not punch holes for you the way RustDesk does.
+
+    Who it suits: teams providing internal machine access to several people, heavy self-hosters, and
+    anyone who regularly needs remote access from devices where installing software is impossible.

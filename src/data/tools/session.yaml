@@ -1,0 +1,103 @@
+name: Session
+accent: '#00F782'
+initials: SE
+category: chat
+price: free
+license: 'GPL-3.0'
+website: https://getsession.org
+download: https://getsession.org/download
+repo: https://github.com/session-foundation/session-android
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [即时通讯, 匿名, 无手机号, 洋葱路由, 去中心化]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 不要手机号、不要邮箱，只有一串随机 ID
+  en: No phone number, no email — just a random ID
+description:
+  zh: 匿名加密通讯工具。注册时不需要手机号或邮箱，只生成一串随机的 Session ID 作为你的身份。消息经过去中心化的节点网络转发（类似洋葱路由），服务器不掌握你的 IP，也不存在一家公司掌管全部数据。
+  en: An anonymous encrypted messenger. Registration requires no phone number or email — it generates a random Session ID as your identity. Messages route through a decentralized node network in an onion-routing style, so no server learns your IP and no single company holds all the data.
+review:
+  zh: |
+    Signal 的加密无可挑剔，但它要手机号——一个能直接关联到实名的标识。
+    对绝大多数人这没问题，但在某些场景下（记者与消息源、
+    高风险地区的活动人士），"注册就暴露身份"本身就是问题。
+
+    Session 走的是另一个极端：**注册时你什么都不用提供**。
+    点一下生成，你得到一串随机字符组成的 Session ID，那就是你的全部身份。
+    没有手机号、没有邮箱、没有用户名。
+
+    技术上的两个特点：
+
+    - **洋葱路由**。消息不是直连服务器，而是经过多个中继节点转发，
+      每个节点只知道上一跳和下一跳。**结果是消息落地的节点不知道你的 IP**，
+      这一层保护是 Signal 这类中心化服务给不了的。
+    - **去中心化节点网络**。消息暂存在分布式的服务节点上而不是一家公司的机房，
+      不存在"关掉某台服务器就全网瘫痪"的单点。
+
+    加上端到端加密、消息定时销毁、群聊和语音消息，日常通讯需要的基本都有。
+
+    **要说清楚的取舍，这些是真实代价：**
+
+    - **加不上好友，除非交换 ID**。没有手机号意味着没有通讯录匹配，
+      你得通过别的渠道把那串很长的 ID 或二维码发给对方。这是设计使然。
+    - **换设备麻烦**。没有账号就没有"登录恢复"，
+      靠的是一串助记词（恢复短语）。**这串词丢了，身份和历史就没了**，
+      务必离线抄下来妥善保存。
+    - **速度和体验不如 Signal**。多跳转发带来延迟，
+      消息送达没有那么即时，通话质量也一般。**这是隐私的代价，不是 bug。**
+    - **生态小**。用的人远少于 Signal，你多半得说服对方专门为你装一个。
+    - **曾经引入过区块链元素**。项目历史上有加密货币相关的设计（用于节点激励），
+      这一点有人不喜欢。使用者本身不需要接触任何加密货币，
+      但如果你介意这个背景，值得先自己了解一下再决定。
+
+    怎么选：**日常安全通讯** → Signal（体验最好，只是要手机号）；
+    **连"我们在联系"都不想被知道** → SimpleX（元数据保护最彻底）；
+    **不想提供任何身份标识，且想要 IP 层保护** → Session。
+
+    三个都是开源的，都比主流商业通讯软件干净，按你的威胁模型选。
+  en: |
+    Signal's encryption is beyond reproach, but it requires a phone number — an identifier that maps
+    directly to a real identity. For most people that is fine, but in some situations — journalists and
+    their sources, activists in high-risk regions — registration itself becoming exposure is the
+    problem.
+
+    Session goes to the opposite extreme: **registration asks for nothing.** One tap generates a random
+    Session ID, and that string is your entire identity. No phone number, no email, no username.
+
+    Two technical characteristics:
+
+    - **Onion routing.** Messages do not go straight to a server but pass through several relay nodes,
+      each knowing only the previous and next hop. **The node where a message lands does not learn your
+      IP**, a layer of protection centralized services like Signal cannot offer.
+    - **A decentralized node network.** Messages are held on distributed service nodes rather than one
+      company's data center, so there is no single point whose shutdown takes the network down.
+
+    Add end-to-end encryption, disappearing messages, group chats and voice messages, and the everyday
+    essentials are covered.
+
+    **The trade-offs are real and must be stated:**
+
+    - **Adding contacts requires exchanging IDs out of band.** No phone number means no contact
+      matching, so that long ID string or a QR code has to reach the other person some other way. This
+      is by design.
+    - **Moving devices is awkward.** No account means no login recovery, only a recovery phrase.
+      **Lose those words and both your identity and history are gone** — write them down offline and
+      store them safely.
+    - **Speed and polish trail Signal.** Multi-hop routing adds latency, delivery is less instant, and
+      call quality is ordinary. **That is the cost of the privacy, not a defect.**
+    - **The user base is small.** Far fewer people use it than Signal, so you will usually be asking
+      someone to install it specifically for you.
+    - **It has had blockchain elements in its history.** The project incorporated cryptocurrency-related
+      design for node incentives, which some people dislike. Users need not touch any cryptocurrency,
+      but if that background concerns you, read up before committing.
+
+    How to choose: **everyday secure messaging** → Signal, the best experience if a phone number is
+    acceptable; **hiding even that a conversation exists** → SimpleX, the most thorough metadata
+    protection; **providing no identifier at all plus IP-layer protection** → Session.
+
+    All three are open source and all three are cleaner than mainstream commercial messengers. Choose by
+    your threat model.

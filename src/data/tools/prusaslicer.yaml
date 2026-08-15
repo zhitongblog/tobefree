@@ -1,0 +1,104 @@
+name: PrusaSlicer
+accent: '#FA6831'
+initials: PR
+category: cad
+price: free
+license: 'AGPL-3.0'
+website: https://www.prusa3d.com/prusaslicer/
+download: https://github.com/prusa3d/PrusaSlicer/releases/latest
+repo: https://github.com/prusa3d/PrusaSlicer
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [3d打印, 切片, 稳定, 树脂打印, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 稳的那一个，很多切片器都是从它分出去的
+  en: The stable one — and the ancestor of several other slicers
+description:
+  zh: 3D 打印切片软件，由 Prusa Research 开发并开源。支持熔丝打印和光固化树脂打印两种工艺，提供可变层高、有机支撑、多材料和按对象参数。OrcaSlicer、Bambu Studio 等都源自它的代码。
+  en: 3D printing slicer software developed and open-sourced by Prusa Research. It covers both filament and resin printing, with variable layer height, organic supports, multi-material handling and per-object settings. OrcaSlicer and Bambu Studio both descend from its codebase.
+review:
+  zh: |
+    PrusaSlicer 在这个领域的位置有点特殊：**它是很多其他切片器的源头**。
+    Bambu Studio 基于它，OrcaSlicer 又基于 Bambu Studio。
+    所以如果你在别的切片器里见过某个功能或某个参数名，
+    大概率它最早出现在这里。
+
+    它由 Prusa Research（捷克的开源 3D 打印机厂商）开发并以 AGPL 开源，
+    自己也源自更早的 Slic3r。
+
+    它的特点是**稳**：
+
+    - 发版节奏保守，功能进主线之前经过比较长的测试期。
+    - 对 Prusa 自家机型的配置是官方调校的，开箱即用程度最高。
+    - 其他主流机型也有社区配置。
+    - **同时支持 FDM（熔丝）和 SLA（光固化树脂）两种工艺**——
+      这一点比多数切片器覆盖得广，玩树脂打印的人会需要。
+
+    功能上该有的都有：可变层高（曲面部分自动用更薄的层）、
+    有机树状支撑、缝隙位置控制、多材料塔、
+    按对象或按高度区间改参数、模型修复、
+    以及非常详细的切片预览（可以按走线类型着色，看清哪段是外壁哪段是填充）。
+
+    要说清楚的：
+
+    - **和 OrcaSlicer 怎么选**。两者概念相通，配置能互相参考：
+      **OrcaSlicer** 迭代快、内置整套校准向导、对新机型和多色打印跟进积极，
+      新手校准机器时帮助更大；
+      **PrusaSlicer** 更保守稳定、树脂打印支持更好、
+      用 Prusa 打印机的话是原厂最佳搭配。
+      **不是非此即彼——很多人两个都装，看当天打什么用哪个。**
+    - **不建模**。模型来自 FreeCAD、OpenSCAD、Blender 或模型站。
+    - **参数量大**。它分"简单 / 高级 / 专家"三个模式，
+      **新手请留在简单模式**，只调层高、填充和支撑，别一上来就进专家模式。
+    - **对非 Prusa 机型的默认配置未必最优**，
+      第一次用建议找社区调好的配置文件导入，比自己从零调省事。
+    - **AGPL 协议**，二次开发和商业分发有开源义务
+      （OrcaSlicer 等分支就是因此保持开源的）。
+
+    适合谁：用 Prusa 打印机的人、玩树脂打印的人、
+    以及偏好"少变动、久经验证"的用户。
+  en: |
+    PrusaSlicer occupies an unusual position: **it is the ancestor of several other slicers.** Bambu
+    Studio derives from it and OrcaSlicer derives from Bambu Studio, so a feature or parameter name you
+    recognize from another slicer probably originated here.
+
+    It is developed and open-sourced under AGPL by Prusa Research, the Czech open-hardware 3D printer
+    manufacturer, and itself descends from the earlier Slic3r.
+
+    Its defining quality is **stability**:
+
+    - Conservative release cadence, with features tested for a long period before reaching the main
+      line.
+    - Profiles for Prusa's own printers are factory-tuned and work out of the box better than anything
+      else.
+    - Community profiles cover other mainstream machines.
+    - **It supports both FDM (filament) and SLA (resin) workflows** — broader coverage than most
+      slicers, and necessary for anyone printing resin.
+
+    The feature set is complete: variable layer height that automatically thins layers on curved
+    surfaces, organic tree supports, seam position control, multi-material purge towers, parameter
+    changes per object or per height range, model repair, and a detailed slice preview that colors
+    extrusion types so you can see which passes are perimeters and which are infill.
+
+    To be clear about:
+
+    - **Choosing between this and OrcaSlicer.** The concepts transfer and settings cross-reference:
+      **OrcaSlicer** iterates faster, includes a full calibration wizard, and adopts new printers and
+      multi-color workflows eagerly, which helps beginners dial in a machine; **PrusaSlicer** is more
+      conservative and stable, handles resin better, and is the factory match for a Prusa printer.
+      **This is not either/or — many people install both** and pick by what they are printing that day.
+    - **It does not model.** Models come from FreeCAD, OpenSCAD, Blender or a repository.
+    - **There are many parameters.** It offers simple, advanced and expert modes; **beginners should
+      stay in simple mode**, adjusting only layer height, infill and supports rather than jumping
+      straight to expert.
+    - **Default profiles for non-Prusa machines may not be optimal.** Importing a community-tuned
+      profile for your printer beats configuring from scratch.
+    - **AGPL licensing** carries source obligations for derivative work and commercial distribution —
+      which is precisely why forks like OrcaSlicer remain open.
+
+    Who it suits: Prusa printer owners, resin printers, and anyone who prefers software that changes
+    slowly and has been proven over time.

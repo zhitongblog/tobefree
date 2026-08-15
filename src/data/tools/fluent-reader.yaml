@@ -1,0 +1,92 @@
+name: Fluent Reader
+accent: '#4A72B8'
+initials: FD
+category: productivity
+price: free
+license: 'BSD-3-Clause'
+website: https://hyliu.me/fluent-reader/
+download: https://github.com/yang991178/fluent-reader/releases/latest
+repo: https://github.com/yang991178/fluent-reader
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [rss, 桌面客户端, 无需服务器, 离线阅读, 简洁]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 装上就能读 RSS，不用搭服务器
+  en: Read RSS immediately — no server to set up
+description:
+  zh: 桌面 RSS 阅读器，本机直接抓取订阅源，不需要任何后端服务。支持全文抓取、关键词过滤、离线阅读、深色模式和多种阅读视图，也能连接 Inoreader、Feedbin、Miniflux、FreshRSS 等服务同步。
+  en: A desktop RSS reader that fetches feeds directly, with no backend required. It supports full-text retrieval, keyword filtering, offline reading, dark mode and several reading layouts, and can also sync with services such as Inoreader, Feedbin, Miniflux and FreshRSS.
+review:
+  zh: |
+    自建 RSS 服务器的好处是多设备同步，代价是你得先有一台服务器。
+    对只在一两台电脑上看订阅的人来说，这个代价没必要。
+
+    Fluent Reader 就是那个"装上就能用"的选项。9,598 颗星，BSD-3-Clause 开源。
+    它自己抓取订阅源，数据存本地，**不需要任何后端**。
+
+    它的界面明显下过功夫——遵循 Windows 的 Fluent 设计语言，
+    干净、留白舒服，在一堆功能优先、颜值随缘的开源工具里比较少见。
+    提供卡片、列表、杂志几种阅读视图，深色模式做得完整。
+
+    实用功能：
+
+    - **全文抓取**。只给摘要的源可以让它去拿完整正文，在应用内读完，
+      不用跳浏览器。
+    - **关键词过滤和规则**。可以按标题、作者、内容设规则，
+      自动标记已读、隐藏、或者高亮，用来过滤高噪音的源。
+    - **离线阅读**。抓下来的文章存在本地，断网也能看，通勤时很有用。
+    - **可选接入服务**。如果你后来搭了 FreshRSS 或 Miniflux，
+      或者在用 Inoreader、Feedbin，它可以作为客户端连上去同步已读状态——
+      这样"先单机用，以后再上服务器"的路是通的，不会白配置。
+    - **导入导出 OPML**，和其他阅读器互通。
+
+    要说清楚的：
+
+    - **单机模式不跨设备同步**。在电脑上读过的，手机上还是未读
+      （除非你接了一个同步服务）。这是它和 FreshRSS 最大的取舍差别。
+    - **没有移动端**。作者只做桌面版。手机上要看，得配一个同步服务加对应的手机 App。
+    - **更新节奏放缓**。当前版本 v1.2.2 发布于 2026 年 4 月，
+      仓库最近一次提交在 2026 年 5 月。功能完整可用，但不是高频迭代的项目。
+
+    怎么选：**只在电脑上读、不想碰服务器** → Fluent Reader；
+    **想手机电脑都同步、愿意自建** → FreshRSS，再用这个或手机 App 当客户端。
+  en: |
+    A self-hosted RSS server gives you cross-device sync at the cost of running a server. For anyone
+    who reads feeds on one or two computers, that cost is unnecessary.
+
+    Fluent Reader is the install-and-go option. 9,598 stars, BSD-3-Clause. It fetches feeds itself and
+    stores everything locally with **no backend at all.**
+
+    Visible care went into its interface — it follows Windows' Fluent design language and is clean and
+    comfortably spaced, which stands out among open-source tools where function usually outranks looks.
+    Card, list and magazine reading layouts are provided, with thorough dark mode support.
+
+    Useful capabilities:
+
+    - **Full-text retrieval** for summary-only feeds, so articles are read in the app rather than in a
+      browser.
+    - **Keyword filters and rules** by title, author or content that auto-mark as read, hide or
+      highlight — useful for taming noisy feeds.
+    - **Offline reading:** fetched articles are stored locally and remain available without a
+      connection, which suits commutes.
+    - **Optional service sync.** If you later stand up FreshRSS or Miniflux, or already use Inoreader
+      or Feedbin, it connects as a client and syncs read state — so starting standalone and adding a
+      server later is a viable path rather than wasted configuration.
+    - **OPML import and export** for interoperability with other readers.
+
+    To be clear about:
+
+    - **Standalone mode does not sync across devices.** What you read on the computer stays unread on
+      the phone unless you attach a sync service. That is the core trade-off against FreshRSS.
+    - **There is no mobile app.** The author builds for desktop only; reading on a phone requires a
+      sync service plus a separate mobile client.
+    - **Development has slowed.** The current release, v1.2.2, is from April 2026 with the most recent
+      commit in May 2026. The functionality is complete and usable, but this is not a rapidly iterating
+      project.
+
+    How to choose: **desktop only and no interest in servers** → Fluent Reader. **Sync between phone
+    and computer and willing to self-host** → FreshRSS, with this or a mobile app as the client.

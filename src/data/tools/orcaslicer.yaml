@@ -1,0 +1,123 @@
+name: OrcaSlicer
+accent: '#009688'
+initials: OS
+category: cad
+price: free
+license: 'AGPL-3.0'
+website: https://orcaslicer.com
+download: https://github.com/SoftFever/OrcaSlicer/releases/latest
+repo: https://github.com/SoftFever/OrcaSlicer
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [3d打印, 切片, 校准, 多品牌支持, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 把模型切成打印机能懂的路径，还帮你把机器调准
+  en: Turns models into printer paths, and helps you calibrate the machine
+description:
+  zh: 3D 打印切片软件。把 STL、3MF、STEP 模型转换成打印机执行的 G-code，控制层高、填充、支撑、速度和温度。内置一整套校准流程（流量、压力提前量、回抽、温度塔），支持主流品牌的打印机配置。
+  en: 3D printing slicer software. It converts STL, 3MF and STEP models into the G-code a printer executes, controlling layer height, infill, supports, speed and temperature. It ships a complete calibration suite — flow, pressure advance, retraction, temperature towers — and profiles for mainstream printer brands.
+review:
+  zh: |
+    用 FreeCAD 或 OpenSCAD 建好模型之后，还差一步才能打印：
+    **切片**。切片软件把三维模型横着切成一层层，
+    再为每一层规划喷头走的路径，最后输出成打印机能执行的 G-code。
+    这一步的参数直接决定了打印件的强度、精度和成功率。
+
+    OrcaSlicer 是目前社区里最受欢迎的选择。15,389 颗星，AGPL-3.0。
+    它源自 Bambu Studio（而后者源自 PrusaSlicer），
+    但把厂商绑定去掉了，做成了支持各家打印机的通用切片器。
+
+    它比同类多出来的东西主要是**校准**：
+
+    3D 打印失败大多不是模型问题，是机器没调准。
+    OrcaSlicer 把一整套标准校准流程做进了软件里，
+    每一项都是"点一下，打一个测试件，按结果填数字"：
+
+    - **流量校准**：挤出量准不准，直接影响尺寸精度和表面。
+    - **压力提前量 / 线性提前**：解决拐角处堆料、直线段缺料。
+    - **回抽校准**：治拉丝。
+    - **温度塔**：一次打出不同温度的样块，选层间结合最好的那个。
+    - **最大流量测试**：找出你的热端在高速下的真实极限。
+
+    这些以前要自己找测试模型、自己算、自己改配置，现在是引导式的流程。
+    **对新手来说，这是从"打十次成功三次"到"稳定出货"的关键一步。**
+
+    其他实用功能：
+
+    - **多品牌配置**：主流开源和商用机型都有现成配置，也能自己建。
+    - **多色 / 多材料打印**支持，含换料塔和擦料设置。
+    - **有机支撑（树状支撑）**，省料且好拆。
+    - **按对象分设置**：同一个盘上不同模型用不同参数。
+    - **切片预览**：逐层查看走线，打印前就能发现问题。
+    - **网络打印**：可以直接推送到局域网里的打印机或 OctoPrint / Klipper。
+
+    要说清楚的：
+
+    - **它不建模**。模型要用 FreeCAD、OpenSCAD、Blender 或从模型站下载。
+      切片器只负责"模型 → G-code"这一段。
+    - **参数极多**，专家模式下有几百项。新手请先用现成的机型配置，
+      **只动层高、填充率、支撑这三样**，其他默认，跑通了再逐步深入。
+    - **和 PrusaSlicer / Cura 的关系**：三者同源或同类，配置概念相通。
+      OrcaSlicer 迭代最快、校准工具最全、对新机型跟进最积极；
+      PrusaSlicer 更稳定保守；Cura 的插件生态和材料配置最广。
+      **不确定的话从 OrcaSlicer 开始，不合适再换，配置概念是通用的。**
+    - **AGPL 协议**，商业使用（比如做成在线服务）要注意开源义务。
+
+    适合谁：所有玩 3D 打印的人。有打印机就需要切片器，这是绕不过去的一环。
+  en: |
+    After modeling something in FreeCAD or OpenSCAD, one step remains before printing: **slicing.**
+    A slicer cuts the 3D model into horizontal layers, plans the nozzle path for each, and emits the
+    G-code the printer executes. The parameters at this stage directly determine a part's strength,
+    accuracy and likelihood of succeeding at all.
+
+    OrcaSlicer is currently the community's most popular choice. 15,389 stars, AGPL-3.0. It descends
+    from Bambu Studio, which itself descends from PrusaSlicer, with the vendor lock-in removed to make
+    a general slicer supporting printers from many manufacturers.
+
+    What it adds over its peers is mainly **calibration**:
+
+    Most failed prints are not model problems — they are an uncalibrated machine. OrcaSlicer builds the
+    standard calibration procedures into the software, each one a matter of clicking, printing a test
+    piece and entering the result:
+
+    - **Flow calibration:** whether extrusion volume is accurate, which drives dimensional accuracy and
+      surface quality.
+    - **Pressure advance / linear advance:** fixes material piling at corners and starving on straights.
+    - **Retraction calibration:** cures stringing.
+    - **Temperature towers:** one print at several temperatures, keeping whichever bonds best.
+    - **Maximum flow test:** finds your hotend's real limit at speed.
+
+    These once required hunting down test models, calculating by hand and editing configs; now they are
+    guided workflows. **For a beginner this is the step that turns three successes in ten into reliable
+    output.**
+
+    Other practical features:
+
+    - **Multi-brand profiles** for mainstream open and commercial printers, with custom profiles
+      supported.
+    - **Multi-color and multi-material printing** including purge towers and wipe settings.
+    - **Organic (tree) supports** that use less material and detach more easily.
+    - **Per-object settings,** so different models on one plate use different parameters.
+    - **Slice preview** layer by layer, catching problems before printing.
+    - **Network printing** straight to a printer on your LAN, or to OctoPrint or Klipper.
+
+    To be clear about:
+
+    - **It does not model.** Models come from FreeCAD, OpenSCAD, Blender or a model repository; a slicer
+      only handles model to G-code.
+    - **There are hundreds of parameters** in expert mode. Beginners should start from a stock printer
+      profile and **change only layer height, infill and supports**, leaving the rest at defaults until
+      prints succeed consistently.
+    - **How it relates to PrusaSlicer and Cura:** all three share ancestry or category, and the concepts
+      transfer. OrcaSlicer iterates fastest, has the most complete calibration tooling and adopts new
+      printers most eagerly; PrusaSlicer is more conservative and stable; Cura has the broadest plugin
+      and material ecosystem. **When unsure, start with OrcaSlicer** — switching later costs little
+      since the concepts are shared.
+    - **AGPL licensing** carries source obligations if you build it into a commercial service.
+
+    Who it suits: anyone with a 3D printer. Owning a printer means needing a slicer; there is no way
+    around this step.

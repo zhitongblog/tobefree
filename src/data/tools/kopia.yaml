@@ -1,0 +1,102 @@
+name: Kopia
+accent: '#3B6EA5'
+initials: KP
+category: utility
+price: free
+license: 'Apache-2.0'
+website: https://kopia.io
+download: https://kopia.io/docs/installation/
+repo: https://github.com/kopia/kopia
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [备份, 加密, 去重, 增量备份, 跨平台]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 加密去重的增量备份，存哪由你决定
+  en: Encrypted, deduplicated incremental backup — you choose where it lands
+description:
+  zh: 跨平台备份工具，有图形界面也有命令行。备份前在本地加密并去重，只上传变化的数据块。存储位置可以是本地硬盘、NAS、S3、Backblaze B2、Google Drive、WebDAV 等，服务商拿到的只有密文。支持快照、保留策略和定时任务。
+  en: A cross-platform backup tool with both a GUI and a CLI. Data is encrypted and deduplicated locally before upload, so only changed blocks travel. Destinations include local disks, NAS, S3, Backblaze B2, Google Drive and WebDAV — and the provider only ever holds ciphertext. Snapshots, retention policies and scheduling are built in.
+review:
+  zh: |
+    备份是那种"平时觉得没必要、出事时后悔一辈子"的事。
+    大多数人的备份现状是：重要文件随手丢网盘、或者压根没有。
+    而网盘同步不等于备份——文件被误删或被加密勒索，同步会把坏结果一起同步过去。
+
+    Kopia 是目前个人备份里比较均衡的一个选择。13,858 颗星，Apache-2.0。
+    它比 restic 多一个图形界面（KopiaUI），比 Duplicati 更快也更省资源。
+
+    技术上做对的几件事：
+
+    - **先加密再上传**。加密在你的机器上完成，密钥你自己掌握。
+      存到 S3、B2 还是别人的网盘都无所谓，服务商拿到的是一堆密文。
+    - **块级去重**。文件被切成块，相同的块只存一份。
+      备份十个版本的大文件，实际占用远小于十倍；
+      多台机器备份到同一个仓库时，重复的系统文件也只存一次。
+    - **增量快照**。每次备份是一个完整的快照（可以浏览、可以恢复到任意一次），
+      但只传输新增的块。
+    - **保留策略**。可以设"保留最近 7 天每天一份、最近 4 周每周一份、
+      最近 12 个月每月一份"，旧快照自动清理。
+    - **压缩和校验**。传输前压缩，恢复时校验完整性。
+
+    使用方式上，KopiaUI 是桌面程序，点几下就能建仓库、选目录、设定时任务；
+    命令行版本适合服务器和脚本。两者用的是同一个仓库格式，可以混用。
+
+    要说清楚的：
+
+    - **备份策略比工具重要**。请遵循 3-2-1 原则：**3 份副本、2 种介质、1 份异地**。
+      只在本机备份，硬盘坏了全没了；只备份到一个云，账号出问题也全没了。
+    - **一定要测试恢复**。没有验证过能恢复的备份，等于没有备份。
+      建好之后立刻试着恢复几个文件到别的目录，确认流程走得通。
+    - **密码丢了数据就没了**。端到端加密的必然结果，仓库密码请单独妥善保存
+      （比如存进 KeePassXC 或 Bitwarden，并且那份密码库本身也要有备份）。
+    - **不是系统镜像工具**。它备份的是文件和目录，不是整块硬盘。
+      想要"换硬盘后原样恢复整个系统"，那是 Clonezilla、Macrium 这类工具的活。
+
+    如果你现在没有任何备份方案，装它并配一个每天自动跑的任务，
+    是这个站上性价比最高的一小时投入。
+  en: |
+    Backup is the thing that feels unnecessary until the day it defines your year. Most people's actual
+    situation is important files dumped into cloud storage, or nothing at all. And cloud sync is not
+    backup — delete a file by accident or get hit by ransomware and sync faithfully propagates the
+    damage.
+
+    Kopia is a well-balanced choice for personal backup. 13,858 stars, Apache-2.0. It has a GUI
+    (KopiaUI) that restic lacks, and it is faster and lighter than Duplicati.
+
+    What it gets right technically:
+
+    - **Encrypt before upload.** Encryption happens on your machine with keys you hold, so it makes no
+      difference whether the destination is S3, B2 or someone's cloud drive — the provider stores
+      ciphertext.
+    - **Block-level deduplication.** Files are split into blocks and identical blocks stored once.
+      Keeping ten versions of a large file costs far less than ten times the space, and several
+      machines backing up to one repository share their duplicate system files.
+    - **Incremental snapshots.** Every backup is a complete, browsable snapshot restorable to any
+      point, while only new blocks are transferred.
+    - **Retention policies** such as "keep daily for 7 days, weekly for 4 weeks, monthly for 12
+      months", with old snapshots pruned automatically.
+    - **Compression and verification** on transfer and restore.
+
+    In practice, KopiaUI is a desktop application where a few clicks create a repository, pick
+    directories and schedule runs; the CLI suits servers and scripts. Both use the same repository
+    format and can be mixed.
+
+    To be clear about:
+
+    - **Strategy matters more than the tool.** Follow 3-2-1: **three copies, two media types, one
+      offsite.** Backing up only locally dies with the disk; backing up only to one cloud dies with the
+      account.
+    - **Test your restores.** A backup you have never restored from is not a backup. Immediately after
+      setup, restore a few files to a different directory and confirm the process works.
+    - **Lose the password and lose the data.** That follows inevitably from end-to-end encryption.
+      Store the repository password separately — in KeePassXC or Bitwarden — and make sure that vault
+      is itself backed up.
+    - **It is not a disk imaging tool.** It backs up files and directories, not whole drives. Restoring
+      an entire system onto a new disk is the job of Clonezilla, Macrium and similar.
+
+    If you currently have no backup at all, installing this and scheduling a daily run is the highest
+    return on one hour available anywhere on this site.

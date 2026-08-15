@@ -1,0 +1,99 @@
+name: FreshRSS
+accent: '#E8A33D'
+initials: FR
+category: productivity
+price: free
+license: 'AGPL-3.0'
+website: https://freshrss.org
+download: https://freshrss.org/index.html#installation
+repo: https://github.com/FreshRSS/FreshRSS
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [rss, 信息源, 自建, 无算法, 订阅阅读]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自己决定看什么，没有算法推荐
+  en: You decide what you read — no algorithm involved
+description:
+  zh: 自建的 RSS 订阅阅读器。把博客、新闻站、播客、社交账号的更新聚合到一处，按时间顺序呈现，没有推荐算法、没有信息流广告、没有"猜你喜欢"。兼容 Google Reader API，主流 RSS 手机 App 都能直接连。
+  en: A self-hosted RSS reader. It aggregates updates from blogs, news sites, podcasts and social accounts into one chronological place, with no recommendation algorithm, no feed ads and no "suggested for you". It implements the Google Reader API, so mainstream mobile RSS apps connect directly.
+review:
+  zh: |
+    信息流应用的问题不是内容不够，是**你不再决定看什么**。
+    算法决定推给你什么，广告插在中间，你关注的人发的东西可能根本看不到。
+    刷了一小时，回想不起看了什么。
+
+    RSS 是这件事的解药，而且它一直都在：绝大多数博客、新闻网站、
+    播客、甚至一些社交平台都还提供 RSS 输出。
+    你订阅谁，就只看到谁的更新，按时间顺序，一条不多一条不少。
+
+    FreshRSS 是自建 RSS 阅读器里最成熟的选择。15,770 颗星，AGPL-3.0，
+    PHP 写的，资源占用很低——一台树莓派或最便宜的虚拟主机就能跑几百个订阅源。
+
+    实际用起来的关键点：
+
+    - **抓取频率可调**，支持大量订阅源而不吃力。
+    - **过滤和分类**：可以给订阅源分组，也能设过滤规则
+      （标题含某关键词自动标记已读、或者只保留匹配的文章）。
+      订阅了一个高产但只有部分内容相关的源时，这个功能很关键。
+    - **全文抓取**：很多 RSS 只给摘要，它可以配置规则去抓完整正文，
+      不用再点进原网站。
+    - **兼容 Google Reader API**——这一点最实用。
+      意味着手机上可以用 Reeder、FeedMe、Fluent Reader 等成熟客户端连你的服务器，
+      不必忍受自建软件的移动端网页。
+    - **支持从其他阅读器导入 OPML**，迁移无痛。
+
+    要说清楚的：
+
+    - **需要自己部署**。它是 PHP 应用，可以用官方 Docker 镜像，
+      也可以扔进任何支持 PHP + MySQL/SQLite 的虚拟主机。
+      不想折腾服务器的话，看 Fluent Reader——纯桌面客户端，不需要任何后端。
+    - **RSS 源需要自己找**。它不会推荐内容给你，这既是优点也是门槛。
+      多数网站的 RSS 地址藏得比较深，浏览器扩展（RSSHub Radar 之类）能帮忙嗅探。
+    - **有些内容源没有 RSS**。微信公众号、部分社交平台官方不提供，
+      需要借助 RSSHub 这类第三方桥接服务。
+    - **它不是稍后读**。把文章存起来慢慢读、去掉排版干扰，那是 Wallabag 的活，
+      两者经常配合使用。
+
+    如果你想把注意力从算法手里拿回来，这是最直接的一步。
+  en: |
+    The problem with feed apps is not a shortage of content — it is that **you no longer choose what
+    you see.** An algorithm decides, ads sit in between, and posts from people you actually follow may
+    never surface. An hour later you cannot recall what you read.
+
+    RSS is the antidote, and it never went away: the vast majority of blogs, news sites, podcasts and
+    even some social platforms still publish RSS. You subscribe to someone and you see their updates,
+    chronologically, nothing added and nothing withheld.
+
+    FreshRSS is the most mature self-hosted reader. 15,770 stars, AGPL-3.0, written in PHP with a
+    footprint low enough that a Raspberry Pi or the cheapest shared hosting handles hundreds of feeds.
+
+    What matters in daily use:
+
+    - **Adjustable fetch intervals,** handling large numbers of feeds without strain.
+    - **Filtering and categorization:** group feeds, and write rules that auto-mark items containing a
+      keyword as read or keep only matching articles. Essential when a prolific feed is only partly
+      relevant.
+    - **Full-text retrieval:** many feeds provide summaries only, and configurable rules fetch the
+      complete article so you never click through.
+    - **Google Reader API compatibility** — the most practical feature. Mature mobile clients like
+      Reeder, FeedMe and Fluent Reader connect to your server, so you are not stuck with a self-hosted
+      app's mobile web view.
+    - **OPML import** from other readers makes migration painless.
+
+    To be clear about:
+
+    - **You must deploy it.** It is a PHP application with an official Docker image, and it also drops
+      onto any host with PHP plus MySQL or SQLite. If you would rather not run a server, see Fluent
+      Reader — a desktop client needing no backend at all.
+    - **Finding feeds is on you.** It recommends nothing, which is both the point and the barrier. Feed
+      URLs are often buried; browser extensions that sniff them out help.
+    - **Some sources have no RSS.** Certain platforms publish none officially, requiring a bridging
+      service such as RSSHub.
+    - **It is not a read-later tool.** Saving articles to read later stripped of clutter is Wallabag's
+      job, and the two are frequently paired.
+
+    If you want to take attention back from algorithms, this is the most direct step available.

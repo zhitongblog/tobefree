@@ -1,0 +1,93 @@
+name: Flow Launcher
+accent: '#3D7EDB'
+initials: FL
+category: utility
+price: free
+license: 'MIT'
+website: https://www.flowlauncher.com
+download: https://github.com/Flow-Launcher/Flow.Launcher/releases/latest
+repo: https://github.com/Flow-Launcher/Flow.Launcher
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [快捷启动, 搜索, 插件, 效率, windows]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 按一下热键，敲两个字母，什么都能启动
+  en: One hotkey, two letters, and anything launches
+description:
+  zh: Windows 上的快捷启动器。按热键呼出输入框，模糊搜索启动程序、打开文件、执行命令、算数、查词、控制播放器。插件系统丰富，可以扩展成搜索浏览器书签、翻译、查进程、管理剪贴板等各种用途。
+  en: A keystroke launcher for Windows. Hit a hotkey, get a search box, and fuzzy-search to launch programs, open files, run commands, do arithmetic, look up words or control a media player. A rich plugin system extends it to browser bookmarks, translation, process management, clipboard history and much more.
+review:
+  zh: |
+    macOS 用户有 Spotlight 和 Raycast，用惯之后回到 Windows 会很难受：
+    开始菜单搜索慢、结果里混着网页搜索和广告推荐、
+    找一个装过的程序还不如去桌面翻图标。
+
+    Flow Launcher 补的就是这块。15,359 颗星，MIT 开源。
+    按下热键（默认 Alt+空格）弹出一个输入框，输入几个字母，
+    模糊匹配立刻出结果，回车执行。
+
+    开箱能做的事：
+
+    - **启动程序**：输入 `vs` 出 VS Code，输入 `chr` 出 Chrome，支持首字母缩写匹配。
+    - **搜索文件**：可以接 Everything 作为索引后端（如果你已经装了 Everything，
+      两者配合搜索速度极快）。
+    - **算数**：直接输入 `1920*0.6` 出结果，可以直接回车复制。
+    - **执行命令**：输入 `>` 后面跟 shell 命令，或者 `sh` 开头连 SSH。
+    - **网页搜索**：输入关键词直接跳转到指定搜索引擎。
+    - **系统操作**：关机、重启、锁屏、清空回收站，敲两个字就行。
+
+    插件生态是它比同类强的地方，在启动器里输入 `pm install` 就能浏览安装。
+    常用的有浏览器书签搜索、剪贴板历史、翻译、颜色选择器、
+    进程管理、天气、汇率。装完之后这个输入框基本可以替代大部分鼠标操作。
+
+    要说清楚的：
+
+    - **安装包偏大**。Setup 约 97 MB，便携版压缩包接近 200 MB——
+      对一个启动器来说确实不小，原因是打包了 .NET 运行时。
+      装完常驻内存也比纯原生的工具高一些。
+    - **只有 Windows**。macOS 上用 Raycast 或 Alfred，Linux 上有 Ulauncher、Albert。
+    - **首次索引要等一会**，之后就快了。
+    - **和系统搜索共存**。它不替换 Windows 搜索，只是你自己多按一个热键。
+      如果你已经完全习惯了 Win 键搜索，这个工具的价值主要在插件带来的扩展能力。
+
+    如果你键盘用得比鼠标多，这类工具通常是投入产出比最高的一个。
+  en: |
+    macOS users have Spotlight and Raycast, and coming back to Windows afterwards hurts: Start menu
+    search is slow, results mix in web suggestions and promoted content, and finding an installed
+    program is often faster by hunting for a desktop icon.
+
+    Flow Launcher fills that gap. 15,359 stars, MIT. Press the hotkey (Alt+Space by default), a search
+    box appears, type a few letters, fuzzy matching produces results instantly, Enter runs.
+
+    What it does out of the box:
+
+    - **Launch programs:** `vs` finds VS Code, `chr` finds Chrome, with initialism matching supported.
+    - **Find files,** optionally using Everything as the index backend — if you already run Everything,
+      the combination is extremely fast.
+    - **Arithmetic:** type `1920*0.6` for the answer, with Enter copying it.
+    - **Run commands:** prefix with `>` for a shell command, or `sh` for an SSH connection.
+    - **Web search:** type a query and jump straight to your chosen search engine.
+    - **System actions:** shut down, restart, lock, empty the recycle bin, all in two keystrokes.
+
+    Its plugin ecosystem is where it beats its peers — type `pm install` inside the launcher to browse
+    and install. Popular ones cover browser bookmark search, clipboard history, translation, color
+    pickers, process management, weather and currency rates. Once configured, that box replaces most
+    of what you would reach for the mouse to do.
+
+    To be clear about:
+
+    - **The download is large.** The setup is around 97 MB and the portable archive approaches 200 MB —
+      genuinely big for a launcher, because the .NET runtime is bundled. Resident memory use is also
+      higher than a purely native tool's.
+    - **Windows only.** macOS has Raycast and Alfred; Linux has Ulauncher and Albert.
+    - **The first index takes a moment,** after which it is fast.
+    - **It coexists with system search** rather than replacing it — you simply press a different
+      hotkey. If you are already fully comfortable with Win-key search, the value here is mainly in
+      what the plugins add.
+
+    If you spend more time on the keyboard than the mouse, this class of tool usually has the highest
+    return on the time invested.

@@ -1,0 +1,102 @@
+name: Sunshine
+accent: '#E8A33D'
+initials: SU
+category: remote
+price: free
+license: 'GPL-3.0'
+website: https://app.lizardbyte.dev/Sunshine/
+download: https://github.com/LizardByte/Sunshine/releases/latest
+repo: https://github.com/LizardByte/Sunshine
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [游戏串流, 主机端, moonlight, 自建, 低延迟]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 装在主力电脑上，把画面串给 Moonlight
+  en: Runs on your gaming PC and streams to Moonlight
+description:
+  zh: 游戏串流的主机端服务，与 Moonlight 客户端配对使用。把电脑的画面和声音编码后串流出去，接收手柄和鼠标键盘的输入。支持 NVIDIA、AMD 和 Intel 显卡的硬件编码，取代了英伟达已停用的 GameStream。
+  en: The host-side service for game streaming, paired with the Moonlight client. It encodes your computer's video and audio, streams them out and accepts controller, mouse and keyboard input in return. Hardware encoding works on NVIDIA, AMD and Intel graphics, replacing NVIDIA's discontinued GameStream.
+review:
+  zh: |
+    这一条是 Moonlight 的另一半。Moonlight 是客户端——
+    你在电视、平板、笔记本上装它来接收画面；
+    而画面得有人发出来，那就是 Sunshine 的活。
+
+    背景是这样的：Moonlight 原本配的是英伟达的 GameStream，
+    但英伟达在 2023 年停掉了这个功能。社区的应对就是 Sunshine——
+    一个开源的主机端替代品。40,160 颗星，GPL-3.0。
+
+    结果反而比原来更好：
+
+    - **不挑显卡**。GameStream 只支持 NVIDIA 的部分型号，
+      Sunshine 支持 NVIDIA（NVENC）、AMD（AMF）和 Intel（QuickSync）的硬件编码，
+      核显机器也能串。
+    - **不挑系统**。Windows、Linux、macOS 都能当主机端，
+      而 GameStream 只有 Windows。
+    - **配置更灵活**。网页管理界面里可以调分辨率、帧率、码率、
+      编码器、HDR 开关，还能自定义启动项——
+      不只是串游戏，可以配置成"连接时启动某个程序"或者直接串整个桌面。
+
+    配对流程也简单：装好后打开它的网页界面（本机的 47990 端口），
+    设个用户名密码，然后在 Moonlight 客户端里输入主机 IP，
+    两边输一次配对码就绑定好了。
+
+    要说清楚的：
+
+    - **它只是主机端**。你还需要在接收设备上装 Moonlight，
+      两个配套使用。这一点第一次接触容易搞混。
+    - **网络是体验的决定因素**。有线千兆最好，
+      5GHz Wi-Fi 可用，2.4GHz 基本别想。串流对**抖动**比对带宽敏感，
+      家里网络不稳的话画面会出现卡顿和撕裂。
+    - **要在防火墙上放行端口**。Windows 安装时通常会提示，
+      手动配置的话官方文档列了需要开的端口。
+    - **外网串流需要额外处理**。默认是局域网内使用，
+      想出门也能连回家，配合 Tailscale 这类组网工具最省事
+      （不用做端口映射，也更安全）。
+    - **主机端会占用性能**。编码本身消耗一部分 GPU 资源，
+      老显卡上串高分辨率高帧率时游戏本身的帧数会受影响。
+
+    适合谁：家里有一台性能不错的主机、想在客厅电视或平板上玩、
+    或者想把重型软件跑在主机上而在轻薄本上操作的人。
+  en: |
+    This is the other half of Moonlight. Moonlight is the client you install on a TV, tablet or laptop
+    to receive the picture — and something has to send it. That is Sunshine's job.
+
+    The background: Moonlight originally paired with NVIDIA's GameStream, which NVIDIA discontinued in
+    2023. The community's answer was Sunshine, an open-source host-side replacement. 40,160 stars,
+    GPL-3.0.
+
+    The result is better than what it replaced:
+
+    - **Graphics-agnostic.** GameStream supported only certain NVIDIA cards; Sunshine handles hardware
+      encoding on NVIDIA (NVENC), AMD (AMF) and Intel (QuickSync), so integrated graphics work too.
+    - **Platform-agnostic.** Windows, Linux and macOS can all be the host, where GameStream was Windows
+      only.
+    - **More configurable.** A web interface exposes resolution, frame rate, bitrate, encoder and HDR
+      settings, plus custom launch entries — so beyond games you can configure it to start a specific
+      program on connection, or simply stream the whole desktop.
+
+    Pairing is straightforward: install it, open its web interface on port 47990, set a username and
+    password, then enter the host IP in Moonlight and exchange a pairing code once.
+
+    To be clear about:
+
+    - **It is only the host side.** You still install Moonlight on the receiving device, and the two
+      work together. This confuses nearly everyone the first time.
+    - **The network determines the experience.** Wired gigabit is best, 5GHz Wi-Fi is workable, and
+      2.4GHz is not worth attempting. Streaming is more sensitive to **jitter** than to raw bandwidth,
+      so an unstable home network produces stutter and tearing.
+    - **Firewall ports must be allowed.** The Windows installer usually prompts; the documentation lists
+      the ports for manual configuration.
+    - **Streaming over the internet takes extra work.** It defaults to local network use, and pairing it
+      with a mesh tool like Tailscale is the easiest way to reach home from elsewhere — no port
+      forwarding and considerably safer.
+    - **Encoding costs host performance.** It consumes some GPU capacity, so on older cards, streaming
+      at high resolution and frame rate reduces the game's own frame rate.
+
+    Who it suits: anyone with a capable desktop who wants to play on a living room TV or tablet, or to
+    run heavy software on the desktop while working from a thin laptop.

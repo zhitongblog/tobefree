@@ -1,0 +1,104 @@
+name: Mullvad Browser
+accent: '#294D73'
+initials: MB
+category: browser
+price: free
+license: 'MPL-2.0'
+website: https://mullvad.net/browser
+download: https://mullvad.net/en/download/browser
+repo: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [浏览器, 反指纹, 隐私, tor项目, 无追踪]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: Tor 浏览器的反指纹能力，但不走 Tor 网络
+  en: Tor Browser's anti-fingerprinting, without the Tor network
+description:
+  zh: 由 Tor Project 与 Mullvad 合作开发的隐私浏览器。把 Tor 浏览器那套成熟的反指纹技术拿出来，去掉 Tor 网络本身——所有用户呈现出几乎相同的浏览器指纹，但走的是你自己的网络连接，速度正常。
+  en: A privacy browser developed jointly by the Tor Project and Mullvad. It takes Tor Browser's mature anti-fingerprinting stack and removes the Tor network itself — every user presents a nearly identical browser fingerprint while traffic goes over your own connection at normal speed.
+review:
+  zh: |
+    追踪你的方式不只有 Cookie。**浏览器指纹**是更难防的一种：
+    你的屏幕分辨率、时区、字体列表、显卡型号、语言设置组合起来，
+    往往就能唯一标识一台设备——即使你清空了所有 Cookie、用了无痕模式。
+
+    Tor 浏览器在这方面做得最好，因为它让**所有用户看起来一模一样**。
+    但 Tor 网络本身很慢，很多网站还会拦截 Tor 出口节点。
+
+    Mullvad Browser 的思路是把这两件事拆开：**保留反指纹，去掉 Tor 网络**。
+    它由 Tor Project 开发（就是做 Tor 浏览器的那批人），Mullvad 出资合作，
+    基于 Firefox，MPL-2.0 开源。
+
+    你得到的是：
+
+    - **统一指纹**。屏幕尺寸标准化、字体列表统一、时区固定、
+      canvas 和 WebGL 指纹被处理过。你看起来和其他所有 Mullvad Browser 用户一样。
+    - **默认最严设置**。第三方 Cookie 全禁、每次关闭清空所有数据、
+      内置 uBlock Origin、禁用遥测。
+    - **正常速度**。因为不走 Tor，网页加载和普通浏览器一样快。
+
+    要说清楚的关键一点：**它保护的是"你是谁"，不是"你在哪"**。
+
+    你的 IP 地址仍然暴露给你访问的网站和你的网络运营商。
+    Mullvad 的商业模式是卖 VPN，这个浏览器设计上是配合 VPN 使用的
+    （用 VPN 隐藏 IP + 用它隐藏指纹）。**但浏览器本身完全免费、
+    不需要 Mullvad 账号、也不强制你买 VPN**——配任何 VPN 都行，
+    不配 VPN 也能用，只是少了 IP 层的保护。
+
+    其他要注意的：
+
+    - **不是日常浏览器**。所有数据每次关闭都清空意味着你不会保持登录状态，
+      指纹防护也会让部分网站表现异常。**建议当作"需要匿名时打开的第二个浏览器"**，
+      日常用 LibreWolf 或 Firefox。
+    - **不要装额外扩展**。装了扩展会让你的指纹变得独特，
+      反而破坏了"和所有人一样"这个前提。这是反直觉但很重要的一点。
+    - **不要调整窗口大小**。它默认用固定的窗口尺寸就是为了统一指纹，
+      最大化窗口会泄露你的屏幕分辨率。
+
+    要真正的匿名（隐藏 IP + 抗流量分析），还是 Tor Browser 或 Tails。
+  en: |
+    Cookies are not the only way to track you. **Browser fingerprinting** is harder to defend against:
+    your screen resolution, time zone, font list, graphics card and language settings combine into
+    something that often uniquely identifies a device — even after clearing every cookie and using
+    private mode.
+
+    Tor Browser handles this best, because it makes **every user look identical.** But the Tor network
+    is slow and many sites block its exit nodes.
+
+    Mullvad Browser separates those concerns: **keep the anti-fingerprinting, drop the Tor network.**
+    It is developed by the Tor Project — the same people behind Tor Browser — in partnership with
+    Mullvad, based on Firefox, MPL-2.0.
+
+    What you get:
+
+    - **A uniform fingerprint.** Standardized window dimensions, a unified font list, a fixed time
+      zone, and canvas and WebGL fingerprints neutralized. You look like every other Mullvad Browser
+      user.
+    - **Maximum-strictness defaults:** third-party cookies blocked entirely, all data cleared on close,
+      uBlock Origin included, telemetry disabled.
+    - **Normal speed,** since traffic does not route through Tor.
+
+    The crucial point to state: **it protects who you are, not where you are.**
+
+    Your IP address remains visible to the sites you visit and to your ISP. Mullvad's business is
+    selling VPN service, and this browser is designed to pair with one — a VPN hides the IP while the
+    browser hides the fingerprint. **But the browser itself is entirely free, requires no Mullvad
+    account and does not require buying their VPN** — use it with any VPN, or none, accepting that you
+    lose the IP-layer protection.
+
+    Other things to note:
+
+    - **It is not a daily driver.** Wiping all data on close means never staying logged in, and the
+      fingerprinting defenses make some sites misbehave. **Treat it as a second browser opened when you
+      need anonymity**, with LibreWolf or Firefox for everyday use.
+    - **Do not install extra extensions.** Extensions make your fingerprint distinctive, defeating the
+      entire "identical to everyone" premise. Counterintuitive, but important.
+    - **Do not resize the window.** The fixed default size exists to unify fingerprints; maximizing
+      leaks your screen resolution.
+
+    For genuine anonymity — hiding your IP and resisting traffic analysis — you still want Tor Browser
+    or Tails.

@@ -1,0 +1,96 @@
+name: WeKan
+accent: '#2980B9'
+initials: WK
+category: productivity
+price: free
+license: 'MIT'
+website: https://wekan.github.io
+download: https://github.com/wekan/wekan/releases/latest
+repo: https://github.com/wekan/wekan
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [看板, trello替代, 团队协作, 自建, 卡片]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: Trello 的自建版，卡片和数据都在自己手里
+  en: Trello you host yourself, with the cards and data in your hands
+description:
+  zh: 开源的看板协作工具。用列表和卡片组织工作，拖拽改变状态，支持清单、截止日期、标签、成员指派、附件、评论和活动记录。可以从 Trello 直接导入现有看板。
+  en: An open-source kanban collaboration tool. Organize work as lists and cards, drag to change status, with checklists, due dates, labels, member assignment, attachments, comments and activity history. Existing boards import directly from Trello.
+review:
+  zh: |
+    看板这套方法本身很简单——三列（待办、进行中、完成），
+    任务是卡片，拖来拖去。简单到你会觉得不该为它付月费，
+    但 Trello 的免费版限了看板数量、限了自动化次数、限了附件大小，
+    团队一大就得升级。
+
+    WeKan 是这套方法的开源自建版。21,025 颗星，MIT 协议，发版非常勤
+    （当前 v10.91）。它的目标很直接：**把 Trello 那套体验搬到你自己的服务器上**。
+
+    功能对齐得比较完整：
+
+    - **看板、列表、卡片**的基本结构，拖拽操作。
+    - **卡片内容**：描述（支持 Markdown）、清单（checklist）、
+      截止日期、开始日期、标签、成员、附件、评论、活动历史。
+    - **泳道（swimlane）**：横向再分一层，比如按人或按优先级分行，
+      这是它比 Trello 免费版多出来的能力。
+    - **权限体系**：看板管理员、普通成员、只读观察者。
+    - **从 Trello 导入**：可以把现有的 Trello 看板连卡片带附件导进来，
+      迁移成本低。
+    - **多语言**，中文界面完整。
+
+    要说清楚的：
+
+    - **需要自己部署**。官方提供 Docker 镜像和 Snap 包，
+      后端是 MongoDB。部署本身不难，但比"注册一个账号"多一步。
+    - **界面观感不如商业产品**。功能是齐的，但视觉打磨、动画流畅度、
+      细节手感和 Trello 有差距。这是绝大多数自建替代品的共同状况。
+    - **和 Vikunja 怎么选**：
+      **WeKan 是纯看板**，形态单一但把看板这件事做透，适合团队按流程推进工作；
+      **Vikunja 是多视图任务系统**（列表/看板/甘特/日历），适合个人待办加轻量项目。
+      如果你要的就是"Trello 的替代品"，选 WeKan；
+      如果你要的是"我的任务管理中心"，选 Vikunja。
+    - **不是项目管理平台**。没有工时统计、资源分配、报表这些，
+      它就是看板。
+
+    适合谁：小团队、社团、家庭协作，想要 Trello 的用法但不想把内部工作流放在别人服务器上的人。
+  en: |
+    Kanban as a method is simple — three columns (todo, doing, done), tasks as cards, dragged between
+    them. Simple enough that paying monthly for it feels wrong, yet Trello's free tier caps boards,
+    automation runs and attachment sizes, and a growing team hits the upgrade prompt.
+
+    WeKan is the open-source self-hosted version of that method. 21,025 stars, MIT, and released
+    frequently (currently v10.91). Its goal is direct: **put the Trello experience on your own
+    server.**
+
+    Feature parity is reasonably complete:
+
+    - **Boards, lists and cards** with drag-and-drop.
+    - **Card contents:** Markdown descriptions, checklists, due and start dates, labels, members,
+      attachments, comments and activity history.
+    - **Swimlanes:** a second horizontal division, by person or priority — something Trello's free tier
+      does not offer.
+    - **Permissions:** board administrators, normal members and read-only observers.
+    - **Trello import** brings existing boards across with cards and attachments, keeping migration
+      cheap.
+    - **Full localization** across many languages.
+
+    To be clear about:
+
+    - **You must deploy it.** Official Docker images and a Snap package exist, with MongoDB behind it.
+      Deployment is not difficult, but it is one step more than signing up.
+    - **Visual polish trails commercial products.** The features are there, but the styling, animation
+      smoothness and small interaction details do not match Trello — the usual situation with
+      self-hosted alternatives.
+    - **Choosing between this and Vikunja:** **WeKan is purely kanban**, a single format executed
+      thoroughly, suited to teams pushing work through a process. **Vikunja is a multi-view task
+      system** (list, board, Gantt, calendar), suited to personal tasks plus light project work. If you
+      specifically want a Trello replacement, take WeKan; if you want a personal task hub, take Vikunja.
+    - **It is not a project management platform.** No time tracking, resource allocation or reporting —
+      it is a board.
+
+    Who it suits: small teams, clubs and families who want Trello's workflow without putting their
+    internal process on someone else's servers.

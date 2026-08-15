@@ -1,0 +1,103 @@
+name: PCSX2
+accent: '#1F3A6E'
+initials: PS
+category: gaming
+price: free
+license: 'GPL-3.0'
+website: https://pcsx2.net
+download: https://pcsx2.net/downloads/
+repo: https://github.com/PCSX2/pcsx2
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [模拟器, ps2, 高清渲染, 手柄, 存档]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: PS2 游戏跑在电脑上，分辨率随便拉
+  en: PlayStation 2 games on a PC, at whatever resolution you like
+description:
+  zh: PlayStation 2 模拟器，开发了二十多年。可以把当年 480i 的游戏用高分辨率重新渲染，支持宽屏修正、纹理过滤、即时存档、金手指和手柄。兼容性覆盖 PS2 绝大部分游戏库。
+  en: A PlayStation 2 emulator developed over more than two decades. It re-renders games originally output at 480i to high resolutions, with widescreen patches, texture filtering, save states, cheats and controller support. Compatibility covers the overwhelming majority of the PS2 library.
+review:
+  zh: |
+    PS2 是历史上销量最高的游戏主机，游戏库极其庞大，
+    但那些游戏当年是 480i 输出的，接到现代显示器上模糊得厉害，
+    而且实体机和光盘都在老化。
+
+    PCSX2 是这个平台的标准模拟器，从 2001 年做到现在，GPL-3.0。
+
+    它带来的改善：
+
+    - **内部分辨率可调**。原生 480i 的游戏可以用 2x、4x 甚至更高
+      的内部分辨率重新渲染，配合各向异性过滤和抗锯齿，
+      画面清晰度提升非常明显。
+    - **宽屏修正**。很多 PS2 游戏只有 4:3，社区做了大量宽屏补丁，
+      可以在 16:9 显示器上正常铺满而不是拉伸变形。
+    - **即时存档**。任意时刻存档读档，不受游戏自身存档点限制。
+    - **快进和慢放**，刷素材或者过难点时有用。
+    - **手柄支持**，包括震动和压感按键映射。
+    - **纹理替换**，社区高清材质包可以直接加载。
+
+    近几年的版本在图形后端（Vulkan、DirectX 12）和兼容性上进步很大，
+    以前需要逐游戏调参数的情况少了很多，多数游戏用默认设置就能跑好。
+
+    要说清楚的：
+
+    - **必须自己提供 BIOS**。PS2 模拟需要主机的 BIOS 文件，
+      **PCSX2 不提供也不能提供**——你需要从自己拥有的 PS2 主机中转储。
+      这是法律和项目原则上的硬要求，网上找现成 BIOS 是侵权行为。
+    - **游戏文件同理**。请从你自己拥有的光盘转储，
+      项目不提供任何游戏内容。
+    - **对硬件有要求**。PS2 的架构复杂，模拟它需要较强的单核性能，
+      开高分辨率还要看显卡。老电脑上部分游戏会掉帧，
+      不像 PSP 模拟那样轻松。
+    - **少数游戏仍有问题**。官方有兼容性列表，
+      冷门或使用特殊技术的游戏可能有图形错误或崩溃，玩之前可以先查。
+    - **不要下载"整合包"**。网上流传的所谓预装 BIOS 和游戏的整合版，
+      既侵权又常常夹带恶意程序。只从 pcsx2.net 官网或官方 GitHub 下载。
+
+    另外提醒：这个领域近年有多个知名模拟器项目因法律压力关停，
+    PCSX2 因为坚持不提供 BIOS 和游戏、只做纯粹的模拟器，
+    一直保持着合规的位置。请按同样的原则使用它。
+  en: |
+    The PlayStation 2 is the best-selling console in history with an enormous library, but those games
+    output at 480i and look badly soft on a modern display — while the consoles and discs themselves
+    continue to age.
+
+    PCSX2 is the platform's standard emulator, in development since 2001, GPL-3.0.
+
+    What it improves:
+
+    - **Adjustable internal resolution.** Games native to 480i can be re-rendered at 2x, 4x or higher
+      internally, and with anisotropic filtering and antialiasing the gain in clarity is dramatic.
+    - **Widescreen patches.** Many PS2 titles are 4:3 only, and the community has produced extensive
+      widescreen patches so they fill a 16:9 display properly rather than stretching.
+    - **Save states** at any moment, independent of a game's own save points.
+    - **Fast forward and slow motion,** useful for grinding or difficult sections.
+    - **Controller support** including rumble and pressure-sensitive button mapping.
+    - **Texture replacement** for community HD texture packs.
+
+    Recent versions have improved considerably in graphics backends (Vulkan, DirectX 12) and
+    compatibility, so per-game parameter tuning is far less often required and most titles run well on
+    defaults.
+
+    To be clear about:
+
+    - **You must supply the BIOS yourself.** PS2 emulation requires the console's BIOS, and **PCSX2
+      neither provides it nor can it** — you dump it from a PS2 console you own. This is a firm legal
+      and project requirement, and downloading a BIOS from the internet is infringement.
+    - **The same applies to games.** Dump from discs you own; the project ships no game content.
+    - **Hardware demands are real.** The PS2's architecture is complex and emulating it needs strong
+      single-core performance, with the GPU mattering at higher resolutions. Older machines will drop
+      frames in some titles — this is not as undemanding as PSP emulation.
+    - **A few games still have problems.** An official compatibility list documents titles with graphical
+      errors or crashes, worth checking beforehand.
+    - **Do not download "all-in-one" packages.** Bundles circulating online with BIOS and games
+      preinstalled are both infringing and frequently carry malware. Use pcsx2.net or the official
+      GitHub only.
+
+    One further note: several prominent emulator projects have shut down under legal pressure in recent
+    years. PCSX2 has maintained its lawful position precisely by never distributing BIOS files or
+    games and remaining purely an emulator. Use it on the same terms.

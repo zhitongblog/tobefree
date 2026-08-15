@@ -1,0 +1,100 @@
+name: Loop Habit Tracker
+accent: '#4C8C4A'
+initials: LH
+category: productivity
+price: free
+license: 'GPL-3.0'
+website: https://loophabits.org
+download: https://github.com/iSoron/uhabits/releases/latest
+repo: https://github.com/iSoron/uhabits
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [习惯养成, 打卡, 安卓, 离线, 无广告]
+platforms: [android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 打卡养习惯，不推送、不收费、不联网
+  en: Habit tracking with no notifications spam, no fees, no network
+description:
+  zh: 安卓上的习惯追踪应用。记录每天是否完成某个习惯，用曲线展示长期趋势，并按连续性给出一个随时间变化的"强度"评分。完全离线运行，没有广告、没有内购、没有账号。
+  en: A habit tracker for Android. Log whether you completed a habit each day, see long-term trends as a curve, and get a strength score that responds to consistency over time. It runs entirely offline with no ads, no in-app purchases and no account.
+review:
+  zh: |
+    习惯类 App 是内购和订阅最密集的品类之一：免费版限三个习惯、
+    统计要付费、去广告要付费、数据存在别人服务器上，
+    而且很多会用推送不停骚扰你。
+
+    Loop 是这个领域的清流。10,129 颗星，GPL-3.0，**完全免费、
+    没有广告、没有内购、不需要账号、不申请网络权限**——
+    最后这一条你可以在安卓的权限设置里自己验证，它根本没法上传任何东西。
+
+    功能上它不追求大而全，但把核心做得很好：
+
+    - **灵活的习惯类型**。可以是"是否完成"（今天跑步了吗），
+      也可以是"数值目标"（今天喝了几杯水、跑了几公里），后者能设周目标。
+    - **灵活的频率**。每天、每周三次、每月若干次都能设，
+      不是所有习惯都该每天做，这一点比很多同类做得好。
+    - **强度评分**。它不是简单数连续天数，而是用一个随时间衰减的算法算"习惯强度"——
+      断一天不会清零，但长期不做会慢慢掉下去。
+      **这个设计比"连续 N 天"的机制更健康**，不会因为漏了一天就崩溃放弃。
+    - **详细图表**。日历热力图、历史曲线、按星期分布（能看出你总是周末断），
+      对复盘很有用。
+    - **提醒**。可以设时间提醒，但它不会滥用推送。
+    - **桌面小组件**，直接在主屏打卡。
+
+    数据完全在本机，可以导出成 CSV 或数据库文件自己备份。
+
+    要说清楚的：
+
+    - **只有安卓版**。作者没有做 iOS。iOS 上的开源替代较少，
+      系统自带的"健康"或第三方的 Streaks（付费）是常见选择。
+    - **发版节奏慢**。当前版本 v2.3.1 发布于 2025 年 8 月，
+      仓库 2026 年仍有提交。这是一个功能已经稳定的成熟应用，
+      不是快速迭代的项目——对一个习惯追踪器来说，这未必是坏事。
+    - **没有云同步**。换手机要手动导出导入。这是"不联网"的必然代价，
+      想要同步就得接受数据出本机。
+    - **它不会替你养成习惯**。工具只负责记录和可视化，
+      提醒也只是提醒。这一点所有习惯 App 都一样，只是有些会假装不是。
+
+    从 F-Droid 或 GitHub Releases 安装（Google Play 上也有官方版本）。
+  en: |
+    Habit apps are among the most aggressively monetized categories: three habits on the free tier,
+    statistics behind a purchase, ad removal behind another, data on someone else's servers, and
+    frequently a stream of nagging notifications.
+
+    Loop is the clean exception. 10,129 stars, GPL-3.0, **entirely free with no ads, no in-app
+    purchases, no account, and no network permission requested** — that last point being verifiable in
+    Android's own permission settings, where you can confirm it is incapable of uploading anything.
+
+    It does not chase breadth, but the core is well built:
+
+    - **Flexible habit types:** yes/no completion (did I run today) or numerical targets (glasses of
+      water, kilometres run), the latter with weekly goals.
+    - **Flexible frequency:** daily, three times a week, a few times a month. Not every habit should be
+      daily, and this is handled better here than in many peers.
+    - **A strength score.** Rather than counting consecutive days, it computes habit strength with a
+      time-decaying algorithm — missing one day does not reset anything, while sustained neglect
+      gradually lowers it. **This is psychologically healthier than a streak counter**, since one
+      missed day does not trigger abandonment.
+    - **Detailed charts:** calendar heatmaps, historical curves and day-of-week distribution, which
+      reveals patterns like consistently breaking on weekends.
+    - **Reminders** at set times, without abusing notifications.
+    - **Home screen widgets** for logging without opening the app.
+
+    Data stays entirely on the device and exports to CSV or a database file for your own backups.
+
+    To be clear about:
+
+    - **Android only.** The author has not built for iOS, where open-source alternatives are scarce and
+      the system Health app or the paid Streaks are the usual choices.
+    - **Releases are infrequent.** The current version, v2.3.1, is from August 2025 with continuing
+      commits through 2026. This is a mature, stable application rather than a fast-moving project —
+      arguably not a bad thing for a habit tracker.
+    - **No cloud sync.** Changing phones means exporting and importing manually, the inevitable cost of
+      requesting no network access.
+    - **It will not build the habit for you.** The tool records and visualizes, and a reminder is only a
+      reminder. True of every habit app, though some pretend otherwise.
+
+    Install from F-Droid or GitHub Releases; an official build is also on Google Play.

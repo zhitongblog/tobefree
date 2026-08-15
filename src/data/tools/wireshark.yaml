@@ -1,0 +1,106 @@
+name: Wireshark
+accent: '#1679A7'
+initials: WS
+category: network
+price: free
+license: 'GPL-2.0'
+website: https://www.wireshark.org
+download: https://www.wireshark.org/download.html
+repo: https://github.com/wireshark/wireshark
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [抓包, 网络分析, 协议解析, 故障排查, 教学]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 把网线里跑的每一个数据包摊开给你看
+  en: Lays out every packet on the wire for you to read
+description:
+  zh: 网络协议分析工具，事实上的行业标准。抓取网卡上的原始数据包并逐层解析成可读结构，支持数千种协议。用于排查网络故障、分析应用通信行为、学习网络协议原理。也有命令行版本 tshark 用于脚本化分析。
+  en: The de facto industry-standard network protocol analyzer. It captures raw packets from a network interface and decodes them layer by layer into readable structures across thousands of protocols. It is used for diagnosing network faults, analyzing how applications communicate, and learning how protocols actually work, with a command-line version, tshark, for scripted analysis.
+review:
+  zh: |
+    网络出问题时，大多数排查停留在猜测层面：能 ping 通吗、
+    是不是 DNS 的问题、是不是防火墙拦了。Wireshark 让你不用猜——
+    **它把网卡上实际收发的每一个字节都摆出来**，
+    从以太网帧、IP 头、TCP 段一直到应用层协议，逐层解析成人能读的结构。
+
+    它是这个领域用了二十多年的标准工具，GPL-2.0，支持的协议数以千计。
+
+    实际用途：
+
+    - **排查连接问题**。TCP 握手到哪一步失败了、有没有重传、
+      RST 是谁发的、TLS 握手在哪个环节断的——这些在包里一目了然。
+    - **分析应用行为**。某个软件启动时到底连了哪些服务器、发了什么，
+      抓一遍就知道。**这是验证"这个 App 是不是在偷传数据"最直接的方法。**
+    - **学习协议**。教科书上讲的三次握手、滑动窗口、DNS 查询流程，
+      在这里能看到真实的样子。很多网络课程直接用它当教具。
+    - **性能分析**。它能画出 TCP 流的时序图、吞吐曲线、往返时延分布。
+
+    实用功能：强大的显示过滤器（`http.request.method == "POST"` 这种）、
+    "追踪流"（把一个 TCP 会话的所有包拼成完整对话）、
+    协议统计、专家提示（自动标出异常）、以及导出为多种格式。
+
+    **必须说明的边界和责任：**
+
+    - **只抓你有权分析的流量**。抓自己电脑的网卡、
+      自己管理的服务器、自己的实验网络没有问题；
+      **在公共 Wi-Fi 或他人网络上截取别人的通信是违法的**，
+      在很多国家属于刑事犯罪。这个工具本身完全合法，用途由你负责。
+    - **抓包需要管理员权限**，因为要把网卡设成混杂模式。
+      Linux 上建议按官方文档配置 dumpcap 权限，而不是整个程序用 root 跑。
+    - **看不到加密内容**。HTTPS 的正文是加密的，你只能看到握手和元数据
+      （谁连了谁、什么时候、多少字节）。要看 HTTPS 明文，
+      那是 mitmproxy 的活（而且需要在设备上装证书）。
+    - **交换机环境下抓不到别人的包**。现代交换网络只把包发给目标端口，
+      所以你在自己机器上通常只能看到和自己相关的流量——这其实是好事。
+    - **学习曲线存在**。第一次打开会看到瀑布一样刷屏的包，
+      **先学会用过滤器**（比如 `ip.addr == 某个地址`）把噪音去掉，才谈得上分析。
+
+    对网络管理员、后端开发、安全研究和学网络的学生来说，这是必装工具。
+  en: |
+    When a network misbehaves, most troubleshooting is guesswork: can it ping, is it DNS, is a firewall
+    blocking it. Wireshark removes the guessing — **it lays out every byte actually sent and received
+    on the interface**, decoding Ethernet frames, IP headers, TCP segments and application protocols
+    layer by layer into readable structures.
+
+    It has been the standard tool in this field for over two decades. GPL-2.0, with protocol support in
+    the thousands.
+
+    Real uses:
+
+    - **Diagnosing connections:** which step of the TCP handshake failed, whether there are
+      retransmissions, who sent the RST, where the TLS handshake broke — all visible in the packets.
+    - **Analyzing application behavior:** exactly which servers a program contacts at startup and what
+      it sends. **This is the most direct way to verify whether an app is quietly transmitting data.**
+    - **Learning protocols.** Three-way handshakes, sliding windows and DNS resolution appear as they
+      actually happen, which is why many networking courses teach with it.
+    - **Performance analysis** through TCP stream graphs, throughput curves and round-trip time
+      distributions.
+
+    Practical features include powerful display filters (`http.request.method == "POST"` and the like),
+    "follow stream" to reassemble an entire TCP conversation, protocol statistics, expert hints that
+    flag anomalies, and export in many formats.
+
+    **The boundaries and responsibilities must be stated:**
+
+    - **Only capture traffic you are entitled to analyze.** Your own machine's interface, servers you
+      administer and your own lab network are fine. **Intercepting other people's communications on
+      public Wi-Fi or someone else's network is illegal** and criminal in many jurisdictions. The tool
+      is entirely lawful; its use is your responsibility.
+    - **Capturing requires administrative privileges** to put the interface in promiscuous mode. On
+      Linux, follow the official guidance to grant dumpcap the necessary capability rather than running
+      the whole application as root.
+    - **Encrypted contents stay hidden.** HTTPS payloads are encrypted, leaving only the handshake and
+      metadata — who connected to whom, when and how many bytes. Reading HTTPS plaintext is mitmproxy's
+      job, and requires installing a certificate on the device.
+    - **Switched networks limit what you see.** Modern switches deliver frames only to the destination
+      port, so on your own machine you generally see only your own traffic — which is a good thing.
+    - **There is a learning curve.** The first launch is a waterfall of scrolling packets. **Learn the
+      filters first** — something like `ip.addr == <address>` — to remove the noise before any analysis
+      is possible.
+
+    For network administrators, backend developers, security researchers and networking students, this
+    is essential.

@@ -1,0 +1,103 @@
+name: Vikunja
+accent: '#1973FF'
+initials: VK
+category: productivity
+price: free
+license: 'AGPL-3.0'
+website: https://vikunja.io
+download: https://vikunja.io/docs/installing/
+repo: https://github.com/go-vikunja/vikunja
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [待办, 看板, 甘特图, 自建, 团队协作]
+platforms: [linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 同一批任务，用列表、看板、甘特或日历随便看
+  en: The same tasks as a list, a board, a Gantt chart or a calendar
+description:
+  zh: 自建的任务与项目管理工具。同一组任务可以切换成列表、看板、表格、甘特图和日历五种视图。支持子任务、依赖关系、标签、提醒、附件、指派和团队共享，提供 API 和 CalDAV 接入。
+  en: A self-hosted task and project manager. The same set of tasks can be viewed as a list, a kanban board, a table, a Gantt chart or a calendar. It supports subtasks, dependencies, labels, reminders, attachments, assignment and team sharing, with an API and CalDAV access.
+review:
+  zh: |
+    任务管理工具的商业化路径高度一致：免费版限项目数、
+    看板和甘特图算高级功能、团队协作按人头收月费。
+    对个人和小团队来说，这些限制来得都很早。
+
+    Vikunja 是自建方案里比较完整的一个。5,059 颗星，AGPL-3.0，
+    Go 写的后端加 Vue 前端，部署后功能全开，没有任何付费墙。
+
+    它最实用的设计是**多视图**：任务只有一份，展示方式随你切换。
+
+    - **列表**：日常最常用，快速加任务、打勾。
+    - **看板**：按状态分列（待办/进行中/完成），拖拽卡片。Trello 那种用法。
+    - **表格**：像电子表格一样批量看和改属性。
+    - **甘特图**：看时间跨度和依赖关系，做有截止日期的项目时有用。
+    - **日历**：按日期铺开，和有具体日期的任务配合。
+
+    换句话说，你不需要为了"想看看甘特图"去换一个工具，也不用为此付费升级。
+
+    其他值得一提的：
+
+    - **任务依赖**：A 完成后 B 才能开始，甘特图上能看到关系。
+    - **CalDAV 支持**：可以把任务同步到手机系统日历或第三方日历 App，
+      不用装它的 App 也能看到今天要做什么。
+    - **API 完整**：可以写脚本自动创建任务，或者和其他系统打通。
+    - **提醒和重复任务**：支持相对时间提醒（截止前一天）。
+    - **附件、评论、指派**：小团队协作够用。
+
+    要说清楚的：
+
+    - **需要自己部署**。官方提供 Docker 镜像，单个二进制也可以直接跑，
+      数据库支持 SQLite（个人用足够）、MySQL、PostgreSQL。
+      不想部署的话，个人用 Super Productivity（纯本地桌面应用）更省事。
+    - **移动端是社区做的**。官方主推网页版（对手机做了适配），
+      原生 App 有社区版本但成熟度不如网页。
+    - **不适合复杂项目管理**。它是"好用的待办 + 看板"，
+      不是 Jira 那种带工作流引擎、权限矩阵、报表体系的企业级工具。
+      小团队用刚好，几十人的研发流程会觉得不够。
+
+    如果你已经在自建服务、想要一个不受订阅摆布的任务系统，这是个稳妥选择。
+  en: |
+    Task managers monetize in a consistent way: the free tier caps projects, boards and Gantt charts
+    are "advanced features", and team collaboration is billed per seat monthly. For individuals and
+    small teams, those limits arrive early.
+
+    Vikunja is among the more complete self-hosted answers. 5,059 stars, AGPL-3.0, a Go backend with a
+    Vue front end, fully featured once deployed with no paywall anywhere.
+
+    Its most practical design decision is **multiple views** — one set of tasks, presented however you
+    like:
+
+    - **List:** the everyday default for adding and ticking off tasks.
+    - **Kanban:** columns by status with draggable cards, the Trello workflow.
+    - **Table:** spreadsheet-style bulk viewing and editing of attributes.
+    - **Gantt:** timelines and dependencies, useful for projects with deadlines.
+    - **Calendar:** laid out by date for tasks with specific days.
+
+    In other words, wanting a Gantt chart does not mean switching tools or paying to upgrade.
+
+    Also worth noting:
+
+    - **Task dependencies:** B cannot start until A finishes, visualized on the Gantt chart.
+    - **CalDAV support** syncs tasks into a phone's system calendar or a third-party calendar app, so
+      today's work is visible without installing anything of Vikunja's.
+    - **A complete API** for scripted task creation or integration with other systems.
+    - **Reminders and recurring tasks,** including relative reminders such as one day before due.
+    - **Attachments, comments and assignment** — enough for small team collaboration.
+
+    To be clear about:
+
+    - **You must deploy it.** An official Docker image exists and a single binary also runs directly,
+      with SQLite (ample for personal use), MySQL or PostgreSQL behind it. If deployment is unappealing
+      and the use is personal, Super Productivity is a purely local desktop alternative.
+    - **Mobile apps are community-built.** The project promotes the web interface, which adapts to
+      phones; native apps exist from the community but are less polished.
+    - **It is not for complex project management.** This is a capable todo list plus kanban, not a
+      Jira-class tool with workflow engines, permission matrices and reporting. Small teams fit well;
+      a several-dozen-person engineering process will outgrow it.
+
+    If you already self-host and want a task system no subscription can change, this is a dependable
+    choice.

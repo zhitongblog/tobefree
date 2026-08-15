@@ -1,0 +1,139 @@
+name: ImageMagick
+accent: '#B03A2E'
+initials: IM
+category: creative
+price: free
+license: 'ImageMagick License · 可商用'
+website: https://imagemagick.org
+download: https://imagemagick.org/script/download.php
+repo: https://github.com/ImageMagick/ImageMagick
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [批量处理, 命令行, 格式转换, 缩放, 图像处理]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 图像界的 FFmpeg，一条命令处理几千张图
+  en: FFmpeg for images — one command, thousands of files
+description:
+  zh: 命令行图像处理工具与函数库，支持两百多种图片格式。转格式、批量缩放、裁剪、旋转、加水印、拼接、调色、生成缩略图、读取和清除 EXIF，都可以用一条命令对整个文件夹执行。也是大量网站和软件的后端图像引擎。
+  en: A command-line image processing toolset and library supporting over two hundred formats. Convert, batch-resize, crop, rotate, watermark, montage, adjust color, generate thumbnails and read or strip EXIF — any of it applied to an entire folder with one command. It is also the image engine behind a great many websites and applications.
+review:
+  zh: |
+    "把这 800 张图统一改成宽 1200 像素并转成 WebP"——
+    这种事用图形软件做，要么一张张点，要么去找一个可能带广告的在线批处理网站
+    （还得把图传上去）。
+
+    ImageMagick 是这类问题的通用解，地位相当于图像界的 FFmpeg。
+    17,162 颗星，采用 ImageMagick 协议——**允许个人、公司内部和商业用途自由使用**，
+    比很多人以为的更宽松。
+
+    几个真实场景（命令是 `magick`，旧版本是 `convert`）：
+
+    **批量缩放整个文件夹**：
+    ```
+    magick mogrify -resize 1200x -format webp *.jpg
+    ```
+
+    **转格式并控制质量**：
+    ```
+    magick input.png -quality 85 output.jpg
+    ```
+
+    **给图片加文字水印**：
+    ```
+    magick in.jpg -gravity southeast -pointsize 40 -annotate +20+20 "© 2026" out.jpg
+    ```
+
+    **多张图拼成一张（九宫格、长图）**：
+    ```
+    magick montage *.jpg -tile 3x3 -geometry +5+5 grid.jpg
+    ```
+
+    **清除 EXIF 隐私信息**（发图前去掉拍摄位置和设备信息）：
+    ```
+    magick input.jpg -strip output.jpg
+    ```
+
+    最后这条其实很值得单独说：手机拍的照片里通常带着 GPS 坐标、
+    设备型号和拍摄时间，直接发到网上等于附送了位置信息。
+    `-strip` 一条命令就能批量清掉。
+
+    它还支持格式识别、色彩空间转换、图像比较（找出两张图的差异）、
+    生成 PDF、从 PDF 提取页面、简单的绘图和特效。
+
+    要说清楚的：
+
+    - **它是命令行工具**，没有图形界面。不想碰命令行的话，
+      单张图的处理用 GIMP，批量压缩用 Squoosh 或 Caesium。
+    - **参数繁多且顺序敏感**。ImageMagick 的选项顺序会影响结果
+      （选项作用于其后的图像），这是新手最容易困惑的地方。
+      建议从上面几条模板开始改。
+    - **`mogrify` 会覆盖原文件**。这一条要特别当心——
+      `mogrify` 是就地修改，用错了原图就没了。
+      **先在副本文件夹上试，或者用 `magick input output` 的形式输出到新文件。**
+    - **历史上有过安全漏洞**（处理恶意构造的图片文件时）。
+      如果你在服务器上用它处理用户上传的图片，请保持更新并配置好安全策略文件。
+
+    对经常处理图片的人来说，记住三五条命令能省下大量重复劳动。
+  en: |
+    "Resize these 800 images to 1200 pixels wide and convert them to WebP" — done in a graphical
+    program, that means clicking through each one, or finding an online batch service, possibly
+    ad-laden, that also wants your images uploaded.
+
+    ImageMagick is the general solution, occupying the same position for images that FFmpeg holds for
+    video. 17,162 stars, under the ImageMagick License, which **permits personal, internal corporate
+    and commercial use freely** — more permissive than many assume.
+
+    Real examples (the command is `magick`; older versions used `convert`):
+
+    **Batch-resize a whole folder:**
+    ```
+    magick mogrify -resize 1200x -format webp *.jpg
+    ```
+
+    **Convert with quality control:**
+    ```
+    magick input.png -quality 85 output.jpg
+    ```
+
+    **Add a text watermark:**
+    ```
+    magick in.jpg -gravity southeast -pointsize 40 -annotate +20+20 "© 2026" out.jpg
+    ```
+
+    **Tile several images into one:**
+    ```
+    magick montage *.jpg -tile 3x3 -geometry +5+5 grid.jpg
+    ```
+
+    **Strip EXIF metadata** before publishing:
+    ```
+    magick input.jpg -strip output.jpg
+    ```
+
+    That last one deserves separate emphasis: phone photos routinely carry GPS coordinates, device
+    model and capture time, so posting one online often ships your location with it. One `-strip`
+    command clears that across a batch.
+
+    It also handles format identification, color space conversion, image comparison, PDF generation,
+    page extraction from PDFs, and basic drawing and effects.
+
+    To be clear about:
+
+    - **It is a command-line tool** with no GUI. If that is unappealing, use GIMP for single images and
+      Squoosh or Caesium for batch compression.
+    - **Options are numerous and order-sensitive.** In ImageMagick, option order changes the result
+      (options apply to images that follow), which is the most common source of beginner confusion.
+      Start by modifying the templates above.
+    - **`mogrify` overwrites originals.** This deserves real caution — it edits in place, and a mistake
+      destroys the source. **Test on a copied folder, or use the `magick input output` form to write to
+      a new file.**
+    - **It has had security vulnerabilities historically** when processing maliciously crafted images.
+      If you use it server-side on user uploads, keep it updated and configure its security policy
+      file.
+
+    For anyone who handles images regularly, memorizing three or four commands eliminates a great deal
+    of repetitive work.

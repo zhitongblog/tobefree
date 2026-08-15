@@ -1,0 +1,97 @@
+name: Czkawka
+accent: '#5B8C3E'
+initials: CZ
+category: utility
+price: free
+license: 'MIT'
+website: https://github.com/qarmin/czkawka
+download: https://github.com/qarmin/czkawka/releases/latest
+repo: https://github.com/qarmin/czkawka
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [重复文件, 相似图片, 磁盘清理, 空文件夹, 跨平台]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 找出重复文件、相似照片和一堆没用的垃圾
+  en: Finds duplicate files, near-identical photos and assorted junk
+description:
+  zh: 用 Rust 写的重复文件与垃圾文件清理工具。除了按内容找完全相同的文件，还能找**视觉相似**的图片、听感相似的音乐、相似的视频，以及空文件夹、空文件、临时文件、体积异常的大文件和损坏的文件。
+  en: A duplicate and junk file finder written in Rust. Beyond byte-identical duplicates it finds **visually similar** images, acoustically similar music and similar videos, plus empty folders, empty files, temporary files, unusually large files and broken files.
+review:
+  zh: |
+    硬盘里的重复文件是慢慢长出来的：同一批照片从手机导了两次、
+    下载文件夹里有三个版本的同一份资料、备份的备份、
+    微信保存的图片和原图并存。等你发现的时候，往往已经几十个 G 了。
+
+    Czkawka（波兰语"打嗝"）是这个领域目前最好的免费工具。32,685 颗星，MIT 协议，
+    Rust 写的，速度很快，而且**完全免费无功能限制**——
+    这一点很重要，因为这个品类的商业软件通常是"免费扫描、付费删除"。
+
+    它能找的东西比一般的重复文件工具多：
+
+    - **完全相同的文件**：按哈希比对，先比大小再比内容，准确无误。
+    - **视觉相似的图片**：这是它最有价值的功能。同一张照片的不同尺寸、
+      不同压缩率、加了滤镜的版本、截图和原图——哈希完全不同，但人眼看是一张。
+      它用感知哈希找出来，相似度阈值可调。
+    - **相似的音乐**：按音频指纹找同一首歌的不同码率版本。
+    - **相似的视频**：抽帧比对。
+    - **空文件夹、空文件、临时文件**：常年积累的碎屑。
+    - **损坏的文件**：能打开但内容已经坏掉的图片、压缩包、音频。
+    - **体积最大的文件**：快速定位是什么占了空间。
+
+    它提供两套界面：传统的 GTK 图形界面，以及新的 Krokiet 界面，
+    还有命令行版本可以写进脚本。
+
+    **必须严肃提醒的一点**：这类工具的风险不在找，在删。
+
+    - **先用"预览"和排序功能人工确认再删**，尤其是相似图片——
+      不同尺寸的图可能你两个都要（一个原图一个用于网页）。
+    - **它有"选择"规则**（比如自动保留最新的、保留路径最短的），
+      但请理解规则后再用，不要无脑全选删除。
+    - **优先用"移到回收站"而不是永久删除**，给自己留后悔的余地。
+    - **不要对系统目录和程序安装目录做清理**。程序里存在同名同内容的文件是正常的，
+      删掉会让软件坏掉。只清理你自己的文档、图片、下载目录。
+
+    用对了它能一次腾出可观的空间；用错了能删掉不该删的东西。慢一点，值得。
+  en: |
+    Duplicate files accumulate quietly: the same photos imported from a phone twice, three copies of
+    one document in Downloads, backups of backups, chat-app-saved images alongside the originals. By
+    the time you notice, it is often tens of gigabytes.
+
+    Czkawka — Polish for "hiccup" — is currently the best free tool in this space. 32,685 stars, MIT
+    licensed, written in Rust, fast, and **completely free with no feature limits**, which matters
+    because commercial software in this category typically scans free and charges to delete.
+
+    It finds more than a typical duplicate finder:
+
+    - **Byte-identical files** by hashing, comparing size first and then content. Exact and reliable.
+    - **Visually similar images** — its most valuable feature. The same photo at different sizes,
+      different compression, with a filter applied, or a screenshot next to the original all hash
+      completely differently but look identical to a human. Perceptual hashing catches these, with an
+      adjustable similarity threshold.
+    - **Similar music** by audio fingerprint, catching the same track at different bitrates.
+    - **Similar videos** by frame comparison.
+    - **Empty folders, empty files and temporary files** — the debris of years.
+    - **Broken files:** images, archives and audio that open but are corrupt.
+    - **The largest files,** for quickly locating what is consuming space.
+
+    It ships two interfaces — the traditional GTK GUI and the newer Krokiet UI — plus a command-line
+    version for scripting.
+
+    **One warning deserves emphasis:** the risk with this class of tool is not finding, it is
+    deleting.
+
+    - **Preview and sort before deleting anything,** especially for similar images — you may
+      legitimately want both a full-resolution original and a web-sized copy.
+    - **It offers selection rules** (keep newest, keep shortest path), but understand a rule before
+      applying it rather than select-all-and-delete.
+    - **Prefer "move to recycle bin" over permanent deletion,** leaving yourself room to reconsider.
+    - **Never clean system or program installation directories.** Identical files inside applications
+      are normal, and deleting them breaks software. Restrict cleanup to your own documents, pictures
+      and downloads.
+
+    Used carefully it frees a substantial amount of space; used carelessly it deletes things it should
+    not. Going slowly is worth it.

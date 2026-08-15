@@ -1,0 +1,109 @@
+name: MuseScore Studio
+accent: '#1A70B8'
+initials: MS
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://musescore.org
+download: https://musescore.org/download
+repo: https://github.com/musescore/MuseScore
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [打谱, 乐谱, 作曲, 编曲, 五线谱]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 写乐谱、听回放、导出 PDF，专业打谱不用买软件
+  en: Write scores, hear them play back, export PDFs — no licence needed
+description:
+  zh: 开源打谱软件。输入五线谱、六线谱和鼓谱，实时回放试听，导出印刷级 PDF、图片、MIDI 和 MusicXML。支持多声部总谱、分谱、和弦符号、歌词排版，可接 MIDI 键盘输入。AppImage 约 183 MB。
+  en: Open-source music notation software. Enter standard notation, tablature and drum parts, hear them played back live, and export print-quality PDF, images, MIDI and MusicXML. It handles multi-part scores, extracted parts, chord symbols and lyric layout, and accepts MIDI keyboard input. The AppImage is about 183 MB.
+review:
+  zh: |
+    打谱软件长期是 Sibelius 和 Finale 的天下，正版价格对学生和业余音乐人来说很不友好。
+    MuseScore 是这个领域最成功的开源项目，GPL-3.0，
+    质量已经到了专业出版可用的程度——**很多乐谱出版物就是用它排的**。
+
+    能做的事：
+
+    - **完整的记谱**。五线谱、吉他六线谱、鼓谱、简谱插件；
+      多声部总谱和自动生成的分谱（改总谱，分谱同步更新）；
+      连音、装饰音、力度、表情记号、反复跳跃、和弦符号、歌词对齐——
+      正规乐谱需要的符号体系基本齐全。
+    - **回放试听**。写完立刻能听，自带音源库，
+      也可以加载 SoundFont 或 MuseSounds 音色包让回放更接近真实乐器。
+      对作曲和编曲来说，边写边听是刚需。
+    - **多种输入方式**。鼠标点、电脑键盘输入（数字定时值、字母定音高，
+      熟练之后很快）、接 MIDI 键盘直接弹进去。
+    - **导出格式全**。印刷级 PDF、PNG/SVG 图片、MIDI、
+      MusicXML（和其他打谱软件互通的标准格式）、音频。
+    - **排版质量高**。4.x 版本在符号引擎和自动排版上做了大量改进，
+      默认出来的谱面已经很接近专业出版水准，间距和避让处理得不错。
+
+    要说清楚的两件事：
+
+    **第一，注意区分三个东西，名字很容易混：**
+
+    - **MuseScore Studio**——桌面打谱软件，**就是本条收录的这个**，
+      完全免费开源，功能不设限。
+    - **MuseScore.com**——一个乐谱分享网站，上面有大量用户上传的谱子，
+      下载和查看有付费订阅（MuseScore Pro）。这是独立的商业服务。
+    - **MuseSounds / Muse Hub**——高质量音色库，部分免费部分需要账号。
+
+    **桌面软件本身永远免费，不需要账号，不看广告。**
+    网站的订阅和软件的使用没有关系，别被搞混了。
+
+    **第二，它是打谱软件，不是 DAW。**
+    它的目标是产出"给人看的乐谱"，不是"制作成品音乐"。
+    回放是为了检查写得对不对，音质虽然在进步，但不是拿来出成品的。
+    要做编曲和混音，那是 Ardour、LMMS、Reaper 这类宿主软件的领域。
+
+    适合谁：学音乐的学生、乐队编曲、教师出练习谱、
+    需要把手写谱数字化的人，以及任何想把脑子里的旋律记下来的人。
+  en: |
+    Notation software was long dominated by Sibelius and Finale, at prices unfriendly to students and
+    amateur musicians. MuseScore is the field's most successful open-source project, GPL-3.0, and its
+    output quality now reaches professional publication standard — **a fair amount of published sheet
+    music is engraved in it.**
+
+    What it does:
+
+    - **Complete notation:** standard staves, guitar tablature, drum notation and numbered-notation
+      plugins; multi-part scores with automatically extracted parts that update when the score changes;
+      ties, ornaments, dynamics, expression marks, repeats, chord symbols and aligned lyrics — the
+      symbol vocabulary a real score needs.
+    - **Playback.** Hear what you wrote immediately, using the bundled sound library or loaded
+      SoundFonts and MuseSounds packs for more realistic instruments. Writing while listening is
+      essential for composing and arranging.
+    - **Several input methods:** mouse entry, computer keyboard (numbers for duration, letters for
+      pitch, which becomes fast with practice), or a MIDI keyboard played directly in.
+    - **Comprehensive export:** print-quality PDF, PNG and SVG, MIDI, MusicXML for interchange with
+      other notation programs, and audio.
+    - **Strong engraving.** The 4.x line substantially improved the symbol engine and automatic layout,
+      and default output is close to professional standard with good spacing and collision avoidance.
+
+    Two things need stating:
+
+    **First, distinguish three easily confused things:**
+
+    - **MuseScore Studio** — the desktop notation application, **which is what this entry lists.**
+      Entirely free and open source with no feature limits.
+    - **MuseScore.com** — a sheet music sharing website with a large user-uploaded catalogue, where
+      downloading and viewing sit behind a subscription (MuseScore Pro). This is a separate commercial
+      service.
+    - **MuseSounds / Muse Hub** — high-quality instrument libraries, partly free and requiring an
+      account.
+
+    **The desktop application itself is permanently free, needs no account and shows no ads.** The
+    website subscription has nothing to do with using the software; the naming makes this easy to
+    misread.
+
+    **Second, it is notation software, not a DAW.** Its goal is a score for humans to read, not a
+    finished recording. Playback exists to check your writing, and while the sound quality keeps
+    improving it is not intended as a production output. Arranging and mixing belong to hosts like
+    Ardour, LMMS or Reaper.
+
+    Who it suits: music students, band arrangers, teachers producing exercises, anyone digitizing
+    handwritten scores, and anyone who wants to write down the melody in their head.

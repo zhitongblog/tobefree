@@ -1,0 +1,101 @@
+name: ungoogled-chromium
+accent: '#5A6B7C'
+initials: UC
+category: browser
+price: free
+license: 'BSD-3-Clause'
+website: https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+download: https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+repo: https://github.com/ungoogled-software/ungoogled-chromium
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [浏览器, chromium, 去谷歌, 无遥测, 极简]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: Chromium 拆掉所有连接谷歌的部分
+  en: Chromium with every connection back to Google removed
+description:
+  zh: 把 Chromium 里所有与 Google 服务通信的代码移除后的版本。没有账号同步、没有安全浏览上报、没有崩溃报告、没有后台更新检查、没有预连接和预取。功能上就是 Chromium 本身，只是不再和 Google 说话。
+  en: A build of Chromium with every piece of code that communicates with Google services removed — no account sync, no Safe Browsing reporting, no crash reports, no background update checks, no preconnection or prefetching. Functionally it is Chromium, simply no longer talking to Google.
+review:
+  zh: |
+    Chrome 的问题不在内核——Chromium 内核是开源的，性能和兼容性都很好。
+    问题在于它默认和 Google 保持着大量后台通信：
+    账号同步、安全浏览检查、使用统计、崩溃报告、更新检查、
+    地址栏输入的实时建议、DNS 预取。
+
+    ungoogled-chromium 做的事情非常直白：**把这些全部从源码里拆掉**，
+    然后重新编译。27,408 颗星，BSD-3-Clause（和 Chromium 一致）。
+
+    它移除或禁用的包括：
+
+    - 所有 Google Web 服务的连接（账号、同步、安全浏览、翻译、拼写检查）。
+    - 遥测和崩溃上报。
+    - 后台自动更新机制。
+    - 地址栏的搜索建议（输入时不再实时把内容发出去）。
+    - 各类预连接、预取和预渲染（这些会在你还没点击时就发起请求）。
+
+    同时它加了一些控制项，比如禁用 WebRTC 的 IP 泄露、更细的 referrer 控制。
+
+    **这是这个站上定位最"极客"的浏览器之一，代价必须说清楚：**
+
+    - **没有自动更新**。这是最重要的一点。移除更新机制意味着
+      **你必须自己关注新版本并手动下载安装**。浏览器是攻击面最大的软件，
+      长期不更新有真实的安全风险。如果你不能保证定期手动更新，
+      请用别的浏览器——这一条比任何隐私收益都重要。
+    - **装扩展很麻烦**。它默认屏蔽了 Chrome 应用商店的连接，
+      装扩展需要手动下载 crx 文件并开启开发者模式，或者用社区的变通方法。
+      装 uBlock Origin 这一步就会劝退不少人。
+    - **二进制由第三方志愿者编译**。项目主仓库提供的是"补丁集"，
+      各平台的可执行文件由不同的志愿者构建并发布在 binaries 页面。
+      **请只从官方 binaries 页面下载**，并核对校验值。
+    - **部分网站功能受影响**。依赖 Google 服务的登录、
+      推送通知、某些地图和验证码可能不工作。
+
+    适合谁：知道自己在做什么、愿意手动维护更新、
+    并且明确想要"Chromium 的性能 + 零 Google 通信"的人。
+
+    **如果你只是想要一个不追踪你的浏览器，LibreWolf 或 Brave 省事得多，
+    而且有自动更新。** 这一款是给有特定需求的少数人的。
+  en: |
+    Chrome's problem is not its engine — Chromium is open source with excellent performance and
+    compatibility. The problem is the substantial background communication with Google it maintains by
+    default: account sync, Safe Browsing checks, usage statistics, crash reports, update checks,
+    live suggestions from the address bar, and DNS prefetching.
+
+    ungoogled-chromium does something blunt: **strip all of that out of the source** and recompile.
+    27,408 stars, BSD-3-Clause, matching Chromium.
+
+    Removed or disabled:
+
+    - Every connection to Google web services (account, sync, Safe Browsing, translation, spell check).
+    - Telemetry and crash reporting.
+    - The background auto-update mechanism.
+    - Address bar search suggestions, so typing no longer streams your input outward.
+    - Preconnection, prefetching and prerendering, which fire requests before you click.
+
+    It also adds controls such as blocking WebRTC IP leaks and finer referrer policy.
+
+    **This is among the most demanding browsers on this site, and the costs must be stated:**
+
+    - **There is no auto-update.** This matters most. Removing the update mechanism means **you must
+      watch for new versions and install them manually.** A browser is the largest attack surface you
+      run, and staying on an old build carries genuine security risk. If you cannot commit to updating
+      regularly, use something else — that consideration outweighs any privacy gain.
+    - **Installing extensions is awkward.** Connections to the Chrome Web Store are blocked by default,
+      so extensions require downloading crx files manually with developer mode enabled, or a community
+      workaround. Getting uBlock Origin installed defeats many people at this step.
+    - **Binaries are built by third-party volunteers.** The main repository publishes a patch set, while
+      per-platform executables are built by various contributors and posted on the binaries page.
+      **Download only from the official binaries page** and verify checksums.
+    - **Some site features break.** Logins that depend on Google services, push notifications, and
+      certain maps and captchas may not work.
+
+    Who it suits: people who know what they are doing, will maintain updates manually, and specifically
+    want Chromium's performance with zero Google communication.
+
+    **If you simply want a browser that does not track you, LibreWolf or Brave are far less trouble and
+    update themselves.** This one is for a small group with a specific requirement.

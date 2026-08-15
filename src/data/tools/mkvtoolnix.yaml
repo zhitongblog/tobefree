@@ -1,0 +1,100 @@
+name: MKVToolNix
+accent: '#4A6B8A'
+initials: MK
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://mkvtoolnix.download
+download: https://mkvtoolnix.download/downloads.html
+repo: https://codeberg.org/mbunkus/mkvtoolnix
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [封装, 字幕内嵌, 音轨管理, mkv, 无损]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 把字幕和多条音轨装进一个视频文件，不重新编码
+  en: Pack subtitles and multiple audio tracks into one file, no re-encoding
+description:
+  zh: MKV 封装格式的处理工具。把视频、多条音轨、多条字幕、封面和章节合并进一个 mkv 文件，或者从中拆出来；也能删除不需要的轨道、修改轨道语言和默认标记、重新排序。全程不重新编码，速度接近复制文件。
+  en: A toolset for the MKV container format. Merge video, multiple audio tracks, multiple subtitles, cover art and chapters into one mkv file, or split them back out; remove unwanted tracks, change track language and default flags, and reorder them. Nothing is re-encoded, so it runs at close to file-copy speed.
+review:
+  zh: |
+    这里要先澄清一个常见误解：**封装（容器）和编码是两回事**。
+    mp4、mkv 是"盒子"，H.264、AAC 是盒子里的"内容"。
+    换盒子不需要动内容，所以是无损且极快的；重新编码才会掉画质、才要等。
+
+    MKVToolNix 干的就是换盒子和整理盒子里东西的活。
+
+    最常见的几个用途：
+
+    - **把外挂字幕装进视频**。一个 mp4 加一个 srt 文件，
+      合并成一个 mkv，之后拷到电视、平板、U 盘上都是一个文件，
+      字幕不会丢。**注意这是"软字幕"**——播放器可以开关和换字体，
+      和用 FFmpeg 把字幕烧进画面（硬字幕）不一样。
+    - **合并多语言音轨**。国语配音和原声装进同一个文件，播放时切换。
+      同理可以放多条字幕（简体、繁体、英文）。
+    - **删掉不要的轨道**。下载的片子带了七条你不需要的音轨和十条字幕，
+      占了一半体积，删掉能省下不少空间——而且是无损的。
+    - **修正轨道信息**。播放器默认选错了语言、默认字幕没开、
+      轨道名字乱码，都可以在这里改标记，不用重新压制。
+    - **拆分与合并文件**。按大小、时长或章节把长视频切成几份，
+      或者把分段的文件接回一整个。
+
+    界面上，MKVToolNix GUI 是拖拽式的：把视频、音轨、字幕文件一起拖进去，
+    勾选要保留哪些轨道、设好语言和默认标记，点开始，几十秒完事。
+    也有命令行版本 `mkvmerge` 可以批量处理。
+
+    要说清楚的：
+
+    - **输出只能是 MKV**。它是 Matroska 的工具，不能输出 mp4。
+      需要 mp4 的话（比如某些老电视或手机只认 mp4），用 FFmpeg 转封装。
+    - **兼容性要考虑**。mkv 在电脑和主流播放器上没问题，
+      但部分老电视、车机、iOS 原生播放器对 mkv 支持有限。
+      发给别人之前想一下对方用什么设备。
+    - **它不转码**。想改分辨率、降码率、换编码格式，那是 HandBrake 或 FFmpeg 的事。
+    - **源码托管在 Codeberg**（此前在 GitHub），下载请认准官网 mkvtoolnix.download。
+
+    和 LosslessCut、FFmpeg、HandBrake 一样，它属于"平时想不起来、
+    用到时无可替代"的那类工具。
+  en: |
+    One common confusion is worth clearing up first: **containers and codecs are different things.**
+    mp4 and mkv are boxes; H.264 and AAC are what is inside. Changing the box does not touch the
+    contents, which is why it is lossless and nearly instant — only re-encoding costs quality and
+    time.
+
+    MKVToolNix changes boxes and organizes what is inside them.
+
+    The most common uses:
+
+    - **Embed external subtitles.** Combine an mp4 and an srt into a single mkv, so copying it to a TV,
+      tablet or USB stick moves one file and the subtitles never get lost. **Note that these are soft
+      subtitles** — the player can toggle them and change fonts — unlike burning them into the picture
+      with FFmpeg.
+    - **Merge multi-language audio.** A dub and the original soundtrack in one file, switchable during
+      playback, and likewise several subtitle tracks.
+    - **Strip unwanted tracks.** A download carrying seven audio tracks and ten subtitles you will
+      never use can be halved in size by removing them — losslessly.
+    - **Fix track metadata.** Wrong default language, subtitles not enabled by default, garbled track
+      names — all editable as flags without re-encoding anything.
+    - **Split and join files** by size, duration or chapter, or reassemble segmented files into one.
+
+    The MKVToolNix GUI is drag-and-drop: pull the video, audio and subtitle files in together, tick
+    which tracks to keep, set languages and default flags, press start, and it finishes in seconds.
+    A command-line version, `mkvmerge`, handles batches.
+
+    To be clear about:
+
+    - **Output is MKV only.** It is a Matroska tool and cannot write mp4. If you need mp4 — some older
+      TVs and phones accept nothing else — remux with FFmpeg.
+    - **Think about compatibility.** MKV is fine on computers and mainstream players, but some older
+      TVs, car systems and iOS native players handle it poorly. Consider the recipient's device before
+      sending.
+    - **It does not transcode.** Changing resolution, bitrate or codec is HandBrake's or FFmpeg's job.
+    - **Source is hosted on Codeberg** (formerly GitHub); download from the official
+      mkvtoolnix.download.
+
+    Like LosslessCut, FFmpeg and HandBrake, it is the kind of tool you forget about until the moment
+    nothing else will do.

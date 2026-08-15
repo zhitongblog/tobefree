@@ -1,0 +1,93 @@
+name: OpenToonz
+accent: '#2E7BB5'
+initials: OT
+category: creative
+price: free
+license: 'BSD-3-Clause'
+website: https://opentoonz.github.io
+download: https://opentoonz.github.io/e/index.html
+repo: https://github.com/opentoonz/opentoonz
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [二维动画, 手绘动画, 定格, 特效, 专业级]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 做过商业动画长片的专业二维动画软件，开源免费
+  en: Professional 2D animation software used on feature films, free and open
+description:
+  zh: 专业二维动画制作软件。支持手绘逐帧、扫描纸稿上色、骨骼变形、特效合成和多层摄影表（xsheet）。由意大利 Digital Video 开发，日本 Dwango 在 2016 年将其开源，此前的商业版本曾用于多部动画长片制作。
+  en: Professional 2D animation software supporting frame-by-frame drawing, scanning and coloring paper artwork, skeletal deformation, effects compositing and a multi-layer exposure sheet. Developed by Italy's Digital Video and open-sourced by Japan's Dwango in 2016, its commercial predecessor was used in the production of several animated feature films.
+review:
+  zh: |
+    这个软件的来历值得先说：它的前身 Toonz 是意大利 Digital Video 开发的商业动画软件，
+    在日本动画工业里被使用多年。2016 年 Dwango 收购后将其以 BSD 协议开源，
+    成了 OpenToonz。**换句话说，你下载的是一套真正在商业动画产线上跑过的工具。**
+
+    它和"给爱好者用的动画软件"不是一个量级：
+
+    - **摄影表（Xsheet）**。这是传统动画的核心工作方式——
+      垂直的表格，每一行是一帧，每一列是一个图层，
+      你在格子里安排每帧用哪张图。习惯了时间轴的人一开始会不适应，
+      但这套方法在管理复杂的多层动画时效率极高，也是动画行业的通用语言。
+    - **扫描与上色**。可以把纸上画的线稿扫描进来，
+      自动清理、矢量化，然后用它的填色工具批量上色。
+      这条流程是为传统手绘动画工作室设计的。
+    - **矢量和位图混用**。同一个场景里可以既有矢量线稿又有位图素材。
+    - **骨骼变形（Plastic 工具）**：给角色绑骨骼做剪纸式动画，不用逐帧画。
+    - **特效与合成**。节点式的特效系统，做光效、模糊、粒子、
+      多平面摄影机运动。
+    - **Toonz Harlequin 的调色板系统**：动画上色靠色板管理，
+      改一个色号能让整部片子的某个颜色统一变化。
+
+    要说清楚的，这些是真实门槛：
+
+    - **学习曲线非常陡**。它是给受过训练的动画从业者设计的，
+      术语（摄影表、律表、色指定）来自传统动画流程，
+      不看教程几乎不可能自己摸索出来。**做一个简单动画请先看 Pencil2D。**
+    - **界面偏旧**，操作逻辑保留了不少商业时代的痕迹，
+      不像现代软件那样直觉。
+    - **偶有稳定性问题**。社区维护的开源项目，复杂工程下建议勤存盘。
+    - **不做三维**。要 3D 动画用 Blender。
+
+    适合谁：认真学习二维动画、有动画专业背景、
+    或者要做复杂多层手绘动画的人。
+    只是想让一个角色动起来的，Pencil2D 上手快得多，做完了再考虑要不要上这套。
+  en: |
+    The provenance is worth stating first: its predecessor, Toonz, was commercial animation software
+    from Italy's Digital Video, used for years in the Japanese animation industry. Dwango acquired it
+    and released it under a BSD licence in 2016 as OpenToonz. **What you download is tooling that has
+    genuinely run on commercial animation pipelines.**
+
+    It is not in the same class as hobbyist animation software:
+
+    - **The Xsheet (exposure sheet).** This is traditional animation's core working method — a vertical
+      grid where each row is a frame and each column a layer, and you assign which drawing appears on
+      each frame. Anyone used to timelines finds it alien at first, but it is extremely efficient for
+      managing complex multi-layer animation and is the industry's shared language.
+    - **Scanning and coloring.** Line art drawn on paper can be scanned in, cleaned up, vectorized and
+      then bulk-colored with its fill tools — a pipeline designed for traditional hand-drawn studios.
+    - **Mixed vector and raster** within a single scene.
+    - **Skeletal deformation** (the Plastic tool) for cutout-style animation without drawing every
+      frame.
+    - **Effects and compositing** through a node-based system for light effects, blurs, particles and
+      multiplane camera moves.
+    - **The Toonz palette system,** where animation coloring is managed by palette entries, so changing
+      one color number updates that color throughout an entire film.
+
+    The barriers are real and must be stated:
+
+    - **The learning curve is extremely steep.** It was designed for trained animation professionals,
+      and its vocabulary comes from traditional pipelines — figuring it out unaided is close to
+      impossible. **For a simple animation, start with Pencil2D.**
+    - **The interface is dated,** retaining plenty of habits from its commercial era and far from
+      intuitive by modern standards.
+    - **Stability can waver.** As a community-maintained open-source project, save often on complex
+      projects.
+    - **No 3D.** Blender handles that.
+
+    Who it suits: people seriously studying 2D animation, those with professional animation
+    backgrounds, and anyone producing complex multi-layer hand-drawn work. If you simply want a
+    character to move, Pencil2D gets you there far faster — then consider whether you need this.

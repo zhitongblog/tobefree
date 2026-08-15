@@ -1,0 +1,102 @@
+name: Godot Engine
+accent: '#478CBF'
+initials: GO
+category: creative
+price: free
+license: 'MIT'
+website: https://godotengine.org
+download: https://godotengine.org/download
+repo: https://github.com/godotengine/godot
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [游戏引擎, 2d, 3d, 无分成, 独立游戏]
+platforms: [windows, macos, linux, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 做游戏不用分成，赚多少都是你的
+  en: Make games with no royalties — whatever you earn is yours
+description:
+  zh: 开源游戏引擎，2D 和 3D 都支持。自带场景编辑器、动画系统、物理、UI、音频和可视化脚本，用自家的 GDScript（语法接近 Python）或 C# 开发，可导出到 Windows、macOS、Linux、网页、安卓和 iOS。MIT 协议，**没有版税、没有收入分成、没有授权费**。
+  en: An open-source game engine covering both 2D and 3D. It includes a scene editor, animation system, physics, UI, audio and visual scripting, with development in its own GDScript (syntax close to Python) or C#, exporting to Windows, macOS, Linux, web, Android and iOS. MIT licensed — **no royalties, no revenue share, no licence fees.**
+review:
+  zh: |
+    商业游戏引擎的授权条款是悬在独立开发者头上的一件事。
+    Unity 在 2023 年宣布按安装次数收费引发行业震动（后来撤回并调整），
+    虚幻引擎对超过一定收入的项目收取版税。
+    这些条款你签的时候可能觉得无所谓，直到项目真的赚钱了。
+
+    Godot 的条款只有一句话：**MIT 协议，随便用。** 115,706 颗星。
+    你做的游戏卖多少钱都跟它没关系，不用报备、不用分成、不用付授权费，
+    甚至可以把引擎改了拿去卖。
+
+    它的技术特点：
+
+    - **2D 是真 2D**。很多引擎的 2D 是在 3D 里放个正交相机，
+      Godot 有独立的 2D 渲染管线，坐标以像素为单位，
+      做像素游戏和 2D 项目时更直觉、性能也更好。**这是它最被称道的优势。**
+    - **节点与场景系统**。一切都是节点，节点组成场景，场景可以嵌套复用。
+      这套结构学起来快，组织复杂项目也清晰。
+    - **GDScript**。自带的脚本语言，语法接近 Python，
+      针对引擎做了深度集成，写起来很快。不喜欢的话可以用 C#，
+      或者用 GDExtension 接 C++ / Rust。
+    - **编辑器本身就是用 Godot 做的**，体积小（下载几十兆），
+      启动快，不需要安装——解压就能跑。
+    - **4.x 的 3D 有明显进步**：全局光照、体积雾、
+      更现代的渲染管线，虽然仍不及虚幻，但做中小型 3D 项目够用了。
+
+    要说清楚的：
+
+    - **3D 上和虚幻、Unity 仍有差距**。渲染效果、
+      工具链成熟度、现成资源和插件的数量都是。
+      **做写实向的大型 3D 项目，Godot 目前不是最优解。**
+      做 2D、做风格化的小型 3D、做独立游戏，它非常合适。
+    - **生态比 Unity 小**。教程、插件、资源商店的规模不在一个量级，
+      遇到问题时能搜到的答案更少（不过社区在快速增长）。
+    - **主机平台导出需要第三方**。任天堂、索尼、微软的主机导出
+      涉及各自的 SDK 和保密协议，Godot 官方不直接提供，
+      要通过第三方服务商。做主机游戏前要先了解这条路。
+    - **移动端导出要配置签名等**，和其他引擎一样有一堆平台特定的细节。
+
+    适合谁：独立开发者、做 2D 游戏的人、学习游戏开发的学生、
+    以及任何不想让引擎厂商在自己收入里分一杯羹的人。
+  en: |
+    Commercial game engine licensing hangs over independent developers. Unity's 2023 announcement of
+    per-install fees shook the industry before being withdrawn and revised, and Unreal takes royalties
+    above a revenue threshold. Terms you accepted casually matter enormously once a project earns
+    money.
+
+    Godot's terms are one sentence: **MIT, use it however you like.** 115,706 stars. Whatever your game
+    earns is unrelated to the engine — no reporting, no revenue share, no licence fee, and you may even
+    modify the engine and sell that.
+
+    Technically:
+
+    - **Its 2D is genuinely 2D.** Many engines implement 2D as an orthographic camera in a 3D world;
+      Godot has a separate 2D rendering pipeline with pixel-based coordinates, which is more intuitive
+      and performs better for pixel and 2D projects. **This is its most praised advantage.**
+    - **Nodes and scenes.** Everything is a node, nodes compose scenes, and scenes nest and are reused.
+      The structure is quick to learn and keeps complex projects legible.
+    - **GDScript,** its own scripting language with Python-like syntax and deep engine integration,
+      which is fast to write. C# is available, and GDExtension allows C++ or Rust.
+    - **The editor is itself built in Godot** — a download of a few tens of megabytes that starts
+      quickly and needs no installation; unzip and run.
+    - **3D improved substantially in 4.x** with global illumination, volumetric fog and a more modern
+      pipeline. Still behind Unreal, but sufficient for small and mid-sized 3D work.
+
+    To be clear about:
+
+    - **3D still trails Unreal and Unity** in rendering quality, tooling maturity and the volume of
+      ready-made assets and plugins. **For large photorealistic 3D projects, Godot is not currently the
+      best answer.** For 2D, stylized smaller 3D and indie games, it fits very well.
+    - **The ecosystem is smaller than Unity's.** Tutorials, plugins and asset stores are not comparable
+      in scale, so searches turn up fewer answers — though the community is growing quickly.
+    - **Console export requires third parties.** Nintendo, Sony and Microsoft platforms involve their
+      own SDKs and non-disclosure agreements that Godot cannot ship directly, so console builds go
+      through third-party providers. Investigate that path before committing to a console release.
+    - **Mobile export needs signing configuration** and the usual pile of platform-specific details, as
+      with any engine.
+
+    Who it suits: independent developers, anyone making 2D games, students learning game development,
+    and anyone who would rather an engine vendor not take a share of their income.

@@ -1,0 +1,107 @@
+name: Heroic Games Launcher
+accent: '#6A4CB5'
+initials: HG
+category: gaming
+price: free
+license: 'GPL-3.0'
+website: https://heroicgameslauncher.com
+download: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/latest
+repo: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [游戏启动器, epic, gog, linux游戏, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 在 Linux 和 Mac 上玩 Epic 和 GOG 的游戏
+  en: Play your Epic and GOG library on Linux and macOS
+description:
+  zh: 开源的游戏启动器，用于管理和运行 Epic Games、GOG 和亚马逊 Prime Gaming 的游戏库。在 Linux 和 macOS 上通过 Wine / Proton 运行 Windows 游戏，自动处理兼容层配置，也有 Windows 原生版本。
+  en: An open-source game launcher for managing and running libraries from Epic Games, GOG and Amazon Prime Gaming. On Linux and macOS it runs Windows games through Wine and Proton with the compatibility layer configured for you, and a native Windows build exists as well.
+review:
+  zh: |
+    Epic Games 一直没有官方 Linux 客户端，GOG 也没有。
+    但这两家一个每周送免费游戏，一个卖无 DRM 的老游戏——
+    对 Linux 玩家来说，库里堆着一堆买了或领了却打不开的游戏，很难受。
+
+    Heroic 解决的就是这个。12,000 颗星，GPL-3.0。
+    它是 Legendary（Epic 的开源命令行客户端）和 gogdl 的图形前端，
+    再加上 Wine / Proton 的自动配置。
+
+    做的事：
+
+    - **登录并同步游戏库**。Epic、GOG、亚马逊 Prime Gaming 三家的库
+      在同一个界面里，显示封面、大小、安装状态。
+    - **下载和安装**，支持选择安装位置、暂停续传、验证文件完整性。
+    - **自动配置兼容层**。这是最有价值的部分——
+      在 Linux 上它会帮你下载和选择合适的 Proton / Wine 版本、
+      配置 DXVK 和 VKD3D（把 DirectX 翻译成 Vulkan）、
+      安装游戏需要的运行库。**手动配 Wine 是件很折腾的事，它把这一层包掉了。**
+    - **云存档同步**（Epic 的云存档可用）。
+    - **每个游戏独立设置**：可以给某个游戏单独指定 Proton 版本、
+      环境变量、启动参数、是否开 Gamescope 或 MangoHud。
+    - **Windows 和 macOS 版本**也有，Windows 上主要价值是
+      "不用装 Epic 客户端也能玩 Epic 的游戏"。
+
+    要说清楚的：
+
+    - **它不保证游戏能跑**。Wine / Proton 的兼容性因游戏而异，
+      **带内核级反作弊的多人游戏在 Linux 上基本跑不了**，
+      这是反作弊厂商的限制，不是启动器的问题。
+      装之前建议先去 ProtonDB 或 WineHQ 查一下你要玩的那款游戏的评级。
+    - **不管 Steam**。Steam 在 Linux 上有官方客户端和内置的 Proton，
+      不需要 Heroic。它补的是 Steam 之外的那部分。
+    - **性能有损耗**。经过翻译层运行的游戏帧数通常低于原生 Windows，
+      具体损耗因游戏和显卡驱动而异。
+    - **需要登录各平台账号**（在它内置的登录窗口里），
+      这是平台方要求的，Heroic 本身不需要注册。
+    - **macOS 上限制更多**：苹果没有 Vulkan，
+      要经过额外的转译层，能跑的游戏比 Linux 少。
+
+    同类里 **Lutris** 更偏 Linux、覆盖面更广（包括模拟器和各种商店），
+    但配置更复杂；**Heroic 更聚焦、更易上手**。
+    两者可以共存，很多人 Epic/GOG 用 Heroic、其他的用 Lutris。
+  en: |
+    Epic Games has never shipped a Linux client, and neither has GOG. Yet one gives away free games
+    weekly and the other sells DRM-free classics — leaving Linux players with a library full of games
+    they own but cannot open.
+
+    Heroic solves that. 12,000 stars, GPL-3.0. It is a graphical front end over Legendary (the
+    open-source Epic CLI) and gogdl, plus automatic Wine and Proton configuration.
+
+    What it does:
+
+    - **Sign in and sync libraries** from Epic, GOG and Amazon Prime Gaming into one interface with
+      cover art, sizes and installation status.
+    - **Download and install** with a choice of location, resumable transfers and file verification.
+    - **Configure the compatibility layer automatically** — the most valuable part. On Linux it
+      downloads and selects an appropriate Proton or Wine build, sets up DXVK and VKD3D to translate
+      DirectX into Vulkan, and installs the runtimes a game needs. **Configuring Wine by hand is
+      genuinely tedious, and this wraps that layer away.**
+    - **Cloud save sync** where the platform supports it.
+    - **Per-game settings:** a specific Proton version, environment variables, launch arguments, and
+      whether to enable Gamescope or MangoHud.
+    - **Windows and macOS builds** exist too; on Windows the appeal is playing Epic games without
+      installing the Epic client.
+
+    To be clear about:
+
+    - **It does not guarantee a game runs.** Wine and Proton compatibility varies by title, and
+      **multiplayer games with kernel-level anti-cheat generally cannot run on Linux at all** — a
+      restriction imposed by the anti-cheat vendors, not the launcher. Check ProtonDB or WineHQ for
+      your specific game before committing.
+    - **It does not handle Steam.** Steam has an official Linux client with Proton built in and needs
+      nothing extra; Heroic covers everything outside Steam.
+    - **There is a performance cost.** Games running through translation layers typically achieve lower
+      frame rates than on native Windows, varying by title and graphics driver.
+    - **Platform accounts require signing in** through its embedded login window, as those platforms
+      demand. Heroic itself needs no registration.
+    - **macOS is more constrained:** Apple provides no Vulkan, so additional translation is involved
+      and fewer games work than on Linux.
+
+    Among the alternatives, **Lutris** is more Linux-focused and broader, covering emulators and many
+    storefronts, at the cost of more complex configuration; **Heroic is narrower and easier to start
+    with.** They coexist happily, and many people use Heroic for Epic and GOG with Lutris for
+    everything else.

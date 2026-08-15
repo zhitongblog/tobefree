@@ -1,0 +1,102 @@
+name: Subtitle Edit
+accent: '#2F6E9E'
+initials: SE
+category: media
+price: free
+license: 'MIT'
+website: https://www.nikse.dk/subtitleedit
+download: https://github.com/SubtitleEdit/subtitleedit/releases/latest
+repo: https://github.com/SubtitleEdit/subtitleedit
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [字幕, 时间轴校对, 语音转字幕, 翻译, 格式转换]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 做字幕、对时间轴、转格式，一个软件全包
+  en: Create subtitles, fix timing, convert formats — all in one place
+description:
+  zh: 功能最全的开源字幕编辑器。支持两百多种字幕格式互转，波形和频谱视图对时间轴，批量调整时间偏移、修正常见错误、检查行长和阅读速度。可以调用本地 Whisper 模型直接把语音转成字幕。
+  en: The most complete open-source subtitle editor. It converts between over two hundred subtitle formats, syncs timing against waveform and spectrogram views, and batch-adjusts offsets, fixes common errors and checks line length and reading speed. It can also call a local Whisper model to transcribe speech straight into subtitles.
+review:
+  zh: |
+    字幕这件事的痛点很分散：下载的字幕和视频差了两秒、
+    字幕是 ass 格式但播放器只认 srt、自己录的视频要从零做一份字幕、
+    翻译好的字幕要重新对轴、一行字太长手机上显示不下。
+
+    Subtitle Edit 把这些全包了。13,829 颗星，MIT 协议，
+    是字幕圈公认的标准工具，维护了十几年。
+
+    核心能力：
+
+    - **格式转换**。支持两百多种字幕格式，srt、ass、ssa、vtt、sub、
+      各种广播电视用的专业格式都能互转，批量转换整个文件夹。
+    - **时间轴调整**。整体前移后移、按比例缩放（处理帧率不同导致的越走越偏）、
+      基于两个同步点自动校正、逐条微调。**这是最常用的功能**。
+    - **波形和频谱视图**。把音频画成波形，说话的位置一目了然，
+      拖拽字幕块对齐即可。频谱视图对分辨背景音和人声更准。
+    - **语音转字幕**。集成 Whisper（可以用本地模型，离线运行），
+      直接从视频生成带时间轴的字幕初稿，再人工校对——
+      这比从零听写快几倍。
+    - **翻译辅助**。可以并排显示原文和译文，保持时间轴不变，
+      也能接机器翻译做初稿。
+    - **质量检查**。自动找出重叠、时长过短、行数过多、
+      每秒字数超标（阅读速度）、常见 OCR 错误，批量修正。
+    - **从图形字幕 OCR**。蓝光的 sup/idx 图片字幕可以 OCR 成文本字幕。
+
+    要说清楚的：
+
+    - **主要是 Windows 软件**。官方主推 Windows 版；
+      macOS 和 Linux 上历史上需要通过 Mono 运行，体验和更新都不如 Windows 版。
+      跨平台的替代品可以看 Aegisub（偏特效字幕）或 Gaupol。
+    - **功能多导致界面密集**。第一次打开会看到一堆按钮和菜单，
+      但常用的就是"打开视频 + 打开字幕 + 拖波形对齐"这条主线，
+      其他功能用到再找。
+    - **Whisper 转录需要下载模型**，模型文件几百 MB 到几 GB，
+      并且转录速度取决于你的硬件（有显卡会快很多）。
+      转出来的初稿仍然需要人工校对，尤其是专有名词和中文断句。
+
+    如果你做视频、翻译片子、或者只是想把下载的字幕对准，这是这个领域最强的免费工具。
+  en: |
+    Subtitle problems are scattered but constant: a downloaded subtitle runs two seconds off, the file
+    is ass but your player only reads srt, your own video needs subtitles from scratch, a translation
+    needs re-timing, or a line is too long to fit on a phone screen.
+
+    Subtitle Edit covers all of it. 13,829 stars, MIT licensed, the acknowledged standard tool in
+    subtitling circles, maintained for well over a decade.
+
+    Core capabilities:
+
+    - **Format conversion** across more than two hundred subtitle formats — srt, ass, ssa, vtt, sub and
+      assorted broadcast formats — including batch conversion of whole folders.
+    - **Timing adjustment:** shift everything earlier or later, scale proportionally (for drift caused
+      by frame rate mismatches), auto-correct from two sync points, or nudge individual lines. **This is
+      the most-used feature.**
+    - **Waveform and spectrogram views.** The audio is drawn as a waveform so speech positions are
+      obvious, and subtitle blocks drag into alignment. The spectrogram distinguishes voice from
+      background more reliably.
+    - **Speech to subtitles.** Whisper is integrated and can run local models offline, generating a
+      timed first draft from the video for human correction — several times faster than transcribing
+      from scratch.
+    - **Translation support:** source and target displayed side by side with timing preserved, plus
+      machine translation for a first pass.
+    - **Quality checks** that find overlaps, durations that are too short, excessive line counts,
+      characters-per-second above reading-speed limits and common OCR errors, with batch fixes.
+    - **OCR from image subtitles:** Blu-ray sup and idx picture subtitles convert to text.
+
+    To be clear about:
+
+    - **It is primarily Windows software.** The Windows build is what the project promotes; macOS and
+      Linux have historically run it through Mono with a worse experience and slower updates.
+      Cross-platform alternatives include Aegisub (oriented toward styled subtitles) and Gaupol.
+    - **The feature count makes the interface dense.** The first launch presents a wall of buttons, but
+      the main path is open video, open subtitle, drag against the waveform; everything else can wait
+      until needed.
+    - **Whisper transcription requires downloading a model** of several hundred megabytes to several
+      gigabytes, and speed depends heavily on your hardware (a GPU helps enormously). The draft still
+      needs human review, particularly for proper nouns and sentence segmentation.
+
+    If you make videos, translate them, or simply want a downloaded subtitle to line up, this is the
+    strongest free tool in the field.

@@ -1,0 +1,92 @@
+name: Floorp
+accent: '#6E4FA3'
+initials: FP
+category: browser
+price: free
+license: 'MPL-2.0'
+website: https://floorp.app
+download: https://floorp.app/download
+repo: https://github.com/Floorp-Projects/Floorp
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [浏览器, firefox, 高度自定义, 垂直标签, 侧边栏]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 想怎么改就怎么改的 Firefox 分支
+  en: A Firefox fork you can rearrange however you want
+description:
+  zh: 基于 Firefox 的开源浏览器，主打界面自定义。标签栏可以放顶部、底部或侧边纵向，支持多行标签、分屏浏览、侧边栏面板和工作区。默认关闭遥测和赞助内容，可以直接用 Firefox 扩展。
+  en: An open-source Firefox-based browser focused on interface customization. The tab bar can sit at the top, bottom or vertically at the side, with multi-row tabs, split view, sidebar panels and workspaces. Telemetry and sponsored content are off by default, and Firefox extensions work directly.
+review:
+  zh: |
+    Firefox 的可定制性这些年一直在退化——很多老用户熟悉的界面调整选项被移除了，
+    想改回来得手写 userChrome.css。Floorp 的定位就是把这些能力重新做成开箱可用的设置项。
+
+    8,328 颗星，MPL-2.0，由一个日本团队开发，发版很勤（当前 v12.16.4）。
+
+    它提供的自定义能力：
+
+    - **标签栏位置随便放**。顶部（传统）、底部、或者纵向放侧边。
+      纵向标签在宽屏上很省空间，这是 Zen、Vivaldi 之外的又一个选择。
+    - **多行标签栏**。开几十个标签时不会挤成一条线看不清标题，
+      这个功能 Firefox 早年有、后来去掉了。
+    - **分屏浏览**。同一个窗口里两个标签页并排，改文档对着资料看很方便。
+    - **工作区**。把标签分成"工作""学习""娱乐"几组，互相隔离。
+    - **侧边栏面板**。可以把常用网站（比如笔记、聊天）钉在侧边随时调出。
+    - **界面主题**。除了自带主题，也能加载社区做的样式。
+
+    隐私方面，它默认关掉了遥测和赞助推荐，可以选择开启内置的追踪保护。
+    底子是 Firefox，所以 uBlock Origin 等扩展直接能装。
+
+    要说清楚的：
+
+    - **它不是隐私专项浏览器**。虽然默认设置比 Firefox 干净，
+      但反指纹强度不如 LibreWolf 和 Mullvad Browser。
+      **它的卖点是"界面自由"，不是"最强隐私"**，别搞混。
+    - **跟随 Firefox 上游有延迟**。作为分支，它需要时间同步上游的安全更新，
+      通常会滞后一点。介意安全更新时效的人要考虑这一点。
+    - **团队规模小**。相比 Mozilla 或 Brave 那种体量，
+      它是小团队项目，长期维护的确定性没那么高。
+    - **功能多导致设置项多**，第一次进设置面板会有点晕。
+
+    怎么选：**想要纵向标签和分屏、并且喜欢折腾界面** → Floorp 或 Zen；
+    **想要最干净的隐私默认值** → LibreWolf；
+    **需要匿名** → Mullvad Browser 或 Tor Browser。
+  en: |
+    Firefox's customizability has eroded over the years — interface options longtime users relied on
+    were removed, and restoring them means hand-writing userChrome.css. Floorp exists to turn those
+    capabilities back into ordinary settings.
+
+    8,328 stars, MPL-2.0, developed by a Japanese team, with frequent releases (currently v12.16.4).
+
+    What it lets you rearrange:
+
+    - **Tab bar position:** top, bottom, or vertically down the side. Vertical tabs save considerable
+      space on widescreens, making this an alternative to Zen and Vivaldi.
+    - **Multi-row tabs,** so dozens of tabs do not compress into unreadable slivers — something Firefox
+      supported years ago and later removed.
+    - **Split view:** two tabs side by side in one window, convenient for writing against a reference.
+    - **Workspaces** separating work, study and leisure tabs into isolated groups.
+    - **Sidebar panels** pinning frequently used sites such as notes or chat for instant access.
+    - **Theming** beyond the bundled themes, including community-made styles.
+
+    On privacy, telemetry and sponsored recommendations are off by default and the built-in tracking
+    protection can be tightened. The Firefox base means uBlock Origin and other extensions install
+    normally.
+
+    To be clear about:
+
+    - **It is not a privacy-specialist browser.** Its defaults are cleaner than Firefox's, but its
+      fingerprinting resistance does not match LibreWolf or Mullvad Browser. **The selling point is
+      interface freedom, not maximum privacy** — do not conflate the two.
+    - **Upstream Firefox updates arrive with a lag.** As a fork it needs time to merge upstream security
+      fixes, which typically means trailing slightly. Weigh that if update latency matters to you.
+    - **The team is small.** Compared with Mozilla or Brave, this is a small-team project, and long-term
+      maintenance is correspondingly less certain.
+    - **The settings panel is dense** because of everything it exposes, which is disorienting at first.
+
+    How to choose: **vertical tabs, split view and a taste for tinkering** → Floorp or Zen; **the
+    cleanest privacy defaults** → LibreWolf; **anonymity** → Mullvad Browser or Tor Browser.

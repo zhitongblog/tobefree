@@ -1,0 +1,98 @@
+name: WinDirStat
+accent: '#6B7C93'
+initials: WD
+category: utility
+price: free
+license: 'GPL-2.0'
+website: https://windirstat.net
+download: https://github.com/windirstat/windirstat/releases/latest
+repo: https://github.com/windirstat/windirstat
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [磁盘空间, 可视化, 清理, 大文件, windows]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 一张图告诉你 C 盘到底被什么占满了
+  en: One picture showing exactly what filled your drive
+description:
+  zh: 磁盘空间可视化分析工具。扫描磁盘后用矩形树图把每个文件画成一个方块，面积等于文件大小，颜色区分类型——占空间的东西一眼就能看见，点一下就能定位到具体路径。安装包约 3 MB。
+  en: A disk space visualizer. After scanning, it renders every file as a rectangle in a treemap where area equals size and color indicates type — whatever is consuming your drive is immediately visible, and one click locates its exact path. The installer is about 3 MB.
+review:
+  zh: |
+    "C 盘满了"是 Windows 上最经典的问题，而系统自带的存储设置只会告诉你
+    "应用 40 GB、文档 15 GB、其他 80 GB"——那个"其他"是什么，它不说。
+    一层层点文件夹属性看大小，能看到天黑。
+
+    WinDirStat 的做法是**把整块磁盘画成一张图**。扫描完成后，
+    每个文件是一个矩形，面积正比于它的大小，同类型文件用同一种颜色。
+    结果就是：那个占了 30 GB 的休眠文件、那个忘了删的虚拟机镜像、
+    那个下载了三年的安装包合集，在图上是几个巨大的色块，一眼就看到。
+    点击色块，上方的目录树会自动展开定位到它。
+
+    这种矩形树图（treemap）的表达方式，比任何列表都直观——
+    你不需要知道要找什么，异常本身会跳出来。
+
+    实用细节：
+
+    - **三窗格布局**：上面是目录树（按占用排序）、右边是文件类型统计、
+      下面是树图。三者联动，点哪儿都会同步。
+    - **可以直接操作**：右键删除、打开所在文件夹、复制路径。
+    - **支持多个盘同时扫描**，也可以只扫某个目录。
+    - **v2 是重写版**。当前 v2.8.0（2026 年 8 月），
+      相比停更多年的老 1.1.2 版，扫描速度快很多、支持长路径、
+      有暗色主题、能处理现代 Windows 的各种特殊文件（去重、稀疏文件、云占位文件）。
+      **如果你印象里的 WinDirStat 是那个很慢的老版本，值得重新试一次。**
+
+    要说清楚的：
+
+    - **只有 Windows**。macOS 上有 GrandPerspective、DaisyDisk（付费），
+      Linux 上有 Baobab（磁盘使用分析器，通常预装）、ncdu（命令行）。
+    - **扫描系统盘建议用管理员权限运行**，否则部分系统目录读不到，
+      统计会不准。
+    - **看到大文件不要无脑删**。`hiberfil.sys`（休眠文件）、
+      `pagefile.sys`（虚拟内存）、WinSxS 目录都是系统在用的，
+      直接删会出问题——它们要用系统提供的方式关闭或清理。
+      删之前先搜一下这个文件是干什么的。
+
+    它是那种平时用不到、C 盘一红就想起来的工具，3 MB 装着不占地方。
+  en: |
+    "The C drive is full" is the classic Windows problem, and the built-in storage settings only tell
+    you "Apps 40 GB, Documents 15 GB, Other 80 GB" — without ever explaining what "Other" is. Clicking
+    through folder properties one level at a time takes all evening.
+
+    WinDirStat's approach is to **draw the entire disk as a picture.** After scanning, every file
+    becomes a rectangle whose area is proportional to its size, colored by type. The result: the 30 GB
+    hibernation file, the forgotten virtual machine image, three years of accumulated installers all
+    appear as enormous blocks you cannot miss. Click one and the directory tree above expands straight
+    to it.
+
+    A treemap communicates this better than any list could — you do not need to know what you are
+    looking for, because the anomaly announces itself.
+
+    Practical details:
+
+    - **Three-pane layout:** directory tree sorted by size at top, file type statistics on the right,
+      treemap below, all linked so clicking anywhere synchronizes the others.
+    - **Act directly:** right-click to delete, open the containing folder or copy the path.
+    - **Scan multiple drives at once,** or restrict to a single directory.
+    - **v2 is a rewrite.** The current v2.8.0 (August 2026) is far faster than the long-dormant 1.1.2,
+      supports long paths, has a dark theme, and correctly handles modern Windows constructs like
+      deduplicated, sparse and cloud placeholder files. **If your memory of WinDirStat is the slow old
+      version, it is worth another look.**
+
+    To be clear about:
+
+    - **Windows only.** macOS has GrandPerspective and the paid DaisyDisk; Linux has Baobab (usually
+      preinstalled) and ncdu on the command line.
+    - **Run as administrator when scanning a system drive,** or some system directories are unreadable
+      and the totals will be wrong.
+    - **Do not delete large files reflexively.** `hiberfil.sys` (hibernation), `pagefile.sys` (virtual
+      memory) and the WinSxS directory are all in active use by Windows, and deleting them directly
+      causes problems — they must be disabled or cleaned through the system's own mechanisms. Look up
+      what a file does before removing it.
+
+    It is a tool you never think about until the drive turns red, and at 3 MB it costs nothing to keep
+    around.

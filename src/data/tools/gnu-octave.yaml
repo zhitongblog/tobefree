@@ -1,0 +1,127 @@
+name: GNU Octave
+accent: '#0790C0'
+initials: OC
+category: learning
+price: free
+license: 'GPL-3.0'
+website: https://octave.org
+download: https://octave.org/download
+repo: https://github.com/gnu-octave/octave
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [数值计算, matlab替代, 矩阵, 科学计算, 绘图]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: MATLAB 的语法，不用买授权
+  en: MATLAB's language, without the licence
+description:
+  zh: 数值计算软件，语法与 MATLAB 高度兼容。做矩阵运算、线性代数、数值积分与求解、信号处理、统计和二三维绘图。大部分 MATLAB 脚本可以直接运行或只需少量修改，提供图形界面和命令行两种用法。
+  en: Numerical computing software with syntax largely compatible with MATLAB. It handles matrix operations, linear algebra, numerical integration and solving, signal processing, statistics and 2D/3D plotting. Most MATLAB scripts run directly or with minor changes, and it offers both a GUI and a command line.
+review:
+  zh: |
+    工科专业几乎人人都学过 MATLAB，但离开学校之后你会发现它的商业授权很贵，
+    学生版和正版个人授权之间差着一大截。而你手上那些课程作业、
+    毕业设计、实验室脚本，全是 MATLAB 语法写的。
+
+    GNU Octave 的定位就是**语法兼容的自由替代**。GPL-3.0，
+    GNU 项目的一部分，维护了三十多年，当前版本 11.3。
+
+    兼容性是它的核心价值：
+
+    ```
+    A = [1 2; 3 4];
+    b = A \ [5; 6];        % 解线性方程组
+    eig(A)                 % 特征值
+    plot(x, sin(x))        % 绘图
+    ```
+
+    这些写法和 MATLAB 一模一样。大部分不依赖专有工具箱的脚本可以直接跑，
+    或者只需要改几行。对于"我只是要跑一下老师给的这个 .m 文件"这类需求，
+    它基本能直接解决。
+
+    功能覆盖：
+
+    - **矩阵和线性代数**：求解、分解（LU、QR、SVD、Cholesky）、特征值。
+    - **数值方法**：积分、常微分方程求解、优化、插值、方程求根。
+    - **信号处理和统计**：FFT、滤波、回归、分布函数。
+    - **绘图**：二维曲线、三维曲面、等高线、直方图，可导出为图片或矢量图。
+    - **脚本和函数**：完整的编程能力，支持自己写函数和包。
+    - **Forge 扩展包**：社区维护的附加包，补充图像处理、控制系统、
+      统计等领域的功能（对应 MATLAB 的工具箱，但覆盖面小很多）。
+
+    要说清楚的：
+
+    - **兼容不等于等价**。基础语法和核心函数高度一致，
+      但 **MATLAB 的商业工具箱（Simulink、各种专业 Toolbox）Octave 没有对应物**。
+      Simulink 那种图形化建模仿真是完全缺失的——
+      如果你的工作离不开 Simulink，Octave 帮不了你。
+    - **性能通常不如 MATLAB**。同样的代码在 MATLAB 上往往更快，
+      尤其是大规模计算和 JIT 优化过的循环。小规模计算和教学用途感觉不到差别。
+    - **图形界面较朴素**。编辑器、变量浏览器、调试器都有，
+      但打磨程度和 MATLAB 的 IDE 有差距。
+    - **绘图风格和细节有差异**，同样的绘图代码出来的图不会完全一样，
+      发论文时要注意检查。
+
+    **另一条路值得一并考虑**：如果你不是必须用 MATLAB 语法，
+    Python 加 NumPy / SciPy / Matplotlib 的生态现在更大、
+    资料更多、也更容易和其他工作衔接。**Octave 的最佳场景是
+    "我已经有 MATLAB 代码"或者"课程要求 MATLAB 语法"**；
+    从零开始的新项目，Python 那条路通常走得更远。
+
+    适合谁：学生、需要跑现成 MATLAB 脚本的人、
+    教学和实验室里做数值实验、以及任何被 MATLAB 授权价格挡住的人。
+  en: |
+    Nearly every engineering student learns MATLAB, and after graduation discovers its commercial
+    licence is expensive, with a considerable gap between the student edition and an individual
+    licence. Meanwhile every coursework file, thesis script and lab routine you own is written in
+    MATLAB syntax.
+
+    GNU Octave exists as the **syntax-compatible free alternative.** GPL-3.0, part of the GNU project,
+    maintained for over thirty years, currently at version 11.3.
+
+    Compatibility is its core value:
+
+    ```
+    A = [1 2; 3 4];
+    b = A \ [5; 6];        % solve a linear system
+    eig(A)                 % eigenvalues
+    plot(x, sin(x))        % plotting
+    ```
+
+    Identical to MATLAB. Most scripts that do not depend on proprietary toolboxes run directly or need
+    a few lines changed. For "I just need to run this .m file my professor sent", it usually solves the
+    problem outright.
+
+    Coverage:
+
+    - **Matrices and linear algebra:** solving, decompositions (LU, QR, SVD, Cholesky), eigenvalues.
+    - **Numerical methods:** integration, ODE solving, optimization, interpolation, root finding.
+    - **Signal processing and statistics:** FFT, filtering, regression, distribution functions.
+    - **Plotting:** 2D curves, 3D surfaces, contours and histograms, exportable as images or vectors.
+    - **Scripting:** full programming capability with user-defined functions and packages.
+    - **Forge packages:** community-maintained add-ons covering image processing, control systems and
+      statistics — analogous to MATLAB toolboxes, though far narrower in scope.
+
+    To be clear about:
+
+    - **Compatible does not mean equivalent.** Base syntax and core functions align closely, but
+      **MATLAB's commercial toolboxes, including Simulink, have no Octave counterpart.** Graphical
+      modeling and simulation is simply absent — if your work depends on Simulink, Octave cannot help.
+    - **Performance generally trails MATLAB,** particularly on large computations and JIT-optimized
+      loops. For small-scale and teaching use the difference is imperceptible.
+    - **The GUI is plainer.** An editor, variable browser and debugger all exist, but the polish does
+      not match MATLAB's IDE.
+    - **Plot styling differs in detail,** so identical plotting code produces visually different
+      figures — worth checking before publication.
+
+    **One alternative deserves consideration:** if MATLAB syntax is not a requirement, Python with
+    NumPy, SciPy and Matplotlib now has a larger ecosystem, more learning material and better
+    integration with everything else. **Octave is at its best when you already have MATLAB code or a
+    course mandates MATLAB syntax**; for a new project starting from nothing, the Python path usually
+    goes further.
+
+    Who it suits: students, anyone needing to run existing MATLAB scripts, teaching and laboratory
+    numerical work, and anyone blocked by MATLAB's licence price.

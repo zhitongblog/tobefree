@@ -1,0 +1,100 @@
+name: Strawberry
+accent: '#D6455E'
+initials: SB
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://www.strawberrymusicplayer.org
+download: https://www.strawberrymusicplayer.org/#download
+repo: https://github.com/strawberrymusicplayer/strawberry
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [音乐播放器, 本地音乐, 无损音频, 音乐库, 标签编辑]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 给还在收藏音乐文件的人做的播放器
+  en: A music player for people who still own their music files
+description:
+  zh: 面向本地音乐收藏的开源播放器。管理大型音乐库、支持各种无损格式（FLAC、APE、WavPack、DSF 等）、编辑标签、抓取封面和歌词、创建智能播放列表，也能播放 CD 和网络电台。不需要账号，不联网也能用。
+  en: An open-source player built around a local music collection. It manages large libraries, plays lossless formats including FLAC, APE, WavPack and DSF, edits tags, fetches cover art and lyrics, builds smart playlists, and handles CDs and internet radio. No account, and fully usable offline.
+review:
+  zh: |
+    流媒体订阅解决了大部分人的听歌需求，但有一批人不适用：
+    有几千张自己抓的 CD、买过的高解析度无损文件、
+    流媒体上找不到的冷门录音和现场版、
+    或者单纯不想让"我听什么"变成一份被分析的数据。
+
+    Strawberry 是给这批人做的。它是 Clementine 的一个活跃分支，
+    3,891 颗星，GPL-3.0，专注做一件事：**把你自己的音乐文件管好、放好**。
+
+    它擅长的地方：
+
+    - **大音乐库不卡**。几万首曲子的库照样秒开、秒搜。
+      这是很多现代播放器做不到的——它们的设计前提是流媒体。
+    - **格式覆盖广**。FLAC、ALAC、APE、WavPack、Opus、DSF/DSD、
+      各种 tracker 音乐格式都能放，不用为了某个文件另外装解码器。
+    - **标签编辑器完整**。批量改艺人、专辑、年份、流派，
+      从 MusicBrainz 抓取正确的元数据，自动补封面。
+      整理一堆命名混乱的旧文件时这个功能很关键。
+    - **智能播放列表**。按规则动态生成，比如"评分四星以上、
+      最近三个月没听过、时长小于五分钟"。
+    - **音频细节到位**。支持 ReplayGain 音量归一化（不同专辑之间音量不再忽大忽小）、
+      均衡器、无缝播放、淡入淡出，Linux 上支持 ALSA 直通做位完美输出。
+    - **网络电台和播客**，以及可选的 Last.fm / ListenBrainz 记录。
+
+    要说清楚的：
+
+    - **它不是流媒体客户端**。Spotify、Apple Music 这些它不接
+      （早期 Clementine 有一些在线服务集成，多数已随服务关闭而失效）。
+      想要"自己的音乐但能在手机上随时听"，看 Navidrome——
+      自建一个服务端，手机 App 连回家里。
+    - **界面偏传统**。三栏布局、密集信息，是经典桌面音乐播放器的样子，
+      不像现代流媒体 App 那样图大字大。喜欢这种紧凑布局的人会觉得高效。
+    - **需要你先有音乐文件**。它不提供任何音乐内容。
+    - Windows 上的同类还有 foobar2000（免费闭源、极致轻量可定制）
+      和 MusicBee（免费闭源、界面更现代）；Strawberry 的优势是开源且跨三大平台。
+
+    如果你的音乐是躺在硬盘里的文件而不是别人服务器上的授权，这是个稳妥的长期选择。
+  en: |
+    Streaming subscriptions cover most people's listening, but not everyone: some have thousands of
+    CDs they ripped themselves, purchased high-resolution lossless files, obscure recordings and live
+    versions no service carries — or simply do not want what they listen to becoming analyzed data.
+
+    Strawberry is built for them. An actively developed fork of Clementine, 3,891 stars, GPL-3.0,
+    focused on one job: **managing and playing your own music files well.**
+
+    What it does well:
+
+    - **Large libraries stay fast.** Tens of thousands of tracks still open and search instantly —
+      something many modern players cannot manage, because they were designed around streaming.
+    - **Broad format coverage:** FLAC, ALAC, APE, WavPack, Opus, DSF/DSD and various tracker formats
+      play without hunting down separate codecs.
+    - **A complete tag editor.** Bulk-edit artist, album, year and genre, pull correct metadata from
+      MusicBrainz, and fetch cover art automatically — essential when tidying a pile of badly named
+      old files.
+    - **Smart playlists** generated from rules such as "rated four stars or higher, not played in three
+      months, under five minutes".
+    - **Audio details handled properly:** ReplayGain volume normalization so albums stop jumping in
+      loudness, an equalizer, gapless playback, crossfading, and ALSA passthrough on Linux for
+      bit-perfect output.
+    - **Internet radio and podcasts,** with optional Last.fm and ListenBrainz scrobbling.
+
+    To be clear about:
+
+    - **It is not a streaming client.** Spotify and Apple Music are not supported (early Clementine had
+      some online service integrations, most of which died with the services). If you want your own
+      music available on a phone anywhere, look at Navidrome — self-host a server and have the mobile
+      app connect home.
+    - **The interface is traditional:** three panes, dense information, the classic desktop music
+      player look rather than the large-artwork styling of streaming apps. People who like compact
+      layouts find it efficient.
+    - **You need to already have music files.** It provides no content.
+    - On Windows the peers are foobar2000 (free, closed source, extremely light and customizable) and
+      MusicBee (free, closed source, more modern interface); Strawberry's advantage is being open
+      source across all three desktop platforms.
+
+    If your music is files on your own disk rather than a licence on someone's server, this is a
+    dependable long-term choice.

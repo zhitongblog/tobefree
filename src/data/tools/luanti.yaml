@@ -1,0 +1,111 @@
+name: Luanti
+accent: '#5B8C3E'
+initials: LU
+category: gaming
+price: free
+license: 'LGPL-2.1'
+website: https://www.luanti.org
+download: https://www.luanti.org/downloads/
+repo: https://github.com/luanti-org/luanti
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [沙盒游戏, 方块建造, 多人联机, 可自建服务器, mod]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 开源的方块沙盒，不要账号也不用买
+  en: An open-source voxel sandbox — no account, no purchase
+description:
+  zh: 开源的方块沙盒游戏引擎，原名 Minetest。可以挖掘建造、多人联机，也可以当成引擎用 Lua 写自己的游戏。有几千个社区制作的游戏模式和模组，服务器可以自己架，全程不需要账号也不需要付费。
+  en: An open-source voxel sandbox game engine, formerly known as Minetest. Mine and build, play multiplayer, or treat it as an engine and write your own game in Lua. Thousands of community-made games and mods exist, servers are self-hostable, and nothing requires an account or a purchase.
+review:
+  zh: |
+    《我的世界》很好，但它要买、要微软账号、
+    Java 版和基岩版互不相通、模组安装对孩子来说也不算简单。
+    对于"就想让孩子玩个能自由建造的游戏"或者
+    "想自己搭个服务器和朋友玩"的需求，还有另一个选择。
+
+    Luanti（2024 年从 Minetest 改的名）是一个开源的方块沙盒**引擎**。
+    13,446 颗星，LGPL-2.1，**完全免费、不需要账号、装完就能玩**。
+
+    需要理解的一点是：**它本身更像一个引擎，而不是一款游戏。**
+    装好之后你从内置的内容浏览器里下载"游戏"——
+    有的接近 Minecraft 的玩法（比如 MineClone2），
+    有的完全不同（生存、建造、解谜、太空、模拟经营都有）。
+    这个结构一开始会让人困惑，但它意味着一份安装可以玩很多种玩法。
+
+    实际优势：
+
+    - **性能很好**。C++ 写的，比 Java 版流畅得多，
+      老电脑和低配设备（包括安卓手机）都能跑。
+    - **自建服务器简单**。服务端就是同一个程序，
+      家里一台旧电脑就能开，和孩子、朋友联机不用买租服。
+      **也可以完全离线单机玩。**
+    - **模组生态大**。几千个模组和游戏，在游戏内一键安装，
+      不用手动放文件、不用管版本冲突。
+    - **可编程**。用 Lua 写模组或者做自己的游戏，
+      API 文档完整。**对想学编程的孩子来说，这是个很自然的入口**——
+      改一个数字就能看到游戏里的变化。
+    - **世界大小几乎无限**，地形生成器可换。
+
+    要说清楚的：
+
+    - **它不是 Minecraft，也不兼容 Minecraft**。存档、模组、
+      皮肤都不通用，你不能用它连 Minecraft 服务器。
+      **如果孩子想玩的是"和同学一样的那个游戏"，这个替代不了。**
+    - **画面和打磨程度不如商业产品**。默认材质朴素，
+      动画和音效简单，第一印象会觉得"糙"。
+      装几个材质包和成熟的游戏模式之后会好很多。
+    - **内容需要自己挑**。社区游戏质量参差不齐，
+      有的做得很完整，有的只是半成品。第一次建议先装
+      MineClone2 或 VoxeLibre 这类完成度高的。
+    - **中文内容较少**。界面有中文，但社区教程和模组说明多为英文。
+
+    适合谁：想给孩子一个自由建造的游戏但不想买账号的家长、
+    想和朋友自建服务器的人、配置一般的电脑、
+    以及想通过改游戏来学 Lua 编程的人。
+  en: |
+    Minecraft is excellent, but it must be purchased, requires a Microsoft account, splits into
+    incompatible Java and Bedrock editions, and mod installation is not simple for a child. For "I just
+    want my kid to have a game where they can build freely" or "I want to run a server for friends",
+    there is another option.
+
+    Luanti — renamed from Minetest in 2024 — is an open-source voxel sandbox **engine.** 13,446 stars,
+    LGPL-2.1, **entirely free, no account, playable immediately after install.**
+
+    One thing to understand: **it is more an engine than a single game.** After installing, you download
+    "games" from the built-in content browser — some close to Minecraft's formula (MineClone2, for
+    instance), others entirely different, covering survival, building, puzzles, space and management.
+    The structure is confusing at first, but it means one installation offers many kinds of play.
+
+    Practical strengths:
+
+    - **Good performance.** Written in C++ and far smoother than the Java edition, running on old
+      computers and modest hardware including Android phones.
+    - **Self-hosting is simple.** The server is the same program, so an old machine at home suffices for
+      playing with family and friends without renting anything. **Fully offline single-player also
+      works.**
+    - **A large mod ecosystem:** thousands of mods and games installable from inside the client, with no
+      manual file placement and no version conflicts to manage.
+    - **Programmable.** Mods and complete games are written in Lua with thorough API documentation.
+      **For a child interested in programming this is a natural entry point** — change a number and see
+      the game change.
+    - **Effectively unlimited world size** with swappable terrain generators.
+
+    To be clear about:
+
+    - **It is not Minecraft and is not compatible with it.** Worlds, mods and skins do not transfer, and
+      you cannot connect to Minecraft servers. **If a child wants to play the same game as their
+      classmates, this does not substitute.**
+    - **Visual polish trails commercial products.** Default textures are plain and the animation and
+      audio are simple, so first impressions feel rough. Texture packs and a mature game mode improve
+      this considerably.
+    - **You must choose content yourself.** Community games vary widely in quality, from complete
+      experiences to abandoned prototypes. Start with something finished like MineClone2 or VoxeLibre.
+    - **Non-English material is limited.** The interface is localized, but community tutorials and mod
+      documentation are mostly in English.
+
+    Who it suits: parents wanting a free building game without buying accounts, anyone running a server
+    for friends, modest hardware, and anyone who wants to learn Lua by modifying a game.

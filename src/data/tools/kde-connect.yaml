@@ -1,0 +1,105 @@
+name: KDE Connect
+accent: '#2980B9'
+initials: KC
+category: remote
+price: free
+license: 'GPL-2.0'
+website: https://kdeconnect.kde.org
+download: https://kdeconnect.kde.org/download.html
+repo: https://invent.kde.org/network/kdeconnect-kde
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [手机电脑互联, 通知同步, 剪贴板, 远程控制, 局域网]
+platforms: [windows, linux, macos, android, ios]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 手机和电脑打通：通知、剪贴板、文件、遥控
+  en: Bridges phone and computer — notifications, clipboard, files, remote control
+description:
+  zh: 把手机和电脑连成一体的工具。手机通知转到电脑上显示并可回复、两端剪贴板互通、拖拽传文件、用手机当触控板和演示遥控器、在电脑上看手机电量、找手机、接打电话时自动暂停播放。全程走局域网加密直连。
+  en: A tool that joins your phone and computer. Phone notifications appear on the desktop and can be replied to, the clipboard is shared both ways, files transfer by drag and drop, the phone works as a trackpad and presentation remote, and the desktop shows phone battery, rings a lost phone and pauses media on incoming calls. Everything runs over an encrypted direct connection on your local network.
+review:
+  zh: |
+    苹果生态里 iPhone 和 Mac 之间的连贯性（通知同步、
+    剪贴板互通、接力）是很多人不换平台的原因。
+    KDE Connect 做的就是把这套体验带到跨平台环境——
+    安卓手机配 Linux、Windows 甚至 macOS 电脑。
+
+    它由 KDE 社区开发，GPL 开源，走局域网内的加密直连，
+    **数据不经过任何服务器，也不需要账号**。
+
+    实际能用上的功能比想象中多：
+
+    - **通知同步**。手机上的通知出现在电脑角落，
+      而且**可以直接在电脑上回复消息**——工作时不用拿起手机是很大的效率差别。
+    - **剪贴板共享**。手机上复制一个链接，电脑上直接粘贴，反之亦然。
+    - **文件互传**。电脑上右键"通过 KDE Connect 发送"，
+      或者在手机上分享给电脑，走局域网直传，不压缩不上传。
+    - **手机当触控板 / 遥控器**。演示时用手机翻页，
+      或者躺着用手机控制电脑的鼠标和媒体播放。
+    - **来电时自动暂停**。电脑上正在放视频，手机来电话自动暂停，接完继续。
+    - **找手机**。在电脑上点一下，手机响铃，即使调了静音。
+    - **短信收发**（安卓）：在电脑上看和回短信。
+    - **远程输入**：用电脑键盘给手机打字。
+    - **在电脑上执行自定义命令**：手机上点一下，电脑执行预设的脚本
+      （比如锁屏、关机、启动某个程序）。
+
+    要说清楚的：
+
+    - **需要在同一个局域网**。它不做跨网络连接（这是安全设计），
+      出门在外用不了。想远程用可以配合 Tailscale 这类组网工具绕过。
+    - **iOS 版功能受限**。苹果的系统限制导致通知同步、
+      短信这些核心功能在 iOS 上做不了，iOS 版主要能传文件和当遥控器。
+      **它的完整体验是"安卓 + 桌面"**，iOS 用户期待值要放低。
+    - **Windows 版是移植**。它原生是 KDE（Linux）的项目，
+      Windows 版可用但集成度和稳定性不如 Linux 上。
+      Windows 用户也可以看微软自家的"手机连接"（功能类似但要微软账号）。
+    - **公司或学校网络可能不通**。开了客户端隔离的 Wi-Fi 上两台设备互相发现不了。
+    - **首次配对要在两端确认**，之后自动连接。
+
+    对 Linux + 安卓的组合来说，这几乎是必装的一款；
+    Windows + 安卓也值得一试。
+  en: |
+    The continuity between an iPhone and a Mac — synced notifications, shared clipboard, handoff — is
+    why many people stay inside Apple's ecosystem. KDE Connect brings that experience to mixed setups:
+    an Android phone with a Linux, Windows or even macOS computer.
+
+    Developed by the KDE community, GPL-licensed, running over an encrypted direct connection on your
+    local network. **No data passes through any server and no account is required.**
+
+    More of it proves useful than you would expect:
+
+    - **Notification sync.** Phone notifications appear in the corner of your desktop, and **you can
+      reply to messages from the computer** — not picking up the phone during work is a substantial
+      difference.
+    - **Shared clipboard.** Copy a link on the phone, paste it on the desktop, and the reverse.
+    - **File transfer** by right-clicking "send via KDE Connect" or sharing to the computer from the
+      phone, sent directly over the LAN without compression or upload.
+    - **Phone as trackpad or presenter remote,** advancing slides or controlling the mouse and media
+      from across the room.
+    - **Auto-pause on calls:** a video pauses when the phone rings and resumes afterward.
+    - **Find my phone:** one click makes the phone ring even when silenced.
+    - **SMS from the desktop** on Android.
+    - **Remote input:** type on the phone using the computer keyboard.
+    - **Custom commands:** tap on the phone to run a preset script on the computer — lock, shut down or
+      launch something.
+
+    To be clear about:
+
+    - **Both devices must share a local network.** It deliberately does not connect across the internet,
+      so it is unavailable when you are out. Pairing it with a mesh tool such as Tailscale works around
+      this.
+    - **iOS is limited.** Apple's platform restrictions prevent notification sync and SMS, so the iOS
+      build mainly does file transfer and remote control. **The complete experience is Android plus a
+      desktop** — iOS users should set expectations accordingly.
+    - **The Windows build is a port.** It is natively a KDE project, and the Windows version works but
+      is less integrated and less stable than on Linux. Windows users may also consider Microsoft's own
+      Phone Link, which is similar but requires a Microsoft account.
+    - **Corporate and campus networks often block it,** since client isolation prevents devices from
+      discovering each other.
+    - **First-time pairing requires confirmation on both ends,** after which it connects automatically.
+
+    For a Linux and Android combination this is close to essential; Windows and Android is also worth
+    trying.

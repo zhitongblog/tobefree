@@ -1,0 +1,102 @@
+name: LosslessCut
+accent: '#C43C3C'
+initials: LC
+category: media
+price: free
+license: 'GPL-2.0'
+website: https://mifi.no/losslesscut/
+download: https://github.com/mifi/lossless-cut/releases/latest
+repo: https://github.com/mifi/lossless-cut
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [无损剪切, 视频剪辑, 秒切, 不重新编码, 跨平台]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 剪视频不重新编码，几秒完成、画质零损失
+  en: Trim video without re-encoding — seconds, and zero quality loss
+description:
+  zh: 无损视频剪切工具。切段、删片段、合并、分离音视频轨、批量导出，全程不重新编码，所以速度极快（几乎等同于复制文件的时间）且画质完全不变。也能提取封面、修改元数据、按章节自动切分。
+  en: A lossless video trimmer. Cut segments, remove sections, merge files, separate audio and video tracks and batch-export — all without re-encoding, so it runs at roughly file-copy speed with the picture bit-for-bit unchanged. It also extracts thumbnails, edits metadata and splits by chapters.
+review:
+  zh: |
+    大多数剪辑软件处理"我只想把这段视频的前 30 秒删掉"这种需求，
+    都是重新编码整个文件：等十分钟，画质还掉一档。
+    但如果你不需要转场、不需要特效、不需要调色，只是想切掉一段，
+    那整个重编码过程完全是浪费。
+
+    LosslessCut 就是为这件事做的。42,910 颗星，GPL-2.0。
+    它的原理是直接在关键帧处切割数据流并重新封装，**不解码也不编码**——
+    结果是一个几 GB 的视频文件几秒钟就切完了，输出的画质和原文件**完全一致**，
+    因为那就是原来的数据。
+
+    典型场景：
+
+    - 手机录的长视频，掐掉开头结尾的手忙脚乱。
+    - 录制的会议或直播回放，只留中间有用的二十分钟。
+    - 行车记录仪、监控录像里截取事故那一段。
+    - 下载的视频删掉片头广告。
+    - 把一个长文件按章节切成多个文件。
+    - 相机拍的素材先粗剪出可用片段，再拿去正式剪辑软件精修。
+
+    操作很直接：拖入文件，在时间轴上标出入点和出点，
+    可以标多段，然后选择"导出选中片段"或"删除选中片段"。
+    支持键盘操作，熟练之后处理一个文件不到一分钟。
+
+    要说清楚的一个原理性限制，这很重要：
+
+    - **切点会对齐到关键帧**，所以实际切割位置可能和你标的位置有零点几秒到几秒的偏差
+      （取决于视频的关键帧间隔）。要精确到帧的话，只能重新编码——
+      软件里也提供了这个选项（"智能剪切"），但那就失去了无损和快速的意义。
+      **日常用途下这个偏差通常无所谓，做精细剪辑则需要真正的剪辑软件。**
+
+    其他：
+
+    - **它不是剪辑软件**。没有转场、字幕、调色、多轨道、特效。
+      要那些用 Shotcut 或 Kdenlive。它和它们是配合关系，不是替代关系。
+    - **底层是 FFmpeg**，所以支持的格式极广，mp4、mkv、mov、ts、webm 都能处理。
+    - **安装包偏大**（macOS dmg 约 149 MB，Linux AppImage 约 211 MB），
+      因为把 FFmpeg 打包了进去。
+
+    如果你经常需要"就切一刀"，这个工具能把十分钟的等待变成十秒。
+  en: |
+    Most editors handle "I just want to remove the first 30 seconds" by re-encoding the entire file:
+    ten minutes of waiting and a step down in quality. But if you need no transitions, no effects and
+    no color work — only a cut — that whole re-encode is pure waste.
+
+    LosslessCut exists for exactly this. 42,910 stars, GPL-2.0. It cuts the stream at keyframes and
+    remuxes, **neither decoding nor encoding** — so a multi-gigabyte file is trimmed in seconds and the
+    output is **bit-for-bit identical** in quality, because it is the original data.
+
+    Typical uses:
+
+    - Phone footage with fumbling at the start and end removed.
+    - A recorded meeting or stream where only twenty useful minutes remain.
+    - Pulling the relevant segment out of dashcam or security footage.
+    - Cutting a sponsor segment out of a downloaded video.
+    - Splitting one long file into several by chapter.
+    - Rough-cutting camera footage into usable clips before fine editing elsewhere.
+
+    Usage is direct: drag a file in, mark in and out points on the timeline — several segments if you
+    like — then export the selection or delete it. Keyboard-driven, and once familiar a file takes
+    under a minute.
+
+    One structural limitation matters and must be stated:
+
+    - **Cut points snap to keyframes,** so the actual cut can land a fraction of a second to a few
+      seconds from where you marked, depending on the video's keyframe interval. Frame-accurate cutting
+      requires re-encoding, which the app offers as "smart cut" — at which point the lossless-and-fast
+      premise is gone. **For everyday purposes the offset rarely matters; for precise editing you need
+      a real editor.**
+
+    Also:
+
+    - **It is not an editing suite.** No transitions, titles, color grading, multiple tracks or
+      effects. Those belong to Shotcut or Kdenlive, which complement rather than compete with it.
+    - **FFmpeg is underneath,** so format coverage is broad — mp4, mkv, mov, ts and webm all work.
+    - **The download is sizeable** (about 149 MB for the macOS dmg, 211 MB for the Linux AppImage)
+      because FFmpeg ships inside.
+
+    If "just make one cut" is a recurring need, this turns a ten-minute wait into ten seconds.

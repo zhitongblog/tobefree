@@ -1,0 +1,94 @@
+name: Pencil2D
+accent: '#8BC34A'
+initials: P2
+category: creative
+price: free
+license: 'GPL-2.0'
+website: https://www.pencil2d.org
+download: https://www.pencil2d.org/download/
+repo: https://github.com/pencil2d/pencil
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [二维动画, 手绘, 逐帧, 入门友好, 轻量]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 最容易上手的手绘动画软件，打开就能画
+  en: The easiest hand-drawn animation tool — open it and draw
+description:
+  zh: 轻量的二维手绘动画软件。界面极简，时间轴加洋葱皮，位图和矢量图层可以混用，画完直接导出 GIF、MP4 或图片序列。适合逐帧手绘动画入门和小型创作。
+  en: Lightweight 2D hand-drawn animation software. A minimal interface with a timeline and onion skinning, mixing bitmap and vector layers, exporting directly to GIF, MP4 or image sequences. Well suited to learning frame-by-frame animation and to small projects.
+review:
+  zh: |
+    想让一个小人动起来，多数动画软件的第一道坎不是画技，是软件本身——
+    OpenToonz 的摄影表、Blender 的三维界面、After Effects 的图层堆栈，
+    都要先学一套概念才能开始。
+
+    Pencil2D 反过来：**打开就是一张纸和一支笔，画一张，翻到下一帧，再画一张。**
+    1,785 颗星，GPL-2.0，安装包很小，老电脑也跑得动。
+
+    它保留的功能刚好是逐帧动画的最小必要集：
+
+    - **时间轴**：横向排列的帧，点一下就到那一帧，可以设帧率。
+    - **洋葱皮**：半透明看到前后帧，这是逐帧动画最关键的辅助，
+      让你知道上一帧的手画在哪。
+    - **图层**：位图层（用画笔画，有笔压）和矢量层（线条可以后期调整）
+      可以在同一个项目里混用，另外有摄像机层做推拉摇移。
+    - **导出**：GIF、MP4、图片序列，直接能发出去。
+
+    没有骨骼绑定、没有节点特效、没有摄影表——这些都是刻意省略的，
+    省略换来的是**你可以在打开软件五分钟后画出第一个动画**。
+
+    实际用途：学习动画原理（挤压拉伸、预备动作、缓入缓出这些练习）、
+    做表情包和小 GIF、给视频画简单的手绘插图动画、给孩子做动画启蒙。
+
+    要说清楚的：
+
+    - **它做不了复杂项目**。几百帧的多层动画、需要精细上色管理、
+      需要特效合成的，会撞到天花板。到那一步应该转 OpenToonz
+      （专业二维）或者 Krita（它的动画功能也很强，且绘画手感更好）。
+    - **绘画手感一般**。笔刷引擎不如 Krita 细腻，
+      如果你对线条质感要求高，可以用 Krita 画帧、Pencil2D 或剪辑软件合成。
+    - **偶尔不稳定**。建议开着自动保存，复杂工程勤存盘。
+    - **更新节奏平稳但不快**（当前 v0.7.2，2026 年 3 月）。
+
+    定位很清楚：**它是动画的入门梯子**，不是终点。
+    但对"我就想试试做动画是什么感觉"的人，这是门槛最低的那个入口。
+  en: |
+    The first obstacle to making a stick figure move is usually not drawing skill but the software —
+    OpenToonz's exposure sheet, Blender's 3D interface, After Effects' layer stack all require learning
+    a conceptual system before you can begin.
+
+    Pencil2D inverts that: **open it and you have paper and a pencil. Draw a frame, advance, draw
+    another.** 1,785 stars, GPL-2.0, a small installer that runs on old hardware.
+
+    It keeps precisely the minimum set frame-by-frame animation needs:
+
+    - **A timeline** of frames laid left to right, clickable, with a configurable frame rate.
+    - **Onion skinning** showing adjacent frames semi-transparently — the single most important aid in
+      frame-by-frame work, telling you where the hand was in the previous drawing.
+    - **Layers:** bitmap layers with pressure-sensitive brushes and vector layers whose lines stay
+      editable, mixable in one project, plus a camera layer for pans and zooms.
+    - **Export** to GIF, MP4 or image sequences, ready to share.
+
+    There is no rigging, no node-based effects and no exposure sheet — deliberate omissions that buy
+    you the ability to **draw your first animation five minutes after opening the program.**
+
+    Real uses: learning animation principles through squash-and-stretch, anticipation and easing
+    exercises; making stickers and short GIFs; drawing simple illustrated animation for videos; and
+    introducing children to animation.
+
+    To be clear about:
+
+    - **It cannot carry complex projects.** Hundreds of frames across many layers, careful color
+      management or effects compositing will hit its ceiling. At that point move to OpenToonz for
+      professional 2D, or Krita, whose animation features are strong and whose drawing feel is better.
+    - **The drawing feel is average.** Its brush engine is less refined than Krita's, so if line quality
+      matters, draw frames in Krita and assemble elsewhere.
+    - **Occasional instability.** Enable autosave and save often on larger projects.
+    - **Updates are steady but unhurried** (currently v0.7.2, March 2026).
+
+    Its position is clear: **a ladder into animation, not a destination.** For anyone who simply wants
+    to find out what making an animation feels like, this is the lowest doorway available.

@@ -1,0 +1,107 @@
+name: SolveSpace
+accent: '#4C6EA8'
+initials: SS
+category: cad
+price: free
+license: 'GPL-3.0'
+website: https://solvespace.com
+download: https://solvespace.com/download.pl
+repo: https://github.com/solvespace/solvespace
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [参数化建模, 约束求解, 轻量, 3d打印, 机构分析]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 几 MB 的参数化 CAD，启动是瞬间的
+  en: Parametric CAD in a few megabytes, opening instantly
+description:
+  zh: 轻量的参数化三维 CAD。用几何约束驱动草图和实体，支持装配、机构运动分析和平面机构的自由度计算，可以导出 STL 用于 3D 打印，也能导出 DXF 二维图。程序体积只有几 MB，启动几乎不用等。
+  en: A lightweight parametric 3D CAD program. Sketches and solids are driven by geometric constraints, with assemblies, mechanism motion analysis and degree-of-freedom calculation for planar linkages. It exports STL for 3D printing and DXF for 2D drawings, in a program of only a few megabytes that opens essentially instantly.
+review:
+  zh: |
+    FreeCAD 功能强，但安装包接近 500 MB，启动要等，
+    界面工作台切来切去。如果你只是想给某个东西做一个精确的支架、
+    垫片、外壳，那套重量级工具链有点不成比例。
+
+    SolveSpace 是另一个极端：**整个程序只有几 MB，双击就开**，
+    但它做的是真正的参数化约束建模，不是玩具。4,096 颗星，GPL-3.0。
+
+    它的核心是**约束求解器**。你画草图时不需要画准，
+    而是给出约束：这两条线平行、这个圆和那条边相切、
+    这段长度是 25 毫米、这个角是 30 度。
+    求解器算出满足全部约束的唯一形状。
+    改一个数字，整个模型重新求解——这就是参数化建模的意义。
+
+    能做的事：
+
+    - **三维实体建模**：草图拉伸、旋转、放样，布尔运算。
+    - **装配**：把多个零件按约束装配在一起，检查干涉。
+    - **机构运动分析**：这是它的一个特色——
+      可以模拟连杆机构的运动，看某个位置会不会卡住、行程够不够。
+      **做机械结构、做需要活动部件的 3D 打印件时很有用。**
+    - **自由度分析**：告诉你平面机构还差几个约束才完全确定，
+      对理解约束系统很有帮助。
+    - **导出**：STL / 3MF（给切片器）、DXF / PDF（二维图纸）、
+      STEP（给别的 CAD）。
+
+    要说清楚的：
+
+    - **它是小工具，不是 FreeCAD 的替代品**。没有工程图工作台、
+      没有有限元分析、没有 CAM、没有 BIM，
+      **复杂的多零件项目和正式工程出图请用 FreeCAD。**
+    - **界面极简到有点原始**。没有花哨的工具栏，很多操作靠快捷键，
+      第一次用需要跟一遍官方教程，否则会不知道怎么下手。
+      好在教程不长，一两个小时能上手。
+    - **不适合有机曲面**。它擅长规规矩矩的机械件，
+      做流线型外壳或艺术造型很吃力，那是 Blender 的领域。
+    - **发版节奏平缓**（当前 v3.2，2026 年 3 月），
+      项目成熟稳定，但不是高频迭代。
+
+    适合谁：3D 打印玩家做功能件、
+    做机构设计和运动验证、
+    以及任何想要"改一个数字整个模型跟着变"但不想装 500 MB 软件的人。
+    **和 FreeCAD 不冲突——很多人小零件用它、大项目用 FreeCAD。**
+  en: |
+    FreeCAD is powerful, but its installer approaches 500 MB, startup takes time, and the interface
+    shuffles between workbenches. If all you want is an accurate bracket, spacer or enclosure for
+    something, that heavyweight toolchain is disproportionate.
+
+    SolveSpace is the other extreme: **a few megabytes that opens on a double-click** — while doing
+    genuine parametric constraint modeling rather than being a toy. 4,096 stars, GPL-3.0.
+
+    Its core is a **constraint solver.** Sketching does not require drawing accurately; you state
+    constraints instead — these two lines are parallel, this circle is tangent to that edge, this
+    length is 25 mm, this angle is 30 degrees — and the solver computes the unique shape satisfying all
+    of them. Change one number and the whole model re-solves. That is what parametric modeling means.
+
+    What it does:
+
+    - **3D solid modeling:** extrude, revolve and loft from sketches, with boolean operations.
+    - **Assemblies:** constrain multiple parts together and check interference.
+    - **Mechanism motion analysis** — a distinctive strength. Simulate linkage movement to see whether
+      something binds or whether the travel is sufficient. **Genuinely useful for mechanical design and
+      for 3D-printed parts with moving components.**
+    - **Degree-of-freedom analysis** telling you how many constraints a planar mechanism still needs,
+      which helps enormously in understanding constraint systems.
+    - **Export:** STL and 3MF for slicers, DXF and PDF for 2D drawings, STEP for other CAD packages.
+
+    To be clear about:
+
+    - **It is a small tool, not a FreeCAD replacement.** No technical drawing workbench, no finite
+      element analysis, no CAM, no BIM. **Complex multi-part projects and formal engineering drawings
+      belong in FreeCAD.**
+    - **The interface is minimal to the point of being spartan.** There are no elaborate toolbars and
+      much depends on keyboard shortcuts, so a first-time user needs to follow the official tutorial or
+      will not know where to begin. Fortunately it is short — an hour or two suffices.
+    - **It is wrong for organic surfaces.** It excels at disciplined mechanical parts and struggles with
+      flowing enclosures or artistic shapes, which are Blender's territory.
+    - **Releases are unhurried** (currently v3.2, March 2026); the project is mature and stable rather
+      than rapidly iterating.
+
+    Who it suits: 3D printing enthusiasts making functional parts, anyone designing and validating
+    mechanisms, and anyone who wants "change a number and the model follows" without installing 500 MB.
+    **It does not conflict with FreeCAD** — plenty of people use this for small parts and FreeCAD for
+    large projects.

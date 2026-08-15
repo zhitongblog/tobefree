@@ -1,0 +1,106 @@
+name: DaVinci Resolve
+accent: '#C8352C'
+initials: DR
+category: media
+price: freemium
+license: 'Proprietary · 免费版'
+website: https://www.blackmagicdesign.com/products/davinciresolve
+download: https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion
+repo: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [视频剪辑, 调色, 达芬奇, 专业级, 无水印]
+platforms: [windows, macos, linux]
+badges: [no-ads, offline, cross-platform]
+tagline:
+  zh: 影视级剪辑和调色，免费版没有水印和时长限制
+  en: Film-grade editing and color, free with no watermark or time limit
+description:
+  zh: 专业影视后期软件，集剪辑、调色、视觉特效、音频后期和交付于一体。免费版功能已经覆盖绝大多数创作需求，导出没有水印、没有时长限制、没有分辨率限制，商业项目也可以使用。行业内大量电影和剧集用它调色。
+  en: A professional post-production suite combining editing, color grading, visual effects, audio post and delivery. The free version covers the overwhelming majority of creative needs, exporting without watermarks, duration caps or resolution limits, and is usable on commercial projects. A great many films and series are graded in it.
+review:
+  zh: |
+    这个站上大部分工具是"免费的够用替代品"，DaVinci Resolve 是个例外：
+    **它的免费版本身就是行业标准工具**。很多院线电影和流媒体剧集的调色是在它上面完成的，
+    而你下载到的就是同一个软件。
+
+    免费版和付费的 Studio 版相比，**没有水印、没有时长限制、
+    没有分辨率或帧率的人为阉割，商业项目也允许使用**——
+    这在专业软件里非常罕见。
+
+    它由几个"页面"组成，等于把一整条后期流水线装进一个软件：
+
+    - **剪辑页**：常规时间线剪辑；另有一个"快编页"，为快速产出短视频设计。
+    - **调色页**：它的看家本领。节点式调色、一级二级校色、
+      跟踪遮罩、HDR 工具、胶片风格模拟。这块的能力远超其他剪辑软件。
+    - **Fusion 页**：节点式视觉特效与合成，做抠像、跟踪、动态图形。
+    - **Fairlight 页**：专业音频后期，多轨混音、降噪、母带处理。
+    - **交付页**：各种格式和平台的导出预设。
+
+    **但必须诚实说明代价，这几点是真实门槛：**
+
+    - **它不开源，是 Blackmagic 的商业产品**。免费是商业策略
+      （他们靠卖摄影机和硬件赚钱），不是自由软件。所以没有开源徽章。
+    - **下载需要填表**。官网要求提供姓名、邮箱、国家等信息才能下载，
+      这不是账号注册但确实是一道门槛，所以我们也没有给「无需注册」徽章。
+    - **体积巨大**。安装包几个 GB，装完占用更多。
+    - **硬件要求高**，这是最容易劝退的一点。它是为专业工作站设计的：
+      建议 16 GB 以上内存（32 GB 更稳）、独立显卡且显存 4 GB 起步、
+      SSD。核显笔记本上会非常吃力甚至无法流畅回放。
+      **装之前先看官方的配置要求，别浪费几个 GB 的下载。**
+    - **学习曲线陡**。它的界面逻辑和常见剪辑软件不同，
+      功能密度极高，第一次打开会不知道从哪下手。想剪个 vlog 的话，
+      Shotcut 或 Kdenlive 上手快得多。
+    - **免费版确实有取舍**：Studio 版才有的功能包括部分 AI 工具、
+      更高级的降噪、多机位协作、以及某些平台上的硬件编解码支持。
+      不过这些对个人创作者大多不是必需。
+
+    怎么选：**剪家庭视频、做短视频**，用 Shotcut 或 Kdenlive，轻快够用；
+    **认真做影片、特别在意调色、机器配置也跟得上**，直接上 DaVinci Resolve——
+    你用的会是和专业剪辑师同一套工具。
+  en: |
+    Most tools on this site are capable free alternatives. DaVinci Resolve is an exception: **its free
+    version is itself the industry-standard tool.** A great many theatrical films and streaming series
+    are graded in it, and what you download is the same application.
+
+    Compared with the paid Studio edition, the free version has **no watermark, no duration limit, no
+    artificial resolution or frame rate restrictions, and commercial use is permitted** — remarkably
+    rare among professional software.
+
+    It is organized into pages, effectively packing an entire post-production pipeline into one
+    application:
+
+    - **Edit page:** conventional timeline editing, alongside a Cut page designed for fast turnaround
+      on short-form work.
+    - **Color page:** its signature strength. Node-based grading, primary and secondary correction,
+      tracked masks, HDR tools and film emulation — far beyond what other editors offer.
+    - **Fusion page:** node-based visual effects and compositing for keying, tracking and motion
+      graphics.
+    - **Fairlight page:** professional audio post with multitrack mixing, noise reduction and
+      mastering.
+    - **Deliver page:** export presets for a wide range of formats and platforms.
+
+    **The costs must be stated honestly, because these are real barriers:**
+
+    - **It is not open source.** It is a Blackmagic commercial product, and free is a business strategy
+      — they make money on cameras and hardware — not software freedom. Hence no open-source badge.
+    - **Downloading requires a form.** The site asks for name, email and country before the download
+      starts. Not an account, but a barrier nonetheless, which is why it carries no no-sign-up badge.
+    - **It is enormous.** The installer runs to several gigabytes, and more once installed.
+    - **Hardware demands are high,** and this is what turns most people away. It is built for
+      professional workstations: 16 GB of RAM is the practical floor with 32 GB more comfortable, a
+      discrete GPU with at least 4 GB of VRAM, and an SSD. On an integrated-graphics laptop it will
+      struggle or fail to play back smoothly. **Check the official system requirements before spending
+      a multi-gigabyte download.**
+    - **The learning curve is steep.** Its interface logic differs from typical editors and the feature
+      density is extreme; the first launch is disorienting. For a vlog, Shotcut or Kdenlive get you
+      moving far faster.
+    - **The free version does make trade-offs:** Studio adds some AI tools, more advanced noise
+      reduction, multi-user collaboration and certain hardware codec support on some platforms. Most
+      individual creators do not need these.
+
+    How to choose: **for home videos and short-form content,** Shotcut or Kdenlive are light and
+    sufficient. **For serious filmmaking, especially where color matters, on capable hardware,** go
+    straight to DaVinci Resolve — you will be using the same tool as professional editors.

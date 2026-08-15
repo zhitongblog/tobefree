@@ -1,0 +1,103 @@
+name: Files
+accent: '#0078D4'
+initials: FI
+category: utility
+price: free
+license: 'MIT'
+website: https://files.community
+download: https://github.com/files-community/Files/releases/latest
+repo: https://github.com/files-community/Files
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [文件管理器, 标签页, 双栏, 云盘集成, windows]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Windows 资源管理器该有的样子
+  en: What Windows Explorer should have been
+description:
+  zh: 开源的 Windows 文件管理器。多标签页、双栏对照、列视图、文件预览、标签分类，界面遵循现代 Windows 设计语言。支持直接查看压缩包、集成 OneDrive 和 Google Drive 等云盘，可以自定义右键菜单和快捷键。
+  en: An open-source file manager for Windows with tabs, dual-pane comparison, column view, file previews and colored tags, following modern Windows design language. It browses archives in place, integrates cloud drives such as OneDrive and Google Drive, and supports custom context menus and shortcuts.
+review:
+  zh: |
+    Windows 资源管理器这些年是有进步的（终于加了标签页），
+    但和第三方文件管理器比还是差着一截：不能双栏对照、
+    预览窗格能力有限、批量操作不方便、右键菜单在 Windows 11 上还多了一层。
+
+    Files 是目前最受欢迎的开源替代品，44,618 颗星，MIT 协议。
+    它的定位很明确：**不做成 Total Commander 那种双栏专业工具，
+    而是做一个"资源管理器本该长成的样子"**——
+    界面和 Windows 11 的设计语言一致，用起来不需要重新学。
+
+    比系统自带强的地方：
+
+    - **双栏对照**。左右两个面板，拖拽文件在两个目录间移动，
+      整理照片、归档文件时效率差别很明显。
+    - **标签页 + 标签分类**。除了多标签，还能给文件和文件夹打彩色标签，
+      按标签筛选，跨目录管理同一个项目的文件。
+    - **预览窗格**。图片、PDF、文本、代码、Office 文档都能直接预览，
+      不用打开就能确认内容。
+    - **压缩包内浏览**。zip 可以像文件夹一样点进去看，不用先解压。
+    - **云盘集成**。OneDrive、Google Drive、iCloud 等在侧边栏统一显示同步状态。
+    - **可定制**。快捷键、右键菜单项、侧边栏、主题（含暗色）都能改。
+
+    **关于收费，必须说清楚**——这一点容易让人误会：
+
+    项目本身是 MIT 开源的。官方的说明是：从 **Microsoft Store 购买**，
+    或者使用**官网的经典安装包并在 GitHub 上赞助支持**。
+    也就是说，**商店版是付费的，官网 / GitHub Releases 的安装包是免费的**，
+    付费是开发者的资金来源而不是功能门槛——两个版本功能相同。
+
+    我们按"免费渠道存在且功能完整"收录它。如果你用得顺手，
+    去商店买一份或者在 GitHub 上赞助是对项目的直接支持。
+
+    要说清楚的其他几点：
+
+    - **只有 Windows**，且需要较新的 Windows 版本。
+    - **它不能完全替代资源管理器**。某些系统对话框（比如程序里的"打开文件"）
+      仍然会调用系统自带的界面，这不是 Files 能改的。
+    - **启动速度和内存占用**比原生资源管理器高一些，这是 WinUI 应用的常态。
+    - 想要更极致的键盘操作和双栏效率，看 Total Commander（共享软件）
+      或 Double Commander（开源免费，但界面老派）。
+  en: |
+    Windows Explorer has improved over the years — tabs finally arrived — but it still trails
+    third-party file managers: no dual-pane comparison, limited preview, awkward bulk operations, and
+    on Windows 11 an extra layer in the context menu.
+
+    Files is the most popular open-source alternative, 44,618 stars, MIT licensed. Its positioning is
+    deliberate: **not a Total Commander-style power tool, but what Explorer should have been** — an
+    interface consistent with Windows 11's design language that requires no relearning.
+
+    Where it beats the built-in:
+
+    - **Dual-pane comparison.** Two panels side by side with drag-and-drop between directories, a
+      noticeable difference when sorting photos or archiving files.
+    - **Tabs plus colored tags.** Beyond multiple tabs, files and folders take colored tags that can be
+      filtered on, letting one project's files be managed across directories.
+    - **Preview pane** for images, PDFs, text, code and Office documents, so content can be confirmed
+      without opening anything.
+    - **Browse inside archives.** Step into a zip like a folder without extracting first.
+    - **Cloud integration.** OneDrive, Google Drive, iCloud and others appear in the sidebar with sync
+      status.
+    - **Customizable** shortcuts, context menu entries, sidebar and themes including dark mode.
+
+    **On cost, which is easy to misread, the facts:**
+
+    The project itself is MIT open source. The official guidance is to **purchase through the Microsoft
+    Store**, or to use the **classic installer from the website and sponsor the project on GitHub**.
+    In other words, **the Store build is paid while the website and GitHub Releases builds are free** —
+    payment funds development rather than unlocking features, and the two are functionally identical.
+
+    We list it on the basis that a free channel exists and is fully featured. If it becomes part of
+    your daily workflow, buying it in the Store or sponsoring on GitHub directly supports the project.
+
+    Other things to note:
+
+    - **Windows only,** and it requires a reasonably recent Windows version.
+    - **It cannot fully replace Explorer.** Some system dialogs — an application's own "open file"
+      prompt, for instance — still invoke the built-in interface, which is outside Files' control.
+    - **Startup and memory use** are higher than native Explorer's, as is normal for WinUI apps.
+    - For maximum keyboard efficiency and dual-pane power, look at Total Commander (shareware) or
+      Double Commander (free and open source, though visually dated).

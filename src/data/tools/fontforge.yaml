@@ -1,0 +1,107 @@
+name: FontForge
+accent: '#5B6B8C'
+initials: FF
+category: creative
+price: free
+license: 'GPL-3.0'
+website: https://fontforge.org
+download: https://fontforge.org/en-US/downloads/
+repo: https://github.com/fontforge/fontforge
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [字体制作, 字型编辑, ttf, otf, 排版]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 造一套自己的字体，或者修好别人那套
+  en: Build your own typeface, or fix somebody else's
+description:
+  zh: 开源字体编辑器。绘制和编辑字形轮廓、调整字间距与字偶距（kerning）、设置连字和 OpenType 特性、生成 TTF/OTF/WOFF 字体文件。也常用来修改现有字体：补字、改字重、合并字体、转换格式。
+  en: An open-source font editor. Draw and edit glyph outlines, adjust spacing and kerning, define ligatures and OpenType features, and generate TTF, OTF and WOFF files. It is equally used to modify existing fonts — adding missing glyphs, altering weights, merging fonts and converting formats.
+review:
+  zh: |
+    字体是被忽视的一类"软件"。做设计、做网页、做游戏时，
+    你可能需要一个现有字体里没有的字符、需要把两个字体合并、
+    需要把 TTF 转成网页用的 WOFF2、或者干脆想做一套自己的字。
+    商业字体编辑软件（Glyphs、FontLab）价格在数百到上千美元。
+
+    FontForge 是这个领域唯一成熟的开源选择。7,893 颗星，GPL-3.0，
+    维护了二十多年，大量开源字体（包括一些知名的中文开源字体）就是用它做的。
+
+    它能做的事：
+
+    - **绘制字形**。贝塞尔曲线编辑轮廓，有专门为字体设计的辅助线
+      （基线、x 高度、大写高度、上下伸部），支持点阵和轮廓两种模式。
+    - **间距和字偶距**。字体好不好看，一半在字形，一半在间距。
+      它能逐字调整左右边距，并为特定字符对设置 kerning
+      （比如 "AV" 两个字母要靠近一点才好看）。
+    - **OpenType 特性**。连字（ligature）、小型大写、
+      数字样式（等宽/比例、衬线数字）、上下标、字形替换规则。
+    - **生成与转换**。导出 TTF、OTF、WOFF、WOFF2、SVG 字体，
+      互相转换，也能生成网页用的字体子集。
+    - **修改现有字体**。这是很多人实际用它的原因：
+      给字体补几个缺失的字符、调整某个字的形状、
+      把英文字体和中文字体合并成一套、去掉不需要的字符减小体积。
+
+    要说清楚的，门槛不低：
+
+    - **界面非常老派**。它的 UI 是二十年前的风格，
+      窗口多、菜单深、按钮密集，第一次打开会相当困惑。
+      这是它最常被抱怨的地方，也是事实。
+    - **字体设计本身是专业领域**。软件只是工具——
+      画出结构正确、比例协调、在不同字号下都清晰的字形，
+      需要的是排版和字体设计的知识，不是软件操作技巧。
+      **想做一套完整可用的字体，这是几个月起步的工程。**
+    - **中文字体工作量巨大**。一套常用汉字就是六千多个字形，
+      GB18030 全集数万个。个人从零做中文字体基本不现实，
+      常见做法是基于已有的开源字体（比如思源黑体）做修改。
+    - **发版节奏慢**。当前版本发布于 2025 年 10 月，仓库仍在维护。
+
+    适合谁：需要修改现有字体的设计师和开发者、
+    做字体图标集的人、学习字体设计的学生、
+    以及有耐心做一套自己字体的人。只是想找免费商用字体的话，
+    看思源系列、Google Fonts 或各家开源中文字体，不用自己造。
+  en: |
+    Fonts are an overlooked category of software. Designing, building a website or making a game, you
+    may need a character an existing font lacks, need to merge two fonts, need to convert TTF to WOFF2
+    for the web, or simply want to make your own typeface. Commercial font editors — Glyphs, FontLab —
+    run from hundreds to over a thousand dollars.
+
+    FontForge is the only mature open-source option here. 7,893 stars, GPL-3.0, maintained for over two
+    decades, and the tool behind a great many open-source typefaces.
+
+    What it does:
+
+    - **Glyph drawing** with Bézier outline editing and typography-specific guides — baseline, x-height,
+      cap height, ascenders and descenders — in both outline and bitmap modes.
+    - **Spacing and kerning.** Half of how a font looks is the glyphs and half is the spacing. It
+      adjusts side bearings per glyph and sets kerning for specific pairs, such as tightening "AV".
+    - **OpenType features:** ligatures, small caps, figure styles (tabular, proportional, oldstyle),
+      superscripts and subscripts, and glyph substitution rules.
+    - **Generation and conversion:** export TTF, OTF, WOFF, WOFF2 and SVG fonts, convert between them,
+      and produce subsets for the web.
+    - **Modifying existing fonts** — the reason many people actually use it: adding missing characters,
+      reshaping a glyph, merging a Latin font with a CJK one, or stripping unneeded characters to
+      reduce file size.
+
+    The barriers are real:
+
+    - **The interface is thoroughly dated.** Its UI belongs to twenty years ago — many windows, deep
+      menus, dense buttons — and the first launch is genuinely confusing. This is the most common
+      complaint and it is justified.
+    - **Type design is itself a specialist discipline.** The software is only a tool; drawing glyphs
+      that are structurally correct, proportionally coherent and legible at every size requires
+      typographic knowledge rather than software skill. **A complete, usable typeface is a project
+      measured in months.**
+    - **CJK fonts are enormous undertakings.** Common-use Chinese alone runs past six thousand glyphs,
+      and full standard coverage reaches tens of thousands. Building one from scratch alone is
+      impractical; the usual approach is modifying an existing open font.
+    - **Releases are infrequent,** with the current version from October 2025 and the repository still
+      maintained.
+
+    Who it suits: designers and developers modifying existing fonts, people building icon fonts,
+    students studying type design, and anyone patient enough to draw their own. If you simply need a
+    free commercially usable typeface, look to Google Fonts and the major open-source families rather
+    than building one.

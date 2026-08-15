@@ -1,0 +1,117 @@
+name: AutoHotkey
+accent: '#334455'
+initials: AH
+category: utility
+price: free
+license: 'GPL-2.0'
+website: https://www.autohotkey.com
+download: https://www.autohotkey.com/download/
+repo: https://github.com/AutoHotkey/AutoHotkey
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [自动化, 快捷键, 脚本, 键盘映射, windows]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 把任何重复操作绑到一个快捷键上
+  en: Bind any repetitive task to a single hotkey
+description:
+  zh: Windows 上的自动化脚本语言。可以重映射键盘和鼠标、定义全局快捷键、自动填表、批量操作窗口、把一串繁琐步骤压缩成一次按键。脚本能编译成独立 exe 分发。安装包约 3 MB。
+  en: An automation scripting language for Windows. Remap keys and mouse buttons, define global hotkeys, fill forms automatically, manipulate windows in bulk, and compress a tedious sequence of steps into one keystroke. Scripts can be compiled into standalone executables. The installer is about 3 MB.
+review:
+  zh: |
+    每天要点同样的五个按钮、每次都要把某段话复制粘贴到三个地方、
+    大写锁定键从来没用过却老是误触、想让某个窗口永远置顶——
+    这些小事单独看都不值得处理，累积起来却是每天几十次的摩擦。
+
+    AutoHotkey 是 Windows 上解决这类问题的通用工具。12,939 颗星，GPL-2.0，
+    安装包只有 3 MB，装完你得到的是一个脚本引擎。
+
+    最简单的用法一行就够。比如把 CapsLock 变成 Esc：
+
+    ```
+    CapsLock::Esc
+    ```
+
+    或者按 Win+N 直接打开记事本：
+
+    ```
+    #n::Run "notepad.exe"
+    ```
+
+    往上走，它是一门完整的脚本语言：有变量、循环、条件、函数、正则，
+    能读写文件、操作窗口（移动、置顶、隐藏、按标题查找）、
+    模拟键鼠输入、读取剪贴板、调用 Windows API、做图形界面。
+    常见的实际用途包括：
+
+    - **文本扩展**：打 `;addr` 自动展开成完整地址（不过纯文本扩展用 Espanso 更专业且跨平台）。
+    - **批量操作**：给一堆窗口统一改大小和位置，或在某个老软件里自动走一遍固定流程。
+    - **游戏和绘图辅助**：把复杂的组合键映射到单键（请注意某些网游禁止此类工具）。
+    - **补齐系统缺失的功能**：窗口置顶、音量微调、快速切换音频输出设备。
+
+    要说清楚的：
+
+    - **只有 Windows**。这是它的定位，macOS 上对应的是 Hammerspoon 或 Keyboard Maestro，
+      Linux 上是 AutoKey 之类。
+    - **v1 和 v2 语法不兼容**。网上大量教程和现成脚本是 v1 的，
+      当前主线是 v2（v2.0.26），两者语法差别不小。**新学请直接学 v2**，
+      找脚本时注意版本标注，v1 脚本在 v2 上跑不了。
+    - **它会被杀软误报**。因为能模拟键鼠、能编译成 exe，
+      这类能力和恶意软件重叠，有些杀软会拦。从官网下载、
+      不要运行来路不明的 .ahk 脚本——**别人的脚本可以做任何你能做的事**。
+    - **不是给完全不写代码的人的**。最简单的重映射一行就行，
+      但稍复杂的自动化需要理解基本的编程概念。
+
+    一句话：如果你在 Windows 上有任何"每天都要重复做"的操作，
+    花一个小时学它的基础语法，通常几天就能赚回来。
+  en: |
+    Clicking the same five buttons every day, pasting one block of text into three places, a Caps Lock
+    key you never use but keep hitting, wanting a window to stay always on top — individually none of
+    these justify effort, and collectively they are dozens of small frictions a day.
+
+    AutoHotkey is the general-purpose answer on Windows. 12,939 stars, GPL-2.0, a 3 MB installer, and
+    what you get is a scripting engine.
+
+    The simplest use is one line. Turning Caps Lock into Escape:
+
+    ```
+    CapsLock::Esc
+    ```
+
+    Or opening Notepad with Win+N:
+
+    ```
+    #n::Run "notepad.exe"
+    ```
+
+    Beyond that it is a complete scripting language with variables, loops, conditionals, functions and
+    regular expressions, able to read and write files, manipulate windows (move, pin, hide, find by
+    title), simulate keyboard and mouse input, read the clipboard, call Windows APIs and build GUIs.
+    Common real uses include:
+
+    - **Text expansion:** type `;addr` and get a full address (though for pure text expansion, Espanso
+      is more purpose-built and cross-platform).
+    - **Bulk operations:** resize and reposition a set of windows uniformly, or drive a fixed sequence
+      through some legacy application.
+    - **Gaming and drawing aids:** map complex key combinations onto single keys (note that some online
+      games prohibit such tools).
+    - **Filling in what the OS lacks:** always-on-top windows, fine volume control, quick audio output
+      switching.
+
+    To be clear about:
+
+    - **Windows only.** That is its purpose; the macOS equivalents are Hammerspoon or Keyboard Maestro,
+      and Linux has AutoKey and similar.
+    - **v1 and v2 syntax are incompatible.** A great deal of online tutorials and ready-made scripts
+      are v1, while the current line is v2 (v2.0.26), and the differences are substantial. **Learn v2
+      directly**, and check the version label when hunting for scripts — v1 scripts will not run.
+    - **Antivirus false positives happen.** Simulating input and compiling to an executable overlaps
+      with malware capability, so some scanners flag it. Download from the official site and never run
+      an unknown .ahk script — **someone else's script can do anything you can do.**
+    - **It is not for complete non-programmers.** A simple remap is one line, but anything more
+      involved requires basic programming concepts.
+
+    In short: if any Windows task is something you repeat daily, an hour learning the basics usually
+    pays for itself within days.

@@ -1,0 +1,121 @@
+name: Nmap
+accent: '#4A6741'
+initials: NM
+category: network
+price: free
+license: 'Nmap Public Source License'
+website: https://nmap.org
+download: https://nmap.org/download.html
+repo: https://github.com/nmap/nmap
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [网络扫描, 端口探测, 资产盘点, 故障排查, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 看清自己的网络里到底有哪些设备、开了哪些端口
+  en: See what is actually on your network and which ports are open
+description:
+  zh: 网络发现与端口扫描工具。扫描指定网段找出在线设备、探测开放端口、识别服务和版本、推测操作系统。常用于家庭和企业网络的资产盘点、防火墙规则验证和连通性排查。附带图形界面 Zenmap。
+  en: A network discovery and port scanning tool. Scan a range to find live hosts, probe open ports, identify services and versions, and infer operating systems. It is commonly used for inventorying home and corporate networks, verifying firewall rules and diagnosing connectivity. A graphical front end, Zenmap, is included.
+review:
+  zh: |
+    大多数人对自己家里的网络其实一无所知：路由器上连着几台设备？
+    那台智能音箱开了什么端口？NAS 上的服务是不是不小心暴露到了公网？
+    买来的摄像头有没有开着一个谁都能连的管理端口？
+
+    Nmap 是回答这些问题的标准工具，用了快三十年。
+
+    常见用法：
+
+    **看看家里网段上有哪些设备在线**：
+    ```
+    nmap -sn 192.168.1.0/24
+    ```
+
+    **看某台设备开了哪些端口、跑的什么服务**：
+    ```
+    nmap -sV 192.168.1.100
+    ```
+
+    **检查自己的服务器对外暴露了什么**（从外网扫自己的公网 IP）：
+    ```
+    nmap -Pn your-server-ip
+    ```
+
+    实际价值在于**验证你以为的和实际的是否一致**：
+    你以为防火墙关了某个端口，扫一下就知道有没有真的关；
+    你以为 NAS 只在内网可见，从外面扫一下就知道有没有漏出去。
+    很多安全事故的起点就是"我以为它没开"。
+
+    它还能做服务版本识别（判断跑的是哪个版本的 nginx / SSH）、
+    操作系统指纹推测，以及通过 NSE 脚本引擎做更细的检查
+    （比如检测某个已知的配置弱点）。
+
+    **使用边界必须写清楚，这一条比功能更重要：**
+
+    - **只扫描你拥有或已获得书面授权的网络和主机**。
+      扫描自己的家庭网络、自己租用的服务器、公司里你被授权负责的资产，
+      这些都是正常的运维行为。
+    - **未经授权扫描他人的网络，在很多国家和地区是违法的**，
+      即使你"只是看看没做别的"。企业环境下也常常违反内部规定。
+    - 一些云服务商和网络运营商会把扫描行为视为攻击前兆并封禁账号或 IP，
+      在云主机上做扫描前请先看服务条款。
+
+    另外协议要注意：**Nmap 用的是 Nmap Public Source License，
+    不是标准 GPL**。个人使用、内部使用完全免费，
+    但**把它嵌进你要销售的商业产品里需要单独获得 OEM 授权**。
+    做开源项目或商业分发前请先读一遍协议。
+
+    实用提示：不熟悉命令行的话，安装包里带的 Zenmap 图形界面提供了
+    常用扫描模板，可以先从那里开始，看它生成的命令来学参数。
+  en: |
+    Most people know remarkably little about their own home network: how many devices are attached to
+    the router? What ports does that smart speaker have open? Is a service on the NAS accidentally
+    exposed to the internet? Does that cheap camera have an administration port anyone can reach?
+
+    Nmap has been the standard tool for answering these questions for nearly thirty years.
+
+    Common usage:
+
+    **List live devices on your home subnet:**
+    ```
+    nmap -sn 192.168.1.0/24
+    ```
+
+    **See which ports a device has open and what is running:**
+    ```
+    nmap -sV 192.168.1.100
+    ```
+
+    **Check what your own server exposes,** scanning your public IP from outside:
+    ```
+    nmap -Pn your-server-ip
+    ```
+
+    Its real value is **verifying that reality matches your assumptions.** You believe the firewall
+    closed a port — a scan tells you whether it actually did. You believe the NAS is LAN-only — a scan
+    from outside tells you whether it leaked. A great many security incidents begin with "I thought
+    that was closed."
+
+    It also performs service version detection (which nginx or SSH build is running), operating system
+    fingerprinting, and finer checks through the NSE scripting engine.
+
+    **The usage boundaries matter more than the features:**
+
+    - **Only scan networks and hosts you own or have written authorization to test.** Your home
+      network, servers you rent, and corporate assets you are responsible for are normal operational
+      work.
+    - **Scanning other people's networks without authorization is illegal in many jurisdictions**, even
+      if you "only looked". In corporate environments it also commonly violates internal policy.
+    - Some cloud providers and ISPs treat scanning as a precursor to attack and will suspend accounts
+      or addresses. Read the terms of service before scanning from a cloud instance.
+
+    Note the licence as well: **Nmap uses the Nmap Public Source License, not standard GPL.** Personal
+    and internal use is entirely free, but **embedding it in a commercial product you sell requires a
+    separate OEM licence.** Read the licence before redistributing it in any project.
+
+    A practical tip: if the command line is unfamiliar, the bundled Zenmap GUI offers common scan
+    profiles — start there and read the commands it generates to learn the flags.

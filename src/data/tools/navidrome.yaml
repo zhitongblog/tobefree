@@ -1,0 +1,100 @@
+name: Navidrome
+accent: '#3B5FA8'
+initials: ND
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://www.navidrome.org
+download: https://www.navidrome.org/docs/installation/
+repo: https://github.com/navidrome/navidrome
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [音乐服务器, 自建, 随身听, subsonic, 流媒体]
+platforms: [linux, web, windows, macos]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 把自己的音乐库变成随身流媒体，不上传给任何人
+  en: Turn your own music library into streaming, uploaded to nobody
+description:
+  zh: 自建的音乐流媒体服务端。把硬盘上的音乐库索引后，通过网页界面或手机 App 随时随地收听，支持多用户、播放列表、收藏、智能推荐和转码（弱网时自动降码率）。兼容 Subsonic 协议，可用的第三方客户端很多。
+  en: A self-hosted music streaming server. It indexes the music library on your disk and serves it to a web interface or mobile apps from anywhere, with multiple users, playlists, favorites, smart suggestions and on-the-fly transcoding for weak connections. It speaks the Subsonic protocol, so a wide range of third-party clients work.
+review:
+  zh: |
+    有一大批人处在这个尴尬位置：家里硬盘上有几千首收藏了十几年的音乐，
+    但出门只能听流媒体，因为总不能把 200 GB 的 FLAC 塞进手机。
+    而把这些文件传到某个网盘再用它的播放器，体验通常很糟。
+
+    Navidrome 解决的正是这个问题：**在自己家里跑一个音乐服务器**。
+    22,876 颗星，GPL-3.0，Go 写的单个可执行文件，
+    资源占用极低——树莓派都能带得动几万首曲子的库。
+
+    用起来的样子：
+
+    - 服务端指向你的音乐文件夹，它扫描并建立索引（读取标签、封面、专辑结构）。
+    - 打开网页界面就能听，界面做得相当现代，不是那种简陋的自建软件观感。
+    - 手机上装一个兼容 Subsonic 协议的 App（Android 上有 Symfonium、Tempo、
+      Substreamer，iOS 上有 play:Sub、Amperfy 等），填上你的服务器地址就能随时听。
+    - **自动转码**：家里 WiFi 下直接推原始 FLAC，
+      在外用移动网络时自动转成较低码率，省流量也不卡。
+    - **多用户**：家人各有自己的账号、播放列表和收藏，互不干扰。
+
+    它相比商业流媒体的价值很直接：**你的音乐就是你的**。
+    冷门专辑不会因为版权到期消失、不会被替换成重录版本、
+    不会因为停止订阅就全部失效，也没有人在分析你的收听习惯做画像。
+
+    要说清楚的：
+
+    - **需要一台常年开机的机器**。旧电脑、NAS、树莓派或便宜云主机都行。
+      官方提供 Docker 镜像和各平台的二进制。
+    - **想在外网访问需要额外一步**。要么做端口映射加动态域名，
+      要么用 Tailscale 这类组网工具（更简单也更安全，推荐这条路），
+      要么套一层反向代理加 HTTPS。这一步是自建的固有成本。
+    - **它不提供音乐内容**，只播放你已经拥有的文件。
+    - **标签整理好，体验才好**。它靠文件的元数据组织专辑和艺人，
+      标签混乱的库看起来会很乱——建议先用 Strawberry 或 MusicBrainz Picard
+      把标签整理一遍再喂给它。
+    - **不做视频**。要自建影视库看 Jellyfin。
+
+    如果你既有一堆音乐文件，又想要流媒体那样的便利，这是最省事的方案。
+  en: |
+    A lot of people are stuck in the same awkward position: thousands of tracks collected over a decade
+    sitting on a home disk, but only streaming available away from home, because 200 GB of FLAC does
+    not fit on a phone. Uploading it all to some cloud drive and using that provider's player is
+    usually a miserable experience.
+
+    Navidrome solves precisely this: **run a music server at home.** 22,876 stars, GPL-3.0, a single Go
+    binary with a footprint so small a Raspberry Pi comfortably serves a library of tens of thousands
+    of tracks.
+
+    How it works in practice:
+
+    - Point the server at your music folder and it scans and indexes it, reading tags, artwork and
+      album structure.
+    - Open the web interface and listen. The UI is genuinely modern rather than the bare-bones look
+      self-hosted software often has.
+    - Install any Subsonic-compatible app on a phone — Symfonium, Tempo or Substreamer on Android;
+      play:Sub or Amperfy on iOS — enter your server address, and your library travels with you.
+    - **Automatic transcoding:** original FLAC over home Wi-Fi, automatically down-converted to a lower
+      bitrate on mobile data to save bandwidth without stuttering.
+    - **Multiple users,** each with their own account, playlists and favorites.
+
+    Its advantage over commercial streaming is direct: **your music is yours.** An obscure album will
+    not disappear when a licence lapses, will not be silently replaced by a re-recording, will not stop
+    working when a subscription ends, and nobody is profiling your listening habits.
+
+    To be clear about:
+
+    - **You need an always-on machine** — an old PC, a NAS, a Raspberry Pi or a cheap cloud VM. Official
+      Docker images and per-platform binaries are provided.
+    - **Access from outside your home takes one more step:** port forwarding plus dynamic DNS, a mesh
+      network tool such as Tailscale (simpler and safer, and the route we would recommend), or a reverse
+      proxy with HTTPS. That cost is inherent to self-hosting.
+    - **It provides no music,** only playback of files you already own.
+    - **Good tags make a good experience.** It organizes albums and artists from file metadata, so a
+      messy library looks messy. Tidy the tags first with Strawberry or MusicBrainz Picard.
+    - **No video.** For a self-hosted film and TV library, use Jellyfin.
+
+    If you have both a pile of music files and a desire for streaming convenience, this is the least
+    troublesome way to get both.

@@ -1,0 +1,120 @@
+name: WireGuard
+accent: '#88171A'
+initials: WG
+category: network
+price: free
+license: 'GPL-2.0'
+website: https://www.wireguard.com
+download: https://www.wireguard.com/install/
+repo: https://git.zx2c4.com/wireguard-tools
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [vpn, 组网, 加密隧道, 自建, 轻量]
+platforms: [windows, macos, linux, ios, android, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 现代加密隧道协议，配置只有十几行
+  en: A modern encrypted tunnel protocol configured in a dozen lines
+description:
+  zh: 轻量的现代 VPN 协议与实现。代码量只有 OpenVPN 的零头，已并入 Linux 内核，加密算法固定不可协商（避免降级攻击）。用来把两台机器或几台设备接进同一个加密内网，配置文件通常只有十几行。
+  en: A lightweight modern VPN protocol and implementation. Its codebase is a fraction of OpenVPN's, it is merged into the Linux kernel, and its cryptography is fixed rather than negotiable, which avoids downgrade attacks. It joins machines or devices into one encrypted private network with configuration files that usually run about a dozen lines.
+review:
+  zh: |
+    传统 VPN 软件（OpenVPN、IPsec）的问题是复杂：
+    几万行代码、几十个可协商的加密选项、动辄上百行的配置文件、
+    出问题时几乎无法排查。复杂本身就是安全隐患。
+
+    WireGuard 的设计哲学是反过来的：**简单到能被完整审计**。
+    核心代码只有几千行，加密算法写死（ChaCha20、Poly1305、Curve25519 等），
+    不给你选、也就不存在"选错了"和降级攻击。
+    它已经被合并进 Linux 内核主线，这是对其代码质量的一个背书。
+
+    实际配置长这样——一台服务器和一台客户端，各自一个文件：
+
+    ```
+    [Interface]
+    PrivateKey = <你的私钥>
+    Address = 10.0.0.2/24
+
+    [Peer]
+    PublicKey = <对方公钥>
+    Endpoint = your-server.com:51820
+    AllowedIPs = 0.0.0.0/0
+    ```
+
+    就这样。生成一对密钥、互相填上对方的公钥、指定 IP 段，隧道就建立了。
+
+    它的典型用途：
+
+    - **自建 VPN**。在一台云主机上跑起来，出门时手机和笔记本连回去，
+      流量加密且从你自己的服务器出去。成本就是一台最便宜的 VPS。
+    - **连接分散的机器**。家里的 NAS、公司的服务器、云上的实例接进同一个内网。
+    - **给应用做底层**。Tailscale 就是在 WireGuard 之上做了自动配置和密钥分发，
+      所以性能特性是继承下来的。
+
+    要说清楚的：
+
+    - **它是协议和工具，不是"点一下就连"的服务**。
+      你需要自己有一台服务器、自己生成密钥、自己写配置、
+      自己处理防火墙和路由。**没有这些基础的话，用 Tailscale**
+      （底层同样是 WireGuard，但帮你把配置和密钥分发全做了）。
+    - **默认不隐藏"你在用 VPN"**。它的流量特征是可识别的，
+      在有深度包检测的网络环境里可能被针对。它的设计目标是安全和性能，不是抗封锁。
+    - **移动端有官方 App**（iOS、Android），配置可以扫二维码导入，这一步比想象中简单。
+    - **没有"账号"概念**。全靠密钥对，密钥丢了就重新生成分发。
+
+    如果你想完全掌控自己的加密隧道、不依赖任何第三方服务，这是当前的最佳基础。
+  en: |
+    Traditional VPN software — OpenVPN, IPsec — suffers from complexity: tens of thousands of lines of
+    code, dozens of negotiable cipher options, configuration files running to hundreds of lines, and
+    near-impossible troubleshooting. Complexity is itself a security liability.
+
+    WireGuard inverts that philosophy: **simple enough to be audited completely.** The core is a few
+    thousand lines, the cryptography is fixed (ChaCha20, Poly1305, Curve25519 and friends) rather than
+    selectable — so there is nothing to choose wrongly and no downgrade attack. It has been merged into
+    the mainline Linux kernel, which is a meaningful endorsement of its code quality.
+
+    A real configuration looks like this — one file each on a server and a client:
+
+    ```
+    [Interface]
+    PrivateKey = <your private key>
+    Address = 10.0.0.2/24
+
+    [Peer]
+    PublicKey = <their public key>
+    Endpoint = your-server.com:51820
+    AllowedIPs = 0.0.0.0/0
+    ```
+
+    That is all. Generate a key pair each, exchange public keys, assign an address range, and the
+    tunnel exists.
+
+    Typical uses:
+
+    - **Your own VPN.** Run it on a cloud instance and connect a phone and laptop back to it while
+      travelling, with traffic encrypted and exiting from your own server. The cost is the cheapest VPS
+      available.
+    - **Linking scattered machines:** a home NAS, an office server and a cloud instance on one private
+      network.
+    - **As a foundation for other tools.** Tailscale is automatic configuration and key distribution
+      built on top of WireGuard, inheriting its performance characteristics.
+
+    To be clear about:
+
+    - **It is a protocol and a tool, not a click-to-connect service.** You need a server, you generate
+      the keys, you write the configuration, and you handle firewall and routing. **Without that
+      background, use Tailscale** — the same WireGuard underneath, with configuration and key
+      distribution handled for you.
+    - **It does not hide that you are using a VPN.** Its traffic signature is identifiable and can be
+      targeted on networks with deep packet inspection. It was designed for security and performance,
+      not censorship resistance.
+    - **Official mobile apps exist** for iOS and Android, and configurations import by scanning a QR
+      code — easier than expected.
+    - **There is no account concept.** Everything rests on key pairs; a lost key means generating and
+      redistributing a new one.
+
+    If you want complete control of your own encrypted tunnel with no third-party service involved,
+    this is the best foundation available today.

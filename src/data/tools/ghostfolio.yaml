@@ -1,0 +1,109 @@
+name: Ghostfolio
+accent: '#36CFC9'
+initials: GF
+category: finance
+price: freemium
+license: 'AGPL-3.0'
+website: https://ghostfol.io
+download: https://github.com/ghostfolio/ghostfolio#setup
+repo: https://github.com/ghostfolio/ghostfolio
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [投资组合, 自建, 网页界面, 资产配置, 多账户]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自建的投资看板，手机电脑都能看
+  en: A self-hosted investment dashboard, readable from anywhere
+description:
+  zh: 自建的投资组合管理服务，网页界面。汇总分散在多个券商、多个账户、多个国家的持仓，统一显示总资产、收益率、配置比例和历史走势。支持股票、ETF、加密货币和现金，数据在你自己的服务器上。
+  en: A self-hosted portfolio management service with a web interface. It consolidates holdings spread across several brokers, accounts and countries into one view of total assets, returns, allocation and historical performance. Stocks, ETFs, cryptocurrencies and cash are supported, with the data on your own server.
+review:
+  zh: |
+    持仓分散是很常见的状态：券商 A 有股票、券商 B 有基金、
+    还有一点加密货币、几个账户的现金。
+    每家看到的都是局部，"我总共有多少、整体回报是多少"这个问题反而没人回答。
+
+    商业的资产聚合服务能做这件事，但代价是**你要把所有账户信息交给一家公司**。
+
+    Ghostfolio 的方案是自建。9,119 颗星，AGPL-3.0，
+    界面做得相当现代——这在自建软件里不常见。
+
+    它提供的视图：
+
+    - **总览**：所有账户合并后的总资产、今日变动、累计收益率。
+    - **配置分析**：按资产类别、行业、地区、货币、
+      单个持仓看占比，一眼看出是不是过度集中。
+    - **历史表现**：净值曲线、与基准对比、按时间段的回报。
+    - **多账户多币种**：不同券商、不同国家的账户分开记但合并看，
+      自动做汇率折算。
+    - **分红跟踪**和费用统计。
+    - **X-ray 分析**：给出一些配置上的风险提示（比如集中度过高）。
+
+    因为是网页应用，**手机上打开浏览器就能看**，不用装 App，
+    这比桌面软件方便。
+
+    要说清楚的：
+
+    - **需要自己部署**。官方提供 Docker Compose，
+      需要 PostgreSQL 和 Redis。**这是它和 Portfolio Performance 最大的区别**——
+      后者是双击就开的桌面程序，这个要先有服务器。
+    - **官方有付费云服务**。项目本身 AGPL 开源、自建完全免费不限功能；
+      官方另外提供托管版（Ghostfolio Premium），有免费档和付费档。
+      我们标「有免费版」指的是云服务，**自建那条路是完全免费的**。
+    - **行情数据源有限制**。它从公开数据源拉价格，
+      对美股、主流 ETF 和加密货币支持较好，
+      **部分地区的股票和基金可能查不到代码或价格不准**，
+      需要手动维护。部署前建议先确认你的持仓能不能正常获取报价。
+    - **仍需手动录入或导入**。它不直接连券商 API，
+      交易记录靠手动添加或 CSV 导入。
+    - **暴露到公网要配好安全**：HTTPS、强密码。这是你全部资产的清单。
+
+    怎么选：**想在手机上随时看、家里已经在自建服务** → Ghostfolio；
+    **只在电脑上用、不想碰服务器、要最专业的收益率计算** → Portfolio Performance。
+  en: |
+    Scattered holdings are the normal state: stocks at one broker, funds at another, some
+    cryptocurrency, cash across a few accounts. Each provider shows only its own slice, so the question
+    that matters — what do I hold in total and what is the overall return — goes unanswered.
+
+    Commercial aggregation services will answer it, at the cost of **handing every account to one
+    company.**
+
+    Ghostfolio's answer is self-hosting. 9,119 stars, AGPL-3.0, with a notably modern interface —
+    uncommon in self-hosted software.
+
+    The views it provides:
+
+    - **Overview:** total assets across all accounts, today's movement and cumulative return.
+    - **Allocation analysis** by asset class, sector, region, currency and individual holding, making
+      over-concentration immediately visible.
+    - **Historical performance:** value curves, benchmark comparison and period returns.
+    - **Multiple accounts and currencies,** recorded separately but viewed together with automatic
+      exchange rate conversion.
+    - **Dividend tracking** and fee statistics.
+    - **X-ray analysis** flagging allocation risks such as excessive concentration.
+
+    Being a web application, **a phone browser opens it with no app to install** — more convenient than
+    desktop software.
+
+    To be clear about:
+
+    - **Deployment is required.** Official Docker Compose with PostgreSQL and Redis. **This is the key
+      difference from Portfolio Performance,** which is a desktop program you double-click.
+    - **There is an official paid cloud service.** The project is AGPL and self-hosting is entirely free
+      with no feature limits; separately the maintainers offer hosted Ghostfolio Premium with free and
+      paid tiers. The freemium label refers to that cloud offering — **self-hosting is completely
+      free.**
+    - **Market data coverage has limits.** Prices come from public sources, with good support for US
+      equities, mainstream ETFs and cryptocurrencies, while **stocks and funds in some regions may lack
+      symbols or return inaccurate prices** and need manual maintenance. Verify your holdings can be
+      priced before committing to a deployment.
+    - **Entry is still manual or by import.** It does not connect to broker APIs; transactions are added
+      by hand or via CSV.
+    - **Public exposure demands proper security** — HTTPS and a strong password. This is an inventory of
+      everything you own.
+
+    How to choose: **want it on your phone and already self-host** → Ghostfolio; **desktop only, no
+    server, and the most rigorous return calculations** → Portfolio Performance.

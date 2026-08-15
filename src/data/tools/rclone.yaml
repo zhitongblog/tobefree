@@ -1,0 +1,134 @@
+name: rclone
+accent: '#3B7CB8'
+initials: RC
+category: remote
+price: free
+license: 'MIT'
+website: https://rclone.org
+download: https://rclone.org/downloads/
+repo: https://github.com/rclone/rclone
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [云存储, 同步, 加密, 挂载, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 七十多种云存储，一套命令全管
+  en: Seventy-plus cloud storage services, one set of commands
+description:
+  zh: 云存储的通用命令行工具。支持七十多种服务和协议——各家网盘、S3 兼容对象存储、WebDAV、FTP、SFTP、本地磁盘——用统一的命令在它们之间同步、复制、挂载和加密。可以把云盘挂载成本地磁盘，也能对上传内容做端到端加密。
+  en: A universal command-line tool for cloud storage. It speaks over seventy services and protocols — consumer cloud drives, S3-compatible object storage, WebDAV, FTP, SFTP and local disks — with one set of commands to sync, copy, mount and encrypt between them. It can mount remote storage as a local drive and encrypt everything before upload.
+review:
+  zh: |
+    云存储的现实是：你可能同时有几家的空间——工作用一个、
+    家里用一个、买设备送的一个、还有自建的 NAS。
+    每家一个客户端、一套操作逻辑、一种同步策略，互相之间搬东西更是麻烦。
+
+    rclone 把它们统一了。59,140 颗星，MIT 协议，Go 写的单个可执行文件。
+    它支持的后端超过七十种，覆盖了几乎所有主流网盘、
+    S3 兼容存储、WebDAV、SFTP、以及各类自建服务。
+
+    常用能力：
+
+    **在两个云之间直接搬**（不经过本地下载再上传）：
+    ```
+    rclone copy 网盘A:文件夹 网盘B:文件夹
+    ```
+
+    **单向同步**（让目标端和源端一致，会删除目标端多余的文件——**小心使用**）：
+    ```
+    rclone sync 本地目录 远程:备份
+    ```
+
+    **挂载成本地盘**（云盘变成一个磁盘目录，直接用文件管理器打开）：
+    ```
+    rclone mount 远程: X: --vfs-cache-mode full
+    ```
+
+    真正让它区别于各家官方客户端的两个能力：
+
+    - **加密后端（crypt）**。可以在任意存储上套一层加密：
+      文件名和内容在上传前就加密了，服务商看到的是一堆乱码文件名和密文。
+      **这意味着你可以放心把敏感文件放进任何一家网盘**，
+      即使那家服务商扫描用户文件也读不到内容。
+    - **跨云直传（server-side copy）**。同一家服务内部的复制不走你的带宽；
+      不同服务之间也能流式转发而不落地，搬几百 GB 时差别巨大。
+
+    还有：带宽限速、断点续传、并发调节、按规则过滤文件、
+    校验一致性、定时任务、以及一个网页图形界面（`rclone rcd --rc-web-gui`）。
+
+    要说清楚的：
+
+    - **`sync` 是危险命令**。它会让目标端和源端**完全一致**，
+      也就是删掉目标端多出来的文件。**第一次跑请务必加 `--dry-run` 先看它打算做什么**，
+      确认无误再实际执行。这是新手最容易造成损失的地方。
+    - **它是命令行工具**。配置向导（`rclone config`）是交互式问答，
+      不难，但整体仍需要打命令。图形界面有第三方项目（RcloneBrowser 等）。
+    - **挂载不等于同步**。挂载是实时访问远程，网络断了就用不了；
+      同步是把文件真正复制到本地。两者用途不同，别混。
+    - **各家网盘的 API 有限制**。有些服务对请求频率、
+      单文件大小、并发数有限制，大批量操作时可能被限速，
+      官方文档对每个后端的注意事项写得很细，值得先看一眼。
+    - **加密后端的密码丢了就解不开了**。和所有端到端加密一样，配置请备份好。
+
+    对需要在多个存储之间搬运、备份、或者想给云盘加一层自己控制的加密的人来说，
+    这是几乎无可替代的工具。
+  en: |
+    The reality of cloud storage is that you probably have several — one for work, one at home, one that
+    came with a device, plus a NAS. Each has its own client, its own logic and its own sync behavior,
+    and moving data between them is worse still.
+
+    rclone unifies them. 59,140 stars, MIT, a single Go binary. It supports over seventy backends
+    covering essentially every mainstream cloud drive, S3-compatible store, WebDAV, SFTP and
+    self-hosted service.
+
+    Common operations:
+
+    **Move between two clouds directly,** without downloading and re-uploading locally:
+    ```
+    rclone copy cloudA:folder cloudB:folder
+    ```
+
+    **One-way sync,** making the destination match the source — which deletes extra files there, so
+    **use carefully**:
+    ```
+    rclone sync local-dir remote:backup
+    ```
+
+    **Mount as a local drive,** so cloud storage appears as a directory in your file manager:
+    ```
+    rclone mount remote: X: --vfs-cache-mode full
+    ```
+
+    Two capabilities genuinely distinguish it from vendors' own clients:
+
+    - **The crypt backend.** Wrap any storage in encryption so filenames and contents are encrypted
+      before upload and the provider sees only scrambled names and ciphertext. **This means sensitive
+      files can safely live on any cloud drive**, unreadable even if that provider scans user files.
+    - **Server-side copy.** Copying within one service does not consume your bandwidth, and transfers
+      between services can stream through without landing locally — an enormous difference when moving
+      hundreds of gigabytes.
+
+    Also included: bandwidth limits, resumable transfers, concurrency tuning, rule-based filtering,
+    integrity checking, scheduling, and a web GUI via `rclone rcd --rc-web-gui`.
+
+    To be clear about:
+
+    - **`sync` is a dangerous command.** It makes the destination **identical** to the source, deleting
+      anything extra there. **Always run it with `--dry-run` first** to see what it intends to do. This
+      is where newcomers most often lose data.
+    - **It is a command-line tool.** The configuration wizard (`rclone config`) is an interactive
+      question-and-answer flow and not difficult, but commands remain the interface. Third-party GUIs
+      exist.
+    - **Mounting is not syncing.** A mount accesses the remote live and stops working when the network
+      does; syncing copies files locally. Different purposes — do not conflate them.
+    - **Provider APIs have limits.** Some services cap request rates, file sizes or concurrency, and
+      bulk operations can be throttled. The documentation covers each backend's quirks in detail and is
+      worth reading first.
+    - **Lose the crypt password and the data is unreadable.** As with all end-to-end encryption, back up
+      the configuration.
+
+    For anyone moving data between stores, running backups, or wanting a layer of self-controlled
+    encryption on a cloud drive, this is close to irreplaceable.

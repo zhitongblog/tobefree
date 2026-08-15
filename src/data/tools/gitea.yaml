@@ -1,0 +1,109 @@
+name: Gitea
+accent: '#609926'
+initials: GT
+category: selfhosted
+price: free
+license: 'MIT'
+website: https://about.gitea.com
+download: https://docs.gitea.com/installation/install-from-binary
+repo: https://github.com/go-gitea/gitea
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [git托管, 代码仓库, 自建, ci, 轻量]
+platforms: [linux, windows, macos, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自己搭一个 GitHub，一个可执行文件就够
+  en: Your own GitHub, from a single executable
+description:
+  zh: 轻量的自建 Git 代码托管服务。提供仓库管理、Issue、Pull Request、Wiki、代码评审、组织与权限、软件包仓库和内置 CI（Gitea Actions，兼容 GitHub Actions 语法）。单个 Go 二进制文件，资源占用低到树莓派也能跑。
+  en: A lightweight self-hosted Git service providing repositories, issues, pull requests, wikis, code review, organizations and permissions, package registries and built-in CI through Gitea Actions, which is compatible with GitHub Actions syntax. It is a single Go binary light enough to run on a Raspberry Pi.
+review:
+  zh: |
+    代码放在 GitHub 上对开源项目没问题，但有些东西你不想放上去：
+    公司内部项目、个人的配置文件和笔记、
+    包含密钥的实验代码、或者单纯不想让自己的所有代码都在一家公司手里。
+
+    自建 Git 服务的传统选项是 GitLab，功能极全但也极重——
+    官方建议至少 4 GB 内存，实际跑起来更多。
+
+    Gitea 是轻量的那条路。57,369 颗星，MIT 协议，Go 写的**单个可执行文件**，
+    配一个 SQLite 就能跑，占用几十 MB 内存。树莓派、
+    NAS、最便宜的 VPS 都撑得住。
+
+    功能覆盖了日常需要的绝大部分：
+
+    - **仓库托管**：HTTP 和 SSH 推拉、分支保护、标签、Release、LFS。
+    - **协作流程**：Issue、Pull Request、代码评审、里程碑、看板。
+      界面和 GitHub 很像，团队几乎不用重新学。
+    - **组织和权限**：团队、角色、细粒度的仓库权限。
+    - **内置 CI**：Gitea Actions **兼容 GitHub Actions 的工作流语法**，
+      很多现成的 action 可以直接用，不用重写流水线。
+    - **软件包仓库**：可以当私有的 npm、PyPI、Docker、Maven registry 用。
+    - **镜像同步**：可以把 GitHub 上的仓库自动镜像过来做备份，
+      或者反向推送。
+    - **迁移工具**：从 GitHub、GitLab 等一键导入仓库连同 Issue 和 PR。
+
+    要说清楚的：
+
+    - **和 GitLab 的取舍**。GitLab 有完整的 DevOps 全家桶
+      （安全扫描、制品库、部署环境、看板、需求管理），
+      Gitea 只做核心的代码托管加轻量 CI。
+      **团队要完整的研发流程管理，GitLab 更合适；
+      只是要一个放代码的地方加基本协作，Gitea 省心太多。**
+    - **社区分叉了一支叫 Forgejo**。2022 年因为治理结构问题
+      （Gitea 成立了商业公司），一部分社区分叉出 Forgejo，
+      由非营利组织维护，两者功能高度相似。
+      **如果你在意"完全社区治理"这一点，可以了解一下 Forgejo。**
+      Gitea 本身仍然是 MIT 开源且活跃维护的。
+    - **备份是你的责任**。仓库数据加数据库，定期备份，
+      并且验证能恢复。
+    - **暴露到公网要认真配置**：HTTPS、禁止自由注册、
+      限制 SSH 端口、开两步验证。
+
+    适合谁：想给团队或自己搭一个私有代码库、
+    对 GitLab 的资源占用望而却步、或者想给 GitHub 上的项目做一份自控备份的人。
+  en: |
+    Hosting open-source code on GitHub is fine, but some things you would rather not put there:
+    internal company projects, personal dotfiles and notes, experimental code containing keys, or
+    simply everything you have ever written sitting inside one company.
+
+    The traditional self-hosted option is GitLab — enormously capable and correspondingly heavy, with
+    an official recommendation of at least 4 GB of RAM and more in practice.
+
+    Gitea is the light path. 57,369 stars, MIT, a **single Go binary** that runs against SQLite in a few
+    tens of megabytes of memory. A Raspberry Pi, a NAS or the cheapest VPS handles it.
+
+    Coverage extends to most of what daily work needs:
+
+    - **Repository hosting:** HTTP and SSH push/pull, branch protection, tags, releases, LFS.
+    - **Collaboration:** issues, pull requests, code review, milestones and boards, in an interface
+      close enough to GitHub's that a team needs no retraining.
+    - **Organizations and permissions:** teams, roles and fine-grained repository access.
+    - **Built-in CI:** Gitea Actions is **compatible with GitHub Actions workflow syntax**, so many
+      existing actions run unmodified and pipelines need not be rewritten.
+    - **Package registries** for private npm, PyPI, Docker and Maven artifacts.
+    - **Mirroring** to pull GitHub repositories in automatically as backups, or push the other way.
+    - **Migration tooling** importing repositories with issues and pull requests from GitHub, GitLab and
+      others.
+
+    To be clear about:
+
+    - **The trade-off against GitLab.** GitLab offers a full DevOps suite — security scanning, artifact
+      registries, deployment environments, boards, requirements management — while Gitea covers core
+      hosting plus light CI. **Teams needing complete engineering process management want GitLab;
+      anyone who just needs a place for code with basic collaboration will find Gitea far less
+      trouble.**
+    - **The community forked it as Forgejo.** In 2022, governance concerns following the formation of a
+      Gitea company led part of the community to fork Forgejo, maintained by a non-profit, with
+      near-identical functionality. **If fully community-run governance matters to you, look into
+      Forgejo.** Gitea itself remains MIT-licensed and actively maintained.
+    - **Backups are your responsibility** — repository data plus the database, backed up regularly and
+      verified restorable.
+    - **Exposing it publicly demands care:** HTTPS, disabled open registration, restricted SSH, and
+      two-factor authentication enabled.
+
+    Who it suits: anyone wanting a private code host for a team or themselves, anyone deterred by
+    GitLab's resource appetite, and anyone wanting a self-controlled backup of their GitHub projects.

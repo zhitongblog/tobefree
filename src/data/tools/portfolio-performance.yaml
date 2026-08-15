@@ -1,0 +1,119 @@
+name: Portfolio Performance
+accent: '#2E6B8F'
+initials: PP
+category: finance
+price: free
+license: 'EPL-1.0'
+website: https://www.portfolio-performance.info
+download: https://github.com/portfolio-performance/portfolio/releases/latest
+repo: https://github.com/portfolio-performance/portfolio
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [投资记录, 收益率, 资产配置, 离线, 桌面]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 算清楚你的投资到底赚了多少，数据不上传
+  en: Work out what your investments actually returned, with nothing uploaded
+description:
+  zh: 桌面投资组合跟踪工具。记录买入卖出、分红和手续费，计算真实收益率（内部收益率 IRR 和时间加权收益率 TWR），展示资产配置、地区和行业分布、历史走势。数据存在本地文件里，不需要账号，也不连接你的券商。
+  en: A desktop portfolio tracker. Record purchases, sales, dividends and fees, and it computes real returns — internal rate of return and time-weighted return — alongside asset allocation, regional and sector breakdowns and historical performance. Data lives in a local file, with no account and no connection to your broker.
+review:
+  zh: |
+    券商 App 显示的"收益率"通常是最粗糙的那种：
+    总市值减去总投入。这个数字在你持续定投、
+    中途取出过钱、或者有分红的情况下会严重失真——
+    它没法回答"我这笔投资的年化回报到底是多少"。
+
+    Portfolio Performance 做的就是把这件事算清楚。
+    4,022 颗星，EPL-1.0 开源，德国开发者维护多年。
+
+    它计算两个专业的指标：
+
+    - **内部收益率（IRR）**：考虑每一笔现金流发生的时间点，
+      算出你实际的年化回报。定投和不规则加仓的情况下，这才是真实数字。
+    - **时间加权收益率（TWR）**：剔除资金进出的影响，
+      衡量投资标的本身表现如何——用来和指数比较才公平。
+
+    这两个数字通常和券商 App 显示的差别很大，而它们才是对的。
+
+    其他能力：
+
+    - **完整的交易记录**：买入、卖出、分红、拆股、手续费、税费，
+      多币种（含汇率折算）。
+    - **资产配置分析**：按类别、地区、行业、货币分解你的持仓，
+      可以设定目标配置并看偏离多少,用来做再平衡。
+    - **历史走势图**：净值曲线、与基准指数对比、回撤分析。
+    - **自动抓价格**：可以从公开数据源更新报价
+      （这一步会联网，但只是拉取行情，不上传你的持仓）。
+    - **导入**：支持从多家券商的对账单和 CSV 导入交易记录。
+
+    要说清楚的：
+
+    - **不自动连接券商**。它不会替你登录券商账号同步持仓——
+      **这既是缺点（要手动录入或导入对账单）也是优点
+      （你的券商密码永远不用交给任何第三方软件）。**
+      对券商 CSV 格式的支持以欧洲市场最好，其他市场可能要自己整理格式。
+    - **它是记录工具，不是行情软件**。不做实时行情、
+      不做技术分析、不下单。看盘用券商 App，算账用它。
+    - **有学习成本**。IRR、TWR、基准、再平衡这些概念本身需要理解，
+      软件只是帮你算。**新手建议先只记录交易、看总收益率，
+      其他分析功能用到再学。**
+    - **界面是 Java（Eclipse RCP）风格**，功能密集但不算精致，
+      启动比原生应用慢几秒。
+    - **数据备份是你的责任**。所有记录在一个本地文件里，务必定期备份。
+
+    和这个分类里其他工具的关系：**GnuCash** 做的是全面的复式记账
+    （也能记投资，但收益率分析不如它专业）；
+    **Actual Budget** 管月度预算；**Portfolio Performance 专注投资组合**。
+    很多人是"日常开销用一个、投资用它"这样分开用。
+  en: |
+    The "return" a broker app displays is usually the crudest kind: current value minus money paid in.
+    That number badly distorts reality once you invest regularly, withdraw partway, or receive
+    dividends — and it cannot answer what your annualized return actually was.
+
+    Portfolio Performance exists to compute that properly. 4,022 stars, EPL-1.0, maintained for years
+    by a German developer.
+
+    It calculates two professional measures:
+
+    - **Internal rate of return (IRR),** which accounts for when each cash flow occurred and yields your
+      genuine annualized return. With regular contributions and irregular top-ups, this is the real
+      number.
+    - **Time-weighted return (TWR),** which strips out the effect of money moving in and out to measure
+      how the holdings themselves performed — the fair basis for comparison against an index.
+
+    Both typically differ substantially from what a broker app shows, and both are the correct answers.
+
+    Other capabilities:
+
+    - **Complete transaction records:** purchases, sales, dividends, splits, fees and taxes, across
+      multiple currencies with exchange rate conversion.
+    - **Allocation analysis** breaking holdings down by class, region, sector and currency, with target
+      allocations and drift shown for rebalancing.
+    - **Historical charts:** value curves, benchmark comparison and drawdown analysis.
+    - **Automatic price updates** from public data sources — this step uses the network, but it only
+      fetches quotes and never uploads your holdings.
+    - **Imports** of transactions from many brokers' statements and CSV files.
+
+    To be clear about:
+
+    - **It does not connect to brokers automatically.** It will not log into your brokerage to sync
+      positions — **which is both a drawback (manual entry or statement import) and a feature (your
+      brokerage credentials never go to third-party software).** CSV format support is strongest for
+      European brokers; elsewhere you may need to reshape the data yourself.
+    - **It is a record-keeping tool, not a trading terminal.** No live quotes, no technical analysis, no
+      order placement. Watch the market in your broker's app; do the accounting here.
+    - **There is a learning cost.** IRR, TWR, benchmarks and rebalancing are concepts you need to
+      understand; the software only computes them. **Beginners should start by recording transactions
+      and reading the overall return,** learning the analysis features as they become relevant.
+    - **The interface is Java (Eclipse RCP) styling** — dense with features, not elegant, and a few
+      seconds slower to start than a native app.
+    - **Backups are your responsibility,** since everything lives in one local file.
+
+    How it relates to the others here: **GnuCash** does comprehensive double-entry bookkeeping and can
+    track investments, though its return analysis is less specialized; **Actual Budget** handles monthly
+    budgeting; **Portfolio Performance focuses on the portfolio.** Many people run one tool for everyday
+    spending and this one for investments.

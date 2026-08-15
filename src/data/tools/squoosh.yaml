@@ -1,0 +1,104 @@
+name: Squoosh
+accent: '#C42A6E'
+initials: SQ
+category: creative
+price: free
+license: 'Apache-2.0'
+website: https://squoosh.app
+download: https://squoosh.app
+repo: https://github.com/GoogleChromeLabs/squoosh
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [图片压缩, webp, avif, 网页工具, 本地处理]
+platforms: [web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 网页里压图片，但图片一个字节都没上传
+  en: Compress images in a web page — with nothing uploaded
+description:
+  zh: 图片压缩与格式转换的网页工具，由 Google Chrome Labs 开发。左右分屏实时对比压缩前后的画质差异，可以调节质量、尺寸和编码参数，支持 WebP、AVIF、JPEG XL、MozJPEG 等现代格式。**全部计算在浏览器本地完成，图片不上传服务器。**
+  en: A web-based image compression and format conversion tool from Google Chrome Labs. A split view compares original and compressed quality in real time while you adjust quality, dimensions and encoder settings, with support for WebP, AVIF, JPEG XL and MozJPEG. **All processing happens locally in the browser — images are never uploaded.**
+review:
+  zh: |
+    "在线压缩图片"的网站到处都是，但它们有一个共同问题：
+    **你的图片被传到了别人的服务器上**。产品照片、设计稿、
+    身份证扫描件、还没发布的作品——传上去之后存了多久、谁看过、
+    有没有被拿去训练模型，你不知道。
+
+    Squoosh 的做法完全不同：它是网页，但**计算全在你的浏览器里跑**
+    （用 WebAssembly 把各种编码器编译进了页面）。
+    你选的图片从头到尾没有离开过你的电脑。这一点可以自己验证——
+    断网之后它照样能用。
+
+    实际体验里最有价值的是**实时对比**：界面中间一条可拖动的分割线，
+    左边原图右边压缩结果，拖动滑块调质量，画质变化立刻看到，
+    下方显示压缩后的体积和减少百分比。
+    你可以精确找到"再压就看得出来了"的那个临界点，而不是盲目选个 80%。
+
+    支持的编码格式覆盖得很全：
+
+    - **WebP**：兼容性已经很好，体积通常比 JPEG 小 25-35%。
+    - **AVIF**：压缩率更高，同画质下体积更小，现代浏览器都支持。
+    - **JPEG XL**：新一代格式，压缩率优秀，但浏览器支持还在推进中。
+    - **MozJPEG**：优化过的 JPEG 编码器，兼容性最好的选择。
+    - **OxiPNG**：无损压缩 PNG。
+
+    还能同时调整尺寸、减少调色板颜色数、加抖动，
+    对做网页素材、压缩博客配图很实用。
+
+    要说清楚的：
+
+    - **一次只处理一张图**。它是精细调整工具，不是批量处理工具。
+      要批量压几百张，用 ImageMagick 命令行或 Caesium。
+    - **大图会占内存**。所有计算在浏览器里做，
+      处理超大尺寸图片时可能比较慢或吃内存。
+    - **项目更新不频繁**。它是 Chrome Labs 的实验项目，
+      功能已经成熟稳定，但不是持续高频迭代的产品。
+      好在它是纯前端工具，即使不更新也能一直用。
+    - **可以离线用**。它是 PWA，第一次访问后可以"安装"到桌面，
+      之后断网也能打开——这也侧面证明了它确实不需要服务器。
+
+    发博客、做网页、发朋友圈之前压一下图，这是最省事又最放心的方式。
+  en: |
+    Online image compressors are everywhere, and they share one problem: **your images end up on
+    someone else's servers.** Product photos, design drafts, scanned documents, unreleased work — once
+    uploaded, how long they are kept, who sees them and whether they feed a training set is unknowable.
+
+    Squoosh works differently: it is a web page, but **all computation runs inside your browser**, with
+    the encoders compiled into the page as WebAssembly. Your image never leaves your computer — which
+    you can verify yourself, since it keeps working with the network disconnected.
+
+    The most valuable part in practice is **live comparison**: a draggable divider down the middle with
+    the original on one side and the compressed result on the other, quality adjustable by slider with
+    the difference visible immediately and the resulting file size and percentage saved displayed
+    below. You can find the precise point where further compression becomes visible, rather than
+    guessing at 80%.
+
+    Encoder coverage is thorough:
+
+    - **WebP:** widely supported now, typically 25–35% smaller than JPEG.
+    - **AVIF:** higher compression again, smaller at equal quality, supported by modern browsers.
+    - **JPEG XL:** a next-generation format with excellent ratios, though browser support is still
+      arriving.
+    - **MozJPEG:** an optimized JPEG encoder and the safest choice for compatibility.
+    - **OxiPNG:** lossless PNG compression.
+
+    It also resizes, reduces palette colors and applies dithering, which is practical for web assets
+    and blog images.
+
+    To be clear about:
+
+    - **It handles one image at a time.** This is a precision tool, not a batch processor. For hundreds
+      of files use ImageMagick on the command line, or Caesium.
+    - **Large images consume memory,** since everything runs in the browser; very large files can be
+      slow or memory-hungry.
+    - **Updates are infrequent.** It is a Chrome Labs experiment whose functionality is mature and
+      stable rather than a continuously iterating product. Being purely client-side, it keeps working
+      regardless.
+    - **It works offline.** As a PWA it can be installed to your desktop after the first visit and
+      opens without a connection — incidental proof that it genuinely needs no server.
+
+    For compressing an image before a blog post, a web page or a social share, this is both the easiest
+    and the most trustworthy option.

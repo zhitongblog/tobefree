@@ -1,0 +1,97 @@
+name: Super Productivity
+accent: '#7C4DFF'
+initials: SP
+category: productivity
+price: free
+license: 'MIT'
+website: https://super-productivity.com
+download: https://github.com/johannesjo/super-productivity/releases/latest
+repo: https://github.com/johannesjo/super-productivity
+featured: false
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [待办, 番茄钟, 工时统计, 本地优先, 无订阅]
+platforms: [windows, macos, linux, web, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 待办、番茄钟、工时统计做在一起，还不收订阅费
+  en: Tasks, pomodoro and time tracking in one app, with no subscription
+description:
+  zh: 集任务管理、番茄钟和时间追踪于一体的桌面应用。每个任务可以估时、计时、拆子任务，一天结束能看到时间实际花在了哪。数据默认存在本地，可选用 WebDAV、Dropbox 或自建服务同步。
+  en: A desktop application combining task management, a pomodoro timer and time tracking. Each task takes an estimate, can be timed and broken into subtasks, and at the end of the day you can see where the hours actually went. Data stays local by default, with optional sync over WebDAV, Dropbox or your own service.
+review:
+  zh: |
+    待办类应用几乎全都走上了订阅制：免费版限项目数、限提醒、
+    限附件、不给统计，稍微认真用一点就撞墙。
+    而这类工具存的是你最私密的东西之一——你每天在做什么。
+
+    Super Productivity 是这个领域少见的"完整免费且本地优先"的选项。
+    21,343 颗星，MIT 协议，功能不设墙。
+
+    它把三件通常分开的事做进了一个应用：
+
+    - **任务管理**：项目、标签、子任务、优先级、重复任务、计划日期。
+      结构不复杂，够用而不臃肿。
+    - **番茄钟**：给当前任务开始计时，到点提醒休息。
+      和任务是绑定的——不是一个孤立的计时器。
+    - **时间追踪**：每个任务累计花了多久，可以先估时再对比实际，
+      一周下来能看到"我以为这事要两小时，实际花了六小时"。
+      对自由职业者按工时报价、对上班族做周报都很实用。
+
+    还有几个设计得不错的细节：
+
+    - **每日总结**。一天结束时它会带你过一遍今天完成了什么、时间花在哪、
+      有哪些没做完要挪到明天。这个仪式感比单纯划掉任务更有用。
+    - **接第三方任务源**。可以把 Jira、GitHub Issues、GitLab、
+      Open Project 的任务同步进来，在同一个界面里计时，
+      避免"公司系统里一份、自己清单里一份"的重复维护。
+    - **数据是你的**。默认存本地文件，想同步可以接 WebDAV
+      （比如自己的 Nextcloud）或 Dropbox，也能直接导出 JSON。
+      不需要注册任何账号。
+
+    要说清楚的：
+
+    - **功能密度高，需要一点时间摸清**。它不是那种打开就懂的极简待办，
+      左右都是面板和统计。**建议先只用"任务 + 计时"两个功能跑一周**，
+      再决定要不要开项目、标签、看板这些。
+    - **移动端偏弱**。有 Android 版但功能和体验落后于桌面版，iOS 只能用网页版。
+      如果你的待办主要在手机上记，这个可能不合适。
+    - **它偏向"和工作时间打交道的人"**。如果你要的只是一个买菜清单，
+      它太重了；如果你需要知道时间去哪了、需要按项目统计工时，它很对路。
+  en: |
+    Task apps have almost universally moved to subscriptions: the free tier caps projects, reminders
+    and attachments and withholds statistics, so any serious use hits a wall. And these tools hold one
+    of the most private things about you — what you do all day.
+
+    Super Productivity is a rare fully free, local-first option in this space. 21,343 stars, MIT, no
+    feature walls.
+
+    It combines three things usually sold separately:
+
+    - **Task management:** projects, tags, subtasks, priorities, recurring tasks and scheduled dates.
+      Structured enough to be useful without becoming bloated.
+    - **Pomodoro:** start a timer against the current task and get a break reminder — tied to the task
+      rather than being a standalone timer.
+    - **Time tracking:** accumulated time per task, with estimates compared against reality, so a week
+      later you can see that what you assumed was a two-hour job actually took six. Genuinely useful
+      for freelancers quoting by the hour and for anyone writing a weekly report.
+
+    Some well-considered details:
+
+    - **A daily summary** walks you through what you finished, where the time went and what needs
+      moving to tomorrow. That ritual proves more useful than simply ticking items off.
+    - **Third-party task sources.** Pull issues from Jira, GitHub, GitLab or Open Project into the same
+      interface and track time against them, avoiding a duplicate list alongside the company system.
+    - **The data is yours.** Local files by default, with optional sync over WebDAV — your own
+      Nextcloud, for instance — or Dropbox, plus JSON export. No account required.
+
+    To be clear about:
+
+    - **It is feature-dense and takes some acclimatization.** This is not a minimalist todo app you
+      grasp instantly; panels and statistics surround you. **Use only tasks and the timer for a week**
+      before deciding whether to enable projects, tags and boards.
+    - **Mobile is weaker.** An Android build exists but lags the desktop, and iOS means the web
+      version. If your tasks live primarily on a phone, this may not fit.
+    - **It suits people who deal in working hours.** For a grocery list it is far too heavy; for
+      knowing where your time went and reporting hours per project, it is well aimed.

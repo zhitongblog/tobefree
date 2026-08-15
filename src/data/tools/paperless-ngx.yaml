@@ -1,0 +1,112 @@
+name: Paperless-ngx
+accent: '#17541F'
+initials: PN
+category: selfhosted
+price: free
+license: 'GPL-3.0'
+website: https://docs.paperless-ngx.com
+download: https://docs.paperless-ngx.com/setup/
+repo: https://github.com/paperless-ngx/paperless-ngx
+featured: true
+popular: false
+selfMade: false
+added: '2026-08-14'
+tags: [文档管理, ocr, 扫描归档, 全文搜索, 无纸化]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 把纸质文件扫进去，之后靠搜索找，不用再翻抽屉
+  en: Scan the paper in once, then search for it instead of digging through drawers
+description:
+  zh: 自建的文档管理系统。扫描或拍照上传纸质文件后，自动做 OCR 识别文字、推断文档类型和日期、按规则打标签归档，之后可以全文搜索任意一份文件的内容。合同、发票、保单、说明书、证件都能这样管。
+  en: A self-hosted document management system. Scan or photograph paper documents and it runs OCR, infers document type and date, files them by rule-based tagging, and makes every word searchable afterwards. Contracts, invoices, insurance policies, manuals and certificates all work this way.
+review:
+  zh: |
+    每个家庭都有一个装满纸的抽屉：合同、保单、发票、
+    维修记录、说明书、各种证件复印件。需要找某一份的时候，
+    你知道它"应该在那里"，但要翻二十分钟。
+
+    Paperless-ngx 解决的就是这件事。44,255 颗星，GPL-3.0，
+    是这个领域最成熟的开源方案。
+
+    工作流程很简单：
+
+    1. **丢进去**。用扫描仪、手机拍照，或者直接把电子版 PDF 放进监控目录。
+    2. **它自动处理**。OCR 识别文字（支持中文等多语言）、
+       从内容里推断日期、识别是哪个机构开的、按你设的规则自动打标签和分类。
+    3. **之后靠搜索找**。输入"2024 保险"或者合同里的某个词，
+       它在所有文档的全文里搜，秒出结果。
+
+    关键能力：
+
+    - **OCR 让扫描件变成可搜索的**。这是核心价值——
+      一张扫描的图片本来是搜不到内容的，OCR 之后每个字都能被找到。
+      它输出的是带文本层的 PDF，用任何阅读器打开都能选中文字。
+    - **自动分类规则**。可以设"标题含'电费'的自动归到'水电'标签、
+      通信人设为供电局"，之后同类文件进来自动归位，不用手工整理。
+    - **保留原件**。它不修改你的原始文件，OCR 结果是附加的。
+    - **全文搜索**支持模糊匹配和高级查询。
+    - **移动端友好**的网页界面，手机拍照直接上传。
+
+    要说清楚的：
+
+    - **需要部署，且不算轻**。官方推荐 Docker Compose，
+      组件包括数据库、Redis、OCR 引擎和 Web 服务。
+      文档写得很详细，但**需要一点自建经验**。
+    - **OCR 吃 CPU**。批量导入几百份文档时会跑很久，
+      树莓派能跑但会慢，有条件的话给它一台性能好点的机器。
+    - **中文 OCR 需要装对应语言包**，默认可能只装了英文。
+      配置里指定语言，识别质量会好很多。
+    - **它管的是"文档"不是"文件"**。适合合同发票这类需要长期归档检索的东西，
+      不适合当通用网盘用（那是 Nextcloud 的活）。
+    - **备份极其重要**。你把纸质原件扔掉之后，这个系统就是唯一的副本了。
+      **在开始大规模扫描之前，先把备份方案配好**——
+      至少一份异地或离线副本。
+
+    适合谁：想把家里的纸质档案数字化的人、
+    需要长期保存业务凭证的自由职业者和小公司、
+    以及任何受够了"我知道我有这份文件但找不到"的人。
+  en: |
+    Every household has a drawer full of paper: contracts, insurance policies, invoices, repair
+    records, manuals, copies of documents. When you need one, you know it is "in there somewhere" — and
+    finding it takes twenty minutes.
+
+    Paperless-ngx solves that. 44,255 stars, GPL-3.0, the most mature open-source answer in the field.
+
+    The workflow is simple:
+
+    1. **Put it in.** A scanner, a phone photo, or an electronic PDF dropped into a watched folder.
+    2. **It processes automatically.** OCR extracts the text across many languages, the date is inferred
+      from the content, the issuing organization is recognized, and your rules apply tags and
+      categories.
+    3. **Search for it later.** Type a phrase from the contract and it searches the full text of every
+      document, returning results instantly.
+
+    Key capabilities:
+
+    - **OCR makes scans searchable.** That is the core value — a scanned image contains no findable
+      text until OCR runs. The output is a PDF with a text layer, so any reader lets you select the
+      words.
+    - **Automatic classification rules** such as "title contains 'electricity' → tag as Utilities,
+      correspondent is the power company", so similar documents file themselves from then on.
+    - **Originals are preserved.** It does not modify your source files; OCR results are additive.
+    - **Full-text search** with fuzzy matching and advanced queries.
+    - **A mobile-friendly web interface** for uploading straight from a phone camera.
+
+    To be clear about:
+
+    - **Deployment is required and not lightweight.** Docker Compose is the official path, with a
+      database, Redis, an OCR engine and the web service. The documentation is thorough, but **some
+      self-hosting experience helps.**
+    - **OCR is CPU-hungry.** Importing hundreds of documents runs for a long time; a Raspberry Pi
+      manages but slowly, so give it a capable machine if you can.
+    - **Non-English OCR needs the right language packs,** which may not be installed by default.
+      Specifying the language in the configuration improves accuracy considerably.
+    - **It manages documents, not files.** Ideal for contracts and invoices that need long-term archival
+      retrieval, wrong as a general cloud drive — that is Nextcloud's job.
+    - **Backups are critical.** Once you discard the paper originals, this system holds the only copy.
+      **Configure your backup strategy before you start scanning at scale** — at minimum one offsite or
+      offline copy.
+
+    Who it suits: anyone digitizing household paperwork, freelancers and small businesses retaining
+    business records, and everyone tired of knowing they have a document but being unable to find it.
