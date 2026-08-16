@@ -13,7 +13,7 @@ selfMade: false
 added: '2026-07-05'
 tags: [文献管理, 参考文献, 科研, 引用]
 platforms: [windows, macos, linux]
-badges: [open-source, no-ads, no-tracking, offline, cross-platform]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
 tagline:
   zh: 免费的文献与参考管理工具
   en: A free reference and research manager

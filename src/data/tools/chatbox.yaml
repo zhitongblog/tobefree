@@ -13,7 +13,7 @@ selfMade: false
 added: '2026-08-14'
 tags: [大模型客户端, 多模型切换, 本地存储, 提示词管理, 跨平台]
 platforms: [windows, macos, linux, web, ios, android]
-badges: [open-source, no-ads, cross-platform]
+badges: [open-source, no-ads, no-signup, cross-platform]
 tagline:
   zh: 一个窗口切换所有大模型，对话存在本地
   en: One window for every model, with conversations stored locally

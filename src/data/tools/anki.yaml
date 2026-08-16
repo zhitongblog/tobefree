@@ -13,7 +13,7 @@ selfMade: false
 added: '2026-07-05'
 tags: [flashcards, 间隔重复, 记忆, 学习, spaced-repetition]
 platforms: [windows, macos, linux, android, web]
-badges: [open-source, no-ads, no-tracking, offline, cross-platform]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
 tagline:
   zh: 用间隔重复算法，把知识刻进长期记忆的记忆卡片工具
   en: Spaced-repetition flashcards that lock knowledge into long-term memory

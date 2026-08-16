@@ -13,7 +13,7 @@ selfMade: false
 added: '2026-07-05'
 tags: [浏览器, 反追踪, 隐私, browser]
 platforms: [windows, macos, linux, ios, android]
-badges: [open-source, no-ads, no-tracking, cross-platform]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
 tagline:
   zh: 由非营利组织打造、默认保护隐私的开源浏览器
   en: An open-source browser built by a nonprofit that protects privacy by default

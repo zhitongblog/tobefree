@@ -13,7 +13,7 @@ selfMade: false
 added: '2026-08-14'
 tags: [少儿编程, 图形化编程, 教学, 动画, 离线可用]
 platforms: [windows, macos, web, ios, android]
-badges: [no-ads, offline, cross-platform]
+badges: [no-ads, offline, no-signup, cross-platform]
 tagline:
   zh: 用积木块搭出程序，孩子的第一门编程语言
   en: Build programs from blocks — a first programming language for kids
