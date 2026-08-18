@@ -1,0 +1,39 @@
+name: Ghostty
+accent: '#3B7DD8'
+initials: GH
+category: dev
+price: free
+license: 'MIT'
+website: https://ghostty.org
+download: https://github.com/ghostty-org/ghostty/releases
+repo: https://github.com/ghostty-org/ghostty
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [终端, terminal, zig, 原生]
+platforms: [macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "Zig 写的原生终端，2025 年发布后势头最猛"
+  en: "A native terminal written in Zig — the fastest-rising of the group since its 2025 release"
+description:
+  zh: "MIT 开源终端，59,787 颗星，由 HashiCorp 创始人 Mitchell Hashimoto 用 Zig 开发，2025 年正式发布。主打原生平台体验和速度，不做花哨功能，把 AI 之类的事留给外部工具。上线不到两年冲到近六万星。"
+  en: "An MIT-licensed terminal with 59,787 stars, written in Zig by HashiCorp founder Mitchell Hashimoto and released in 2025. It prioritizes native platform feel and speed, avoids feature bloat, and leaves things like AI to external tools. Nearly 60k stars in under two years."
+review:
+  zh: |
+    Ghostty 是这几年终端里势头最猛的一个。2025 年才正式发布，现在 59,787 颗星，MIT 协议，
+    作者是 HashiCorp 的创始人 Mitchell Hashimoto，用 Zig 写的。
+
+    它的取向是原生：在每个平台上用该平台的原生控件和交互，而不是套一层跨平台框架。
+    启动快、滚动顺，不塞额外功能。
+
+    刚出两年，生态和插件比 kitty、WezTerm 少一些；Windows 支持也不如 macOS 和 Linux 成熟。
+  en: |
+    Ghostty is the fastest-rising terminal of recent years. Released in 2025, now at 59,787 stars,
+    MIT-licensed, written in Zig by HashiCorp founder Mitchell Hashimoto.
+
+    Its bet is native: use each platform's own controls and conventions rather than wrapping a
+    cross-platform framework. Startup is fast, scrolling is smooth, and it does not pile on extras.
+
+    Being two years old, its ecosystem and plugin story trail kitty and WezTerm, and Windows support
+    is less mature than macOS and Linux.

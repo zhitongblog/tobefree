@@ -1,0 +1,47 @@
+name: Stable Diffusion WebUI
+accent: '#7C4DFF'
+initials: SD
+category: ai
+price: free
+license: 'AGPL-3.0'
+website: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+download: https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases
+repo: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [ai画图, stable-diffusion, 文生图, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "星数最高的 AI 画图工具，但已停止维护"
+  en: "The most-starred AI image tool — but no longer maintained"
+description:
+  zh: "AGPL-3.0 开源的本地 AI 画图前端，164,499 颗星，是这个领域星数最高、教程最多的项目。但它已经停止维护：最后一次代码提交是 2024 年 7 月 27 日，最新版本 v1.10.1 发布于 2025 年 2 月，仓库里有 2,502 个未关闭的 issue。代码仍可运行，但新模型和新硬件的适配不会再有。"
+  en: "An AGPL-3.0 local AI image front end with 164,499 stars — the most-starred and most-tutorialed project in the space. It is however no longer maintained: the last code commit was 27 July 2024, the last release v1.10.1 in February 2025, and 2,502 issues sit open. It still runs, but support for new models and new hardware is not coming."
+review:
+  zh: |
+    这是大多数中文教程的默认推荐，164,499 颗星，AGPL-3.0。也是这批里最需要先说清状态的。
+
+    **它已经停止维护。** 最后一次代码提交是 2024 年 7 月 27 日，最新版本 v1.10.1 停在
+    2025 年 2 月，仓库里挂着 2,502 个未关闭的 issue。仓库页面上显示的更新时间是分支推送，
+    不是开发——看提交记录才看得出来。
+
+    仓库没有归档，你现在装上照样能出图。但新模型、新特性、新显卡的适配，别指望了。
+    还在跟着两年前的教程装它的人，值得知道这件事。
+
+    要活跃维护的替代品：ComfyUI（节点式，功能最强）或 InvokeAI（图形界面，最好上手）。
+  en: |
+    This is the default recommendation in most tutorials, at 164,499 stars, AGPL-3.0. It is also
+    the one whose status most needs stating up front.
+
+    **It is no longer maintained.** The last code commit was 27 July 2024, the last release v1.10.1
+    landed in February 2025, and 2,502 issues remain open. The "updated" date on the repo page
+    reflects branch pushes, not development — you have to read the commit history to see it.
+
+    The repo is not archived and it still generates images today. But adaptation to new models,
+    features and GPUs is not coming. Anyone still following two-year-old tutorials to install it
+    deserves to know.
+
+    For maintained alternatives: ComfyUI (node-based, most capable) or InvokeAI (GUI, easiest
+    start).

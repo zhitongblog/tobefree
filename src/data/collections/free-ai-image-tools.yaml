@@ -1,0 +1,39 @@
+title:
+  zh: "免费 AI 画图工具"
+  en: "Free AI Image Generation Tools"
+description:
+  zh: "在自己电脑上免费出图的五个工具，全部开源、可离线、不需要注册。含各自维护状态——星数最高的两个已经停更。"
+  en: "Five tools for generating images locally for free — all open source, offline-capable and account-free. Includes maintenance status: the two most-starred are no longer developed."
+intro:
+  zh: "本地 AI 画图现在不需要给谁付订阅费，但选工具时最容易被星数误导。这个专题除了协议和形态，特别标注了每个项目的实际维护状态——星数最高的 Stable Diffusion WebUI 最后一次提交是 2024 年 7 月，Fooocus 的最新版本停在 2024 年 8 月。所有数字截至 2026 年 8 月，可在各自仓库核对。"
+  en: "Local AI image generation no longer needs a subscription, but star counts mislead people when picking a tool. Alongside licence and form factor, this collection calls out each project's actual maintenance status — the most-starred, Stable Diffusion WebUI, last committed in July 2024, and Fooocus's last release was August 2024. All figures verified August 2026 against their repositories."
+criteria:
+  zh:
+    - "开源且免费，核心功能不需要付费。"
+    - "可以完全离线运行，图片不上传到任何服务器。"
+    - "不需要注册账号。"
+    - "维护状态按提交记录和发版日期标注，不看仓库页显示的更新时间。"
+  en:
+    - "Open source and free, with no paid gate on core features."
+    - "Runs fully offline; images never leave your machine."
+    - "No account required."
+    - "Maintenance status recorded from commit history and release dates, not the repository page's updated timestamp."
+tools: [comfyui, stable-diffusion-webui, fooocus, invokeai, swarmui]
+skills: []
+featured: true
+added: '2026-08-18'
+faq:
+  zh:
+    - q: "新手该装哪个？"
+      a: "InvokeAI。图形界面完整、接近正经图像软件，而且还在活跃维护，不用学节点。想要更强的可控性再转 ComfyUI。"
+    - q: "网上都推荐 Stable Diffusion WebUI，为什么这里说它停更？"
+      a: "看提交记录而不是仓库页。最后一次代码提交是 2024 年 7 月 27 日，最新版本 v1.10.1 发布于 2025 年 2 月，2,502 个 issue 未关闭。仓库页显示的较新时间是分支推送，不是开发。它没有归档、现在装也能出图，但新模型和新显卡的适配不会再有。"
+    - q: "硬件要求多高？"
+      a: "工具本身不大，占地方的是模型：一个 SDXL 基础模型通常 6 GB 上下，加上 VAE、LoRA、放大模型，一套十几 GB 很正常。显存建议 8 GB 以上；低于这个数要靠低显存模式，速度会明显下降。没有独立显卡也能用 CPU 跑，但一张图要几分钟到十几分钟。"
+  en:
+    - q: "Which should a beginner install?"
+      a: "InvokeAI. The GUI is complete and behaves like real image software, it is actively maintained, and there are no node graphs to learn. Move to ComfyUI later if you need more control."
+    - q: "Everyone recommends Stable Diffusion WebUI — why call it unmaintained?"
+      a: "Read the commit history rather than the repo page. The last code commit was 27 July 2024, the last release v1.10.1 shipped in February 2025, and 2,502 issues are open. The newer timestamp on the repo page reflects branch pushes, not development. It is not archived and still generates images, but support for new models and GPUs is not coming."
+    - q: "What hardware do I need?"
+      a: "The tools themselves are small; models take the space. An SDXL base model is typically around 6 GB, and with VAEs, LoRAs and upscalers a working set of well over 10 GB is normal. 8 GB of VRAM or more is advisable; below that you rely on low-VRAM modes and speed drops noticeably. CPU-only works but takes minutes to tens of minutes per image."

@@ -1,0 +1,35 @@
+title:
+  zh: "免费终端工具"
+  en: "Free Terminal Emulators"
+description:
+  zh: "八个开源免费的终端，含各自协议、平台与离线可用性。其中七个断网照常使用。"
+  en: "Eight free and open-source terminals with their licences, platforms and offline behaviour. Seven of the eight run with the network unplugged."
+intro:
+  zh: "终端这个品类过去比的是渲染速度、字体和标签页。这两年多了一个以前不会问的问题：你敲进去的命令去哪儿了。这个专题按协议、平台和「能不能完全离线」来分，所有数字截至 2026 年 8 月，可在各自仓库核对。"
+  en: "Terminals used to compete on rendering speed, fonts and tabs. In the last couple of years a new question appeared: where do the commands you type actually go. This collection sorts them by licence, platform and whether they work fully offline. All figures verified August 2026 against their repositories."
+criteria:
+  zh:
+    - "开源且免费，核心功能不需要付费。"
+    - "不需要注册账号即可使用。"
+    - "协议按实际 LICENSE 文件标注，不采信仓库页的自动识别。"
+    - "「完全离线可用」单独标注 —— 终端是敲密码和连生产库的地方。"
+  en:
+    - "Open source and free, with no paid gate on core features."
+    - "No account required to use."
+    - "Licences recorded from the actual LICENSE file, not repository auto-detection."
+    - "Offline capability is called out separately — a terminal is where you type passwords and reach production."
+tools: [windows-terminal, tabby-terminal, alacritty, warp-terminal, ghostty, kitty, wezterm, unterm]
+skills: []
+featured: true
+added: '2026-08-18'
+faq:
+  zh:
+    - q: "八个里该选哪个？"
+      a: "Windows 上不折腾选 Windows Terminal；要跨平台加图形界面配置选 Tabby；要极致速度且习惯 tmux 选 Alacritty；要原生体验和新势头选 Ghostty；要在终端里看图选 kitty；要 Lua 配置和完整多路复用选 WezTerm；要 AI 深度集成且能接受联网选 Warp；要 AI agent 从外部驱动且全程本地选 Unterm。"
+    - q: "Warp 为什么没有「离线可用」和「无追踪」徽章？"
+      a: "因为它自己说明不支持完全离线。官方在取消登录要求的公告里写着 being logged out != being offline：未登录状态遥测仍在发送（可手动关），团队协作与部分 AI 功能仍需账号。它的客户端确实是 AGPL-3.0 开源的，云端 Oz 编排平台仍闭源。"
+  en:
+    - q: "Which of the eight should I pick?"
+      a: "Windows Terminal on Windows if you do not want to tinker; Tabby for cross-platform with GUI configuration; Alacritty for raw speed if you already use tmux; Ghostty for native feel and momentum; kitty to view images inline; WezTerm for Lua configuration and full multiplexing; Warp for deep AI integration if you accept the network requirement; Unterm if you want AI agents driving the terminal from outside with everything local."
+    - q: "Why does Warp lack the offline and no-tracking badges?"
+      a: "Because it states itself that fully offline use is unsupported. In the post dropping the login requirement Warp wrote: being logged out != being offline. Telemetry still flows when signed out (it can be disabled), and team plus some AI features still need an account. Its client is genuinely AGPL-3.0 open source; the Oz cloud orchestration platform is not."

@@ -1,0 +1,39 @@
+name: WezTerm
+accent: '#4E9A06'
+initials: WZ
+category: dev
+price: free
+license: 'MIT'
+website: https://wezterm.org
+download: https://github.com/wez/wezterm/releases
+repo: https://github.com/wez/wezterm
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [终端, terminal, lua, 多路复用]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "Lua 配置的跨平台终端，多路复用做得最完整"
+  en: "A cross-platform terminal configured in Lua, with the most complete multiplexing"
+description:
+  zh: "MIT 开源的跨平台终端，28,408 颗星，用 Rust 写。配置用 Lua，灵活度很高；内置多路复用，不装 tmux 也能做会话分离和远程复用。注意它的协议文件名是 LICENSE.md，GitHub 有时识别不出来，实际是标准 MIT。"
+  en: "An MIT-licensed cross-platform terminal with 28,408 stars, written in Rust. Configuration is Lua, which makes it highly flexible, and multiplexing is built in so you get session detach and remote multiplexing without tmux. Note its licence file is named LICENSE.md, which GitHub sometimes fails to classify — it is standard MIT."
+review:
+  zh: |
+    WezTerm 的强项是多路复用：会话分离、远程复用这些不用另装 tmux，终端自己就做了。
+    28,408 颗星，Rust 写的，跨三个平台。
+
+    配置用 Lua，能写逻辑而不只是填键值，折腾空间很大。
+
+    顺带澄清一个常见误会：GitHub 上它的协议有时显示不出来，是因为文件名叫 LICENSE.md 而不是
+    LICENSE，识别器匹配不上——打开看就是标准 MIT。
+  en: |
+    WezTerm's strength is multiplexing: session detach and remote multiplexing are built in, so you
+    do not need tmux alongside it. 28,408 stars, written in Rust, across all three platforms.
+
+    Configuration is Lua, so you can write logic rather than just fill in key-value pairs — there is
+    a lot of room to tinker.
+
+    One common misconception worth clearing up: GitHub sometimes fails to show its licence because
+    the file is named LICENSE.md rather than LICENSE. Open it and it is standard MIT.

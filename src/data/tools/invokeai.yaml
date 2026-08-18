@@ -1,0 +1,42 @@
+name: InvokeAI
+accent: '#2D9CDB'
+initials: IV
+category: ai
+price: free
+license: 'Apache-2.0'
+website: https://invoke-ai.github.io/InvokeAI/
+download: https://github.com/invoke-ai/InvokeAI/releases
+repo: https://github.com/invoke-ai/InvokeAI
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [ai画图, stable-diffusion, 图形界面, 画布]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "像正经图像软件的 AI 画图工具，画布和局部重绘都在界面里"
+  en: "AI image generation that feels like real image software — canvas and inpainting in the UI"
+description:
+  zh: "Apache-2.0 开源的本地 AI 画图工具，27,896 颗星，走产品化路线：界面接近正经图像软件，画布、图层、局部重绘都在图形界面里完成，不用连节点。协议是这批里最宽松的，2026 年 8 月仍在活跃提交。"
+  en: "An Apache-2.0 local AI image tool with 27,896 stars taking a product-first approach: the interface resembles real image software, with canvas, layers and inpainting all in the GUI rather than a node graph. Its licence is the most permissive here, and it was still receiving commits in August 2026."
+review:
+  zh: |
+    第一次碰本地 AI 画图、又不想学节点的话，InvokeAI 是最省事的入口。27,896 颗星，
+    Apache-2.0，这批里协议最宽松的一个，2026 年 8 月仍在提交代码。
+
+    它做的是产品而不是工作流引擎：画布、图层、局部重绘都在图形界面里，
+    操作方式接近正经图像软件而不是连线板。
+
+    要做复杂流程——批量、多模型串联、精细控制——天花板不如 ComfyUI。
+    但对绝大多数「我想画张图」的需求，它够了而且不折磨人。
+  en: |
+    If this is your first local AI image tool and you do not want to learn node graphs, InvokeAI is
+    the easiest way in. 27,896 stars, Apache-2.0 — the most permissive licence here — and still
+    receiving commits in August 2026.
+
+    It builds a product rather than a workflow engine: canvas, layers and inpainting live in the
+    GUI, and it handles more like real image software than a patch board.
+
+    For complex pipelines — batching, chaining models, fine control — its ceiling is lower than
+    ComfyUI's. But for most "I want to make an image" needs it is enough, and it does not punish
+    you.

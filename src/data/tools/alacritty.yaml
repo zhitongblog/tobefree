@@ -1,90 +1,39 @@
 name: Alacritty
 accent: '#F46D01'
-initials: AC
+initials: AL
 category: dev
 price: free
 license: 'Apache-2.0'
 website: https://alacritty.org
-download: https://github.com/alacritty/alacritty/releases/latest
+download: https://github.com/alacritty/alacritty/releases
 repo: https://github.com/alacritty/alacritty
 featured: false
-popular: false
 selfMade: false
-added: '2026-08-14'
-tags: [终端, gpu加速, 跨平台, 极简, rust]
+added: '2026-08-18'
+tags: [终端, terminal, gpu, 轻量]
 platforms: [windows, macos, linux]
-badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
 tagline:
-  zh: 只做一件事的终端：把字画得又快又准
-  en: A terminal that does one thing — draw text fast and correctly
+  zh: "GPU 渲染的极简终端，故意不做标签页"
+  en: "A GPU-rendered minimal terminal that deliberately omits tabs"
 description:
-  zh: 用 Rust 写的 GPU 加速终端模拟器，三大桌面平台通用。刻意不做标签页和分屏，把这些交给 tmux 或系统窗口管理器，自己专注于渲染性能。配置是一个 TOML 文件。Windows 安装包约 2 MB。
-  en: A GPU-accelerated terminal emulator written in Rust and available on all three desktop platforms. It deliberately omits tabs and splits, leaving those to tmux or your window manager, and concentrates on rendering performance. Configuration is a single TOML file. The Windows installer is about 2 MB.
+  zh: "Apache-2.0 开源的跨平台终端，65,406 颗星，用 Rust 写，GPU 渲染。配置写在 TOML 文件里。它刻意不做标签页和分屏——那些交给 tmux，所以喜欢的人觉得干净，不喜欢的人觉得功能缺失。"
+  en: "An Apache-2.0 cross-platform terminal with 65,406 stars, written in Rust with GPU rendering and configured through a TOML file. It deliberately omits tabs and splits, leaving those to tmux — which reads as clean to some people and as missing features to others."
 review:
   zh: |
-    终端模拟器这个品类有两条路线：一条是往里加功能（标签、分屏、侧边栏、
-    甚至插件系统），另一条是**只把最核心的事做到极致**。Alacritty 走的是第二条。
+    Alacritty 的定位很清楚：把一件事做到最快，其余交给别的工具。65,406 颗星，Apache-2.0，
+    Rust 写的，GPU 渲染。
 
-    它的定位很直白：GPU 渲染，把字符画得尽可能快。大量输出滚动（比如 `cat` 一个大日志、
-    编译输出刷屏）时的表现是它最被认可的地方。65,364 颗星，Apache-2.0，Rust 写的。
+    它不做标签页也不做分屏，官方立场就是那是 tmux 的活。已经在用 tmux 的人会觉得这很干净，
+    没用过 tmux 的人第一反应通常是「怎么连标签页都没有」。
 
-    它刻意**不做**的事情同样是卖点：
-
-    - **没有标签页，没有分屏**。作者的理由是这些事 tmux 做得更好，
-      而且在 tmux 里做的分屏能跟着 SSH 会话走、能断线重连。
-      如果你已经在用 tmux（或 zellij），Alacritty 的"缺失"就不是缺失。
-    - **没有配置界面**。所有设置在一个 TOML 文件里：字体、配色、
-      按键绑定、光标样式、透明度。可以进 Git 版本管理，换机器拷过去就行。
-    - **体积极小**。Windows 安装包 2 MB，macOS 的 dmg 6 MB。
-      对比动辄上百兆的 Electron 系终端，差了两个数量级。
-
-    跨平台是它相对 Windows Terminal 的主要优势：Windows、macOS、Linux 上配置文件通用，
-    在三个系统间切换的人可以保持完全一致的终端环境。
-
-    要说清楚的：
-
-    - **它可能不适合你，如果你不用 tmux**。没有标签页意味着开多个终端要开多个窗口，
-      靠系统的窗口管理来切。习惯 Windows Terminal 那种标签页的人会觉得倒退。
-      **先确认你的工作方式再装。**
-    - **不支持连字（ligature）**。Fira Code、JetBrains Mono 这类字体里
-      `=>`、`!=` 会连成一个符号的效果，Alacritty 一直不支持，这是长期的争议点。
-      在意这个的话看别的终端。
-    - **不内置 SSH 管理、会话保存**这类功能，它就是个渲染器。
-
-    一句话：如果你的工作流已经是"终端 + tmux + 配置文件"，它是最省心的选择；
-    如果你想要开箱即用的标签页和图形化配置，Windows 上用 Windows Terminal，
-    macOS 上用 iTerm2 或 Ghostty 更合适。
+    配置是 TOML 文件，没有图形界面。想点着配就看 Tabby。
   en: |
-    Terminal emulators split into two philosophies: pile on features (tabs, splits, sidebars, even
-    plugin systems), or **do the core job extremely well.** Alacritty takes the second road.
+    Alacritty's position is unambiguous: do one thing as fast as possible and delegate the rest.
+    65,406 stars, Apache-2.0, written in Rust with GPU rendering.
 
-    Its pitch is blunt: GPU rendering, drawing characters as fast as possible. Heavy output — catting
-    a large log, a compiler flooding the screen — is where it earns its reputation. 65,364 stars,
-    Apache-2.0, written in Rust.
+    It has no tabs and no splits, and the project's stance is that those belong to tmux. If you
+    already live in tmux this feels clean; if you do not, the first reaction is usually "it does not
+    even have tabs?"
 
-    What it deliberately **omits** is equally the point:
-
-    - **No tabs, no splits.** The author's reasoning is that tmux does this better, and splits made in
-      tmux follow your SSH session and survive a disconnect. If you already use tmux (or zellij), the
-      "missing" features are not missing.
-    - **No settings UI.** Everything lives in one TOML file: font, colors, keybindings, cursor style,
-      opacity. It version-controls in Git and copies straight to a new machine.
-    - **Tiny.** A 2 MB Windows installer and a 6 MB macOS dmg — two orders of magnitude smaller than
-      Electron-based terminals.
-
-    Cross-platform support is its main advantage over Windows Terminal: one configuration file works
-    on Windows, macOS and Linux, so anyone moving between systems keeps an identical environment.
-
-    To be clear about:
-
-    - **It may not suit you if you do not use tmux.** No tabs means multiple terminals are multiple
-      windows managed by your OS. Anyone used to Windows Terminal's tabs will feel this as a
-      regression. **Check your workflow before installing.**
-    - **No ligature support.** The effect where Fira Code or JetBrains Mono joins `=>` and `!=` into
-      single glyphs has never been supported, and it remains a long-running point of contention. If
-      that matters, choose another terminal.
-    - **No built-in SSH management or session persistence.** It is a renderer.
-
-    In short: if your workflow is already terminal plus tmux plus dotfiles, this is the least
-    troublesome choice. If you want tabs and graphical configuration out of the box, Windows Terminal
-    on Windows or iTerm2 / Ghostty on macOS fits better.
+    Configuration is a TOML file with no GUI. If you want to click through settings, see Tabby.

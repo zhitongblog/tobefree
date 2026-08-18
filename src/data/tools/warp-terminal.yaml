@@ -1,0 +1,50 @@
+name: Warp
+accent: '#01A4FF'
+initials: WP
+category: dev
+price: free
+license: 'AGPL-3.0'
+website: https://www.warp.dev
+download: https://github.com/warpdotdev/Warp/releases
+repo: https://github.com/warpdotdev/Warp
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [终端, terminal, ai, 云端]
+platforms: [windows, macos, linux]
+badges: [open-source, cross-platform, no-ads]
+tagline:
+  zh: "AI 深度集成的终端，但不支持完全离线"
+  en: "A terminal with deep AI integration — but no fully offline mode"
+description:
+  zh: "AGPL-3.0 开源的终端，64,288 颗星，把 AI 做成核心而不是插件。2024 年 11 月取消了登录要求，2026 年 4 月把客户端开源。但官方明确说明「登出不等于离线」：未登录仍发送遥测（可手动关），团队协作与部分 AI 功能仍需账号，完全离线使用不被支持；云端 Oz 编排平台仍闭源。"
+  en: "An AGPL-3.0 terminal with 64,288 stars that treats AI as core rather than a plugin. The login requirement was dropped in November 2024 and the client was open-sourced in April 2026. But the project states plainly that being logged out is not the same as being offline: telemetry still goes out when signed out (it can be disabled), team and some AI features still require an account, fully offline use is unsupported, and the Oz cloud orchestration platform remains closed."
+review:
+  zh: |
+    Warp 是这一批里 AI 集成做得最深的，64,288 颗星，2026 年 4 月客户端以 AGPL-3.0 开源。
+
+    但有一条要写清楚，因为它跟别的终端不是一个性质。Warp 官方在宣布取消登录要求的公告里
+    自己写了一句：**being logged out != being offline**（登出不等于离线）。
+    未登录状态下遥测仍在发送——可以手动关闭——团队协作和部分 AI 功能仍需账号，
+    **完全离线使用不被支持**。它的云端 Oz 编排平台也仍是闭源的。
+
+    终端是敲密码、粘密钥、连生产库的地方。这件事跟笔记软件要联网不是一个量级，
+    所以我们没给它挂「离线可用」和「无追踪」两个徽章。
+
+    功能想要，且不介意这一层，它确实是体验最完整的一个。介意的话，同类里另外七个都能断网跑。
+  en: |
+    Warp has the deepest AI integration of this group, 64,288 stars, with the client open-sourced
+    under AGPL-3.0 in April 2026.
+
+    One thing needs stating plainly, because it differs in kind from the other terminals. In the
+    post announcing that login was no longer required, Warp itself wrote: **being logged out !=
+    being offline**. Telemetry still flows when signed out — it can be turned off — team features
+    and some AI features still need an account, and **fully offline use is not supported**. Its Oz
+    cloud orchestration platform also remains closed source.
+
+    A terminal is where you type passwords, paste keys and connect to production. That is not the
+    same order of concern as a note app wanting the network, which is why we do not give it the
+    offline or no-tracking badges here.
+
+    If you want the features and accept that layer, it is the most complete experience available.
+    If you do not, the other seven all run with the network unplugged.

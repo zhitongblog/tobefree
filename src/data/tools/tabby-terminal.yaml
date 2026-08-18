@@ -1,0 +1,41 @@
+name: Tabby
+accent: '#6C5CE7'
+initials: TB
+category: dev
+price: free
+license: 'MIT'
+website: https://tabby.sh
+download: https://github.com/Eugeny/tabby/releases
+repo: https://github.com/Eugeny/tabby
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [终端, terminal, ssh, 跨平台]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "图形界面配置的跨平台终端，内置 SSH 和串口管理"
+  en: "A cross-platform terminal configured through a GUI, with built-in SSH and serial management"
+description:
+  zh: "MIT 开源的跨平台终端，73,970 颗星。配置全部在图形界面里完成，不用写配置文件；内置 SSH 连接管理和串口工具，适合经常连服务器和硬件设备的人。Electron 架构，比原生终端重。"
+  en: "An MIT-licensed cross-platform terminal with 73,970 stars. Everything is configured in a GUI rather than a config file, and it bundles SSH connection management and serial tooling — handy if you constantly connect to servers or hardware. Electron-based, so heavier than native terminals."
+review:
+  zh: |
+    Tabby 是这一批里对新手最友好的。73,970 颗星，MIT，所有设置都在图形界面里点，
+    不用去学 Lua 或 TOML 配置。
+
+    它内置了 SSH 连接管理和串口工具，经常连服务器、调硬件的人会觉得省事——
+    这些在别的终端里通常要自己配或者另开工具。
+
+    代价是 Electron：启动和内存占用都比 Alacritty、Ghostty 这类原生终端明显重。
+    追求极致轻快的话看别家。
+  en: |
+    Tabby is the most beginner-friendly of this group. 73,970 stars, MIT, and every setting is a
+    click in a GUI rather than a Lua or TOML file to learn.
+
+    It bundles SSH connection management and serial tooling, which saves real effort if you spend
+    your day connecting to servers or debugging hardware — elsewhere that means extra configuration
+    or a second app.
+
+    The cost is Electron: startup time and memory use are noticeably heavier than native terminals
+    like Alacritty or Ghostty. If you want minimal and fast, look elsewhere.

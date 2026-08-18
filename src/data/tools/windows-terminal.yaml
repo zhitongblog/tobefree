@@ -1,97 +1,37 @@
 name: Windows Terminal
-accent: '#0C7BC0'
+accent: '#0F6CBD'
 initials: WT
 category: dev
 price: free
 license: 'MIT'
 website: https://github.com/microsoft/terminal
-download: https://apps.microsoft.com/detail/9n0dx20hk701
+download: https://github.com/microsoft/terminal/releases
 repo: https://github.com/microsoft/terminal
 featured: false
-popular: false
 selfMade: false
-added: '2026-08-14'
-tags: [终端, 命令行, 标签页, wsl, powershell]
+added: '2026-08-18'
+tags: [终端, terminal, windows, 微软]
 platforms: [windows]
-badges: [open-source, no-ads, no-tracking, offline, no-signup]
+badges: [open-source, offline, no-ads, no-signup]
 tagline:
-  zh: 终于，Windows 上有了一个像样的终端
-  en: Windows finally has a terminal worth using
+  zh: "微软官方终端，Windows 上的默认答案"
+  en: "Microsoft's official terminal — the default answer on Windows"
 description:
-  zh: 微软开源的 Windows 终端。支持多标签页和窗格分屏，一个窗口里同时开 PowerShell、CMD、WSL 和 Git Bash。完整支持 Unicode、中文、emoji 和真彩色，字体渲染和 GPU 加速让它比传统控制台流畅得多。
-  en: Microsoft's open-source terminal for Windows. Tabs and split panes let you run PowerShell, CMD, WSL and Git Bash side by side in one window. It has full Unicode, CJK, emoji and true-color support, with GPU-accelerated text rendering that makes it far smoother than the legacy console.
+  zh: "微软官方开源终端，104,622 颗星，是这一批里星数最高的。标签页、分屏、GPU 渲染、配置文件都齐全，Windows 10/11 自带或从商店安装。只支持 Windows。"
+  en: "Microsoft's official open-source terminal and the most-starred of this group at 104,622 stars. Tabs, panes, GPU rendering and profile configuration are all there; it ships with Windows 10/11 or installs from the Store. Windows only."
 review:
   zh: |
-    很长一段时间里，Windows 的命令行体验是被嘲笑的对象：conhost 那个窗口不能开标签页、
-    改字体要进属性对话框、粘贴要右键、中文和 emoji 显示错乱、颜色只有十六种、
-    窗口拖大小会重排文字。相比之下 macOS 和 Linux 的终端好用太多。
+    Windows 上不想折腾就用它。104,622 颗星，MIT，微软自己维护，系统自带或商店一键装。
 
-    Windows Terminal 把这一页翻过去了。104,605 颗星，MIT 开源，微软自己做的，
-    现在也是 Windows 11 的默认终端。
+    标签页、分屏、GPU 渲染、JSON 配置这些该有的都有，跟 WSL、PowerShell、CMD 的集成也是最顺的。
 
-    实际改善的地方：
-
-    - **标签页和分屏**。一个窗口里左边跑 WSL 的 Ubuntu、右边开 PowerShell、
-      再来一个标签页连服务器，Alt+方向键切换窗格。
-    - **各种 Shell 统一入口**。它会自动检测已安装的 PowerShell、CMD、WSL 发行版、
-      Azure Cloud Shell，装了 Git 之后 Git Bash 也能加进来，
-      下拉菜单里选哪个开哪个。
-    - **文字渲染正常了**。中文、日文、emoji、Nerd Font 的图标都能正确显示，
-      真彩色支持让 vim、终端 UI 程序的配色终于正常。
-    - **配置是 JSON 文件**。配色方案、字体、快捷键、启动目录、背景图（甚至半透明毛玻璃）
-      都在 settings.json 里，可以进版本管理，换机器直接拷过去。
-    - **GPU 加速渲染**，大量输出滚动时不卡。
-
-    实用提示：
-
-    - **搭配 PowerShell 7 用**。系统自带的是 Windows PowerShell 5.1，
-      PowerShell 7 是跨平台的新版本，语法和性能都好不少，需要单独安装。
-    - **配色和提示符**可以配合 Starship 这类工具，几行配置就能让提示符显示
-      Git 分支、当前 Python 环境等信息。
-    - **安装渠道**：Microsoft Store 是最省事的（自动更新），
-      也可以用 `winget install Microsoft.WindowsTerminal`，或从 GitHub Releases 拿 msixbundle。
-
-    局限也很清楚：
-
-    - **只有 Windows**。这是它存在的意义，但也意味着跨平台用户需要别的方案
-      （Alacritty、Ghostty、或者 macOS 上的 iTerm2）。
-    - **它只是终端模拟器**，不是 Shell。真正执行命令的是 PowerShell / CMD / bash，
-      终端负责显示和交互。这两个概念第一次接触容易混。
+    唯一的限制很明确：只有 Windows。跨平台的活得看 Tabby、WezTerm 或 Ghostty。
   en: |
-    For a long stretch, the Windows command line was a punchline: the conhost window had no tabs,
-    changing the font meant a properties dialog, pasting meant right-clicking, CJK text and emoji
-    rendered wrong, there were sixteen colors, and resizing reflowed your text. macOS and Linux
-    terminals were simply far better.
+    On Windows, if you do not want to tinker, use this. 104,622 stars, MIT, maintained by
+    Microsoft, and it either ships with the OS or installs from the Store in one click.
 
-    Windows Terminal closed that chapter. 104,605 stars, MIT, built by Microsoft, and now the default
-    terminal in Windows 11.
+    Tabs, panes, GPU rendering and JSON configuration are all present, and integration with WSL,
+    PowerShell and CMD is the smoothest available.
 
-    What actually improved:
-
-    - **Tabs and split panes.** Run WSL Ubuntu on the left, PowerShell on the right, and a server
-      session in another tab, switching panes with Alt and the arrow keys.
-    - **One entry point for every shell.** It detects installed PowerShell versions, CMD, WSL
-      distributions and Azure Cloud Shell automatically, and Git Bash can be added once Git is
-      installed — pick from the dropdown.
-    - **Text renders correctly.** CJK, emoji and Nerd Font glyphs all display properly, and true-color
-      support finally makes vim and terminal UI programs look right.
-    - **Configuration is a JSON file.** Color schemes, fonts, keybindings, starting directories and
-      background images (including acrylic transparency) all live in settings.json, which
-      version-controls and copies to a new machine.
-    - **GPU-accelerated rendering,** so heavy output scrolls without stuttering.
-
-    Practical tips:
-
-    - **Pair it with PowerShell 7.** The version bundled with Windows is PowerShell 5.1; PowerShell 7
-      is the cross-platform successor with better syntax and performance, installed separately.
-    - **For prompts and colors,** combine it with something like Starship — a few lines of
-      configuration puts the Git branch and active Python environment in your prompt.
-    - **Installation:** the Microsoft Store is easiest and auto-updates, or use
-      `winget install Microsoft.WindowsTerminal`, or take the msixbundle from GitHub Releases.
-
-    The limits are clear:
-
-    - **Windows only.** That is its entire purpose, but cross-platform users need something else —
-      Alacritty, Ghostty, or iTerm2 on macOS.
-    - **It is a terminal emulator, not a shell.** PowerShell, CMD or bash execute your commands; the
-      terminal handles display and interaction. The distinction confuses nearly everyone at first.
+    The one limitation is clear: Windows only. For cross-platform work look at Tabby, WezTerm or
+    Ghostty.

@@ -1,0 +1,41 @@
+name: SwarmUI
+accent: '#F2994A'
+initials: SW
+category: ai
+price: free
+license: 'MIT'
+website: https://github.com/mcmonkeyprojects/SwarmUI
+download: https://github.com/mcmonkeyprojects/SwarmUI/releases
+repo: https://github.com/mcmonkeyprojects/SwarmUI
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [ai画图, stable-diffusion, comfyui, 前端]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "套在 ComfyUI 前面的简化界面，底下跑的还是 ComfyUI"
+  en: "A simplified front end over ComfyUI — the engine underneath is still ComfyUI"
+description:
+  zh: "MIT 开源的 AI 画图前端，4,459 颗星。它本身不是引擎，底层跑的是 ComfyUI，前面给你一个表单式的简单界面——既要 ComfyUI 的能力又不想面对节点图的人用它。注意仓库换过地址，现在在 mcmonkeyprojects/SwarmUI 下面，网上不少旧链接已失效。"
+  en: "An MIT-licensed AI image front end with 4,459 stars. It is not an engine itself: ComfyUI runs underneath while SwarmUI provides a form-style interface on top — for people who want ComfyUI's capability without facing the node graph. Note the repository moved and now lives under mcmonkeyprojects/SwarmUI; many older links are stale."
+review:
+  zh: |
+    SwarmUI 的定位是「ComfyUI 的能力，表单的操作」。4,459 颗星，MIT，
+    是这批里星数最少但协议最宽松的。
+
+    底下跑的就是 ComfyUI 引擎，所以模型兼容性跟着 ComfyUI 走；前面那层界面把常用参数
+    做成表单，不用连节点。需要精细控制时还可以切回节点视图。
+
+    一个实际的坑：它换过仓库地址，现在在 mcmonkeyprojects/SwarmUI，
+    网上不少教程指向的旧位置已经不更新了。
+  en: |
+    SwarmUI's pitch is "ComfyUI's capability with a form-based interface". 4,459 stars, MIT — the
+    fewest stars here but the most permissive licence.
+
+    ComfyUI runs underneath, so model compatibility follows ComfyUI, while the layer on top turns
+    common parameters into a form with no node wiring. You can drop back to the node view when you
+    need fine control.
+
+    One practical trap: the repository moved and now lives at mcmonkeyprojects/SwarmUI. Plenty of
+    tutorials still point at the old location, which is no longer updated.

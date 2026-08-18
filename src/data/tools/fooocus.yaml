@@ -1,0 +1,39 @@
+name: Fooocus
+accent: '#E85D75'
+initials: FC
+category: ai
+price: free
+license: 'GPL-3.0'
+website: https://github.com/lllyasviel/Fooocus
+download: https://github.com/lllyasviel/Fooocus/releases
+repo: https://github.com/lllyasviel/Fooocus
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [ai画图, stable-diffusion, 免调参, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "装完就能用、不用调参的 AI 画图工具，已停更"
+  en: "Install-and-go AI image generation with no parameter tuning — development has stopped"
+description:
+  zh: "GPL-3.0 开源的本地 AI 画图工具，52,257 颗星，主打「装完就能用、不用调参」，是这个领域上手门槛最低的一个。但开发已经停止：最新版本 v2.5.5 停在 2024 年 8 月 12 日，之后仅有 CI 依赖的自动升级提交。"
+  en: "A GPL-3.0 local AI image tool with 52,257 stars, built around installing and generating without tuning parameters — the lowest barrier to entry in the space. Development has stopped, though: the last release, v2.5.5, dates from 12 August 2024, with only automated CI dependency bumps since."
+review:
+  zh: |
+    Fooocus 解决的是「我只想出图，不想学参数」这个问题，52,257 颗星，GPL-3.0，
+    上手门槛是这批里最低的。
+
+    但它也停更了。最新版本 v2.5.5 停在 2024 年 8 月 12 日；最近一次提交是 2025 年 9 月的
+    CI 依赖自动升级，不是功能开发，上一次真正的改动要追到 2025 年 1 月。
+
+    现在装还能用，但同样别指望新模型适配。想要类似的省心度又要维护中的，看 InvokeAI。
+  en: |
+    Fooocus answers "I just want images, not parameters", with 52,257 stars, GPL-3.0, and the
+    lowest barrier to entry here.
+
+    It has also stopped. The last release, v2.5.5, dates from 12 August 2024; the most recent commit
+    was an automated CI dependency bump in September 2025, and the last real change was January 2025.
+
+    It still works if you install it now, but again, do not expect new model support. For similar
+    ease with active maintenance, look at InvokeAI.

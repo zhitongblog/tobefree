@@ -1,0 +1,38 @@
+name: kitty
+accent: '#00AA88'
+initials: KT
+category: dev
+price: free
+license: 'GPL-3.0'
+website: https://sw.kovidgoyal.net/kitty/
+download: https://github.com/kovidgoyal/kitty/releases
+repo: https://github.com/kovidgoyal/kitty
+featured: false
+selfMade: false
+added: '2026-08-18'
+tags: [终端, terminal, gpu, 图形协议]
+platforms: [macos, linux]
+badges: [open-source, offline, cross-platform, no-ads, no-signup]
+tagline:
+  zh: "能在终端里直接显示图片的 GPU 终端"
+  en: "A GPU terminal that can display images inline"
+description:
+  zh: "GPL-3.0 开源终端，34,446 颗星，GPU 渲染。它的图形协议做得最早也最完整，可以在终端里直接显示图片和图表；另有丰富的 kitten 扩展。功能强，配置项也多，上手需要读文档。"
+  en: "A GPL-3.0 terminal with 34,446 stars and GPU rendering. Its graphics protocol was the earliest and remains the most complete, letting you display images and charts inline, and its kitten extensions add plenty more. Powerful, with a correspondingly large configuration surface."
+review:
+  zh: |
+    kitty 的独门本事是图形协议：可以在终端里直接把图片、图表画出来，不用切到别的窗口。
+    34,446 颗星，GPL-3.0，GPU 渲染。
+
+    它的 kitten 扩展体系也很完整，从文件传输到 diff 查看都有现成的。
+
+    代价是配置项很多，第一次用基本得翻文档。想开箱即用看 Ghostty 或 Tabby。
+  en: |
+    kitty's distinguishing feature is its graphics protocol: images and charts render inline in the
+    terminal instead of forcing you into another window. 34,446 stars, GPL-3.0, GPU rendering.
+
+    Its kitten extension system is equally complete, covering everything from file transfer to diff
+    viewing out of the box.
+
+    The cost is a large configuration surface — the first run usually means reading the docs. For
+    something that works out of the box, see Ghostty or Tabby.
