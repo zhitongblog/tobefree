@@ -13,7 +13,8 @@
     "deploy": "astro build && wrangler pages deploy dist --project-name tobefree --branch main --commit-dirty=true",
     "admin": "node tools/admin.mjs",
     "cli": "node tools/cli.mjs",
-    "mcp": "node tools/mcp-server.mjs"
+    "mcp": "node tools/mcp-server.mjs",
+    "indexnow": "node tools/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",

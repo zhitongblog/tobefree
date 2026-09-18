@@ -87,10 +87,33 @@ public/
 
 之后每次 `git push`，Cloudflare 自动构建部署。
 
+## 让搜索引擎知道内容更新了
+
+**Google** 走 Search Console，站点地图 `https://tobefree.app/sitemap-index.xml` 已提交，之后它会自己定期来读，不需要每次手动操作。
+
+**Bing / Yandex / Seznam / Naver** 走 IndexNow —— 主动推送，不用等爬虫上门：
+
+```bash
+npm run build
+npm run indexnow            # 只提交内容有变化的页面
+npm run indexnow -- --dry   # 先看看会提交什么，不真发
+npm run indexnow -- --all   # 强制全量提交
+```
+
+它读 `dist/` 里的站点地图，对每个页面的 HTML 算哈希，和 `.indexnow-state.json` 里的上一次记录比对，只推送真正变了的页面（Astro 给静态资源加的文件名哈希会被归一化掉，所以改个 CSS 不会导致 800 页全部重推）。
+
+两个前提：
+
+- 密钥文件 `public/08ee4dfc5d34346c272a60706af04ea3.txt` 必须已经部署上线，否则接口返回 403。所以顺序是**先 push 等部署完成，再跑 indexnow**。
+- Google 不参与 IndexNow，它只补 Bing 那一侧，替代不了 Search Console。
+
+换密钥的话，改 `tools/indexnow.mjs` 里的 `KEY` 并同步重命名 `public/` 下的密钥文件，脚本会检测到密钥变化并自动转为全量提交。
+
 ## 部署前记得改
 
 - `src/consts.ts` 里的 `SITE.url`（改成你的真实域名）和 `SITE.repo`（你的 GitHub 仓库）。
 - `astro.config.mjs` 里的 `SITE_URL`（与上面保持一致）。
+- `tools/indexnow.mjs` 里的 `KEY` 和 `public/<KEY>.txt`（换成你自己生成的密钥，8–128 位 `a-zA-Z0-9-`）。
 
 ---
 
