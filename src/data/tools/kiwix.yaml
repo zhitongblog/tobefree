@@ -1,0 +1,67 @@
+name: Kiwix
+accent: '#2C6BB0'
+initials: KX
+category: learning
+price: free
+license: 'GPL-3.0'
+website: https://www.kiwix.org
+download: https://www.kiwix.org/en/downloads/kiwix-reader/
+repo: https://github.com/kiwix
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [离线维基百科, 离线阅读, zim, 教育, 无网络]
+platforms: [windows, macos, linux, android, ios]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 把整个维基百科装进硬盘，断网也能查
+  en: The whole of Wikipedia on your disk, readable with no network at all
+description:
+  zh: 开源的离线阅读器，读 ZIM 格式的压缩存档。下载一次，整个维基百科、Stack Exchange、古腾堡计划、可汗学院的内容就存在本地硬盘上，之后完全不需要网络。有桌面版、手机版，也能用 kiwix-serve 在局域网里开一个站点给别人访问。
+  en: An open-source offline reader for ZIM archives. Download once and the whole of Wikipedia, Stack Exchange, Project Gutenberg or Khan Academy sits on your local disk, needing no network afterwards. Desktop and mobile apps exist, and kiwix-serve can publish an archive to your local network for others to read.
+review:
+  zh: |
+    GPL-3.0，非营利项目，联合国教科文组织和无国界维基人是它的长期合作方。
+
+    它解决的是一个具体问题：没有网的时候怎么查资料。全套英文维基百科
+    （含图片）压缩后一百多 GB，只要文字的话几十 GB，塞进一块移动硬盘就带走了。
+    打开 Kiwix 直接全文搜索，跳转、目录、图片都在，和在线版体验基本一致。
+
+    可选的存档不只有维基百科：Stack Exchange 全站问答、古腾堡计划的公版书、
+    可汗学院的课程、维基词典、维基教科书、TED 演讲，都有打包好的 ZIM 文件。
+
+    真实用途比听起来多。船上、山里、地下室、飞机上；网络管制或断网地区；
+    给学校机房装一套本地的知识库；末日准备者的硬盘里也常年有一份。
+    kiwix-serve 还能把存档变成局域网里的一个网站，一台树莓派供全教室访问。
+
+    要说清楚的：
+
+    - **存档是静态快照。** 下载那一刻的版本，之后不会自动更新，
+      想要新的就重新下一份完整存档。
+    - 完整版体积很大，下载要挑时间和空间。官方也提供精简版
+      （只要热门条目、只要文字），几个 GB 就能装下。
+  en: |
+    GPL-3.0, a non-profit project with long-standing partners including UNESCO and Wikimedians Without
+    Borders.
+
+    It solves one concrete problem: looking things up with no network. The full English Wikipedia with
+    images compresses to a bit over a hundred gigabytes, or a few tens of gigabytes for text only —
+    small enough to carry on an external drive. Open Kiwix and full-text search, links, contents and
+    images all work much as they do online.
+
+    The available archives go well beyond Wikipedia: all of Stack Exchange's questions and answers,
+    Project Gutenberg's public-domain books, Khan Academy courses, Wiktionary, Wikibooks and TED talks
+    all ship as prepared ZIM files.
+
+    The real uses are more numerous than they sound. Boats, mountains, basements, aeroplanes; regions
+    under network restrictions or outages; a local knowledge base for a school computer room; and a
+    standing copy on a preparedness drive. kiwix-serve turns an archive into a site on your local
+    network, letting one Raspberry Pi serve a whole classroom.
+
+    To be clear about:
+
+    - **Archives are static snapshots** — the version at the moment you downloaded it, with no automatic
+      updates. Getting a newer one means downloading a fresh archive.
+    - Full editions are large and need planning for bandwidth and disk. Official trimmed editions
+      (popular articles only, or text only) fit in a few gigabytes.

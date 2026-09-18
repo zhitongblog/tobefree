@@ -1,0 +1,67 @@
+name: SearXNG
+accent: '#3050FF'
+initials: SX
+category: privacy
+price: free
+license: 'AGPL-3.0'
+website: https://docs.searxng.org
+download: https://searx.space
+repo: https://github.com/searxng/searxng
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [搜索引擎, 元搜索, 无追踪, 自建, 隐私]
+platforms: [web, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 聚合几十个搜索引擎，不记录你，也不给你画像
+  en: Aggregates dozens of search engines, without logging you or building a profile
+description:
+  zh: 开源的元搜索引擎，把 Google、Bing、维基百科、GitHub 等几十个来源的结果聚合到一个页面，中间不插广告、不记录查询、不建立用户画像。可以直接用别人架好的公共实例，也可以用 Docker 在自己的服务器上跑一套。
+  en: An open-source metasearch engine that aggregates results from dozens of sources — Google, Bing, Wikipedia, GitHub and more — onto one page with no injected ads, no query logging and no user profiling. Use a public instance someone else runs, or bring up your own with Docker.
+review:
+  zh: |
+    AGPL-3.0，36.7k 颗星。
+
+    搜索引擎的商业模式决定了它必须认识你：记录查询、拼出画像、卖广告位。
+    SearXNG 把中间这层拆掉——你的请求由它转发给各家引擎，结果聚合回来给你，
+    各家引擎看到的是这台实例的地址而不是你，而实例本身不存查询日志、不建画像、不插广告。
+
+    两种用法。一是直接用公共实例，searx.space 上列着一批，打开就能搜，不用注册。
+    二是自己架，官方提供容器部署，一台小 VPS 或者家里的 NAS 就够。
+
+    结果质量取决于你打开了哪些来源，可以按品类精细配置：搜代码走 GitHub 和
+    Stack Overflow，搜论文走 arXiv 和 Google Scholar，各自独立开关。
+
+    要说清楚的：
+
+    - **公共实例的质量参差很大。** 有的被上游引擎限流，搜几次就开始返回空结果或者验证码，
+      有的维护不勤更新滞后。真要长期用，自建那条路稳得多。
+    - **自建也会撞到限流。** 家宽 IP 或小 VPS 的出口被 Google 认成机器人是常事，
+      好在可以配置成偏重那些不封的来源。
+    - 它不是自己爬网页的独立引擎，上游引擎搜不到的东西它也搜不到。
+  en: |
+    AGPL-3.0, 36,700 stars.
+
+    A search engine's business model requires it to know you: log the queries, assemble a profile, sell
+    the ad slot. SearXNG removes that middle layer — it forwards your request to each upstream engine
+    and aggregates the results, so the engines see the instance rather than you, while the instance
+    itself keeps no query logs, builds no profile and injects no ads.
+
+    Two ways to use it. Take a public instance — searx.space lists a set of them, open one and search,
+    no account. Or run your own; official container deployment makes a small VPS or a home NAS enough.
+
+    Result quality depends on which sources you enable, and the configuration is per-category: code
+    searches through GitHub and Stack Overflow, papers through arXiv and Google Scholar, each toggled
+    independently.
+
+    To be clear about:
+
+    - **Public instances vary a lot.** Some get rate-limited upstream and start returning empty results
+      or captchas after a few searches; some are maintained loosely and lag behind. For sustained use,
+      self-hosting is far steadier.
+    - **Self-hosting hits rate limits too.** A residential IP or small VPS being flagged as a bot by
+      Google is routine, though you can weight the configuration toward sources that do not block.
+    - It is not an independent crawler. Anything the upstream engines cannot find, it cannot find
+      either.

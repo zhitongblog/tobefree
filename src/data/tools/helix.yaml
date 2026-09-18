@@ -1,0 +1,65 @@
+name: Helix
+accent: '#6B5B95'
+initials: HX
+category: dev
+price: free
+license: 'MPL-2.0'
+website: https://helix-editor.com
+download: https://docs.helix-editor.com/install.html
+repo: https://github.com/helix-editor/helix
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [编辑器, 模态编辑, rust, 终端, lsp]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 装完就有 LSP 和语法高亮的模态编辑器，不用配一晚上
+  en: A modal editor with LSP and syntax highlighting out of the box — no night of configuration
+description:
+  zh: 用 Rust 写的终端模态编辑器，语言服务器、tree-sitter 语法高亮、多光标选择全部内置，装完直接能用，不需要装插件和写配置文件。操作模型借鉴 Kakoune，先选后动，跟 Vim 的动词加对象顺序相反。
+  en: A modal terminal editor written in Rust with language server support, tree-sitter syntax highlighting and multiple selections built in — usable the moment it is installed, with no plugins to add and no config file to write. Its editing model follows Kakoune's selection-first approach, the reverse of Vim's verb-then-object order.
+review:
+  zh: |
+    MPL-2.0，46.1k 颗星。
+
+    Neovim 装完是一张白纸，要跑通 LSP、补全、语法高亮、模糊查找，
+    一晚上配 init.lua 是常态，配完还要维护插件之间的兼容。
+    Helix 把这些做进了本体：解压装完，打开一个 Rust 或者 Python 文件，
+    补全和跳转定义已经工作了，语法高亮走 tree-sitter，多光标和模糊查找都在。
+    零配置能干活，这是它最实在的卖点。
+
+    操作模型和 Vim 反着来。Vim 是 `d2w`（动词在前），Helix 是先选中再动作，
+    选择永远可见——你按下删除之前就看得到会删掉什么。用惯 Vim 的人前两天会别扭，
+    但这套模型自洽，多光标编辑时优势明显。
+
+    要说清楚的：
+
+    - **没有插件系统。** 这既是它简单的原因，也是它的天花板：
+      Neovim 里那些 Git 集成、文件树、调试器界面，Helix 现在给不了。
+      插件系统一直在做，但还没落地。重度依赖插件的人别换。
+    - 键位和 Vim 不兼容，肌肉记忆要重新长。只是偶尔改配置文件的话，
+      这个成本不值得付。
+  en: |
+    MPL-2.0, 46,100 stars.
+
+    Neovim arrives as a blank sheet: getting LSP, completion, syntax highlighting and fuzzy finding
+    working is routinely an evening with init.lua, followed by maintaining compatibility between
+    plugins. Helix builds those in. Install it, open a Rust or Python file, and completion and
+    go-to-definition already work, highlighting runs on tree-sitter, multiple selections and fuzzy
+    finding are present. Doing real work at zero configuration is its most concrete selling point.
+
+    The editing model runs opposite to Vim. Vim is `d2w`, verb first; Helix selects first and then acts,
+    with the selection always visible — you see exactly what will be deleted before pressing delete.
+    Long-time Vim users will find the first couple of days awkward, but the model is self-consistent and
+    pays off during multi-cursor editing.
+
+    To be clear about:
+
+    - **There is no plugin system.** That is both why it stays simple and where its ceiling is: the Git
+      integrations, file trees and debugger UIs available in Neovim are not available here. A plugin
+      system has been in progress for a long time and has not landed. Anyone who leans heavily on
+      plugins should stay put.
+    - Keybindings are not Vim-compatible, so the muscle memory has to be regrown. If you only edit a
+      config file occasionally, that cost is not worth paying.

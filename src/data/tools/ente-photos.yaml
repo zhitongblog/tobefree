@@ -1,0 +1,71 @@
+name: Ente Photos
+accent: '#1DB954'
+initials: EP
+category: privacy
+price: freemium
+license: 'AGPL-3.0'
+website: https://ente.com/photos
+download: https://ente.com/download
+repo: https://github.com/ente-io/ente
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [相册, 端到端加密, 谷歌相册替代, 多设备同步, 自建]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 端到端加密的相册，服务器只存密文
+  en: An end-to-end encrypted photo library where the server only ever holds ciphertext
+description:
+  zh: 开源的加密相册，照片在设备上加密后再上传，服务器拿到的是密文，Ente 自己也解不开。覆盖安卓、iOS、Windows、macOS、Linux 和网页端，有人脸识别、地图、回忆这些相册该有的功能，且全部在本地设备上算。服务端 AGPL 开源，可以自己部署。
+  en: An open-source encrypted photo library that encrypts on device before upload, so the server holds only ciphertext that Ente itself cannot decrypt. It covers Android, iOS, Windows, macOS, Linux and the web with the features a photo app should have — face recognition, maps, memories — all computed on your own device. The server is AGPL and self-hostable.
+review:
+  zh: |
+    AGPL-3.0，和已经收录的 Ente Auth 同一家、同一个仓库。
+
+    Google 相册的问题不是不好用，是你的全部照片以明文躺在一家广告公司的服务器上，
+    并且被用来训练模型。Ente 的做法和它家的验证器一致：**照片在你的设备上加密再上传，
+    服务器存的是密文。** 人脸识别、地点聚类、「往年今日」这些功能全部在本机计算，
+    不是把照片传上去让服务器分析。
+
+    免费额度是 10 GB，永久有效，不是试用期。超了之后 50 GB 每月 2.49 美元起。
+    对只想存重要照片的人，10 GB 通常够用；整个手机相册往里灌就得付费。
+
+    如果不想付钱也不想信任它的服务器，服务端代码是 AGPL 开源的，
+    自己找台机器部署一套，客户端指过去就行——这条路完全免费，
+    也是我们给它「可自建」徽章的原因。
+
+    要说清楚的：
+
+    - **需要注册 Ente 账号**，和 Ente Auth 一样，这是端到端加密同步方案的必然代价，
+      所以没有「无需注册」徽章。
+    - **主密码丢了没人能救。** 服务器解不开你的数据，恢复密钥务必单独抄下来存好。
+    - 想完全不联网、纯本地管理照片，看 digiKam；
+      想自建一套功能更全的相册服务，看 Immich。Ente 的定位是这两者之间：
+      官方托管的便利加上端到端加密。
+  en: |
+    AGPL-3.0, from the same company and the same repository as Ente Auth, which we already list.
+
+    The problem with Google Photos is not usability — it is that your entire photo history sits in
+    plaintext on an advertising company's servers and gets used to train models. Ente takes the same
+    approach as its authenticator: **photos are encrypted on your device before upload, and the server
+    stores ciphertext.** Face recognition, location clustering and "on this day" all run locally rather
+    than by shipping photos up for the server to analyse.
+
+    The free tier is 10 GB, permanent rather than a trial. Beyond that, 50 GB starts at $2.49 a month.
+    For keeping the photos that matter, 10 GB usually holds; pushing an entire phone library up means
+    paying.
+
+    If you would rather not pay and would rather not trust their servers, the server code is AGPL —
+    deploy it on a machine of your own and point the clients at it. That path is entirely free, and it
+    is why the self-hostable badge is here.
+
+    To be clear about:
+
+    - **An Ente account is required**, as with Ente Auth. That is inherent to end-to-end encrypted sync,
+      so there is no no-sign-up badge.
+    - **Lose the master password and nobody can help you.** The server cannot decrypt your data. Write
+      the recovery key down and store it separately.
+    - For fully offline local photo management, look at digiKam. For a richer self-hosted photo service,
+      look at Immich. Ente sits between them: hosted convenience with end-to-end encryption.

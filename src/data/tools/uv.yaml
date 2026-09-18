@@ -1,0 +1,72 @@
+name: uv
+accent: '#261230'
+initials: UV
+category: dev
+price: free
+license: 'Apache-2.0 OR MIT'
+website: https://docs.astral.sh/uv/
+download: https://docs.astral.sh/uv/getting-started/installation/
+repo: https://github.com/astral-sh/uv
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [python, 包管理, 虚拟环境, rust, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 一个工具顶掉 pip、poetry、pyenv、virtualenv
+  en: One tool replacing pip, poetry, pyenv and virtualenv
+description:
+  zh: 用 Rust 写的 Python 包与项目管理器，把 pip、pip-tools、pipx、poetry、pyenv、twine、virtualenv 这一堆工具的活合并成一个命令。装依赖比 pip 快 10 到 100 倍，也负责下载和切换 Python 版本本身。作者是做 Ruff 的 Astral 团队。
+  en: A Python package and project manager written in Rust that folds the jobs of pip, pip-tools, pipx, poetry, pyenv, twine and virtualenv into a single command. Dependency installs run 10 to 100 times faster than pip, and it manages downloading and switching Python versions too. Built by Astral, the team behind Ruff.
+review:
+  zh: |
+    Apache-2.0 与 MIT 双协议，8.96 万颗星。
+
+    Python 的工具链长期是一堆各管一段的东西拼起来的：pyenv 管版本，
+    virtualenv 管环境，pip 装包，pip-tools 锁版本，poetry 管项目，pipx 装命令行工具。
+    每个都要单独装、单独学，出问题还要判断是哪一层的锅。
+    uv 把这些合并成一个二进制。
+
+    速度是最直观的差别，官方给的数字是比 pip 快 10 到 100 倍。
+    实际感受是几百个依赖的项目，装环境从「去泡杯咖啡」变成「还没眨眼」。
+    它靠全局缓存和并行解析做到这一点，CI 上省的时间尤其明显。
+
+    它还接管 Python 解释器本身：`uv python install 3.13` 直接下一个版本回来，
+    不用装 pyenv，也不用管系统 Python 被污染。
+    `uv run script.py` 会自动按脚本头部声明的依赖建好临时环境再跑，
+    写单文件小脚本不用先建 venv。
+
+    要说清楚的：
+
+    - **它是 VC 投的公司做的开源项目。** Astral 拿了风险投资，目前工具全部开源免费，
+      商业化路径官方说是面向企业的付费服务，不是把现有工具收费。
+      协议是 Apache-2.0 和 MIT，已发布的版本收不回去，但值得知道背景。
+    - 生态还在迁移期，少数老项目的构建流程和它不完全兼容，
+      遇到怪问题退回 pip 一般能绕过去。
+  en: |
+    Dual-licensed Apache-2.0 and MIT, 89,600 stars.
+
+    Python's toolchain has long been a set of single-purpose pieces bolted together: pyenv for versions,
+    virtualenv for environments, pip to install, pip-tools to lock, poetry for projects, pipx for CLI
+    tools. Each is installed and learned separately, and when something breaks you first have to work
+    out which layer failed. uv collapses all of it into one binary.
+
+    Speed is the most immediate difference — the project claims 10 to 100 times faster than pip. In
+    practice, a project with several hundred dependencies moves from "go make coffee" to done before you
+    blink, achieved through a global cache and parallel resolution. The savings are most visible in CI.
+
+    It also takes over the interpreter itself: `uv python install 3.13` fetches a version directly, with
+    no pyenv and no polluted system Python. `uv run script.py` builds a temporary environment from the
+    dependencies declared in the script header and runs it, so single-file scripts no longer start with
+    creating a venv.
+
+    To be clear about:
+
+    - **This is an open-source project from a venture-funded company.** Astral has taken investment; the
+      tools are currently all open source and free, and the stated commercial path is paid enterprise
+      services rather than charging for these tools. The licences are Apache-2.0 and MIT, so released
+      versions cannot be taken back, but the background is worth knowing.
+    - The ecosystem is still mid-migration, and a few older projects have build flows that do not fully
+      cooperate. Falling back to pip usually works around the odd case.

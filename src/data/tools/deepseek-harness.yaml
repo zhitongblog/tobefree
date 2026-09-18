@@ -1,0 +1,69 @@
+name: DeepSeek Harness
+accent: '#4D6BFE'
+initials: DS
+category: ai
+price: free
+license: 'MIT'
+website: https://deepseek.com/harness/en/
+download: https://github.com/deepseek-ai/deepseek-harness
+repo: https://github.com/deepseek-ai/deepseek-harness
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [agent, 插件架构, 本地运行, 编程助手, 开源]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: DeepSeek 开源的 Agent 运行时，万物皆插件
+  en: DeepSeek's open-source agent runtime, where everything is a plugin
+description:
+  zh: DeepSeek 在 2026 年 8 月 13 日开源的 Agent 运行时，MIT 协议。模型、工具、技能、会话、沙箱、文件系统、调度循环乃至界面本身全部实现为插件，可以替换和扩展。一条 npx 命令在本机起一个 Web 界面，Agent 在你指定的工作目录里读写文件、执行命令。
+  en: An agent runtime DeepSeek open-sourced on 13 August 2026 under the MIT licence. Models, tools, skills, sessions, sandboxes, filesystems, orchestration loops and even the UI are all implemented as swappable, extensible plugins. One npx command brings up a local web UI where the agent reads and edits files in a workspace you choose and runs commands.
+review:
+  zh: |
+    2026 年 8 月 13 日发布，一天破 6.6 万星，现在 21.5 万颗星，MIT 协议，
+    仓库里已经有一万五千多次提交。
+
+    架构上它押的是一件事：**万物皆插件。** 模型、工具、技能、会话、沙箱、文件系统、
+    循环、编排、界面，每一层都是可替换的插件，底座是 Cordis 元框架。
+    这跟大多数 Agent 产品把模型和界面焊死的做法相反——
+    想换推理循环、想接自家的沙箱、想只要内核不要 UI，都是换插件而不是改源码。
+
+    上手是 `npx @deepseek-ai/dsh web`，默认在 http://127.0.0.1:3080 起一个本地 Web 界面。
+    从源码跑也行：clone 之后 `pnpm install && pnpm run build && pnpm dsh web`。
+    另有 headless 模式，方便塞进流水线。
+
+    它是模型无关的，不绑 DeepSeek 自家模型。
+
+    要说清楚的：
+
+    - **现在是 developer preview，官方明说会有破坏性变更。** 它迭代得很快，
+      今天写的插件下个版本可能要改。真拿它做长期依赖之前掂量一下。
+    - **界面是浏览器里的 Web UI，不是 TUI。** 习惯纯终端的人可能更喜欢 OpenCode。
+    - 模型仍然要自己接，token 费用付给模型服务商。接本地模型则不花钱。
+  en: |
+    Released on 13 August 2026, past 66,000 stars within a day and now at 215,900, MIT-licensed, with
+    more than fifteen thousand commits in the repository.
+
+    Architecturally it bets on one idea: **everything is a plugin.** Models, tools, skills, sessions,
+    sandboxes, filesystems, loops, orchestration and the UI are each a replaceable plugin on top of the
+    Cordis meta-framework. That is the opposite of most agent products, which weld the model and the
+    interface together — swapping the reasoning loop, attaching your own sandbox or taking the core
+    without the UI is a plugin change rather than a fork.
+
+    Getting started is `npx @deepseek-ai/dsh web`, which serves a local web UI at http://127.0.0.1:3080
+    by default. From source it is clone, then `pnpm install && pnpm run build && pnpm dsh web`. A
+    headless mode exists for pipelines.
+
+    It is model-agnostic and not tied to DeepSeek's own models.
+
+    To be clear about:
+
+    - **This is a developer preview and the project says compatibility-breaking changes are expected.**
+      It moves fast, and a plugin written today may need edits next version. Weigh that before making
+      it a long-term dependency.
+    - **The interface is a browser-based web UI, not a TUI.** Terminal purists will likely prefer
+      OpenCode.
+    - You still bring your own model, and token costs go to the model provider. Local models cost
+      nothing.

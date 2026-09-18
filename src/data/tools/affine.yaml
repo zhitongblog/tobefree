@@ -1,0 +1,68 @@
+name: AFFiNE
+accent: '#1E96EB'
+initials: AF
+category: productivity
+price: free
+license: 'MIT'
+website: https://affine.pro
+download: https://affine.pro/download
+repo: https://github.com/toeverything/AFFiNE
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [notion替代, 白板, 文档, 本地优先, 自建]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 文档、白板、表格是同一份数据的三种视图
+  en: Docs, whiteboard and tables as three views of the same data
+description:
+  zh: 开源的知识工作空间，把 Notion 那样的块编辑器和 Miro 那样的无限白板做成同一份内容的两种视图——同一段文字既能在文档里排版，也能拖到白板上当卡片用。本地优先，数据存在自己的磁盘上，断网照常写，社区版 MIT 协议可自建。
+  en: An open-source knowledge workspace where a Notion-style block editor and a Miro-style infinite canvas are two views of the same content — the same paragraph can be laid out in a document and dragged onto the whiteboard as a card. Local-first, with data on your own disk, fully usable offline, and the MIT-licensed community edition is self-hostable.
+review:
+  zh: |
+    MIT 协议（社区版），72.3k 颗星。
+
+    Notion 的替代品有一批，AFFiNE 的差异化在于它不把文档和白板当成两个模块。
+    同一份内容，切一下就是另一种呈现：在 Page 模式里是带层级的文档，
+    在 Edgeless 模式里是可以随便拖动、连线、缩放的无限画布。
+    做提案、理架构、边写边画的场景下，这比在 Notion 和 Miro 之间来回复制粘贴省事。
+
+    数据是本地优先的。装了桌面版之后不登录也能用，文件写在自己的磁盘上，
+    断网继续写。想多设备同步再考虑云端或者自建服务端。
+
+    要说清楚的：
+
+    - **自建需要一套服务端。** 官方镜像要配 PostgreSQL 和 Redis，
+      不是解压即用的那种。只在一台电脑上用的话，本地模式就够了，不用碰这些。
+    - **企业版是闭源的。** MIT 的是社区版，SSO、换品牌这类企业功能在闭源的
+      Enterprise Edition 里。个人和小团队用不到。
+    - 块编辑器的成熟度和 Notion 还有距离，复杂表格、数据库视图和大批量导入
+      偶尔会卡。想要纯本地、极稳的个人知识库，思源笔记或 Trilium 更合适；
+      要文档加白板一体，这个是目前最顺的。
+  en: |
+    MIT-licensed (community edition), 72,300 stars.
+
+    There is no shortage of Notion alternatives; AFFiNE's difference is refusing to treat documents and
+    whiteboards as two separate modules. The same content switches presentation: Page mode gives a
+    hierarchical document, Edgeless mode gives an infinite canvas you can drag, connect and zoom. For
+    drafting proposals, working out an architecture or writing and sketching at once, that beats
+    copy-pasting between Notion and Miro.
+
+    Data is local-first. The desktop build works without signing in, files land on your own disk, and
+    it keeps working with the network unplugged. Cloud or a self-hosted server only enters the picture
+    when you want multi-device sync.
+
+    To be clear about:
+
+    - **Self-hosting means running a server.** The official image expects PostgreSQL and Redis; this is
+      not an unzip-and-go deployment. If you only use one computer, local mode covers it and you never
+      touch any of that.
+    - **The enterprise edition is closed source.** MIT covers the community edition; SSO, rebranding and
+      similar enterprise features live in the proprietary Enterprise Edition. Individuals and small
+      teams will not meet that wall.
+    - The block editor still trails Notion in polish, and complex tables, database views and bulk
+      imports occasionally stutter. For a purely local, rock-steady personal knowledge base, SiYuan or
+      Trilium fit better; for documents and whiteboard in one surface, this is the smoothest option
+      available.

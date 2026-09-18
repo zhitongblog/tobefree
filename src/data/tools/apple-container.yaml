@@ -1,0 +1,64 @@
+name: Apple Container
+accent: '#555555'
+initials: AC
+category: dev
+price: free
+license: 'Apache-2.0'
+website: https://github.com/apple/container
+download: https://github.com/apple/container/releases
+repo: https://github.com/apple/container
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [容器, docker替代, macos, swift, 虚拟化]
+platforms: [macos, cli]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 苹果官方的容器工具，一个容器一台微虚机
+  en: Apple's own container tool — one lightweight VM per container
+description:
+  zh: 苹果开源的命令行工具，用 Swift 写成，在 Apple 芯片的 Mac 上跑 Linux 容器。每个容器有独立的轻量虚拟机，通过 macOS 虚拟化框架启动，隔离性比共享一台虚拟机的方案更强。完全兼容 OCI，Docker Hub 上的镜像不用改就能跑。
+  en: An open-source command-line tool from Apple, written in Swift, that runs Linux containers on Apple silicon Macs. Each container gets its own lightweight virtual machine launched through the macOS Virtualization framework, giving stronger isolation than approaches that share a single VM. It is fully OCI-compatible, so images from Docker Hub run unmodified.
+review:
+  zh: |
+    2026 年 6 月 9 日发布 1.0，Apache-2.0，49.8k 颗星。
+
+    收录它的直接理由是 Docker Desktop 的授权条款：员工超过 250 人或年营收超过
+    1000 万美元的公司商用需要付费订阅。Apple Container 没有这一层，
+    Apache-2.0，商用免费，没有功能墙。
+
+    技术上的差别在隔离粒度。Docker Desktop 在 Mac 上是起一台共享虚拟机，
+    所有容器跑在里面；Apple Container 给每个容器单独起一台轻量微虚机，
+    走 macOS 的虚拟化框架。安全边界更清楚，一个容器炸了不牵连别的。
+    镜像层面完全 OCI 兼容，`docker pull` 拉的东西它照样能跑。
+
+    要说清楚的：
+
+    - **只支持 Apple 芯片，且要 macOS 26 或更新。** Intel Mac 完全用不了，
+      继续用 Docker Desktop 或者别的方案。
+    - **没有 Docker Compose。** 多容器编排要自己想办法，
+      这是目前和 Docker Desktop 差距最明显的地方。
+    - 项目还年轻，各种边角便利功能不如 Docker 生态齐全。
+      日常只是「跑几个容器」的话够用，重度依赖 Compose 和图形界面的先别急着换。
+  en: |
+    Version 1.0 landed on 9 June 2026. Apache-2.0, 49,800 stars.
+
+    The direct reason to list it is Docker Desktop's licensing: companies above 250 employees or ten
+    million dollars in annual revenue need a paid subscription for commercial use. Apple Container has
+    no such layer — Apache-2.0, free commercially, no feature paywalls.
+
+    The technical difference is isolation granularity. On a Mac, Docker Desktop runs one shared virtual
+    machine with every container inside it. Apple Container gives each container its own lightweight
+    micro-VM through the macOS Virtualization framework, so the security boundary is sharper and one
+    container blowing up does not touch the others. At the image level it is fully OCI-compatible, so
+    anything you would `docker pull` still runs.
+
+    To be clear about:
+
+    - **Apple silicon only, and macOS 26 or later.** Intel Macs cannot use it at all and should stay on
+      Docker Desktop or another option.
+    - **No Docker Compose.** Multi-container orchestration is on you, and this is the most visible gap
+      against Docker Desktop today.
+    - The project is young and lacks many of the small conveniences the Docker ecosystem accumulated.
+      Fine if your day is "run a few containers"; hold off if you lean heavily on Compose and a GUI.

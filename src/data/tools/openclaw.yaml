@@ -1,0 +1,76 @@
+name: OpenClaw
+accent: '#E2523B'
+initials: OC
+category: ai
+price: free
+license: 'MIT'
+website: https://openclaw.ai
+download: https://docs.openclaw.ai/
+repo: https://github.com/openclaw/openclaw
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [ai助理, agent, 本地运行, 自动化, telegram]
+platforms: [windows, macos, linux, ios, android, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 跑在自己机器上的 AI 助理，在你已有的聊天软件里找你
+  en: An AI assistant that runs on your own machine and meets you in the chat apps you already use
+description:
+  zh: 开源的个人 AI Agent，装在自己的电脑上，通过 Telegram、Discord、Slack、iMessage 等 20 多个通道跟你对话，也有 macOS、Windows、Linux、iOS、安卓的原生客户端。它不只回答问题，还会调用工具、执行任务，凭据、记忆和状态都存在你自己的硬件上。
+  en: An open-source personal AI agent that installs on your own computer and talks to you through Telegram, Discord, Slack, iMessage and 20-plus other channels, with native clients for macOS, Windows, Linux, iOS and Android. It does not just answer — it calls tools and carries out tasks, while credentials, memory and state stay on your own hardware.
+review:
+  zh: |
+    MIT 协议，38.9 万颗星，作者是 PSPDFKit 的创始人 Peter Steinberger。
+
+    它和 ChatGPT 那类产品的区别在于运行位置。装在自己电脑上，一条
+    `curl -fsSL https://openclaw.ai/install.sh | bash` 装完，再跑
+    `openclaw onboard --install-daemon` 配好网关，之后它就常驻在后台。
+    你在 Telegram 里给它发一句话，它在你的机器上读文件、跑命令、调外部服务，
+    再把结果发回聊天窗口。凭据和长期记忆写在本机磁盘上，没有托管服务这一层。
+
+    通道是它最不一样的地方。50 多个集成，覆盖聊天软件、模型供应商、日程与笔记、
+    音乐、智能家居、自动化工具。它不要求你打开某个专门的 App——
+    你已经在用微信之外的哪个通讯软件，它就出现在哪儿。
+
+    另一个设计是它能给自己写技能：遇到没有现成工具的活，它写代码把能力补上，
+    并且记住你的偏好。
+
+    要说清楚的：
+
+    - **模型要自己接。** OpenClaw 本身不收钱，但它背后连的是哪家模型由你决定，
+      接云端 API 就要按 token 付费给模型服务商，接 Ollama 上的本地模型则完全免费。
+      「免费」指的是这个软件，不是整套方案的成本。
+    - **它的权限非常大。** 能读你的文件、执行命令、登录你的聊天账号、自己写代码。
+      这是它有用的原因，也是风险来源。装之前想清楚给它开多大口子，
+      别在放着敏感数据和生产凭据的机器上第一次试。
+    - 没给「离线可用」徽章，理由和 Cline 一样：软件能离线跑，整套系统是否离线
+      取决于你接的模型在本地还是云端。
+  en: |
+    MIT-licensed, 389,200 stars, written by PSPDFKit founder Peter Steinberger.
+
+    What separates it from something like ChatGPT is where it runs. It installs on your own machine —
+    `curl -fsSL https://openclaw.ai/install.sh | bash`, then `openclaw onboard --install-daemon` to
+    configure the gateway — and lives in the background from then on. Send it a line in Telegram and it
+    reads files, runs commands and calls external services on your computer, then replies in the chat
+    window. Credentials and long-term memory are written to your own disk; there is no hosted layer.
+
+    The channel coverage is the unusual part. More than 50 integrations spanning chat apps, model
+    providers, calendars and notes, music, smart home and automation tools. It does not ask you to open
+    a dedicated app — it shows up in whichever messenger you already live in.
+
+    It also writes its own skills: when there is no ready-made tool for a job, it writes the code to
+    add the capability, and it remembers your preferences.
+
+    To be clear about:
+
+    - **You bring the model.** OpenClaw charges nothing, but you decide what backs it. A cloud API is
+      billed per token by the model provider; a local model served by Ollama costs nothing. "Free"
+      describes this software, not the total cost of the arrangement.
+    - **It holds very broad permissions.** It reads your files, executes commands, signs into your chat
+      accounts and writes its own code. That is why it is useful and also where the risk lives. Decide
+      how wide to open the door before installing, and do not run your first experiment on a machine
+      holding sensitive data or production credentials.
+    - No offline badge, for the same reason as Cline: the software runs offline, but whether the whole
+      system does depends on whether your model is local or in the cloud.

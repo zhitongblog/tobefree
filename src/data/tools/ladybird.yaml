@@ -1,0 +1,69 @@
+name: Ladybird
+accent: '#D64B4B'
+initials: LB
+category: browser
+price: free
+license: 'BSD-2-Clause'
+website: https://ladybird.org
+repo: https://github.com/LadybirdBrowser/ladybird
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [浏览器, 独立引擎, 开发中, 非营利, 开源]
+platforms: [linux, macos]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 十年来第一个全新浏览器引擎，还没到能用的阶段
+  en: The first new browser engine in a decade — and not yet usable
+description:
+  zh: 从零写的独立浏览器，不基于 Chromium、WebKit 或 Gecko，是十多年来唯一一个全新的浏览器引擎。多进程架构，渲染、图片解码、网络各自独立。由非营利组织开发，Shopify、Cloudflare、Proton、JetBrains 提供赞助。目前处于 pre-alpha，官方定位是「只适合开发者使用」。
+  en: An independent browser written from scratch, based on neither Chromium, WebKit nor Gecko — the only genuinely new browser engine in over a decade. It uses a multi-process architecture with separate renderer, image decoder and network processes. Development is run by a non-profit with sponsorship from Shopify, Cloudflare, Proton and JetBrains. It is currently pre-alpha and, in the project's own words, "only suitable for use by developers".
+review:
+  zh: |
+    66.1k 颗星，BSD-2-Clause，一个从零开始写的浏览器引擎。
+
+    先把话说在前面：**现在下载不到成品。** 官网没有 alpha 版，也没有 nightly 构建，
+    唯一的用法是自己 clone 源码编译。官方路线图写的是 Alpha 2026，先出 Linux 和 macOS，
+    Windows 要更晚，安卓和 iOS 等桌面版稳定之后再说。所以这一条不是「装上试试」，
+    是「知道有这么件事在发生」。
+
+    它值得记一笔的原因是格局。今天的浏览器只剩三个引擎：Chromium、WebKit、Gecko，
+    而 WebKit 和 Gecko 的市场份额一年比一年小。Web 标准事实上正在变成
+    「Chromium 实现了什么」。Ladybird 是十多年来唯一一个认真从头写引擎的项目，
+    背后是非营利组织，没有广告业务，也没有把搜索默认权卖给谁的动机——
+    这跟 Firefox 收 Google 几亿美元换默认搜索引擎的处境完全不同。
+
+    2026 年的进展包括文件下载、浏览历史、默认沙箱化，以及代码库往 Rust 迁移。
+
+    要说清楚的：
+
+    - **不能当主力浏览器，现在也当不了。** 想要一个干净的日用浏览器，
+      看 LibreWolf、Zen 或 Mullvad Browser。
+    - 收录它是因为它满足硬性标准（免费、无广告、无追踪、不要账号），
+      并且是这个品类里唯一的结构性变量。成熟度请按 pre-alpha 理解。
+  en: |
+    66,100 stars, BSD-2-Clause, a browser engine written from nothing.
+
+    The important part first: **there is no build you can download.** The site offers no alpha and no
+    nightlies; the only way to run it is to clone the source and compile it yourself. The roadmap
+    targets an Alpha in 2026 for Linux and macOS, with Windows later and Android and iOS only once the
+    desktop versions are solid. So this is not "install it and see" — it is "know that this is
+    happening".
+
+    It earns an entry because of the shape of the market. Three engines remain: Chromium, WebKit and
+    Gecko, and the share held by the latter two shrinks every year. Web standards are drifting toward
+    "whatever Chromium implemented". Ladybird is the only serious from-scratch engine effort in over a
+    decade, run by a non-profit with no advertising business and no incentive to sell a default search
+    slot — a very different position from Firefox taking hundreds of millions from Google for exactly
+    that.
+
+    Progress during 2026 includes file downloads, browsing history, sandboxing by default, and migrating
+    the codebase to Rust.
+
+    To be clear about:
+
+    - **It cannot be your daily browser, and will not be for a while.** For a clean everyday browser,
+      look at LibreWolf, Zen or Mullvad Browser.
+    - It is listed because it meets the hard criteria — free, no ads, no tracking, no account — and
+      because it is the only structural variable in this category. Read its maturity as pre-alpha.

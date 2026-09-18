@@ -1,0 +1,66 @@
+name: OpenCode
+accent: '#1F2937'
+initials: OP
+category: ai
+price: free
+license: 'MIT'
+website: https://opencode.ai
+download: https://opencode.ai/docs/
+repo: https://github.com/sst/opencode
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [ai编程, 终端, 编程助手, 自带api, 开源]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-signup, cross-platform]
+tagline:
+  zh: 终端里的开源编程 Agent，接得上 75 家模型
+  en: An open-source coding agent for the terminal, wired to 75-plus model providers
+description:
+  zh: 跑在终端里的 AI 编程 Agent，能读代码库、改文件、执行命令、跑测试并根据报错继续修。除了终端界面，还有 macOS、Windows、Linux 桌面版和 IDE 扩展。模型接哪家由你决定，支持 75 家以上的供应商，也包括本地模型。
+  en: An AI coding agent that lives in your terminal, reading a codebase, editing files, running commands and tests, then iterating on the errors. Besides the terminal UI there are desktop builds for macOS, Windows and Linux plus IDE extensions. You choose the model from 75-plus providers, local ones included.
+review:
+  zh: |
+    MIT 协议，20.5 万颗星，950 位贡献者，作者是 SST 团队和 terminal.shop 那帮人。
+
+    Cline 长在 VS Code 里，OpenCode 长在终端里。这个区别决定了它适合谁：
+    习惯 tmux、Neovim、ssh 上服务器干活的人，不用为了让 AI 帮忙而切回图形编辑器。
+    界面是个 TUI，也提供桌面客户端和 IDE 扩展，三种入口共用同一个 Agent。
+
+    模型这块它做得比大多数同类彻底：75 家以上的供应商，Claude、GPT、Gemini
+    都能接，Ollama 上的本地模型也能接。装法给到了 npm、Homebrew、Scoop、
+    Chocolatey、Pacman、Nix，Windows 上不用折腾 WSL。
+
+    要说清楚的：
+
+    - **模型按 token 花钱。** OpenCode 自己一分不收，但复杂任务跑一轮消耗不小，
+      费用付给模型服务商。接本地模型则免费，代价是复杂重构任务上明显更弱。
+    - **它内置了一批「免费模型」，但要登录账号才能用。** 官方叫 OpenCode Zen，
+      是他们自己筛选和跑过基准的模型路由。不登录也能用，前提是你自己填 API Key。
+      我们按「自己带 Key」这条路收录，所以给了「无需注册」徽章。
+    - 它不存你的代码和上下文——这是官方明确写的。但请注意，你接的那家模型服务商
+      存不存是另一回事，取决于你选谁。
+  en: |
+    MIT-licensed, 205,800 stars, 950 contributors, built by the SST team and the people behind
+    terminal.shop.
+
+    Cline lives inside VS Code; OpenCode lives in the terminal. That difference decides who it suits:
+    people working in tmux, Neovim and over ssh, who would rather not switch back to a GUI editor just
+    to get AI help. The interface is a TUI, with desktop clients and IDE extensions on top — three
+    front doors onto the same agent.
+
+    Model support is more thorough than most: 75-plus providers covering Claude, GPT and Gemini, plus
+    local models through Ollama. Installation is offered via npm, Homebrew, Scoop, Chocolatey, Pacman
+    and Nix, so Windows does not require a WSL detour.
+
+    To be clear about:
+
+    - **Models are billed per token.** OpenCode takes nothing, but a complex task consumes a real
+      amount, paid to the model provider. Local models are free and noticeably weaker on large
+      refactoring work.
+    - **It ships a set of "free included models" that require signing in.** That is OpenCode Zen, their
+      own benchmarked model routing. You can skip it entirely by supplying your own API key, and that
+      bring-your-own-key path is what we list here, which is why it keeps the no-sign-up badge.
+    - It does not store your code or context — that is stated by the project. Whether the model provider
+      you connect to stores anything is a separate question that depends on who you pick.

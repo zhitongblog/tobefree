@@ -1,0 +1,73 @@
+name: UniGetUI
+accent: '#0078D4'
+initials: UG
+category: utility
+price: free
+license: 'MIT'
+website: https://www.marticliment.com/unigetui/
+download: https://github.com/marticliment/UniGetUI/releases
+repo: https://github.com/marticliment/UniGetUI
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [软件管理, winget, scoop, 批量更新, windows]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 给 winget、Scoop、Chocolatey 套一个图形界面，装更新卸都在一处
+  en: A graphical front end for winget, Scoop and Chocolatey — install, update and remove in one place
+description:
+  zh: Windows 上的软件管理界面，把 WinGet、Scoop、Chocolatey、pip、npm、Cargo、.NET Tool、vcpkg 这些包管理器统一到一个窗口里。搜索、安装、批量更新、卸载都点鼠标完成，也能导出一份软件清单，换电脑后一次性装回来。
+  en: A software management interface for Windows that unifies WinGet, Scoop, Chocolatey, pip, npm, Cargo, .NET Tool and vcpkg into one window. Search, install, bulk-update and uninstall by mouse, and export a package list to reinstall everything at once on a new machine.
+review:
+  zh: |
+    MIT 协议，2.61 万颗星。
+
+    Windows 装软件的传统路径是搜索引擎、下载站、捆绑安装包、四个「推荐安装」的勾。
+    WinGet 解决了这个问题，但它是命令行的，多数人不会天天开终端敲
+    `winget upgrade --all`。UniGetUI 就是给这套东西套一个图形界面。
+
+    最实用的是批量更新：打开就列出所有可更新的软件，全选，点更新，
+    它在后台逐个走各自的包管理器。以前要挨个打开每个软件点「检查更新」，
+    现在是一个下午变成两分钟。
+
+    第二实用的是导出清单。装机时把软件列表导出成文件，
+    换电脑或重装系统之后导入，它按列表把几十个软件一次装完，不用再一个个找官网。
+
+    它支持的不只是 WinGet：Scoop、Chocolatey、PowerShell 模块、
+    以及 pip、npm、Cargo、.NET Tool、vcpkg 这些开发者的包管理器都在一个界面里。
+
+    要说清楚的：
+
+    - **它是界面，不是软件源。** 装什么、从哪装，取决于底下的包管理器。
+      某个软件 WinGet 源里没有，这里也搜不到。
+    - **项目在 2026 年被 Devolutions 收购**，原作者 Martí Climent 交出了项目，
+      收购后仍保持 MIT 开源和免费。所有权变了的项目值得多留意一眼后续走向。
+  en: |
+    MIT-licensed, 26,100 stars.
+
+    Installing software on Windows traditionally means a search engine, a download portal, a bundled
+    installer and four "recommended" checkboxes. WinGet fixed that, but it lives on the command line and
+    most people are not going to open a terminal daily to type `winget upgrade --all`. UniGetUI puts a
+    graphical interface on top.
+
+    Bulk updating is the most useful part: open it and every updatable package is listed, select all,
+    click update, and it works through each package manager in the background. What used to be opening
+    each application and clicking "check for updates" becomes two minutes.
+
+    Exporting a package list comes second. Export your software list to a file, then import it after
+    switching machines or reinstalling Windows, and it installs dozens of applications in one pass with
+    no hunting for official download pages.
+
+    It covers more than WinGet: Scoop, Chocolatey, PowerShell modules, plus developer package managers
+    like pip, npm, Cargo, .NET Tool and vcpkg all share the one interface.
+
+    To be clear about:
+
+    - **It is an interface, not a source.** What you can install and where it comes from is decided by
+      the package manager underneath. If something is missing from the WinGet source, it is missing
+      here.
+    - **Devolutions acquired the project in 2026**, with original author Martí Climent handing it over;
+      it has stayed MIT-licensed and free since. A project that changed ownership is worth watching a
+      little more closely.

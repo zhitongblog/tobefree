@@ -16,18 +16,18 @@ criteria:
     - Free features can support real note, knowledge base or collaboration workflows.
     - Exportable, local-first or open-source tools are prioritized.
     - Personal notes, team collaboration and Markdown writing are all covered.
-tools: [obsidian, logseq, joplin, appflowy, trilium-notes, zettlr, zim, solomd]
+tools: [obsidian, logseq, joplin, appflowy, affine, siyuan, anytype, trilium-notes, zettlr, zim, solomd]
 skills: [obsidian-mcp, filesystem-mcp, notion-mcp]
 faq:
   zh:
     - q: 哪个最像 Notion？
-      a: AppFlowy 更接近 Notion 的块编辑和协作方向；Obsidian、Logseq、Joplin 更偏个人知识管理和本地数据。
+      a: AppFlowy 和 AFFiNE 最接近 Notion 的块编辑和协作方向，其中 AFFiNE 还把无限白板和文档做成了同一份内容的两种视图；Obsidian、Logseq、Joplin、思源笔记更偏个人知识管理和本地数据。
     - q: 想离线使用选哪个？
-      a: Obsidian、Joplin、Logseq、Zettlr、Zim 都更适合离线和本地文件工作流。
+      a: Obsidian、Joplin、Logseq、Zettlr、Zim、思源笔记、Anytype 都更适合离线和本地文件工作流。其中思源笔记的数据是本地 Markdown 文件，Anytype 走点对点同步加端到端加密，都不需要中心服务器。
   en:
     - q: Which one feels closest to Notion?
-      a: AppFlowy is closer to Notion-style block editing and collaboration. Obsidian, Logseq and Joplin lean more toward personal knowledge management and local data.
+      a: AppFlowy and AFFiNE are closest to Notion-style block editing and collaboration, and AFFiNE additionally makes an infinite whiteboard and a document two views of the same content. Obsidian, Logseq, Joplin and SiYuan lean more toward personal knowledge management and local data.
     - q: Which alternatives are best offline?
-      a: Obsidian, Joplin, Logseq, Zettlr and Zim fit offline and local-file workflows better.
+      a: Obsidian, Joplin, Logseq, Zettlr, Zim, SiYuan and Anytype all fit offline and local-file workflows better. SiYuan stores data as local Markdown files and Anytype syncs peer-to-peer with end-to-end encryption, so neither needs a central server.
 featured: false
 added: '2026-07-20'

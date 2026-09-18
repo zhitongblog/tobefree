@@ -1,0 +1,72 @@
+name: SiYuan
+accent: '#D23F31'
+initials: SY
+category: productivity
+price: freemium
+license: 'AGPL-3.0'
+website: https://b3log.org/siyuan/
+download: https://b3log.org/siyuan/download.html
+repo: https://github.com/siyuan-note/siyuan
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [思源笔记, 双链笔记, 块引用, 本地优先, 自建]
+platforms: [windows, macos, linux, ios, android, web]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 块级双链笔记，数据是本地的 Markdown 文件
+  en: Block-level bidirectional linking, stored as Markdown files on your disk
+description:
+  zh: 开源的个人知识管理工具，支持块级引用和双向链接，笔记以 Markdown 文件存在本地目录里。可以装桌面版单机用，也可以用 Docker 自建成服务端，手机和电脑通过局域网或自己的服务器访问同一份数据。中文界面和中文排版是母语级的。
+  en: An open-source personal knowledge tool with block-level references and bidirectional links, storing notes as Markdown files in a local folder. Run the desktop build standalone, or deploy it with Docker as a server so phones and computers reach the same data over your LAN or your own host.
+review:
+  zh: |
+    AGPL-3.0，46.2k 颗星，中文社区里用得最广的双链笔记之一。
+
+    它和 Obsidian 的分工比较清楚。Obsidian 是闭源的（免费但不开源），
+    插件生态更大；思源是 AGPL 开源，块级引用做得更彻底——
+    引用的粒度是「块」而不是「文件」，一段话可以被别处直接嵌进去并保持同步，
+    这对做卡片式笔记和结构化整理的人差别很大。
+
+    数据落地在本地的 Markdown 文件里，路径自己指定，随时能拿走。
+    不需要账号，不联网也是完整功能。另外它可以用 Docker 跑成一个服务端，
+    在家里的 NAS 上起一份，手机和电脑通过局域网访问同一份笔记，
+    授权码控制访问——小团队协作也够用。
+
+    中文体验是它明显的优势：界面、文档、社区都是中文母语，
+    中英文混排的空格处理、标点、字体这些细节做得比大多数国外工具讲究。
+
+    要说清楚的：
+
+    - **官方云同步收费。** 这是它标 freemium 的原因。但同步这件事不绑死在官方云上：
+      可以用 S3、WebDAV 自己配，或者干脆用 Syncthing 同步那个文件夹，都是免费的。
+      核心的笔记功能没有任何功能墙，官方明确说大部分功能商用也免费。
+    - **界面偏重。** 功能多，第一次打开会觉得按钮密。想要极简的写作环境，
+      Zettlr 或 Obsidian 更清爽。
+  en: |
+    AGPL-3.0, 46,200 stars, one of the most widely used bidirectional-linking note tools in the Chinese
+    community.
+
+    The division of labour against Obsidian is clean. Obsidian is closed source (free, but not open) with
+    a larger plugin ecosystem; SiYuan is AGPL open source and takes block references further — the unit
+    of reference is a block rather than a file, so a paragraph can be embedded elsewhere and stay in
+    sync. For card-style notes and structured organisation that difference matters.
+
+    Data lands in local Markdown files at a path you choose, and can be taken away at any time. No
+    account, and full functionality offline. It also runs as a server under Docker: put an instance on a
+    home NAS and phones and computers reach the same notes over the LAN, with access controlled by an
+    authorisation code — enough for a small team.
+
+    Chinese-language handling is a real strength: interface, documentation and community are all
+    natively Chinese, and details like CJK-Latin spacing, punctuation and fonts are handled more
+    carefully than in most tools built elsewhere.
+
+    To be clear about:
+
+    - **Official cloud sync costs money**, which is why it is marked freemium. Sync is not locked to
+      that cloud though: you can configure S3 or WebDAV yourself, or simply point Syncthing at the
+      folder, both free. The note-taking core has no feature wall, and the project states most features
+      are free even commercially.
+    - **The interface is dense.** There are many features and the first launch looks button-heavy. For a
+      minimal writing environment, Zettlr or Obsidian feel lighter.

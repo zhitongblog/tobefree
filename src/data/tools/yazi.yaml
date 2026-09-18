@@ -1,0 +1,65 @@
+name: Yazi
+accent: '#7AA2F7'
+initials: YZ
+category: dev
+price: free
+license: 'MIT'
+website: https://yazi-rs.github.io
+download: https://yazi-rs.github.io/docs/installation
+repo: https://github.com/sxyazi/yazi
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-08'
+tags: [文件管理, 终端, rust, 图片预览, 命令行]
+platforms: [windows, macos, linux, android, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 终端里的文件管理器，翻大目录不卡，还能直接看图
+  en: A terminal file manager that never stalls on huge directories — and previews images inline
+description:
+  zh: 用 Rust 写的终端文件管理器，基于非阻塞异步 I/O，翻几万个文件的目录、生成预览、算目录大小都不会卡住界面。支持在终端里直接预览图片、视频和 PDF，内置和 fzf、ripgrep、fd 的集成，有插件系统。
+  en: A terminal file manager written in Rust on non-blocking async I/O, so browsing a directory of tens of thousands of files, generating previews or computing folder sizes never freezes the interface. It previews images, video and PDFs directly in the terminal, integrates with fzf, ripgrep and fd, and has a plugin system.
+review:
+  zh: |
+    MIT 协议，4.2 万颗星。
+
+    终端文件管理器不是新东西，ranger、nnn 用了很多年。Yazi 的差别在异步：
+    预览生成、目录大小计算、文件列表加载全部不阻塞主线程。
+    翻到一个装着几万张图的目录，界面不会卡住等它数完，
+    这是 ranger 上最恼人的体验之一。
+
+    图片预览是另一个实打实的差别。在 kitty、WezTerm、Ghostty 这些支持图形协议的
+    终端里，它直接把图渲染出来，不是转成字符画。ssh 到服务器上找一张截图，
+    不用 scp 回本地再打开。
+
+    和命令行工具的集成做得顺：fzf 模糊跳转、ripgrep 全文搜、fd 按名字找，
+    都是内置的快捷键而不是自己写脚本粘。还支持批量重命名——
+    把文件名倒进编辑器里改，保存后生效。
+
+    要说清楚的：
+
+    - Windows 上能跑，但图片预览取决于终端支不支持图形协议，
+      用 Windows Terminal 的话这块体验打折。
+    - 键位是 Vim 风格的，`hjkl` 那一套。不熟悉的话要花点时间。
+  en: |
+    MIT-licensed, 42,000 stars.
+
+    Terminal file managers are not new — ranger and nnn have been around for years. Yazi's difference is
+    async: preview generation, directory size computation and listing loads all stay off the main
+    thread. Entering a folder holding tens of thousands of images does not freeze the UI while
+    something counts, which is one of the more irritating experiences in ranger.
+
+    Inline image preview is the other concrete difference. In terminals that support graphics protocols
+    — kitty, WezTerm, Ghostty — it renders the actual image rather than an ASCII approximation. Hunting
+    for a screenshot over ssh no longer means scp-ing it back to open locally.
+
+    Integration with command-line tools is clean: fuzzy jumping through fzf, full-text search through
+    ripgrep, name lookup through fd, all as built-in keybindings rather than glued-together scripts.
+    Bulk rename works by dumping filenames into your editor, editing and saving.
+
+    To be clear about:
+
+    - It runs on Windows, but image preview depends on the terminal supporting a graphics protocol, so
+      the experience is reduced under Windows Terminal.
+    - Keybindings are Vim-style `hjkl`. Unfamiliar hands will need some time.
