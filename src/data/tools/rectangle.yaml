@@ -1,0 +1,56 @@
+name: Rectangle
+accent: '#2B6CB0'
+initials: RE
+category: utility
+price: free
+license: 'MIT'
+website: https://rectangleapp.com
+download: https://rectangleapp.com
+repo: https://github.com/rxhanson/Rectangle
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [窗口管理, macos, 快捷键, 效率]
+platforms: [macos]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 给 macOS 补上 Windows 早就有的窗口贴边
+  en: Gives macOS the window snapping Windows has had for years
+description:
+  zh: macOS 上的窗口管理工具，用快捷键或拖到屏幕边缘把窗口对齐到半屏、四分之一屏、三分之一屏。macOS 自带的分屏只能两个窗口且要进全屏模式，Rectangle 直接在桌面上排版，多显示器也能一套快捷键走通。
+  en: A window manager for macOS that snaps windows to halves, quarters or thirds via keyboard shortcuts or by dragging to a screen edge. The built-in Split View only handles two windows and forces full-screen mode; Rectangle arranges them on the normal desktop and carries the same shortcuts across multiple displays.
+review:
+  zh: |
+    MIT 协议，2.99 万颗星。
+
+    从 Windows 换到 Mac 的人第一周通常会发现同一件事：窗口拖到屏幕左边不会自动占半屏。
+    macOS 有分屏，但要长按绿灯进全屏模式，两个窗口锁死在一块，
+    想再放第三个窗口就没辙。Rectangle 补的就是这个——⌃⌥← 占左半屏，
+    ⌃⌥↑ 占上半屏，四个角各占四分之一，多显示器之间直接甩过去。
+
+    它接的是 Spectacle 的班。Spectacle 2019 年停止维护，作者在 README 里
+    直接推荐迁移到 Rectangle，配置可以导过来。
+
+    要说清楚的：
+
+    - 需要授予辅助功能权限，这是 macOS 上操作别家窗口的必要条件。
+    - 有个叫 Rectangle Pro 的付费版，多的是自定义布局和更细的手势。
+      免费版的分屏能力本身不砍，日常够用。
+  en: |
+    MIT-licensed, 29,900 stars.
+
+    People switching from Windows to a Mac usually notice the same thing in week one: dragging a window
+    to the left edge does not make it take half the screen. macOS has Split View, but it requires
+    holding the green button, forces full-screen mode, locks two windows together and leaves no room for
+    a third. Rectangle fills that hole — ⌃⌥← for the left half, ⌃⌥↑ for the top half, quarters in each
+    corner, and windows flung between displays with one keystroke.
+
+    It inherited Spectacle's users. Spectacle stopped being maintained in 2019 and its author pointed
+    people to Rectangle directly in the README; settings can be carried over.
+
+    To be clear about:
+
+    - It needs Accessibility permission, which is what macOS requires for moving other apps' windows.
+    - There is a paid Rectangle Pro with custom layouts and finer gestures. The free version's snapping
+      is not cut down and is enough for everyday use.

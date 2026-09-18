@@ -1,0 +1,61 @@
+name: Lutris
+accent: '#E8803A'
+initials: LU
+category: gaming
+price: free
+license: 'GPL-3.0'
+website: https://lutris.net
+download: https://lutris.net/downloads
+repo: https://github.com/lutris/lutris
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [游戏, linux, wine, 游戏库, 开源]
+platforms: [linux]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 在 Linux 上把 Windows 游戏跑起来，配置脚本社区帮你写好了
+  en: Runs Windows games on Linux, with the configuration scripts already written
+description:
+  zh: Linux 上的游戏管理器与启动器。统一管理 Steam、GOG、Epic、模拟器和 Wine 运行的 Windows 游戏，社区维护的安装脚本会自动配好对应游戏需要的 Wine 版本、依赖库和启动参数，不用自己摸索。
+  en: A game manager and launcher for Linux. It brings Steam, GOG, Epic, emulators and Wine-run Windows games under one library, and community-maintained install scripts set up the right Wine build, dependencies and launch options for each game so you do not have to work it out.
+review:
+  zh: |
+    GPL-3.0 协议，1.02 万颗星。
+
+    Wine 能跑 Windows 程序，但「能跑」和「跑得起来」之间隔着一堆细节：
+    哪个 Wine 版本、装哪几个 DLL、开不开 DXVK、加什么环境变量。
+    同一个游戏换个版本配置就变，自己摸索要花几个晚上。
+
+    Lutris 的核心价值是那份社区脚本库。别人调通了的配置存成安装脚本，
+    你点一下，它按脚本把环境配好。不保证每个游戏都行，但常见游戏基本都有人趟过。
+
+    非 Steam 的游戏也统一进一个库：GOG 买的、Epic 领的、
+    老光盘镜像、目录里那些模拟器跑的 ROM，都在同一个界面里启动。
+
+    要说清楚的：
+
+    - 只有 Linux 版。Windows 上不需要它。
+    - 带反作弊的多人游戏大多跑不了，这是反作弊厂商的限制，不是它的问题。
+    - 脚本靠社区维护，冷门游戏可能没有，要自己配。
+  en: |
+    GPL-3.0, 10,200 stars.
+
+    Wine can run Windows programs, but between "can" and "does" sits a pile of detail: which Wine build,
+    which DLLs, DXVK on or off, which environment variables. The same game needs different settings
+    across versions, and working it out yourself costs evenings.
+
+    Lutris's value is the community script library. Someone else's working configuration is saved as an
+    install script; you click once and it builds that environment. Not every game works, but common ones
+    have usually been walked through by somebody.
+
+    Non-Steam games land in one library too: GOG purchases, Epic giveaways, old disc images, and ROMs
+    for the emulators listed here, all launched from the same interface.
+
+    To be clear about:
+
+    - Linux only. On Windows there is nothing for it to do.
+    - Most multiplayer games with kernel anti-cheat will not run. That is the anti-cheat vendors'
+      restriction, not a flaw here.
+    - Scripts depend on community upkeep, so obscure titles may have none and need manual setup.

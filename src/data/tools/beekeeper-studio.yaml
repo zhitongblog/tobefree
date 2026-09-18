@@ -1,0 +1,62 @@
+name: Beekeeper Studio
+accent: '#E8B33C'
+initials: BK
+category: dev
+price: freemium
+license: 'GPL-3.0 · 社区版'
+website: https://www.beekeeperstudio.io
+download: https://www.beekeeperstudio.io/get
+repo: https://github.com/beekeeper-studio/beekeeper-studio
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [数据库, sql, 客户端, 跨平台, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 打开就能连库写 SQL 的数据库客户端，不用配 JDBC
+  en: A SQL client that connects and queries immediately — no JDBC setup
+description:
+  zh: 跨平台数据库客户端，社区版 GPL-3.0 开源。支持 PostgreSQL、MySQL、MariaDB、SQLite、SQL Server 等常见数据库，提供带自动补全的 SQL 编辑器、表格式数据浏览与编辑、查询保存和 SSH 隧道连接。
+  en: A cross-platform database client whose community edition is GPL-3.0. It supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server and other common databases, with an autocompleting SQL editor, spreadsheet-style data browsing and editing, saved queries and SSH tunnel connections.
+review:
+  zh: |
+    社区版 GPL-3.0，2.36 万颗星。
+
+    目录里已经有 DBeaver 和 DB Browser for SQLite。
+    DBeaver 功能最全，代价是 Java 起步慢、界面密、
+    第一次连库要下驱动。Beekeeper 走另一头：Electron 写的，
+    打开快，界面干净，连上就能写 SQL。
+
+    日常查数据、改几行、导个 CSV 的场景，它比 DBeaver 顺手。
+    要做 ER 图、数据迁移、存储过程调试这些重活，DBeaver 更合适。
+
+    SSH 隧道内建，连跳板机后面的库不用自己先开端口转发。
+
+    要说清楚的：
+
+    - **社区版和商业版是两个东西。** 开源的社区版覆盖日常查询和编辑；
+      商业版多的是更多数据库类型、团队共享查询、加密的连接管理。
+      官网下载页默认给的是商业版试用，要开源版得选 Community Edition。
+    - Electron 应用，内存占用比原生客户端高。
+  en: |
+    Community edition GPL-3.0, 23,600 stars.
+
+    DBeaver and DB Browser for SQLite are already in this directory. DBeaver is the most complete, at
+    the cost of a slow Java start, a dense interface and a driver download on first connection.
+    Beekeeper goes the other way: Electron, quick to open, clean, writing SQL as soon as it connects.
+
+    For everyday work — look something up, change a few rows, export a CSV — it is the smoother of the
+    two. For ER diagrams, data migration or debugging stored procedures, DBeaver fits better.
+
+    SSH tunnelling is built in, so a database behind a bastion does not need you to set up port
+    forwarding first.
+
+    To be clear about:
+
+    - **The community and commercial editions are different products.** The open-source community
+      edition covers everyday querying and editing; the commercial one adds more database types, shared
+      team queries and encrypted connection management. The download page offers the commercial trial by
+      default — the open-source build is under Community Edition.
+    - It is an Electron app and uses more memory than a native client.

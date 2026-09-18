@@ -1,0 +1,22 @@
+name: eSpeak NG
+accent: '#5B6E8C'
+initials: ES
+category: ai
+price: free
+license: 'GPL-3.0'
+website: https://github.com/espeak-ng/espeak-ng
+download: https://github.com/espeak-ng/espeak-ng/releases
+repo: https://github.com/espeak-ng/espeak-ng
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [语音合成, tts, 离线, 无障碍, 多语言]
+platforms: [windows, macos, linux, android, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 几 MB 大小，一百多种语言，断网念给你听
+  en: A few megabytes, over a hundred languages, reading aloud with no network
+description:
+  zh: 用共振峰合成的轻量语音引擎，支持一百多种语言和口音，整个程序只有几 MB，在极低配置的设备上也能跑。声音是明显的机器音，胜在体积、速度、语言覆盖和完全离线，是很多屏幕阅读器的底层引擎。
+  en: A compact formant-synthesis speech engine covering more than a hundred languages and accents in a few megabytes, running on very low-powered hardware. The voice is plainly synthetic; the strengths are size, speed, language coverage and being entirely offline. It is the engine underneath many screen readers.

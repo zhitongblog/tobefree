@@ -1,0 +1,60 @@
+name: ripgrep
+accent: '#B45309'
+initials: RG
+category: dev
+price: free
+license: 'Unlicense · MIT'
+website: https://github.com/BurntSushi/ripgrep
+download: https://github.com/BurntSushi/ripgrep/releases
+repo: https://github.com/BurntSushi/ripgrep
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [搜索, 命令行, rust, 效率, 终端]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 在整个代码库里搜一个字符串，几十毫秒出结果
+  en: Search a whole codebase for a string in tens of milliseconds
+description:
+  zh: 用 Rust 写的递归文本搜索工具，默认跳过 .gitignore 里的路径、二进制文件和隐藏目录，所以在真实项目里比 grep -r 快一到两个数量级。支持 Unicode、多行匹配、按文件类型过滤，是 VS Code 全局搜索的底层实现。
+  en: A recursive text search tool written in Rust that skips paths listed in .gitignore, binary files and hidden directories by default, which makes it one to two orders of magnitude faster than grep -r on a real project. It supports Unicode, multiline matching and filtering by file type, and is what powers VS Code's global search underneath.
+review:
+  zh: |
+    Unlicense 与 MIT 双协议，6.8 万颗星。
+
+    快的原因有一半不是算法，是它默认不搜该跳过的东西。
+    `grep -r` 会老老实实钻进 `node_modules`、`.git`、
+    编译产物和几百兆的二进制文件；ripgrep 读 `.gitignore`，
+    直接不去。在一个前端项目里，这个差别就是几十毫秒和几十秒。
+
+    另一半是实现：Rust 写的正则引擎，避免回溯爆炸，多线程遍历目录。
+
+    VS Code 的全局搜索用的就是它。很多人每天在用而不知道。
+
+    要说清楚的：
+
+    - 默认跳过被 gitignore 的文件是特性，但找构建产物里的东西时会扑空，
+      要加 `-u` 或 `--no-ignore`。
+    - 正则语法是 Rust regex crate 的那套，不支持反向引用和环视。
+      需要这些的场景要换 grep -P。
+  en: |
+    Dual-licensed Unlicense and MIT, 68,000 stars.
+
+    Half the speed is not algorithmic — it is that it does not search what it should skip. `grep -r`
+    dutifully descends into `node_modules`, `.git`, build output and hundred-megabyte binaries; ripgrep
+    reads `.gitignore` and does not go there. On a front-end project that difference is tens of
+    milliseconds against tens of seconds.
+
+    The other half is implementation: a Rust regex engine that avoids backtracking blowup, with
+    multithreaded directory traversal.
+
+    VS Code's global search is this. Many people use it daily without knowing.
+
+    To be clear about:
+
+    - Skipping gitignored files by default is the feature, but it will miss things inside build output;
+      `-u` or `--no-ignore` turns it off.
+    - The regex syntax is the Rust regex crate's, without backreferences or lookaround. Those cases need
+      `grep -P`.

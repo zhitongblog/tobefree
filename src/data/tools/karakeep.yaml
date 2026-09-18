@@ -1,0 +1,67 @@
+name: Karakeep
+accent: '#7C3AED'
+initials: KK
+category: selfhosted
+price: free
+license: 'AGPL-3.0'
+website: https://karakeep.app
+download: https://docs.karakeep.app/Installation/docker
+repo: https://github.com/karakeep-app/karakeep
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [书签, 稍后读, 自建, 全文搜索, 开源]
+platforms: [linux, android, ios, web]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 自建书签库，存的是页面全文不是一个会死的链接
+  en: A self-hosted bookmark vault that keeps the page, not a link that will rot
+description:
+  zh: 自建的书签与稍后读服务。保存网页时把正文、截图和可选的完整存档一起存下来，原站删了内容还在。支持全文搜索、标签、列表整理，有浏览器扩展和移动端 App，可选接入大模型自动打标签。
+  en: A self-hosted bookmarking and read-it-later service. Saving a page stores the article text, a screenshot and optionally a full archive, so the content survives the original going away. It offers full-text search, tags and lists, browser extensions and mobile apps, and optional LLM-assisted auto-tagging.
+review:
+  zh: |
+    AGPL-3.0 协议，2.91 万颗星。原名 Hoarder，2025 年改名。
+
+    浏览器书签的问题是它只存了一个地址。三年后点开，
+    一半是 404，一半是被改过的页面。Karakeep 保存的时候
+    把正文抓下来、截一张图、可以再存一份完整存档，
+    原站消失不影响你还能读到。
+
+    全文搜索是它比浏览器书签强的地方——
+    记不住存在哪个文件夹，但记得里面提过某个词，搜就行。
+
+    自动打标签可以接大模型，本地接 Ollama（目录里有）也行，
+    不接就是手动打标签，功能不残。
+
+    目录里的 Wallabag 做类似的事，偏纯阅读；
+    Karakeep 更偏收藏和检索，存图片和整页存档的能力更强。
+
+    要说清楚的：
+
+    - 要自己部署，Docker compose 一套起来。
+    - 全页存档很吃磁盘，存几千条之后要留意空间。
+    - AGPL 协议，改了代码对外提供服务的话有开源义务。
+  en: |
+    AGPL-3.0, 29,100 stars. Formerly Hoarder, renamed in 2025.
+
+    The trouble with browser bookmarks is that they store only an address. Open them three years later
+    and half are 404s while the other half have been rewritten. Karakeep pulls the article text on save,
+    takes a screenshot, and optionally keeps a full archive, so the original disappearing does not take
+    your copy with it.
+
+    Full-text search is where it beats a bookmark folder: you cannot remember which folder it went in,
+    but you remember a phrase inside it, and searching finds it.
+
+    Auto-tagging can call an LLM, including a local Ollama — also listed here. Skipping it leaves manual
+    tagging, which is not a degraded mode.
+
+    Wallabag, in this directory, does something similar with a reading focus. Karakeep leans toward
+    collecting and retrieval, with stronger image and full-page archiving.
+
+    To be clear about:
+
+    - You deploy it yourself, as a Docker compose set.
+    - Full-page archives consume disk quickly; watch space past a few thousand entries.
+    - AGPL means modifying the code and offering it as a service carries source obligations.

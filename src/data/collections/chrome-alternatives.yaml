@@ -1,0 +1,43 @@
+title:
+  zh: "Chrome 免费替代浏览器"
+  en: "Free Chrome Alternatives"
+description:
+  zh: "十一款免费浏览器，含内核、拦截方式和账号要求。从装完就干净的日常替代，到极端匿名的方案。"
+  en: "Eleven free browsers with their engines, blocking approach and account requirements — from clean-by-default daily drivers to fully anonymous options."
+intro:
+  zh: "2024 年 Chrome 完成 Manifest V3 迁移之后，拦截类扩展能看到的请求范围被收窄，uBlock Origin 在 Chrome 上退为功能受限的 Lite 版。这件事把「换浏览器」从偏好问题变成了能力问题。这份清单按内核分两支：Firefox 内核那一支扩展能力没有被削，Chromium 内核那一支多数把拦截做进了浏览器本体，绕开扩展机制。所有版本状态截至 2026 年 9 月。"
+  en: "After Chrome completed its Manifest V3 migration in 2024, the request scope a blocking extension can see narrowed, and uBlock Origin on Chrome fell back to a feature-limited Lite build. That turned switching browsers from a preference into a capability question. This list splits by engine: the Firefox side keeps extension capability intact, while most of the Chromium side builds blocking into the browser itself and sidesteps the extension mechanism. Status verified September 2026."
+criteria:
+  zh:
+    - "核心功能完全免费，不存在付费才能解锁的浏览能力。"
+    - "不强制注册账号，不登录也能正常使用全部功能。"
+    - "默认不上传浏览记录，遥测可关或本来就没有。"
+    - "内核和拦截实现方式逐款标注 —— 这决定了它能不能挡住广告。"
+  en:
+    - "Core features are entirely free, with no browsing capability behind a paywall."
+    - "No forced account. Everything works signed out."
+    - "Browsing history is not uploaded by default; telemetry is off, optional or absent."
+    - "The engine and blocking mechanism are recorded per browser — that is what decides whether ads actually get stopped."
+tools: [brave, librewolf, zen-browser, floorp, firefox, vivaldi, ungoogled-chromium, cromite, mullvad-browser, tor-browser, ladybird]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "只想要一个装完就干净的日常浏览器，选哪个？"
+      a: "Brave 或 LibreWolf。Brave 是 Chromium 内核，拦截做在浏览器本体里，网页兼容性和 Chrome 一致，装完不配置就已经在挡广告；LibreWolf 是 Firefox 内核，预置了 uBlock Origin 并关掉了遥测，扩展能力不受 Manifest V3 影响。习惯 Chrome 手感的选前者，在意扩展能力的选后者。"
+    - q: "为什么在意 Manifest V3？"
+      a: "因为它改变的是拦截扩展能拿到什么。MV2 时代扩展可以自己检查每个请求再决定拦不拦，MV3 改成扩展预先声明规则、由浏览器执行，规则条数有上限。结果就是 uBlock Origin 在 Chrome 上只能提供功能受限的 Lite 版本。Firefox 内核那一支不受这个约束，Chromium 内核里像 Brave、Cromite 这样把拦截做进本体的也不受约束。"
+    - q: "Tor Browser 和 Mullvad Browser 有什么区别？"
+      a: "Tor Browser 走 Tor 网络，流量经过三跳中继，代价是慢。Mullvad Browser 是同一批人做的浏览器部分，不带 Tor 网络，指纹防护照旧，配自己的 VPN 或直连都行。要的是匿名网络选前者，要的是「不被指纹识别」选后者。"
+    - q: "安卓上怎么办？"
+      a: "手机 Chrome 从来就不支持扩展，所以这件事在安卓上更早发生。Brave 和 Firefox 都有安卓版，Cromite 是专门为安卓做的 Chromium 分支，拦截内置，不在 Play 商店，从官网或 F-Droid 装。"
+  en:
+    - q: "I just want a clean daily browser. Which one?"
+      a: "Brave or LibreWolf. Brave is Chromium-based with blocking built into the browser, so page compatibility matches Chrome and ads are already blocked before you configure anything. LibreWolf is Firefox-based, ships uBlock Origin and disables telemetry, and its extension capability is untouched by Manifest V3. Take the first if Chrome's feel matters, the second if extension power does."
+    - q: "Why does Manifest V3 matter?"
+      a: "Because it changes what a blocking extension can see. Under MV2 an extension inspected each request and decided; under MV3 it declares rules in advance for the browser to enforce, with a cap on rule count. The result is that uBlock Origin on Chrome can only offer the feature-limited Lite build. Firefox-based browsers are not bound by this, and neither are Chromium browsers like Brave and Cromite that put blocking in the browser itself."
+    - q: "What separates Tor Browser from Mullvad Browser?"
+      a: "Tor Browser routes through the Tor network over three relays, and pays for it in speed. Mullvad Browser is the browser half built by the same people without the Tor network, keeping the fingerprinting defences, usable with your own VPN or a direct connection. Take the first for an anonymity network, the second to avoid being fingerprinted."
+    - q: "What about Android?"
+      a: "Mobile Chrome never supported extensions, so this arrived on Android earlier. Brave and Firefox both have Android builds, and Cromite is a Chromium fork made for Android with blocking built in — not on the Play Store, installed from the official site or F-Droid."

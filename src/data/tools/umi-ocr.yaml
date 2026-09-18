@@ -1,0 +1,61 @@
+name: Umi-OCR
+accent: '#4C6EF5'
+initials: UM
+category: office
+price: free
+license: 'MIT'
+website: https://github.com/hiroi-sora/Umi-OCR
+download: https://github.com/hiroi-sora/Umi-OCR/releases
+repo: https://github.com/hiroi-sora/Umi-OCR
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [ocr, 文字识别, 离线, 截图, 批量]
+platforms: [windows, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 截图识字全在本机跑，不限次数不要账号
+  en: Screenshot-to-text entirely on your machine — unlimited, no account
+description:
+  zh: 离线文字识别工具。截图识别、批量图片识别、PDF 扫描件转可搜索文本、二维码识别都在本机完成，不上传任何图片。支持中英日韩等多语言、竖排文本和公式，提供命令行与 HTTP 接口供别的程序调用。
+  en: An offline OCR tool. Screenshot recognition, batch image processing, turning scanned PDFs into searchable text and QR code reading all run locally with no image uploaded. It handles Chinese, English, Japanese, Korean and more, including vertical text and formulas, and exposes a command-line and HTTP interface for other programs.
+review:
+  zh: |
+    MIT 协议，4.74 万颗星。
+
+    在线 OCR 网站的通病是三件事叠在一起：每天限几张、
+    要注册、图片要传上去。合同、证件、内部文档这类东西，
+    第三件事本身就是个问题。
+
+    Umi-OCR 把识别引擎装在本机，断网可用，不限次数。
+    截图那个入口最常用——快捷键框选屏幕任意区域，
+    文字直接进剪贴板，不能复制的网页、PDF、视频画面里的字都能取出来。
+
+    批量模式可以一次丢几百张图，或者把扫描版 PDF 转成带文字层的可搜索 PDF。
+    这一步之后，目录里的 Stirling PDF、pdfsam 才能对内容做处理。
+
+    要说清楚的：
+
+    - 只有 Windows 和 Linux 版，没有 macOS 版。
+    - 最近一次发布是 2025 年 11 月。功能完整可用，但更新节奏慢下来了。
+    - 识别准确率在印刷体上很好，手写体和模糊拍摄件会明显下降。
+  en: |
+    MIT-licensed, 47,400 stars.
+
+    Online OCR sites stack three problems: a daily page limit, a sign-up, and your image going to their
+    server. For contracts, identity documents or internal paperwork, the third is a problem on its own.
+
+    Umi-OCR puts the engine on your machine, works offline, and has no limit. The screenshot entry point
+    gets the most use — a shortcut selects any region of the screen and the text lands in the clipboard,
+    pulling words out of pages that block copying, out of PDFs, out of video frames.
+
+    Batch mode takes hundreds of images at once, or turns a scanned PDF into a searchable one with a
+    text layer. Only after that step can Stirling PDF or pdfsam, both listed here, do anything with the
+    content.
+
+    To be clear about:
+
+    - Windows and Linux only; there is no macOS build.
+    - The most recent release was November 2025. It is complete and usable, but the pace has slowed.
+    - Accuracy on printed text is strong; handwriting and blurry photographs drop off noticeably.

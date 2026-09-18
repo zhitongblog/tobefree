@@ -1,0 +1,60 @@
+name: Maccy
+accent: '#E07A3F'
+initials: MC
+category: utility
+price: free
+license: 'MIT'
+website: https://maccy.app
+download: https://maccy.app
+repo: https://github.com/p0deje/Maccy
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [剪贴板, macos, 效率, 快捷键]
+platforms: [macos]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: macOS 的剪贴板历史，⇧⌘C 翻出复制过的东西
+  en: Clipboard history for macOS — ⇧⌘C brings back what you copied
+description:
+  zh: 常驻菜单栏的剪贴板历史工具，记录复制过的文字和图片，用快捷键唤出搜索并粘贴。可以设定保留条数和时长，支持忽略密码管理器等敏感来源，所有记录存在本机。
+  en: A menu-bar clipboard history that records copied text and images and brings them back through a searchable shortcut. The retention count and duration are configurable, sensitive sources such as password managers can be ignored, and everything stays on the machine.
+review:
+  zh: |
+    MIT 协议，2.16 万颗星。
+
+    macOS 的剪贴板只有一格，覆盖了就没了。这是那种平时想不起来、
+    丢过一次东西之后立刻会装的工具。Windows 上系统自带 Win+V，
+    macOS 一直没有。
+
+    它把自己限制得很窄：只做剪贴板历史，不做启动器、不做笔记、不做扩展平台。
+    体积小、启动快、内存占用低。搜索是模糊匹配，输几个字母就能定位到
+    三小时前复制的一段配置。
+
+    敏感数据这块有开关：可以按应用忽略，把 1Password、Bitwarden 这类
+    加进忽略名单，密码就不会进历史。数据存在本地，不同步、不上传。
+
+    要说清楚的：
+
+    - 只有 macOS 版。
+    - 功能故意做得少。想要剪贴板加启动器加窗口管理一体的，那是别的工具的活。
+  en: |
+    MIT-licensed, 21,600 stars.
+
+    The macOS clipboard holds one item; overwrite it and it is gone. This is the kind of tool nobody
+    thinks about until the day they lose something, after which it gets installed immediately. Windows
+    has had Win+V built in; macOS still has not.
+
+    It keeps its scope narrow: clipboard history only — not a launcher, not a notes app, not an
+    extension platform. Small, fast to start, light on memory. Search is fuzzy, so a few letters find
+    the config snippet you copied three hours ago.
+
+    Sensitive data has a switch: ignore by application, so adding 1Password or Bitwarden keeps passwords
+    out of the history entirely. Data stays local, with no sync and no upload.
+
+    To be clear about:
+
+    - macOS only.
+    - The feature set is deliberately small. Clipboard plus launcher plus window management in one app
+      is a different tool's job.

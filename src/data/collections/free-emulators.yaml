@@ -1,0 +1,43 @@
+title:
+  zh: "免费模拟器与游戏兼容层"
+  en: "Free Emulators and Compatibility Layers"
+description:
+  zh: "九款开源模拟器、游戏库管理器与 Windows 兼容层，全部是官方开源版本，无广告、无内购、不会在启动前插一段视频。"
+  en: "Nine open-source emulators, library managers and Windows compatibility layers — all official builds, with no ads, no in-app purchases and no video before launch."
+intro:
+  zh: "模拟器这个品类在应用商店里被寄生得很彻底：拿开源项目改个图标上架，加载广告 SDK，启动前放一段视频，再卖个「去广告版」。这些上架版本的内核往往就是本清单里这些项目，只是被包了一层。这份清单只给官方开源版本，按三类分：主机与掌机模拟器、跨平台游戏库管理、Windows 程序兼容层。游戏和 BIOS 文件请自行合法准备 —— 这些工具都不提供内容。"
+  en: "The emulator category is heavily parasitised on app stores: take an open-source project, change the icon, ship it with an ad SDK, play a video before launch, then sell an \"ad-free version.\" The core inside those listings is frequently one of the projects below, wrapped in a layer. This list gives only the official open-source builds, in three groups — console and handheld emulators, cross-platform library managers, and Windows compatibility layers. Bring your own legally obtained games and BIOS files; none of these tools supply content."
+criteria:
+  zh:
+    - "官方开源项目，不是商店里的重打包版本。"
+    - "没有广告、启动视频、内购或「去广告版」。"
+    - "不需要注册账号。"
+    - "不内置、不分发任何游戏 ROM 或 BIOS 文件。"
+  en:
+    - "The official open-source project, not a store repackage."
+    - "No ads, no pre-roll video, no in-app purchases, no \"ad-free edition.\""
+    - "No account required."
+    - "No bundled or distributed ROMs or BIOS files."
+tools: [retroarch, dolphin-emulator, pcsx2, ppsspp, scummvm, playnite, heroic-games-launcher, lutris, bottles]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "RetroArch 和单独的模拟器怎么选？"
+      a: "RetroArch 是个统一前端，把各个模拟器做成核心装进去，一套界面、一套手柄配置、一套存档管理管所有平台。图省事选它。追求单个平台的最佳兼容性和最细的设置，用专用模拟器——Dolphin 管 GameCube 和 Wii，PCSX2 管 PS2，PPSSPP 管 PSP，各自在自己的领域调得最深。"
+    - q: "Playnite、Heroic、Lutris 都是启动器，区别在哪？"
+      a: "平台不同，职责也不同。Playnite 在 Windows 上，把 Steam、GOG、Epic、模拟器游戏聚到一个库里，本质是个整理工具。Heroic 专管 Epic 和 GOG，跨 Windows、Linux、macOS。Lutris 只有 Linux，它的核心价值不是整理而是那套社区安装脚本，帮你把 Wine 环境配对。"
+    - q: "Linux 上跑 Windows 游戏，Lutris 和 Bottles 选哪个？"
+      a: "游戏选 Lutris，社区脚本库覆盖的主要是游戏。非游戏的 Windows 程序选 Bottles——某个只有 Windows 版的行业软件、老版本设计工具，它给每个程序一个隔离环境，互不干扰，还能快照回滚。"
+    - q: "为什么商店里搜到的模拟器大多有广告？"
+      a: "因为那些多数是重打包。开源协议允许再分发，有人拿走代码、加上广告 SDK、上架收费。功能可能确实能用，但你付的钱和忍的广告没有一分进到原项目。从官网或官方仓库下载能避开这一层。"
+  en:
+    - q: "RetroArch or a standalone emulator?"
+      a: "RetroArch is a unified front-end that loads individual emulators as cores, giving one interface, one controller configuration and one save system across platforms. Take it for convenience. For the best compatibility and the deepest settings on a single platform, use the dedicated emulator — Dolphin for GameCube and Wii, PCSX2 for PS2, PPSSPP for PSP, each tuned furthest in its own area."
+    - q: "Playnite, Heroic and Lutris are all launchers. What separates them?"
+      a: "Different platforms and different jobs. Playnite is Windows, pulling Steam, GOG, Epic and emulated games into one library — an organiser at heart. Heroic covers Epic and GOG across Windows, Linux and macOS. Lutris is Linux only, and its value is not organisation but the community install scripts that get the Wine environment right."
+    - q: "Lutris or Bottles for Windows software on Linux?"
+      a: "Lutris for games, since the community script library is mostly games. Bottles for non-game Windows programs — an industry application with no Linux build, an older version of a design tool — giving each program an isolated environment that cannot break the others, with snapshots to roll back."
+    - q: "Why do most emulators in app stores carry ads?"
+      a: "Because most of them are repackages. Open-source licences permit redistribution, so someone takes the code, adds an ad SDK and lists it for money. It may well work, but none of what you pay or endure reaches the original project. Downloading from the official site or repository skips that layer."

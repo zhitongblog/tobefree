@@ -1,0 +1,53 @@
+name: AltTab
+accent: '#4A5568'
+initials: AT
+category: utility
+price: free
+license: 'GPL-3.0'
+website: https://alt-tab-macos.netlify.app
+download: https://alt-tab-macos.netlify.app
+repo: https://github.com/lwouis/alt-tab-macos
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [窗口管理, macos, 快捷键, 效率]
+platforms: [macos]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 把 Windows 的 Alt-Tab 原样搬到 macOS
+  en: Windows-style Alt-Tab, brought over to macOS intact
+description:
+  zh: 给 macOS 换一套按窗口切换的快捷键。系统自带的 ⌘Tab 切的是应用，同一个应用开五个窗口它只算一个；AltTab 切的是窗口，每个窗口一张实时缩略图，可以按显示器、按空间过滤，快捷键和外观都能改。
+  en: Replaces macOS window switching with a per-window one. The built-in ⌘Tab switches applications, counting five windows of the same app as one; AltTab switches windows, showing a live thumbnail for each, filterable by display or space, with configurable shortcuts and appearance.
+review:
+  zh: |
+    GPL-3.0 协议，1.63 万颗星。
+
+    ⌘Tab 的问题在开多窗口的时候才暴露：三个 Finder 窗口、四个浏览器窗口、
+    两个终端，⌘Tab 只给你三个图标，切进去还得再 ⌘\` 一个个翻。
+    AltTab 把每个窗口单独列出来，带实时缩略图，一次按到位。
+
+    从 Windows 或 Linux 过来的人装它的比例很高，因为肌肉记忆里
+    「切窗口」这个动作就该是按窗口的。
+
+    要说清楚的：
+
+    - 需要辅助功能和屏幕录制两项权限——缩略图本质上是在截别家窗口的画面。
+    - 和 Rectangle 是互补的：一个负责摆，一个负责找。两个一起装不冲突。
+  en: |
+    GPL-3.0, 16,300 stars.
+
+    ⌘Tab only shows its problem once you keep many windows: three Finder windows, four browser windows,
+    two terminals, and ⌘Tab hands you three icons, after which you still ⌘\` through them one at a time.
+    AltTab lists every window separately with a live thumbnail, so one press lands where you meant.
+
+    Adoption is high among people arriving from Windows or Linux, because in their muscle memory
+    "switch window" was always per-window.
+
+    To be clear about:
+
+    - It needs both Accessibility and Screen Recording permission — a thumbnail is, mechanically, a
+      capture of another app's window.
+    - It complements Rectangle rather than overlapping: one arranges, the other finds. Running both is
+      fine.

@@ -1,0 +1,43 @@
+title:
+  zh: "免费录屏与截图工具"
+  en: "Free Screen Recording and Screenshot Tools"
+description:
+  zh: "五款免费录屏、截图与后期处理工具，录出来的文件没有水印、不限时长、不要求登录账号。"
+  en: "Five free tools for screen recording, screenshots and post-processing — no watermark on the output, no time limit, no account."
+intro:
+  zh: "录屏软件的免费版最常见的三种限制：右下角一个洗不掉的水印、单次录制五分钟或十分钟上限、导出时要求注册。这三条都不是技术限制，是产品设计。这份清单里的工具录出来的文件就是干净的原始文件，按流程分三段：录制、截图标注、录完之后的裁剪与转码。"
+  en: "Free screen recorders usually impose three things: a watermark in the corner that cannot be removed, a five- or ten-minute cap per recording, and a sign-up at export time. None of those are technical constraints; they are product decisions. Everything here produces a clean original file. The list follows the workflow in three stages — recording, screenshot and annotation, then trimming and transcoding afterwards."
+criteria:
+  zh:
+    - "输出文件不带水印。"
+    - "不限制单次录制时长和录制次数。"
+    - "不需要注册账号即可录制和导出。"
+    - "本机处理，录制内容不上传。"
+  en:
+    - "Output carries no watermark."
+    - "No cap on recording length or number of recordings."
+    - "Recording and export work without an account."
+    - "Processing is local; nothing recorded gets uploaded."
+tools: [obs-studio, sharex, flameshot, losslesscut, ffmpeg]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "录课程、录演示，用哪个？"
+      a: "OBS Studio。它本来是给直播做的，录本地文件是顺带能力，因此在编码、多路音轨、多场景切换上比专门的录屏软件强得多。可以同时录屏幕、摄像头和麦克风分轨，后期能单独调。第一次打开要配置一下场景，这是它唯一的门槛。"
+    - q: "只想截个图加个箭头？"
+      a: "Windows 上用 ShareX，Linux 上用 Flameshot。ShareX 的功能面非常宽——截图、标注、录 GIF、OCR、自动上传，快捷键和工作流可以细调。Flameshot 更聚焦，框选之后标注工具直接浮在旁边，画箭头、打马赛克、加文字一气呵成。"
+    - q: "录完只想剪掉开头结尾，不想重新压一遍？"
+      a: "LosslessCut。它不解码不重编码，直接在关键帧上切，几百兆的视频一两秒就切完，画质零损失。代价是切点只能落在关键帧上，精度到不了逐帧。要精确到帧的话得用真正的剪辑软件。"
+    - q: "FFmpeg 在这里是干什么的？"
+      a: "转格式、压体积、提音轨、改分辨率、录屏本身它也能做。它是命令行工具，上面几个图形软件的底层多半就是它。上传平台嫌文件太大、要把 MOV 转成 MP4、要把一段视频抽成音频，一条命令的事。"
+  en:
+    - q: "What should I record a lesson or a demo with?"
+      a: "OBS Studio. It was built for live streaming and recording to a local file comes along with that, which is why its encoding, multi-track audio and scene switching outclass dedicated recorders. Screen, webcam and microphone record to separate tracks for adjustment afterwards. Configuring a scene on first launch is its only barrier."
+    - q: "I just want a screenshot with an arrow on it."
+      a: "ShareX on Windows, Flameshot on Linux. ShareX is very broad — capture, annotation, GIF recording, OCR, automatic upload, with shortcuts and workflows tunable in detail. Flameshot is tighter: select a region and the annotation tools appear beside it, so arrows, blurring and text happen in one motion."
+    - q: "I only need to trim the start and end without re-encoding."
+      a: "LosslessCut. It neither decodes nor re-encodes, cutting on keyframes instead, so a few hundred megabytes take a second or two with zero quality loss. The trade is that cuts land on keyframes rather than exact frames. Frame-accurate work needs a real editor."
+    - q: "What is FFmpeg doing on this list?"
+      a: "Format conversion, size reduction, extracting audio, changing resolution — and screen recording itself. It is a command-line tool, and it is usually what sits underneath the GUI applications above. A file too large for an upload limit, a MOV that needs to be an MP4, a video you want only the audio from: one command each."

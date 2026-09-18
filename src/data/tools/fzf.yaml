@@ -1,0 +1,64 @@
+name: fzf
+accent: '#2E8B57'
+initials: FZ
+category: dev
+price: free
+license: 'MIT'
+website: https://junegunn.github.io/fzf/
+download: https://github.com/junegunn/fzf/releases
+repo: https://github.com/junegunn/fzf
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [命令行, 模糊搜索, 效率, 终端, go]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 任何一行一条的东西，都能模糊搜出来
+  en: Fuzzy-find anything that comes one item per line
+description:
+  zh: 通用的命令行模糊搜索器。任何按行输出的内容——文件列表、命令历史、Git 分支、进程、ssh 主机——都能管道给它，输入几个字母实时筛选并选中。装完之后 Ctrl-R 的历史搜索和 Ctrl-T 的文件查找会被换成它。
+  en: A general-purpose command-line fuzzy finder. Anything that prints one item per line — file lists, shell history, Git branches, processes, ssh hosts — can be piped into it and narrowed live by typing a few letters. After installation it replaces Ctrl-R history search and Ctrl-T file lookup.
+review:
+  zh: |
+    MIT 协议，8.3 万颗星。
+
+    它本身不知道什么是文件、什么是分支。它只做一件事：
+    接一串行，按你输入的字符模糊匹配，把选中的那行吐回去。
+    正因为只做这一件事，它能接到任何地方——
+    `git branch | fzf` 选分支，`ps aux | fzf` 挑进程，
+    `history | fzf` 翻命令，全是同一个动作。
+
+    最直接的收益是 Ctrl-R。默认的 shell 历史搜索要精确记得前缀，
+    换成 fzf 之后输入任意几个字母就能捞出三周前那条带一串参数的命令。
+    这一个改动就值回装它的成本。
+
+    和目录里的 ripgrep、fd、Yazi 是常见组合：ripgrep 出内容、
+    fd 出文件名、fzf 负责挑。
+
+    要说清楚的：
+
+    - 需要把 shell 集成脚本加进配置文件才有 Ctrl-R / Ctrl-T，
+      装完不配置的话只是个命令。
+    - Windows 上原生能跑，但 shell 集成在 PowerShell 里要装 PSFzf 之类的桥接。
+  en: |
+    MIT-licensed, 83,000 stars.
+
+    It does not know what a file is, or a branch. It does exactly one thing: take a stream of lines,
+    fuzzy-match them against what you type, and hand back the one you chose. Because it does only that,
+    it attaches anywhere — `git branch | fzf` picks a branch, `ps aux | fzf` picks a process,
+    `history | fzf` picks a command, all the same motion.
+
+    The most immediate gain is Ctrl-R. Default shell history search wants you to remember the prefix
+    exactly; with fzf, any few letters surface the command with the long argument list you ran three
+    weeks ago. That single change pays for the install.
+
+    It pairs with ripgrep, fd and Yazi, all listed here: ripgrep produces content, fd produces
+    filenames, fzf does the picking.
+
+    To be clear about:
+
+    - Ctrl-R and Ctrl-T require adding the shell integration script to your config; without that it is
+      just a command.
+    - It runs natively on Windows, but shell integration in PowerShell needs a bridge such as PSFzf.

@@ -1,0 +1,58 @@
+name: Git
+accent: '#F05133'
+initials: GI
+category: dev
+price: free
+license: 'GPL-2.0'
+website: https://git-scm.com
+download: https://git-scm.com/downloads
+repo: https://github.com/git/git
+featured: false
+popular: true
+selfMade: false
+added: '2026-09-18'
+tags: [版本控制, 命令行, 开源, 基础设施]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 版本控制的事实标准，仓库完整存在你本机
+  en: The de facto version control system — the whole repository lives on your machine
+description:
+  zh: 分布式版本控制系统，记录文件的每一次改动，支持分支、合并、回退和多人协作。每个克隆都是完整仓库，包含全部历史，断网可以照常提交、切分支、查历史。GitHub、GitLab 这些平台是托管服务，Git 本身与它们无关。
+  en: A distributed version control system that records every change to your files, with branching, merging, reverting and multi-person collaboration. Every clone is a complete repository including the full history, so committing, branching and reading history all work offline. GitHub and GitLab are hosting services; Git itself is independent of them.
+review:
+  zh: |
+    GPL-2.0 协议，2005 年由 Linus Torvalds 写出来。
+
+    把它放进这个目录不是因为它小众，是因为很多人把 Git 和 GitHub 当成一回事，
+    以为版本控制是某个平台提供的服务。不是。Git 装在你自己机器上，
+    `git init` 建的仓库不需要任何账号、不需要联网、不需要谁批准。
+    平台挂了、账号被封、公司政策变了，历史还在你硬盘上。
+
+    分布式这个词的实际含义就是这个：每个 clone 都是完整副本，
+    包含从第一次提交到现在的全部历史。同一个仓库可以同时推到
+    GitHub、自建的 Gitea（目录里有）和一块移动硬盘。
+
+    要说清楚的：
+
+    - 学习曲线陡，尤其是 rebase、reflog、submodule 这些。
+      目录里的 lazygit 提供了终端图形界面，能缓一缓。
+    - Windows 上的安装包自带 Git Bash，顺带解决了没有 POSIX shell 的问题。
+  en: |
+    GPL-2.0, written by Linus Torvalds in 2005.
+
+    It is in this directory not because it is obscure but because many people treat Git and GitHub as
+    one thing, assuming version control is a service a platform provides. It is not. Git runs on your own
+    machine, and a repository created by `git init` needs no account, no network and nobody's approval.
+    When a platform goes down, an account is suspended or a company policy changes, the history is still
+    on your disk.
+
+    That is what distributed actually means here: every clone is a complete copy holding every commit
+    from the first to the latest. The same repository can push to GitHub, to a self-hosted Gitea — also
+    in this directory — and to an external drive.
+
+    To be clear about:
+
+    - The learning curve is steep, particularly rebase, reflog and submodules. lazygit, listed here,
+      puts a terminal UI over it and softens the slope.
+    - The Windows installer bundles Git Bash, which incidentally solves the missing POSIX shell.

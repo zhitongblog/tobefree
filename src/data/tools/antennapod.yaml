@@ -1,0 +1,55 @@
+name: AntennaPod
+accent: '#0C6373'
+initials: AP
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://antennapod.org
+download: https://antennapod.org/download
+repo: https://github.com/AntennaPod/AntennaPod
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [播客, 安卓, rss, 离线, 开源]
+platforms: [android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 安卓播客客户端，订阅走 RSS，不进平台
+  en: An Android podcast client that subscribes over RSS, with no platform in between
+description:
+  zh: 开源的安卓播客客户端，直接订阅 RSS 源，不依赖任何播客平台的账号体系。支持自动下载、按节目设置播放速度、跳过片头片尾、章节跳转、睡眠定时和 OPML 导入导出，订阅和进度都存在手机上。
+  en: An open-source Android podcast client that subscribes to RSS feeds directly, with no podcast platform account involved. It supports automatic downloads, per-show playback speed, intro and outro skipping, chapter navigation, a sleep timer and OPML import and export, with subscriptions and progress stored on the phone.
+review:
+  zh: |
+    GPL-3.0 协议，8161 颗星。
+
+    播客这个媒介本来就是 RSS 做的，去中心化是它的出厂设置。
+    这些年被平台重新中心化了一遍：要装某家 App、要登录、
+    听什么被记录下来推荐给你更多。AntennaPod 走回原来的路——
+    一个 RSS 地址就是一个订阅，谁也不在中间。
+
+    换客户端的成本很低，OPML 导入导出是标准格式，
+    从别家搬过来就是一个文件的事。
+
+    要说清楚的：
+
+    - 只有安卓版。iOS 上没有对应发布。
+    - 发现新节目的能力比平台弱。它内置了 Podcast Index 和 iTunes 目录搜索，
+      但没有算法推荐——这是取舍，不是缺陷。
+  en: |
+    GPL-3.0, 8,161 stars.
+
+    Podcasting was built on RSS; decentralisation was the factory setting. The last several years
+    re-centralised it: install a particular app, sign in, and what you listen to gets recorded to
+    recommend you more. AntennaPod walks back — one RSS address is one subscription, with nobody in
+    between.
+
+    Switching clients costs almost nothing. OPML import and export is a standard format, so moving from
+    another app is a single file.
+
+    To be clear about:
+
+    - Android only; there is no iOS release.
+    - Discovery is weaker than a platform's. It searches the Podcast Index and the iTunes directory but
+      has no algorithmic recommendations — a trade, not a defect.

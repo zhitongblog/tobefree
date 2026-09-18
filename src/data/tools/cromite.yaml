@@ -1,0 +1,56 @@
+name: Cromite
+accent: '#1A73E8'
+initials: CR
+category: browser
+price: free
+license: 'GPL-3.0'
+website: https://www.cromite.org
+download: https://www.cromite.org/#download
+repo: https://github.com/uazo/cromite
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [浏览器, 安卓, 去广告, 隐私, chromium]
+platforms: [android, windows, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 安卓上内置去广告的 Chromium 分支
+  en: A Chromium fork for Android with ad blocking built in
+description:
+  zh: 从 Chromium 改出来的浏览器，内置广告与追踪拦截，去掉了 Google 服务连接和遥测，加了指纹混淆、按站点权限控制等隐私补丁。安卓是主战场，也提供 Windows 和 Linux 版本。
+  en: A Chromium fork with ad and tracker blocking built in, Google service connections and telemetry stripped out, and privacy patches such as fingerprint randomisation and per-site permission controls. Android is the main target, with Windows and Linux builds also provided.
+review:
+  zh: |
+    GPL-3.0 协议，8238 颗星。
+
+    安卓上装拦截插件这条路 2024 年之后越走越窄：Chrome 手机版本来就不支持扩展，
+    Manifest V3 又削弱了拦截类扩展的能力。Cromite 的做法是把拦截做进浏览器本体，
+    不依赖扩展机制，所以 MV3 那套限制对它不成立。
+
+    它接的是 Bromite 的班。Bromite 2022 年底停更后，社区在它的补丁集上继续做，
+    改名 Cromite，补丁从上游 Chromium 持续 rebase。
+
+    要说清楚的：
+
+    - **不在 Play 商店。** 官网或 F-Droid 下 APK，认签名。
+    - 桌面版有，但 Windows 和 Linux 上选择多得多（目录里的 Brave、
+      LibreWolf、Ungoogled Chromium 都是）。它的价值主要在安卓。
+    - 同步和密码管理要自己解决，它不接 Google 账号——这既是特性也是麻烦。
+  en: |
+    GPL-3.0, 8,238 stars.
+
+    Installing a blocker on Android has narrowed since 2024: mobile Chrome never supported extensions,
+    and Manifest V3 weakened blocking extensions where they do run. Cromite builds blocking into the
+    browser itself rather than into an extension, so the MV3 constraints do not apply to it.
+
+    It took over from Bromite. After Bromite stopped updating in late 2022, the community continued from
+    its patch set under the Cromite name, rebasing the patches onto upstream Chromium as it moves.
+
+    To be clear about:
+
+    - **Not on the Play Store.** The APK comes from the official site or F-Droid; check the signature.
+    - Desktop builds exist, but Windows and Linux have far more choice already — Brave, LibreWolf and
+      Ungoogled Chromium are all in this directory. Its value is mainly on Android.
+    - Sync and password management are your problem, since it does not connect to a Google account. That
+      is both the point and the inconvenience.

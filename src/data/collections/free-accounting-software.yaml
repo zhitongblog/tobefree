@@ -1,0 +1,43 @@
+title:
+  zh: "免费记账与理财软件推荐"
+  en: "Free Accounting and Personal Finance Software"
+description:
+  zh: "八款免费记账、预算与投资跟踪软件，数据存在本机或自建服务器，不上传银行账号，不按条数收费。"
+  en: "Eight free tools for bookkeeping, budgeting and portfolio tracking, storing data locally or on your own server, with no bank credentials uploaded and no per-transaction pricing."
+intro:
+  zh: "记账软件有个绕不开的问题：它要看你的全部消费记录。商业记账 App 的典型做法是让你绑定银行卡自动同步，账目存在厂商服务器上，免费版限制账本数量或历史查询范围，导出功能藏在付费墙后面。这份清单里的工具都把数据留在你自己手上 —— 本地数据库、纯文本文件，或者你自己搭的服务。按用途分三类：复式记账、日常预算、投资组合跟踪。"
+  en: "Bookkeeping software has an unavoidable property: it sees everything you spend. Commercial apps typically want your bank login for automatic sync, keep the ledger on a vendor server, cap the number of books or the history range on the free tier, and put export behind a paywall. Everything in this list keeps the data in your hands — a local database, plain text files, or a service you run. It sorts three ways: double-entry accounting, everyday budgeting, and portfolio tracking."
+criteria:
+  zh:
+    - "数据存本地或可自建，不强制把账目上传到厂商服务器。"
+    - "导出不设限制，随时能把账本完整拿走。"
+    - "不限制账本数量、条目数量或可查询的历史范围。"
+    - "不需要绑定银行账号或提供网银凭据即可使用。"
+  en:
+    - "Data is local or self-hosted, with no forced upload of your ledger to a vendor."
+    - "Export is unrestricted — the full book leaves with you at any time."
+    - "No caps on the number of books, entries or how far back you can look."
+    - "Usable without linking a bank account or handing over online banking credentials."
+tools: [gnucash, actual-budget, homebank, money-manager-ex, firefly-iii, beancount, ghostfolio, portfolio-performance]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "只是想记清楚钱花哪儿了，不懂会计，选哪个？"
+      a: "HomeBank 或 Money Manager EX。都是单机软件，装完建个账户开始记，分类、预算、报表这些够用，不要求你理解借贷记账。Actual Budget 也适合，它走的是信封预算那套方法——先把钱分配到各个用途里，再按分配花。"
+    - q: "GnuCash 和 Beancount 有什么区别？"
+      a: "都是复式记账，形态不同。GnuCash 是图形界面加数据库，适合习惯表格和菜单的人；Beancount 是纯文本，账本就是一个可以进 Git 的文本文件，改动有版本历史，可以写脚本批量处理。会写代码的人通常更喜欢后者。"
+    - q: "想在自己服务器上跑，选哪个？"
+      a: "Firefly III。网页界面，Docker 部署，多账户、预算、账单提醒、规则自动分类都有，手机浏览器上也能记。它面向的是「我有一台自己的服务器，账目不想经过任何第三方」这种需求。"
+    - q: "投资持仓怎么跟踪？"
+      a: "Ghostfolio 或 Portfolio Performance。Ghostfolio 是自建的网页应用，看资产配置和收益曲线；Portfolio Performance 是桌面软件，计算更细，支持真实时间加权收益率和多币种。两个都不需要把券商账号交出去，手动录入或导入 CSV。"
+  en:
+    - q: "I just want to know where the money went and I do not know accounting. Which one?"
+      a: "HomeBank or Money Manager EX. Both are standalone desktop apps — create an account, start entering, and the categories, budgets and reports are sufficient without understanding debits and credits. Actual Budget also fits, using envelope budgeting where money is assigned to purposes first and spent from those assignments."
+    - q: "What separates GnuCash from Beancount?"
+      a: "Both are double-entry; the form differs. GnuCash is a GUI over a database, suited to people comfortable with tables and menus. Beancount is plain text — the ledger is a file you can put in Git, with version history on every change and scripts to process it in bulk. People who write code usually prefer the second."
+    - q: "Which one runs on my own server?"
+      a: "Firefly III. A web interface deployed with Docker, covering multiple accounts, budgets, bill reminders and rule-based categorisation, usable from a phone browser. It is built for \"I have a server and my ledger should not pass through anyone else.\""
+    - q: "How do I track investments?"
+      a: "Ghostfolio or Portfolio Performance. Ghostfolio is a self-hosted web app for allocation and return curves; Portfolio Performance is a desktop app with finer calculation, including true time-weighted returns and multiple currencies. Neither asks for your broker login — enter manually or import a CSV."

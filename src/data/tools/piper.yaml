@@ -1,0 +1,63 @@
+name: Piper
+accent: '#18A999'
+initials: PI
+category: ai
+price: free
+license: 'GPL-3.0'
+website: https://github.com/OHF-Voice/piper1-gpl
+download: https://github.com/OHF-Voice/piper1-gpl/releases
+repo: https://github.com/OHF-Voice/piper1-gpl
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [语音合成, tts, 离线, 本地运行, 无障碍]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 在树莓派上都能实时跑的本地语音合成
+  en: Local neural speech synthesis fast enough for a Raspberry Pi
+description:
+  zh: 本地运行的神经网络语音合成引擎，把文字变成语音，全程不联网。模型体积小到能在树莓派 4 上实时输出，覆盖三十多种语言，中文、英文各有多个音色可选。由 Open Home Foundation 维护，是 Home Assistant 的默认本地语音方案。
+  en: A neural text-to-speech engine that runs locally, turning text into speech with no network involved. Models are small enough for real-time output on a Raspberry Pi 4, covering more than thirty languages with several voices each for English and Chinese. Maintained by the Open Home Foundation, it is the default local voice for Home Assistant.
+review:
+  zh: |
+    GPL-3.0 协议，由 Open Home Foundation 维护。
+
+    语音合成这块免费方案一直有个尴尬：好听的要联网调 API，按字符收费，
+    你念的每句话都要过一次别人的服务器；能离线的（比如 eSpeak NG）
+    机器味重到只适合无障碍朗读。Piper 卡在中间，而且更靠近前者——
+    模型是 VITS 架构训练出来的，听感接近商业 TTS，但整个推理在本机完成。
+
+    模型文件一个几十 MB，一次下载之后断网可用。给有声书、
+    给自己写的程序加语音提示、给智能家居做播报，这些场景不需要
+    每次都给云服务付费。Home Assistant 把它作为默认本地语音方案，
+    目录里那套家庭自动化可以直接接上。
+
+    要说清楚的：
+
+    - **原仓库 rhasspy/piper 已归档**，现在维护的是 OHF-Voice/piper1-gpl，
+      协议也从 MIT 改成了 GPL-3.0。找教程时注意版本。
+    - 命令行工具和 Python 库，没有图形界面。不写脚本的话上手有门槛。
+    - 情感和语气控制很弱。念说明文字没问题，要演绎有情绪的旁白不够用。
+  en: |
+    GPL-3.0, maintained by the Open Home Foundation.
+
+    Free speech synthesis has had an awkward gap: the good-sounding options call a cloud API, bill per
+    character, and route every sentence you speak through someone else's server, while the offline
+    options — eSpeak NG among them — sound robotic enough to suit screen readers and little else. Piper
+    sits between them and much closer to the first: the models are VITS-trained and land near commercial
+    TTS in listening quality, with inference entirely on your machine.
+
+    A model file is tens of megabytes, downloaded once and usable offline afterwards. Audiobooks, voice
+    prompts in your own programs, announcements for home automation — none of these need to pay a cloud
+    service per run. Home Assistant ships it as the default local voice, so the home automation stack
+    already in this directory plugs straight in.
+
+    To be clear about:
+
+    - **The original rhasspy/piper repository is archived.** Maintenance moved to OHF-Voice/piper1-gpl
+      and the licence changed from MIT to GPL-3.0. Watch which version a tutorial is describing.
+    - It is a command-line tool and a Python library, with no GUI. Without scripting there is a barrier.
+    - Emotion and prosody control are weak. Reading instructional text is fine; performing an expressive
+      narration is not what it does.

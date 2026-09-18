@@ -1,0 +1,66 @@
+name: Audiobookshelf
+accent: '#815D3A'
+initials: AB
+category: selfhosted
+price: free
+license: 'GPL-3.0'
+website: https://audiobookshelf.org
+download: https://www.audiobookshelf.org/docs
+repo: https://github.com/advplyr/audiobookshelf
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [有声书, 播客, 自建, 媒体服务器, 开源]
+platforms: [linux, windows, android, ios, web]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 自己搭的有声书服务器，进度在设备之间接得上
+  en: Your own audiobook server, with progress that follows you between devices
+description:
+  zh: 自建的有声书与播客服务器。扫描本地音频文件生成书库，自动抓取封面和元数据，多用户各自独立进度，安卓与 iOS 有官方 App，支持离线下载、睡眠定时和倍速播放，也能直接订阅播客 RSS。
+  en: A self-hosted audiobook and podcast server. It scans local audio files into a library, fetches covers and metadata, keeps per-user progress for multiple accounts, and has official Android and iOS apps with offline downloads, a sleep timer and speed control. It can also subscribe to podcast RSS feeds directly.
+review:
+  zh: |
+    GPL-3.0 协议，1.44 万颗星。
+
+    有声书是个被平台锁得很死的品类：买了的书通常带 DRM，
+    换一家 App 就听不了，账号没了书也没了。
+    自己买的无 DRM 音频文件、自己录的、公版书朗读——
+    这些堆在硬盘上，用普通播放器听最大的麻烦是记不住进度，
+    一本书三十个文件，手机上听到哪里换电脑就找不着了。
+
+    Audiobookshelf 管的就是这件事。书库按书组织而不是按文件，
+    进度同步在服务端，手机上听到第 12 章第 8 分钟，
+    打开网页版从那儿继续。
+
+    Jellyfin 也能放音频，但它是按音乐逻辑组织的，
+    有声书的章节、进度、朗读者这些字段它不当回事。
+
+    要说清楚的：
+
+    - 要自己有服务器或 NAS，Docker 部署。
+    - 元数据抓取对中文有声书的覆盖不如英文，封面和简介经常要手动补。
+    - 它不提供内容，只管理你已经有的文件。
+  en: |
+    GPL-3.0, 14,400 stars.
+
+    Audiobooks are a tightly locked category: purchased books usually carry DRM, they do not move to
+    another app, and losing the account loses the library. DRM-free files you bought, recordings you
+    made, public-domain readings — these pile up on a disk, and the real annoyance in a normal player is
+    that it forgets your position. A book is thirty files; stop at one on the phone and the laptop has
+    no idea where that was.
+
+    This is what Audiobookshelf handles. The library is organised by book rather than by file, and
+    progress syncs on the server, so chapter 12 at eight minutes on the phone continues exactly there in
+    the browser.
+
+    Jellyfin also plays audio, but it organises on music logic and does not care about chapters,
+    positions or narrators.
+
+    To be clear about:
+
+    - It needs your own server or NAS, deployed with Docker.
+    - Metadata coverage is weaker for non-English audiobooks; covers and descriptions often need filling
+      in by hand.
+    - It supplies no content — it manages the files you already have.

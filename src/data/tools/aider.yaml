@@ -1,0 +1,59 @@
+name: Aider
+accent: '#14B8A6'
+initials: AI
+category: ai
+price: free
+license: 'Apache-2.0'
+website: https://aider.chat
+download: https://aider.chat/docs/install.html
+repo: https://github.com/Aider-AI/aider
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [ai编程, 终端, git, 自带api, 开源]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 每一次 AI 改动都是一个 Git commit，随时能退回去
+  en: Every AI edit lands as a Git commit you can walk back
+description:
+  zh: 命令行里的 AI 结对编程工具，改完代码自动生成一次 Git commit，消息里写清楚改了什么。用仓库地图让模型理解整个项目结构而不只是当前文件，模型自己接，支持 Claude、GPT、Gemini 以及 Ollama 上的本地模型。
+  en: An AI pair-programming tool for the command line that commits each change to Git automatically with a message describing what it did. A repository map gives the model the shape of the whole project rather than just the open file, and you attach the model yourself — Claude, GPT, Gemini or a local model through Ollama.
+review:
+  zh: |
+    Apache-2.0 协议，4.9 万颗星。
+
+    它和其他 AI 编程工具最实在的差别是 Git。每完成一次修改就提交一次，
+    commit 消息写明改动内容。改错了 `git reset --hard HEAD~1` 就回去了，
+    改对了历史里留着一条可读的记录。AI 改代码最大的心理负担是
+    「它到底动了哪些地方」，用 commit 划分之后这个问题变成了看 diff。
+
+    仓库地图（repo map）是另一处设计：它不是把整个项目塞进上下文，
+    而是抽出类名、函数签名和调用关系构成一张图，
+    让模型知道去哪儿找，同时把 token 压下来。
+
+    要说清楚的：
+
+    - **模型按 token 收费。** 软件不收钱，费用付给你接的模型服务商。
+      接 Ollama 本地模型则零成本，代价是复杂改动上明显更弱。
+    - 纯命令行，没有图形界面。习惯在 IDE 里看 diff 的人会不适应。
+    - 上游更新节奏 2026 年中之后放缓了，最近一次提交是 5 月。功能是稳定可用的。
+  en: |
+    Apache-2.0, 49,000 stars.
+
+    Its most concrete difference from other AI coding tools is Git. Each completed change becomes a
+    commit whose message says what it did. A bad edit is `git reset --hard HEAD~1`; a good one leaves a
+    readable record. The main anxiety with an AI editing code is not knowing what it touched, and
+    splitting work into commits turns that into reading a diff.
+
+    The repo map is the other design decision: rather than stuffing the project into context, it
+    extracts class names, function signatures and call relationships into a graph, so the model knows
+    where to look while the token count stays down.
+
+    To be clear about:
+
+    - **Models are billed per token.** The software takes nothing; the cost goes to whichever provider
+      you attach. A local Ollama model costs nothing and is noticeably weaker on complex changes.
+    - Command line only, with no GUI. People used to reading diffs inside an IDE will feel it.
+    - Upstream activity slowed after mid-2026, with the most recent commit in May. What is there works.

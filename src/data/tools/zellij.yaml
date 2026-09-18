@@ -1,0 +1,62 @@
+name: Zellij
+accent: '#3A7D44'
+initials: ZJ
+category: dev
+price: free
+license: 'MIT'
+website: https://zellij.dev
+download: https://zellij.dev/documentation/installation
+repo: https://github.com/zellij-org/zellij
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [终端复用, 命令行, rust, 会话, 服务器]
+platforms: [macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 断开 ssh 也不会丢的终端会话，而且不用背快捷键
+  en: Terminal sessions that survive a dropped ssh — without memorising shortcuts
+description:
+  zh: 终端复用工具，在一个窗口里开多个面板和标签页，会话跑在后台，ssh 断线重连后原样接回去。和 tmux 的主要差别是底部常驻一条快捷键提示栏，不需要先背一套组合键才能用；支持布局文件和 WebAssembly 插件。
+  en: A terminal multiplexer that runs multiple panes and tabs in one window with sessions living in the background, so a dropped ssh connection reattaches exactly where it was. The main difference from tmux is a permanent hint bar of keybindings along the bottom, so nothing has to be memorised first; it also supports layout files and WebAssembly plugins.
+review:
+  zh: |
+    MIT 协议，3.5 万颗星。
+
+    tmux 解决的问题很实在：ssh 到服务器上跑一个要两小时的任务，
+    网断了任务也跟着死。终端复用把进程挂在后台的会话里，
+    连接断了重新 attach 就行。问题是 tmux 的入门成本——
+    `Ctrl-b` 开头的一整套组合键，不看 cheatsheet 记不住。
+
+    Zellij 把提示栏放在屏幕底部常驻，每个模式下能按什么直接写在那儿。
+    第一次打开就能用，熟了之后可以把提示栏关掉省一行空间。
+
+    布局能写成文件：哪个面板跑什么命令、怎么分屏，存成配置，
+    下次一条命令把整套开发环境铺开。
+
+    要说清楚的：
+
+    - 资源占用比 tmux 高，在老旧的小内存 VPS 上差别能感觉到。
+    - Windows 上没有原生版本，要走 WSL。
+    - 服务器上装它意味着对端也得有；只有本地有的话，ssh 场景收益有限。
+  en: |
+    MIT-licensed, 35,400 stars.
+
+    tmux solves a concrete problem: ssh into a server, start a two-hour job, lose the connection and the
+    job dies with it. A multiplexer keeps processes in a background session that you reattach to. The
+    cost is tmux's entry barrier — an entire `Ctrl-b` keybinding vocabulary that does not stick without
+    a cheatsheet.
+
+    Zellij keeps a hint bar pinned to the bottom of the screen, spelling out what each mode accepts.
+    It is usable on first launch, and the bar can be hidden later to reclaim the line.
+
+    Layouts can be written to a file: which pane runs which command, how the screen splits, saved as
+    config so one command lays out an entire working environment next time.
+
+    To be clear about:
+
+    - It uses more resources than tmux, which is noticeable on an old low-memory VPS.
+    - There is no native Windows build; it goes through WSL.
+    - Installing it on a server means the remote side needs it too. With it only on your laptop, the ssh
+      benefit is limited.

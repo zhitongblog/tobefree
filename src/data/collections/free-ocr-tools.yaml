@@ -1,0 +1,43 @@
+title:
+  zh: "免费 OCR 文字识别工具"
+  en: "Free OCR Tools"
+description:
+  zh: "四款本机运行的免费 OCR 工具，截图识字、扫描件转可搜索 PDF、批量归档，图片不上传、不限次数。"
+  en: "Four free OCR tools that run locally — screenshot text capture, scanned PDFs turned searchable, and batch archiving, with no image uploaded and no usage cap."
+intro:
+  zh: "在线 OCR 网站有三件事叠在一起：每天限几张、要注册、图片要传上去。处理合同、证件、病历、内部文档的时候，第三件事本身就是问题——你没法确认那张图之后去了哪儿。本机 OCR 把这三条同时消掉：断网可用、不限次数、图片不出本机。这份清单按流程分三段：从屏幕上取字、把扫描件变成可搜索的文档、把文档批量归档进检索系统。"
+  en: "Online OCR sites stack three problems: a daily page limit, a sign-up, and your image travelling to their server. For contracts, identity documents, medical records or internal paperwork, the third is a problem by itself — you cannot verify where that image went afterwards. Local OCR removes all three at once: offline, unlimited, and nothing leaves the machine. This list follows the workflow in three stages — pulling text off the screen, turning scans into searchable documents, and filing documents into a searchable archive."
+criteria:
+  zh:
+    - "识别在本机完成，图片不上传到任何服务器。"
+    - "不限识别次数，不限页数。"
+    - "不需要注册账号或 API Key。"
+    - "支持中文识别的单独标注。"
+  en:
+    - "Recognition happens locally; no image is uploaded anywhere."
+    - "No cap on the number of recognitions or pages."
+    - "No account or API key required."
+    - "Support for non-Latin scripts is noted per tool."
+tools: [umi-ocr, ocrmypdf, paperless-ngx, stirling-pdf]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "想从截图里取字，用哪个？"
+      a: "Umi-OCR。快捷键框选屏幕任意区域，文字直接进剪贴板。不能复制的网页、PDF、视频画面里的字都能取出来，中英日韩和竖排文本都支持，全程离线。只有 Windows 和 Linux 版。"
+    - q: "扫描件 PDF 搜不到内容怎么办？"
+      a: "用 OCRmyPDF 加一层文字。它在图片底下压一层透明文字，页面外观完全不变，但可以搜索、选中、复制，也能被索引。命令行工具，一条命令处理一份，套个循环就是几百份。中文要先装对应的 Tesseract 语言包。"
+    - q: "家里一堆纸质单据想数字化归档？"
+      a: "Paperless-ngx。扫描件丢进去，它自动 OCR、自动按规则分类打标签、存成可全文搜索的库。找三年前那张保修单直接搜关键词。它是自建服务，要一台常开的机器。"
+    - q: "为什么不用在线 OCR？"
+      a: "识别质量不是主要问题，数据流向才是。一份劳动合同、一张身份证扫描件传上去之后，保存多久、谁能看到、有没有用于训练，这些你都无从验证。本机方案把这个问题整个消掉。"
+  en:
+    - q: "What pulls text out of a screenshot?"
+      a: "Umi-OCR. A shortcut selects any region of the screen and the text lands in the clipboard, working on pages that block copying, on PDFs and on video frames, across Latin and CJK scripts including vertical text, entirely offline. Windows and Linux only."
+    - q: "My scanned PDF is not searchable."
+      a: "Run OCRmyPDF over it. It slips a transparent text layer under the images, leaving the page identical while making it searchable, selectable, copyable and indexable. It is a command-line tool — one command per file, and a loop makes it hundreds. Non-English needs the matching Tesseract language pack installed first."
+    - q: "I want to digitise a pile of paper documents."
+      a: "Paperless-ngx. Feed scans in and it runs OCR, applies tags by rule, and stores everything as a full-text searchable library, so the warranty slip from three years ago is a keyword away. It is a self-hosted service and wants a machine that stays on."
+    - q: "Why not just use an online OCR site?"
+      a: "Recognition quality is not the main issue; where the data goes is. Once an employment contract or a scan of an identity document is uploaded, how long it is retained, who can see it and whether it feeds training are all unverifiable from your side. Running locally removes the question entirely."

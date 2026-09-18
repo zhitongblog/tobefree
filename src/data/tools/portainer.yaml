@@ -1,0 +1,59 @@
+name: Portainer CE
+accent: '#13BEF9'
+initials: PO
+category: selfhosted
+price: freemium
+license: 'Zlib · 社区版'
+website: https://www.portainer.io
+download: https://docs.portainer.io/start/install-ce
+repo: https://github.com/portainer/portainer
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [docker, 容器, 自建, 网页界面, 运维]
+platforms: [linux, windows, web]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 在网页里管容器：看日志、进终端、改配置、重启
+  en: Manage containers from a browser — logs, shell, config, restart
+description:
+  zh: Docker 与 Kubernetes 的网页管理界面。容器列表、实时日志、进容器终端、镜像与卷管理、compose 栈部署和更新全在浏览器里完成，不用 ssh 到机器上敲命令。社区版 Zlib 协议开源，功能完整。
+  en: A web management interface for Docker and Kubernetes. Container lists, live logs, an in-container shell, image and volume management, and deploying or updating compose stacks all happen in the browser instead of over ssh. The community edition is open source under Zlib and functionally complete.
+review:
+  zh: |
+    社区版 Zlib 协议，3.85 万颗星。
+
+    自建服务多了之后，日常动作其实很固定：看某个容器为什么挂了、
+    重启一下、改个环境变量、更新镜像。每次都 ssh 上去敲
+    `docker logs`、`docker compose up -d` 不难，但在手机上做就很难受。
+
+    Portainer 把这些搬进浏览器。容器列表一眼看清哪个在跑哪个挂了，
+    点进去实时日志滚动，要调试直接开一个容器内终端。
+    compose 栈可以直接贴 YAML 进去部署和更新。
+
+    要说清楚的：
+
+    - **它自己也是个容器，权限很大。** 要挂载 Docker socket 才能管别的容器，
+      这等于把宿主机的控制权交给这个界面。管理界面绝不能裸奔在公网上，
+      密码要强，前面套一层反代加认证更稳妥。
+    - 商业版多的是 RBAC、多团队、审计日志这些企业功能。个人自建用社区版足够。
+  en: |
+    Community edition under Zlib, 38,500 stars.
+
+    Once you self-host several services the daily actions are few and repetitive: find out why a
+    container died, restart it, change an environment variable, pull a new image. Typing `docker logs`
+    and `docker compose up -d` over ssh is not hard, but doing it from a phone is miserable.
+
+    Portainer moves that into the browser. The container list shows at a glance what is running and what
+    is not, clicking through gives live scrolling logs, and debugging opens a shell inside the container.
+    Compose stacks can be pasted in as YAML to deploy and update.
+
+    To be clear about:
+
+    - **It is itself a container, and a highly privileged one.** Managing other containers requires
+      mounting the Docker socket, which hands control of the host to this interface. It must never sit
+      unprotected on the public internet; use a strong password, and a reverse proxy with authentication
+      in front is safer still.
+    - The commercial edition adds RBAC, multi-team support and audit logs. Personal self-hosting is
+      fully served by the community edition.

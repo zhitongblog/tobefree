@@ -1,0 +1,43 @@
+title:
+  zh: "免费自建服务软件推荐"
+  en: "Free Self-Hosted Software"
+description:
+  zh: "十七款可以装在自己服务器或 NAS 上的免费开源服务，覆盖反向代理、容器管理、照片、影音、文档、密码和监控。"
+  en: "Seventeen free and open-source services to run on your own server or NAS — reverse proxies, container management, photos, media, documents, passwords and monitoring."
+intro:
+  zh: "自建的动机通常很具体：网盘涨价了、相册开始按 GB 收费、笔记服务宣布停止运营、某个功能被挪进了订阅。自建换来的是数据在自己硬盘上、功能不会被单方面收回，代价是你要负责备份、更新和安全。这份清单按搭建顺序排 —— 先是底座（容器管理、反向代理、内网连接），再是跑在上面的服务，最后是监控。全部可以用 Docker 部署。"
+  en: "The reasons to self-host are usually specific: the cloud drive raised its price, the photo service started charging by the gigabyte, the notes product announced a shutdown, a feature moved behind a subscription. What you get back is data on your own disk and features nobody can withdraw; what you take on is backups, updates and security. This list follows the order you build in — the base layer first (container management, reverse proxy, private networking), then the services on top, then monitoring. Everything here deploys with Docker."
+criteria:
+  zh:
+    - "可以完整部署在自己的服务器上，核心功能不依赖厂商云服务。"
+    - "开源，没有按用户数或容量收费的社区版阉割。"
+    - "数据存在你控制的磁盘上，导出不受限制。"
+    - "官方提供 Docker 镜像或明确的自建文档。"
+  en:
+    - "Deployable in full on your own server, with core features not depending on a vendor cloud."
+    - "Open source, with no community edition crippled by user or capacity caps."
+    - "Data sits on disks you control, and export is unrestricted."
+    - "An official Docker image or clear self-hosting documentation exists."
+tools: [portainer, caddy, nginx-proxy-manager, tailscale, podman-desktop, gitea, nextcloud, immich, vaultwarden, paperless-ngx, jellyfin, navidrome, audiobookshelf, karakeep, freshrss, home-assistant, uptime-kuma]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "第一次自建，先装什么？"
+      a: "先把底座搭好：Portainer 管容器（在网页里看日志、重启、改配置，不用每次 ssh），Caddy 或 Nginx Proxy Manager 管域名和 HTTPS 证书。这两样弄完，后面每加一个服务都只是多一个 compose 文件加一条代理记录。"
+    - q: "Caddy 和 Nginx Proxy Manager 选哪个？"
+      a: "看你愿不愿意写配置文件。Caddy 是一个域名加一个后端地址的两行配置，证书全自动，适合习惯改文本的人。Nginx Proxy Manager 是网页表单，点几下建好一条代理，证书状态列成一张表，适合不想碰配置文件的人。功能上都够用，别两个都装。"
+    - q: "服务不想暴露在公网上怎么办？"
+      a: "用 Tailscale 把设备连成一个私有网络，服务只监听内网地址，从外面根本扫不到。手机在外面照样能访问家里的服务，但公网上不存在一个开着的端口。这比「开公网 + 改默认端口 + 祈祷」安全得多。"
+    - q: "自建之后备份怎么办？"
+      a: "这是自建真正的代价，没有人替你做。至少要做两件事：数据卷定期备份到另一块盘或另一台机器，以及定期验证备份能恢复。目录里的 Kopia 做加密增量备份，Syncthing 做多机同步。装了十个服务却没有备份，比用商业云风险更大。"
+  en:
+    - q: "What goes in first?"
+      a: "The base layer. Portainer for containers — logs, restarts and config changes in a browser instead of an ssh session every time — and Caddy or Nginx Proxy Manager for domains and HTTPS. With those in place, every later service is one compose file plus one proxy record."
+    - q: "Caddy or Nginx Proxy Manager?"
+      a: "It depends on whether you want to write config. Caddy is two lines — a domain and a backend — with certificates fully automatic, suited to people comfortable editing text. Nginx Proxy Manager is a web form where a few clicks create a proxy and certificate status sits in a table, suited to people who would rather not. Both are sufficient; do not run both."
+    - q: "How do I keep services off the public internet?"
+      a: "Use Tailscale to join your devices into a private network and have services listen only on that address, so nothing is scannable from outside. Your phone still reaches the home service while no open port exists on the public internet. That beats \"expose it, change the default port, and hope.\""
+    - q: "What about backups?"
+      a: "This is the real cost of self-hosting and nobody does it for you. At minimum, back data volumes up to another disk or machine on a schedule, and verify periodically that a restore actually works. Kopia in this directory handles encrypted incremental backups and Syncthing handles multi-machine sync. Ten services with no backup is riskier than the commercial cloud you left."

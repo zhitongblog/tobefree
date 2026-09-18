@@ -1,0 +1,43 @@
+title:
+  zh: "免费离线地图与导航 App"
+  en: "Free Offline Maps and Navigation Apps"
+description:
+  zh: "三款基于 OpenStreetMap 的免费离线地图，地图存在手机里，断网能搜能导航，不收集位置历史。"
+  en: "Three free OpenStreetMap-based offline maps that store data on the phone, search and navigate without a connection, and collect no location history."
+intro:
+  zh: "商业地图的免费是有代价的：你每搜一个地址、每走一条路线，这些记录都回到服务器上，构成一份相当完整的行踪档案。出国不开漫游、进山没信号这些场景它还直接用不了。基于 OpenStreetMap 的方案换了个结构 —— 地图按区域下载到本机，之后搜索、算路线、语音导航全在设备上完成，飞行模式下照常工作。三款同源，OpenStreetMap 的数据、同一支代码的两次分叉，差别在治理和功能深度。"
+  en: "Free commercial maps have a price: every address you search and every route you take returns to a server, adding up to a fairly complete record of your movements. They also simply stop working abroad without roaming or in the mountains without signal. OpenStreetMap-based apps change the structure — maps download by region, then search, routing and voice guidance all run on the device, airplane mode included. The three here share ancestry: OpenStreetMap data and two forks of one code base, differing in governance and depth."
+criteria:
+  zh:
+    - "地图数据下载到本机，断网可以搜索和导航。"
+    - "不需要注册账号，不收集位置历史。"
+    - "使用 OpenStreetMap 等开放地图数据。"
+    - "免费版的下载额度限制逐款标注。"
+  en:
+    - "Map data downloads to the device; search and navigation work with no connection."
+    - "No account required and no location history collected."
+    - "Built on open map data such as OpenStreetMap."
+    - "Any free-tier download allowance is stated per app."
+tools: [organic-maps, comaps, osmand]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "三个里选哪个？"
+      a: "只想要「从 A 到 B 别迷路」，装 Organic Maps 或 CoMaps，两者功能几乎一样，装完就能用，没有下载额度限制。要徒步越野、要等高线和 GPX 轨迹、要按车型调路线参数，用 OsmAnd，它面向的是把地图当工具而不是当查询框的人。"
+    - q: "Organic Maps 和 CoMaps 为什么长得一样？"
+      a: "因为是同一份代码。2025 年 4 月一批贡献者就治理和资金透明度发了公开信，主要争议是少数股东在没有社区参与的情况下决定商业合作和资金使用。协商没有结果，贡献者带着 Apache-2.0 的代码 fork 出了 CoMaps，走非营利路线。现在两边都在更新，选哪个取决于你更认哪套治理。CoMaps 多一个 Linux 桌面版。"
+    - q: "OsmAnd 免费版够用吗？"
+      a: "看你走多远。免费版能下载 7 份地图，一份通常是一个省或一个中等国家，日常通勤和国内出行够用；长途跨国就不够，超出要买 Maps+。从 F-Droid 装也受同样限制，不是渠道差异。"
+    - q: "离线地图有什么代价？"
+      a: "两件事。商户信息不如商业地图新，一家新开的店可能要等社区补上去；实时路况和公交到站这类要联网的能力没有。换来的是徒步路径和山区小路往往覆盖更好——OSM 的户外数据是志愿者一脚一脚走出来的。"
+  en:
+    - q: "Which of the three?"
+      a: "For \"get me from A to B without getting lost,\" install Organic Maps or CoMaps — nearly identical, usable immediately, with no download allowance. For hiking and off-road, contour lines and GPX tracks, or routing tuned to a vehicle type, take OsmAnd, which is built for people treating a map as a tool rather than a search box."
+    - q: "Why do Organic Maps and CoMaps look the same?"
+      a: "Because they are the same code. In April 2025 a group of contributors published an open letter about governance and financial transparency, the dispute being that a small set of shareholders decided commercial partnerships and spending without community involvement. Talks failed, and the contributors forked the Apache-2.0 code into CoMaps as a not-for-profit. Both ship updates; which you pick depends on whose governance you prefer. CoMaps adds a Linux desktop build."
+    - q: "Is the free OsmAnd enough?"
+      a: "It depends how far you go. The free tier downloads seven maps, and one map is typically a province or a mid-sized country — fine for commuting and domestic travel, not enough for a long international trip, after which Maps+ is required. Installing from F-Droid does not lift the cap."
+    - q: "What do offline maps cost you?"
+      a: "Two things. Business listings are less fresh than commercial maps, so a shop that opened last month may wait for a volunteer; and anything requiring a connection — live traffic, transit arrivals — is absent. In exchange, hiking paths and mountain tracks are often better covered, because OSM's outdoor data was walked in by volunteers."

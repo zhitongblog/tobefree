@@ -1,0 +1,60 @@
+name: NewPipe
+accent: '#CD201F'
+initials: NP
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://newpipe.net
+download: https://newpipe.net/#download
+repo: https://github.com/TeamNewPipe/NewPipe
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [视频, 安卓, 无广告, 后台播放, 开源]
+platforms: [android]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 安卓上看视频不进广告、能后台播、不要账号
+  en: Watch on Android with no ads, background playback and no account
+description:
+  zh: 安卓上的第三方视频前端，不调用任何官方客户端库，也不需要登录账号。没有贴片和插播广告，支持后台播放与画中画、下载视频音频到本地、订阅频道存在本机、导入导出订阅列表。
+  en: A third-party video front-end for Android that links against no official client libraries and needs no account. There are no pre-roll or mid-roll ads; it supports background and picture-in-picture playback, downloading video and audio locally, and subscriptions stored on the device with import and export.
+review:
+  zh: |
+    GPL-3.0 协议，3.97 万颗星。
+
+    官方客户端上想后台播放、想去掉广告，要买会员。NewPipe 的做法是
+    干脆不用官方客户端那一套：它自己解析网页接口拿到播放地址，
+    不加载任何专有库，因此也不带广告模块。
+
+    副作用是它不需要账号。订阅列表存在手机本地，可以导出成文件搬到另一台设备，
+    观看记录不上传。对于「不想让平台建立我的兴趣画像」这件事，这是最彻底的做法之一。
+
+    要说清楚的：
+
+    - **不在 Play 商店上架**，官网直接下 APK，或者用 F-Droid。
+      装的时候认准官网和官方签名。
+    - **平台改接口它就坏。** 这是第三方前端的宿命，历史上多次出现
+      几天不能用、等新版本修的情况。介意稳定性的话要有心理准备。
+    - 它绕过了平台的广告变现，创作者拿不到这部分分成。这一点自己权衡。
+  en: |
+    GPL-3.0, 39,700 stars.
+
+    Background playback and ad removal on the official client cost a subscription. NewPipe's approach is
+    to skip that client entirely: it parses the web interface for playback URLs, links no proprietary
+    libraries, and therefore carries no ad module.
+
+    A side effect is that it needs no account. Subscriptions live on the phone, can be exported to a
+    file and carried to another device, and watch history is never uploaded. As ways of not letting a
+    platform build an interest profile of you go, this is among the most complete.
+
+    To be clear about:
+
+    - **It is not on the Play Store.** The APK comes from the official site or from F-Droid. Check the
+      site and the signature when installing.
+    - **When the platform changes its interface, it breaks.** That is the fate of third-party
+      front-ends; there have been stretches of several days waiting for a fix. Expect it if stability
+      matters to you.
+    - It bypasses the platform's advertising, so creators do not receive that share. Weigh that
+      yourself.

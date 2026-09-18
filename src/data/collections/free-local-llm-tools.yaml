@@ -18,7 +18,7 @@ criteria:
     - No account required to download or use.
     - Runs fully offline, with models and conversations staying on your machine.
     - Licences are recorded from the actual LICENSE file, not the repository page's auto-detection.
-tools: [ollama, lm-studio, jan, open-webui]
+tools: [ollama, lm-studio, jan, open-webui, llama-cpp, localai, anythingllm, librechat, chatbox]
 skills: []
 featured: true
 added: '2026-08-14'

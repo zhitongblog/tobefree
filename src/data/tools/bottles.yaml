@@ -1,0 +1,64 @@
+name: Bottles
+accent: '#9B5DE5'
+initials: BO
+category: gaming
+price: free
+license: 'GPL-3.0'
+website: https://usebottles.com
+download: https://usebottles.com/download/
+repo: https://github.com/bottlesdevs/Bottles
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [wine, linux, windows程序, 沙盒, 开源]
+platforms: [linux]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 每个 Windows 程序住一个独立环境，互不干扰
+  en: Every Windows program gets its own isolated environment
+description:
+  zh: Linux 上运行 Windows 程序的图形化工具。每个程序装在一个独立的「瓶子」里，各自带自己的 Wine 版本、依赖库和注册表，互不影响。可以给瓶子做快照后回滚，也可以打包导出搬到另一台机器。
+  en: A graphical way to run Windows programs on Linux. Each program lives in its own "bottle" with its own Wine build, dependencies and registry, isolated from the others. Bottles can be snapshotted and rolled back, or packaged and exported to another machine.
+review:
+  zh: |
+    GPL-3.0 协议，8839 颗星。
+
+    直接用 Wine 的痛点是所有程序共用一个 prefix：
+    给 A 程序装的依赖可能把 B 弄坏，升级 Wine 版本又把 C 弄坏。
+    Bottles 的模型是每个程序一个隔离环境，
+    互相看不见对方的注册表和 DLL。
+
+    和 Lutris 的分工比较清楚：Lutris 重心在游戏和社区安装脚本，
+    Bottles 重心在**非游戏的 Windows 程序**——
+    某个只有 Windows 版的行业软件、老版本的设计工具、
+    公司内网要求的某个客户端。
+
+    快照能回滚，装一个可能搞坏环境的东西之前先存一份，出事直接退回去。
+
+    要说清楚的：
+
+    - 只有 Linux 版，Flatpak 分发。
+    - Wine 的能力边界就是它的边界。深度依赖 Windows 内核特性的程序
+      （驱动级、反作弊）跑不了。
+    - 每个瓶子独立意味着占磁盘。装十个程序就是十套运行环境。
+  en: |
+    GPL-3.0, 8,839 stars.
+
+    Using Wine directly hurts because every program shares one prefix: a dependency installed for A
+    breaks B, and upgrading Wine breaks C. Bottles's model is one isolated environment per program,
+    where neither can see the other's registry or DLLs.
+
+    The split with Lutris is clean: Lutris centres on games and community install scripts, Bottles on
+    **non-game Windows software** — the industry application that only ships for Windows, the older
+    version of a design tool, the client your company's network requires.
+
+    Snapshots roll back, so you save state before installing something that might wreck the environment
+    and step back if it does.
+
+    To be clear about:
+
+    - Linux only, distributed as a Flatpak.
+    - Wine's limits are its limits. Programs leaning on Windows kernel internals — driver-level code,
+      anti-cheat — will not run.
+    - One environment per bottle costs disk. Ten programs means ten runtimes.

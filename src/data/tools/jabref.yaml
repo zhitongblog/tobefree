@@ -1,0 +1,58 @@
+name: JabRef
+accent: '#3B5F8A'
+initials: JR
+category: learning
+price: free
+license: 'MIT'
+website: https://www.jabref.org
+download: https://www.jabref.org/#download
+repo: https://github.com/JabRef/jabref
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [文献管理, bibtex, latex, 科研, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 直接管 BibTeX 文件的文献库，LaTeX 用户的原生选择
+  en: A reference manager that edits BibTeX directly — native ground for LaTeX
+description:
+  zh: 文献管理软件，数据格式就是纯文本的 BibTeX 文件，不用导入导出中转。支持按 DOI、ISBN、arXiv ID 自动抓取元数据，管理 PDF 全文，自定义引用键规则，与 LaTeX 编辑器和 Word 配合使用。
+  en: A reference manager whose native format is the plain-text BibTeX file, with no import or export step in between. It fetches metadata by DOI, ISBN or arXiv ID, manages full-text PDFs, supports custom citation key rules, and works alongside LaTeX editors and Word.
+review:
+  zh: |
+    MIT 协议。
+
+    目录里已经有 Zotero。两者的分野在数据格式：
+    Zotero 用自己的数据库，导出 BibTeX 是一个动作；
+    JabRef 的库文件本身就是 `.bib`，你在软件里改一条，
+    文本文件立刻变，LaTeX 那边直接 `\cite` 就能用。
+
+    写论文的人如果已经在用 LaTeX，这个差别很实在——
+    `.bib` 可以直接进 Git 仓库跟论文一起做版本控制，
+    合作者用什么软件都不影响，因为大家共享的是同一个纯文本文件。
+
+    要说清楚的：
+
+    - 网页端抓取不如 Zotero 顺手。Zotero 的浏览器插件在期刊页面上
+      一键入库，JabRef 更多是给 DOI 让它去查。
+    - 界面是 JavaFX 的，观感偏工程化。
+    - 不做 LaTeX 的话，Zotero 的整体体验更平滑。
+  en: |
+    MIT-licensed.
+
+    Zotero is already in this directory. The dividing line is the data format: Zotero keeps its own
+    database and exporting BibTeX is an action, while JabRef's library file *is* the `.bib`. Edit an
+    entry in the app and the text file changes immediately, ready for `\cite` on the LaTeX side.
+
+    For anyone already writing in LaTeX that difference is concrete — the `.bib` goes into the Git
+    repository alongside the paper and gets versioned with it, and collaborators' choice of software
+    does not matter because everyone shares one plain-text file.
+
+    To be clear about:
+
+    - Web capture is less smooth than Zotero's. Zotero's browser connector files a paper from a journal
+      page in one click; JabRef more often wants the DOI to look up.
+    - The interface is JavaFX and feels engineering-first.
+    - Without LaTeX in the picture, Zotero is the smoother experience overall.

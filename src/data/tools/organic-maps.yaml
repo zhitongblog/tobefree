@@ -1,0 +1,65 @@
+name: Organic Maps
+accent: '#1E9B4B'
+initials: OM
+category: utility
+price: free
+license: 'Apache-2.0'
+website: https://organicmaps.app
+download: https://organicmaps.app/#download
+repo: https://github.com/organicmaps/organicmaps
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [地图, 导航, 离线, openstreetmap, 隐私]
+platforms: [android, ios]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 装完就能断网用的离线地图，不要账号也不看广告
+  en: An offline map that works with the network off — no account, no ads
+description:
+  zh: 基于 OpenStreetMap 数据的离线地图与导航 App。地图按国家和地区下载到手机上，之后搜索地点、规划步行骑行驾车路线、语音导航全部在本机完成，飞行模式下照常工作。没有账号体系，不收集位置历史。
+  en: An offline maps and navigation app built on OpenStreetMap data. Maps download per country or region, after which search, walking, cycling and driving routes and voice guidance all run on the device — airplane mode included. There is no account system and no location history collected.
+review:
+  zh: |
+    Apache-2.0 协议，1.5 万颗星。
+
+    它和 Google 地图的差别不在功能多少，在数据流向。搜一个地址，
+    Google 地图把这次查询连同你的位置发回服务器；Organic Maps 在本机
+    离线索引里查，网络关掉一样出结果。出国不开漫游、进山没信号、
+    不想让导航软件记住你每天几点去哪儿，这三种情况它都成立。
+
+    地图数据来自 OpenStreetMap，代价是商户信息不如商业地图新——
+    一家新开的店可能要等社区补上去。好处是徒步路径、骑行道、
+    山区小路的覆盖往往比商业地图强，OSM 的户外数据是志愿者一脚一脚走出来的。
+
+    要说清楚的：
+
+    - **项目 2025 年分过家。** 2025 年 4 月一批贡献者就治理和资金透明度
+      发了公开信，主要争议是少数股东在没有社区参与的情况下决定商业合作和
+      资金使用。沟通没有结果，贡献者随后 fork 出了 CoMaps，走非营利路线。
+      两边现在都在更新，代码同源，选哪个取决于你更认哪套治理。
+    - 只有手机版，没有桌面客户端。
+    - 实时路况和公交到站这类要联网的能力它没有，这是离线优先的必然代价。
+  en: |
+    Apache-2.0, 15,400 stars.
+
+    The difference from Google Maps is not feature count, it is where the data goes. Search an address
+    and Google Maps sends that query plus your position to a server; Organic Maps looks it up in a local
+    offline index and answers with the radio off. Travelling without roaming, hiking out of signal, or
+    simply not wanting a navigation app to remember where you go at what hour — all three cases hold.
+
+    Map data comes from OpenStreetMap, which costs you freshness on businesses: a shop that opened last
+    month may wait for a volunteer to add it. In exchange, hiking paths, cycle routes and mountain
+    tracks are often better covered than on commercial maps, because OSM's outdoor data was walked in
+    by volunteers.
+
+    To be clear about:
+
+    - **The project split in 2025.** In April 2025 a group of contributors published an open letter
+      about governance and financial transparency, the core dispute being that a small set of
+      shareholders decided commercial partnerships and spending without community involvement. Talks
+      went nowhere and the contributors forked CoMaps as a not-for-profit. Both are shipping updates
+      from a shared code base; which you pick depends on whose governance you prefer.
+    - Mobile only — there is no desktop client.
+    - Live traffic and transit arrivals are absent, which is the unavoidable price of offline-first.

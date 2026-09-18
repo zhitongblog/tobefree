@@ -1,0 +1,61 @@
+name: LocalAI
+accent: '#2D6A4F'
+initials: LA
+category: ai
+price: free
+license: 'MIT'
+website: https://localai.io
+download: https://localai.io/basics/getting_started/
+repo: https://github.com/mudler/LocalAI
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [本地大模型, api, 自建, 推理, 开源]
+platforms: [linux, macos, windows, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 把本机模型包装成 OpenAI 接口，程序改个地址就能接
+  en: Wraps local models in an OpenAI-shaped API — point your code at a new URL
+description:
+  zh: 本地推理服务器，对外暴露与 OpenAI 兼容的 API。已有程序只要把接口地址指过来就能改用本机模型，不必改调用代码。除了文本生成，还支持向量嵌入、语音转文字、语音合成和图像生成，CPU 也能跑。
+  en: A local inference server that exposes an OpenAI-compatible API, so existing programs switch to local models by changing the endpoint rather than the calling code. Beyond text generation it covers embeddings, speech-to-text, text-to-speech and image generation, and runs on CPU as well as GPU.
+review:
+  zh: |
+    MIT 协议，4.9 万颗星。
+
+    目录里的 Ollama、LM Studio、Jan 主要面向「我自己要和模型聊天」。
+    LocalAI 面向另一件事：我写的程序在调 OpenAI 的 API，
+    想把这一段换成本机跑，但不想动业务代码。
+    它把接口形状做成兼容的，`base_url` 改一行就切过去了。
+
+    覆盖面比单纯的文本生成宽：embeddings 可以喂给自建的向量检索，
+    whisper 系列做转写，图像生成也在同一个服务里。
+    做一套完全离线的应用时，这减少了拼接不同服务的麻烦。
+
+    要说清楚的：
+
+    - **只是不折腾的话，Ollama 更省事。** LocalAI 的价值在接口兼容和多模态统一，
+      单纯想本地聊天它是杀鸡用牛刀。
+    - 配置比 Ollama 复杂，模型定义是 YAML，第一次跑通要读文档。
+    - CPU 能跑不等于跑得快。没有显卡时大模型的生成速度会明显拖。
+  en: |
+    MIT-licensed, 49,000 stars.
+
+    Ollama, LM Studio and Jan — all in this directory — are aimed at "I want to chat with a model."
+    LocalAI is aimed at something else: my program already calls the OpenAI API and I want that part to
+    run on my own machine without touching the business code. It matches the API shape, so changing
+    `base_url` is the whole migration.
+
+    It spans more than text generation: embeddings feed a self-hosted vector search, the whisper family
+    handles transcription, and image generation lives in the same service. Building a fully offline
+    application, that removes a lot of glue between separate services.
+
+    To be clear about:
+
+    - **If you are not building anything, Ollama is simpler.** LocalAI earns its keep on API
+      compatibility and unified multimodality; for plain local chat it is overkill.
+    - Configuration is heavier than Ollama's — models are defined in YAML and the first run means
+      reading documentation.
+    - Running on CPU is not the same as running fast. Without a GPU, generation on a large model drags
+      visibly.

@@ -1,0 +1,61 @@
+name: OsmAnd
+accent: '#F0862D'
+initials: OS
+category: utility
+price: freemium
+license: 'GPL-3.0'
+website: https://osmand.net
+download: https://osmand.net/download
+repo: https://github.com/osmandapp/OsmAnd
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [地图, 导航, 离线, 户外, openstreetmap]
+platforms: [android, ios]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 户外导航的重装备，等高线、轨迹、图层全都有
+  en: The heavy-duty outdoor navigator — contours, tracks and layers included
+description:
+  zh: 基于 OpenStreetMap 的离线地图，功能面向户外和长途：等高线与地形阴影、GPX 轨迹录制与导入、自定义地图图层、海图与滑雪道等专项渲染、详细的路线参数调整。免费版可以下载 7 份地图，超出需要买 Maps+。
+  en: An OpenStreetMap-based offline map aimed at outdoor and long-distance use — contour lines and hillshading, GPX track recording and import, custom map layers, specialist renderings for nautical and ski maps, and fine-grained routing parameters. The free version allows seven map downloads; more requires the paid Maps+.
+review:
+  zh: |
+    GPL-3.0 协议。免费版限制下载 7 份地图。
+
+    和 Organic Maps 的定位差得很远。Organic Maps 追求装完就会用，
+    OsmAnd 追求你想调的都能调：路线避开哪类道路、按什么车型算限重限高、
+    地图上叠哪几层数据、等高线间距多少。设置项多到第一次打开会懵，
+    这是它面向的用户群决定的——徒步、越野、骑行长途、开房车的人。
+
+    GPX 是它的主场。录制轨迹、导入别人的路书、按轨迹导航、
+    事后看海拔剖面和分段速度，这一整套在免费版里就完整。
+
+    要说清楚的：
+
+    - **7 份地图的免费额度是真限制。** 一份地图通常是一个省或一个中等国家，
+      日常用够，长途跨国就不够。超出要买 Maps+，一次性或订阅都有。
+    - 从 F-Droid 装的版本同样受这个额度限制，不是渠道差异。
+    - 界面复杂度是它最常被抱怨的地方。只想「从 A 到 B 别迷路」的话，
+      Organic Maps 或 CoMaps 上手成本低得多。
+  en: |
+    GPL-3.0. The free tier caps map downloads at seven.
+
+    Its positioning is far from Organic Maps. Organic Maps aims for working the moment you install it;
+    OsmAnd aims for everything being adjustable: which road classes routing avoids, vehicle weight and
+    height limits, which data layers sit on the map, what interval the contour lines use. The number of
+    settings is bewildering on first launch, which follows from who it is for — hikers, off-roaders,
+    long-distance cyclists, people living in a camper.
+
+    GPX is its home ground. Recording tracks, importing someone else's route, navigating along a track,
+    then reviewing elevation profile and per-segment speed afterwards is all complete in the free tier.
+
+    To be clear about:
+
+    - **The seven-map allowance is a real limit.** One map is typically a province or a mid-sized
+      country, which is fine day to day and not enough for a long international trip. Beyond it you buy
+      Maps+, as a one-off or a subscription.
+    - Installing from F-Droid does not lift the cap; it is not a distribution difference.
+    - Interface complexity is the most common complaint. For "get me from A to B without getting lost",
+      Organic Maps or CoMaps cost far less to learn.

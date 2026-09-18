@@ -1,0 +1,59 @@
+name: CoMaps
+accent: '#3F7D5C'
+initials: CM
+category: utility
+price: free
+license: 'Apache-2.0'
+website: https://www.comaps.app
+download: https://www.comaps.app/download/
+repo: https://codeberg.org/comaps/comaps
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [地图, 导航, 离线, openstreetmap, 非营利]
+platforms: [android, ios, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: Organic Maps 的社区分支，同一套代码，非营利治理
+  en: The community fork of Organic Maps — same code, not-for-profit governance
+description:
+  zh: 从 Organic Maps fork 出来的离线地图 App，功能一脉相承：OpenStreetMap 数据、地图下载到本机、搜索和导航全程离线、不收集个人信息。区别在治理结构，项目由社区主导、明确非营利，代码托管在 Codeberg。
+  en: An offline maps app forked from Organic Maps and sharing its lineage — OpenStreetMap data, maps stored on the device, fully offline search and navigation, no personal data collected. The difference is governance, being community-led and explicitly not-for-profit, with the code hosted on Codeberg.
+review:
+  zh: |
+    Apache-2.0 协议，代码在 Codeberg，2025 年 6 月上 F-Droid，7 月上 Play 商店和 App Store。
+
+    这是同一批人写的同一个地图引擎，往上追溯是 Organic Maps，再往上是 Maps.ME。
+    功能层面你不会感到落差，离线搜索、路线规划、语音导航、户外路径都在。
+
+    分出来的原因是治理。2025 年 4 月的公开信指出，Organic Maps 名义上社区驱动，
+    实际上商业合作、资金使用和引入闭源组件都由少数股东决定，捐款去向也不透明。
+    协商没有结果，贡献者带着 Apache-2.0 的代码走了，名字和主题色都由社区投票定。
+
+    比 Organic Maps 多一个 Linux 桌面版（Flathub）。
+
+    要说清楚的：
+
+    - 两个项目现在功能高度重叠，日常使用挑一个就行，不必都装。
+    - 非营利意味着没有商业收入，长期维护靠捐赠和志愿者，这是个真实的变量。
+  en: |
+    Apache-2.0, code on Codeberg, on F-Droid since June 2025 and on Play and the App Store since July.
+
+    This is the same map engine written by the same people, tracing back through Organic Maps to
+    Maps.ME. Nothing feels missing: offline search, route planning, voice guidance and outdoor paths are
+    all here.
+
+    The split was about governance. The April 2025 open letter argued that Organic Maps was
+    community-driven in name while commercial partnerships, spending and the introduction of
+    closed-source components were decided by a small group of shareholders, with donations unaccounted
+    for. Negotiation failed, the contributors left with the Apache-2.0 code, and the community voted on
+    the name and the accent colour.
+
+    It adds a Linux desktop build on Flathub, which Organic Maps does not have.
+
+    To be clear about:
+
+    - The two projects overlap heavily today. Pick one; there is no reason to run both.
+    - Not-for-profit means no commercial revenue, so long-term maintenance rests on donations and
+      volunteers. That is a real variable, not a slogan.

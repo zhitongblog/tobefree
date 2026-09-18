@@ -1,0 +1,79 @@
+name: Caddy
+accent: '#22B8CF'
+initials: CA
+category: selfhosted
+price: free
+license: 'Apache-2.0'
+website: https://caddyserver.com
+download: https://caddyserver.com/download
+repo: https://github.com/caddyserver/caddy
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [服务器, 反向代理, https, 自建, go]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 写两行配置，HTTPS 证书自己申请自己续期
+  en: Two lines of config, and HTTPS certificates obtain and renew themselves
+description:
+  zh: 用 Go 写的 Web 服务器与反向代理，默认自动向 Let's Encrypt 申请并续期 TLS 证书，不需要配 certbot 或写定时任务。配置文件语法极简，一个域名加一个后端地址就能跑起来，支持 HTTP/3、静态站点托管和插件扩展。
+  en: A web server and reverse proxy written in Go that obtains and renews TLS certificates from Let's Encrypt automatically, with no certbot setup or cron job. The configuration syntax is minimal — a domain and a backend address is a working site — and it supports HTTP/3, static hosting and plugins.
+review:
+  zh: |
+    Apache-2.0 协议，7.58 万颗星。
+
+    自建服务卡在 HTTPS 上的人不少：Nginx 配置写完，再装 certbot，
+    再配自动续期，再处理续期后 reload，中间任何一环错了
+    三个月后证书过期站点就红了。Caddy 把这一整段做成默认行为——
+    配置文件里写上域名，它自己申请、自己续、自己 reload。
+
+    配置文件短到可以贴在这里：
+
+    ```
+    example.com {
+        reverse_proxy localhost:8080
+    }
+    ```
+
+    这就是一个带 HTTPS 的反向代理的完整配置。
+
+    目录里的 Gitea、Uptime Kuma、Vaultwarden、Immich 这些自建服务，
+    前面通常要放一层反代解决域名和证书，Caddy 是这层最省事的选择。
+
+    要说清楚的：
+
+    - 自动申请证书需要域名解析已经指向这台机器，且 80/443 端口可达。
+      内网自用要走 DNS 验证方式，配置会复杂一些。
+    - 性能上 Nginx 在极高并发静态场景仍有优势。个人自建规模下感知不到差别。
+    - 插件要重新编译进二进制（官网提供在线构建），不像 Nginx 那样动态加载。
+  en: |
+    Apache-2.0, 75,800 stars.
+
+    HTTPS is where a lot of self-hosting stalls: write the Nginx config, install certbot, configure
+    renewal, handle the reload after renewal — and if any link in that chain is wrong, the site turns red
+    three months later. Caddy makes the whole sequence the default: put the domain in the config and it
+    requests, renews and reloads on its own.
+
+    The config is short enough to quote in full:
+
+    ```
+    example.com {
+        reverse_proxy localhost:8080
+    }
+    ```
+
+    That is a complete HTTPS reverse proxy.
+
+    Gitea, Uptime Kuma, Vaultwarden and Immich — all listed here — usually want a proxy layer in front
+    for domains and certificates, and Caddy is the least troublesome way to provide it.
+
+    To be clear about:
+
+    - Automatic certificates require DNS already pointing at the machine and ports 80 and 443 reachable.
+      Private-network use needs the DNS challenge instead, which is more configuration.
+    - Nginx still wins on raw throughput for very high-concurrency static serving. At personal
+      self-hosting scale the difference is not perceptible.
+    - Plugins are compiled into the binary — the site offers an online builder — rather than loaded
+      dynamically as in Nginx.

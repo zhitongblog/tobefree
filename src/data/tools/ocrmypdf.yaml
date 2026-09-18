@@ -1,0 +1,70 @@
+name: OCRmyPDF
+accent: '#B7791F'
+initials: OC
+category: office
+price: free
+license: 'MPL-2.0'
+website: https://ocrmypdf.readthedocs.io
+download: https://ocrmypdf.readthedocs.io/en/latest/installation.html
+repo: https://github.com/ocrmypdf/OCRmyPDF
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [pdf, ocr, 命令行, 批量, 扫描件]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 给扫描版 PDF 加一层看不见的文字，从此能搜能复制
+  en: Adds an invisible text layer to scanned PDFs so they become searchable
+description:
+  zh: 命令行工具，给扫描版 PDF 添加不可见的 OCR 文字层，页面外观完全不变，但可以搜索、选中和复制。基于 Tesseract 引擎，支持一百多种语言，自动纠正倾斜、去噪、压缩体积，可以批量处理整个目录。
+  en: A command-line tool that adds an invisible OCR text layer to scanned PDFs, leaving the page appearance untouched while making it searchable, selectable and copyable. Built on Tesseract, it covers more than a hundred languages, corrects skew, removes noise, reduces file size and processes whole directories in batch.
+review:
+  zh: |
+    MPL-2.0 协议，3.48 万颗星。
+
+    扫描件 PDF 本质上是一叠图片，Ctrl-F 搜不到任何东西。
+    OCRmyPDF 的做法是在图片底下压一层透明文字，
+    肉眼看页面一模一样，但文字层可以被搜索引擎、
+    阅读器和目录里的 Paperless-ngx 索引到。
+
+    它的定位是流水线上的一环，不是给人点的界面：
+
+    ```
+    ocrmypdf -l chi_sim+eng input.pdf output.pdf
+    ```
+
+    一行命令处理一份，套个循环就是几百份。
+    扫描仪出来的文件直接过一遍它再进归档系统，这是很多人的固定流程。
+
+    要说清楚的：
+
+    - 纯命令行，没有图形界面。只处理一两份文件的话，
+      目录里的 Umi-OCR 或 Stirling PDF 更直接。
+    - 中文识别要装对应的 Tesseract 语言包（`chi_sim`、`chi_tra`），
+      默认只带英文。
+    - 已经有文字层的 PDF 默认会跳过，要强制重做得加 `--force-ocr`。
+  en: |
+    MPL-2.0, 34,800 stars.
+
+    A scanned PDF is a stack of images; Ctrl-F finds nothing in it. OCRmyPDF slips a transparent text
+    layer under the images, so the page looks identical while the text becomes visible to search engines,
+    readers and to Paperless-ngx, listed here.
+
+    It is built as a pipeline stage rather than something to click:
+
+    ```
+    ocrmypdf -l eng input.pdf output.pdf
+    ```
+
+    One command per file, and a loop makes it hundreds. Running everything off the scanner through it
+    before it enters an archive is a standing workflow for a lot of people.
+
+    To be clear about:
+
+    - Command line only, with no GUI. For one or two files, Umi-OCR or Stirling PDF in this directory
+      are more direct.
+    - Non-English recognition needs the matching Tesseract language pack installed; only English ships
+      by default.
+    - PDFs that already carry a text layer are skipped unless you pass `--force-ocr`.

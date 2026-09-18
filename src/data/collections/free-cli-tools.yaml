@@ -1,0 +1,43 @@
+title:
+  zh: "免费命令行效率工具"
+  en: "Free Command-Line Tools"
+description:
+  zh: "十五款开源命令行工具，覆盖搜索、文件管理、终端会话、版本控制、提示符和媒体处理。全部离线可用、不要账号。"
+  en: "Fifteen open-source command-line tools for search, file management, terminal sessions, version control, prompts and media processing — all offline and account-free."
+intro:
+  zh: "命令行工具这几年出现了一轮重写：ripgrep 之于 grep、fd 之于 find、Yazi 之于 ranger，多数用 Rust 或 Go 重做，快一到两个数量级，默认行为也更符合现在的使用场景（比如自动跳过 .gitignore 里的路径）。这份清单按用途分五类 —— 找东西、管文件、管会话、管代码、处理媒体，每一款都是单个可执行文件，装完即用，不联网不上报。"
+  en: "Command-line tooling went through a rewrite wave: ripgrep for grep, fd for find, Yazi for ranger — mostly redone in Rust or Go, one to two orders of magnitude faster, with defaults that match how people actually work today, such as skipping paths listed in .gitignore. This list sorts five ways — finding things, managing files, managing sessions, managing code, processing media. Each is a single executable that works on install, with no network and no telemetry."
+criteria:
+  zh:
+    - "开源，单个可执行文件，不需要注册或联网激活。"
+    - "跨平台，或在主要平台上有官方构建。"
+    - "离线可用，不向外发送使用数据。"
+    - "解决一个具体问题，不是功能堆叠的套件。"
+  en:
+    - "Open source, a single executable, with no registration or online activation."
+    - "Cross-platform, or with official builds on the major platforms."
+    - "Works offline and sends no usage data."
+    - "Solves one concrete problem rather than stacking features into a suite."
+tools: [ripgrep, fzf, yazi, zellij, starship, git, lazygit, neovim, helix, uv, pandoc, imagemagick, ffmpeg, yt-dlp, rclone]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "只装两个的话装哪两个？"
+      a: "fzf 和 ripgrep。fzf 接管 Ctrl-R 之后，翻历史命令从「精确记得开头」变成「输几个字母就能捞出来」，这是每天都会用到的改善。ripgrep 让在整个代码库里搜一个字符串从几十秒变成几十毫秒，因为它默认不去 node_modules 和 .git 里翻。两个合起来不到 20 MB。"
+    - q: "Zellij 和 tmux 怎么选？"
+      a: "要的是同一件事——ssh 断了任务不死。差别在入门成本：tmux 要背一整套 Ctrl-b 开头的组合键，Zellij 把可用按键常驻在屏幕底部，第一次打开就能用。代价是 Zellij 占资源更高，在老旧小内存 VPS 上能感觉出来，而且没有原生 Windows 版。"
+    - q: "Neovim 和 Helix 有什么区别？"
+      a: "Helix 开箱即用——语法高亮、LSP 补全、多光标都是内置的，装完不用配置文件就能写代码。Neovim 要自己搭配置或者用别人的发行版，但生态和插件数量是 Helix 的数量级之上。想立刻开始用选 Helix，愿意投入时间换完全掌控选 Neovim。"
+    - q: "为什么 Git 也在这个清单里？"
+      a: "因为很多人把 Git 和代码托管平台当成一回事。Git 装在你自己机器上，`git init` 建的仓库不需要账号、不需要联网。平台挂了、账号被封，历史还在你硬盘上——这一点值得单独说清楚。"
+  en:
+    - q: "If I only install two?"
+      a: "fzf and ripgrep. Once fzf takes over Ctrl-R, finding an old command goes from remembering the exact prefix to typing any few letters, which pays off daily. ripgrep turns searching a codebase for a string from tens of seconds into tens of milliseconds, because it does not descend into node_modules or .git by default. Together they are under 20 MB."
+    - q: "Zellij or tmux?"
+      a: "They do the same job — a dropped ssh does not kill the work. The difference is the entry cost: tmux expects a whole Ctrl-b vocabulary, while Zellij keeps the available keys pinned to the bottom of the screen and is usable on first launch. In exchange Zellij uses more resources, noticeable on an old low-memory VPS, and has no native Windows build."
+    - q: "Neovim or Helix?"
+      a: "Helix works out of the box — syntax highlighting, LSP completion and multiple cursors are built in, and you can write code without a config file. Neovim expects you to build a configuration or adopt someone's distribution, but its ecosystem and plugin count are an order of magnitude beyond. Take Helix to start immediately, Neovim to trade time for total control."
+    - q: "Why is Git on this list?"
+      a: "Because many people treat Git and a code hosting platform as one thing. Git runs on your machine, and a repository from `git init` needs no account and no network. When a platform goes down or an account is suspended, the history is still on your disk — worth stating on its own."

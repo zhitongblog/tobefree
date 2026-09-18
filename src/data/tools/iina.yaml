@@ -1,0 +1,56 @@
+name: IINA
+accent: '#4A2FBD'
+initials: II
+category: media
+price: free
+license: 'GPL-3.0'
+website: https://iina.io
+download: https://iina.io/download/
+repo: https://github.com/iina/iina
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [播放器, macos, 视频, mpv, 字幕]
+platforms: [macos]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 长得像 macOS 原生应用的 mpv
+  en: mpv wearing a proper macOS coat
+description:
+  zh: 基于 mpv 内核的 macOS 视频播放器，格式通吃但界面按 macOS 设计规范做：触控板手势、画中画、深色模式、Force Touch、原生窗口。支持在线字幕搜索、播放列表、音视频滤镜和播放速度调节。
+  en: A macOS video player built on the mpv core — it plays anything, but the interface follows macOS conventions such as trackpad gestures, picture-in-picture, dark mode, Force Touch and native windows. It adds online subtitle search, playlists, audio and video filters and speed control.
+review:
+  zh: |
+    GPL-3.0 协议，4.64 万颗星。
+
+    mpv 的解码能力配 macOS 的界面规范，这个组合解释了它为什么在 Mac 上
+    装机率这么高。VLC 什么都能放但界面二十年没变，QuickTime 好看但
+    一半格式打不开，IINA 两头都占。
+
+    字幕这块做得细：本地字幕自动匹配、在线搜索下载、
+    同时显示两条字幕轨（学外语的时候有用）、字体和位置随时调。
+    手势也是原生的——双指滑动跳进度，垂直滑动调音量，
+    不用把手从触控板上挪开。
+
+    要说清楚的：
+
+    - 只有 macOS 版，Windows 和 Linux 上装 mpv 本体。
+    - 内核是 mpv，遇到解码疑难杂症时社区答案通常指向 mpv 的配置。
+  en: |
+    GPL-3.0, 46,400 stars.
+
+    mpv's decoding paired with macOS interface conventions explains its install rate on Macs. VLC plays
+    everything but its interface has not moved in twenty years; QuickTime looks right and refuses half
+    your files. IINA takes both halves.
+
+    Subtitles get real attention: local files matched automatically, online search and download, two
+    subtitle tracks displayed at once — useful when learning a language — and font and position adjusted
+    on the fly. Gestures are native too: two fingers to scrub, vertical swipe for volume, without your
+    hand leaving the trackpad.
+
+    To be clear about:
+
+    - macOS only. On Windows and Linux you install mpv itself.
+    - The core is mpv, so when a decoding oddity shows up, community answers usually point at mpv
+      configuration.

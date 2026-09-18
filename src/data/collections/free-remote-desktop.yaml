@@ -1,0 +1,43 @@
+title:
+  zh: "免费远程桌面与投屏工具"
+  en: "Free Remote Desktop and Screen Sharing Tools"
+description:
+  zh: "八款免费远程控制、串流、投屏与文件互传工具，全部支持自建中继或点对点直连，不按设备数收费。"
+  en: "Eight free tools for remote control, game streaming, phone mirroring and file transfer — all supporting self-hosted relays or direct peer-to-peer connections, with no per-device pricing."
+intro:
+  zh: "远程控制这个品类的商业软件有个共同套路：免费版先给你用，用着用着提示「检测到疑似商业用途」，然后限时长、限设备数、限并发。判定标准不透明，个人用户被误判是常事。开源方案换了个结构 —— 中继服务器你自己搭，或者干脆点对点直连，没有第三方来判断你是不是在商用。这份清单按场景分四类：远程控制、游戏串流、手机投屏、文件互传。"
+  en: "Commercial remote control software shares a pattern: the free tier works until a notice about \"suspected commercial use\" appears, after which sessions get time limits, device caps and concurrency limits. The criteria are opaque and individuals get flagged by mistake routinely. Open-source options change the structure — you run the relay yourself, or connect peer-to-peer with no third party judging whether you are a business. This list sorts into four cases: remote control, game streaming, phone mirroring and file transfer."
+criteria:
+  zh:
+    - "不按设备数或连接时长收费，没有「疑似商业用途」这类判定。"
+    - "中继服务器可自建，或支持点对点直连。"
+    - "不强制注册账号。"
+    - "传输加密方式和数据经过哪里逐款标注。"
+  en:
+    - "No per-device or per-minute pricing, and no \"suspected commercial use\" judgement."
+    - "The relay can be self-hosted, or the connection goes peer-to-peer."
+    - "No forced account registration."
+    - "Encryption and where the data actually travels are stated per tool."
+tools: [rustdesk, guacamole, moonlight, sunshine, scrcpy, kde-connect, localsend, syncthing]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "帮家里人远程修电脑，用哪个？"
+      a: "RustDesk。装完给对方一个 ID 和密码就能连，用法和商业远程软件一样。默认走官方公共中继，介意的话可以自己搭一台中继服务器，配置项里填上地址，之后所有连接都不经过第三方。"
+    - q: "Moonlight 和 Sunshine 是什么关系？"
+      a: "一对。Sunshine 装在有显卡的主力机上负责编码推流，Moonlight 装在要接收画面的设备上——笔记本、平板、电视盒子、手机都行。串的是实时画面，延迟低到能打动作游戏，这是它和普通远程桌面的根本区别。"
+    - q: "手机投屏到电脑选什么？"
+      a: "scrcpy，USB 或无线连上就能把安卓屏幕投到电脑，还能用鼠标键盘反向操作。手机端不用装任何 App，不需要 root。KDE Connect 管的是另一类事——通知同步、剪贴板互通、当遥控器，两个可以一起用。"
+    - q: "传个文件不想装群，有什么办法？"
+      a: "LocalSend，同一个局域网里互相发现，文件直接点对点传，不过服务器、不压缩、不限大小。要的是持续同步而不是一次性传输的话，用 Syncthing，两台设备之间保持文件夹实时一致，同样不经过云端。"
+  en:
+    - q: "Which one for fixing a family member's computer remotely?"
+      a: "RustDesk. Install it, take their ID and password, and connect — the same flow as commercial remote software. It uses the public relay by default; if that bothers you, run your own relay server and enter its address in settings, after which no connection touches a third party."
+    - q: "How do Moonlight and Sunshine relate?"
+      a: "They are a pair. Sunshine runs on the machine with the GPU and encodes the stream; Moonlight runs on whatever receives it — a laptop, tablet, TV box or phone. It streams live frames with latency low enough for action games, which is what separates it from ordinary remote desktop."
+    - q: "What mirrors an Android phone to a computer?"
+      a: "scrcpy. Connect over USB or wirelessly and the phone screen appears on the computer, controllable with mouse and keyboard. Nothing is installed on the phone and root is not required. KDE Connect handles a different set of things — notification sync, shared clipboard, remote control — and the two work together."
+    - q: "How do I send someone a file without installing a chat app?"
+      a: "LocalSend. Devices discover each other on the same network and transfer directly, with no server, no recompression and no size cap. If what you want is continuous sync rather than a one-off send, use Syncthing to keep a folder identical across two devices, again without a cloud in between."

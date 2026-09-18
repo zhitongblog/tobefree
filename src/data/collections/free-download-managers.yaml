@@ -1,0 +1,43 @@
+title:
+  zh: "免费下载工具推荐：不限速、无广告"
+  en: "Free Download Managers Without Ads or Throttling"
+description:
+  zh: "七款免费下载工具，覆盖 BT、多线程下载、视频与图集抓取、云存储同步。全部开源或无广告，不限速、不捆绑、不需要开会员。"
+  en: "Seven free download tools covering BitTorrent, multi-threaded downloads, video and gallery fetching, and cloud storage sync. All open source or genuinely ad-free — no throttling, no bundles, no membership tier."
+intro:
+  zh: "下载器是国内软件生态里被污染得最彻底的一块：装一个下载器送三个全家桶，下载速度先给你 200 KB/s 再弹窗告诉你开会员能到 10 MB/s，任务列表里混着广告位。这些行为和技术无关，是商业模式的选择。这份清单按用途分四类 —— BT、通用多线程、站点抓取、云存储同步 —— 每一款的协议和限制都写清楚。"
+  en: "Download tools are the most thoroughly polluted corner of consumer software: one installer brings three bundled extras, the transfer crawls at 200 KB/s until a pop-up explains that membership unlocks 10 MB/s, and ad slots sit in the task list. None of that is technical; it is a business model choice. This list sorts by purpose — BitTorrent, general multi-threaded, site scraping, cloud sync — with licences and limits stated per tool."
+criteria:
+  zh:
+    - "不限速，没有「开通会员提速」这类设计。"
+    - "安装包不捆绑其他软件，不改浏览器主页和默认搜索。"
+    - "界面里没有广告位和推广内容。"
+    - "不需要注册账号即可完成下载。"
+  en:
+    - "No throttling and no paid speed tier."
+    - "The installer bundles nothing and does not change your browser homepage or default search."
+    - "No ad slots or promotional content in the interface."
+    - "Downloads complete without registering an account."
+tools: [qbittorrent, motrix, transmission, yt-dlp, gallery-dl, rclone, unfetch]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "BT 下载选 qBittorrent 还是 Transmission？"
+      a: "桌面日常用 qBittorrent，功能全、内置搜索、做种管理细致。要挂在 NAS 或服务器上常年跑，选 Transmission，它占用低、有网页界面、可以完全后台运行。两个都开源，都没有广告。"
+    - q: "Motrix 和 qBittorrent 重复吗？"
+      a: "不重复。qBittorrent 是 BT 客户端，Motrix 是给 aria2 套的图形界面，管的是 HTTP、FTP 这类直链的多线程下载，顺带也支持 BT 和磁力。日常下直链文件用 Motrix，种子用 qBittorrent。"
+    - q: "yt-dlp 和 gallery-dl 怎么分工？"
+      a: "yt-dlp 抓视频和音频，支持上千个站点，可以选清晰度、只要音轨、带字幕。gallery-dl 抓图片和图集，一条命令把整个相册按原图下完。两个都是命令行工具，都在持续更新以跟上站点改版。"
+    - q: "为什么不推荐迅雷这类工具？"
+      a: "不符合这个站的硬性标准：限速后要求开会员、界面里有广告位、安装包捆绑其他软件。这三条任意一条不过关就不收。"
+  en:
+    - q: "qBittorrent or Transmission for BitTorrent?"
+      a: "qBittorrent for everyday desktop use — more complete, with built-in search and detailed seeding management. Transmission for a NAS or server running year-round, where its low footprint, web interface and fully headless operation matter. Both are open source and ad-free."
+    - q: "Does Motrix overlap with qBittorrent?"
+      a: "No. qBittorrent is a BitTorrent client; Motrix is a GUI over aria2 handling multi-threaded HTTP and FTP downloads, with torrents and magnets supported on the side. Direct links go to Motrix, torrents to qBittorrent."
+    - q: "How do yt-dlp and gallery-dl divide up?"
+      a: "yt-dlp fetches video and audio across a thousand-plus sites, letting you choose quality, take audio only or pull subtitles. gallery-dl fetches images and galleries, downloading an entire album at original resolution in one command. Both are command-line tools kept updated as sites change."
+    - q: "Why are the big consumer download suites missing?"
+      a: "They fail this site's hard criteria: throttling that lifts with a membership, ad slots in the interface, and bundled software in the installer. Failing any one of those is enough to leave a tool out."

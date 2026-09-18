@@ -1,0 +1,58 @@
+name: Nginx Proxy Manager
+accent: '#F15A29'
+initials: NP
+category: selfhosted
+price: free
+license: 'MIT'
+website: https://nginxproxymanager.com
+download: https://nginxproxymanager.com/guide/#quick-setup
+repo: https://github.com/NginxProxyManager/nginx-proxy-manager
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [反向代理, 自建, docker, https, 网页界面]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 用网页点几下配好反向代理和证书，不碰 Nginx 配置文件
+  en: Reverse proxies and certificates set up by clicking, without touching an Nginx config
+description:
+  zh: 给 Nginx 套了一层网页管理界面。在浏览器里填域名和后端地址就能建反向代理，一键申请 Let's Encrypt 证书并自动续期，还能加访问控制列表、HTTP 基本认证和自定义 Nginx 片段。用 Docker 部署，一个 compose 文件起来。
+  en: A web interface on top of Nginx. Create a reverse proxy by typing a domain and a backend address in the browser, request a Let's Encrypt certificate with one click and have it renew automatically, and add access control lists, HTTP basic auth or custom Nginx snippets. It deploys as Docker with a single compose file.
+review:
+  zh: |
+    MIT 协议，3.42 万颗星。
+
+    和 Caddy 解决同一个问题，路子相反。Caddy 让你写一份极短的配置文件，
+    Nginx Proxy Manager 让你不写配置文件——所有东西在网页表单里填。
+
+    家里放一台 NAS，上面跑着 Jellyfin、Immich、Home Assistant、
+    Uptime Kuma（目录里都有），每个服务一个端口。想给它们各配一个域名、
+    各上一张证书，在这个界面里就是新建四条记录的事，
+    证书状态和到期时间列在一张表里看得见。
+
+    要说清楚的：
+
+    - 管理界面本身要保护好。默认有管理员账号密码，
+      这个界面不该暴露在公网上。
+    - 只有 Docker 部署方式，不用 Docker 的话它不适合你。
+    - 复杂场景（细粒度限流、复杂 rewrite）最后还是要写自定义 Nginx 片段，
+      图形界面盖不住全部。
+  en: |
+    MIT-licensed, 34,200 stars.
+
+    It solves the same problem as Caddy from the opposite direction. Caddy has you write a very short
+    config file; Nginx Proxy Manager has you write none — everything goes into a web form.
+
+    A NAS at home running Jellyfin, Immich, Home Assistant and Uptime Kuma — all in this directory —
+    means one port per service. Giving each a domain and a certificate is four new records in this
+    interface, with certificate status and expiry visible in one table.
+
+    To be clear about:
+
+    - The admin interface needs protecting. It ships with an administrator account, and it does not
+      belong on the public internet.
+    - Docker is the only deployment method. Without Docker this is not for you.
+    - Complex cases — fine-grained rate limiting, involved rewrites — still end in a custom Nginx
+      snippet. The GUI does not cover everything.

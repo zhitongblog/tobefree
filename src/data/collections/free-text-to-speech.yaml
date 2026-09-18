@@ -1,0 +1,43 @@
+title:
+  zh: "免费文字转语音（TTS）工具"
+  en: "Free Text-to-Speech Tools"
+description:
+  zh: "三款在本机运行的免费语音合成工具，不按字符收费、不需要 API Key、断网照常出声。"
+  en: "Three free speech synthesis tools that run locally — no per-character billing, no API key, and sound with the network off."
+intro:
+  zh: "文字转语音这块的免费方案长期卡在一个两难里：听感好的都是云端 API，按字符计费，你要念的每一段文本都得先传给别人；能离线的那批音色机械到只适合无障碍朗读。2023 年之后本地神经网络 TTS 把这条线往上抬了一截，小到能在树莓派上实时出声的模型已经接近商业服务的听感。这份清单按「音色自然度」和「体积 / 语言覆盖」两个方向分，三款都不收钱、不要账号、推理全在本机。"
+  en: "Free text-to-speech has long been stuck in a dilemma: the natural-sounding options are cloud APIs billed per character, which means every passage you want spoken is sent to someone else first, while the offline options sound mechanical enough to suit screen readers and little more. Since 2023 local neural TTS has lifted that line — models small enough for real-time output on a Raspberry Pi now land near commercial services in listening quality. This list splits along two axes, naturalness against size and language coverage. All three are free, account-free, and run inference entirely on your machine."
+criteria:
+  zh:
+    - "合成在本机完成，文本不上传到任何服务器。"
+    - "不按字符或时长计费，不限合成次数。"
+    - "不需要注册账号或申请 API Key。"
+    - "模型协议和语言覆盖逐款标注。"
+  en:
+    - "Synthesis happens locally; no text is uploaded anywhere."
+    - "No per-character or per-minute billing and no cap on usage."
+    - "No account and no API key required."
+    - "Model licence and language coverage are stated per tool."
+tools: [piper, espeak-ng, localai]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "要听起来自然，选哪个？"
+      a: "Piper。模型是 VITS 架构训练的，听感接近商业 TTS，模型文件一个几十 MB，下载一次之后断网可用。三十多种语言，中英文各有多个音色。它是 Home Assistant 的默认本地语音方案，目录里那套家庭自动化可以直接接上。"
+    - q: "eSpeak NG 音色那么机械，为什么还收？"
+      a: "因为它解决的是另一个问题。整个程序几 MB，覆盖一百多种语言和口音，在极低配置的设备上都能跑，延迟几乎为零。屏幕阅读器、嵌入式设备、给一百种语言做发音提示这些场景，它是现实的选择而 Piper 不是。很多屏幕阅读器底层用的就是它。"
+    - q: "LocalAI 在这个清单里做什么？"
+      a: "它把本机的语音合成包装成 OpenAI 兼容的接口。已有程序在调云端 TTS API 的话，改一行 base_url 就切到本机，业务代码不用动。文本生成、转写、图像生成也在同一个服务里，做完全离线的应用时能少拼几个服务。"
+    - q: "为什么没有更多选择？"
+      a: "这个品类满足硬性标准的确实不多。听感最好的几个开源模型要么仓库已经停更，要么只是模型权重而没有能直接用的程序，要么免费额度背后要登录账号。收录标准不因为品类稀缺而放宽。"
+  en:
+    - q: "Which one sounds natural?"
+      a: "Piper. Its models are VITS-trained and land close to commercial TTS, each file tens of megabytes, downloaded once and usable offline. Thirty-plus languages with several voices each for the major ones. It is Home Assistant's default local voice, so the home automation stack in this directory plugs straight in."
+    - q: "eSpeak NG sounds robotic. Why list it?"
+      a: "Because it solves a different problem. The whole program is a few megabytes, it covers more than a hundred languages and accents, it runs on very low-powered hardware, and latency is essentially zero. For screen readers, embedded devices, or pronunciation prompts across a hundred languages, it is the realistic choice and Piper is not. Many screen readers use it underneath."
+    - q: "What is LocalAI doing here?"
+      a: "It wraps local speech synthesis in an OpenAI-compatible API. If a program already calls a cloud TTS endpoint, changing one `base_url` moves it onto your machine with no change to the business code. Text generation, transcription and image generation share the same service, which removes glue when building something fully offline."
+    - q: "Why are there not more options?"
+      a: "Few in this category actually meet the hard criteria. The best-sounding open models are either in archived repositories, or are weights without a usable program around them, or put their free allowance behind a sign-in. The bar does not get lowered because a category is thin."

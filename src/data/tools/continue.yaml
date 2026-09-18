@@ -1,0 +1,63 @@
+name: Continue
+accent: '#1F2937'
+initials: CO
+category: ai
+price: free
+license: 'Apache-2.0'
+website: https://continue.dev
+download: https://docs.continue.dev/getting-started/install
+repo: https://github.com/continuedev/continue
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-18'
+tags: [ai编程, vscode, jetbrains, 代码补全, 自带api]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: VS Code 和 JetBrains 里的 Copilot 替代，模型自己接
+  en: A Copilot replacement inside VS Code and JetBrains, with the model your choice
+description:
+  zh: VS Code 与 JetBrains 的 AI 编程扩展，提供行内自动补全、选中代码对话改写、按文件与仓库提问。模型完全由你配置，可以补全用本地小模型、对话用云端大模型，Ollama、LM Studio、各家 API 都能接。
+  en: An AI coding extension for VS Code and JetBrains offering inline autocomplete, chat-driven rewriting of selected code, and questions scoped to a file or the repository. The model is entirely yours to configure — a small local model for completion and a large cloud model for chat, via Ollama, LM Studio or any provider API.
+review:
+  zh: |
+    Apache-2.0 协议，3.59 万颗星。
+
+    Copilot 是订阅制，模型由微软定。Continue 把这两件事都交回来：
+    扩展本身开源免费，接哪个模型你写在配置里。
+
+    有个实用的分工：行内补全要求延迟低、上下文短，
+    用本机 Ollama 跑一个几 B 的代码模型就够，还不花钱；
+    对话和重构要求推理强，接云端 API 按 token 付。
+    两边在同一个配置文件里分别指定。
+
+    目录里的 Cline 是 Agent 形态——给它任务，它自己读文件、改、跑命令。
+    Continue 更接近传统补全加对话，改动粒度小，主动权在你手上。
+
+    要说清楚的：
+
+    - 云端模型按 token 收费，费用给模型服务商；全本地则零成本，能力打折。
+    - 首次配置要写 YAML 指定模型和 API Key，比装个扩展点一下复杂。
+    - 它有云端账号体系，但不注册也能用——自己填 Key 走本地配置那条路。
+  en: |
+    Apache-2.0, 35,900 stars.
+
+    Copilot is a subscription and Microsoft picks the model. Continue hands both back: the extension is
+    open source and free, and which model it talks to is a line in your config.
+
+    There is a useful division of labour. Inline completion wants low latency and short context, so a
+    few-billion-parameter code model on local Ollama is enough and costs nothing; chat and refactoring
+    want reasoning, so a cloud API billed per token handles those. Both are named separately in the same
+    config file.
+
+    Cline, listed here, is agent-shaped — hand it a task and it reads, edits and runs commands itself.
+    Continue is closer to classic completion plus chat, with smaller steps and the initiative staying
+    with you.
+
+    To be clear about:
+
+    - Cloud models bill per token to the provider; going fully local costs nothing and gives up
+      capability.
+    - First-time setup means writing YAML for models and API keys, which is more than clicking install.
+    - It has a cloud account system, but you can skip it — supply your own key and stay on local config.

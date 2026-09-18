@@ -1,0 +1,43 @@
+title:
+  zh: "macOS 免费软件推荐"
+  en: "Free macOS Software"
+description:
+  zh: "十五款 macOS 上的免费软件，覆盖窗口管理、剪贴板、播放器、终端、办公、笔记和密码管理，全部无广告、无订阅。"
+  en: "Fifteen free macOS applications covering window management, clipboard, media playback, terminals, office work, notes and passwords — all ad-free and subscription-free."
+intro:
+  zh: "新 Mac 开箱之后最先让人不适应的通常不是没有某个大软件，而是几个小动作做不了：窗口拖到屏幕边缘不会自动占半屏、⌘Tab 切的是应用不是窗口、复制过的东西覆盖了就找不回来。macOS 的效率工具生态里付费软件占比很高，订阅制也多，但这三件事都有维护良好的免费开源方案。这份清单按用途分五类：系统补足、日常办公、开发、媒体、隐私安全。"
+  en: "What unsettles people about a new Mac is usually not a missing flagship application but a few small motions that do not work: dragging a window to the edge does not make it half the screen, ⌘Tab switches applications rather than windows, and a copied item is gone once overwritten. The macOS productivity ecosystem skews paid and increasingly subscription-based, yet all three of those have well-maintained free and open-source answers. This list sorts five ways — filling system gaps, everyday work, development, media, and privacy."
+criteria:
+  zh:
+    - "在 macOS 上原生运行，不是勉强能跑的移植版。"
+    - "核心功能免费，没有订阅才能解锁的日常能力。"
+    - "无广告、不强制注册。"
+    - "优先选择开源、长期维护、Apple 芯片原生支持的软件。"
+  en:
+    - "Runs natively on macOS rather than as a barely-working port."
+    - "Core features are free, with no everyday capability behind a subscription."
+    - "No ads and no forced registration."
+    - "Open source, actively maintained and native on Apple silicon are preferred."
+tools: [rectangle, alt-tab, maccy, iina, ghostty, vscodium, obsidian, libreoffice, keepassxc, bitwarden, localsend, syncthing, handbrake, mpv, brave]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "刚换 Mac，先装哪三个？"
+      a: "Rectangle、AltTab、Maccy。这三个补的是 macOS 缺的三个基础动作：窗口贴边对齐、按窗口而不是按应用切换、剪贴板历史。都是开源的，都常驻后台几乎不占资源，装完之后从 Windows 带过来的肌肉记忆基本能对上。"
+    - q: "为什么不推荐那些付费效率套件？"
+      a: "这个站只收核心功能永久免费、无广告、不强制注册的工具。很多 Mac 效率软件近几年转成了订阅制，停止付费之后功能会退化，这条不符合收录标准。功能好不好是另一回事，我们不做这个判断。"
+    - q: "Rectangle 和 AltTab 会冲突吗？"
+      a: "不会，两个管的是不同的事——一个负责把窗口摆到哪儿，一个负责在一堆窗口里找到你要的那个。都需要授予辅助功能权限，AltTab 还要屏幕录制权限，因为窗口缩略图本质上是在截别家窗口的画面。"
+    - q: "看视频用 IINA 还是 mpv？"
+      a: "IINA 的内核就是 mpv，区别在外壳。IINA 按 macOS 的设计规范做了完整界面，有触控板手势、画中画、字幕在线搜索；mpv 是极简的播放核心，靠配置文件和命令行驱动，适合已经有一套自己配置的人。日常看片选 IINA。"
+  en:
+    - q: "First three to install on a new Mac?"
+      a: "Rectangle, AltTab and Maccy. They restore the three basic motions macOS lacks: snapping windows to edges, switching by window instead of by application, and clipboard history. All three are open source, sit in the background using almost nothing, and together they make muscle memory carried over from Windows line up again."
+    - q: "Why are the paid productivity suites missing?"
+      a: "This site lists tools whose core features are permanently free, ad-free and usable without registration. Many Mac productivity applications moved to subscriptions in recent years and degrade when you stop paying, which fails that criterion. Whether they are good software is a separate question we are not judging here."
+    - q: "Do Rectangle and AltTab conflict?"
+      a: "No — they handle different things: one decides where a window goes, the other finds the window you want among many. Both need Accessibility permission, and AltTab also needs Screen Recording, because a window thumbnail is mechanically a capture of another app's window."
+    - q: "IINA or mpv for video?"
+      a: "IINA's core is mpv; the difference is the shell. IINA builds a complete interface to macOS conventions with trackpad gestures, picture-in-picture and online subtitle search. mpv is a minimal playback core driven by config files and the command line, suited to people who already have their own setup. For everyday watching, IINA."
