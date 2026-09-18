@@ -1,0 +1,47 @@
+title:
+  zh: "免费视频播放器与家庭影院软件"
+  en: "Free Media Players and Home Theatre Software"
+description:
+  zh: "七款免费播放器与媒体中心，格式通吃、不装编解码包、没有广告和「升级会员解锁 4K」。"
+  en: "Seven free players and media centres that play anything without codec packs, show no ads, and never gate 4K behind a membership."
+intro:
+  zh: "播放器本该是最简单的软件，但预装在电视和手机上的那些把它做成了内容入口：开屏广告、首页推荐、看片前六十秒贴片、画质选项后面挂着会员标。真正的播放器只做一件事——把你手上的文件正确地放出来。这份清单按使用场景排：桌面单机播放、极简内核、macOS 原生、客厅电视、自建媒体库。"
+  en: "A player should be the simplest kind of software, yet the ones preinstalled on televisions and phones have been rebuilt as content storefronts — splash ads, a recommendation home screen, sixty seconds of pre-roll, and a membership badge next to the quality setting. An actual player does one thing: play the file you have, correctly. This list runs by setting — desktop playback, a minimal core, macOS native, the living room television, and a self-hosted library."
+criteria:
+  zh:
+    - "没有开屏广告、贴片广告和推荐内容。"
+    - "不限制清晰度，没有「会员解锁 4K」这类设计。"
+    - "不需要注册账号，不上传播放记录。"
+    - "内置解码器，不需要另外安装编解码包。"
+  en:
+    - "No splash ads, no pre-roll, no recommendation feed."
+    - "No resolution caps and no membership unlocking 4K."
+    - "No account required and no playback history uploaded."
+    - "Decoders are built in; no separate codec pack needed."
+tools: [vlc, mpv, iina, unflick, kodi, jellyfin, newpipe]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "电脑上放片子，选哪个？"
+      a: "Windows 和 Linux 上 VLC 最稳妥，什么格式都能打开，装完不用配置。macOS 上用 IINA，它的内核是 mpv，外壳按 macOS 设计规范做了完整界面，有触控板手势和画中画。想要极简、靠配置文件和快捷键驱动、渲染质量拉满的，用 mpv 本体。"
+    - q: "mpv 和 VLC 到底差在哪？"
+      a: "VLC 是完整的图形应用，菜单里什么都有，面向所有人。mpv 默认几乎没有界面，一个窗口加键盘快捷键，所有行为写在配置文件里。mpv 在高质量视频缩放、色彩管理、滤镜链这些地方可调得更深，代价是你得读文档。很多播放器（包括 IINA）用的是 mpv 的内核。"
+    - q: "客厅电视上用什么？"
+      a: "Kodi。它是媒体中心而不只是播放器——扫描硬盘上的影视文件，自动匹配海报、剧情简介、演员表，用遥控器就能操作，界面是为十英尺外观看设计的。装在电视盒子、老电脑或树莓派上都行。"
+    - q: "Kodi 和 Jellyfin 有什么区别？"
+      a: "Kodi 装在播放的那台设备上，媒体库是本机的。Jellyfin 是客户端加服务器结构——媒体文件放在一台常开的机器上，手机、平板、电视、浏览器都能连过去看，各自记各自的进度。一台设备看用 Kodi，多设备多人共享用 Jellyfin。两个可以配合，Kodi 能当 Jellyfin 的客户端。"
+    - q: "手机上看在线视频不想看广告？"
+      a: "NewPipe，安卓上的第三方前端，不加载任何官方专有库因此也没有广告模块，支持后台播放和下载，不需要账号。要说清楚的是它不在应用商店，要从官网或 F-Droid 装，而且平台改接口它就会坏，历史上出现过几天不能用等新版本的情况。"
+  en:
+    - q: "Which player on a computer?"
+      a: "VLC is the safe answer on Windows and Linux — it opens anything and needs no configuration. On macOS use IINA, whose core is mpv under an interface built to macOS conventions with trackpad gestures and picture-in-picture. For something minimal driven by config files and keyboard shortcuts with rendering quality turned up, use mpv itself."
+    - q: "What actually separates mpv from VLC?"
+      a: "VLC is a complete graphical application with everything in menus, aimed at everyone. mpv shows almost no interface by default — a window and keyboard shortcuts, with behaviour written in a config file. mpv goes deeper on high-quality scaling, colour management and filter chains, at the cost of reading documentation. Many players, IINA included, use mpv as their core."
+    - q: "What about the living room television?"
+      a: "Kodi. It is a media centre rather than just a player — it scans your video files, matches posters, synopses and cast, works from a remote control, and its interface is designed to be read from ten feet away. It runs on a TV box, an old computer or a Raspberry Pi."
+    - q: "How do Kodi and Jellyfin differ?"
+      a: "Kodi runs on the device doing the playing, with a local library. Jellyfin is client-server — media sits on a machine that stays on, and phones, tablets, televisions and browsers all connect with their own progress tracked separately. One device means Kodi; several devices and several people mean Jellyfin. They also combine, since Kodi can act as a Jellyfin client."
+    - q: "Watching online video on a phone without ads?"
+      a: "NewPipe, a third-party Android front-end that links no official proprietary libraries and therefore carries no ad module, with background playback and downloads and no account. Be clear that it is not in the app store — install from the official site or F-Droid — and that it breaks when the platform changes its interface, with historical stretches of several days waiting for a fix."

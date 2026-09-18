@@ -1,0 +1,43 @@
+title:
+  zh: "免费排版与字体制作工具"
+  en: "Free Typesetting and Font Tools"
+description:
+  zh: "五款免费的排版系统、字体编辑器、桌面出版与文档转换工具，输出 PDF 无水印，不按页数或导出次数收费。"
+  en: "Five free tools for typesetting, font editing, desktop publishing and document conversion — PDF output with no watermark and no charge by page count or export."
+intro:
+  zh: "排版这件事长期只有两个极端：Word 那类所见即所得，好上手但复杂文档一改就乱；LaTeX 排版质量最好，但编译一次几十秒、报错信息晦涩、语法要学很久。Typst 是这两年出现的第三条路，语法接近普通标记语言，编译是秒级的，排版质量对得起学术论文。这份清单按用途分四类：标记式排版、桌面出版、格式转换、字体制作。"
+  en: "Typesetting has long had only two poles: the Word style, easy to start with but liable to fall apart when a complex document is edited, and LaTeX, unmatched in output quality but slow to compile, cryptic in its errors and long to learn. Typst appeared in the last couple of years as a third path, with syntax close to an ordinary markup language, compilation in seconds, and output good enough for academic papers. The list sorts four ways — markup typesetting, desktop publishing, format conversion and font creation."
+criteria:
+  zh:
+    - "输出 PDF 不加水印，不限页数和导出次数。"
+    - "源文件是可读的文本或开放格式，不锁定专有格式。"
+    - "本机编译或排版，不要求云端服务。"
+    - "字体和文档的商用不受工具授权限制。"
+  en:
+    - "PDF output carries no watermark, with no page or export limits."
+    - "Source files are readable text or open formats, with no proprietary lock-in."
+    - "Compilation and layout happen locally, with no cloud service required."
+    - "Commercial use of the fonts and documents is unrestricted by the tool's licence."
+tools: [typst, scribus, pandoc, fontforge, libreoffice]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "写论文一定要用 LaTeX 吗？"
+      a: "不一定。Typst 的排版质量对得起学术场景，但语法学起来比 LaTeX 快得多——标记更接近 Markdown，函数和变量是正常的编程写法，报错信息指得清位置。最直观的差别是编译速度：LaTeX 一份长文档编译几十秒，Typst 改一个字就即时重排。缺点是生态还年轻，某些期刊只认 LaTeX 模板。"
+    - q: "做海报、杂志、宣传册用什么？"
+      a: "Scribus。真正的桌面出版软件，主版页面、文本框串接、CMYK 色彩管理、出血和印刷标记都有，输出的 PDF 可以直接送印刷厂。用 Word 排这类东西会在出片阶段出问题，因为它不处理印刷色彩和出血。"
+    - q: "Pandoc 是干什么的？"
+      a: "文档格式之间的万能转换器。Markdown 转 Word、Word 转 Markdown、HTML 转 PDF、LaTeX 转 EPUB，几十种格式两两互转。写文档的人常见的用法是用 Markdown 写、用 Pandoc 导出成对方要的格式，不用为了交付而改写作方式。"
+    - q: "想自己做字体？"
+      a: "FontForge。开源的字体编辑器，画字形、调字间距、设置连字和字距调整、导出 TTF 和 OTF。也常用来修别人的字体——缺字补字、改字重、解决某个字符显示不对的问题。中文字体因为字符量巨大，从零做一套的工作量非常大，多数人用它做的是修改和补充。"
+  en:
+    - q: "Does a paper have to be LaTeX?"
+      a: "Not necessarily. Typst's output quality holds up in academic settings while its syntax is far quicker to learn — markup closer to Markdown, functions and variables written like ordinary code, and errors that point at the right place. The most visible difference is compilation: a long LaTeX document takes tens of seconds, while Typst reflows instantly as you type. Its ecosystem is young, and some journals accept only LaTeX templates."
+    - q: "What makes posters, magazines and brochures?"
+      a: "Scribus. Real desktop publishing — master pages, linked text frames, CMYK colour management, bleed and printer marks — producing PDFs a print shop can use directly. Laying this out in Word causes problems at prepress, because it does not handle print colour or bleed."
+    - q: "What is Pandoc for?"
+      a: "Converting between document formats. Markdown to Word, Word to Markdown, HTML to PDF, LaTeX to EPUB — dozens of formats in any direction. The common pattern is writing in Markdown and exporting to whatever the recipient requires, so delivery never dictates how you write."
+    - q: "Can I make my own font?"
+      a: "FontForge. An open-source font editor for drawing glyphs, adjusting spacing, setting ligatures and kerning, and exporting TTF and OTF. It is also used to repair other people's fonts — adding missing glyphs, changing weight, fixing a character that renders wrong. CJK fonts contain enormous character sets, so building one from scratch is a very large undertaking, and most people use it to modify and extend."

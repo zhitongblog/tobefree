@@ -1,0 +1,43 @@
+title:
+  zh: "免费待办与时间管理工具"
+  en: "Free Task and Time Tracking Tools"
+description:
+  zh: "五款免费的待办清单、看板、习惯打卡与时间统计工具，不限任务数、不按人头收费，数据存本机或自建服务器。"
+  en: "Five free tools for task lists, kanban boards, habit tracking and time statistics — no task limits, no per-seat pricing, and data kept locally or on your own server."
+intro:
+  zh: "待办类软件的免费版限制方式很固定：任务数量上限、提醒功能要付费、附件大小限制、协作人数超过三个就要升级。这些限制都不贵，但叠在一起足够让人每年付一笔。这份清单里的工具要么完全本地，要么可以自建在自己的服务器上，不限任务数也不按人头收费。按用途分四类：个人待办、团队看板、习惯养成、时间统计。"
+  en: "Free tiers in task software restrict along fixed lines: a cap on tasks, reminders behind payment, attachment size limits, and an upgrade prompt past three collaborators. None of it is expensive individually, and together it is enough to extract an annual payment. Everything here is either fully local or self-hostable, with no task cap and no per-seat billing. The list sorts four ways — personal tasks, team boards, habits and time statistics."
+criteria:
+  zh:
+    - "不限任务数量、清单数量和协作人数。"
+    - "提醒、附件、重复任务这些基础能力不设付费墙。"
+    - "数据存本机或可自建，导出不受限制。"
+    - "不需要注册第三方账号即可使用。"
+  en:
+    - "No caps on tasks, lists or collaborators."
+    - "Reminders, attachments and recurring tasks are not behind a paywall."
+    - "Data is local or self-hostable, and export is unrestricted."
+    - "Usable without registering a third-party account."
+tools: [super-productivity, vikunja, wekan, loop-habit-tracker, activitywatch]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "个人用哪个？"
+      a: "Super Productivity。待办、番茄钟、工时统计做在一个软件里——开始一个任务就开始计时，一天结束能看到时间实际花在哪儿。不收订阅费，数据存本机，可以接 Jira、GitHub、GitLab 的议题同步。自由职业者按项目记工时的话，它的统计直接能用。"
+    - q: "Vikunja 和 Wekan 怎么选？"
+      a: "Vikunja 的特点是同一批任务可以换视图看——列表、看板、甘特图、日历，按当下需要切换，不用维护两套。Wekan 是 Trello 的自建版本，纯看板逻辑，卡片拖来拖去，团队协作时上手成本几乎为零。两个都是自建，要一台常开的机器。"
+    - q: "习惯打卡有不推送不收费的吗？"
+      a: "Loop Habit Tracker。安卓上的习惯记录，完全离线、无广告、不收费、不需要账号。它按打卡历史算一个习惯强度分数，偶尔断一天不会归零——这个设计比「连续打卡 N 天」的机制更接近真实情况。"
+    - q: "ActivityWatch 是干什么的？"
+      a: "自动记录时间去哪了。它在后台统计你用了哪些程序、开了哪些窗口、访问了哪些网站，生成时间分布报表，不需要手动开始停止。关键是数据一个字节都不上传，全部存在本机——这类工具在企业监控场景里很多，但那些是给老板看的，这个是给自己看的。"
+  en:
+    - q: "Which one for personal use?"
+      a: "Super Productivity. Tasks, a Pomodoro timer and time statistics in one application — starting a task starts the clock, and at the end of the day you can see where the time actually went. No subscription, data stored locally, and issue sync with Jira, GitHub and GitLab. For freelancers billing by project, its statistics are directly usable."
+    - q: "Vikunja or Wekan?"
+      a: "Vikunja's distinguishing feature is viewing the same tasks as a list, a kanban board, a Gantt chart or a calendar, switching as needed without maintaining two systems. Wekan is a self-hosted Trello with pure kanban logic and cards you drag, which costs a team essentially nothing to pick up. Both are self-hosted and want a machine that stays on."
+    - q: "Any habit tracker without notifications or fees?"
+      a: "Loop Habit Tracker. Android habit tracking that is fully offline, ad-free, free and account-free. It computes a habit strength score from your history rather than resetting on a missed day, which matches how habits actually behave better than an unbroken-streak counter."
+    - q: "What does ActivityWatch do?"
+      a: "It records where your time went automatically — which programs ran, which windows were focused, which sites were visited — producing a time distribution report with no manual start and stop. The point is that not a byte is uploaded and everything stays on the machine. Tools like this are common in workplace monitoring, but those report to a manager; this one reports to you."

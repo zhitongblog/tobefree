@@ -16,7 +16,7 @@ criteria:
     - Core tasks such as reading, merging, splitting, compressing and converting are usable for free.
     - Local or self-hostable processing is preferred for sensitive documents.
     - Strong watermarking or aggressive pop-ups are avoided.
-tools: [sumatra-pdf, stirling-pdf, solopdf, okular, libreoffice, onlyoffice-desktop-editors]
+tools: [sumatra-pdf, stirling-pdf, solopdf, okular, pdfsam-basic, xournalpp, ocrmypdf, libreoffice, onlyoffice-desktop-editors]
 skills: []
 faq:
   zh:

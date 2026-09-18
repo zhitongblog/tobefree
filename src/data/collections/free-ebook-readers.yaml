@@ -1,0 +1,43 @@
+title:
+  zh: "免费电子书阅读与管理软件"
+  en: "Free Ebook Readers and Library Managers"
+description:
+  zh: "六款免费的电子书管理、格式转换、阅读器与文献工具，书存在你自己的硬盘上，不绑定任何书店账号。"
+  en: "Six free tools for ebook management, format conversion, reading and references — books stay on your own disk, tied to no bookstore account."
+intro:
+  zh: "在商业书店买的电子书通常不是一本书，是一份使用许可：带 DRM、只能在那家的 App 里打开、账号没了书也没了、书店下架之后已经买的版本可能被静默替换。这份清单里的工具处理的是另一种电子书 —— 你自己手上的无 DRM 文件、公版书、扫描件、PDF 论文。按流程分四段：管理与转换、桌面阅读、墨水屏设备、文献引用。"
+  en: "An ebook bought from a commercial store is usually not a book but a licence: wrapped in DRM, openable only in that vendor's app, gone when the account is, and liable to be silently replaced when an edition is withdrawn. The tools here deal with the other kind of ebook — DRM-free files you hold, public domain works, scans, PDF papers. The list runs through management and conversion, desktop reading, e-ink devices, and citation."
+criteria:
+  zh:
+    - "书籍文件存在本机，不绑定书店账号。"
+    - "支持开放格式（EPUB、PDF、MOBI 等），不锁定专有格式。"
+    - "不限书籍数量，不需要注册。"
+    - "不内置、不分发任何受版权保护的书籍。"
+  en:
+    - "Book files live locally, tied to no bookstore account."
+    - "Open formats — EPUB, PDF, MOBI — are supported, with no proprietary lock-in."
+    - "No cap on library size and no registration."
+    - "No copyrighted books are bundled or distributed."
+tools: [calibre, koreader, thorium-reader, sumatra-pdf, okular, zotero]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "电子书库怎么管？"
+      a: "Calibre。管理、格式转换、元数据补全、传书到设备一站做完。EPUB 转 MOBI、PDF 转 EPUB 这类转换它都能做，抓封面和简介是自动的，接上 Kindle 或其他阅读器能直接推送。它还能开一个本地服务，家里其他设备用浏览器就能看书。"
+    - q: "电脑上读 EPUB 用什么？"
+      a: "Thorium Reader。它在无障碍支持上做得最认真——屏幕阅读器兼容、字号字距行距全可调、朗读功能完整，视力不便的读者用它体验明显更好。普通阅读也干净，没有账号没有推荐。读 PDF 的话 Windows 上用 SumatraPDF，启动快得几乎没有等待；Linux 上用 Okular，批注和多格式支持更全。"
+    - q: "Kindle 能装别的阅读软件吗？"
+      a: "KOReader 支持 Kindle、Kobo、reMarkable、安卓等设备。装上之后能读 EPUB、PDF、DjVu、漫画格式，排版和字体全可调，PDF 重排能力比原厂固件强很多——把学术论文塞进六英寸屏幕这件事它处理得好得多。要说清楚的是在 Kindle 上安装需要越狱，这一步有风险，装之前读清楚官方文档。"
+    - q: "PDF 论文和文献怎么管？"
+      a: "Zotero。抓取网页和期刊页面的元数据入库，管理 PDF 全文，写论文时一键插入引用并生成参考文献列表，几千种期刊格式。写 LaTeX 的话目录里的 JabRef 更直接，它的库文件本身就是 BibTeX 文本，能和论文一起进 Git。"
+  en:
+    - q: "How do I manage an ebook library?"
+      a: "Calibre. Management, format conversion, metadata completion and transfer to devices in one place. EPUB to MOBI, PDF to EPUB and similar conversions all work, covers and descriptions are fetched automatically, and a connected Kindle or other reader receives books directly. It also runs a local server so other devices in the house can read from a browser."
+    - q: "What reads EPUB on a computer?"
+      a: "Thorium Reader, which takes accessibility more seriously than its peers — screen reader compatibility, adjustable size, spacing and leading, and complete read-aloud, which makes a real difference for readers with limited vision. Ordinary reading is clean too, with no account and no recommendations. For PDFs, SumatraPDF on Windows starts with essentially no wait, while Okular on Linux has broader annotation and format support."
+    - q: "Can a Kindle run different reading software?"
+      a: "KOReader supports Kindle, Kobo, reMarkable and Android devices. It reads EPUB, PDF, DjVu and comic formats with full control over layout and fonts, and its PDF reflow is far better than stock firmware — fitting an academic paper onto a six-inch screen is handled much more gracefully. Be clear that installing on a Kindle requires jailbreaking, which carries risk; read the official documentation before starting."
+    - q: "How do I manage PDFs and references?"
+      a: "Zotero. It captures metadata from web and journal pages, manages full-text PDFs, and inserts citations and builds bibliographies in thousands of journal styles while you write. For LaTeX, JabRef in this directory is more direct, since its library file is BibTeX text that versions in Git alongside the paper."

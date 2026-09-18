@@ -1,0 +1,47 @@
+title:
+  zh: "免费系统清理与效率工具"
+  en: "Free System Cleanup and Productivity Utilities"
+description:
+  zh: "十三款免费的启动器、文本扩展、重复文件清理、磁盘分析、压缩、备份与软件管理工具，全部无广告、无捆绑、不推销「一键加速」。"
+  en: "Thirteen free launchers, text expanders, duplicate finders, disk analysers, archivers, backup and package tools — no ads, no bundles, and no \"one-click speed boost\" upsell."
+intro:
+  zh: "「系统优化」是消费软件里最脏的一个词。典型套路是扫描出一堆红色告警，告诉你系统有 3847 个问题，点修复之后要求开会员，顺带装上浏览器插件和几个全家桶。真正有用的系统工具从不这样 —— 它们各自解决一个具体问题：这个热键启动程序，那个告诉你 C 盘被什么占满了，另一个把复制过的东西都留着。这份清单按用途分五类：启动与输入、清理与分析、压缩、备份、软件管理。"
+  en: "\"System optimisation\" is the dirtiest phrase in consumer software. The routine is a scan producing red warnings about 3,847 problems, a membership prompt when you click repair, and a browser extension plus a few bundled extras on the way out. Genuinely useful utilities never behave like that — each solves one concrete problem: this one launches programs from a hotkey, that one shows what filled the disk, another keeps everything you copied. This list sorts five ways — launching and input, cleanup and analysis, archiving, backup, and package management."
+criteria:
+  zh:
+    - "不扫描出虚假问题，不推销「加速」「优化」「深度清理」。"
+    - "安装包不捆绑其他软件，不改浏览器主页和默认搜索。"
+    - "界面里没有广告位，不需要注册账号。"
+    - "只解决一个具体问题，不是功能堆叠的「全家桶」。"
+  en:
+    - "Invents no problems and sells no \"acceleration\", \"optimisation\" or \"deep clean\"."
+    - "The installer bundles nothing and does not change your browser homepage or default search."
+    - "No ad slots in the interface and no account required."
+    - "Solves one concrete problem rather than stacking features into a suite."
+tools: [flow-launcher, espanso, autohotkey, ditto, files-app, czkawka, windirstat, bleachbit, peazip, ziplark, winmerge, kopia, unigetui]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "新电脑先装哪几个？"
+      a: "Flow Launcher、Ditto、7-Zip 或 PeaZip 这三类。Flow Launcher 是热键启动器，敲两个字母打开程序、找文件、算数、查词，省掉在开始菜单里翻的时间。Ditto 留住剪贴板历史，复制过的东西覆盖了也能翻回来。压缩工具是刚需，选开源的就不会遇到捆绑和广告。"
+    - q: "C 盘满了怎么找原因？"
+      a: "WinDirStat 画一张方块图，每个文件按体积占一块面积，一眼看出是哪个文件夹或哪个文件吃掉了空间——通常是缓存、日志或者忘了删的虚拟机镜像。找重复文件和相似照片用 Czkawka，它按内容哈希比对，不靠文件名。清浏览器缓存和使用痕迹用 BleachBit，它只删你勾选的，不扫描出虚假问题。"
+    - q: "AutoHotkey 和 Espanso 有什么区别？"
+      a: "AutoHotkey 是 Windows 上的自动化脚本语言，能把任意操作序列绑到快捷键上——改键位、批量点击、控制窗口、写小工具，能力上限很高，代价是要写脚本。Espanso 只做一件事：打几个字符自动展开成一段文本，跨 Windows、macOS、Linux。常用邮件模板、代码片段、地址电话，用 Espanso 就够，不用学脚本语言。"
+    - q: "备份和同步是一回事吗？"
+      a: "不是，这是个常见误解。同步工具（比如 Syncthing）让两端保持一致——你误删了一个文件，另一端也跟着删。备份保留历史版本，误删或者文件被加密勒索之后能回到某个时间点。Kopia 做的是加密去重的增量备份，存本地硬盘、NAS 还是对象存储由你选。两者都要有，不能互相替代。"
+    - q: "Windows 上装软件能不能不用一个个下安装包？"
+      a: "UniGetUI 给 winget、Scoop、Chocolatey 套了图形界面，搜索、安装、批量更新、卸载都在一个窗口里。软件包来自这些官方源，绕开了下载站的捆绑和广告按钮。"
+  en:
+    - q: "What goes on a new machine first?"
+      a: "Three kinds — Flow Launcher, Ditto, and an archiver such as 7-Zip or PeaZip. Flow Launcher opens programs, finds files, does arithmetic and looks things up from a hotkey, removing the trip through the start menu. Ditto keeps clipboard history so an overwritten copy is recoverable. An archiver is a necessity, and choosing an open-source one avoids bundles and ads."
+    - q: "How do I find what filled the disk?"
+      a: "WinDirStat draws a treemap where each file occupies area proportional to its size, so the folder or single file eating the space is immediately visible — usually caches, logs or a forgotten virtual machine image. For duplicates and near-identical photos use Czkawka, which compares by content hash rather than filename. For browser caches and usage traces use BleachBit, which deletes only what you tick and invents no problems."
+    - q: "AutoHotkey or Espanso?"
+      a: "AutoHotkey is a Windows automation language that binds any sequence of actions to a hotkey — remapping keys, batch clicking, controlling windows, building small tools — with a high ceiling and the cost of writing scripts. Espanso does one thing: type a few characters and they expand into a block of text, across Windows, macOS and Linux. For email templates, code snippets, addresses and phone numbers, Espanso is enough and needs no scripting."
+    - q: "Is backup the same as sync?"
+      a: "No, and conflating them is a common mistake. A sync tool such as Syncthing keeps both ends identical — delete a file by accident and it disappears on the other side too. A backup retains historical versions, so an accidental deletion or a ransomware encryption can be rolled back to a point in time. Kopia does encrypted, deduplicated incremental backups to a local disk, a NAS or object storage. You need both; neither substitutes for the other."
+    - q: "Can I install Windows software without downloading installers one by one?"
+      a: "UniGetUI puts a graphical interface over winget, Scoop and Chocolatey, so searching, installing, bulk updating and uninstalling happen in one window. Packages come from those official sources, which bypasses download sites with their bundles and ad-shaped buttons."

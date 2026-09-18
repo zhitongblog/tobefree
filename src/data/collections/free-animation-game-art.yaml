@@ -1,0 +1,43 @@
+title:
+  zh: "免费动画、游戏引擎与像素美术工具"
+  en: "Free Animation, Game Engine and Pixel Art Tools"
+description:
+  zh: "七款免费的二维动画、像素绘图、游戏引擎与三维创作软件，作品商用不分成、导出无水印、不按收入抽成。"
+  en: "Seven free tools for 2D animation, pixel art, game engines and 3D creation — commercial use takes no revenue share, exports carry no watermark, and nothing is charged against your earnings."
+intro:
+  zh: "做内容的工具里，收费方式最伤人的不是买断也不是订阅，是分成 —— 游戏卖得越好抽得越多，成功反而变成成本。这份清单里的工具没有这一层：Godot 是 MIT 协议，你赚多少都是你的；Blender 背后是基金会；OpenToonz 做过商业动画长片之后被开源出来。按创作类型分四类：二维动画、像素美术、游戏引擎、三维。"
+  en: "In creative tooling the most painful pricing is not a one-off purchase or a subscription but revenue share — the better the game sells, the more is taken, so success itself becomes a cost. Nothing here has that layer: Godot is MIT-licensed and what you earn is yours, Blender sits behind a foundation, and OpenToonz was open-sourced after shipping commercial feature animation. The list sorts four ways — 2D animation, pixel art, game engines and 3D."
+criteria:
+  zh:
+    - "作品商用不分成、不抽成、不按收入分级收费。"
+    - "导出不加水印，不限制作品数量和分辨率。"
+    - "工程文件存本机，不要求云端订阅才能打开。"
+    - "协议按实际 LICENSE 文件标注。"
+  en:
+    - "Commercial use involves no revenue share, royalty or income-tiered pricing."
+    - "Exports carry no watermark, with no cap on project count or resolution."
+    - "Project files live locally, with no cloud subscription needed to open them."
+    - "Licences recorded from the actual LICENSE file."
+tools: [godot, luanti, pixelorama, pencil2d, opentoonz, krita, blender]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "做游戏选 Godot 的理由是什么？"
+      a: "MIT 协议，作品收入一分不抽。主流商业引擎多数按收入分成或者到某个营收门槛后收授权费，独立开发者做成了反而要往回付钱。Godot 二维支持是同类里最好的之一，三维也够用，内置脚本语言上手快，也支持 C#。引擎本身几十兆，启动几秒。"
+    - q: "Luanti 是游戏还是引擎？"
+      a: "两者都是。它原名 Minetest，表面上是个开源的方块沙盒游戏，底层其实是个体素游戏引擎——游戏玩法几乎全部由 Lua 写的模组定义，社区做出了完全不同类型的游戏跑在同一个引擎上。给孩子当创作入口或者自己做体素游戏都行，不要账号也不用买。"
+    - q: "画像素图用什么？"
+      a: "Pixelorama。Aseprite 那一类的像素绘图工具——逐帧动画、洋葱皮、调色板管理、精灵表导出都有，本身是用 Godot 做的。Aseprite 要买，Pixelorama 免费开源，做游戏素材和像素插画够用。"
+    - q: "二维手绘动画呢？"
+      a: "入门用 Pencil2D，打开就能画，位图矢量都支持，界面简单到不需要教程。做正经项目用 OpenToonz，它是吉卜力工作室用过的那套软件开源出来的版本，扫描线处理、骨骼变形、特效节点这些专业能力都在，代价是学习曲线陡得多。Krita 也能做逐帧动画，如果你已经在用它画画的话不用另外装。"
+  en:
+    - q: "Why choose Godot for games?"
+      a: "MIT-licensed, with nothing taken from what you earn. Most commercial engines take a revenue share or charge a licence past a revenue threshold, so an independent developer who succeeds ends up paying back. Godot's 2D support is among the best in its class, 3D is capable enough, its built-in scripting language is quick to learn, and C# is supported. The engine is tens of megabytes and starts in seconds."
+    - q: "Is Luanti a game or an engine?"
+      a: "Both. Formerly Minetest, it looks like an open-source voxel sandbox game, but underneath it is a voxel game engine where gameplay is defined almost entirely by Lua mods, and the community has built genuinely different games on the same engine. It works as a creative entry point for children or as a base for your own voxel game, with no account and no purchase."
+    - q: "What draws pixel art?"
+      a: "Pixelorama. An Aseprite-class pixel editor with frame-by-frame animation, onion skinning, palette management and sprite sheet export — itself built in Godot. Aseprite is paid; Pixelorama is free and open source and is enough for game assets and pixel illustration."
+    - q: "And hand-drawn 2D animation?"
+      a: "Pencil2D to start — open it and draw, raster and vector both supported, with an interface simple enough to need no tutorial. OpenToonz for serious projects, being the open-sourced version of the software used at Studio Ghibli, with scanline processing, skeletal deformation and effect nodes, at the cost of a much steeper curve. Krita also does frame-by-frame animation, so if you already paint in it there is nothing else to install."

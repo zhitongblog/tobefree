@@ -1,0 +1,43 @@
+title:
+  zh: "免费音频编辑与音乐软件"
+  en: "Free Audio Editing and Music Software"
+description:
+  zh: "五款免费的录音剪辑、编曲、打谱、本地音乐播放与播客工具，导出无水印、不限时长、不要订阅。"
+  en: "Five free tools for recording and editing, music production, score writing, local music playback and podcasts — no watermarked exports, no length limits, no subscription."
+intro:
+  zh: "音频这个品类的付费结构比视频还密：编曲软件按功能分档卖，打谱软件卖完还要按年收云端费，音乐播放这件事被订阅制彻底接管。但录音剪辑、编曲、打谱这三件事都有成熟的免费实现，其中一个是全世界用得最多的音频编辑器。这份清单按流程分四段：录进来、编出来、写成谱、放出去。"
+  en: "Audio is priced even more densely than video: production software sold in feature tiers, score writing sold once and then charged annually for cloud storage, and music playback taken over entirely by subscriptions. Yet recording and editing, music production and score writing all have mature free implementations, one of which is the most widely used audio editor in the world. This list follows the chain — record it, build it, write it down, play it back."
+criteria:
+  zh:
+    - "导出不加水印，不限制时长和导出次数。"
+    - "核心功能免费，没有按音轨数或功能模块拆包收费。"
+    - "本机处理，不要求把工程文件传到云端。"
+    - "使用开放或广泛支持的文件格式。"
+  en:
+    - "Exports carry no watermark and have no length or count limits."
+    - "Core features are free, with no pricing by track count or feature module."
+    - "Processing is local, with no requirement to upload project files."
+    - "Open or widely supported file formats throughout."
+tools: [audacity, lmms, musescore, strawberry, antennapod]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "录播客、剪采访用哪个？"
+      a: "Audacity。多轨录音、降噪、压限、淡入淡出、批量处理都有，格式支持广，插件生态成熟。它是全世界用得最多的免费音频编辑器，遇到问题基本都能搜到答案。界面朴素，但做剪辑这件事该有的功能一个不缺。"
+    - q: "想做电子音乐，从哪儿开始？"
+      a: "LMMS。它是 FL Studio 那一类的编曲软件——钢琴卷帘、节拍编辑器、内置合成器和采样器、支持 VST 插件。免费版没有功能阉割，做完整首曲子导出也不收钱。缺点是音频录制能力弱，它主要面向用虚拟乐器和采样做曲，不是录乐队。"
+    - q: "打谱软件有免费的吗？"
+      a: "MuseScore。专业级的乐谱排版，输入音符、听回放、导出 PDF 和 MIDI，钢琴谱、吉他谱、总谱都能写，输出的乐谱排版质量能直接拿去印。要注意它的在线曲谱库是另一回事，那部分有付费订阅，桌面软件本身完全免费。"
+    - q: "本地音乐文件怎么听？"
+      a: "Strawberry。给还在收藏音乐文件的人做的播放器，管理大音乐库、读各种无损格式、自动补全专辑封面和标签。它不做流媒体、不推荐算法、不要账号，就是把你硬盘上的音乐组织好放给你听。播客用 AntennaPod，订阅走 RSS，不经过任何播客平台。"
+  en:
+    - q: "What should I record and edit a podcast with?"
+      a: "Audacity. Multitrack recording, noise reduction, compression and limiting, fades and batch processing, with broad format support and a mature plugin ecosystem. It is the most widely used free audio editor in the world, so almost any problem already has an answer online. The interface is plain, but nothing an edit needs is missing."
+    - q: "Where do I start making electronic music?"
+      a: "LMMS. It sits in the FL Studio family — piano roll, beat editor, built-in synthesisers and samplers, VST plugin support. Nothing is cut out of the free version and finishing and exporting a track costs nothing. Its weakness is audio recording; it is built for writing with virtual instruments and samples rather than tracking a band."
+    - q: "Is there free score writing software?"
+      a: "MuseScore. Professional engraving — enter notes, hear playback, export PDF and MIDI, write piano parts, guitar tab or full orchestral scores, with output good enough to print. Note that its online score library is a separate thing with paid tiers; the desktop application itself is entirely free."
+    - q: "How do I play local music files?"
+      a: "Strawberry, made for people who still keep a music collection — large library management, lossless formats, automatic cover art and tag completion. It does no streaming, no recommendation algorithm and no account; it organises what is on your disk and plays it. For podcasts use AntennaPod, subscribing over RSS with no podcast platform in between."

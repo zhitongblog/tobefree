@@ -1,0 +1,43 @@
+title:
+  zh: "免费流程图、白板与思维导图工具"
+  en: "Free Diagram, Whiteboard and Mind Mapping Tools"
+description:
+  zh: "四款免费的流程图、协作白板、思维导图与界面设计工具，不限图数、不限节点数、不需要注册。"
+  en: "Four free tools for flowcharts, collaborative whiteboards, mind maps and interface design — no diagram limits, no node limits, no registration."
+intro:
+  zh: "画图工具是 SaaS 化最彻底的一类：免费版限三张图、思维导图限节点数、导出高清要付费、文件只存在厂商服务器上。限制的位置很讲究 —— 都卡在你已经画完、准备用的时候。这份清单里的工具都能把文件存成本地可导出的格式，其中一个干脆不需要打开网站就能用。按用途分三类：结构化图表、自由白板、界面设计。"
+  en: "Diagramming went to SaaS more completely than most categories: three diagrams on the free tier, a node cap on mind maps, a fee to export at full resolution, and files that exist only on a vendor's server. The limits are placed carefully — all of them land after you have finished drawing and want to use the result. Everything here saves to a local, exportable format, and one of them does not need a website at all. The list sorts three ways — structured diagrams, freeform whiteboards, and interface design."
+criteria:
+  zh:
+    - "不限图表数量、节点数量和画布大小。"
+    - "导出不加水印，不限制分辨率和格式。"
+    - "文件可以存在本机，不强制云端保存。"
+    - "不需要注册账号即可使用全部核心功能。"
+  en:
+    - "No caps on diagram count, node count or canvas size."
+    - "Exports carry no watermark and no resolution or format restriction."
+    - "Files can be stored locally, with no forced cloud save."
+    - "All core features work without registering an account."
+tools: [drawio, excalidraw, freeplane, penpot]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "画架构图、流程图用哪个？"
+      a: "draw.io。网页版打开就能画，也有桌面版，不用注册、不限图数、不限导出。图形库覆盖很全——UML、网络拓扑、云服务商的官方图标集、ER 图都有。文件可以存成 `.drawio`（其实是 XML）放进 Git 仓库，改动能看 diff。"
+    - q: "Excalidraw 和 draw.io 有什么区别？"
+      a: "定位不同。draw.io 是结构化图表工具，元素对齐、连线自动吸附，适合画要给人看的正式图。Excalidraw 是手绘风格的自由白板，线条故意画得歪歪扭扭，适合边想边画、开会时临时画一张、写技术方案时随手示意。看起来像草稿这件事是刻意的——正式感低的图更容易被讨论和修改。"
+    - q: "思维导图有不限节点的免费版吗？"
+      a: "Freeplane。桌面软件，节点数不限、不按月收费、文件存本机。它是从 FreeMind 分支出来的，除了基本的树形结构，还支持节点属性、条件格式、脚本扩展和大纲视图，做知识整理和项目分解都够用。"
+    - q: "Penpot 为什么在这里？"
+      a: "它是界面设计工具，对标 Figma 那一类。放进来是因为它和上面三个共享同一个性质——自建版本功能完整，设计文件在你自己的服务器上，不会因为订阅到期或者厂商政策变化打不开。它用的是 SVG 这样的开放标准而不是专有格式。"
+  en:
+    - q: "What draws architecture diagrams and flowcharts?"
+      a: "draw.io. The web version works immediately and a desktop build exists, with no registration, no diagram cap and no export limit. The shape libraries are broad — UML, network topology, official cloud provider icon sets, ER diagrams. Files save as `.drawio`, which is XML, so they go into a Git repository and their changes show in a diff."
+    - q: "How does Excalidraw differ from draw.io?"
+      a: "Different purposes. draw.io is a structured diagram tool with alignment and snapping connectors, suited to formal diagrams meant to be read by others. Excalidraw is a hand-drawn freeform whiteboard whose lines are deliberately wobbly, suited to thinking out loud, sketching during a meeting, or illustrating a design document. Looking like a draft is the point — a diagram that reads as unfinished invites discussion and change."
+    - q: "Any free mind mapping without node limits?"
+      a: "Freeplane. A desktop application with unlimited nodes, no monthly fee and local files. Forked from FreeMind, it goes beyond basic trees with node attributes, conditional formatting, scripting and an outline view, which covers knowledge organisation and project breakdown."
+    - q: "Why is Penpot on this list?"
+      a: "It is an interface design tool in the Figma class. It belongs here because it shares the property of the other three — the self-hosted build is complete, design files sit on your own server, and they do not become unopenable when a subscription lapses or a vendor changes policy. It uses open standards such as SVG rather than a proprietary format."

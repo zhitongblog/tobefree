@@ -1,0 +1,43 @@
+title:
+  zh: "免费网络分析与抓包工具"
+  en: "Free Network Analysis and Packet Capture Tools"
+description:
+  zh: "五款免费的抓包、端口扫描、HTTPS 中间人代理和组网工具，全部本机运行，不需要授权和订阅。"
+  en: "Five free tools for packet capture, port scanning, HTTPS interception and private networking — all local, with no licence and no subscription."
+intro:
+  zh: "网络出问题的时候，「能上网」和「不能上网」之间有一大片模糊地带：网页打得开但某个 App 转圈、内网某台机器连不上、智能家居设备半夜在往外发东西。猜是没用的，得把数据包摊开看。这份清单里的工具做的就是让网络变得可见。按观察层次分四类：链路层抓包、主机与端口发现、应用层请求、以及把自己的设备连成一张私有网。"
+  en: "When a network misbehaves there is wide grey territory between \"online\" and \"offline\": pages load but one app spins, a machine on the LAN is unreachable, a smart home device sends something out at three in the morning. Guessing does not resolve it; the packets have to be laid out and read. These tools make the network visible. The list sorts by layer — link-level capture, host and port discovery, application-level requests, and joining your own devices into a private network."
+criteria:
+  zh:
+    - "完全免费，没有按接口数、抓包时长或功能模块收费。"
+    - "本机运行，抓到的数据不上传。"
+    - "不需要注册账号或申请授权文件。"
+    - "开源或机制公开，可以审计它在做什么。"
+  en:
+    - "Entirely free, with no pricing by interface count, capture duration or feature module."
+    - "Runs locally and uploads nothing it captures."
+    - "No account and no licence file required."
+    - "Open source or with a public mechanism, so what it does can be audited."
+tools: [wireshark, nmap, mitmproxy, tailscale, wireguard]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "想看清网络里到底在传什么？"
+      a: "Wireshark。它把网卡上经过的每一个数据包摊开，协议逐层解析到字段级别，配合过滤表达式能从几十万个包里挑出你要的那几个。排查 TCP 重传、DNS 解析失败、TLS 握手在哪一步断掉，这类问题靠它定位。学习曲线不算平，但网络排障的上限也在这儿。"
+    - q: "Nmap 是干什么的？"
+      a: "扫描网络里有哪些设备、各自开了哪些端口、跑的什么服务。家里接了一堆智能设备之后，用它扫一遍常能发现意料之外的东西——某个摄像头开着未授权的 web 端口，某台机器的数据库端口对整个局域网敞着。只扫自己的网络，扫别人的网络在很多地方是违法的。"
+    - q: "HTTPS 加密了还能看到内容吗？"
+      a: "用 mitmproxy 做中间人可以。它在设备和服务器之间插一层，用自己的证书重新加密，于是请求内容变得可读可改可重放。前提是在设备上安装并信任它的证书——这也意味着这个能力只对你自己控制的设备成立。调试自己的移动端应用、查第三方 SDK 到底上报了什么，靠它。新版安卓对普通应用信任用户证书有额外限制，要留意。"
+    - q: "Tailscale 和 WireGuard 是什么关系？"
+      a: "Tailscale 的底层就是 WireGuard。WireGuard 是协议和内核实现，配置只有十几行，但要自己处理密钥分发、IP 分配和 NAT 穿透。Tailscale 在上面加了一层控制平面，设备登录之后自动组网、自动打洞，家里的 NAS 在外面也能像在局域网里一样访问。想完全自己掌控用 WireGuard，想装完就能用用 Tailscale。"
+  en:
+    - q: "How do I see what is actually crossing the network?"
+      a: "Wireshark. It lays out every packet passing the interface, dissecting protocols down to individual fields, and its filter expressions pull the few packets you want out of hundreds of thousands. TCP retransmissions, failed DNS resolution, a TLS handshake dying at a particular step — this is what locates them. The learning curve is not gentle, but neither is the ceiling of network troubleshooting."
+    - q: "What is Nmap for?"
+      a: "Discovering which devices are on a network, which ports they have open and what services are running. After filling a home with smart devices, a scan routinely turns up something unexpected — a camera with an unauthenticated web port, a machine with its database port open to the whole LAN. Scan only your own network; scanning someone else's is illegal in many places."
+    - q: "Can HTTPS content be inspected?"
+      a: "With mitmproxy acting as a man in the middle, yes. It sits between device and server and re-encrypts with its own certificate, making requests readable, editable and replayable. That requires installing and trusting its certificate on the device, which also means the capability applies only to devices you control. It is how you debug your own mobile app or find what a third-party SDK reports. Recent Android versions restrict ordinary apps from trusting user certificates, which is worth knowing."
+    - q: "How do Tailscale and WireGuard relate?"
+      a: "Tailscale runs on WireGuard underneath. WireGuard is the protocol and kernel implementation, configured in a dozen lines, but key distribution, address allocation and NAT traversal are yours to solve. Tailscale adds a control plane on top so devices join the network and punch through NAT after signing in, making a NAS at home reachable from outside as if it were on the local network. Take WireGuard for complete control, Tailscale to have it working immediately."

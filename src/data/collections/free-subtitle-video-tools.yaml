@@ -1,0 +1,47 @@
+title:
+  zh: "免费字幕制作与视频处理工具"
+  en: "Free Subtitle and Video Processing Tools"
+description:
+  zh: "六款免费的字幕编辑、封装、无损剪切、转码与调色工具，处理完的文件没有水印、不限时长、不限导出次数。"
+  en: "Six free tools for subtitle editing, muxing, lossless cutting, transcoding and colour grading — output with no watermark, no length cap and no export limit."
+intro:
+  zh: "视频处理里有一批工作不需要打开剪辑软件：给片子配字幕、把三条音轨和两条字幕装进一个文件、掐掉开头三十秒、把一个 8 GB 的 MOV 压成能发出去的 MP4。用完整剪辑软件做这些事要先导入再导出，重新编码一遍，画质掉一次、时间花几十分钟。这份清单里的工具各自只做其中一段，多数不重新编码，秒级完成。按流程分四段：做字幕、封装、剪切、转码，最后放一个真剪辑软件收尾。"
+  en: "A lot of video work does not need an editing suite: adding subtitles, packing three audio tracks and two subtitle tracks into one file, cutting the first thirty seconds, squeezing an 8 GB MOV into a sendable MP4. Doing those in a full editor means import, re-encode and export — one generation of quality lost and tens of minutes spent. Each tool here handles one stage, mostly without re-encoding, in seconds. The list runs through subtitling, muxing, cutting and transcoding, with a real editor at the end."
+criteria:
+  zh:
+    - "输出不带水印，不限制时长和导出次数。"
+    - "不需要注册账号，不要求把视频上传到服务器。"
+    - "能不重新编码的操作就不重新编码，避免画质损失。"
+    - "支持常见容器和编码格式，不锁定专有格式。"
+  en:
+    - "Output carries no watermark and has no length or export limits."
+    - "No account required and no upload of your video to a server."
+    - "Operations avoid re-encoding wherever possible, so no generation of quality is lost."
+    - "Common containers and codecs are supported, with no proprietary lock-in."
+tools: [subtitle-edit, mkvtoolnix, losslesscut, handbrake, ffmpeg, davinci-resolve]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "做字幕、对时间轴用哪个？"
+      a: "Subtitle Edit。波形图上直接拖时间轴，支持两百多种字幕格式互转，能自动检测时间轴错位、修复重叠、批量调整偏移。要从头听写的话它可以接本地 Whisper 模型先出一版初稿再手工校对——目录里的 whisper.cpp、Faster-Whisper 都能接。"
+    - q: "想把字幕和多条音轨装进一个文件？"
+      a: "MKVToolNix。它做的是封装而不是编码，把已有的视频流、音频流、字幕流重新装进一个 MKV 容器，几秒钟完成，画质零损失。一部电影配国语和原声两条音轨、中英两条字幕，播放时随时切换，就是这么来的。"
+    - q: "只想掐掉开头结尾，不想重新压？"
+      a: "LosslessCut。在关键帧上直接切，几百兆的视频一两秒切完，画质完全不变。代价是切点只能落在关键帧上，精度到不了逐帧，要精确到帧得用真正的剪辑软件。"
+    - q: "HandBrake 和 FFmpeg 怎么分工？"
+      a: "同一件事的两种界面。HandBrake 有图形界面和预置档，选一个「快速 1080p30」就能开始压，适合偶尔转一次格式的人。FFmpeg 是命令行，参数全开，适合要批量处理或者要精确控制码率、编码器、滤镜的场景。HandBrake 底层用的也是 FFmpeg 那套编解码库。"
+    - q: "要真正剪片子呢？"
+      a: "DaVinci Resolve。免费版没有水印、不限时长、可以商用，调色能力是行业标准，剪辑、音频、特效、字幕都在一个软件里。限制是免费版不支持部分硬件加速编码和一些高级降噪功能，这些在 Studio 付费版里。对绝大多数人来说免费版就是完整的剪辑软件。"
+  en:
+    - q: "What should I make and time subtitles with?"
+      a: "Subtitle Edit. Drag timings directly on the waveform, convert among two hundred-plus subtitle formats, detect misaligned timing, fix overlaps and shift offsets in bulk. To start from nothing it can call a local Whisper model for a first pass before manual correction — whisper.cpp and Faster-Whisper in this directory both work."
+    - q: "How do I pack subtitles and several audio tracks into one file?"
+      a: "MKVToolNix. It muxes rather than encodes, repacking existing video, audio and subtitle streams into one MKV in seconds with zero quality loss. A film carrying both a dubbed and an original audio track plus two subtitle languages, switchable during playback, is made this way."
+    - q: "I only want to trim the start and end."
+      a: "LosslessCut. It cuts on keyframes directly, so a few hundred megabytes take a second or two and the picture is untouched. The trade is that cuts land on keyframes rather than exact frames; frame accuracy needs a real editor."
+    - q: "HandBrake or FFmpeg?"
+      a: "Two interfaces onto the same job. HandBrake has a GUI and presets, so picking \"Fast 1080p30\" starts the encode, which suits occasional conversions. FFmpeg is the command line with every parameter exposed, for batch work or precise control over bitrate, encoder and filters. HandBrake uses the same FFmpeg codec libraries underneath."
+    - q: "And for actually editing?"
+      a: "DaVinci Resolve. The free version has no watermark, no duration limit and permits commercial use, its colour grading is an industry standard, and editing, audio, effects and titles live in one application. The limits are some hardware-accelerated encoders and advanced noise reduction, which sit in the paid Studio version. For most people the free build is a complete editor."

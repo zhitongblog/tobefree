@@ -1,0 +1,43 @@
+title:
+  zh: "免费隐私保护与安全工具"
+  en: "Free Privacy and Security Tools"
+description:
+  zh: "十二款免费的去广告、防追踪、两步验证、加密与匿名工具，按拦截位置分层，从浏览器插件一直到整个操作系统。"
+  en: "Twelve free tools for ad blocking, anti-tracking, two-factor authentication, encryption and anonymity, layered by where they intercept — from a browser extension up to an entire operating system."
+intro:
+  zh: "隐私工具最容易犯的错是只装一层。浏览器插件挡得住网页里的追踪脚本，挡不住手机 App 直连广告域名；VPN 换得掉出口 IP，换不掉浏览器指纹。真正有效的做法是按拦截位置分层叠加 —— 浏览器一层、设备一层、整个网络一层，各管各的范围。这份清单按这个顺序排，最后两款走到极端：一个从 U 盘启动、关机什么都不剩，一个把全屋 DNS 都接管了。"
+  en: "The usual mistake with privacy tools is installing only one layer. A browser extension stops tracking scripts on a web page but not a mobile app dialling an ad domain directly; a VPN changes your exit address but not your browser fingerprint. What works is stacking by interception point — one layer in the browser, one on the device, one across the whole network, each covering what the others cannot. This list follows that order, ending with two extremes: one that boots from a USB stick and leaves nothing behind, and one that takes over DNS for the entire house."
+criteria:
+  zh:
+    - "不收集使用数据，工具本身不成为新的追踪源。"
+    - "开源或机制公开可审计，不是「相信我们」式的黑盒。"
+    - "核心功能免费，没有付费才解锁的防护等级。"
+    - "拦截位置和覆盖范围逐款标注 —— 这决定了它挡得住什么。"
+  en:
+    - "Collects no usage data, so the tool does not become a new tracker itself."
+    - "Open source or with a publicly auditable mechanism, not a trust-us black box."
+    - "Core protection is free, with no protection level behind a paywall."
+    - "Interception point and coverage are stated per tool — that is what decides what it can actually stop."
+tools: [ublock-origin, privacy-badger, adguard-home, pi-hole, searxng, aegis-authenticator, ente-auth, gnupg, clamav, wireguard, proton-vpn, tails]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "只装一个的话装哪个？"
+      a: "uBlock Origin。它覆盖的是你接触互联网最主要的那个入口，内存占用比同类低，规则列表由社区维护。要注意的是 Chrome 完成 Manifest V3 迁移之后，它在 Chrome 上只剩功能受限的 Lite 版本，完整能力要在 Firefox 内核浏览器上才有——这也是很多人换浏览器的直接原因。"
+    - q: "Pi-hole 和 AdGuard Home 选哪个？"
+      a: "两者都在 DNS 层拦截，覆盖全屋所有设备，包括装不了插件的电视、手机 App 和智能音箱。Pi-hole 更老牌、社区规则多、树莓派上跑得最顺；AdGuard Home 是单个二进制，部署更简单，内置 DNS-over-HTTPS 加密和按客户端分组的规则。功能重叠，别两个都装。"
+    - q: "两步验证码为什么不用短信？"
+      a: "短信验证码会被 SIM 卡劫持，运营商侧也能看到。Aegis 和 Ente Auth 都是本地生成的 TOTP 验证码，不依赖网络。Aegis 纯离线，数据库加密存在手机上；Ente Auth 多设备端到端加密同步，服务器只存密文。手机丢了会失去访问权这件事，两者都要靠导出备份来解决——这一步别跳过。"
+    - q: "免费 VPN 能用吗？"
+      a: "多数不能。免费 VPN 的商业模式通常就是卖你的流量数据，等于把追踪从网站换到了 VPN 厂商。Proton VPN 的免费版不限流量、不投广告、不记录，这在行业里几乎是孤例，代价是可选节点少、速度一般。要真匿名而不只是换个 IP，用 Tor Browser 或 Tails。"
+  en:
+    - q: "If I install only one?"
+      a: "uBlock Origin. It covers the main doorway through which you touch the internet, uses less memory than its peers, and runs on community-maintained lists. Note that after Chrome's Manifest V3 migration only the feature-limited Lite build remains there, with full capability requiring a Firefox-based browser — which is why many people switched browsers."
+    - q: "Pi-hole or AdGuard Home?"
+      a: "Both intercept at the DNS layer and cover every device in the house, including televisions, mobile apps and smart speakers where no extension can be installed. Pi-hole is older, with more community lists, and runs best on a Raspberry Pi; AdGuard Home is a single binary, simpler to deploy, with DNS-over-HTTPS and per-client rule groups built in. They overlap; do not run both."
+    - q: "Why not SMS for two-factor codes?"
+      a: "SMS codes are vulnerable to SIM swapping and visible to the carrier. Aegis and Ente Auth both generate TOTP codes locally with no network involved. Aegis is fully offline with an encrypted database on the phone; Ente Auth syncs end-to-end encrypted across devices with only ciphertext on the server. Losing the phone means losing access in both cases unless you exported a backup — do not skip that step."
+    - q: "Are free VPNs usable?"
+      a: "Most are not. The business model of a free VPN is usually selling your traffic data, which moves the tracking from the websites to the VPN vendor. Proton VPN's free tier has no data cap, no ads and no logs, which is close to unique in the industry, at the cost of few locations and moderate speed. For actual anonymity rather than a different IP, use Tor Browser or Tails."

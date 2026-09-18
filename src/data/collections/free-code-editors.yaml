@@ -1,0 +1,47 @@
+title:
+  zh: "免费代码编辑器与 IDE"
+  en: "Free Code Editors and IDEs"
+description:
+  zh: "七款免费的代码编辑器与集成开发环境，从开箱即用到完全可配置，含各自的遥测行为和商用授权说明。"
+  en: "Seven free code editors and IDEs, from works-out-of-the-box to fully configurable, with each one's telemetry behaviour and commercial licensing stated."
+intro:
+  zh: "编辑器这件事上免费不是问题 —— 这个品类里最流行的几个本来就不收钱。真正值得看清的是另外两层：一是遥测，微软发行版的 VS Code 默认开着使用数据收集，同一份代码的社区构建 VSCodium 把这部分去掉了；二是商用授权，IntelliJ IDEA 社区版是 Apache-2.0，公司里用也不需要买授权，这一点常被误解。这份清单按上手成本排，从装完就能写到需要自己搭一套配置。"
+  en: "Free is not the interesting question here — several of the most popular editors never charged. Two other layers are worth seeing clearly. One is telemetry: Microsoft's VS Code build collects usage data by default, while VSCodium, the community build of the same source, removes it. The other is commercial licensing: IntelliJ IDEA Community Edition is Apache-2.0 and needs no purchase for company use, which is regularly misunderstood. This list runs by entry cost, from writing code immediately to assembling your own configuration."
+criteria:
+  zh:
+    - "核心编辑功能完全免费，没有按项目数或文件大小的限制。"
+    - "商用是否需要授权逐款标注。"
+    - "遥测行为逐款标注 —— 默认开启的单独说明。"
+    - "不强制注册账号即可使用全部核心功能。"
+  en:
+    - "Core editing is entirely free, with no caps on project count or file size."
+    - "Whether commercial use requires a licence is stated per editor."
+    - "Telemetry behaviour is stated per editor, with defaults called out."
+    - "All core features work without registering an account."
+tools: [vscode, vscodium, zed, notepad-plus-plus, intellij-idea-community, neovim, helix]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "VS Code 和 VSCodium 是什么关系？"
+      a: "同一份开源代码的两个构建。微软发行的 VS Code 在开源代码基础上加了遥测、微软专属图标和一些闭源组件，默认开着使用数据收集（设置里可以关）。VSCodium 从同一份源码构建，去掉了遥测和微软品牌，功能一致。代价是它连的是开放扩展市场而不是微软官方市场，少数微软自家扩展（比如远程开发那套）装不了。"
+    - q: "IntelliJ IDEA 社区版公司里能用吗？"
+      a: "能，Apache-2.0 协议，商用不需要买授权。它和付费的 Ultimate 版差别在语言和框架支持——社区版覆盖 Java、Kotlin、Groovy、Scala 和 Maven、Gradle，够写后端和安卓；Ultimate 多的是 Web 前端、Spring、数据库工具、各种框架的深度支持。写纯 Java/Kotlin 的话社区版就是完整 IDE。"
+    - q: "Zed 值得换吗？"
+      a: "看你在意什么。Zed 用 Rust 重写，启动和输入延迟明显低于 Electron 那一批，大文件不卡，内置协作编辑和 AI 集成。代价是扩展生态比 VS Code 小得多，一些语言的工具链支持还在补。日常写主流语言、不依赖冷门插件的话可以试；重度依赖某个 VS Code 扩展的话先确认有没有对应的。"
+    - q: "Neovim 和 Helix 怎么选？"
+      a: "Helix 开箱即用——语法高亮、LSP 补全、多光标都内置，装完不写配置文件就能开始。Neovim 要自己搭配置或者用别人做好的发行版，但插件生态是 Helix 的数量级之上，几乎任何需求都有人做过。想立刻开始用选 Helix，愿意花时间换完全掌控选 Neovim。两者都是模式编辑，Vim 那套键位。"
+    - q: "只是改个配置文件、看个日志？"
+      a: "Windows 上用 Notepad++，启动快、占用小、语法高亮和大文件支持都有，二十多年的老工具，不需要为了改三行配置打开一个完整 IDE。"
+  en:
+    - q: "How do VS Code and VSCodium relate?"
+      a: "Two builds of the same open-source code. Microsoft's VS Code adds telemetry, Microsoft branding and some closed components on top, with usage data collection on by default (it can be turned off in settings). VSCodium builds from the same source with telemetry and branding removed and identical functionality. The trade is that it points at the open extension registry rather than Microsoft's, so a few Microsoft-only extensions — the remote development set among them — cannot be installed."
+    - q: "Can IntelliJ IDEA Community Edition be used at a company?"
+      a: "Yes. It is Apache-2.0 and commercial use requires no purchase. The difference from paid Ultimate is language and framework coverage: Community handles Java, Kotlin, Groovy, Scala with Maven and Gradle, which is enough for backend and Android work, while Ultimate adds web front-end, Spring, database tooling and deeper framework support. For pure Java or Kotlin, Community is a complete IDE."
+    - q: "Is Zed worth switching to?"
+      a: "It depends what you value. Zed is rewritten in Rust with noticeably lower startup and input latency than the Electron generation, it does not stall on large files, and collaborative editing and AI integration are built in. Its extension ecosystem is far smaller than VS Code's and toolchain support for some languages is still filling in. Worth trying for mainstream languages without exotic plugin dependencies; check for an equivalent first if you rely heavily on a particular VS Code extension."
+    - q: "Neovim or Helix?"
+      a: "Helix works out of the box — syntax highlighting, LSP completion and multiple cursors are built in and no config file is needed to start. Neovim expects you to build a configuration or adopt a distribution, but its plugin ecosystem is an order of magnitude larger and almost any need has been met by someone. Take Helix to start immediately, Neovim to trade time for total control. Both are modal editors with Vim-style keys."
+    - q: "Just editing a config file or reading a log?"
+      a: "Notepad++ on Windows — fast to start, light, with syntax highlighting and large file support. A twenty-year-old tool, and no reason to open a full IDE to change three lines."

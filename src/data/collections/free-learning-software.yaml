@@ -1,0 +1,47 @@
+title:
+  zh: "免费学习与科研软件"
+  en: "Free Learning and Science Software"
+description:
+  zh: "十款免费的记忆卡片、数学几何、天文、编程启蒙、科学计算与文献管理工具，覆盖从小学到研究生的学习场景。"
+  en: "Ten free tools for flashcards, mathematics and geometry, astronomy, learning to code, scientific computing and reference management — from primary school to graduate research."
+intro:
+  zh: "教育软件市场有一套成熟的收费结构：按年订阅、按学生数计费、按功能模块拆包卖，学校采购和家长付费是两条并行的现金流。但这个领域里恰好有一批做得最好的软件是免费开源的 —— 间隔重复算法最成熟的实现、被全世界数学课堂使用的动态几何工具、MIT 做的儿童编程语言，都不收钱。这份清单按学习阶段排，从编程启蒙一直到科研文献管理。"
+  en: "Educational software has a well-developed pricing structure — annual subscriptions, per-student billing, features split into modules — with school procurement and parent payments running as two parallel cash flows. Yet some of the best software in this field happens to be free and open source: the most mature implementation of spaced repetition, the dynamic geometry tool used in maths classrooms worldwide, the children's programming language built at MIT. This list runs by stage, from a first programming language through to managing research literature."
+criteria:
+  zh:
+    - "核心功能永久免费，不按学生数或使用时长收费。"
+    - "不需要学校账号或机构授权即可使用。"
+    - "数据可导出，换软件不会把积累的内容锁死。"
+    - "离线可用的单独标注 —— 学习场景经常没有稳定网络。"
+  en:
+    - "Core features are permanently free, with no per-student or per-hour billing."
+    - "Usable without a school account or institutional licence."
+    - "Data exports, so switching software does not lock in what you built up."
+    - "Offline capability is noted separately — learning often happens without reliable network."
+tools: [anki, scratch, geogebra, stellarium, jupyterlab, gnu-octave, radicand, qgis, kiwix, jabref]
+skills: []
+featured: true
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "背单词、背知识点用哪个？"
+      a: "Anki。它实现的间隔重复算法会根据你每张卡的回忆难度安排下次复习时间，快忘掉的时候刚好出现。牌组可以自己做也可以下别人做好的，支持图片、音频、公式和填空。桌面端和安卓端免费，iOS 版是收费的——这是这个项目的资金来源，桌面和安卓不受影响。"
+    - q: "孩子学编程从哪儿开始？"
+      a: "Scratch。MIT 做的，用积木块拼出程序逻辑，不用打字不用记语法，做出来的东西立刻能动。它教的是顺序、循环、条件、事件这些概念本身，这些概念换到任何一门语言里都还在。浏览器里就能用，也有离线版。"
+    - q: "GeoGebra 和 Stellarium 适合什么年龄？"
+      a: "GeoGebra 覆盖面很宽，小学画几何图形、中学看函数图像随参数变化、大学做微积分可视化都能用，很多国家的数学课堂在用它。Stellarium 把电脑变成天文馆，输入时间地点就能看到当时的星空，和肉眼看到的一致，认星座和理解天体运动都直观。"
+    - q: "做研究用哪几个？"
+      a: "JupyterLab 写分析——代码、运行结果和文字说明在同一份文档里，结果可复现。GNU Octave 跑数值计算，语法和 MATLAB 兼容，不用买授权。QGIS 处理地理数据，替代一年几万块的商业 GIS。文献用 JabRef，库文件就是 BibTeX 文本，可以和论文一起进 Git 做版本控制。"
+    - q: "Kiwix 是干什么的？"
+      a: "把整个维基百科下载到硬盘上离线查，也支持古腾堡电子书库、Stack Exchange 这些离线包。网络不稳定、出野外、或者干脆没有网络的学习场景下，它是把资料带在身上的办法。"
+  en:
+    - q: "What should I use for memorising?"
+      a: "Anki. Its spaced repetition schedules each card by how hard it was to recall, so it reappears just as you are about to forget. Decks are yours to build or to download, with images, audio, formulas and cloze deletions. Desktop and Android are free; the iOS app is paid — that is how the project is funded, and it does not affect the other platforms."
+    - q: "Where does a child start with programming?"
+      a: "Scratch. Built at MIT, it assembles program logic from blocks with no typing and no syntax to remember, and what you build moves immediately. What it teaches — sequence, loops, conditions, events — survives into any language later. It runs in a browser and has an offline build."
+    - q: "What ages are GeoGebra and Stellarium for?"
+      a: "GeoGebra spans a wide range, from drawing shapes in primary school through watching a function change with its parameters in secondary school to visualising calculus at university, and it is used in maths classrooms in many countries. Stellarium turns the computer into a planetarium — enter a time and place and the sky matches what the eye would see, which makes constellations and celestial motion concrete."
+    - q: "Which of these are for research?"
+      a: "JupyterLab for analysis, with code, output and prose in one reproducible document. GNU Octave for numerical computing with MATLAB-compatible syntax and no licence to buy. QGIS for geospatial data, replacing commercial GIS that costs thousands a year. JabRef for references, where the library file is BibTeX text that versions in Git alongside the paper."
+    - q: "What is Kiwix for?"
+      a: "Downloading the whole of Wikipedia to a disk for offline reading, along with packages such as Project Gutenberg and Stack Exchange. Where the network is unreliable, in the field, or absent entirely, it is how you carry the reference material with you."

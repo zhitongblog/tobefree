@@ -1,0 +1,43 @@
+title:
+  zh: "免费 API 调试与数据库客户端"
+  en: "Free API Testing and Database Clients"
+description:
+  zh: "六款免费的 API 客户端、抓包工具和数据库管理工具，接口集合和连接配置存在本机，不强制登录、不按团队人数收费。"
+  en: "Six free API clients, traffic inspectors and database tools that keep request collections and connection settings local — no forced login, no per-seat pricing."
+intro:
+  zh: "API 客户端这个品类几年前集体转向了云端：接口集合默认同步到厂商服务器，不登录用不了，团队协作按人头收费，免费版限制集合数量。但接口定义本来就该和代码放在一起走 Git，环境变量里常常有生产密钥，这两件事都不适合躺在第三方服务器上。这份清单里的工具把数据留在本机。按用途分三类：发请求、看请求、连数据库。"
+  en: "API clients moved to the cloud collectively a few years ago: collections sync to a vendor server by default, nothing works signed out, collaboration is billed per seat, and free tiers cap how many collections you may keep. Yet request definitions belong in Git next to the code, and environment variables frequently hold production secrets — neither belongs on someone else's server. Everything here keeps data local. The list sorts three ways — sending requests, inspecting requests, and connecting to databases."
+criteria:
+  zh:
+    - "不登录即可使用全部核心功能。"
+    - "接口集合和连接配置存在本机，可以导出和进版本控制。"
+    - "不按团队人数、集合数量或请求次数收费。"
+    - "不把请求内容和数据库凭据上传到厂商服务器。"
+  en:
+    - "Every core feature works without signing in."
+    - "Collections and connection settings live locally, exportable and versionable."
+    - "No pricing by seat, collection count or request volume."
+    - "Request contents and database credentials are not uploaded to a vendor."
+tools: [bruno, hoppscotch, mitmproxy, dbeaver-community, beekeeper-studio, db-browser-for-sqlite]
+skills: []
+featured: false
+added: '2026-09-18'
+faq:
+  zh:
+    - q: "Postman 想换掉，用什么？"
+      a: "Bruno。它把接口集合存成本地的纯文本文件，直接进 Git 仓库和代码一起做版本控制，改了什么在 diff 里看得见，合并冲突也能正常解决。不需要登录账号，没有云端同步这一层。想要网页版即开即用的话用 Hoppscotch，它也有自建版本。"
+    - q: "怎么看清 App 到底发了什么请求？"
+      a: "mitmproxy。它是个中间人代理，把设备流量指过来之后，每一个 HTTPS 请求的完整内容都能看到、能改、能重放。调试自己的移动端应用、排查第三方 SDK 到底上报了什么，靠它。需要在设备上装一张信任证书，这一步在新版安卓上对普通应用有额外限制，要留意。"
+    - q: "数据库客户端选 DBeaver 还是 Beekeeper？"
+      a: "DBeaver 功能最全，几乎所有数据库都连得上，ER 图、数据迁移、存储过程调试这些重活它能干，代价是 Java 起步慢、界面密、第一次连库要下驱动。Beekeeper Studio 社区版打开快、界面干净，日常查数据改几行导个 CSV 更顺手。只动 SQLite 文件的话，DB Browser for SQLite 最直接——像表格一样改数据。"
+    - q: "Beekeeper Studio 的免费版有什么限制？"
+      a: "社区版是 GPL-3.0 开源的，覆盖日常查询和编辑。商业版多的是更多数据库类型、团队共享查询和加密的连接管理。官网下载页默认给的是商业版试用，要开源版得在页面上选 Community Edition，这一点容易走错。"
+  en:
+    - q: "What replaces Postman?"
+      a: "Bruno. It stores collections as plain text files that go straight into the Git repository beside the code, so changes show up in a diff and merge conflicts resolve normally. No sign-in and no cloud sync layer. If you want something instantly usable in a browser, Hoppscotch does that and can also be self-hosted."
+    - q: "How do I see what an app is actually sending?"
+      a: "mitmproxy. It is a man-in-the-middle proxy — point a device's traffic at it and every HTTPS request is visible, editable and replayable. It is how you debug your own mobile app or find out what a third-party SDK reports. It requires installing a trusted certificate on the device, and recent Android versions add restrictions there for ordinary apps, which is worth knowing in advance."
+    - q: "DBeaver or Beekeeper for databases?"
+      a: "DBeaver is the most complete, connecting to nearly everything and handling ER diagrams, data migration and stored procedure debugging, at the cost of a slow Java start, a dense interface and a driver download on first connection. Beekeeper Studio's community edition opens fast and stays clean, which suits everyday lookups, small edits and CSV exports. For SQLite files alone, DB Browser for SQLite is the most direct — edit data like a spreadsheet."
+    - q: "What is limited in the free Beekeeper Studio?"
+      a: "The community edition is GPL-3.0 and covers everyday querying and editing. The commercial edition adds more database types, shared team queries and encrypted connection management. The download page offers the commercial trial by default, and the open-source build is under Community Edition — easy to miss."
