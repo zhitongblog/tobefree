@@ -1,0 +1,24 @@
+kind: skill
+name: Doc Co-authoring
+accent: '#64748B'
+initials: DC
+license: Apache-2.0
+website: https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [写作, 文档, 协作, prd, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 和 Claude 一起写方案、PRD、技术文档的结构化流程
+  en: A structured workflow for co-writing specs and docs with Claude
+description:
+  zh: Anthropic 官方开源（Apache-2.0）技能，把写文档拆成收集背景、逐节打磨、读者视角检验三个阶段，适合写技术方案、PRD、决策文档，避免 AI 一口气吐出一篇空洞长文。
+  en: >-
+    An official open-source (Apache-2.0) skill that splits writing into context gathering,
+    section-by-section refinement and a reader-perspective check — good for tech specs, PRDs and
+    decision docs instead of one hollow wall of text.

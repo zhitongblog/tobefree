@@ -1,0 +1,24 @@
+kind: skill
+name: Awesome Claude Skills
+accent: '#8B5CF6'
+initials: AC
+license: ''
+website: https://github.com/ComposioHQ/awesome-claude-skills
+repo: https://github.com/ComposioHQ/awesome-claude-skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [合集, 导航, 技能, 社区]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [no-ads, no-tracking, no-signup]
+tagline:
+  zh: 最热门的 Claude 技能精选清单
+  en: The most popular curated list of Claude skills
+description:
+  zh: Composio 维护的 Claude 技能精选清单，按文档处理、开发、数据分析、写作、创意等分类收录社区和官方技能，仓库里还直接带了几十个可用的技能。想找现成技能时先来这里翻。
+  en: >-
+    A curated list of Claude skills maintained by Composio, grouped into documents, development,
+    data, writing, creative and more, with dozens of ready-to-use skills in the repo itself. A good
+    first stop when hunting for an existing skill.

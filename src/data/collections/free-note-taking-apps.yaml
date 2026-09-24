@@ -17,7 +17,7 @@ criteria:
     - Markdown, local files, export options or flexible sync are preferred.
     - Tools should support long-term knowledge bases, not just temporary notes.
 tools: [obsidian, joplin, logseq, zettlr, zim, marktext, trilium-notes, appflowy, standard-notes, solomd]
-skills: [obsidian-mcp, apple-notes-mcp, filesystem-mcp]
+skills: [obsidian-mcp, apple-notes-mcp, filesystem-mcp, basic-memory]
 faq:
   zh:
     - q: Notion、Obsidian、Logseq 怎么选？

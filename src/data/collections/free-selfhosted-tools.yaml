@@ -19,7 +19,7 @@ criteria:
     - "Data sits on disks you control, and export is unrestricted."
     - "An official Docker image or clear self-hosting documentation exists."
 tools: [portainer, caddy, nginx-proxy-manager, tailscale, podman-desktop, apple-container, gitea, nextcloud, immich, vaultwarden, paperless-ngx, jellyfin, navidrome, audiobookshelf, karakeep, freshrss, home-assistant, uptime-kuma]
-skills: []
+skills: [n8n-mcp, searxng-mcp, basic-memory, mcpo]
 featured: true
 added: '2026-09-18'
 faq:

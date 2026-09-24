@@ -1,0 +1,24 @@
+kind: skill
+name: Agent Skills for Context Engineering
+accent: '#7C3AED'
+initials: CE
+license: MIT
+website: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
+repo: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
+install: /plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [上下文工程, agent, 多智能体, 记忆, 社区]
+clients: [Claude Code, Cursor, Codex]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 教 Agent 做上下文工程与多智能体架构
+  en: Skills for context engineering and multi-agent design
+description:
+  zh: 开源（MIT）的技能集，专讲上下文工程：上下文压缩与降级、记忆系统、多智能体架构、工具设计和评估方法。适合正在搭建或调优 AI Agent 系统的开发者。
+  en: >-
+    An open-source (MIT) skill collection on context engineering — context compression and
+    degradation, memory systems, multi-agent architectures, tool design and evaluation. For
+    developers building or tuning agent systems.

@@ -1,0 +1,26 @@
+kind: skill
+name: OpenAI Codex Skills
+accent: '#10A37F'
+initials: OA
+license: Apache-2.0
+website: https://github.com/openai/skills
+repo: https://github.com/openai/skills
+install: $skill-installer <skill-name>
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [codex, 官方, 技能目录, 编程]
+clients: [Codex, Claude Code]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: OpenAI 官方的 Codex 技能目录
+  en: OpenAI's official skills catalog for Codex
+description:
+  zh: >-
+    OpenAI 官方的技能目录，分为系统内置、精选和实验三类，涵盖处理 PR 评论、写计划、部署 Cloudflare、做 CLI 工具等。每个技能单独附 Apache-2.0 协议，遵循开放的
+    Agent Skills 格式，Claude Code 也能直接读取。
+  en: >-
+    OpenAI's official skills catalog in system, curated and experimental tiers — addressing PR
+    comments, writing plans, Cloudflare deploys, building CLIs and more. Each skill ships its own
+    Apache-2.0 license and follows the open Agent Skills format, so Claude Code can use them too.

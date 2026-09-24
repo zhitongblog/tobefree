@@ -1,0 +1,24 @@
+kind: skill
+name: Algorithmic Art
+accent: '#14B8A6'
+initials: AA
+license: Apache-2.0
+website: https://github.com/anthropics/skills/tree/main/skills/algorithmic-art
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [生成艺术, p5.js, 创意编程, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 用 p5.js 做可调参数的生成艺术
+  en: Generative art with p5.js and tweakable parameters
+description:
+  zh: Anthropic 官方开源（Apache-2.0）技能，让 Claude 用 p5.js 创作带随机种子和可调参数的生成艺术，流场、粒子系统之类都能做，输出可交互的 HTML 页面。
+  en: >-
+    An official open-source (Apache-2.0) skill for generative art in p5.js with seeded randomness
+    and tweakable parameters — flow fields, particle systems and more — delivered as an interactive
+    HTML page.

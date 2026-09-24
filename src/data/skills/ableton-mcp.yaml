@@ -1,0 +1,26 @@
+kind: mcp
+name: Ableton MCP
+accent: '#111827'
+initials: AB
+license: MIT
+website: https://github.com/ahujasid/ableton-mcp
+repo: https://github.com/ahujasid/ableton-mcp
+install: uvx ableton-mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [ableton, 音乐, 编曲, midi, 创作]
+clients: [Claude Desktop, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline]
+tagline:
+  zh: 一句话让 AI 在 Ableton Live 里建轨、编曲
+  en: Create tracks and compose in Ableton Live by prompt
+description:
+  zh: >-
+    开源（MIT）的 Ableton Live MCP 服务器，和 Blender MCP 是同一位作者。AI 可以新建音轨、写 MIDI 片段、加载乐器和效果器、控制速度与播放。需要本机装有
+    Ableton Live（付费软件），MCP 本身免费。
+  en: >-
+    An open-source (MIT) Ableton Live MCP server from the author of Blender MCP. AI can create
+    tracks, write MIDI clips, load instruments and effects, and control tempo and playback. Requires
+    Ableton Live (paid) on your machine; the MCP itself is free.

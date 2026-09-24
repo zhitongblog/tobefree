@@ -1,0 +1,26 @@
+kind: mcp
+name: Zotero MCP
+accent: '#CC2936'
+initials: ZT
+license: MIT
+website: https://github.com/54yyyu/zotero-mcp
+repo: https://github.com/54yyyu/zotero-mcp
+install: uv tool install zotero-mcp-server
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [zotero, 论文, 科研, 文献, 学术]
+clients: [Claude Desktop, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline]
+tagline:
+  zh: 让 AI 读你的 Zotero 文献库：检索、摘要、看批注
+  en: Let AI search, summarize and annotate your Zotero library
+description:
+  zh: >-
+    开源（MIT）的 Zotero MCP 服务器，让 Claude 直接检索本地 Zotero 文献库、读取全文和 PDF
+    批注、整理引用，可选开启语义搜索。写论文、做文献综述时很顺手；默认连本地 Zotero，文献不用上传。
+  en: >-
+    An open-source (MIT) Zotero MCP server that lets Claude search your local Zotero library, read
+    full text and PDF annotations and organize citations, with optional semantic search. Great for
+    papers and literature reviews — it talks to local Zotero by default.

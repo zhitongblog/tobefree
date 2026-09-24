@@ -1,0 +1,26 @@
+kind: mcp
+name: Desktop Commander
+accent: '#0EA5E9'
+initials: DC
+license: MIT
+website: https://github.com/wonderwhy-er/DesktopCommanderMCP
+repo: https://github.com/wonderwhy-er/DesktopCommanderMCP
+install: npx @wonderwhy-er/desktop-commander@latest setup
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [终端, 文件, 编辑, shell, 本地]
+clients: [Claude Desktop, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-signup, offline, cross-platform]
+tagline:
+  zh: 让 Claude Desktop 直接跑终端命令、搜文件、改代码
+  en: Terminal control, file search and diff edits for Claude Desktop
+description:
+  zh: >-
+    开源（MIT）的本地 MCP 服务器，给 AI 提供终端命令执行、长进程管理、文件系统搜索和按 diff 精准改文件的能力，让 Claude Desktop 这类聊天客户端也能像编码
+    Agent 一样干活。一条 npx 命令完成配置。
+  en: >-
+    An open-source (MIT) local MCP server that gives the model terminal command execution,
+    long-running process management, filesystem search and diff-based file edits — turning chat
+    clients like Claude Desktop into a capable coding agent. One npx command sets it up.

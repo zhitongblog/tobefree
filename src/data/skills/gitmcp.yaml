@@ -1,0 +1,26 @@
+kind: mcp
+name: GitMCP
+accent: '#0F172A'
+initials: GM
+license: Apache-2.0
+website: https://gitmcp.io
+repo: https://github.com/idosal/git-mcp
+install: https://gitmcp.io/{owner}/{repo}
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [文档, github, 远程, 防幻觉]
+clients: [Claude, Claude Code, Cursor, Windsurf, VS Code, Any MCP client]
+badges: [open-source, no-ads, no-signup, self-hostable]
+tagline:
+  zh: 把任意 GitHub 仓库变成 AI 能查的文档服务
+  en: Turn any GitHub repo into docs your AI can query
+description:
+  zh: >-
+    免费开源（Apache-2.0）的远程 MCP 服务器。把 github.com 换成 gitmcp.io 就得到一个 MCP 地址，AI 能读取该项目最新的
+    README、文档和代码，减少对新库、冷门库的 API 幻觉。不用安装、不用注册，也可以自建。
+  en: >-
+    A free, open-source (Apache-2.0) remote MCP server. Swap github.com for gitmcp.io and you get an
+    MCP endpoint serving the project's latest README, docs and code, cutting hallucinations on new
+    or niche libraries. No install, no sign-up, and self-hostable.

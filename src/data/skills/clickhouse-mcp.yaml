@@ -1,0 +1,26 @@
+kind: mcp
+name: ClickHouse MCP
+accent: '#FFCC01'
+initials: CH
+license: Apache-2.0
+website: https://github.com/ClickHouse/mcp-clickhouse
+repo: https://github.com/ClickHouse/mcp-clickhouse
+install: uv run --with mcp-clickhouse mcp-clickhouse
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [clickhouse, 数据分析, sql, olap, 官方]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: ClickHouse 官方 MCP，让 AI 直接做数据分析
+  en: ClickHouse's official MCP for AI-driven analytics
+description:
+  zh: >-
+    ClickHouse 官方开源（Apache-2.0）的 MCP 服务器，让 Agent 列出数据库、查看表结构并执行只读 SQL 查询，还支持用内嵌的 chDB 直接查本地文件。适合让 AI
+    在大表上跑分析。
+  en: >-
+    ClickHouse's official open-source (Apache-2.0) MCP server. Agents can list databases, inspect
+    schemas and run read-only SQL; embedded chDB can query local files directly. Handy for letting
+    AI run analytics over big tables.

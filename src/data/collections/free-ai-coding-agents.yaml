@@ -21,7 +21,7 @@ criteria:
     - "Licences recorded from the actual LICENSE file."
     - "Model-side costs are stated separately — free software does not mean a free arrangement."
 tools: [opencode, deepseek-harness, cline, aider, continue, openclaw, unterm, ollama, lm-studio]
-skills: [serena, context7, git-mcp, chrome-devtools-mcp]
+skills: [serena, context7, git-mcp, chrome-devtools-mcp, gitmcp, spec-workflow-mcp, desktop-commander-mcp]
 featured: true
 added: '2026-09-08'
 faq:

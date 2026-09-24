@@ -1,0 +1,26 @@
+kind: mcp
+name: Qdrant MCP
+accent: '#DC244C'
+initials: QD
+license: Apache-2.0
+website: https://github.com/qdrant/mcp-server-qdrant
+repo: https://github.com/qdrant/mcp-server-qdrant
+install: uvx mcp-server-qdrant
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [向量数据库, 语义搜索, 记忆, rag, 官方]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, self-hostable]
+tagline:
+  zh: Qdrant 官方 MCP，给 AI 一个语义记忆库
+  en: Qdrant's official MCP — a semantic memory for AI
+description:
+  zh: >-
+    Qdrant 官方开源（Apache-2.0）的 MCP 服务器，把 Qdrant 向量数据库当作 AI 的语义记忆层：存下代码片段、笔记、文档，再按语义检索回来。接本地 Qdrant
+    使用，数据不出本机。
+  en: >-
+    Qdrant's official open-source (Apache-2.0) MCP server that uses the Qdrant vector database as a
+    semantic memory layer — store snippets, notes and docs, then retrieve them by meaning. Works
+    with a local Qdrant so data stays on your machine.

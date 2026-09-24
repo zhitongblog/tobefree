@@ -19,7 +19,7 @@ criteria:
     - "No pricing by seat, collection count or request volume."
     - "Request contents and database credentials are not uploaded to a vendor."
 tools: [bruno, hoppscotch, mitmproxy, dbeaver-community, beekeeper-studio, db-browser-for-sqlite]
-skills: []
+skills: [mcp-toolbox-databases, duckdb-mcp, clickhouse-mcp, qdrant-mcp, neo4j-mcp, mcp-inspector]
 featured: false
 added: '2026-09-18'
 faq:

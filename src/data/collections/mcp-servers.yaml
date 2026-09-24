@@ -17,7 +17,7 @@ criteria:
     - Useful in real workflows, not just demos.
     - Common client compatibility, active maintenance and clear risk boundaries are preferred.
 tools: [unterm]
-skills: [filesystem-mcp, git-mcp, sqlite-mcp, postgres-mcp-pro, fetch-mcp, brave-search-mcp, context7, github-mcp, docker-mcp, cloudflare-mcp, obsidian-mcp, playwright-mcp, chrome-devtools-mcp, youtube-transcript-mcp, unterm-mcp]
+skills: [filesystem-mcp, git-mcp, sqlite-mcp, postgres-mcp-pro, fetch-mcp, brave-search-mcp, context7, github-mcp, docker-mcp, cloudflare-mcp, obsidian-mcp, playwright-mcp, chrome-devtools-mcp, youtube-transcript-mcp, unterm-mcp, desktop-commander-mcp, basic-memory, mcp-toolbox-databases, duckdb-mcp, searxng-mcp, fetcher-mcp, gitmcp, excel-mcp, mcp-inspector, mcpo]
 faq:
   zh:
     - q: MCP Server 适合谁？

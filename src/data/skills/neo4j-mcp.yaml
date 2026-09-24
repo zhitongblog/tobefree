@@ -1,0 +1,26 @@
+kind: mcp
+name: Neo4j MCP
+accent: '#018BFF'
+initials: N4
+license: MIT
+website: https://github.com/neo4j-contrib/mcp-neo4j
+repo: https://github.com/neo4j-contrib/mcp-neo4j
+install: uvx mcp-neo4j-cypher
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [neo4j, 图数据库, cypher, 知识图谱]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 用自然语言查 Neo4j 图数据库，或当知识图谱记忆
+  en: Query Neo4j in plain language or use it as graph memory
+description:
+  zh: >-
+    Neo4j Labs 开源（MIT）的一组 MCP 服务器：mcp-neo4j-cypher 把自然语言转成 Cypher 查询，mcp-neo4j-memory
+    把对话知识存成图谱，另有数据建模工具。接本地 Neo4j 即可使用。
+  en: >-
+    A set of open-source (MIT) MCP servers from Neo4j Labs — mcp-neo4j-cypher turns natural language
+    into Cypher, mcp-neo4j-memory stores knowledge as a graph, plus a data-modeling tool. Works with
+    a local Neo4j.

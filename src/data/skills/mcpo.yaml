@@ -1,0 +1,26 @@
+kind: mcp
+name: mcpo
+accent: '#000000'
+initials: MO
+license: MIT
+website: https://github.com/open-webui/mcpo
+repo: https://github.com/open-webui/mcpo
+install: uvx mcpo --port 8000 -- your_mcp_server_command
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [代理, openapi, open-webui, 集成]
+clients: [Open WebUI, Any OpenAPI client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, self-hostable]
+tagline:
+  zh: 把任意 MCP 服务器包装成标准 OpenAPI 接口
+  en: Expose any MCP server as a standard OpenAPI service
+description:
+  zh: >-
+    Open WebUI 团队开源（MIT）的 MCP 转 OpenAPI 代理。一条命令就能把本地 MCP 服务器变成带文档的 HTTP 接口，让 Open WebUI 和各种只认
+    OpenAPI 的工具、脚本也能用上 MCP 生态。
+  en: >-
+    An open-source (MIT) MCP-to-OpenAPI proxy from the Open WebUI team. One command turns a local
+    MCP server into a documented HTTP API, so Open WebUI and any OpenAPI-only tool or script can tap
+    the MCP ecosystem.

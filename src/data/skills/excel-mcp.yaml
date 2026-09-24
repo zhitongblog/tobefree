@@ -1,0 +1,26 @@
+kind: mcp
+name: Excel MCP Server
+accent: '#217346'
+initials: XL
+license: MIT
+website: https://github.com/haris-musa/excel-mcp-server
+repo: https://github.com/haris-musa/excel-mcp-server
+install: uvx excel-mcp-server stdio
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [excel, 表格, xlsx, 办公]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, cross-platform]
+tagline:
+  zh: 不装 Office 也能让 AI 读写 Excel
+  en: Let AI read and write Excel files — no Office needed
+description:
+  zh: >-
+    开源（MIT）的 Excel MCP 服务器，让 AI 创建和修改 .xlsx 文件：读写单元格、写公式、改格式、建图表和数据透视表。电脑上不需要安装 Microsoft
+    Excel，纯本地运行。
+  en: >-
+    An open-source (MIT) Excel MCP server that lets AI create and edit .xlsx files — cells,
+    formulas, formatting, charts and pivot tables. No Microsoft Excel install required; runs fully
+    locally.

@@ -1,0 +1,26 @@
+kind: mcp
+name: Fetcher MCP
+accent: '#10B981'
+initials: FT
+license: MIT
+website: https://github.com/jae-jae/fetcher-mcp
+repo: https://github.com/jae-jae/fetcher-mcp
+install: npx -y fetcher-mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [抓取, 网页, playwright, markdown]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 用无头浏览器抓动态网页，正文转 Markdown 给 AI
+  en: Fetch JS-heavy pages with a headless browser, as Markdown
+description:
+  zh: >-
+    开源（MIT）的网页抓取 MCP 服务器，用无头 Chromium 渲染页面，能拿到普通 fetch 抓不到的 JS 动态内容，自动提取正文转成 Markdown，支持批量并行抓取。不需要任何
+    API Key。
+  en: >-
+    An open-source (MIT) fetch MCP server that renders pages in headless Chromium, capturing
+    JS-rendered content a plain fetch misses, extracting the main content as Markdown, with parallel
+    batch fetching. No API key needed.

@@ -1,0 +1,24 @@
+kind: skill
+name: Canvas Design
+accent: '#F59E0B'
+initials: CD
+license: Apache-2.0
+website: https://github.com/anthropics/skills/tree/main/skills/canvas-design
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [设计, 海报, 视觉, png, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 让 Claude 画海报和视觉作品，输出 PNG / PDF
+  en: Have Claude create posters and visual art as PNG or PDF
+description:
+  zh: Anthropic 官方开源（Apache-2.0）技能，先让 Claude 写出一份设计理念，再据此用代码绘制海报、封面等静态视觉作品，输出 PNG 或 PDF，附带一批可商用字体。
+  en: >-
+    An official open-source (Apache-2.0) skill: Claude first writes a design philosophy, then
+    renders posters, covers and other static visuals in code as PNG or PDF, with a bundled set of
+    fonts.

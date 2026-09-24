@@ -1,0 +1,26 @@
+kind: mcp
+name: Spec Workflow MCP
+accent: '#8B5CF6'
+initials: SW
+license: GPL-3.0
+website: https://github.com/Pimzino/spec-workflow-mcp
+repo: https://github.com/Pimzino/spec-workflow-mcp
+install: npx -y @pimzino/spec-workflow-mcp@latest /path/to/your/project
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [规格驱动, 需求, 工作流, 看板, 编程]
+clients: [Claude Code, Cursor, Cline, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline]
+tagline:
+  zh: 需求 → 设计 → 任务，规格驱动的 AI 开发流程
+  en: Spec-driven AI development — requirements, design, tasks
+description:
+  zh: >-
+    开源（GPL-3.0）的规格驱动开发 MCP 服务器，引导 AI 先写需求、再出设计、再拆任务，每一步都等你审批，附带实时网页看板和 VS Code 插件查看进度。适合不想让 AI
+    一上来就闷头写代码的人。
+  en: >-
+    An open-source (GPL-3.0) spec-driven development MCP server that walks the AI through
+    requirements, then design, then tasks, pausing for your approval at each step — with a live web
+    dashboard and a VS Code extension to track progress.

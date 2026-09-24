@@ -1,0 +1,26 @@
+kind: mcp
+name: MCP Toolbox for Databases
+accent: '#4285F4'
+initials: TB
+license: Apache-2.0
+website: https://github.com/googleapis/mcp-toolbox
+repo: https://github.com/googleapis/mcp-toolbox
+install: npx @toolbox-sdk/server --config tools.yaml
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [数据库, postgres, mysql, sql, google]
+clients: [Claude Code, Cursor, Gemini CLI, Any MCP client]
+badges: [open-source, no-ads, no-signup, self-hostable, cross-platform]
+tagline:
+  zh: Google 开源的通用数据库 MCP 服务器
+  en: Google's open-source MCP server for many databases
+description:
+  zh: >-
+    Google 开源（Apache-2.0）的数据库 MCP 服务器，一份 tools.yaml 就能把 PostgreSQL、MySQL、SQL
+    Server、SQLite、BigQuery、Spanner 等几十种数据源交给 Agent，内置连接池和鉴权，适合把"查库"安全地交给 AI。
+  en: >-
+    Google's open-source (Apache-2.0) database MCP server. A single tools.yaml exposes PostgreSQL,
+    MySQL, SQL Server, SQLite, BigQuery, Spanner and dozens more to your agent, with connection
+    pooling and auth built in.

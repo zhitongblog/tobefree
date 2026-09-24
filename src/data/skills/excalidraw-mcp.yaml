@@ -1,0 +1,26 @@
+kind: mcp
+name: Excalidraw MCP
+accent: '#6965DB'
+initials: EX
+license: MIT
+website: https://github.com/yctimlin/mcp_excalidraw
+repo: https://github.com/yctimlin/mcp_excalidraw
+install: npx -y mcp-excalidraw-server start
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [excalidraw, 画图, 流程图, 白板, 架构图]
+clients: [Claude Code, Codex, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline]
+tagline:
+  zh: 让 AI 在 Excalidraw 画布上画架构图、流程图
+  en: Let AI draw diagrams on a live Excalidraw canvas
+description:
+  zh: >-
+    开源（MIT）的 Excalidraw MCP 服务器，同时附带 Agent 技能和命令行。AI 可以在本地实时画布上添加、排列、修改图形，支持从 Mermaid 转换，导出 PNG /
+    SVG / .excalidraw 文件，画架构图和流程图时省掉大量拖拽。
+  en: >-
+    An open-source (MIT) Excalidraw MCP server that also ships an agent skill and CLI. AI adds,
+    arranges and edits shapes on a live local canvas, converts from Mermaid and exports PNG, SVG or
+    .excalidraw files — no more manual dragging for architecture and flow diagrams.

@@ -1,0 +1,26 @@
+kind: skill
+name: Web Artifacts Builder
+accent: '#06B6D4'
+initials: WA
+license: Apache-2.0
+website: https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [react, tailwind, shadcn, 前端, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 用 React + Tailwind + shadcn/ui 做复杂网页小应用
+  en: Build rich web artifacts with React, Tailwind and shadcn/ui
+description:
+  zh: >-
+    Anthropic 官方开源（Apache-2.0）技能，给 Claude 一套 React、Tailwind CSS、shadcn/ui
+    的脚手架和打包脚本，用来做带状态管理、多组件的复杂网页小应用，最后打包成单个 HTML 文件。
+  en: >-
+    An official open-source (Apache-2.0) skill giving Claude a React + Tailwind CSS + shadcn/ui
+    scaffold and bundling scripts for multi-component, stateful web artifacts, shipped as a single
+    HTML file.

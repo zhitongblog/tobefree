@@ -1,0 +1,26 @@
+kind: skill
+name: Awesome Claude Code
+accent: '#F97316'
+initials: CC
+license: ''
+website: https://github.com/hesreallyhim/awesome-claude-code
+repo: https://github.com/hesreallyhim/awesome-claude-code
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [合集, 导航, claude code, 插件, 社区]
+clients: [Claude Code]
+badges: [no-ads, no-tracking, no-signup]
+tagline:
+  zh: Claude Code 生态资源大全：技能、Agent、钩子、状态栏
+  en: The big list of Claude Code skills, agents, hooks and more
+description:
+  zh: >-
+    社区维护的 Claude Code 资源大全，收录技能、子 Agent、斜杠命令、钩子、状态栏、CLAUDE.md 范例和周边工具，每一项都经过人工挑选。想系统了解 Claude Code
+    生态从这里开始。
+  en: >-
+    A community-maintained, hand-picked list of Claude Code resources — skills, subagents, slash
+    commands, hooks, status lines, CLAUDE.md examples and tooling. The place to start exploring the
+    Claude Code ecosystem.

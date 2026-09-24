@@ -1,0 +1,26 @@
+kind: mcp
+name: Markdownify MCP
+accent: '#475569'
+initials: MD
+license: MIT
+website: https://github.com/zcaceres/markdownify-mcp
+repo: https://github.com/zcaceres/markdownify-mcp
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [markdown, 转换, pdf, docx, 文档]
+clients: [Claude Desktop, Claude Code, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline]
+tagline:
+  zh: 把 PDF、Office 文档、网页、音频统统转成 Markdown
+  en: Convert PDFs, Office files, web pages and audio to Markdown
+description:
+  zh: >-
+    开源（MIT）的格式转换 MCP 服务器，能把 PDF、DOCX、XLSX、PPTX、图片、网页、YouTube 字幕等转成 Markdown，方便 AI
+    读取和引用。需要克隆仓库本地构建，也可以用 Docker 运行。
+  en: >-
+    An open-source (MIT) conversion MCP server that turns PDF, DOCX, XLSX, PPTX, images, web pages
+    and YouTube transcripts into Markdown the model can read. Build it locally from the repo or run
+    it with Docker.

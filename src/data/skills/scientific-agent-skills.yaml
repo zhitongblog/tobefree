@@ -1,0 +1,26 @@
+kind: skill
+name: Scientific Agent Skills
+accent: '#0D9488'
+initials: SC
+license: MIT
+website: https://github.com/K-Dense-AI/scientific-agent-skills
+repo: https://github.com/K-Dense-AI/scientific-agent-skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [科研, 生物, 化学, 医学, 数据库, 社区]
+clients: [Claude Code, Codex, Cursor, Antigravity]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 160 多个科研技能，覆盖生物、化学、医学与数据库
+  en: 160+ research skills across biology, chemistry and medicine
+description:
+  zh: >-
+    K-Dense 开源（MIT）的科研技能库，包含 160 多个经过验证的技能，接入 PubMed、UniProt、ChEMBL
+    等上百个科学数据库，覆盖基因组学、药物发现、分子动力学、文献检索等流程，让 Agent 当科研助理。
+  en: >-
+    An open-source (MIT) research skills library from K-Dense with 160+ validated skills and hooks
+    into 100+ scientific databases like PubMed, UniProt and ChEMBL — genomics, drug discovery,
+    molecular dynamics, literature search and more.

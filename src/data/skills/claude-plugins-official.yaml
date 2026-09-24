@@ -1,0 +1,25 @@
+kind: skill
+name: Claude Plugins Official
+accent: '#D97757'
+initials: CP
+license: Apache-2.0
+website: https://github.com/anthropics/claude-plugins-official
+repo: https://github.com/anthropics/claude-plugins-official
+install: /plugin
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [插件市场, claude code, 官方, 技能目录]
+clients: [Claude Code]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Anthropic 官方维护的 Claude Code 插件市场
+  en: The Anthropic-managed Claude Code plugin marketplace
+description:
+  zh: >-
+    Anthropic 官方维护的 Claude Code 插件目录，收录经过审核的插件，里面打包了技能、子 Agent、斜杠命令和 MCP 服务器。Claude Code 自带这个市场，输入
+    /plugin 就能浏览安装。
+  en: >-
+    Anthropic's official directory of vetted Claude Code plugins bundling skills, subagents, slash
+    commands and MCP servers. It ships with Claude Code — type /plugin to browse and install.

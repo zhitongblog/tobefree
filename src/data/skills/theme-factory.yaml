@@ -1,0 +1,24 @@
+kind: skill
+name: Theme Factory
+accent: '#A855F7'
+initials: TH
+license: Apache-2.0
+website: https://github.com/anthropics/skills/tree/main/skills/theme-factory
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [主题, 配色, 字体, 幻灯片, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 给幻灯片、文档、网页一键套上统一主题
+  en: Apply a consistent theme to slides, docs and pages
+description:
+  zh: Anthropic 官方开源（Apache-2.0）技能，内置十套配色加字体的主题，也能现场生成新主题，让 Claude 做出的幻灯片、文档、HTML 页面风格统一，不再每次都长得不一样。
+  en: >-
+    An official open-source (Apache-2.0) skill with ten ready-made color-and-font themes (and
+    on-the-fly new ones), so the slides, docs and HTML pages Claude produces share a consistent
+    look.

@@ -1,0 +1,26 @@
+kind: mcp
+name: Terraform MCP
+accent: '#7B42BC'
+initials: TF
+license: MPL-2.0
+website: https://github.com/hashicorp/terraform-mcp-server
+repo: https://github.com/hashicorp/terraform-mcp-server
+install: docker run -i --rm hashicorp/terraform-mcp-server
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [terraform, iac, 运维, 云, 官方]
+clients: [Claude, Claude Code, Cursor, VS Code, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: HashiCorp 官方 MCP，写 Terraform 时查最新 Provider 文档
+  en: HashiCorp's official MCP with live Terraform Registry docs
+description:
+  zh: >-
+    HashiCorp 官方开源（MPL-2.0）的 MCP 服务器，让 AI 实时查询 Terraform Registry 里的 Provider、模块和资源文档，写 IaC
+    时不再凭记忆瞎编参数。查公共 Registry 无需注册，接 HCP Terraform 时才需要令牌。
+  en: >-
+    HashiCorp's official open-source (MPL-2.0) MCP server that lets AI query providers, modules and
+    resource docs in the Terraform Registry in real time, so it stops inventing arguments. Public
+    Registry lookups need no account; HCP Terraform features need a token.

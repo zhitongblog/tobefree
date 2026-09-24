@@ -17,7 +17,7 @@ criteria:
     - Local or self-hostable processing is preferred for sensitive documents.
     - Strong watermarking or aggressive pop-ups are avoided.
 tools: [sumatra-pdf, stirling-pdf, solopdf, okular, pdfsam-basic, xournalpp, ocrmypdf, libreoffice, onlyoffice-desktop-editors]
-skills: []
+skills: [markdownify-mcp, anthropic-document-skills]
 faq:
   zh:
     - q: 敏感 PDF 可以用在线工具吗？

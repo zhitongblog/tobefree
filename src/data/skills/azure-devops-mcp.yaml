@@ -1,0 +1,26 @@
+kind: mcp
+name: Azure DevOps MCP
+accent: '#0078D4'
+initials: AZ
+license: MIT
+website: https://github.com/microsoft/azure-devops-mcp
+repo: https://github.com/microsoft/azure-devops-mcp
+install: npx -y @azure-devops/mcp <your-org>
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [azure, devops, 工作项, 流水线, 官方]
+clients: [Claude Code, Cursor, VS Code, Any MCP client]
+badges: [open-source, no-ads, no-tracking]
+tagline:
+  zh: 微软官方 MCP，让 AI 管工作项、PR 和流水线
+  en: Microsoft's official MCP for work items, PRs and pipelines
+description:
+  zh: >-
+    微软官方开源（MIT）的 Azure DevOps MCP 服务器，让 Agent 查询和更新工作项、审阅 PR、查看构建与发布流水线、检索 Wiki。需要已有的 Azure DevOps
+    组织（小团队可免费使用）。
+  en: >-
+    Microsoft's official open-source (MIT) Azure DevOps MCP server. Agents can query and update work
+    items, review PRs, inspect build and release pipelines and search wikis. Requires an existing
+    Azure DevOps organization (free for small teams).

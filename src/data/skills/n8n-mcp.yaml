@@ -1,0 +1,26 @@
+kind: mcp
+name: n8n MCP
+accent: '#EA4B71'
+initials: N8
+license: MIT
+website: https://github.com/czlonkowski/n8n-mcp
+repo: https://github.com/czlonkowski/n8n-mcp
+install: npx n8n-mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [n8n, 自动化, 工作流, 低代码]
+clients: [Claude Desktop, Claude Code, Cursor, Windsurf, Any MCP client]
+badges: [open-source, no-ads, no-signup, self-hostable]
+tagline:
+  zh: 让 AI 帮你搭 n8n 自动化工作流
+  en: Let AI build your n8n automation workflows
+description:
+  zh: >-
+    开源（MIT）的 MCP 服务器，内置 n8n 上千个节点的文档、属性和示例，让 Claude 知道每个节点怎么配，直接生成、校验并部署到你自建的 n8n。描述一下想要的自动化，AI
+    就能拼出能跑的工作流。
+  en: >-
+    An open-source (MIT) MCP server bundling docs, properties and examples for n8n's 1,000+ nodes,
+    so Claude knows how each one is configured and can generate, validate and deploy workflows to
+    your self-hosted n8n. Describe the automation, get a working workflow.

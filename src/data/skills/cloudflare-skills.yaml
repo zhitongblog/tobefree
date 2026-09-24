@@ -1,0 +1,26 @@
+kind: skill
+name: Cloudflare Skills
+accent: '#F38020'
+initials: CF
+license: Apache-2.0
+website: https://github.com/cloudflare/skills
+repo: https://github.com/cloudflare/skills
+install: /plugin marketplace add cloudflare/skills
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [cloudflare, workers, 部署, 边缘计算, 官方]
+clients: [Claude Code, Codex, Cursor, OpenCode]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Cloudflare 官方技能：教 Agent 在 Workers 上开发
+  en: Cloudflare's official skills for building on Workers
+description:
+  zh: >-
+    Cloudflare 官方开源（Apache-2.0）的技能集，教 Agent 正确使用 Workers、Pages、D1、R2、Durable Objects 等产品，插件版会顺带装好
+    Cloudflare MCP 服务器。部署到 Cloudflare 需要免费账号。
+  en: >-
+    Cloudflare's official open-source (Apache-2.0) skills teaching agents to use Workers, Pages, D1,
+    R2, Durable Objects and more correctly; the plugin also installs the Cloudflare MCP server.
+    Deploying needs a free Cloudflare account.

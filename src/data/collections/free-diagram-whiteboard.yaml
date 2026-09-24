@@ -19,7 +19,7 @@ criteria:
     - "Files can be stored locally, with no forced cloud save."
     - "All core features work without registering an account."
 tools: [drawio, excalidraw, freeplane, penpot]
-skills: []
+skills: [excalidraw-mcp]
 featured: false
 added: '2026-09-18'
 faq:

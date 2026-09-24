@@ -1,0 +1,24 @@
+kind: mcp
+name: SearXNG MCP
+accent: '#3050FF'
+initials: SX
+license: MIT
+website: https://github.com/ihor-sokoliuk/mcp-searxng
+repo: https://github.com/ihor-sokoliuk/mcp-searxng
+install: npx -y mcp-searxng
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [搜索, 隐私, searxng, 自建]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 接自建 SearXNG，给 AI 一个不要 API Key 的隐私搜索
+  en: Private web search for AI via your own SearXNG, no API key
+description:
+  zh: 开源（MIT）的 MCP 服务器，把 SearXNG 元搜索引擎接给 AI。配合自建实例使用，不需要任何付费搜索 API Key，查询也不会按账号被追踪，还能把网页正文抓成 Markdown。
+  en: >-
+    An open-source (MIT) MCP server that plugs the SearXNG metasearch engine into your AI. Pair it
+    with a self-hosted instance and you need no paid search API key and get no per-account tracking;
+    it can also fetch pages as Markdown.

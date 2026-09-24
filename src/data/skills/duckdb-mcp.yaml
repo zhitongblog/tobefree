@@ -1,0 +1,26 @@
+kind: mcp
+name: DuckDB MCP
+accent: '#FFF000'
+initials: DK
+license: MIT
+website: https://github.com/motherduckdb/mcp-server-motherduck
+repo: https://github.com/motherduckdb/mcp-server-motherduck
+install: 'uvx mcp-server-motherduck --db-path :memory:'
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [duckdb, sql, csv, parquet, 数据分析]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline]
+tagline:
+  zh: 让 AI 用 DuckDB 直接分析本地 CSV / Parquet
+  en: Let AI analyze local CSV and Parquet with DuckDB
+description:
+  zh: >-
+    MotherDuck 开源（MIT）的 MCP 服务器，本地模式下就是一个 DuckDB：AI 用 SQL 直接查询 CSV、Parquet、JSON 文件或本地 .duckdb
+    库，完全离线。MotherDuck 云端是可选项，不用也行。
+  en: >-
+    MotherDuck's open-source (MIT) MCP server — in local mode it's just DuckDB, letting AI query
+    CSV, Parquet, JSON or a local .duckdb file with SQL, fully offline. The MotherDuck cloud is
+    optional.

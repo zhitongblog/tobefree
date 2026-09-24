@@ -1,0 +1,23 @@
+kind: skill
+name: Slack GIF Creator
+accent: '#4A154B'
+initials: SG
+license: Apache-2.0
+website: https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator
+repo: https://github.com/anthropics/skills
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [gif, 表情, slack, 动图, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 做符合 Slack 尺寸限制的动图表情
+  en: Make animated GIFs sized for Slack
+description:
+  zh: Anthropic 官方开源（Apache-2.0）技能，让 Claude 用 Python 生成动画 GIF，并自动控制尺寸、帧数和文件大小，满足 Slack 表情与消息的限制。
+  en: >-
+    An official open-source (Apache-2.0) skill that has Claude generate animated GIFs in Python
+    while keeping dimensions, frame count and file size within Slack's emoji and message limits.

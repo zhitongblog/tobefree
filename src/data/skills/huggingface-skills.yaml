@@ -1,0 +1,26 @@
+kind: skill
+name: Hugging Face Skills
+accent: '#FFD21E'
+initials: HF
+license: Apache-2.0
+website: https://github.com/huggingface/skills
+repo: https://github.com/huggingface/skills
+install: /plugin marketplace add huggingface/skills
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [huggingface, 模型训练, 数据集, 机器学习, 官方]
+clients: [Claude Code, Codex, Cursor, Gemini CLI]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Hugging Face 官方技能：建数据集、训模型、做评估
+  en: Official Hugging Face skills for datasets, training and evals
+description:
+  zh: >-
+    Hugging Face 官方开源（Apache-2.0）的技能集，让 Agent 熟练使用 Hub：创建和处理数据集、微调与训练模型、跑评估、发布到 Hub。部分操作需要 Hugging
+    Face 免费账号。
+  en: >-
+    Official open-source (Apache-2.0) skills from Hugging Face that make agents fluent with the Hub
+    — create and process datasets, fine-tune and train models, run evaluations and publish. Some
+    actions need a free Hugging Face account.

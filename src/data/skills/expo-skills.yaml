@@ -1,0 +1,26 @@
+kind: skill
+name: Expo Skills
+accent: '#000020'
+initials: EX
+license: MIT
+website: https://github.com/expo/skills
+repo: https://github.com/expo/skills
+install: npx skills@latest add expo/skills --skill '*'
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [expo, react-native, 移动开发, 官方]
+clients: [Claude Code, Codex, Cursor, OpenCode]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Expo 官方技能：用 AI 开发 React Native 应用
+  en: Expo's official skills for React Native development
+description:
+  zh: >-
+    Expo 官方开源（MIT）的技能集，覆盖 Expo Router、原生 UI、数据请求、升级 SDK、EAS 构建与发布等，让 Agent 按 Expo 当前的最佳实践写 React
+    Native 应用。
+  en: >-
+    Expo's official open-source (MIT) skills covering Expo Router, native UI, data fetching, SDK
+    upgrades and EAS build and submit, so agents write React Native apps the way Expo recommends
+    today.

@@ -56,6 +56,7 @@ git add . && git commit -m "add: 某工具" && git push
 - [免费 PDF 工具推荐](https://tobefree.app/zh/collections/free-pdf-tools/)
 - [免费笔记软件推荐](https://tobefree.app/zh/collections/free-note-taking-apps/)
 - [MCP Server 推荐](https://tobefree.app/zh/collections/mcp-servers/)
+- [Claude Skills 与 Agent 技能推荐](https://tobefree.app/zh/collections/agent-skills/)
 
 ## 项目结构
 

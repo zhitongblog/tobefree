@@ -1,0 +1,26 @@
+kind: skill
+name: Trail of Bits Skills
+accent: '#1E3A8A'
+initials: TB
+license: CC-BY-SA-4.0
+website: https://github.com/trailofbits/skills
+repo: https://github.com/trailofbits/skills
+install: /plugin marketplace add trailofbits/skills
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [安全, 审计, 漏洞, 代码审查, 社区]
+clients: [Claude Code, Codex]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: 知名安全公司 Trail of Bits 的安全审计技能
+  en: Security research and audit skills from Trail of Bits
+description:
+  zh: >-
+    安全公司 Trail of Bits 开源（CC-BY-SA-4.0）的 Claude Code
+    技能集，把他们做代码审计、漏洞挖掘、智能合约审查的经验写成技能，包括静态分析工具用法、常见漏洞模式识别和审计工作流。
+  en: >-
+    Trail of Bits' open-source (CC-BY-SA-4.0) Claude Code skills, distilling the security firm's
+    code-audit, vulnerability-hunting and smart-contract review practice — static-analysis tooling,
+    bug-pattern recognition and audit workflows.

@@ -1,0 +1,27 @@
+kind: skill
+name: Document Skills (docx/pdf/pptx/xlsx)
+accent: '#D97757'
+initials: DS
+license: Proprietary (source-available)
+website: https://github.com/anthropics/skills/tree/main/skills/docx
+repo: https://github.com/anthropics/skills
+install: /plugin install document-skills@anthropic-agent-skills
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [word, pdf, ppt, excel, 办公, 官方]
+clients: [Claude, Claude Code, Claude Desktop]
+badges: [no-ads, no-tracking, no-signup]
+tagline:
+  zh: Claude 官方办公文档四件套：Word、PDF、PPT、Excel
+  en: 'Claude''s official office-document skills: Word, PDF, PPT, Excel'
+description:
+  zh: >-
+    Anthropic 官方的四个文档技能，Claude.ai 里生成 Word、PDF、PPT、Excel 文件用的就是它们：创建和编辑文档、保留格式与修订、填 PDF
+    表单、做带公式的表格。源码公开可读，但不是开源协议，按你与 Anthropic 的服务协议免费使用。
+  en: >-
+    Anthropic's four official document skills — the same ones Claude.ai uses to produce Word, PDF,
+    PowerPoint and Excel files: create and edit documents, keep formatting and tracked changes, fill
+    PDF forms, build spreadsheets with formulas. Source-available but not open source; free to use
+    under your Anthropic terms.

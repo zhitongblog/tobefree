@@ -19,7 +19,7 @@ criteria:
     - "Core protection is free, with no protection level behind a paywall."
     - "Interception point and coverage are stated per tool — that is what decides what it can actually stop."
 tools: [ublock-origin, privacy-badger, adguard-home, pi-hole, searxng, aegis-authenticator, ente-auth, gnupg, clamav, wireguard, proton-vpn, tails]
-skills: []
+skills: [searxng-mcp]
 featured: true
 added: '2026-09-18'
 faq:

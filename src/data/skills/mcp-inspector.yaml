@@ -1,0 +1,26 @@
+kind: mcp
+name: MCP Inspector
+accent: '#1F2937'
+initials: MI
+license: MIT
+website: https://modelcontextprotocol.io/docs/tools/inspector
+repo: https://github.com/modelcontextprotocol/inspector
+install: npx @modelcontextprotocol/inspector
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [调试, 开发工具, mcp, 官方]
+clients: [Any MCP server]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, cross-platform]
+tagline:
+  zh: MCP 官方调试器，写 MCP Server 必备
+  en: The official visual debugger for MCP servers
+description:
+  zh: >-
+    MCP 官方开源的调试工具，提供网页界面、命令行和 TUI 三种模式。连上任意 MCP 服务器后可以逐个调用工具、浏览资源和提示词、观察原始消息，自己写 MCP Server
+    时拿它测试最方便。
+  en: >-
+    The official open-source MCP debugging tool with web UI, CLI and TUI modes. Connect to any MCP
+    server to call tools one by one, browse resources and prompts, and watch raw messages — the
+    easiest way to test a server you're building.

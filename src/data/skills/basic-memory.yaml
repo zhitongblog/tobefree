@@ -1,0 +1,26 @@
+kind: mcp
+name: Basic Memory
+accent: '#6366F1'
+initials: BM
+license: AGPL-3.0
+website: https://github.com/basicmachines-co/basic-memory
+repo: https://github.com/basicmachines-co/basic-memory
+install: claude mcp add basic-memory -- uvx basic-memory mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [记忆, 知识库, markdown, obsidian, 本地]
+clients: [Claude Desktop, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, offline, self-hostable]
+tagline:
+  zh: 用本地 Markdown 文件给 AI 做长期记忆
+  en: Long-term AI memory stored as plain local Markdown
+description:
+  zh: >-
+    开源（AGPL-3.0）的记忆型 MCP 服务器。对话里沉淀的知识会写成本地 Markdown 笔记并互相链接，下次对话 AI 能读回来，不用每次重新解释项目背景。文件就在你硬盘上，可以直接用
+    Obsidian 打开编辑。
+  en: >-
+    An open-source (AGPL-3.0) memory MCP server. Knowledge from your conversations is written as
+    linked Markdown notes on your own disk that the model reads back next time, so you stop
+    re-explaining your project. The files open directly in Obsidian.

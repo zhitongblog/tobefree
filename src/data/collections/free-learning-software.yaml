@@ -19,7 +19,7 @@ criteria:
     - "Data exports, so switching software does not lock in what you built up."
     - "Offline capability is noted separately — learning often happens without reliable network."
 tools: [anki, scratch, geogebra, stellarium, jupyterlab, gnu-octave, radicand, qgis, kiwix, jabref]
-skills: []
+skills: [zotero-mcp, scientific-agent-skills]
 featured: true
 added: '2026-09-18'
 faq:

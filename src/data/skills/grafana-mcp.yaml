@@ -1,0 +1,26 @@
+kind: mcp
+name: Grafana MCP
+accent: '#F46800'
+initials: GF
+license: Apache-2.0
+website: https://github.com/grafana/mcp-grafana
+repo: https://github.com/grafana/mcp-grafana
+install: uvx mcp-grafana
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [监控, grafana, prometheus, 运维, 官方]
+clients: [Claude, Claude Code, Cursor, Any MCP client]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: Grafana 官方 MCP，让 AI 查看板、查指标和日志
+  en: Grafana's official MCP for dashboards, metrics and logs
+description:
+  zh: >-
+    Grafana 官方开源（Apache-2.0）的 MCP 服务器，让 Agent 搜索看板、跑 Prometheus / Loki 查询、查看告警和事故。配合自建的 Grafana
+    使用，排查线上问题时能少切很多窗口。
+  en: >-
+    Grafana's official open-source (Apache-2.0) MCP server. Agents can search dashboards, run
+    Prometheus and Loki queries, and inspect alerts and incidents — works with a self-hosted Grafana
+    and saves a lot of tab-switching during incident triage.
