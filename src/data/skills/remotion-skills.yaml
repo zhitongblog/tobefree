@@ -1,0 +1,27 @@
+kind: skill
+name: Remotion Skills
+accent: '#0B84F3'
+initials: RM
+license: ''
+website: https://www.remotion.dev/docs/ai/skills
+repo: https://github.com/remotion-dev/skills
+install: npx skills add remotion-dev/skills
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [remotion, 视频, react, 字幕, 官方]
+clients: [Claude Code, Codex, Cursor, Kimi Code]
+badges: [no-ads, no-tracking, no-signup]
+tagline:
+  zh: Remotion 官方技能：让 AI 用 React 写视频
+  en: "Remotion's official skills for making videos in React"
+description:
+  zh: >-
+    Remotion 官方维护的技能集，教 Agent 用 React 代码做视频：新建项目、写动画、加字幕、处理音视频素材、渲染导出和升级版本。
+    技能仓库没有写协议；Remotion 本身是双层授权，个人、3 人以内的公司和非营利组织免费用，规模更大的营利公司要买公司授权。
+  en: >-
+    Remotion's official skills that teach agents to make videos in React code — create projects,
+    write animations, add captions, handle audio and video assets, render and upgrade. The skills
+    repo has no stated licence; Remotion itself is dual-licensed: free for individuals, companies of
+    up to 3 people and non-profits, with a paid company licence for larger for-profits.

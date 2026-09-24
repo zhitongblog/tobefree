@@ -19,7 +19,7 @@ criteria:
     - "Officially maintained or widely recognized and still active; archived projects are excluded."
     - "Licences stated as they are — source-available skills such as the official document skills get no open-source badge."
 tools: []
-skills: [superpowers, anthropic-document-skills, frontend-design, skill-creator, webapp-testing, mcp-builder, canvas-design, web-artifacts-builder, theme-factory, doc-coauthoring, algorithmic-art, slack-gif-creator, gstack, ui-ux-pro-max, context-engineering-skills, trailofbits-skills, scientific-agent-skills, huggingface-skills, cloudflare-skills, expo-skills, openai-skills, claude-plugins-official, awesome-claude-skills, awesome-claude-code, awesome-agent-skills]
+skills: [superpowers, anthropic-document-skills, frontend-design, skill-creator, webapp-testing, mcp-builder, canvas-design, web-artifacts-builder, theme-factory, doc-coauthoring, algorithmic-art, slack-gif-creator, gstack, ui-ux-pro-max, context-engineering-skills, trailofbits-skills, scientific-agent-skills, huggingface-skills, cloudflare-skills, vercel-agent-skills, expo-skills, remotion-skills, openai-skills, claude-plugins-official, awesome-claude-skills, awesome-claude-code, awesome-agent-skills]
 featured: true
 added: '2026-09-24'
 faq:

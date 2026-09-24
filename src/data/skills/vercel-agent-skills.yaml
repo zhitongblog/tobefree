@@ -1,0 +1,27 @@
+kind: skill
+name: Vercel Agent Skills
+accent: '#000000'
+initials: VC
+license: MIT
+website: https://github.com/vercel-labs/agent-skills
+repo: https://github.com/vercel-labs/agent-skills
+install: npx skills add vercel-labs/agent-skills
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [vercel, react, next.js, 性能, 官方]
+clients: [Claude Code, Codex, Cursor, OpenCode]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Vercel 官方技能：React 性能、界面规范与部署
+  en: "Vercel's official skills for React performance, UI and deploys"
+description:
+  zh: >-
+    Vercel 官方的技能集，README 声明 MIT 协议。包括 React / Next.js 性能最佳实践、React Native 规范、组件组合模式、
+    View Transitions、网页界面设计规范审查、文案写作规范，以及一键部署到 Vercel。部署需要 Vercel 账号，其余技能不用注册。
+  en: >-
+    Vercel's official skills collection, MIT-licensed per its README: React and Next.js performance
+    best practices, React Native guidelines, composition patterns, View Transitions, a web UI
+    guidelines review, writing guidelines, and one-step deploys to Vercel. Deploying needs a Vercel
+    account; the other skills need no sign-up.
