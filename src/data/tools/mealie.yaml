@@ -1,0 +1,75 @@
+name: Mealie
+accent: '#E58325'
+initials: ML
+category: selfhosted
+price: free
+license: 'AGPL-3.0'
+website: https://mealie.io
+download: https://mealie.io/documentation/getting-started/installation/installation-checklist/
+repo: https://github.com/mealie-recipes/mealie
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [菜谱, 做饭, 购物清单, 家庭, 可自建]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 全家共用的菜谱库、一周菜单和买菜清单
+  en: A shared family recipe library, weekly meal plan and shopping list
+description:
+  zh: 自建的菜谱管理和膳食计划工具。粘贴菜谱网页的链接就能自动导入食材和步骤，排好一周的早中晚饭，再把需要的食材加进按超市分区整理的购物清单。一家人各有账号，共用同一个菜谱库。
+  en: A self-hosted recipe manager and meal planner. Paste a recipe page's URL to import ingredients and steps automatically, plan the week's meals, then push the ingredients onto a shopping list organized by supermarket section. Each family member gets an account on a shared recipe library.
+review:
+  zh: |
+    AGPL-3.0 协议，13,307 颗星。
+
+    网上看到的菜谱，收藏在浏览器书签里，下次打开可能是一整页广告加三千字前情提要。
+    Mealie 的做法是把菜谱抓回来存成结构化的数据：粘贴链接，
+    它自动识别出食材表、步骤、份量和图片，存进自己的库里。
+    家传的菜也可以在编辑器里手动录入，步骤支持 Markdown。
+
+    存下来之后才是它真正有用的部分。膳食计划按早餐、午餐、晚餐、加餐排日历；
+    选好一周要做的菜，食材一键加进购物清单，清单可以按超市的货架分区贴标签，
+    家里人在手机浏览器里打开同一张清单，谁买了谁勾掉。
+    菜谱还能按自己的规则归进食谱集。界面有 35 种以上的语言。
+
+    部署官方只推荐 Docker，镜像支持 amd64 和 arm64，默认端口 9925。
+    数据库默认 SQLite，官方建议 20 个用户以内用它就够；人多、要模糊搜索再换 PostgreSQL。
+    它有完整的 REST API，可以接 Home Assistant 或自己的脚本。
+
+    要说清楚的：
+
+    - **需要一台一直开着的机器**，不支持 32 位 ARM，老款树莓派系统要确认是 64 位。
+    - 链接导入靠 recipe-scrapers 解析网页里的菜谱结构化数据，
+      页面没有这类标记就抓不全，只能手动补。可选的 OpenAI 解析要自己填 API Key，费用按用量付给 OpenAI。
+    - 没有官方原生 App，手机上用网页版。
+    - 它是给一家人用的工具，不适合公开分享菜谱或做内容站点。
+  en: |
+    AGPL-3.0, 13,307 stars.
+
+    A recipe saved as a browser bookmark tends to reopen as a wall of ads and a three-thousand-word
+    backstory. Mealie pulls the recipe back as structured data instead: paste the link and it
+    recognizes the ingredient list, steps, servings and image, and stores them in your own library.
+    Family recipes can be entered by hand in the editor, with Markdown in the steps.
+
+    The storage is where its real usefulness starts. The meal planner lays out breakfast, lunch, dinner
+    and snacks on a calendar; pick the week's dishes and send their ingredients to the shopping list in
+    one step. The list can be labeled by supermarket section, and everyone at home opens the same list
+    in a phone browser and ticks off what they bought. Recipes can also be grouped into cookbooks by
+    your own rules, and the interface is translated into more than 35 languages.
+
+    Docker is the only officially recommended deployment, with amd64 and arm64 images and port 9925 by
+    default. SQLite is the default database and the project says it suits up to 20 users; switch to
+    PostgreSQL for more users or fuzzy search. A full REST API connects it to Home Assistant or your own
+    scripts.
+
+    To be clear about:
+
+    - **It needs an always-on machine,** and 32-bit ARM is not supported, so older Raspberry Pi
+      installs must be running a 64-bit OS.
+    - URL import uses recipe-scrapers to parse structured recipe data in the page. Pages without that
+      markup come in incomplete and need filling in by hand. The optional OpenAI parsing needs your
+      own API key, billed by OpenAI on usage.
+    - There is no official native app; phones use the web interface.
+    - It is built for a household, not for publishing recipes or running a content site.

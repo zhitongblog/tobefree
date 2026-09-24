@@ -1,0 +1,94 @@
+name: Waterfox
+accent: '#1E88E5'
+initials: WF
+category: browser
+price: free
+license: 'MPL-2.0'
+website: https://www.waterfox.com
+download: https://www.waterfox.com/download/
+repo: https://github.com/BrowserWorks/waterfox
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [浏览器, firefox, 去遥测, 树状标签, 广告拦截]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 跟着 Firefox ESR 走，遥测在编译时就锁死
+  en: Follows Firefox ESR, with telemetry locked off at build time
+description:
+  zh: 基于 Firefox ESR 的独立浏览器，由英国公司 BrowserWorks 开发。遥测在编译阶段关闭并锁定，没有赞助磁贴和 Pocket，桌面版内置广告拦截、树状标签和状态栏。靠搜索合作分成维持运营，默认搜索引擎在美国、英国和多数欧洲国家是 Qwant，其余地区是 DuckDuckGo。
+  en: An independent browser built on Firefox ESR, developed by the UK company BrowserWorks. Telemetry is disabled and locked at build time, there are no sponsored tiles or Pocket, and the desktop version has a built-in ad blocker, tree tabs and a status bar. It is funded by search partnerships, with Qwant as the default search engine in the US, the UK and most of Europe, and DuckDuckGo elsewhere.
+review:
+  zh: |
+    MPL-2.0 协议，截至 2026 年 9 月 6,311 颗星，当前版本 6.7.4（9 月 22 日发布）。
+
+    Waterfox 2011 年就有了，最早是 64 位版 Firefox，后来变成一个独立分支。
+    2019 年底它被广告公司 System1 收购，2023 年创始人 Alex Kontos 又把它买回来独立运营，
+    现在归 BrowserWorks Ltd 所有，这家公司由 Kontos 全资持有。
+
+    它和 LibreWolf 都是「去掉 Firefox 里回传厂商的东西」，区别在取舍：
+
+    - **更新跟着 Firefox ESR（延长支持版）走**，界面和功能变化比正式版慢，
+      适合不想每个月适应一次新界面的人。
+    - **遥测在编译时关闭并锁定**，隐私政策写得很具体：没有赞助置顶网站、
+      没有新标签页赞助内容、没有 Pocket。
+    - **自带一些 Firefox 没有的界面功能**：树状标签（新页面挂在打开它的页面下面）、
+      底部状态栏、在普通窗口里开私密标签。
+    - **桌面版内置广告拦截器**，2026 年 5 月起默认开启。DNS 查询可以走 Oblivious HTTP 中继，
+      把身份和查询内容分开。
+    - 有自动更新，不用像 LibreWolf 那样靠包管理器手动升级。Android 版在 Google Play 上架。
+
+    要说清楚的：
+
+    - **它靠搜索广告分成赚钱。** 默认搜索引擎在包括美国、英国、多数欧洲国家在内的 26 个地区是 Qwant，
+      其他地区是 DuckDuckGo，搜索时会带上 Waterfox 的归属参数。
+      内置的广告拦截器**默认放行默认搜索引擎结果页上的广告**，其他网站的广告照常拦截。
+      官方说可以随时换搜索引擎，或者手动屏蔽合作方的搜索广告。所以这里没有给它「无广告」标。
+    - **默认搜索引擎一年里换了几次。** 2026 年 5 月撤掉 Startpage，临时换成 1.org，
+      7 月又改成 Qwant 和 DuckDuckGo。收入来源变动，默认设置就可能跟着变。
+    - **联网请求不是零。** 隐私政策列出了会暴露 IP 的连接：搜索建议、DNS 中继、
+      每 12 小时一次的更新检查（带版本号和系统信息，不带浏览记录）、过滤列表下载。
+    - **反指纹比不上 LibreWolf、Mullvad Browser。** 它的定位是「干净的 Firefox」，不是「最强隐私」。
+    - 基于 ESR 意味着新网页特性来得晚一些，极少数新网站可能表现不完全一致。
+  en: |
+    MPL-2.0, 6,311 stars as of September 2026, currently at 6.7.4 (released September 22).
+
+    Waterfox dates back to 2011, first as a 64-bit build of Firefox and later as an independent fork.
+    At the end of 2019 it was acquired by the advertising company System1; in 2023 founder Alex Kontos
+    bought it back to run independently, and it now belongs to BrowserWorks Ltd, which Kontos wholly
+    owns.
+
+    Like LibreWolf, it removes the parts of Firefox that report back to the vendor. The trade-offs
+    differ:
+
+    - **It follows Firefox ESR (Extended Support Release),** so the interface changes more slowly than
+      regular Firefox. That suits people who do not want to relearn the UI every month.
+    - **Telemetry is disabled and locked at build time,** and the privacy policy is specific: no
+      sponsored top sites, no sponsored new tab stories, no Pocket.
+    - **It adds interface features Firefox lacks:** tree tabs (pages nest under the page that opened
+      them), a bottom status bar, and private tabs inside a normal window.
+    - **The desktop version has a built-in ad blocker,** on by default since May 2026. DNS lookups can
+      go through an Oblivious HTTP relay, separating who you are from what you asked.
+    - It updates itself, unlike LibreWolf, which relies on package managers or manual downloads. The
+      Android version is on Google Play.
+
+    To be clear about:
+
+    - **It earns money from search ad revenue.** The default search engine is Qwant in 26 regions,
+      including the US, the UK and most of Europe, and DuckDuckGo elsewhere, with Waterfox attribution
+      parameters added to searches. The built-in ad blocker **allows ads on the default search
+      engine's result pages** while blocking ads everywhere else. The project says you can change the
+      search engine or block partner search ads at any time. That is why it does not carry the "No Ads"
+      badge here.
+    - **The default search engine changed several times this year.** Startpage was removed in May 2026
+      in favour of 1.org as a stopgap, then replaced by Qwant and DuckDuckGo in July. When the revenue
+      source moves, the defaults can move with it.
+    - **Network requests are not zero.** The privacy policy lists connections that expose your IP:
+      search suggestions, the DNS relay, an update check every 12 hours (with version and OS details but
+      no browsing data), and filter list downloads.
+    - **Fingerprinting resistance is weaker than LibreWolf or Mullvad Browser.** Its aim is a clean
+      Firefox, not maximum privacy.
+    - Being based on ESR means new web platform features arrive later, and a few very new sites may not
+      behave exactly as they do in current Firefox.

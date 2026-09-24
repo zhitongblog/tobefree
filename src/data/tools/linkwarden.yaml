@@ -1,0 +1,72 @@
+name: Linkwarden
+accent: '#0369A1'
+initials: LW
+category: selfhosted
+price: free
+license: 'AGPL-3.0'
+website: https://linkwarden.app
+download: https://docs.linkwarden.app/self-hosting/installation
+repo: https://github.com/linkwarden/linkwarden
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [书签管理, 网页存档, 稍后阅读, 团队协作, 可自建]
+platforms: [linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 收藏网页的同时存一份截图和 PDF，原网页没了也还在
+  en: Bookmarks that keep a screenshot and PDF, even after the page is gone
+description:
+  zh: 自建的书签管理和网页存档工具。每收藏一个链接，自动保存截图、PDF 和单文件 HTML，可选同时提交到互联网档案馆。支持阅读模式、高亮批注、按集合分组协作，有浏览器扩展和官方手机 App。自建免费，官方云服务收费。
+  en: A self-hosted bookmark manager and web archiver. Every saved link gets an automatic screenshot, PDF and single-file HTML copy, with optional submission to the Wayback Machine. It offers a reader view, highlights and annotations, shared collections, a browser extension and official mobile apps. Self-hosting is free; the official cloud is paid.
+review:
+  zh: |
+    AGPL-3.0 协议，19,834 颗星。
+
+    收藏夹里的链接放上几年，打开一片 404 是常态。Linkwarden 的核心是**存档**：
+    收藏的那一刻就把网页存成截图、PDF 和单文件 HTML 三份，原站改版、删文、关站都不影响。
+    愿意的话还能顺手提交一份到 archive.org。
+
+    其余功能围着「收藏了之后真的去读」展开：阅读模式去掉页面杂物，
+    可以划重点、写批注；链接按集合和标签整理，集合能共享给别人一起往里加，
+    也能公开成一个链接列表。还支持 RSS 订阅、上传图片和 PDF、导入 SingleFile 存下来的页面，
+    可选的本地 AI 能按内容自动打标签。
+
+    自建用 Docker Compose，一起起来的有 PostgreSQL 和做全文搜索的 Meilisearch，
+    比单容器的工具重一些。官方 iOS 和 Android App 可以连自建实例。
+
+    要说清楚的：
+
+    - **自建版免费，官方云服务收费。** 云版每用户每月 3 美元，按年付折合 2.25 美元，
+      有 14 天试用，每用户上限 3 万条链接。README 里写明自建是免费的，代价是自己部署和维护。
+    - 自建需要一台一直开着的服务器，存档文件会随收藏数量持续占用磁盘。
+    - 手机 App 要先有账号，云版或自建实例二选一。
+    - 同类的 Karakeep 更偏自动整理和 AI 标签，Linkwarden 更偏完整存档和团队共享，按需求选。
+  en: |
+    AGPL-3.0, 19,834 stars.
+
+    Leave bookmarks alone for a few years and a page of 404s is normal. Linkwarden's core is
+    **archiving:** the moment you save a link it stores a screenshot, a PDF and a single-file HTML
+    copy, so redesigns, deleted posts and dead sites no longer matter. Optionally it submits a copy to
+    archive.org as well.
+
+    The rest is built around actually reading what you saved: a reader view strips page clutter and
+    lets you highlight and annotate; links are organized into collections and tags, collections can be
+    shared so others add to them, or published as a public list. RSS subscriptions, image and PDF
+    uploads and SingleFile imports are supported, and optional local AI tags links by content.
+
+    Self-hosting uses Docker Compose, bringing up PostgreSQL and Meilisearch for full-text search
+    alongside the app, which is heavier than single-container tools. The official iOS and Android apps
+    can connect to a self-hosted instance.
+
+    To be clear about:
+
+    - **Self-hosting is free; the official cloud is paid.** The cloud costs $3 per user per month, or
+      the equivalent of $2.25 billed yearly, with a 14-day trial and a 30,000-link limit per user. The
+      README states self-hosting is free, at the cost of deploying and maintaining it yourself.
+    - Self-hosting needs an always-on server, and archive files keep consuming disk as your collection
+      grows.
+    - The mobile apps require an account first, on either the cloud or a self-hosted instance.
+    - The similar Karakeep leans toward automatic organization and AI tagging, while Linkwarden leans
+      toward complete archiving and team sharing. Pick by need.

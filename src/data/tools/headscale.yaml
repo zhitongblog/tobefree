@@ -1,0 +1,74 @@
+name: Headscale
+accent: '#1F2937'
+initials: HS
+category: selfhosted
+price: free
+license: 'BSD-3-Clause'
+website: https://headscale.net
+download: https://headscale.net/stable/setup/install/official/
+repo: https://github.com/juanfont/headscale
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [组网, tailscale兼容, wireguard, 内网穿透, 可自建]
+platforms: [linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, self-hostable]
+tagline:
+  zh: 自己跑 Tailscale 的控制服务器，不用登录官方账号
+  en: Run the Tailscale control server yourself, no official account needed
+description:
+  zh: Tailscale 控制服务器的开源自建实现。在自己的服务器上跑起来后，把 Tailscale 官方客户端的登录服务器指向它，设备照样组成 WireGuard 内网，但设备注册、密钥和访问规则都由你自己管理。
+  en: An open-source, self-hosted implementation of the Tailscale control server. Run it on your own server, point the official Tailscale clients' login server at it, and your devices still form a WireGuard network, while device registration, keys and access rules stay under your control.
+review:
+  zh: |
+    BSD-3-Clause 协议，44,094 颗星。
+
+    Tailscale 的客户端是开源的，但负责分发密钥、登记设备的协调服务器是公司的 SaaS，
+    用它就得用 Google、GitHub 之类的账号登录。Headscale 把这一环换成你自己的程序：
+    服务器上跑 Headscale，客户端登录时加上 `--login-server` 指向自己的域名，
+    之后设备之间的连接方式和用官方服务时一样，点对点直连，打不通洞再走中继。
+
+    功能覆盖得比较全：预认证密钥、MagicDNS、子网路由、出口节点、ACL、
+    Tailscale SSH、Taildrop 都支持，还内置了 DERP 中继服务器，可以连中继也一起自建。
+    需要统一登录的可以接 OIDC。
+
+    安装推荐官方的 deb 包，支持 Ubuntu 22.04 以上和 Debian 12 以上，
+    装完自带 systemd 服务和默认配置。
+
+    要说清楚的：
+
+    - **需要一台有公网地址的服务器和一个域名**，所有客户端都要能访问到它。
+      这是和用官方免费计划相比多出来的成本。
+    - **只支持一个 tailnet。** 项目自己的定位是个人和小型开源组织，FAQ 里写明它不是企业软件。
+    - Funnel、Serve、网络流量日志这些 Tailscale 功能还没有实现。
+    - 官方只提供命令行管理，网页管理界面是第三方项目。
+    - 0.x 版本，更新日志里不兼容改动不少，升级前先看 changelog、备份数据库。
+    - 和 Tailscale 公司没有关联，出了问题找的是社区，不是 Tailscale 的客服。
+  en: |
+    BSD-3-Clause, 44,094 stars.
+
+    Tailscale's clients are open source, but the coordination server that distributes keys and
+    registers devices is the company's SaaS, which means signing in with Google, GitHub or similar.
+    Headscale replaces that piece with your own program: run it on a server, add `--login-server`
+    pointing at your domain when the client signs in, and from then on devices connect exactly as they
+    would with the official service — peer to peer, falling back to a relay when NAT traversal fails.
+
+    Coverage is broad: pre-auth keys, MagicDNS, subnet routers, exit nodes, ACLs, Tailscale SSH and
+    Taildrop all work, and an embedded DERP server lets you self-host the relay too. OIDC is available
+    for single sign-on.
+
+    The recommended install is the official deb package for Ubuntu 22.04+ and Debian 12+, which comes
+    with a systemd service and default configuration.
+
+    To be clear about:
+
+    - **You need a server with a public address and a domain** reachable by every client. That is
+      the added cost compared with the official free plan.
+    - **Only a single tailnet.** The project targets individuals and small open-source organizations,
+      and its FAQ states plainly that it is not enterprise software.
+    - Tailscale features such as Funnel, Serve and network flow logs are not implemented.
+    - Management is command-line only; web interfaces are third-party projects.
+    - It is still 0.x, and the changelog has plenty of breaking changes. Read it and back up the
+      database before upgrading.
+    - It is not affiliated with Tailscale Inc. Support comes from the community, not Tailscale.

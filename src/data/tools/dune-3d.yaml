@@ -1,0 +1,72 @@
+name: Dune 3D
+accent: '#C2873A'
+initials: D3
+category: cad
+price: free
+license: 'GPL-3.0'
+website: https://dune3d.org
+download: https://docs.dune3d.org/en/latest/installation.html
+repo: https://github.com/dune3d/dune3d
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [三维建模, 参数化设计, 3d打印, 电子外壳, 开源]
+platforms: [windows, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: SolveSpace 的约束手感，加上 SolveSpace 做不到的 STEP 和倒角
+  en: SolveSpace-style constraints, plus the STEP support and fillets SolveSpace lacks
+description:
+  zh: 开源的参数化三维 CAD，作者也是 Horizon EDA 的开发者。草图可以直接在三维空间里画、加约束，拉伸也能约束；几何内核用 Open CASCADE，能导入导出 STEP、做倒圆角和倒角，约束求解器来自 SolveSpace。导出 STEP、STL 和 DXF。
+  en: Open-source parametric 3D CAD from the developer of Horizon EDA. Sketches can be drawn and constrained directly in 3D, and extrusions can be constrained too. The geometry kernel is Open CASCADE, so it imports and exports STEP and does fillets and chamfers; the constraint solver comes from SolveSpace. It exports STEP, STL and DXF.
+review:
+  zh: |
+    GPL-3.0 协议，2,090 颗星。2024 年 1 月发布 1.0，最新的 1.4.0 发布于 2026 年 1 月。
+
+    作者在 README 里写了为什么要再造一个 CAD：他主要给自己的电路板设计 3D 打印外壳，
+    FreeCAD 功能够但草图只能在二维模式里画、拉伸不能加约束、引用关系容易断；
+    SolveSpace 工作流对了，但导不进 STEP，也做不了倒角和圆角。
+    Dune 3D 把两边的长处拼在一起。
+
+    这对画电子外壳的人很实际：从 KiCad 或 Horizon EDA 导出电路板的 STEP，
+    在 Dune 3D 里当参考模型导入，围着它画外壳、定开孔位置，
+    最后导出 STL 切片打印，或者导出 STEP 交给别的 CAD。
+
+    操作方式沿用 Horizon EDA：所有工具都在空格键弹出的菜单里，
+    按名字搜就能找到，不用在工具栏里翻。
+    支持拉伸、旋转、放样、扫掠、阵列、镜像、布尔运算、倒角圆角，1.4 加了 DXF 导出。
+
+    要说清楚的：
+
+    - **没有 macOS 安装包。** Windows 有 MSI，Linux 走 Flathub 或 AUR，
+      macOS 只能按文档自己编译。
+    - 基本是一个人的项目，作者贡献了八百多次提交，其他人都是个位数或十几次。
+      版本大约一年一到两个。
+    - 功能围绕零件和外壳建模。FreeCAD 那样的工程图、有限元和 CAM 工作台，这里没有。
+    - 文档和界面只有英文。
+  en: |
+    GPL-3.0, 2,090 stars. Version 1.0 shipped in January 2024 and the latest, 1.4.0, in January 2026.
+
+    The README explains why the author built another CAD. He mostly designs 3D-printed enclosures for his
+    electronics projects. FreeCAD could do the job, but its sketcher is modal and 2D-only, extrusions
+    cannot be constrained, and references break easily. SolveSpace had the right workflow but could not
+    import STEP and its kernel could not do fillets or chamfers. Dune 3D combines the strengths of both.
+
+    That is practical for enclosure work: export the board as STEP from KiCad or Horizon EDA, import it
+    into Dune 3D as a reference model, draw the case and place the cut-outs around it, then export STL
+    for slicing or STEP for another CAD tool.
+
+    The interaction model comes from Horizon EDA: every tool lives in a menu that opens on the space bar,
+    searchable by name, so you are not hunting through toolbars. It supports extrude, revolve, loft,
+    pipe, arrays, mirror, boolean operations, fillets and chamfers, and 1.4 added DXF export.
+
+    To be clear about:
+
+    - **There is no macOS installer.** Windows gets an MSI, Linux uses Flathub or the AUR, and macOS
+      users have to build it following the docs.
+    - It is essentially a one-person project: the author has more than 800 commits and every other
+      contributor has at most a couple of dozen. Releases come roughly once or twice a year.
+    - It centers on modeling parts and enclosures. There are no equivalents of FreeCAD's technical
+      drawing, finite element or CAM workbenches.
+    - Documentation and interface are English only.

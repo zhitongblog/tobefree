@@ -1,0 +1,79 @@
+name: ntfy
+accent: '#338574'
+initials: NT
+category: selfhosted
+price: free
+license: 'Apache-2.0 / GPL-2.0'
+website: https://ntfy.sh
+download: https://docs.ntfy.sh/install/
+repo: https://github.com/binwiederhier/ntfy
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [消息推送, 通知, 脚本告警, curl, 可自建]
+platforms: [linux, windows, web, android, ios, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 一行 curl 就能把消息推到手机上
+  en: Push a notification to your phone with one line of curl
+description:
+  zh: 基于 HTTP 的消息推送服务。手机 App 订阅一个主题，任何能发 PUT/POST 请求的脚本、程序或服务往这个主题发消息，手机就收到通知。可以直接用公共服务器 ntfy.sh，不用注册；也可以自建服务端。
+  en: An HTTP-based push notification service. Subscribe to a topic in the phone app, and any script, program or service that can send a PUT or POST to that topic makes your phone buzz. Use the public ntfy.sh server without signing up, or host the server yourself.
+review:
+  zh: |
+    Apache-2.0 和 GPL-2.0 双协议，34,413 颗星。
+
+    它把「让脚本通知我」这件事压缩到了一行：
+
+    `curl -d "备份完成" ntfy.sh/mytopic`
+
+    手机上装 ntfy 的 App，订阅 `mytopic`，这条消息就弹出来了。
+    不用申请机器人、不用配 token，定时备份、长时间编译、服务器告警、下载完成，
+    凡是能执行 curl 的地方都能接。消息可以带标题、优先级、标签、点击跳转链接和附件。
+    Uptime Kuma、Home Assistant 等不少自建服务里都能选 ntfy 作为通知渠道。
+
+    服务端是一个静态编译的单文件程序，Linux 和 Windows 都能跑，也有 Docker 镜像。
+    自建之后没有条数限制，手机 App 里把服务器地址改成自己的就行。
+
+    要说清楚的：
+
+    - **公共服务器上的主题名就是密码。** 不注册使用时，任何知道主题名的人都能读写，
+      主题名要起得难猜，敏感内容别往公共服务器发。
+    - **自建服务端默认所有人可读写任何主题。** 私用的实例要把 `auth-default-access` 设成 `deny-all`，再给自己建账号。
+    - ntfy.sh 有付费计划（Supporter 每月 6 美元、Pro 12 美元、Business 25 美元），
+      买的是公共服务器上更高的消息额度和保留主题。自建不需要这些。
+    - Google Play 版 Android App 对 ntfy.sh 上的主题走 Firebase 推送；
+      F-Droid 版不含 Firebase，全部用直连推送。
+    - iOS 收自建服务器的即时通知，需要在服务端配置 `upstream-base-url: "https://ntfy.sh"`，
+      把唤醒请求转发给公共服务器，不配的话通知可能延迟几个小时。
+  en: |
+    Dual-licensed Apache-2.0 and GPL-2.0, 34,413 stars.
+
+    It compresses "have my script notify me" into one line:
+
+    `curl -d "Backup done" ntfy.sh/mytopic`
+
+    Install the ntfy app, subscribe to `mytopic`, and the message pops up. No bot to register, no
+    token to configure — scheduled backups, long builds, server alerts, finished downloads, anything
+    that can run curl can use it. Messages can carry a title, priority, tags, a click-through link and
+    attachments. Many self-hosted services, including Uptime Kuma and Home Assistant, offer ntfy as a
+    notification channel.
+
+    The server is a single statically linked binary that runs on Linux and Windows, with Docker images
+    as well. Self-hosted, there are no message quotas; just change the server address in the app.
+
+    To be clear about:
+
+    - **On the public server, the topic name is the password.** Without an account, anyone who knows
+      the topic can read and write it. Pick a hard-to-guess name and keep sensitive content off the
+      public server.
+    - **A self-hosted server lets everyone read and write every topic by default.** For a private
+      instance, set `auth-default-access` to `deny-all` and create an account for yourself.
+    - ntfy.sh has paid plans (Supporter $6, Pro $12, Business $25 per month) that buy higher message
+      limits and reserved topics on the public server. Self-hosting needs none of them.
+    - The Google Play build of the Android app uses Firebase for topics on ntfy.sh; the F-Droid build
+      contains no Firebase and uses instant delivery for everything.
+    - For instant notifications on iOS from a self-hosted server, set
+      `upstream-base-url: "https://ntfy.sh"` so wake-up requests are forwarded through the public
+      server; without it, delivery can take hours.

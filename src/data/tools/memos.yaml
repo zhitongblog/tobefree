@@ -1,0 +1,72 @@
+name: Memos
+accent: '#3F3F46'
+initials: MM
+category: selfhosted
+price: free
+license: 'MIT'
+website: https://usememos.com
+download: https://usememos.com/docs/deploy
+repo: https://github.com/usememos/memos
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [笔记, 碎片记录, markdown, 替代flomo, 可自建]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自己搭的碎片笔记，打开就写，不用想标题和文件夹
+  en: Self-hosted quick notes — open it and write, no titles or folders
+description:
+  zh: 自建的轻量笔记服务，界面是一条按时间排列的记录流，写法类似发一条微博。支持 Markdown、标签、待办和附件，数据存在自己服务器的 SQLite、MySQL 或 PostgreSQL 里，一条 Docker 命令就能部署。
+  en: A lightweight self-hosted note service whose interface is a chronological stream of entries, written much like a short post. It supports Markdown, tags, to-dos and attachments, stores data in SQLite, MySQL or PostgreSQL on your own server, and deploys with a single Docker command.
+review:
+  zh: |
+    MIT 协议，63,307 颗星。
+
+    它的定位写在官网上：不是工作区，也不是第二大脑。
+    Memos 做的事很窄，就是把随手冒出来的想法、链接、待办快速记下来。
+    没有文件夹，没有必填的标题，打开页面在输入框里写一段，点保存就进了时间线，
+    之后靠 `#标签` 和搜索找回来。用过 flomo 的人会觉得很熟悉，区别是数据在自己手里。
+
+    部署是一条命令：
+
+    `docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable`
+
+    默认用 SQLite，数据全在挂载的目录里，备份就是拷这个目录。
+    官网写明默认不带第三方云和遥测。它有 REST 和 gRPC 接口，
+    iOS 快捷指令、脚本、浏览器插件都能通过接口往里写。
+
+    要说清楚的：
+
+    - **需要自己的服务器或一直开着的机器**，想在手机上随时记，还得让它能从外网访问，
+      或者配合 Tailscale 之类的组网工具。
+    - 没有官方手机 App。手机上可以用网页版，也可以装第三方客户端 Moe Memos（iOS 和 Android 都有）。
+    - 版本号还在 0.x，近几个大版本的发布说明里有不兼容改动，升级前先备份数据目录。
+    - 它不适合写长文档和整理知识库，那是 Obsidian、Joplin 这类工具的事。
+  en: |
+    MIT, 63,307 stars.
+
+    Its own site puts the positioning plainly: not a workspace, not a second brain. Memos does one
+    narrow thing — capture the thought, link or to-do that just occurred to you. There are no folders
+    and no mandatory titles. Type into the box, hit save, and it lands on the timeline; you find it
+    again through `#tags` and search. Anyone who has used a quick-capture notes app will feel at home,
+    with the difference that the data is yours.
+
+    Deployment is one command:
+
+    `docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable`
+
+    SQLite is the default and everything lives in the mounted directory, so backing up means copying
+    it. The site states there is no third-party cloud or telemetry by default. REST and gRPC APIs are
+    available, so iOS Shortcuts, scripts and browser extensions can all write into it.
+
+    To be clear about:
+
+    - **You need your own server or an always-on machine,** and capturing from your phone anywhere
+      means exposing it to the internet or pairing it with a mesh network like Tailscale.
+    - There is no official mobile app. On phones you can use the web version, or the third-party
+      client Moe Memos for iOS and Android.
+    - It is still 0.x, and release notes for recent major versions include breaking changes. Back up
+      the data directory before upgrading.
+    - It is not meant for long documents or knowledge bases; that is what Obsidian and Joplin are for.

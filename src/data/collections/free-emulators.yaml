@@ -2,8 +2,8 @@ title:
   zh: "免费模拟器与游戏兼容层"
   en: "Free Emulators and Compatibility Layers"
 description:
-  zh: "九款开源模拟器、游戏库管理器与 Windows 兼容层，全部是官方开源版本，无广告、无内购、不会在启动前插一段视频。"
-  en: "Nine open-source emulators, library managers and Windows compatibility layers — all official builds, with no ads, no in-app purchases and no video before launch."
+  zh: "十一款开源模拟器、游戏库管理器与 Windows 兼容层，全部是官方开源版本，无广告、无内购、不会在启动前插一段视频。"
+  en: "Eleven open-source emulators, library managers and Windows compatibility layers — all official builds, with no ads, no in-app purchases and no video before launch."
 intro:
   zh: "模拟器这个品类在应用商店里被寄生得很彻底：拿开源项目改个图标上架，加载广告 SDK，启动前放一段视频，再卖个「去广告版」。这些上架版本的内核往往就是本清单里这些项目，只是被包了一层。这份清单只给官方开源版本，按三类分：主机与掌机模拟器、跨平台游戏库管理、Windows 程序兼容层。游戏和 BIOS 文件请自行合法准备 —— 这些工具都不提供内容。"
   en: "The emulator category is heavily parasitised on app stores: take an open-source project, change the icon, ship it with an ad SDK, play a video before launch, then sell an \"ad-free version.\" The core inside those listings is frequently one of the projects below, wrapped in a layer. This list gives only the official open-source builds, in three groups — console and handheld emulators, cross-platform library managers, and Windows compatibility layers. Bring your own legally obtained games and BIOS files; none of these tools supply content."
@@ -18,7 +18,7 @@ criteria:
     - "No ads, no pre-roll video, no in-app purchases, no \"ad-free edition.\""
     - "No account required."
     - "No bundled or distributed ROMs or BIOS files."
-tools: [retroarch, dolphin-emulator, pcsx2, ppsspp, scummvm, playnite, heroic-games-launcher, lutris, bottles]
+tools: [retroarch, dolphin-emulator, pcsx2, ppsspp, scummvm, playnite, heroic-games-launcher, lutris, bottles, rpcs3, cemu]
 skills: []
 featured: false
 added: '2026-09-18'

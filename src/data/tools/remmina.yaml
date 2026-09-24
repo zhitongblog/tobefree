@@ -1,0 +1,67 @@
+name: Remmina
+accent: '#2E7BCF'
+initials: RM
+category: remote
+price: free
+license: 'GPL-2.0-or-later'
+website: https://remmina.org
+download: https://remmina.org/how-to-install-remmina/
+repo: https://gitlab.com/Remmina/Remmina
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [远程桌面, rdp, vnc, ssh, linux]
+platforms: [linux]
+badges: [open-source, no-ads, no-tracking, no-signup]
+tagline:
+  zh: Linux 上一个窗口管齐 RDP、VNC 和 SSH 连接
+  en: One Linux window for all your RDP, VNC and SSH connections
+description:
+  zh: Linux 桌面上的远程连接客户端，用插件支持 RDP、VNC、SPICE、X2Go、SSH 和 SFTP。每条连接存成一个配置，分辨率、账号、共享目录都记在里面，下次双击就连。多数发行版的软件源里都有，也提供 Flatpak 和 Snap。
+  en: A remote connection client for the Linux desktop, with plugins for RDP, VNC, SPICE, X2Go, SSH and SFTP. Each connection is saved as a profile holding resolution, credentials and shared folders, so reconnecting is a double-click. It is in most distributions' repositories and also ships as Flatpak and Snap.
+review:
+  zh: |
+    GPL-2.0-or-later 协议。主仓库在 GitLab，909 颗星；GitHub 上的只读镜像 2,551 颗星。
+
+    它解决的是 Linux 用户连别的机器时工具太散的问题：连 Windows 用 RDP，
+    连树莓派用 VNC，连服务器用 SSH，以前要开三个程序，Remmina 把它们放进同一个连接列表。
+    RDP 部分基于 FreeRDP，能映射本地目录、转发剪贴板和声音，
+    连 Windows 远程桌面是 Linux 上最省事的做法之一。
+
+    日常用法很简单：新建连接，选协议，填地址和账号，保存。
+    连接可以分组，多开时以标签页排在一个窗口里。
+    SSH 连接能直接开 SFTP 传文件，不用再切到别的工具。
+    官网写的是 67 种界面语言、50 多个发行版有打包。
+
+    要说清楚的：
+
+    - **只有 Linux 版。** 没有 Windows 和 macOS 客户端，官网的安装指南也只覆盖 Linux 发行版。
+    - 它是客户端，不带服务端。被控的机器需要自己开着 RDP、VNC 或 SSH 服务，
+      也不负责内网穿透，跨网络连接要自己解决端口或组网。
+    - 更新节奏偏慢，最近一次正式版是 2026 年 2 月的 1.4.43。
+      发行版源里的版本可能更旧，想用新版可以装 Flatpak。
+  en: |
+    GPL-2.0-or-later. The main repository is on GitLab with 909 stars; the read-only GitHub mirror
+    has 2,551.
+
+    It solves the scattered-tools problem Linux users have when connecting to other machines: RDP for
+    Windows, VNC for a Raspberry Pi, SSH for servers used to mean three programs, and Remmina puts them
+    in one connection list. The RDP side is built on FreeRDP, with local folder mapping, clipboard and
+    audio forwarding, which makes it one of the least fussy ways to reach Windows Remote Desktop from
+    Linux.
+
+    Day to day it is simple: create a connection, pick the protocol, fill in the address and
+    credentials, save. Connections can be grouped, and several open at once as tabs in one window. SSH
+    connections can open SFTP for file transfer without switching tools. The site lists 67 interface
+    languages and packages in more than 50 distributions.
+
+    To be clear about:
+
+    - **Linux only.** There is no Windows or macOS client, and the official install guide covers only
+      Linux distributions.
+    - It is a client with no server component. The target machine must already run an RDP, VNC or SSH
+      service, and Remmina does no NAT traversal, so reaching machines across networks means handling
+      ports or a mesh network yourself.
+    - Releases are unhurried; the latest stable is 1.4.43 from February 2026. Distribution packages
+      may be older still, and Flatpak is the way to get the current version.

@@ -2,8 +2,8 @@ title:
   zh: "免费自建服务软件推荐"
   en: "Free Self-Hosted Software"
 description:
-  zh: "十七款可以装在自己服务器或 NAS 上的免费开源服务，覆盖反向代理、容器管理、照片、影音、文档、密码和监控。"
-  en: "Seventeen free and open-source services to run on your own server or NAS — reverse proxies, container management, photos, media, documents, passwords and monitoring."
+  zh: "二十六款可以装在自己服务器或 NAS 上的免费开源服务，覆盖反向代理、组网、容器管理、照片、影音、文档、密码、团队聊天、推送通知和监控。"
+  en: "Twenty-six free and open-source services to run on your own server or NAS — reverse proxies, private networking, container management, photos, media, documents, passwords, team chat, push notifications and monitoring."
 intro:
   zh: "自建的动机通常很具体：网盘涨价了、相册开始按 GB 收费、笔记服务宣布停止运营、某个功能被挪进了订阅。自建换来的是数据在自己硬盘上、功能不会被单方面收回，代价是你要负责备份、更新和安全。这份清单按搭建顺序排 —— 先是底座（容器管理、反向代理、内网连接），再是跑在上面的服务，最后是监控。全部可以用 Docker 部署。"
   en: "The reasons to self-host are usually specific: the cloud drive raised its price, the photo service started charging by the gigabyte, the notes product announced a shutdown, a feature moved behind a subscription. What you get back is data on your own disk and features nobody can withdraw; what you take on is backups, updates and security. This list follows the order you build in — the base layer first (container management, reverse proxy, private networking), then the services on top, then monitoring. Everything here deploys with Docker."
@@ -18,7 +18,7 @@ criteria:
     - "Open source, with no community edition crippled by user or capacity caps."
     - "Data sits on disks you control, and export is unrestricted."
     - "An official Docker image or clear self-hosting documentation exists."
-tools: [portainer, caddy, nginx-proxy-manager, tailscale, podman-desktop, apple-container, gitea, nextcloud, immich, vaultwarden, paperless-ngx, jellyfin, navidrome, audiobookshelf, karakeep, freshrss, home-assistant, uptime-kuma]
+tools: [portainer, caddy, nginx-proxy-manager, tailscale, podman-desktop, apple-container, gitea, nextcloud, immich, vaultwarden, paperless-ngx, jellyfin, navidrome, audiobookshelf, karakeep, freshrss, home-assistant, uptime-kuma, mattermost, headscale, meshcentral, memos, ntfy, mealie, linkwarden, wallos]
 skills: [n8n-mcp, searxng-mcp, basic-memory, mcpo]
 featured: true
 added: '2026-09-18'

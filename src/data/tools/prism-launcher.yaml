@@ -1,0 +1,87 @@
+name: Prism Launcher
+accent: '#7D5AB8'
+initials: PL
+category: gaming
+price: free
+license: 'GPL-3.0-only'
+website: https://prismlauncher.org
+download: https://prismlauncher.org/download/
+repo: https://github.com/PrismLauncher/PrismLauncher
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [我的世界, 启动器, 多开实例, 模组管理, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, cross-platform]
+tagline:
+  zh: 一个版本一个实例，模组和存档互不打架
+  en: One instance per setup, so mods and worlds never collide
+description:
+  zh: 开源的《我的世界》Java 版第三方启动器，从 MultiMC 分支而来。每个实例有独立的游戏版本、模组、设置和存档，直接对接 Modrinth 和 CurseForge 装模组、装整合包。启动器免费，游戏本身要买，登录需要一个已购买游戏的微软账号。
+  en: An open-source third-party launcher for Minecraft Java Edition, forked from MultiMC. Each instance keeps its own game version, mods, settings and worlds, and mods and modpacks install straight from Modrinth and CurseForge. The launcher is free; the game is not, and signing in requires a Microsoft account that owns it.
+review:
+  zh: |
+    GPL-3.0-only 协议，截至 2026 年 9 月 10,480 颗星，当前版本 11.1.0（9 月 3 日发布）。
+
+    官方启动器能开多个安装配置，但所有配置共用一个游戏目录，
+    今天装了机械动力的整合包，明天回原版生存，模组和配置文件就搅在一起了。
+    Prism Launcher 的做法是**实例**：每个实例是一个独立文件夹，
+    游戏版本、加载器（Forge、NeoForge、Fabric、Quilt）、模组、光影、存档各管各的。
+    同时跑 1.12.2 的老整合包和最新版原版，互不影响。
+
+    模组管理是它最常被用到的部分。启动器里直接搜 Modrinth 和 CurseForge，
+    装模组时会一起拉取依赖，已装的模组能一键检查更新。
+    整合包也是在这里搜到就装，不用手动下载 zip 再解压到对的目录。
+
+    其他几处实用的地方：
+
+    - **可以给每个实例单独设内存和 Java 版本**。老版本要 Java 8，新版本要 Java 21，
+      分开配置不用来回切系统环境。
+    - **多账号切换**。家里几个人各有正版账号，在同一台电脑上切换即可。
+    - **实例可以复制和导出**，改坏了之前先复制一份，出问题直接删掉换回来。
+    - Windows 有 x64 和 ARM64 两套包，也有免安装的便携版；Linux 有 AppImage、Flatpak 和各发行版的软件源。
+
+    要说清楚的：
+
+    - **《我的世界》要花钱买。** 启动器不附带游戏，也不绕过购买。
+      第一次使用必须登录一个**已购买 Java 版的微软账号**，登录走的是微软官方的授权页面。
+    - **离线账号也要先有正版。** 出于法律原因，Prism Launcher 要求账号列表里先有一个
+      拥有游戏的微软账号，才允许添加离线账号。网上流传的「绕过版」都是第三方改的，不是官方发布。
+    - **只支持 Java 版。** 基岩版（手机、主机、Windows 商店版）不归它管。
+    - 它不是官方产品，和 Mojang、微软没有关系。游戏更新后，偶尔需要等启动器跟进。
+  en: |
+    GPL-3.0-only, 10,480 stars as of September 2026, currently at 11.1.0 (released September 3).
+
+    The official launcher can hold several installations, but they share one game directory: install
+    a Create modpack today, go back to vanilla survival tomorrow, and the mods and config files are
+    tangled together. Prism Launcher uses **instances** instead. Each one is its own folder with its own
+    game version, loader (Forge, NeoForge, Fabric, Quilt), mods, shaders and worlds. A 1.12.2 modpack
+    and the latest vanilla release can sit side by side without touching each other.
+
+    Mod management is the part most people use. You search Modrinth and CurseForge from inside the
+    launcher, dependencies come along when you install a mod, and installed mods can be checked for
+    updates in one step. Modpacks work the same way, with no manual zip download and extraction.
+
+    Other practical details:
+
+    - **Memory and Java version are set per instance.** Old versions want Java 8 and new ones Java 21,
+      and you configure each separately instead of changing the system setup.
+    - **Multiple accounts.** A household with several paid accounts can switch between them on one PC.
+    - **Instances can be copied and exported.** Copy one before experimenting, and delete the copy if
+      it breaks.
+    - Windows builds come in x64 and ARM64, with portable versions; Linux has an AppImage, Flatpak and
+      distribution packages.
+
+    To be clear about:
+
+    - **Minecraft costs money.** The launcher does not include the game or bypass the purchase. First
+      use requires signing in with a **Microsoft account that owns Java Edition**, through Microsoft's
+      own sign-in page.
+    - **Offline accounts also require a paid account first.** For legal reasons, Prism Launcher only
+      allows adding an offline account once a Microsoft account that owns the game is in the list.
+      The "bypass" builds circulating online are third-party modifications, not official releases.
+    - **Java Edition only.** Bedrock Edition (mobile, console, the Microsoft Store version) is out of
+      scope.
+    - It is not an official product and has no affiliation with Mojang or Microsoft. After a game
+      update, the launcher occasionally needs time to catch up.

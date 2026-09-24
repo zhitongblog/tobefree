@@ -1,0 +1,77 @@
+name: Jami
+accent: '#005699'
+initials: JA
+category: chat
+price: free
+license: 'GPL-3.0'
+website: https://jami.net
+download: https://jami.net/download/
+repo: https://git.jami.net/savoirfairelinux/jami-client-qt
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [即时通讯, 点对点, 视频通话, 无需手机号, 开源]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 没有中心服务器的聊天和视频通话，账号就是本机上的一对密钥
+  en: Chat and video calls with no central server — your account is a key pair on your device
+description:
+  zh: GNU 项目下的点对点通讯软件，文字、语音、视频通话和多人会议都在设备之间直连完成，不经过中心服务器转存。注册不要手机号也不要邮箱，账号是在本机生成的密钥，用户名可选。
+  en: A peer-to-peer communication app from the GNU project. Text, voice and video calls and group conferences run directly between devices rather than being stored on a central server. Sign-up needs no phone number or email; the account is a key generated on your device, and a username is optional.
+review:
+  zh: |
+    GPL-3.0 协议，GNU 官方软件包，由加拿大公司 Savoir-faire Linux 主导开发。
+    代码托管在自己的 GitLab（git.jami.net）上，GitHub 只有镜像。
+
+    Jami 和 Signal、Element 的根本区别在架构：它没有存消息的服务器。
+    设备之间通过 OpenDHT 分布式哈希表找到对方，然后直接建立加密连接，
+    消息历史存在参与者自己的设备上。群聊（它叫 swarm）里每台设备都存一份完整记录，
+    某台设备离线时，重新上线后会从在线的其他成员那里同步。
+
+    建账号的过程是本地生成一对密钥，你的身份就是那串 40 位的 Jami ID。
+    想让别人好找可以在 ns.jami.net 上注册一个用户名，不注册也能用。
+    同一个账号可以关联到多台设备，桌面端还能导出账号存档。
+
+    功能上除了文字，还有一对一和多人视频通话、屏幕共享、文件传输，
+    也能当 SIP 客户端接传统电话线路。
+
+    要说清楚的：
+
+    - **没有找回密码这回事。** 密钥只在你的设备上，设备全丢了、又没备份存档，账号就没了。
+      建完账号第一件事是关联第二台设备或者导出存档。
+    - **离线消息依赖对方或群里有设备在线。** 双方都不在线的时候，消息要等到两边碰上才会送达。
+    - **「无服务器」不是字面意义上的零服务器。** 默认的引导节点（bootstrap.jami.net）、
+      用户名服务器、NAT 穿透失败时用的 TURN 中继，以及手机推送用的 DHT 代理，
+      都由官方运营。这些都能换成自建的，但默认配置下它们在链路里。
+    - 手机端要关掉系统的电池优化，否则后台连接会被杀掉，来电和消息收不到。
+  en: |
+    GPL-3.0, an official GNU package, developed primarily by the Canadian company Savoir-faire Linux.
+    The code lives on its own GitLab at git.jami.net; GitHub has only mirrors.
+
+    The fundamental difference from Signal or Element is architectural: there is no server that stores
+    messages. Devices find each other through the OpenDHT distributed hash table and then open an
+    encrypted connection directly, and message history lives on participants' own devices. In group
+    conversations (called swarms) every device keeps a full copy, and a device that was offline syncs
+    from whichever members are reachable when it comes back.
+
+    Creating an account means generating a key pair locally; your identity is a 40-character Jami ID.
+    You can register a username on ns.jami.net to make yourself easier to find, but you do not have to.
+    One account can be linked to several devices, and the desktop client can export an account archive.
+
+    Beyond text it does one-to-one and group video calls, screen sharing and file transfer, and it can
+    act as a SIP client for traditional phone lines.
+
+    To be clear about:
+
+    - **There is no password recovery.** The keys exist only on your devices. Lose them all without a
+      backup and the account is gone. Link a second device or export the archive right after sign-up.
+    - **Offline delivery depends on someone being online.** If neither side is reachable, a message
+      waits until the two devices meet.
+    - **"No server" is not literally zero servers.** The default bootstrap node (bootstrap.jami.net),
+      the username server, the TURN relay used when NAT traversal fails, and the DHT proxy used for
+      mobile push are run by the project. All can be replaced with your own, but in the default setup
+      they are in the path.
+    - On phones, turn off battery optimization for Jami, or the system kills the background connection
+      and calls and messages do not arrive.

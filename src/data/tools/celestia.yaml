@@ -1,0 +1,66 @@
+name: Celestia
+accent: '#1E3A8A'
+initials: CE
+category: learning
+price: free
+license: 'GPL-2.0'
+website: https://celestiaproject.space
+download: https://celestiaproject.space/download.html
+repo: https://github.com/CelestiaProject/Celestia
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [天文, 太空模拟, 三维, 科普, 离线可用]
+platforms: [windows, macos, linux, ios, android]
+badges: [open-source, no-ads, offline, no-signup, cross-platform]
+tagline:
+  zh: 离开地面，飞到任意一颗行星、恒星或星系旁边去看
+  en: Leave the ground and fly to any planet, star or galaxy
+description:
+  zh: 开源的实时三维太空模拟软件。点选一个天体按 G 就飞过去，可以绕着行星、卫星、航天器转圈看，也能一路飞出银河系。时间可以调快、调慢或倒回，天体按真实轨道数据运行，还能装社区制作的扩展包补充模型和纹理。
+  en: Open-source real-time 3D space simulation. Select an object, press G and you fly there; orbit planets, moons and spacecraft, or keep going out of the Milky Way. Time can run faster, slower or backwards, bodies follow real orbital data, and community add-ons supply extra models and textures.
+review:
+  zh: |
+    GPL-2.0 协议，2,367 颗星。2001 年发布第一版，到现在还有人在提交代码。
+
+    它和 Stellarium 常被放在一起，但视角正好相反。Stellarium 站在地面往天上看，
+    Celestia 把你放进太空：选中土星按 G 飞过去，按住右键拖动绕着光环转，
+    再按 H 回到太阳。距离可以一路拉到几光年外，回头看太阳系缩成一个点。
+
+    适合拿来给孩子讲太阳系尺度，比课本插图直观得多；
+    也适合想看某个探测器轨道、某颗卫星长什么样的人。
+    自带的 Tour Guide 列了一批值得去的天体，第一次打开可以从那里开始。
+
+    要说清楚的：
+
+    - **桌面版稳定版停在 1.6.4（2023 年 11 月）。** 1.7 一直在开发，
+      Windows 有每日构建。移动端和微软商店里的「新版 Celestia」基于 1.7。
+    - **手机和 Mac App Store 版有订阅。** 应用商店和 Google Play 上的版本
+      提供 Celestia PLUS（订阅或一次性买断），加的是自定义字体、
+      扩展包分类和搜索这类附加功能，太空模拟本身免费。
+      Android 用户可以从 F-Droid 装。
+    - App Store 版会收集与身份无关的崩溃数据，桌面版不联网也能完整使用。
+  en: |
+    GPL-2.0, 2,367 stars. First released in 2001 and still receiving commits.
+
+    It is often mentioned alongside Stellarium, but the viewpoint is the opposite. Stellarium looks up
+    from the ground; Celestia puts you in space. Select Saturn, press G to fly there, right-drag to
+    orbit the rings, then press H to return to the Sun. You can pull back light years away and watch the
+    solar system shrink to a point.
+
+    It is good for showing children the scale of the solar system, far more directly than a textbook
+    illustration, and for anyone who wants to see a probe's trajectory or what a particular moon looks
+    like. The built-in Tour Guide lists interesting destinations and is a reasonable first stop.
+
+    To be clear about:
+
+    - **The desktop stable release is still 1.6.4 (November 2023).** 1.7 has been in development for a
+      long time, with nightly Windows builds. The "new Celestia" on mobile and the Microsoft Store is
+      based on 1.7.
+    - **The mobile and Mac App Store builds have a subscription.** Versions from the App Store and Google
+      Play offer Celestia PLUS (subscription or one-time lifetime purchase), which adds extras such as custom
+      fonts, add-on categories and add-on search. The space simulation itself is free. Android users can
+      install from F-Droid instead.
+    - The App Store version collects crash data not linked to identity. The desktop version works fully
+      offline.

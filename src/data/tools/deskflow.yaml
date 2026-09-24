@@ -1,0 +1,74 @@
+name: Deskflow
+accent: '#2563EB'
+initials: DF
+category: remote
+price: free
+license: 'GPL-2.0'
+website: https://deskflow.org
+download: https://github.com/deskflow/deskflow/releases/latest
+repo: https://github.com/deskflow/deskflow
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [键鼠共享, 多电脑, 软件kvm, 替代synergy, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 一套键盘鼠标，控制桌上的几台电脑
+  en: One keyboard and mouse across every computer on your desk
+description:
+  zh: 键盘鼠标共享工具，相当于不传画面的软件 KVM。鼠标移出一台电脑的屏幕边缘就进入另一台，剪贴板跟着走。支持 Windows、macOS、Linux（含 Wayland），连接默认 TLS 加密。它是 Synergy 的上游开源项目。
+  en: A keyboard and mouse sharing tool — a software KVM without the video. Move the pointer off one screen's edge and it lands on the next computer, with the clipboard following. It runs on Windows, macOS and Linux including Wayland, with TLS encryption on by default. It is the open-source upstream of Synergy.
+review:
+  zh: |
+    GPL-2.0 协议，29,090 颗星。
+
+    桌上一台 Windows 工作机、一台 Mac、一台 Linux，三套键鼠来回换手，
+    Deskflow 把这件事变成一个设置：主机当服务端，其他机器当客户端，
+    在界面里把几块屏幕的相对位置摆好，鼠标就能在它们之间直接划过去，
+    键盘输入跟着光标走，复制的文字在另一台上能直接粘贴。
+
+    Deskflow 是上游开源项目，Synergy 是基于它的商业版本，
+    Synergy 的公司出钱资助 Deskflow 并贡献代码。
+    Barrier、Input Leap 这些分支现在都已停止开发，Deskflow 和它们保持网络协议兼容，
+    和 Synergy 1 也能互连，但 Synergy 3 还不兼容。
+
+    Linux 上支持 Wayland，依赖 libei 1.3 以上和 libportal 0.8 以上，
+    系统库版本不够的可以装 Flathub 上的版本。数据只在局域网里走，不需要账号，也不需要联网。
+
+    要说清楚的：
+
+    - **macOS 版没有经过苹果公证**，直接下载会被系统报「已损坏」，
+      需要执行 `xattr -c /Applications/Deskflow.app`，或者改用官方的 Homebrew tap 安装。
+      另外要在隐私设置里给辅助功能权限，升级后要删掉旧授权重新添加。
+    - Windows 需要 Windows 10 1809 以上，并先装微软 VC++ 运行库。
+    - 它只共享键鼠和剪贴板，不传画面。每台电脑还是要有自己的显示器。
+    - deskflow.org 目前直接跳转到 GitHub 项目页。
+  en: |
+    GPL-2.0, 29,090 stars.
+
+    A Windows work machine, a Mac and a Linux box on one desk means three keyboards and three mice.
+    Deskflow turns that into one setup: the main machine is the server, the rest are clients, you
+    arrange the screens' relative positions in the interface, and the pointer glides across them. Typing
+    follows the cursor, and text copied on one computer pastes on another.
+
+    Deskflow is the open-source upstream and Synergy is the commercial product built on it; the Synergy
+    company funds Deskflow and contributes code.
+    Forks like Barrier and Input Leap are no longer developed; Deskflow stays network-compatible with
+    them and with Synergy 1, though not yet with Synergy 3.
+
+    Wayland is supported on Linux, requiring libei 1.3+ and libportal 0.8+; systems with older
+    libraries can use the Flathub build. Traffic stays on the local network, with no account and no
+    internet connection needed.
+
+    To be clear about:
+
+    - **The macOS build is not notarized by Apple,** so a direct download is reported as "damaged".
+      Run `xattr -c /Applications/Deskflow.app`, or install from the official Homebrew tap. You also
+      need to grant Accessibility permission, and after upgrading remove the old entries and grant it
+      again.
+    - Windows requires Windows 10 1809 or later and the Microsoft Visual C++ Redistributable.
+    - It shares keyboard, mouse and clipboard only, not the screen. Every computer still needs its own
+      display.
+    - deskflow.org currently redirects straight to the GitHub project page.

@@ -1,0 +1,87 @@
+name: RPCS3
+accent: '#1D6FD1'
+initials: R3
+category: gaming
+price: free
+license: 'GPL-2.0-only'
+website: https://rpcs3.net
+download: https://rpcs3.net/download
+repo: https://github.com/RPCS3/rpcs3
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [模拟器, ps3, playstation, 高清渲染, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: PS3 游戏搬到电脑上跑，还能调高分辨率、解锁帧率
+  en: PS3 games on a PC, at higher resolutions and unlocked frame rates
+description:
+  zh: 开源的 PlayStation 3 模拟器和调试器，C++ 编写，支持 Windows、Linux、macOS 和 FreeBSD。可以把原本多为 720P 的 PS3 游戏以更高内部分辨率渲染，支持帧率解锁补丁和即时存档。固件从索尼官网下载，游戏需要从自己的光盘或主机转储。
+  en: An open-source PlayStation 3 emulator and debugger written in C++, running on Windows, Linux, macOS and FreeBSD. PS3 games, mostly 720p originally, can be rendered at higher internal resolutions, with frame-rate unlock patches and save states. The firmware comes from Sony's own site, and games must be dumped from your own discs or console.
+review:
+  zh: |
+    GPL-2.0-only 协议，截至 2026 年 9 月 19,853 颗星，提交数超过两万次。
+
+    PS3 用的 Cell 处理器是出了名的难模拟：一个主核加上六个供游戏使用的 SPU 协处理器，
+    很多游戏把大量计算压在 SPU 上。RPCS3 从 2011 年开始做，
+    花了十几年把这套架构翻译到 x86 和 ARM 上，现在大量 PS3 独占游戏已经能从头玩到尾。
+
+    实际效果和 Dolphin、PCSX2 类似：内部分辨率可以往上调，
+    很多游戏有社区维护的补丁，能解锁 30 帧上限、去掉动态模糊。
+    手柄方面，DualShock 3、DualShock 4、DualSense 和 Xbox 手柄都能直接用。
+
+    上手的步骤：
+
+    - 从索尼官网的 PS3 系统软件更新页下载 `PS3UPDAT.PUP`，
+      在 RPCS3 里用「File > Install Firmware」装进去。固件是索尼免费公开发布的。
+    - 游戏从自己的光盘转储。可以用装了自制固件的 PS3 主机，
+      也可以用兼容的蓝光光驱在电脑上转储。PSN 数字版游戏还需要对应的授权文件。
+    - 查官网的兼容性列表，确认想玩的游戏是什么状态，再看有没有推荐设置。
+
+    要说清楚的：
+
+    - **对 CPU 要求很高。** 官方说明里，没有 AVX2 指令集、只有 4 线程以下、
+      或者每个 CCX 只有 2 核的 CPU 都会跑得很差，推荐至少 6 个物理核心。
+      内存最低 8 GB，推荐 16 GB 并开双通道。显卡推荐支持 Vulkan 1.2 的型号。
+    - **系统版本有门槛。** Windows 需要 10 或更新版本，macOS 需要 14.4 或更新；
+      Apple Silicon 上的性能波动较大。
+    - **游戏和授权文件都得自备。** RPCS3 不提供任何游戏。网上打包好的「整合版」
+      既侵权，也常夹带恶意程序，只从 rpcs3.net 或官方 GitHub 下载。
+    - **发布方式是持续构建。** 没有传统意义上的正式版，下载页给的就是最新构建，
+      版本号仍停在 0.0.x，这是项目常态。
+    - **首次运行每个游戏都要编译着色器和 PPU/SPU 缓存**，第一次进游戏会卡一阵，之后就顺了。
+  en: |
+    GPL-2.0-only, 19,853 stars as of September 2026, with more than twenty thousand commits.
+
+    The PS3's Cell processor is notoriously hard to emulate: one main core plus six SPU co-processors
+    available to games, and many games pushed heavy work onto the SPUs. RPCS3 started in 2011 and spent
+    over a decade translating that architecture to x86 and ARM; a large share of PS3 exclusives are now
+    playable start to finish.
+
+    The practical effect resembles Dolphin and PCSX2: internal resolution can be raised, and many games
+    have community-maintained patches that lift the 30 fps cap or remove motion blur. DualShock 3,
+    DualShock 4, DualSense and Xbox controllers all work directly.
+
+    Getting started:
+
+    - Download `PS3UPDAT.PUP` from the PS3 system software update page on Sony's site and install it
+      with File > Install Firmware. Sony publishes the firmware publicly for free.
+    - Dump games from your own discs, either with a PS3 running custom firmware or a compatible Blu-ray
+      drive on a PC. Digital PSN games also need their license files.
+    - Check the compatibility list on the official site for the game's status and recommended settings.
+
+    To be clear about:
+
+    - **It is very CPU-hungry.** The official guidance says CPUs without AVX2, with four threads or
+      fewer, or with two cores per CCX will perform badly, and recommends at least six physical cores.
+      8 GB of RAM is the minimum, 16 GB in dual channel recommended, and a Vulkan 1.2 GPU is preferred.
+    - **OS requirements.** Windows 10 or later, macOS 14.4 or later; performance on Apple Silicon varies.
+    - **Bring your own games and license files.** RPCS3 ships no games. Pre-packaged "complete" bundles
+      found online infringe copyright and often carry malware; download only from rpcs3.net or the
+      official GitHub.
+    - **It ships continuous builds.** There is no traditional stable release; the download page offers
+      the latest build, and the version number still reads 0.0.x. That is normal for this project.
+    - **Each game compiles shaders and PPU/SPU caches on first launch,** so the first run stutters for a
+      while and later runs are smooth.

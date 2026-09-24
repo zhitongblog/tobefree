@@ -2,8 +2,8 @@ title:
   zh: "免费记账与理财软件推荐"
   en: "Free Accounting and Personal Finance Software"
 description:
-  zh: "八款免费记账、预算与投资跟踪软件，数据存在本机或自建服务器，不上传银行账号，不按条数收费。"
-  en: "Eight free tools for bookkeeping, budgeting and portfolio tracking, storing data locally or on your own server, with no bank credentials uploaded and no per-transaction pricing."
+  zh: "十一款免费记账、预算、订阅与投资跟踪软件，数据存在本机或自建服务器，不上传银行账号，不按条数收费。"
+  en: "Eleven free tools for bookkeeping, budgeting, subscription and portfolio tracking, storing data locally or on your own server, with no bank credentials uploaded and no per-transaction pricing."
 intro:
   zh: "记账软件有个绕不开的问题：它要看你的全部消费记录。商业记账 App 的典型做法是让你绑定银行卡自动同步，账目存在厂商服务器上，免费版限制账本数量或历史查询范围，导出功能藏在付费墙后面。这份清单里的工具都把数据留在你自己手上 —— 本地数据库、纯文本文件，或者你自己搭的服务。按用途分三类：复式记账、日常预算、投资组合跟踪。"
   en: "Bookkeeping software has an unavoidable property: it sees everything you spend. Commercial apps typically want your bank login for automatic sync, keep the ledger on a vendor server, cap the number of books or the history range on the free tier, and put export behind a paywall. Everything in this list keeps the data in your hands — a local database, plain text files, or a service you run. It sorts three ways: double-entry accounting, everyday budgeting, and portfolio tracking."
@@ -18,7 +18,7 @@ criteria:
     - "Export is unrestricted — the full book leaves with you at any time."
     - "No caps on the number of books, entries or how far back you can look."
     - "Usable without linking a bank account or handing over online banking credentials."
-tools: [gnucash, actual-budget, homebank, money-manager-ex, firefly-iii, beancount, ghostfolio, portfolio-performance]
+tools: [gnucash, actual-budget, homebank, money-manager-ex, firefly-iii, beancount, ghostfolio, portfolio-performance, kmymoney, hledger, wallos]
 skills: []
 featured: true
 added: '2026-09-18'

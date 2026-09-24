@@ -1,0 +1,43 @@
+title:
+  zh: "免费开源游戏推荐"
+  en: "Free Open-Source Games"
+description:
+  zh: "五个免费开源的游戏与游戏工具：方块沙盒、即时战略、卡丁车、国际象棋，以及《我的世界》Java 版启动器。没有内购、没有广告、没有体力值。"
+  en: "Five free and open-source games and game tools: a block sandbox, a real-time strategy game, a kart racer, chess, and a Minecraft Java Edition launcher. No in-app purchases, no ads, no energy meters."
+intro:
+  zh: "免费游戏这个词已经被「免费下载、内购赚钱」占住了：开局送一点，卡关时弹礼包，体力用完等半小时或者付钱。开源游戏是另一套逻辑，代码和素材公开，靠志愿者和捐款维持，没有一个需要从你身上挣回开发成本的运营团队。这份清单里的游戏都能完整玩到底，不用付钱解锁内容。Prism Launcher 是个例外，启动器本身免费开源，但《我的世界》要自己买，页面里写清楚了。"
+  en: "\"Free game\" has been claimed by free-to-download, pay-to-progress: a little given at the start, a bundle offer when you get stuck, an energy meter that refills in half an hour or for money. Open-source games work on different logic — code and assets are public, the work is sustained by volunteers and donations, and there is no operations team that has to earn the development cost back from you. Every game on this list can be played through without paying to unlock content. Prism Launcher is the exception: the launcher is free and open source, but Minecraft itself has to be bought, and its page says so."
+criteria:
+  zh:
+    - "游戏或工具本身开源，核心内容全部免费，没有内购和付费解锁。"
+    - "没有广告，没有体力值、抽卡这类付费设计。"
+    - "单人或本地游玩不需要注册账号；需要账号的地方在各自页面里标明。"
+    - "从官网或官方仓库下载，不收应用商店里的重打包版本。"
+  en:
+    - "The game or tool is open source, with all core content free — no in-app purchases or paid unlocks."
+    - "No ads, and no energy meters, gacha or other pay-to-progress mechanics."
+    - "Single-player or local play needs no account; where an account is required, each page says so."
+    - "Downloaded from the official site or repository, not a store repackage."
+tools: [luanti, 0ad, supertuxkart, lichess, prism-launcher]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "想找一个能玩很久的沙盒游戏？"
+      a: "Luanti，原名 Minetest。挖掘建造、多人联机都有，社区做了几千个游戏模式和模组，服务器可以自己架。它还是个游戏引擎，会写 Lua 的话可以在上面做自己的游戏。全程不需要账号。"
+    - q: "有没有像《帝国时代》那样的即时战略游戏？"
+      a: "0 A.D.。采集资源、建城、造兵、升级时代，玩法是同一路，有 15 个可玩文明，可以打电脑 AI，也能局域网或在线大厅联机。代码是 GPL，美术素材是 CC-BY-SA，都公开。"
+    - q: "适合一家人一起玩的？"
+      a: "SuperTuxKart。3D 卡丁车，一台电脑最多八人分屏，另有大奖赛、足球、对战等玩法，手机上也能玩。本地和局域网游戏不要账号，只有上网联机需要注册一个 STK 账号。"
+    - q: "Lichess 真的完全免费吗？"
+      a: "是。它由非营利协会运营，靠捐款维持，在线对弈、引擎分析、谜题和课程都免费，没有付费会员档位，也没有广告。和朋友用链接对弈、打电脑、用分析棋盘不需要账号，排位赛和锦标赛要注册。"
+  en:
+    - q: "A sandbox game I can play for a long time?"
+      a: "Luanti, formerly Minetest. Mining, building and multiplayer are all there, the community has made thousands of game modes and mods, and you can run your own server. It is also a game engine — if you write Lua, you can build your own game on it. No account needed anywhere."
+    - q: "Anything like Age of Empires?"
+      a: "0 A.D. Gather resources, build a city, train troops and advance through ages — the same kind of game, with 15 playable civilisations, AI opponents, LAN play and an online lobby. The code is GPL and the art is CC-BY-SA, both public."
+    - q: "Something the whole family can play together?"
+      a: "SuperTuxKart. A 3D kart racer with split-screen for up to eight players on one computer, plus grand prix, soccer and battle modes, and it runs on phones too. Local and LAN games need no account; only online multiplayer needs an STK account."
+    - q: "Is Lichess really completely free?"
+      a: "Yes. It is run by a non-profit association on donations; online play, engine analysis, puzzles and lessons are all free, with no paid membership tier and no ads. Playing a friend by link, playing the computer and using the analysis board need no account; rated games and tournaments do."

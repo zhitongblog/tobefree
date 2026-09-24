@@ -2,8 +2,8 @@ title:
   zh: "免费 CAD 与 3D 打印软件"
   en: "Free CAD and 3D Printing Software"
 description:
-  zh: "九款免费的建模、电路设计、室内设计与 3D 打印切片软件，导出不带水印、不限文件数、不锁定云端。"
-  en: "Nine free tools for modelling, circuit design, interior layout and 3D print slicing — no watermarked exports, no file count limits, no cloud lock-in."
+  zh: "十二款免费的建模、电路设计、室内设计、积木搭建与 3D 打印切片软件，导出不带水印、不限文件数、不锁定云端。"
+  en: "Twelve free tools for modelling, circuit design, interior layout, brick building and 3D print slicing — no watermarked exports, no file count limits, no cloud lock-in."
 intro:
   zh: "工程软件的免费版通常有三道锁：导出格式限制、文件数量上限、以及「个人版」条款里那句年营收超过某个数就要转商业授权。文件还经常只存在厂商云上，停止订阅就打不开。这份清单里的工具用的是开放格式，文件在你本机，按用途分四类：参数化建模、电路设计、室内与家具、3D 打印切片。"
   en: "Free tiers in engineering software usually carry three locks: export format restrictions, a cap on how many files you may keep, and a clause in the personal licence converting you to commercial terms above a revenue threshold. Files also tend to live only in a vendor cloud, unopenable once the subscription stops. Everything here uses open formats with files on your own machine, sorted four ways — parametric modelling, circuit design, interiors and furniture, and 3D print slicing."
@@ -18,7 +18,7 @@ criteria:
     - "Files live locally — opening your own work needs no connection and no subscription."
     - "Neither personal nor commercial use is restricted by licence terms."
     - "Open or widely supported file formats throughout."
-tools: [freecad, openscad, librecad, solvespace, kicad, sweet-home-3d, blender, orcaslicer, prusaslicer]
+tools: [freecad, openscad, librecad, solvespace, kicad, sweet-home-3d, blender, orcaslicer, prusaslicer, ultimaker-cura, dune-3d, leocad]
 skills: []
 featured: false
 added: '2026-09-18'

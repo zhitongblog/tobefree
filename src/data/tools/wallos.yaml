@@ -1,0 +1,77 @@
+name: Wallos
+accent: '#0A84FF'
+initials: WA
+category: finance
+price: free
+license: 'GPL-3.0'
+website: https://wallosapp.com
+download: https://github.com/ellite/Wallos#installation
+repo: https://github.com/ellite/Wallos
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [订阅管理, 自建服务, 续费提醒, 记账, docker]
+platforms: [linux, web]
+badges: [open-source, no-ads, no-tracking, self-hostable]
+tagline:
+  zh: 把所有自动续费列在一张表上，扣款前提醒你
+  en: Every auto-renewal on one list, with a reminder before each charge
+description:
+  zh: 自建的订阅管理工具。录入各种会员、云服务、软件订阅的价格和周期，它算出每月总支出、列出下次扣款日，按分类、付款方式和家庭成员统计，到期前通过邮件、Telegram、Discord、Gotify、Pushover 或 Webhook 提醒。一条 Docker 命令就能跑起来，界面有简体和繁体中文。
+  en: A self-hosted subscription tracker. Enter the price and cycle of every membership, cloud service and software plan, and it works out your monthly total, lists upcoming charge dates, breaks spending down by category, payment method and household member, and sends reminders before renewals by email, Telegram, Discord, Gotify, Pushover or webhook. One Docker command gets it running, and the interface includes Simplified and Traditional Chinese.
+review:
+  zh: |
+    GPL-3.0 协议，8,574 颗星。最新的 v5.8.1 发布于 2026 年 9 月 18 日。
+
+    订阅多了以后，最难的不是付钱，是记住自己到底订了什么。
+    视频会员、网盘、域名、VPS、各种 App 的年费分散在不同的卡和账号上，
+    年底对账时才发现有几项早就不用了还在扣。
+    Wallos 只做这一件事：把它们列在一起，算清楚一个月、一年花多少，扣款前提醒。
+
+    部署很轻。`docker run` 映射一个端口、挂两个目录（数据库和图标）就行，
+    数据是一个 SQLite 文件，备份就是复制它。第一次打开时注册的是你自己实例上的管理员账号，
+    不连任何外部服务。支持多用户，也能接 OIDC 单点登录。
+
+    细节做得周到：多币种订阅可以统一换算成主货币；
+    添加订阅时能按名字自动搜索图标；日历视图看每个月哪天扣钱；
+    还可以标记「准备取消」，到期前单独提醒。
+
+    要说清楚的：
+
+    - **汇率换算要自己申请 Fixer 的 API Key。** Fixer 有免费档，
+      不填也能用，只是不同币种不会自动换算。
+    - 图标搜索会把订阅名称发到 DuckDuckGo 或 Brave 的图片搜索，
+      后台还会定期查询 GitHub 上的最新版本号。介意的话图标可以手动上传。
+    - AI 省钱建议是可选功能，要自己接 ChatGPT、Gemini 或本地 Ollama。
+    - **App Store 上有一个同名的「Wallos - Subscription Manager」，
+      开发者不是这个项目**，带内购。Wallos 本身没有原生 App，手机上用网页版，界面有适配。
+  en: |
+    GPL-3.0, 8,574 stars. The latest release, v5.8.1, came out on 18 September 2026.
+
+    Once subscriptions pile up, the hard part is not paying but remembering what you signed up for.
+    Streaming, cloud storage, domains, VPS plans and annual app fees are spread across different cards
+    and accounts, and at the end of the year you find a few you stopped using long ago still being
+    charged. Wallos does one job: puts them in one list, totals the monthly and yearly cost, and reminds
+    you before each charge.
+
+    Deployment is light. `docker run` with one port and two mounted directories (database and logos) is
+    enough. Data is a single SQLite file, so a backup is a copy. The account you create on first launch
+    is an admin account on your own instance and talks to no outside service. It supports multiple users
+    and OIDC single sign-on.
+
+    The details are considered: subscriptions in several currencies can be converted to a main currency,
+    logos can be searched automatically by name when adding a subscription, a calendar view shows which
+    days money goes out, and you can mark a subscription for cancellation to get a separate reminder
+    before it renews.
+
+    To be clear about:
+
+    - **Currency conversion needs your own Fixer API key.** Fixer has a free tier; without a key the app
+      still works, it just will not convert between currencies.
+    - Logo search sends subscription names to DuckDuckGo or Brave image search, and a background job
+      periodically checks GitHub for the latest version. Upload logos manually if that bothers you.
+    - AI savings recommendations are optional and need your own ChatGPT, Gemini or local Ollama.
+    - **The App Store has an app called "Wallos - Subscription Manager" from a different developer**, with
+      in-app purchases. Wallos itself has no native app; on a phone you use the web interface, which has
+      a mobile layout.

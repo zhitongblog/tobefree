@@ -1,0 +1,87 @@
+name: Trippy
+accent: '#2B6CB0'
+initials: TR
+category: network
+price: free
+license: 'Apache-2.0'
+website: https://trippy.rs
+download: https://trippy.rs/start/installation/
+repo: https://github.com/fujiapple852/trippy
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [网络诊断, traceroute, ping, 丢包排查, 命令行]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: traceroute 和 ping 合在一起，哪一跳在丢包实时看得见
+  en: Traceroute and ping in one, showing live which hop is dropping packets
+description:
+  zh: 终端里的网络诊断工具，把 traceroute 和 ping 合成一个持续刷新的界面，逐跳显示丢包率、延迟、抖动和历史图表。支持 ICMP、UDP、TCP 三种探测和 IPv4/IPv6，能查反向 DNS、ASN 和 GeoIP 并画在世界地图上，也能输出 JSON、CSV、Markdown 报告。
+  en: A terminal network diagnostic tool that merges traceroute and ping into one continuously updating view, showing loss, latency, jitter and history charts per hop. It probes over ICMP, UDP or TCP on IPv4 and IPv6, looks up reverse DNS, ASN and GeoIP with a world map view, and can emit JSON, CSV or Markdown reports.
+review:
+  zh: |
+    Apache-2.0 协议，近 8,000 颗星，Rust 写的。
+    最新正式版是 2025 年 5 月的 0.13.0，之后一直没有新版本，但主干到 2026 年 9 月仍有提交。
+
+    排查「网慢」「打游戏卡」「某个网站时好时坏」这类问题，traceroute 跑一次只给一个快照，
+    ping 只看终点。Trippy 做的是 mtr 那套思路：对路径上每一跳持续发探测包，
+    表格里实时刷新每一跳的丢包率、平均延迟、最差延迟和抖动，另有图表视图。
+    问题出在家里路由器、运营商骨干还是对方机房，看丢包和延迟从哪一跳开始出现就知道。
+
+    ```
+    trip example.com
+    ```
+
+    几处实用的功能：
+
+    - **TCP 和 UDP 探测。** 有些网络会丢 ICMP，用 `--tcp -P 443` 按真实业务端口测，结果更接近实际。
+    - **ECMP 多路径。** 支持 paris 和 dublin 策略，能把负载均衡拆出来的多条路径分开看。
+    - **ASN 和 GeoIP。** 加 `-z` 后每一跳标出所属运营商的 AS 号，接上 MaxMind 或 IPinfo 的数据库还能画在世界地图上。
+    - **报告模式。** `-m json` / `-m csv` / `-m markdown` 跑指定轮数后输出结果，方便贴到工单里或者给脚本处理。
+    - 界面支持中文（`--tui-locale zh`），配色、列和快捷键都能改。
+
+    要说清楚的：
+
+    - **需要管理员权限。** 它要用原始套接字：Linux 上用 `sudo` 跑，或者一次性 `setcap CAP_NET_RAW+p`；
+      Windows 必须以管理员身份运行。只有 macOS 支持 `-u` 非特权模式，而且非特权模式下用不了 paris/dublin。
+    - **纯终端程序，没有图形界面。** 安装靠包管理器：`brew install trippy`、`winget install trippy`、
+      `cargo install trippy --locked`，Debian 13 起可以直接 `apt install trippy`。
+    - GeoIP 数据库要自己去 MaxMind 或 IPinfo 下载，不自带。
+  en: |
+    Apache-2.0, nearly 8,000 stars, written in Rust. The latest tagged release is 0.13.0 from May 2025,
+    with no release since, though the main branch was still receiving commits in September 2026.
+
+    When chasing "the network is slow", "the game lags" or "that site works on and off", traceroute
+    gives a single snapshot and ping only sees the destination. Trippy follows the mtr approach: it
+    keeps probing every hop on the path and refreshes loss, average latency, worst latency and jitter
+    per hop in a live table, with chart views as well. Whether the problem is your router, the ISP's
+    backbone or the far-end data centre, you see it at the hop where loss and latency start.
+
+    ```
+    trip example.com
+    ```
+
+    The useful parts:
+
+    - **TCP and UDP probes.** Some networks drop ICMP; `--tcp -P 443` tests on the real service port
+      for results closer to what users experience.
+    - **ECMP multipath.** The paris and dublin strategies separate the paths a load balancer splits
+      traffic across.
+    - **ASN and GeoIP.** With `-z` each hop is tagged with its operator's AS number, and with a
+      MaxMind or IPinfo database the route is drawn on a world map.
+    - **Report modes.** `-m json`, `-m csv` or `-m markdown` run a set number of rounds and print the
+      result, ready for a ticket or a script.
+    - The interface is translated into 11 languages, and colours, columns and key bindings are all
+      configurable.
+
+    To be clear about:
+
+    - **It needs elevated privileges.** It uses raw sockets: on Linux run it with `sudo` or grant it
+      once with `setcap CAP_NET_RAW+p`; on Windows it must run as Administrator. Only macOS supports the
+      `-u` unprivileged mode, and paris/dublin are unavailable there.
+    - **Terminal only, with no GUI.** Install through a package manager — `brew install trippy`,
+      `winget install trippy`, `cargo install trippy --locked`, or `apt install trippy` on Debian 13
+      and later.
+    - GeoIP databases are not bundled; download them from MaxMind or IPinfo yourself.

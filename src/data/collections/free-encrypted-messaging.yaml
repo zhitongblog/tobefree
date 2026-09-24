@@ -2,8 +2,8 @@ title:
   zh: "免费加密聊天与会议软件"
   en: "Free Encrypted Messaging and Meeting Apps"
 description:
-  zh: "九款端到端加密的聊天、邮件与会议工具，含加密协议、注册要求和元数据处理方式。有三款连手机号都不要。"
-  en: "Nine end-to-end encrypted chat, mail and meeting tools, with their protocols, registration requirements and metadata handling. Three of them do not even want a phone number."
+  zh: "十二款端到端加密的聊天、邮件与会议工具，含加密协议、注册要求和元数据处理方式。SimpleX、Session、Jami、Briar 四款连账号都不用注册。"
+  en: "Twelve end-to-end encrypted chat, mail and meeting tools, with their protocols, registration requirements and metadata handling. Four of them — SimpleX, Session, Jami and Briar — need no sign-up at all."
 intro:
   zh: "端到端加密现在是个营销词，主流 IM 都在宣传页上写。真正的差别在两个地方：加密是默认开着还是要手动开一个「私密对话」，以及内容之外的那层信息 —— 谁在什么时间联系了谁、多久一次、通讯录里有谁 —— 被保留了多少。第二层叫元数据，加密不覆盖它，但它足以还原一个人的社会关系。这份清单按元数据暴露程度排，从要手机号的到连账号都没有的。"
   en: "End-to-end encryption is a marketing line now; every mainstream messenger prints it. The real differences sit in two places: whether encryption is on by default or hidden behind a \"secret chat\" toggle, and how much of the layer beyond content survives — who contacted whom, when, how often, and who is in your address book. That layer is metadata, encryption does not cover it, and it is enough to reconstruct someone's social graph. This list is ordered by metadata exposure, from phone-number registration down to no account at all."
@@ -18,7 +18,7 @@ criteria:
     - "The protocol is public and the client is open source and auditable."
     - "Registration requirements are stated per tool — phone number, email address, or nothing at all."
     - "Self-hostable servers are called out separately."
-tools: [signal, simplex-chat, session, element, delta-chat, proton-mail, jitsi-meet, mumble, zulip]
+tools: [signal, simplex-chat, session, element, delta-chat, proton-mail, jitsi-meet, mumble, zulip, jami, briar, fluffychat]
 skills: []
 featured: true
 added: '2026-09-18'
@@ -27,7 +27,7 @@ faq:
     - q: "日常用哪个最现实？"
       a: "Signal。加密协议是行业事实标准，好几个主流 IM 的加密层就是用的它。默认全程加密，界面和普通 IM 没区别，说服家人朋友装上的成本最低。代价是要手机号注册，这意味着服务器知道哪个号码在用它。"
     - q: "不想给手机号呢？"
-      a: "SimpleX Chat 和 Session 都不要手机号，也不要邮箱。SimpleX 的设计是连用户标识符都没有——联系人之间用一次性的邀请链接建立单向队列，服务器上不存在「谁是谁」这张表。Session 用的是洋葱路由加去中心化节点网络，同样没有账号。代价是两者的用户基数都远小于 Signal，你得先说服对方也装。"
+      a: "SimpleX Chat 和 Session 都不要手机号，也不要邮箱。SimpleX 的设计是连用户标识符都没有——联系人之间用一次性的邀请链接建立单向队列，服务器上不存在「谁是谁」这张表。Session 用的是洋葱路由加去中心化节点网络，同样没有账号。代价是两者的用户基数都远小于 Signal，你得先说服对方也装。Jami 和 Briar 同样不要手机号和邮箱，账号只存在本机；Briar 在断网时还能通过蓝牙或 Wi-Fi 直接传消息。"
     - q: "团队自己搭一个，选什么？"
       a: "Element 配 Matrix 服务器，或者 Zulip。Element 走开放协议，不同服务器之间可以互通，端到端加密可以打开。Zulip 强在话题式的消息组织，几百人的讨论不会糊成一锅，适合开源社区和分布式团队，自建版功能完整。"
     - q: "开会用什么？"
@@ -38,7 +38,7 @@ faq:
     - q: "Which is realistic for everyday use?"
       a: "Signal. Its protocol is the de facto industry standard, and several mainstream messengers use it as their encryption layer. Encryption is always on, the interface is indistinguishable from an ordinary messenger, and it costs the least to persuade family to install. The price is phone number registration, which means the server knows which number uses it."
     - q: "And without giving a phone number?"
-      a: "SimpleX Chat and Session want neither a number nor an email. SimpleX is designed without user identifiers at all — contacts establish one-way queues through single-use invitation links, so no table of who-is-who exists on a server. Session uses onion routing over a decentralised node network, also with no account. In both cases the user base is far smaller than Signal's, so you have to bring the other person along."
+      a: "SimpleX Chat and Session want neither a number nor an email. SimpleX is designed without user identifiers at all — contacts establish one-way queues through single-use invitation links, so no table of who-is-who exists on a server. Session uses onion routing over a decentralised node network, also with no account. In both cases the user base is far smaller than Signal's, so you have to bring the other person along. Jami and Briar also need no number or email, with the account living only on your device; Briar can even pass messages over Bluetooth or Wi-Fi when the internet is down."
     - q: "What should a team self-host?"
       a: "Element against a Matrix server, or Zulip. Element speaks an open protocol so separate servers interoperate, with end-to-end encryption available. Zulip's strength is topic-threaded organisation, where a discussion among hundreds of people does not collapse into mush, which suits open-source communities and distributed teams; the self-hosted build is complete."
     - q: "What about meetings?"

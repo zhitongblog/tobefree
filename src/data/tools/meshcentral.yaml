@@ -1,0 +1,67 @@
+name: MeshCentral
+accent: '#0B5CAD'
+initials: MC
+category: remote
+price: free
+license: 'Apache-2.0'
+website: https://meshcentral.com
+download: https://docs.meshcentral.com/install/quickstart/
+repo: https://github.com/Ylianst/MeshCentral
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [远程管理, 远程桌面, 可自建, 设备管理, 开源]
+platforms: [windows, macos, linux, web]
+badges: [open-source, no-ads, no-tracking, cross-platform, self-hostable]
+tagline:
+  zh: 自己搭一个网页版的远程桌面和设备管理后台
+  en: Your own web console for remote desktop and device management
+description:
+  zh: 自建的远程管理平台。服务端是一个 Node.js 程序，在被管理的 Windows、Linux、macOS、FreeBSD 机器上装代理后，就能在浏览器里远程桌面、开终端、传文件、看硬件信息，一个后台管几十上百台设备。
+  en: A self-hosted remote management platform. The server is a Node.js program; install its agent on Windows, Linux, macOS or FreeBSD machines and you get remote desktop, terminal, file transfer and hardware inventory in the browser, managing dozens or hundreds of devices from one console.
+review:
+  zh: |
+    Apache-2.0 协议，7,280 颗星，2026 年 9 月仍在频繁发版。
+
+    RustDesk 解决的是「连一台电脑」，MeshCentral 解决的是「管一批电脑」。
+    服务端装好后，在网页后台生成代理安装包，装到公司、家人或客户的机器上，
+    这些设备就按分组出现在后台列表里。远程桌面、命令行终端、文件管理都在浏览器里完成，
+    控制端不用装任何软件。支持英特尔 AMT 的机器，在系统没启动时也能通过 AMT 带外管理。
+
+    部署门槛比想象中低：装好 Node.js，在一个目录里 `npm install meshcentral`，
+    再 `node node_modules/meshcentral` 就起来了。默认数据库是内置的 NeDB，
+    设备多了可以换 MongoDB、PostgreSQL 或 MySQL。
+    官方文档说一台树莓派或最小规格的云主机就能管几百台设备。
+
+    要说清楚的：
+
+    - **需要一台自己的服务器。** 只在局域网用可以放在内网机器上；
+      要管理外网设备，服务端得有公网地址或域名，并配好 HTTPS。
+    - **浏览器里第一个注册的账号自动成为管理员。** 装好后马上去注册，别把刚起来的服务端晾在公网上。
+    - 代理装上就等于把整台机器的控制权交给了服务端，服务端的账号安全和系统更新都是你的责任。
+    - 界面功能密集，偏 IT 运维工具的风格，只想偶尔帮家人看一眼电脑，RustDesk 更顺手。
+  en: |
+    Apache-2.0, 7,280 stars, and still releasing frequently as of September 2026.
+
+    RustDesk is about connecting to one computer; MeshCentral is about managing a fleet. Once the
+    server is up, you generate agent installers from the web console and install them on office,
+    family or client machines, which then appear grouped in the console. Remote desktop, command-line
+    terminal and file management all happen in the browser, with nothing to install on the controlling
+    side. Machines with Intel AMT can be reached out-of-band even when the OS is not running.
+
+    Setup is easier than it sounds: install Node.js, run `npm install meshcentral` in a directory, then
+    `node node_modules/meshcentral`. The default database is the embedded NeDB, and larger fleets can
+    move to MongoDB, PostgreSQL or MySQL. The documentation says a Raspberry Pi or the smallest cloud
+    instance can manage a few hundred devices.
+
+    To be clear about:
+
+    - **You need your own server.** For LAN-only use it can sit on an internal machine; to manage
+      devices over the internet, the server needs a public address or domain with HTTPS configured.
+    - **The first account created in the browser becomes the administrator.** Register immediately
+      after installing, and do not leave a fresh server sitting exposed on the internet.
+    - Installing the agent hands full control of that machine to the server, so the server's account
+      security and patching are your responsibility.
+    - The interface is dense and IT-operations flavored. For occasionally looking at a relative's
+      computer, RustDesk is the easier tool.

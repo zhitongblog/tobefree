@@ -1,0 +1,80 @@
+name: Mattermost
+accent: '#1E325C'
+initials: MM
+category: chat
+price: free
+license: 'MIT / AGPL-3.0'
+website: https://mattermost.com
+download: https://docs.mattermost.com/product-overview/version-archive
+repo: https://github.com/mattermost/mattermost
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [团队协作, 自建, 替代slack, 频道聊天, 开源]
+platforms: [windows, macos, linux, web, ios, android]
+badges: [open-source, no-ads, cross-platform, self-hostable]
+tagline:
+  zh: 装在自己服务器上的 Slack，免费版不删聊天记录
+  en: Slack on your own server, with a free edition that keeps your full history
+description:
+  zh: 自建的团队聊天平台，频道、私信、话题回复、文件、搜索和 Webhook 集成，用法和 Slack 接近。服务端是一个 Linux 程序加 PostgreSQL 数据库，客户端覆盖桌面、网页和手机。免费的是开源的 Team Edition，最多 250 个活跃用户，不含单点登录。
+  en: A self-hosted team chat platform with channels, direct messages, threaded replies, files, search and webhook integrations, working much like Slack. The server is a Linux binary plus a PostgreSQL database, with desktop, web and mobile clients. The free option is the open-source Team Edition, capped at 250 active users and without single sign-on.
+review:
+  zh: |
+    服务端源码 AGPL-3.0，官方编译的 Team Edition 按 MIT 发布，3.9 万颗星。
+    2026 年 9 月发布了 11.11.1，更新很勤。
+
+    它最实在的用处是把团队聊天搬回自己的机器上。消息、文件、成员列表都在你的数据库里，
+    不会像 Slack 免费版那样只让你看最近 90 天的记录。
+    习惯 Slack 的人几乎不用学：频道、@提及、话题回复、表情回应、Markdown 消息都在，
+    Incoming/Outgoing Webhook 和斜杠命令能接 CI、监控告警这类内部系统。
+
+    部署上，服务端是一个单独的 Linux 程序，配一个 PostgreSQL 就能跑，
+    也有官方的 Docker 镜像 `mattermost/mattermost-team-edition`。
+    成员用官方桌面端（Windows、macOS、Linux）、手机 App 或者浏览器连上你的服务器地址。
+
+    **免费和付费的边界要看清楚，这一条最容易踩坑：**
+
+    - **官网下载页默认装的是 Mattermost Entry，不是 Team Edition。** Entry 是商业授权的免费版，
+      全服务器只能看到最近 1 万条频道消息，更早的消息还在库里，但看不到也搜不到。
+      要长期用，装 Team Edition：版本归档页里 `mattermost-team-` 开头的包，或者 team-edition 的 Docker 镜像。
+    - **Team Edition 不限消息条数，但限人数。** 未授权的服务器硬上限 250 个活跃用户，
+      200 人起开始提示。自己改源码编译可以去掉，官方编译版不行。
+    - **单点登录要付费。** 从 v11 起 Team Edition 连 GitLab 登录也去掉了，
+      SAML、AD/LDAP、Entra ID 都在付费的 Professional 和 Enterprise 里。
+    - **默认开着诊断数据上报。** 在系统控制台 Environment > Logging 里关掉
+      「Enable Diagnostics and Error Reporting」。
+    - 手机推送默认走官方的测试推送服务（TPNS），不加密、不保证送达；
+      正式的推送服务要付费授权，或者自己编译 App 和推送代理。
+  en: |
+    Server source is AGPL-3.0 and the official Team Edition build is released under MIT; 39,000 stars.
+    Version 11.11.1 shipped in September 2026, and releases are frequent.
+
+    Its most concrete use is moving team chat back onto your own machine. Messages, files and the
+    member list sit in your database, so problems like Slack's free plan hiding everything older than
+    90 days do not exist here. Slack users have almost nothing to learn: channels, @mentions, threaded
+    replies, reactions and Markdown are all there, and incoming/outgoing webhooks and slash commands
+    connect CI, monitoring alerts and other internal systems.
+
+    For deployment, the server is a single Linux binary backed by PostgreSQL, and there is an official
+    Docker image, `mattermost/mattermost-team-edition`. Members connect to your server address with the
+    official desktop app (Windows, macOS, Linux), the mobile apps or a browser.
+
+    **Read the free-versus-paid line carefully; this is where people get caught:**
+
+    - **The download page on the main site installs Mattermost Entry, not Team Edition.** Entry is a
+      free edition under a commercial licence that shows only the most recent 10,000 channel messages
+      across the whole server; older messages stay in the database but cannot be viewed or searched.
+      For long-term use, install Team Edition: the `mattermost-team-` packages in the version archive,
+      or the team-edition Docker image.
+    - **Team Edition has no message limit, but it has a user cap.** An unlicensed server is hard-capped
+      at 250 active users, with warnings from 200. Compiling from modified source removes it; the
+      official builds do not.
+    - **Single sign-on is paid.** Since v11 Team Edition has dropped even GitLab login; SAML, AD/LDAP
+      and Entra ID are in the paid Professional and Enterprise plans.
+    - **Diagnostics reporting is on by default.** Turn off "Enable Diagnostics and Error Reporting"
+      under Environment > Logging in the System Console.
+    - Mobile push goes through the official Test Push Notification Service (TPNS) by default, which is
+      unencrypted and has no delivery guarantee. The production push service requires a paid licence,
+      or you build the apps and push proxy yourself.

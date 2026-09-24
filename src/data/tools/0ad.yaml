@@ -1,0 +1,83 @@
+name: 0 A.D.
+accent: '#A8742C'
+initials: 0A
+category: gaming
+price: free
+license: 'GPL-2.0-or-later'
+website: https://play0ad.com
+download: https://play0ad.com/download/
+repo: https://gitea.wildfiregames.com/0ad/0ad
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [即时战略, 历史, 多人联机, 单机, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 开源的古代即时战略，玩法接近《帝国时代》
+  en: An open-source ancient-warfare RTS in the spirit of Age of Empires
+description:
+  zh: Wildfire Games 志愿者团队做的免费即时战略游戏，背景是古代文明之间的战争。采集资源、建城、造兵、升级时代，玩法和《帝国时代》同一路。有 15 个可玩文明、单人对战 AI、局域网和在线大厅。代码 GPL，美术素材 CC-BY-SA。
+  en: A free real-time strategy game from the volunteer team at Wildfire Games, set among the wars of ancient civilizations. Gather resources, build a city, train an army and advance through phases, in the same vein as Age of Empires. It has 15 playable civilizations, AI opponents, LAN play and an online lobby. Code is GPL, art is CC-BY-SA.
+review:
+  zh: |
+    代码 GPL-2.0-or-later，美术、音效和文档 CC-BY-SA 3.0。
+    源码仓库 2024 年 8 月从 SVN 迁到了 Wildfire Games 自己的 Gitea，
+    GitHub 上的 0ad/0ad 只是旧镜像，已经归档。
+
+    2026 年 2 月发布的 Release 28「Boiorix」是第一个去掉「Alpha」标签的版本，
+    新增了日耳曼文明，可玩文明到 15 个。同一版本改用 FreeType 直接渲染字体，
+    中文、日文、韩文不再需要额外装字体包；Windows 也有了 64 位版本，
+    缓解了大地图上内存不够用的问题。
+
+    玩法上熟悉《帝国时代》的人几乎不用学：村民采集食物、木材、石头、金属，
+    建民居提升人口上限，从村落阶段升到城镇、城市阶段。
+    差异在细节上，比如各文明的建筑和兵种按历史资料做了区分，
+    阵型、兵种克制和城墙都比较讲究。
+
+    几种玩法：
+
+    - **单人对战电脑 AI**，难度可调，地图有随机生成和预设两类。
+    - **局域网或直接输入 IP 联机**，不需要账号。
+    - **在线大厅**，找陌生人对战时用，需要在游戏内注册一个大厅账号，只用于匹配。
+    - 模组可以在游戏内的 mod.io 页面下载，社区有几个完成度较高的大型模组。
+
+    要说清楚的：
+
+    - **大规模战斗会卡。** 官方下载页自己也写了，大量单位同时移动、或者超大地图上会有延迟。
+    - **Release 28 不再支持 Windows 7 和 8.1**，原因是内置的 SpiderMonkey JavaScript 引擎升级到了 128。
+      macOS 需要 10.15 或更新版本。
+    - 完成度和商业 RTS 相比还有差距，平衡性随版本调整幅度较大，老存档和回放不保证跨版本可用。
+  en: |
+    Code is GPL-2.0-or-later; art, sound and documentation are CC-BY-SA 3.0. The source moved from SVN
+    to Wildfire Games' own Gitea in August 2024, and the 0ad/0ad repository on GitHub is an archived
+    old mirror.
+
+    Release 28, "Boiorix", published in February 2026, is the first version without the "Alpha" label.
+    It adds the Germans, bringing the total to 15 playable civilizations. The same release renders fonts
+    directly through FreeType, so Chinese, Japanese and Korean no longer need an extra font package, and
+    Windows now has a 64-bit build that eases memory problems on large maps.
+
+    Anyone who knows Age of Empires will barely need to learn anything: citizens gather food, wood,
+    stone and metal, houses raise the population cap, and you advance from village to town to city
+    phase. The differences are in the details. Buildings and units follow historical sources for each
+    civilization, and formations, unit counters and walls carry real weight.
+
+    Ways to play:
+
+    - **Single-player against AI**, with adjustable difficulty and both random and scenario maps.
+    - **LAN or direct IP connection**, with no account.
+    - **The online lobby** for finding strangers, which needs a lobby account registered in-game and
+      used only for matchmaking.
+    - Mods download from the in-game mod.io page, and the community has several large, well-developed
+      ones.
+
+    To be clear about:
+
+    - **Large battles lag.** The official download page says so itself: many units moving at once, or
+      very large maps, cause slowdowns.
+    - **Release 28 drops Windows 7 and 8.1** because the bundled SpiderMonkey JavaScript engine moved
+      to version 128. macOS needs 10.15 or later.
+    - Polish still trails commercial RTS games, balance shifts noticeably between releases, and saves
+      and replays are not guaranteed to work across versions.

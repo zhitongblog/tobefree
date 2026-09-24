@@ -1,0 +1,67 @@
+name: TigerVNC
+accent: '#E8731A'
+initials: TV
+category: remote
+price: free
+license: 'GPL-2.0-or-later'
+website: https://tigervnc.org
+download: https://sourceforge.net/projects/tigervnc/files/stable/
+repo: https://github.com/TigerVNC/tigervnc
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [vnc, 远程桌面, linux服务器, 虚拟桌面, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 给 Linux 服务器开一个远程图形桌面的老牌 VNC
+  en: The long-standing VNC for putting a remote desktop on a Linux server
+description:
+  zh: 高性能的 VNC 实现，包含查看器和服务端。Linux 上既能用 Xvnc 开出独立的虚拟桌面会话，也能用 x0vncserver 共享当前屏幕；查看器有 Windows、macOS 和 Linux 版本，支持 TLS 加密。
+  en: A high-performance VNC implementation with both viewer and server. On Linux, Xvnc starts independent virtual desktop sessions and x0vncserver shares the current screen; the viewer runs on Windows, macOS and Linux, with TLS encryption support.
+review:
+  zh: |
+    GPL-2.0-or-later 协议，7,504 颗星。2009 年从 TightVNC 分出来，专注 Unix 和 Linux 这一侧。
+
+    它最常见的用途是给没接显示器的 Linux 服务器开图形桌面。
+    Xvnc 本身就是一个 X 服务器，每个用户可以起一个独立的虚拟会话，
+    分辨率自己定，断开之后程序继续在里面跑，下次连上还是原样。
+    RHEL、Fedora 等发行版的远程桌面方案里常见的就是它。
+
+    编码上用了 libjpeg-turbo 加速的 Tight 编码，官网的说法是性能足以跑 3D 和视频应用。
+    2026 年的 1.16 版加了 w0vncserver，可以共享 Wayland 桌面；
+    查看器换了新的快捷键体系，窗口模式下也能把系统快捷键发给远端。
+
+    要说清楚的：
+
+    - **不做内网穿透，没有中继。** 查看器要能直接连到服务端端口，
+      跨网络使用要配端口映射，或者走 SSH 隧道、组网工具。它不是 TeamViewer 那类产品。
+    - **Windows 服务端 winvnc 官方写明已无人维护**，可能工作不正常。
+      Windows 上建议只用查看器；macOS 上也只有查看器。
+    - 安装包放在 SourceForge，GitHub 的 Releases 页只有说明没有文件。
+    - 1.16.1 修过一个 x0vncserver 的安全问题（同机其他用户能看到并操作屏幕），
+      用 x0vncserver 的请确认升到 1.16.2 或更新。
+  en: |
+    GPL-2.0-or-later, 7,504 stars. It split from TightVNC in 2009 to focus on the Unix and Linux side.
+
+    Its most common job is putting a graphical desktop on a headless Linux server. Xvnc is itself an X
+    server, so each user can start an independent virtual session at a resolution of their choosing;
+    programs keep running after you disconnect, and reconnecting finds everything as you left it. It is
+    the usual piece behind remote desktop setups on RHEL, Fedora and similar distributions.
+
+    Its Tight encoding is accelerated by libjpeg-turbo, and the project says performance is enough for
+    3D and video applications. Version 1.16 in 2026 added w0vncserver for sharing Wayland desktops, and
+    the viewer gained a new shortcut system that can pass system keys to the remote side even in
+    windowed mode.
+
+    To be clear about:
+
+    - **No NAT traversal and no relay.** The viewer must reach the server's port directly, so use
+      across networks means port forwarding, an SSH tunnel or a mesh network. It is not a TeamViewer
+      kind of product.
+    - **The Windows server, winvnc, is officially marked unmaintained** and may not work correctly. On
+      Windows, use only the viewer; on macOS only the viewer exists.
+    - Binaries are hosted on SourceForge; the GitHub Releases page carries notes but no files.
+    - 1.16.1 fixed a security issue in x0vncserver where other local users could see and control the
+      screen. If you use x0vncserver, make sure you are on 1.16.2 or later.

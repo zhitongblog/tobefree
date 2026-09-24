@@ -16,7 +16,7 @@ criteria:
     - Free features are enough for everyday capture, organization and retrieval.
     - Markdown, local files, export options or flexible sync are preferred.
     - Tools should support long-term knowledge bases, not just temporary notes.
-tools: [obsidian, joplin, logseq, zettlr, zim, marktext, trilium-notes, appflowy, standard-notes, solomd]
+tools: [obsidian, joplin, logseq, zettlr, zim, marktext, trilium-notes, appflowy, standard-notes, solomd, memos]
 skills: [obsidian-mcp, apple-notes-mcp, filesystem-mcp, basic-memory]
 faq:
   zh:

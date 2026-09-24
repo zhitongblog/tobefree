@@ -1,0 +1,68 @@
+name: Briar
+accent: '#87C214'
+initials: BR
+category: chat
+price: free
+license: 'GPL-3.0'
+website: https://briarproject.org
+download: https://briarproject.org/download-briar/
+repo: https://code.briarproject.org/briar/briar
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [即时通讯, 断网通讯, tor, 蓝牙, 无需手机号]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 断网了也能聊，蓝牙和 Wi-Fi 直连，联网时走 Tor
+  en: Keeps talking when the internet is down — Bluetooth and Wi-Fi direct, Tor when online
+description:
+  zh: 面向记者和社会活动人士设计的加密通讯工具，没有中心服务器，消息在设备之间直接同步。联网时所有流量走 Tor，断网时可以通过蓝牙、Wi-Fi 或存储卡传递消息。注册不要手机号和邮箱，账号只存在本机。
+  en: An encrypted messenger built for journalists and activists, with no central server — messages sync directly between devices. Online, all traffic goes over Tor; offline, messages move over Bluetooth, Wi-Fi or memory cards. No phone number or email to sign up, and the account exists only on your device.
+review:
+  zh: |
+    GPL-3.0 协议（桌面版为 AGPL-3.0），代码托管在项目自己的 GitLab 上，
+    Android 版 2026 年 9 月发布了 1.5.20。
+
+    Briar 解决的是别的通讯软件不管的场景：网络被切断，或者网络本身不可信。
+    它没有服务器，联系人之间点对点同步。联网时连接全部经过 Tor，
+    外部观察者看不出谁在和谁通信；断网时同一片区域内的手机可以用蓝牙或局域网 Wi-Fi 直接交换消息。
+    论坛和博客功能里，每个订阅者都存一份内容，没有一个可以被删帖的中心点。
+
+    添加联系人要么当面扫二维码，要么互换 briar:// 链接。
+    账号数据用你设的密码加密后存在手机里，不上云。
+
+    要说清楚的：
+
+    - **忘了密码或卸载 App，账号就永久丢失。** 数据只在本机，没有任何找回途径，也没有多设备同步。
+    - **消息要双方同时在线才能送达。** 对方关机，消息就一直挂着。官方的解决办法是 Briar Mailbox：
+      找一台闲置 Android 手机装上，插电连 Wi-Fi 常开，替你代收消息。
+    - **没有 iOS 版。** Android 是主力平台；Windows、macOS、Linux 的桌面版还是 beta，
+      缺少蓝牙、附近添加联系人、Tor 网桥和阅后即焚。
+    - 长期保持 Tor 连接比普通聊天软件耗电。它是为高风险场景设计的，日常和家人聊天用 Signal 更省心。
+  en: |
+    GPL-3.0 (the desktop client is AGPL-3.0), hosted on the project's own GitLab. The Android app
+    reached 1.5.20 in September 2026.
+
+    Briar covers situations other messengers ignore: the network has been cut, or the network itself
+    cannot be trusted. There is no server; contacts sync peer to peer. Online, every connection runs
+    over Tor, so an observer cannot see who is talking to whom. Offline, phones in the same area can
+    exchange messages directly over Bluetooth or local Wi-Fi. In its forums and blogs every subscriber
+    keeps a copy, so there is no central point where a post can be deleted.
+
+    You add contacts by scanning a QR code in person or exchanging briar:// links. Account data is
+    encrypted with your password and stored on the phone, never in a cloud.
+
+    To be clear about:
+
+    - **Forget the password or uninstall the app and the account is gone for good.** Data exists only
+      on the device, with no recovery path and no multi-device sync.
+    - **Both sides must be online for a message to arrive.** If the other phone is off, the message
+      waits. The project's answer is Briar Mailbox: install it on a spare Android phone, leave it on
+      power and Wi-Fi, and it receives messages for you.
+    - **There is no iOS app.** Android is the main platform; the Windows, macOS and Linux desktop
+      client is still in beta and lacks Bluetooth, adding nearby contacts, Tor bridges and disappearing
+      messages.
+    - A constant Tor connection uses more battery than an ordinary messenger. It is built for high-risk
+      situations; for everyday family chat, Signal is less work.

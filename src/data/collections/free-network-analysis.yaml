@@ -2,8 +2,8 @@ title:
   zh: "免费网络分析与抓包工具"
   en: "Free Network Analysis and Packet Capture Tools"
 description:
-  zh: "五款免费的抓包、端口扫描、HTTPS 中间人代理和组网工具，全部本机运行，不需要授权和订阅。"
-  en: "Five free tools for packet capture, port scanning, HTTPS interception and private networking — all local, with no licence and no subscription."
+  zh: "七款免费的抓包、端口与局域网扫描、路由追踪、HTTPS 中间人代理和组网工具，全部本机运行，不需要授权和订阅。"
+  en: "Seven free tools for packet capture, port and LAN scanning, route tracing, HTTPS interception and private networking — all local, with no licence and no subscription."
 intro:
   zh: "网络出问题的时候，「能上网」和「不能上网」之间有一大片模糊地带：网页打得开但某个 App 转圈、内网某台机器连不上、智能家居设备半夜在往外发东西。猜是没用的，得把数据包摊开看。这份清单里的工具做的就是让网络变得可见。按观察层次分四类：链路层抓包、主机与端口发现、应用层请求、以及把自己的设备连成一张私有网。"
   en: "When a network misbehaves there is wide grey territory between \"online\" and \"offline\": pages load but one app spins, a machine on the LAN is unreachable, a smart home device sends something out at three in the morning. Guessing does not resolve it; the packets have to be laid out and read. These tools make the network visible. The list sorts by layer — link-level capture, host and port discovery, application-level requests, and joining your own devices into a private network."
@@ -18,7 +18,7 @@ criteria:
     - "Runs locally and uploads nothing it captures."
     - "No account and no licence file required."
     - "Open source or with a public mechanism, so what it does can be audited."
-tools: [wireshark, nmap, mitmproxy, tailscale, wireguard]
+tools: [wireshark, nmap, mitmproxy, tailscale, wireguard, angry-ip-scanner, trippy]
 skills: []
 featured: false
 added: '2026-09-18'

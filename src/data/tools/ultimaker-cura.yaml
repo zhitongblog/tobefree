@@ -1,0 +1,74 @@
+name: UltiMaker Cura
+accent: '#196EF0'
+initials: CU
+category: cad
+price: free
+license: 'LGPL-3.0'
+website: https://ultimaker.com/software/ultimaker-cura/
+download: https://ultimaker.com/software/ultimaker-cura/
+repo: https://github.com/Ultimaker/Cura
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [3d打印, 切片, 插件市场, 新手友好, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, offline, no-signup, cross-platform]
+tagline:
+  zh: 默认只给你看四个参数的切片软件，插件市场是它的底牌
+  en: A slicer that shows you four settings by default, with a plugin marketplace as its trump card
+description:
+  zh: UltiMaker 开发并开源的 3D 打印切片软件。内置数百种第三方打印机的配置，默认界面只露出层高、填充、支撑几个参数，展开后有四百多项可调。应用内的 Marketplace 可以装插件和材料配置，不用登录。
+  en: A 3D printing slicer developed and open-sourced by UltiMaker. It ships profiles for hundreds of third-party printers, shows only layer height, infill and supports by default, and expands to more than four hundred settings. The in-app Marketplace installs plugins and material profiles without signing in.
+review:
+  zh: |
+    LGPL-3.0 协议，7,045 颗星。最新版 5.13.0 发布于 2026 年 5 月。
+
+    Cura 的默认界面很克制：选好打印机，右侧只有层高、填充率、支撑、附着这几项，
+    拖进模型点切片就能出 G-code。需要细调时切到自定义模式，
+    参数按类别折叠，可以搜索，也能按「基础 / 高级 / 专家」切换显示多少项。
+
+    和其他切片器拉开差距的是 Marketplace。社区插件能补上 Cura 自己没有的功能，
+    比如手动放置支撑、自动摆放朝向、一键生成校准模型，材料厂商也在这里发布配置文件。
+    在 Cura 里面装插件不需要 UltiMaker 账号，登录只是为了在多台电脑间同步。
+
+    下载页直接给安装包，不填表、不留邮箱。
+
+    要说清楚的：
+
+    - **默认发送匿名切片统计。** 内容包括机型、材料用量、切片次数和打印参数，
+      官方说明不上传模型和 IP。首次启动的向导会告知这件事，
+      关闭要去「偏好设置 → 通用 → 隐私」取消「发送（匿名）打印信息」。所以没标「无追踪」。
+    - 首次启动向导里有一步提示登录 UltiMaker 账号，可以跳过。
+    - **Cura Enterprise 是另一个产品**，面向企业，提供长期支持版本，
+      和免费版是两条线。Digital Factory 云打印只对 UltiMaker 自家打印机有意义，需要账号。
+    - 对非 UltiMaker 机型，内置配置能用，但通常要自己再校准；
+      OrcaSlicer 在校准向导上做得更完整。
+  en: |
+    LGPL-3.0, 7,045 stars. The latest release, 5.13.0, came out in May 2026.
+
+    Cura's default view is restrained: pick the printer and the side panel shows only layer height, infill, supports and
+    adhesion. Drop in a model, slice, and you have G-code. When you need more, custom mode groups the
+    settings by category, makes them searchable, and lets you switch visibility between basic, advanced
+    and expert sets.
+
+    What sets it apart is the Marketplace. Community plugins add things Cura lacks on its own — placing
+    supports by hand, automatic orientation, generating calibration models — and material
+    manufacturers publish their profiles there. Installing plugins inside Cura does not need an UltiMaker
+    account; signing in only syncs them across machines.
+
+    The download page links straight to the installers, with no form and no email.
+
+    To be clear about:
+
+    - **Anonymous slicing statistics are on by default.** They cover printer model, material usage,
+      number of slices and print settings; UltiMaker says models and IP addresses are not sent. The
+      first-run wizard mentions it, and turning it off means unticking "Send (anonymous) print
+      information" under Preferences → General → Privacy. That is why the "no tracking" badge is left off.
+    - The first-run wizard includes a step prompting you to sign in to an UltiMaker account, which can be
+      skipped.
+    - **Cura Enterprise is a separate product** for businesses, with long-term support releases. The free
+      version is its own line. Digital Factory cloud printing only matters for UltiMaker's own printers
+      and needs an account.
+    - Built-in profiles for non-UltiMaker printers work but usually need your own calibration. OrcaSlicer
+      has a more complete calibration wizard.

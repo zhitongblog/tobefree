@@ -1,0 +1,63 @@
+name: FluffyChat
+accent: '#261386'
+initials: FC
+category: chat
+price: free
+license: 'AGPL-3.0'
+website: https://fluffychat.im
+download: https://fluffychat.im
+repo: https://github.com/krille-chan/fluffychat
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [即时通讯, matrix, 端到端加密, 去中心化, 开源]
+platforms: [linux, web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform]
+tagline:
+  zh: 界面像普通聊天软件的 Matrix 客户端，给不想折腾的人用
+  en: A Matrix client that looks like an ordinary messenger, for people who do not want to tinker
+description:
+  zh: 用 Flutter 写的 Matrix 客户端，目标是让去中心化聊天用起来和普通聊天软件一样简单。支持端到端加密、交叉签名验证、Spaces、语音消息、音视频通话和自定义表情贴纸，推送可以走 Firebase 或 UnifiedPush。
+  en: A Matrix client written in Flutter, aiming to make decentralized chat as easy as an ordinary messenger. It supports end-to-end encryption with cross-signing, Spaces, voice messages, audio and video calls and custom stickers, with push via Firebase or UnifiedPush.
+review:
+  zh: |
+    AGPL-3.0 协议，3,100 颗星，由 Christian Kußowski 主导，
+    靠 Liberapay 和 Ko-fi 捐助维持。2026 年 9 月发布了 2.9.5。
+
+    Matrix 协议开放，服务器可以自己选，但旗舰客户端 Element 对普通人来说概念太多。
+    FluffyChat 要解决的就是这一点。
+    它的界面按手机聊天软件的习惯来排，Material You 配色，
+    会话列表、发语音、发贴纸的操作和常见 App 差不多。
+    加密方面该有的都有：私聊默认端到端加密，用表情符号比对完成设备验证，聊天记录可以加密备份。
+
+    实际使用时第一步是选一个 homeserver 注册账号，可以用公共服务器，也可以连自己搭的。
+    Android 上推荐从 F-Droid 装，配合 UnifiedPush 就能完全不依赖 Google 的推送服务。
+
+    要说清楚的：
+
+    - **需要一个 Matrix 账号。** 软件本身不要注册，但你必须在某台 homeserver 上有账号，
+      服务器由谁运营，你的元数据就在谁手里。
+    - **官方只提供 Android、iOS、网页版和 Linux（Flathub、Snap）。**
+      Windows 和 macOS 没有官方安装包，桌面上可以用网页版。
+  en: |
+    AGPL-3.0, 3,100 stars, led by Christian Kußowski and funded by donations through
+    Liberapay and Ko-fi. Version 2.9.5 shipped in September 2026.
+
+    Matrix is an open protocol with a server you choose, but its flagship client, Element, carries too
+    many concepts for most people. FluffyChat is aimed at exactly that. Its
+    layout follows the habits of mobile messengers, with Material You colors, and the conversation list,
+    voice messages and stickers work the way common apps do. The encryption basics are all there:
+    direct messages are end-to-end encrypted by default, devices are verified by comparing emoji, and
+    chat history can be backed up encrypted.
+
+    In practice, step one is picking a homeserver and registering there — a public one or your own.
+    On Android, installing from F-Droid and pairing it with UnifiedPush removes any dependence on
+    Google's push service.
+
+    To be clear about:
+
+    - **You need a Matrix account.** The app itself asks for no sign-up, but you must hold an account on
+      some homeserver, and whoever runs that server holds your metadata.
+    - **Official builds cover Android, iOS, web and Linux (Flathub, Snap).** There is no official
+      installer for Windows or macOS; on those desktops, use the web version.

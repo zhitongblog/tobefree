@@ -2,8 +2,8 @@ title:
   zh: "Chrome 免费替代浏览器"
   en: "Free Chrome Alternatives"
 description:
-  zh: "十一款免费浏览器，含内核、拦截方式和账号要求。从装完就干净的日常替代，到极端匿名的方案。"
-  en: "Eleven free browsers with their engines, blocking approach and account requirements — from clean-by-default daily drivers to fully anonymous options."
+  zh: "十三款免费浏览器，含内核、拦截方式和账号要求。从装完就干净的日常替代，到极端匿名的方案。"
+  en: "Thirteen free browsers with their engines, blocking approach and account requirements — from clean-by-default daily drivers to fully anonymous options."
 intro:
   zh: "2024 年 Chrome 完成 Manifest V3 迁移之后，拦截类扩展能看到的请求范围被收窄，uBlock Origin 在 Chrome 上退为功能受限的 Lite 版。这件事把「换浏览器」从偏好问题变成了能力问题。这份清单按内核分两支：Firefox 内核那一支扩展能力没有被削，Chromium 内核那一支多数把拦截做进了浏览器本体，绕开扩展机制。所有版本状态截至 2026 年 9 月。"
   en: "After Chrome completed its Manifest V3 migration in 2024, the request scope a blocking extension can see narrowed, and uBlock Origin on Chrome fell back to a feature-limited Lite build. That turned switching browsers from a preference into a capability question. This list splits by engine: the Firefox side keeps extension capability intact, while most of the Chromium side builds blocking into the browser itself and sidesteps the extension mechanism. Status verified September 2026."
@@ -18,7 +18,7 @@ criteria:
     - "No forced account. Everything works signed out."
     - "Browsing history is not uploaded by default; telemetry is off, optional or absent."
     - "The engine and blocking mechanism are recorded per browser — that is what decides whether ads actually get stopped."
-tools: [brave, librewolf, zen-browser, floorp, firefox, vivaldi, ungoogled-chromium, cromite, mullvad-browser, tor-browser, ladybird]
+tools: [brave, librewolf, zen-browser, floorp, firefox, vivaldi, ungoogled-chromium, cromite, mullvad-browser, tor-browser, ladybird, waterfox, qutebrowser]
 skills: []
 featured: true
 added: '2026-09-18'

@@ -1,0 +1,78 @@
+name: Lichess
+accent: '#629924'
+initials: LI
+category: learning
+price: free
+license: 'AGPL-3.0'
+website: https://lichess.org
+download: https://lichess.org/app
+repo: https://github.com/lichess-org/lila
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [国际象棋, 在线对弈, 棋谱分析, 谜题, 开源]
+platforms: [web, ios, android]
+badges: [open-source, no-ads, no-tracking, cross-platform]
+tagline:
+  zh: 所有功能都免费的国际象棋网站，没有会员，也没有广告
+  en: A chess site where every feature is free — no membership tier, no ads
+description:
+  zh: 开源的国际象棋对弈平台，由法国的非营利协会运营，靠捐款维持。在线对弈、锦标赛、Stockfish 引擎分析、谜题、开局库、学习课程和对局研究全部免费，没有付费会员档位。网页之外有 iOS 和 Android 客户端，同样开源。
+  en: An open-source chess platform run by a French non-profit association and funded by donations. Online play, tournaments, Stockfish analysis, puzzles, the opening explorer, lessons and studies are all free, with no paid membership tier. Alongside the website there are iOS and Android apps, also open source.
+review:
+  zh: |
+    服务端 lila 是 AGPL-3.0，18,761 颗星；移动端 GPL-3.0，2,560 颗星。
+
+    多数下棋网站的商业模式是免费版限量、会员解锁：每天几道谜题、
+    每局只能分析几步、广告占半边屏幕。Lichess 的承诺写在捐赠页上：
+    「完全免费，永远，对所有人」。捐款的 Patron 只拿到头像旁边的一对翅膀，
+    没有任何功能只给捐款人。
+
+    实际能用到的：
+
+    - **引擎分析。** 下完一局直接请求服务器端 Stockfish 分析，
+      每一步标出失误和更好的走法，也可以在浏览器里本地跑引擎。
+    - **谜题。** 题库来自真实对局，按主题（叉子、牵制、残局）分类练。
+    - **研究（Study）。** 可以把棋谱、注释、变着整理成章节，分享给别人一起看，
+      教练和棋友之间常用。
+    - **开局库。** 按大师对局和站内对局统计每一步的胜率。
+
+    不注册也能用一部分：和电脑下棋、用分析板、把对局链接发给朋友下友谊赛都可以。
+    等级分对局、锦标赛和保存对局记录需要注册。注册只要用户名、密码和邮箱。
+
+    要说清楚的：
+
+    - 注册是**按需**的，不是强制，但想要等级分就得注册。所以没标「无需注册」。
+    - 这是一个在线服务，数据在 Lichess 的服务器上。隐私政策写明只用会话 Cookie，
+      没有第三方广告和统计，IP 和浏览器信息为了安全保留一年。
+    - 界面偏功能性，没有 Chess.com 那样的动画和卡通课程。
+  en: |
+    The server, lila, is AGPL-3.0 with 18,761 stars; the mobile app is GPL-3.0 with 2,560 stars.
+
+    Most chess sites run on a freemium model: a few puzzles a day, analysis limited to a few moves, ads
+    taking half the screen, and a membership to lift the caps. Lichess states its promise on the
+    donation page: "entirely free, forever, and for everyone." Patrons get a pair of wings next to their
+    name and nothing else; no feature is reserved for donors.
+
+    What you actually get:
+
+    - **Engine analysis.** After a game, request server-side Stockfish analysis that marks mistakes and
+      better moves, or run the engine locally in the browser.
+    - **Puzzles.** Drawn from real games and grouped by theme — forks, pins, endgames.
+    - **Studies.** Organize games, annotations and variations into chapters and share them; coaches and
+      study partners use this a lot.
+    - **Opening explorer.** Move-by-move statistics from master games and games played on the site.
+
+    Some of it works without an account: playing the computer, using the analysis board, and sending a
+    game link to a friend for a casual game. Rated games, tournaments and a saved game history need an
+    account, which takes a username, password and email address.
+
+    To be clear about:
+
+    - Registration is **optional rather than forced**, but you need it for a rating, so the "no
+      sign-up" badge is left off.
+    - It is an online service and your data lives on Lichess's servers. The privacy policy describes
+      session cookies only, with no third-party advertising or analytics; IP and browser data are kept
+      for a year for security.
+    - The interface is functional, without the animation and cartoon lessons of Chess.com.

@@ -2,8 +2,8 @@ title:
   zh: "免费学习与科研软件"
   en: "Free Learning and Science Software"
 description:
-  zh: "十款免费的记忆卡片、数学几何、天文、编程启蒙、科学计算与文献管理工具，覆盖从小学到研究生的学习场景。"
-  en: "Ten free tools for flashcards, mathematics and geometry, astronomy, learning to code, scientific computing and reference management — from primary school to graduate research."
+  zh: "十三款免费的记忆卡片、儿童启蒙、数学几何、天文、国际象棋、编程启蒙、科学计算与文献管理工具，覆盖从小学到研究生的学习场景。"
+  en: "Thirteen free tools for flashcards, early learning, mathematics and geometry, astronomy, chess, learning to code, scientific computing and reference management — from primary school to graduate research."
 intro:
   zh: "教育软件市场有一套成熟的收费结构：按年订阅、按学生数计费、按功能模块拆包卖，学校采购和家长付费是两条并行的现金流。但这个领域里恰好有一批做得最好的软件是免费开源的 —— 间隔重复算法最成熟的实现、被全世界数学课堂使用的动态几何工具、MIT 做的儿童编程语言，都不收钱。这份清单按学习阶段排，从编程启蒙一直到科研文献管理。"
   en: "Educational software has a well-developed pricing structure — annual subscriptions, per-student billing, features split into modules — with school procurement and parent payments running as two parallel cash flows. Yet some of the best software in this field happens to be free and open source: the most mature implementation of spaced repetition, the dynamic geometry tool used in maths classrooms worldwide, the children's programming language built at MIT. This list runs by stage, from a first programming language through to managing research literature."
@@ -18,7 +18,7 @@ criteria:
     - "Usable without a school account or institutional licence."
     - "Data exports, so switching software does not lock in what you built up."
     - "Offline capability is noted separately — learning often happens without reliable network."
-tools: [anki, scratch, geogebra, stellarium, jupyterlab, gnu-octave, radicand, qgis, kiwix, jabref]
+tools: [anki, scratch, geogebra, stellarium, jupyterlab, gnu-octave, radicand, qgis, kiwix, jabref, gcompris, celestia, lichess]
 skills: [zotero-mcp, scientific-agent-skills]
 featured: true
 added: '2026-09-18'

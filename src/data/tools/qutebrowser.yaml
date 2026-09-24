@@ -1,0 +1,88 @@
+name: qutebrowser
+accent: '#3D6DB5'
+initials: QB
+category: browser
+price: free
+license: 'GPL-3.0-or-later'
+website: https://qutebrowser.org
+download: https://qutebrowser.org/doc/install.html
+repo: https://github.com/qutebrowser/qutebrowser
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [浏览器, 键盘操作, vim, 极简界面, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, no-signup, cross-platform]
+tagline:
+  zh: 全程键盘上网，操作方式照搬 Vim
+  en: Browse entirely from the keyboard, Vim-style
+description:
+  zh: 以键盘为中心的浏览器，界面几乎只剩网页本身。用 Python 和 Qt 写成，内核是基于 Chromium 的 QtWebEngine。按键照搬 Vim：hjkl 滚动，按 f 给页面上的链接标上字母，敲字母就点开。配置写在一个 Python 文件里，内置广告拦截。
+  en: A keyboard-focused browser whose interface is little more than the page itself. Written in Python and Qt on top of QtWebEngine, which is based on Chromium. Keys follow Vim — hjkl to scroll, f to label every link with letters, type the letters to follow it. Configuration lives in a Python file, and ad blocking is built in.
+review:
+  zh: |
+    GPL-3.0-or-later 协议，截至 2026 年 9 月 11,708 颗星，当前版本 3.7.0（2026 年 4 月发布），代码仓库仍在持续提交。
+
+    用惯 Vim 的人第一次打开会觉得很顺手。没有地址栏按钮、没有书签栏，
+    顶部一条标签栏，底部一条状态栏，其余都是网页。所有操作靠按键：
+
+    - `o` 打开网址，`O` 在新标签打开，输入时有历史记录和书签的补全。
+    - `f` 进入提示模式，页面上每个可点击的元素都标上字母，敲字母就点开，手不用离开键盘。
+    - `J` / `K` 切换标签，`d` 关标签，`u` 恢复刚关掉的标签。
+    - `:` 进入命令行，几乎所有功能都有对应命令，也能绑定成快捷键。
+
+    配置可以在 `:set` 里改，也可以写进 `config.py`。
+    因为是真正的 Python 文件，可以写条件判断、按网站设不同规则，放进 dotfiles 仓库同步到每台机器。
+    还支持用户脚本（userscript，任何语言写的外部程序都行）和 Greasemonkey 脚本。
+
+    广告拦截是内置的，默认用 hosts 列表；装上 Python 的 adblock 库后，可以用 ABP 语法的过滤规则，
+    效果接近常见的拦截扩展。
+
+    要说清楚的：
+
+    - **不支持 Chrome 或 Firefox 扩展。** 内核虽然是 Chromium，但 qutebrowser 没有扩展系统，
+      密码管理器这类需求要靠用户脚本对接，比如接 KeePassXC 或 pass。
+    - **视频编码可能缺。** 官方安装文档写明，用 pip/virtualenv 方式装的 QtWebEngine
+      不带 H.264 等专有编码，部分网站的视频放不了。用发行版软件包或官方安装包的情况各不相同。
+    - **内核版本取决于你的 Qt。** Debian 稳定版和 Ubuntu LTS 只在发行版大版本更新时才升级 QtWebEngine，
+      官方文档提醒这些系统上的 Chromium 内核可能相当旧，安全补丁跟不上。
+    - **维护者人少。** 主要维护者靠捐款兼职开发，更新节奏比大厂浏览器慢。
+    - 按键操作要花一两天适应。不熟悉 Vim 的人，第一次打开可能连怎么输网址都找不到（按 `o`）。
+  en: |
+    GPL-3.0-or-later, 11,708 stars as of September 2026, currently at 3.7.0 (released April 2026), with
+    commits still landing in the repository.
+
+    Vim users feel at home immediately. There is no address bar button and no bookmarks bar, just a tab
+    bar at the top, a status bar at the bottom and the page in between. Everything runs on keys:
+
+    - `o` opens a URL, `O` opens it in a new tab, with completion from history and bookmarks as you
+      type.
+    - `f` enters hint mode, labelling every clickable element with letters; type them to follow the
+      link without leaving the keyboard.
+    - `J` / `K` switch tabs, `d` closes one, `u` restores the last closed tab.
+    - `:` opens the command line. Nearly every feature has a command, and any command can be bound to a
+      key.
+
+    Settings can be changed with `:set` or written to `config.py`. Since it is a real Python file, you
+    can use conditionals, set per-site rules, and keep it in a dotfiles repository synced across
+    machines. Userscripts (external programs in any language) and Greasemonkey scripts are supported.
+
+    Ad blocking is built in, using hosts lists by default; with the Python adblock library installed it
+    accepts ABP-syntax filter rules, close to what common blocking extensions do.
+
+    To be clear about:
+
+    - **No Chrome or Firefox extensions.** The engine is Chromium-based, but qutebrowser has no extension
+      system. Needs like password managers are handled through userscripts, for example with KeePassXC
+      or pass.
+    - **Video codecs may be missing.** The official install docs say QtWebEngine installed through
+      pip/virtualenv lacks proprietary codecs such as H.264, so some sites' video will not play.
+      Distribution packages and the official installers vary.
+    - **The engine version depends on your Qt.** Debian stable and Ubuntu LTS only update QtWebEngine
+      with a new distribution release, and the docs warn that the Chromium base on those systems can be
+      quite old and behind on security fixes.
+    - **A small team.** The main maintainer works on it part-time, funded by donations, so it moves more
+      slowly than big-vendor browsers.
+    - The key-driven workflow takes a day or two to learn. Someone new to Vim may not even find how to
+      enter a URL on first launch (press `o`).

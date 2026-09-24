@@ -1,0 +1,81 @@
+name: Cemu
+accent: '#2A8BD8'
+initials: CE
+category: gaming
+price: free
+license: 'MPL-2.0'
+website: https://cemu.info
+download: https://github.com/cemu-project/Cemu/releases
+repo: https://github.com/cemu-project/Cemu
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [模拟器, wiiu, 任天堂, 高清渲染, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: Wii U 游戏换成 4K 和 60 帧来玩
+  en: Wii U games at 4K and 60 fps
+description:
+  zh: Wii U 主机模拟器，2022 年开源并加入 Linux 支持。配合社区的图形包，可以把原本 720P 或 1080P、30 帧的游戏改成更高分辨率和更高帧率。支持 Vulkan 和 OpenGL，可以用普通手柄，也能把手机或第二个窗口当 GamePad 屏幕。游戏要从自己的 Wii U 主机转储。
+  en: A Wii U emulator, open-sourced in 2022 with Linux support added. With community graphic packs, games originally at 720p or 1080p and 30 fps can run at higher resolutions and frame rates. It supports Vulkan and OpenGL, works with ordinary controllers, and shows the GamePad screen in a separate window. Games must be dumped from your own Wii U.
+review:
+  zh: |
+    MPL-2.0 协议，截至 2026 年 9 月 9,867 颗星。
+
+    Cemu 早年是闭源的免费软件，2022 年 8 月随 2.0 版开源，同时有了原生 Linux 版本。
+    Wii U 本身卖得不好，但它的游戏库里有不少后来没移植、或者移植版要重新花钱的作品，
+    Cemu 是在电脑上玩这些游戏的主要途径。
+
+    它最实际的效果来自**图形包**（graphic packs）。这是社区维护的一套补丁，
+    在 Cemu 里直接下载，按游戏勾选：分辨率改到 1440P、4K，
+    帧率从 30 解锁到 60，去掉部分游戏的黑边或调整抗锯齿。
+    不用改游戏文件，关掉勾选就恢复原样。
+
+    Wii U 的 GamePad 带一块副屏，Cemu 可以把它显示成单独的窗口，
+    需要触摸的地方用鼠标点。普通手柄、Switch Pro 手柄都能映射，也支持体感。
+
+    要说清楚的：
+
+    - **没有 Wii U 主机就没法合法使用。** 游戏必须从你自己的 Wii U 转储，
+      Cemu 的配置指南写得很直接：没有主机就没法转储游戏，也就用不了 Cemu。
+      转储不需要永久改动主机，按官方指南用 Dumpling 这类工具即可。
+    - **联机需要从主机导出账号数据**，并且 Linux 和 macOS 原生版不支持联机。
+      指南建议 Linux 用户想联机的话，通过 Wine 或 Lutris 跑 Windows 版。
+    - **macOS 版兼容性较差**，Apple Silicon 上尤其如此。
+    - **正式版更新慢。** 最新正式版是 2025 年 2 月的 2.6，之后没有再打正式版，
+      但代码仓库到 2026 年 9 月仍在持续提交。想要新修复可以从 GitHub Actions 拿开发构建。
+    - 显卡方面，官方说明 Intel 核显支持有限，建议用 Vulkan；显存 2 GB 以下的卡建议用 OpenGL。
+  en: |
+    MPL-2.0, 9,867 stars as of September 2026.
+
+    Cemu was closed-source freeware for years and went open source with version 2.0 in August 2022,
+    gaining a native Linux build at the same time. The Wii U sold poorly, but its library includes games
+    that were never ported or whose ports cost money again, and Cemu is the main way to play them on a
+    computer.
+
+    Its most practical effect comes from **graphic packs**, a community-maintained set of patches you
+    download inside Cemu and tick per game: resolution to 1440p or 4K, frame rate unlocked from 30 to
+    60, letterboxing removed in some titles, antialiasing adjusted. Game files are untouched, and
+    unticking restores the original.
+
+    The Wii U GamePad has its own screen; Cemu shows it in a separate window and mouse clicks stand in
+    for touch. Ordinary gamepads and the Switch Pro Controller can be mapped, and motion controls are
+    supported.
+
+    To be clear about:
+
+    - **Without a Wii U there is no legitimate way to use it.** Games must be dumped from your own
+      console. The setup guide says it directly: without a Wii U you cannot dump games and therefore
+      cannot use Cemu. Dumping does not permanently modify the console; the official guide uses tools
+      such as Dumpling.
+    - **Online play needs account data exported from the console,** and the native Linux and macOS
+      builds do not support it. The guide suggests Linux users who want online play run the Windows
+      build through Wine or Lutris.
+    - **Compatibility on macOS is poor,** especially on Apple Silicon.
+    - **Stable releases are slow.** The latest stable is 2.6 from February 2025 with none since, though
+      the repository is still receiving commits as of September 2026. Development builds for newer
+      fixes are available from GitHub Actions.
+    - On GPUs, the official notes say Intel graphics support is limited and Vulkan is recommended there;
+      cards with less than 2 GB of VRAM should use OpenGL.

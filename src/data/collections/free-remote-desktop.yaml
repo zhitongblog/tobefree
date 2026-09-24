@@ -2,8 +2,8 @@ title:
   zh: "免费远程桌面与投屏工具"
   en: "Free Remote Desktop and Screen Sharing Tools"
 description:
-  zh: "八款免费远程控制、串流、投屏与文件互传工具，全部支持自建中继或点对点直连，不按设备数收费。"
-  en: "Eight free tools for remote control, game streaming, phone mirroring and file transfer — all supporting self-hosted relays or direct peer-to-peer connections, with no per-device pricing."
+  zh: "十二款免费远程控制、串流、投屏、键鼠共享与文件互传工具，全部支持自建服务端或点对点直连，不按设备数收费。"
+  en: "Twelve free tools for remote control, game streaming, phone mirroring, keyboard-and-mouse sharing and file transfer — all supporting self-hosted servers or direct peer-to-peer connections, with no per-device pricing."
 intro:
   zh: "远程控制这个品类的商业软件有个共同套路：免费版先给你用，用着用着提示「检测到疑似商业用途」，然后限时长、限设备数、限并发。判定标准不透明，个人用户被误判是常事。开源方案换了个结构 —— 中继服务器你自己搭，或者干脆点对点直连，没有第三方来判断你是不是在商用。这份清单按场景分四类：远程控制、游戏串流、手机投屏、文件互传。"
   en: "Commercial remote control software shares a pattern: the free tier works until a notice about \"suspected commercial use\" appears, after which sessions get time limits, device caps and concurrency limits. The criteria are opaque and individuals get flagged by mistake routinely. Open-source options change the structure — you run the relay yourself, or connect peer-to-peer with no third party judging whether you are a business. This list sorts into four cases: remote control, game streaming, phone mirroring and file transfer."
@@ -18,7 +18,7 @@ criteria:
     - "The relay can be self-hosted, or the connection goes peer-to-peer."
     - "No forced account registration."
     - "Encryption and where the data actually travels are stated per tool."
-tools: [rustdesk, guacamole, moonlight, sunshine, scrcpy, kde-connect, localsend, syncthing]
+tools: [rustdesk, guacamole, moonlight, sunshine, scrcpy, kde-connect, localsend, syncthing, remmina, tigervnc, deskflow, meshcentral]
 skills: []
 featured: true
 added: '2026-09-18'

@@ -1,0 +1,81 @@
+name: SuperTuxKart
+accent: '#E8541E'
+initials: ST
+category: gaming
+price: free
+license: 'GPL-3.0-or-later'
+website: https://supertuxkart.net
+download: https://supertuxkart.net/Download
+repo: https://github.com/supertuxkart/stk-code
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [赛车, 卡丁车, 分屏多人, 家庭游戏, 开源]
+platforms: [windows, macos, linux, android, ios]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 开源的卡丁车，一台电脑最多八个人分屏
+  en: Open-source kart racing, up to eight players on one screen
+description:
+  zh: 开源的 3D 卡丁车游戏，主角是 Linux 吉祥物企鹅 Tux。有故事模式、大奖赛、计时赛、足球、对战和找彩蛋等玩法，一台电脑最多八人分屏，也能局域网或在线联机。1.5 版有 18 辆官方赛车和 21 条官方赛道，另有几百个社区附加内容。
+  en: An open-source 3D kart racer starring Tux, the Linux penguin. Modes include story, Grand Prix, time trial, soccer, battle and egg hunt; up to eight people can play split-screen on one computer, with LAN and online play as well. Version 1.5 has 18 official karts and 21 official tracks, plus hundreds of community add-ons.
+review:
+  zh: |
+    代码 GPL-3.0-or-later，美术素材是 GPL、CC-BY、CC-BY-SA 和公有领域的混合。
+    截至 2026 年 9 月 5,373 颗星，当前正式版是 2025 年 10 月发布的 1.5。
+
+    玩法就是《马里奥赛车》那一套：跑道上捡道具，保龄球、蛋糕、泡泡糖往对手身上招呼，
+    被打中就原地打转。上手很快，家里小孩拿手柄几分钟就会玩。
+
+    它最适合的场景是**同一台电脑多人玩**。最多八个人分屏，
+    接几个手柄就能开局，不用每人一台设备，也不用联网。
+    另外几种玩法：
+
+    - **故事模式**：跑挑战赛，最终对手是反派 Nolok，一路解锁赛车和赛道。
+    - **足球和对战**：足球是分队进球，对战是用道具互相攻击，比单纯竞速更热闹。
+    - **找彩蛋**：在赛道里探索找隐藏的彩蛋，适合不想比速度的小孩。
+    - **计时赛**：没有道具，纯比驾驶。
+    - **附加内容**：游戏内可以直接下载社区做的几百辆赛车和赛道。
+
+    要说清楚的：
+
+    - **联网对战要注册 STK 账号。** 单机、分屏和局域网都不需要账号，
+      连互联网上的服务器才需要在游戏里注册。
+    - **捐款有额外赛道。** 捐 5 美元及以上能拿到两条为下一代版本做的赛道
+      （Drainage Dash 和 Freytra Peaks）。这是捐赠回报，不影响正常游戏的完整度，
+      其中 Freytra Peaks 按官方博客的说法会在 Evolution 版并入正式游戏，捐款只是提前拿到。
+    - **下一代版本在路上。** 团队 2025 年 8 月宣布了「SuperTuxKart Evolution」，
+      新赛道、新赛车、新道具和画面都会大改，官方明确还没定发布时间。
+    - 画面是开源游戏的水准，比不上商业大作。
+      除了 Windows、macOS、Linux，官方还提供 Android 安装包、App Store 上的 iOS 版和 Switch 自制软件版本。
+  en: |
+    Code is GPL-3.0-or-later; art assets are a mix of GPL, CC-BY, CC-BY-SA and public domain. 5,373
+    stars as of September 2026, with the current stable release, 1.5, published in October 2025.
+
+    It plays like Mario Kart: pick up items on the track, fire bowling balls, cakes and bubble gum at
+    rivals, and spin out when you get hit. It is quick to learn; a child with a controller gets it within minutes.
+
+    It is best as **a multiplayer game on one computer**. Up to eight people can play split-screen with
+    a few controllers plugged in, no extra devices and no internet. Other modes:
+
+    - **Story mode:** challenge races ending against the villain Nolok, unlocking karts and tracks.
+    - **Soccer and battle:** team-based goal scoring, or attacking each other with items, livelier than
+      straight racing.
+    - **Egg hunt:** explore tracks for hidden eggs, good for children who do not want to race.
+    - **Time trial:** no items, pure driving.
+    - **Add-ons:** hundreds of community karts and tracks download inside the game.
+
+    To be clear about:
+
+    - **Internet play needs an STK account.** Single-player, split-screen and LAN need none; only
+      joining servers on the internet requires registering in the game.
+    - **Donors get extra tracks.** A donation of $5 or more unlocks two tracks made for the next
+      generation of the game (Drainage Dash and Freytra Peaks). It is a donor reward and does not leave
+      the regular game incomplete; the official blog says Freytra Peaks will join the main game with
+      Evolution, so donors are getting it early.
+    - **The next generation is in progress.** In August 2025 the team announced "SuperTuxKart
+      Evolution", with new tracks, karts, powerups and reworked graphics, and no release date yet.
+    - Graphics are at open-source-game level, not a commercial blockbuster's. Besides Windows, macOS
+      and Linux, there is an official Android package, an iOS version on the App Store and a homebrew
+      build for the Switch.

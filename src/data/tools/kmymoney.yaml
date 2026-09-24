@@ -1,0 +1,82 @@
+name: KMyMoney
+accent: '#3DAEE9'
+initials: KM
+category: finance
+price: free
+license: 'GPL-2.0-or-later'
+website: https://kmymoney.org
+download: https://kmymoney.org/download.html
+repo: https://invent.kde.org/office/kmymoney
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [记账, 复式记账, 个人财务, 投资跟踪, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 复式记账的底子，个人理财软件的用法
+  en: Double-entry underneath, personal-finance software on the surface
+description:
+  zh: KDE 出品的个人财务软件，底层按复式记账原则记录，操作上接近 Quicken 这类家用理财软件。支持银行和信用卡账户、股票基金持仓、预算、定期交易和图表报表，能导入 QIF、OFX、CSV 和 GnuCash 文件。数据存在本地，可以用 GPG 加密。
+  en: Personal finance software from KDE that records everything on double-entry principles while working much like home finance tools such as Quicken. It covers bank and card accounts, stock and fund holdings, budgets, scheduled transactions and charted reports, and imports QIF, OFX, CSV and GnuCash files. Data stays local and can be GPG-encrypted.
+review:
+  zh: |
+    GPL-2.0-or-later 协议，KDE 项目，代码在 KDE 自己的 GitLab（invent.kde.org）上，
+    GitHub 只有镜像。当前稳定版 5.2.2，2026 年 2 月发布，主干仍在持续提交。
+
+    它和 GnuCash 同样是复式记账，差别在界面怎么对人。GnuCash 把会计科目直接摆给你；
+    KMyMoney 的界面按「账户、收款人、分类」来组织，记一笔消费就是选账户、填收款人、选分类，
+    背后自动做平两边。不懂借贷的人更容易上手，账目一样能对平。
+
+    实用的几块：
+
+    - **导入。** 银行导出的 QIF、OFX、CSV 都能读，CSV 可以按列配置映射；
+      从 GnuCash 迁移过来也有专门的导入器。
+    - **投资。** 股票、债券、基金按持仓记，价格和汇率可以联网更新。
+    - **定期交易。** 房租、工资、订阅费设成计划任务，到期提醒或者自动入账。
+    - **报表。** 收支、净资产、投资表现都能出图表，可以导出 CSV 拿到电子表格里再算。
+
+    数据默认是本地的一个压缩 XML 文件，也可以存进 SQLite 等数据库；
+    内置 GPG 加密，账本文件丢了别人也打不开。
+
+    要说清楚的：
+
+    - **联网银行功能主要面向德国等欧洲银行**（FinTS/HBCI），国内银行只能手动导出文件再导入。
+      而且 Windows 官方构建不带 aqbanking，这部分功能在 Windows 上要用社区的预览版。
+    - **Windows 和 macOS 是二等公民。** 它首先是 Linux 桌面软件，Windows 和 macOS 的安装包由 KDE 的 CI 构建，
+      界面观感和系统原生软件有差距。
+    - 没有手机端，也没有同步。只在一台电脑上记账没问题，想手机随手记一笔的用不上。
+  en: |
+    GPL-2.0-or-later, a KDE project hosted on KDE's own GitLab (invent.kde.org), with only a mirror
+    on GitHub. The current stable release is 5.2.2 from February 2026, and the main branch is still
+    actively committed to.
+
+    Like GnuCash it is double-entry, but it presents itself differently. GnuCash puts the chart of
+    accounts in front of you; KMyMoney organizes around accounts, payees and categories, so logging a
+    purchase means choosing an account, a payee and a category while it balances both sides behind the
+    scenes. People who do not know debits from credits get going faster, and the books still balance.
+
+    The useful parts:
+
+    - **Import.** QIF, OFX and CSV exports from banks all load, with configurable column mapping for
+      CSV; there is also a dedicated importer for moving over from GnuCash.
+    - **Investments.** Stocks, bonds and funds are tracked as holdings, with online price and exchange
+      rate updates.
+    - **Scheduled transactions.** Rent, salary and subscriptions become schedules that remind you or
+      post automatically.
+    - **Reports.** Income and expense, net worth and investment performance come with charts and export
+      to CSV for further work in a spreadsheet.
+
+    Data is a compressed XML file by default, or it can live in SQLite and other databases. GPG
+    encryption is built in, so a lost ledger file is unreadable to anyone else.
+
+    To be clear about:
+
+    - **Online banking is mainly for German and other European banks** (FinTS/HBCI); elsewhere you
+      export files from the bank and import them. The official Windows build also ships without
+      aqbanking, so on Windows that feature needs the community preview build.
+    - **Windows and macOS are second-class.** It is a Linux desktop application first; the Windows and
+      macOS packages are built by KDE's CI and do not feel native.
+    - There is no mobile app and no sync. It works for bookkeeping on one computer, not for jotting down
+      a purchase on your phone.

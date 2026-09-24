@@ -1,0 +1,88 @@
+name: hledger
+accent: '#3F7D3F'
+initials: HL
+category: finance
+price: free
+license: 'GPL-3.0-or-later'
+website: https://hledger.org
+download: https://hledger.org/install.html
+repo: https://github.com/hledgerorg/hledger
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [记账, 纯文本记账, 复式记账, 命令行, 离线]
+platforms: [windows, macos, linux, cli]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 账本是一个纯文本文件，能用 Git 管，二十年后也打得开
+  en: Your ledger is a plain text file — Git-friendly and still readable in twenty years
+description:
+  zh: 纯文本复式记账工具，账本就是一个人能直接读写的文本文件，hledger 负责校验和出报表。自带命令行、终端界面（hledger-ui）和网页界面（hledger-web）三种用法，能出资产负债表、损益表和现金流量表，CSV 导入靠规则文件自动分类。兼容 Ledger 的文件格式。
+  en: A plain text double-entry accounting tool — the ledger is a human-readable text file, and hledger checks it and produces reports. It comes with a command line, a terminal UI (hledger-ui) and a web UI (hledger-web), produces balance sheets, income statements and cash flow reports, and imports CSV with rule files that categorize transactions. The file format is compatible with Ledger.
+review:
+  zh: |
+    GPL-3.0-or-later 协议，4,700 颗星，Simon Michael 从 2007 年开始维护。
+    当前稳定版 1.52.4，2026 年 9 月发布，同时有 2.0 的预览版在测试。
+
+    纯文本记账（plain text accounting）的思路是：账本不锁在任何软件的数据库里，
+    就是一个文本文件，每笔交易几行：
+
+    ```
+    2026-09-20 超市
+        expenses:food        86.50 CNY
+        assets:alipay
+    ```
+
+    hledger 读这个文件，检查每笔是否借贷平衡，然后按需出报表：
+    `hledger bs` 看资产负债，`hledger is` 看损益，`hledger reg expenses:food` 看某个科目的明细。
+    因为是文本，可以用任何编辑器改、用 Git 记版本、用 diff 看这个月改了哪几笔，换软件也不用导出。
+
+    真正省时间的是 **CSV 导入规则**。给银行或支付宝的账单写一个 `.rules` 文件，
+    指定哪一列是日期、金额，再按关键词匹配科目（比如描述里有「地铁」就记到交通），
+    之后每月 `hledger import` 一下，新交易自动归类、去重。前期花一个小时，后面每月几分钟。
+
+    不想在命令行里看的，`hledger-ui` 是终端里的交互界面，`hledger-web` 在浏览器里提供查看和录入。
+
+    要说清楚的：
+
+    - **没有图形安装向导，也没有「点一下就记账」的界面。** 录入靠编辑文本或 `hledger add` 交互问答，
+      适合愿意写几行配置的人。
+    - **门槛和 GnuCash 一样在复式记账概念**，外加一套文本格式要学。官方文档很全，但大部分是英文。
+    - 没有银行直连，所有数据都来自你手动记录或导入的文件。这在隐私上是好事，在省事上不是。
+  en: |
+    GPL-3.0-or-later, 4,700 stars, maintained by Simon Michael since 2007. The current stable release
+    is 1.52.4 from September 2026, with 2.0 previews in testing alongside.
+
+    The idea behind plain text accounting is that the ledger is not locked in any program's database.
+    It is a text file, a few lines per transaction:
+
+    ```
+    2026-09-20 Grocery store
+        expenses:food        86.50 USD
+        assets:checking
+    ```
+
+    hledger reads the file, checks that every transaction balances, and produces reports on demand:
+    `hledger bs` for the balance sheet, `hledger is` for the income statement, `hledger reg
+    expenses:food` for one account's register. Because it is text you can edit it in any editor,
+    version it with Git, see this month's changes with diff, and switch tools without exporting
+    anything.
+
+    The real time saver is **CSV import rules.** Write a `.rules` file for your bank's statement that
+    names the date and amount columns and maps keywords to accounts (anything mentioning "transit" goes
+    to transport), and from then on a monthly `hledger import` brings in new transactions categorized
+    and de-duplicated. An hour up front, a few minutes each month after.
+
+    If you would rather not read reports on the command line, `hledger-ui` is an interactive terminal
+    interface and `hledger-web` offers viewing and entry in a browser.
+
+    To be clear about:
+
+    - **There is no graphical installer wizard and no point-and-click entry screen.** You record by
+      editing text or answering `hledger add` prompts; it suits people willing to write a few lines of
+      configuration.
+    - **The barrier, as with GnuCash, is double-entry concepts**, plus a text format to learn. The
+      documentation is thorough.
+    - There is no direct bank connection; every number comes from what you record or import. Good for
+      privacy, less good for convenience.

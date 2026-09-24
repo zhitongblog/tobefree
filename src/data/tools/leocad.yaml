@@ -1,0 +1,74 @@
+name: LeoCAD
+accent: '#D01012'
+initials: LC
+category: cad
+price: free
+license: 'GPL-2.0'
+website: https://www.leocad.org
+download: https://www.leocad.org/download.html
+repo: https://github.com/leozide/leocad
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [乐高, 积木建模, ldraw, 搭建说明书, 开源]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 在电脑上搭乐高，搭完导出零件清单去买砖
+  en: Build LEGO models on screen, then export the parts list and go buy the bricks
+description:
+  zh: 开源的虚拟积木搭建软件，基于 LDraw 标准，自带一万多种零件。可以分步骤、分子模型搭建并生成搭建说明书，能导入 LEGO Digital Designer 的 LXF 文件和官方套装的零件清单，导出 BrickLink 采购清单、CSV、POV-Ray 和 OBJ 等格式。
+  en: Open-source virtual brick building software based on the LDraw standard, with more than 10,000 parts included. Build in steps and submodels to produce building instructions, import LEGO Digital Designer LXF files and official set inventories, and export BrickLink wanted lists, CSV, POV-Ray, OBJ and other formats.
+review:
+  zh: |
+    GPL-2.0 协议，2,874 颗星。2026 年 9 月 20 日发布 26.09，前一版是 2025 年 9 月的 25.09，
+    两版之间的提交一直没断。
+
+    乐高玩家做 MOC（自己设计的作品）有个现实问题：手里的砖不够，
+    先在电脑上搭出来，确认结构和配色，再按清单去买零件。
+    LeoCAD 做的就是这一段。零件库用 LDraw 标准，一万多种零件，
+    和 LDView、LPub3D 这些 LDraw 工具互通，网上大量 LDraw 格式的模型可以直接打开。
+
+    几个实用的功能：
+
+    - **按套装导入零件。** 选一个官方套装编号，把里面的零件全部放进来，
+      用手头现有的套装零件做改装时很方便。
+    - **导出 BrickLink 清单。** 搭完导出 XML，上传到 BrickLink 当采购清单用。
+    - **步骤和子模型。** 每一步放哪些砖都可以记录，最后生成分步说明书，
+      大模型可以拆成子模型分别搭。
+    - **导入 LDD 文件。** 乐高官方停更的 LEGO Digital Designer 留下的 LXF 文件能读进来。
+
+    要说清楚的：
+
+    - **不是乐高官方软件。** 同类里 BrickLink Studio 也免费，渲染和零件价格查询更强，
+      但它是闭源的。LeoCAD 胜在开源、轻量、离线。
+    - 新套装的零件要等 LDraw 社区建模入库，最新的零件可能暂时没有。
+    - 界面和渲染偏朴素，做宣传图一般导出到 POV-Ray 或 Blender 再渲染。
+  en: |
+    GPL-2.0, 2,874 stars. Version 26.09 was released on 20 September 2026 after 25.09 a year earlier,
+    and commits keep coming in between.
+
+    Anyone designing their own LEGO models (MOCs) runs into a practical problem: you rarely own the right
+    bricks. You build it on screen first, settle the structure and colors, then buy parts from a list.
+    LeoCAD covers that stage. Its library follows the LDraw standard with more than 10,000 parts and
+    works with LDraw tools such as LDView and LPub3D, so the large body of LDraw models online opens
+    directly.
+
+    A few practical features:
+
+    - **Import parts by set.** Pick an official set number and all its parts are added, handy when
+      modifying a set you already own.
+    - **BrickLink export.** Export an XML parts list and upload it to BrickLink as a wanted list.
+    - **Steps and submodels.** Record which bricks go in at each step to produce building instructions,
+      and split large builds into submodels.
+    - **LDD import.** LXF files from LEGO Digital Designer, which LEGO discontinued, can be read in.
+
+    To be clear about:
+
+    - **It is not official LEGO software.** BrickLink Studio is also free and stronger at rendering and
+      part price lookups, but it is closed source. LeoCAD wins on being open, lightweight and offline.
+    - Parts from new sets have to be modeled by the LDraw community first, so the newest pieces may be
+      missing for a while.
+    - The interface and viewport rendering are plain. For showcase images people usually export to
+      POV-Ray or Blender and render there.

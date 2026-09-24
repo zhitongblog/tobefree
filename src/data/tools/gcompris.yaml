@@ -1,0 +1,74 @@
+name: GCompris
+accent: '#E8641B'
+initials: GC
+category: learning
+price: free
+license: 'AGPL-3.0'
+website: https://gcompris.net
+download: https://gcompris.net/downloads-en.html
+repo: https://invent.kde.org/education/gcompris
+featured: false
+popular: false
+selfMade: false
+added: '2026-09-24'
+tags: [儿童教育, 启蒙, 算术, 识字, 离线可用]
+platforms: [windows, macos, linux, android]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform]
+tagline:
+  zh: 给 2 到 10 岁孩子的将近两百个小游戏，没有广告也没有内购
+  en: Nearly two hundred learning activities for ages 2 to 10, with no ads and no in-app purchases
+description:
+  zh: KDE 社区维护的儿童教育软件合集，面向 2 到 10 岁。26.0 版共 197 个活动，覆盖认识电脑、鼠标键盘操作、识字阅读、算术、科学、地理、逻辑游戏和盲文。全部离线运行，不需要账号，另有给老师用的配套程序 GCompris-teachers。
+  en: A collection of educational activities for children aged 2 to 10, maintained by the KDE community. Version 26.0 ships 197 activities covering computer basics, mouse and keyboard skills, reading, arithmetic, science, geography, logic games and Braille. Everything runs offline with no account, and a companion app, GCompris-teachers, is available for classrooms.
+review:
+  zh: |
+    AGPL-3.0 协议，代码托管在 KDE 自己的 GitLab 上。项目从 2000 年做到现在，
+    2026 年 9 月 23 日刚发了 26.2 版。
+
+    儿童教育 App 的通病是广告、内购和「再看一个视频解锁下一关」。
+    GCompris 没有这些：装好之后所有活动直接可用，不联网也能玩，
+    也没有账号体系。家长可以放心把平板或旧电脑交给孩子。
+
+    活动按类别排好：最小的孩子从点鼠标、按方向键开始，
+    大一点的做加减乘除、认钟表、找规律、拼图、下简单的棋类，
+    还有地理拼图、电路和水循环这类科学演示。
+    界面有 26 种语言完整翻译，另有 19 种部分翻译，部分活动带语音。
+
+    26.0 起多了配套的 GCompris-teachers，给老师在课堂上组织使用 GCompris，
+    目前有 Windows 和 Linux 版，适合学校机房。
+
+    要说清楚的：
+
+    - **macOS 版本落后。** 最新版还没有 macOS 包，官网只提供 4.3 旧版。
+      Linux、Windows、Android 和树莓派都是最新版。
+    - 没有 iOS 版。
+    - 2020 年 2 月以前，Windows 和 macOS 版要付一小笔钱解锁全部活动，
+      网上还能搜到这个说法。现在所有平台全部免费。
+    - 画面风格偏朴素，比不上商业儿童 App 的动画。孩子认不认这一点因人而异。
+  en: |
+    AGPL-3.0, with the code hosted on KDE's own GitLab. The project has been going since 2000, and
+    version 26.2 came out on 23 September 2026.
+
+    Children's learning apps tend to share the same problems: ads, in-app purchases and "watch one more
+    video to unlock the next level". GCompris has none of that. Once installed every activity is
+    available, it works without a network connection, and there is no account system. Parents
+    can hand over a tablet or an old laptop without worrying about it.
+
+    Activities are grouped by category. The youngest children start with clicking and arrow keys; older
+    ones do arithmetic, read clocks, spot patterns, solve puzzles and play simple board games, and
+    there are geography puzzles plus science demonstrations such as electric circuits and the water
+    cycle. The interface is fully translated into 26 languages and partly into 19 more, and some
+    activities include voice.
+
+    Since 26.0 there is also GCompris-teachers, a companion app for teachers running GCompris in a
+    classroom. It is available for Windows and Linux and suits a school computer room.
+
+    To be clear about:
+
+    - **macOS lags behind.** The latest release has no macOS build; the site offers the old 4.3
+      version. Linux, Windows, Android and Raspberry Pi all get current releases.
+    - There is no iOS version.
+    - Before February 2020 the Windows and macOS builds required a small payment to unlock every
+      activity, and you may still find that mentioned online. Today it is free on every platform.
+    - The artwork is plain compared with commercial children's apps. Whether that matters depends on
+      the child.
