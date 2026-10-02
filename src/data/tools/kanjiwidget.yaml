@@ -1,0 +1,72 @@
+name: KanjiWidget
+accent: '#C2410C'
+initials: 漢
+category: learning
+price: free
+license: 'Apache-2.0'
+website: https://platwa.github.io/KanjiWidget/
+download: https://github.com/platwa/KanjiWidget/releases
+repo: https://github.com/platwa/KanjiWidget
+featured: false
+popular: false
+selfMade: false
+added: '2026-10-02'
+tags: [日语, 汉字, 背单词, FSRS, Anki, 桌面小部件]
+platforms: [windows]
+badges: [open-source, no-ads, no-tracking, offline, no-signup]
+tagline:
+  zh: 挂在桌面上的日语汉字卡片，干活时顺便背
+  en: Japanese kanji cards that sit on your desktop while you work
+description:
+  zh: Windows 10/11 上的日语汉字与词汇学习小部件。卡片常驻桌面轮播，可以隐藏读音和释义做主动回忆，想专心复习时有 FSRS 算法的复习模式。自带 JLPT N5/N4 词库，能导入 Anki 的 .apkg 卡组，数据全部存在本地。
+  en: A Windows 10/11 widget for learning Japanese kanji and vocabulary. Cards rotate on your desktop, readings and meanings can stay hidden for active recall, and a dedicated FSRS review mode is there for focused sessions. It ships with JLPT N5/N4 decks, imports Anki .apkg decks, and keeps all data local.
+review:
+  zh: |
+    Apache-2.0 协议，个人开发者的项目，2026 年 8 月开源，到 9 月底已经发到 v1.5.0，更新很勤。
+    作者在本站 GitHub 提交了推荐，我们按正常标准核过：源码、协议、发布包都是公开的。
+
+    它解决的是「打开背单词软件」这一步的门槛。卡片是一个半透明的小窗，挂在桌面角落自动轮换，
+    写代码、看文档的间隙瞄一眼就算复习了一次。主动回忆模式下读音和释义先藏起来，鼠标悬停才显示。
+    真要坐下来背，右键进复习窗口，按 Again / Hard / Good / Easy 打分，排期用的是 FSRS，和新版 Anki 是同一套算法。
+
+    值得一提的几点：
+
+    - **词库。** 内置 JLPT N5（80 字）和 N4（170 字）两个汉字卡组，例句带振假名。自建卡片不限级别，整词、读音、例句都能填。
+    - **Anki 导入。** 直接读 .apkg，导成独立卡组，只取文字，不带图片和音频，也不同步 Anki 的复习进度。
+    - **完全离线。** 设置、进度、复习记录都在本地 SQLite 里；没有账号、广告和遥测，正常使用不联网。
+    - 还能把卡片导出成 1920×1080 图片，丢进 Windows 锁屏幻灯片里。
+
+    要说清楚的：
+
+    - **只有 Windows。** 没有 macOS、Linux 和手机版，也没有跨设备同步。
+    - **安装包暂未签名**，下载后 SmartScreen 可能拦一下；发布页附了 SHA-256 校验值，可以自己核对。
+    - 界面只有英文和俄文，没有中文；卡片内容本身是日语加你自己填的释义，影响不大。
+    - 项目很新、只有一位维护者，长期能维护多久还要观察。
+  en: |
+    Apache-2.0, a solo developer's project that went open source in August 2026 and had reached v1.5.0
+    by late September — it is updated often. The author suggested it through our GitHub, and we checked
+    it against our usual standards: source, licence and release packages are all public.
+
+    What it removes is the step of opening a flashcard app at all. Cards live in a small translucent
+    window in a corner of the desktop and rotate on their own, so a glance between coding or reading
+    counts as a repetition. In active-recall mode the reading and meaning stay hidden until you hover.
+    When you do want to sit down and study, right-click into the review window and grade cards
+    Again / Hard / Good / Easy; scheduling uses FSRS, the same algorithm as modern Anki.
+
+    Worth noting:
+
+    - **Decks.** Built-in JLPT N5 (80 kanji) and N4 (170 kanji) decks, with furigana on example
+      sentences. Custom cards are not limited by level and can hold a whole word, reading and example.
+    - **Anki import.** Reads .apkg directly into a separate deck — text only, no images or audio, and
+      Anki review progress is not carried over.
+    - **Fully offline.** Settings, progress and review history sit in a local SQLite database; no
+      account, ads or telemetry, and no network access during normal use.
+    - Cards can also be exported as 1920×1080 images for the Windows lock-screen slideshow.
+
+    To be clear about:
+
+    - **Windows only.** No macOS, Linux or mobile version, and no sync across devices.
+    - **Packages are not code-signed yet**, so SmartScreen may warn on first run; SHA-256 checksums are
+      published alongside each release.
+    - The interface is in English and Russian only.
+    - The project is young and has a single maintainer, so long-term upkeep remains to be seen.

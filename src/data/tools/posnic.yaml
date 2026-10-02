@@ -1,0 +1,82 @@
+name: Posnic
+accent: '#2563EB'
+initials: PO
+category: finance
+price: freemium
+license: 'AGPL-3.0 · 部分组件'
+website: https://www.posnic.com/
+download: https://github.com/Posnic/POS/releases/latest
+repo: https://github.com/Posnic/POS
+featured: false
+popular: false
+selfMade: false
+added: '2026-10-02'
+tags: [收银, POS, 进销存, 零售, 餐饮, 离线]
+platforms: [windows, macos, linux]
+badges: [open-source, no-ads, no-tracking, offline, no-signup, cross-platform, self-hostable]
+tagline:
+  zh: 开源离线收银系统，小店和餐馆在自己电脑上跑
+  en: Open-source offline POS for small shops and restaurants, running on your own computer
+description:
+  zh: 面向零售店和餐馆的开源收银与开单软件。本地版把数据库和服务装在店里的电脑上，不需要账号，断网也能收银。覆盖收银小票、商品库存、客户供应商、采购报价、费用和报表、员工权限，以及常见的收银硬件。
+  en: Open-source point-of-sale and billing software for retail shops and restaurants. The local edition runs its database and service on the shop's own computer, needs no account, and keeps checkout working offline. It covers receipts, products and inventory, customers and suppliers, purchases and quotes, expenses and reports, staff roles, and common POS hardware.
+review:
+  zh: |
+    Posnic 自身代码是 AGPL-3.0-only，发布包里捆绑了 MongoDB Community Server 等组件，
+    这些组件各有协议（MongoDB 是 SSPL-1.0），所以协议这里写「部分组件」。
+    提交推荐的是项目方本人，并主动说明了身份；我们按正常标准核过源码、协议和发布包。
+
+    商用收银软件大多按月收费、数据放在厂商云上，断网就收不了钱。Posnic 的本地版反过来：
+    数据库和 API 跑在店里那台电脑上，软件价格为零、没有试用期，也不用注册 Posnic 账号。
+    隐私政策写明本地版不向 Posnic 发送统计或遥测。
+
+    功能面比较全：
+
+    - **前台。** 收银、小票打印，常见扫码枪、小票机、钱箱等硬件。
+    - **后台。** 商品与库存、客户和供应商、采购单、报价单、费用、报表，
+      报表里带印度 GST 税务视图，看得出主要用户在印度。
+    - **餐饮。** 有厨房出单（KOT）流程。
+    - **多人。** 管理员、店长、收银员分角色权限。
+
+    官网有在线演示（demo.posnic.io），用 admin / admin 登录就能试，每小时重置，适合装之前先摸一遍。
+
+    要说清楚的：
+
+    - **云服务收费。** 浏览器远程访问、云端看板和同步属于付费的 Posnic Cloud，所以价格标为「免费增值」；
+      只在店里一台电脑上用，本地版就够。
+    - **更新极快、预发布版很多**，一天能发好几个 beta。正式开店建议只装标了正式版的版本，别跟 beta。
+    - **捆绑 MongoDB**，安装体积和内存占用比一般小软件大。
+    - 界面有简体和繁体中文翻译，但税务和票据格式按印度习惯设计，国内门店要做好自己调整的准备。
+  en: |
+    Posnic's own source is AGPL-3.0-only, while its release packages bundle components such as MongoDB
+    Community Server under their own licences (MongoDB is SSPL-1.0), hence "some components" in the
+    licence field. It was suggested by someone affiliated with the project, who said so up front; we
+    checked the source, licence and release packages against our usual standards.
+
+    Commercial POS software usually means a monthly fee, data on the vendor's cloud, and no sales when
+    the internet drops. Posnic's local edition flips that: the database and API run on the shop's own
+    computer, the software price is zero with no trial clock, and no Posnic account is required. The
+    privacy policy states that the local edition sends no analytics or telemetry to Posnic.
+
+    The feature set is broad:
+
+    - **Front counter.** Checkout, receipt printing, and common barcode scanners, receipt
+      printers and cash drawers.
+    - **Back office.** Products and inventory, customers and suppliers, purchase orders, quotes,
+      expenses and reports — including Indian GST views, a hint at where most users are.
+    - **Restaurants.** A kitchen order ticket (KOT) workflow.
+    - **Staff.** Separate admin, manager and cashier roles.
+
+    There is a live demo at demo.posnic.io (log in as admin / admin, reset every hour), handy for a
+    look before installing.
+
+    To be clear about:
+
+    - **Cloud features cost money.** Browser access, the cloud dashboard and sync belong to the paid
+      Posnic Cloud, hence the "freemium" label; one counter on one computer only needs the free local
+      edition.
+    - **Releases are extremely frequent**, often several betas a day. For a real shop, install only
+      versions marked as stable.
+    - **It bundles MongoDB**, so the install size and memory use are larger than a typical small app.
+    - The interface is translated into dozens of languages, but tax and receipt formats lean toward
+      Indian conventions, so shops elsewhere should expect some adjustment.
