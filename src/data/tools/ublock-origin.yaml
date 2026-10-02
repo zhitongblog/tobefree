@@ -18,5 +18,5 @@ tagline:
   zh: 高效省内存的广告与追踪拦截器，装上就清净
   en: A fast, memory-light blocker for ads and trackers — install and breathe
 description:
-  zh: 广谱内容拦截浏览器扩展，默认拦截广告、追踪器、挖矿脚本和恶意站点。占用资源极低，支持 Firefox、Chrome、Edge 等主流浏览器。
-  en: A wide-spectrum content-blocking browser extension that stops ads, trackers, cryptominers and malware sites by default. Extremely light on resources, and works across Firefox, Chrome, Edge and more.
+  zh: 广谱内容拦截浏览器扩展，默认拦截广告、追踪器、挖矿脚本和恶意站点，占用资源极低。完整版在 Firefox 及其衍生浏览器上可用；Chrome 完成 Manifest V3 迁移后只能装功能受限的 uBlock Origin Lite。
+  en: A wide-spectrum content-blocking browser extension that stops ads, trackers, cryptominers and malware sites by default, and is extremely light on resources. The full version runs on Firefox and Firefox-based browsers; since Chrome's Manifest V3 migration, Chrome can only install the feature-limited uBlock Origin Lite.

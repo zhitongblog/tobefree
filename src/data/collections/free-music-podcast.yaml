@@ -1,0 +1,43 @@
+title:
+  zh: "免费音乐播放器与播客软件推荐"
+  en: "Free Music Players and Podcast Apps"
+description:
+  zh: "八款免费开源的音乐与音频软件：本地音乐库播放器、自建音乐和有声书服务器、按 RSS 订阅的播客客户端，以及三款什么格式都能放的通用播放器。"
+  en: "Eight free and open-source music and audio programs: a local library player, self-hosted music and audiobook servers, an RSS-based podcast client, and three general players that handle any format."
+intro:
+  zh: "流媒体订阅的曲库是租来的：版权到期的专辑会下架，有的被换成重录版，停止订阅就什么都听不了，听了什么还会变成推荐和画像的数据。播客本来是 RSS 做的，一个订阅地址谁都能读，这些年又被各家平台收进自己的 App 和账号体系。这份清单给的是另一条路：音乐是你硬盘上的文件，播客按 RSS 直接订阅。分三类：本地播放、自建服务器、播客与有声书。这些工具都不提供内容，只管理和播放你已经有的文件。"
+  en: "A streaming catalogue is rented: albums disappear when licences lapse, some get replaced with re-recordings, everything stops when the subscription does, and what you listen to becomes data for recommendations and profiling. Podcasts were built on RSS, where anyone can read a feed, yet over the years platforms have pulled them into their own apps and account systems. This list takes the other route: music as files on your own disk, podcasts subscribed to directly by RSS. It falls into three groups — local playback, self-hosted servers, and podcasts and audiobooks. None of these tools supply content; they manage and play files you already have."
+criteria:
+  zh:
+    - "开源免费，没有广告，没有付费会员档位。"
+    - "播放的是你自己的文件或 RSS 源，不绑定任何流媒体账号。"
+    - "收听记录和进度存在本机或你自己的服务器上，不回传给第三方。"
+    - "订阅和音乐库能导出，比如播客的 OPML，换软件不丢东西。"
+  en:
+    - "Open source and free, with no ads and no paid membership tier."
+    - "Plays your own files or RSS feeds, tied to no streaming account."
+    - "Listening history and progress stay on your device or your own server, not sent to third parties."
+    - "Subscriptions and libraries export — OPML for podcasts, for example — so switching loses nothing."
+tools: [strawberry, navidrome, jellyfin, audiobookshelf, antennapod, vlc, mpv, kodi]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "电脑里有几万首音乐文件，用什么播放器管？"
+      a: "Strawberry。它是 Clementine 的活跃分支，几万首的库照样秒开秒搜，FLAC、ALAC、APE、WavPack、DSF 都能放。标签编辑器能从 MusicBrainz 抓元数据、补封面，还有智能播放列表和 ReplayGain 音量归一化。它不接 Spotify、Apple Music 这类流媒体，Windows、macOS、Linux 都有。"
+    - q: "音乐在家里硬盘上，出门想用手机听怎么办？"
+      a: "在家里跑一个 Navidrome。它是 Go 写的单个程序，树莓派就带得动几万首的库。手机上装任何兼容 Subsonic 协议的 App 连回来，家里 WiFi 下推原始 FLAC，用移动网络时自动转成低码率。需要一台常年开机的机器；从外网访问要做端口映射，或者用 Tailscale 这类组网工具。已经用 Jellyfin 管影视的，它也能放音乐，不想多跑一个服务就用它。"
+    - q: "不想用平台 App，怎么听播客？"
+      a: "安卓上用 AntennaPod，直接订阅 RSS，不需要任何平台账号，支持自动下载、按节目设置倍速、跳过片头片尾和睡眠定时，订阅列表能用 OPML 导入导出。它只有安卓版。内置的 Podcast Index 和 iTunes 目录能搜节目，但没有算法推荐。"
+    - q: "有声书用什么听，能记住进度吗？"
+      a: "Audiobookshelf。它按书而不是按文件组织书库，进度存在服务端，手机上听到第 12 章，换到网页版从同一处继续。安卓和 iOS 都有官方 App，支持离线下载和倍速，也能订阅播客 RSS。它需要自己的服务器或 NAS，用 Docker 部署；中文有声书的封面和简介经常要手动补。"
+  en:
+    - q: "Tens of thousands of music files on my computer. Which player?"
+      a: "Strawberry. An active fork of Clementine, it opens and searches libraries of tens of thousands of tracks instantly and plays FLAC, ALAC, APE, WavPack and DSF. Its tag editor pulls metadata from MusicBrainz and fills in cover art, and it has smart playlists and ReplayGain normalisation. It does not connect to streaming services such as Spotify or Apple Music, and it runs on Windows, macOS and Linux."
+    - q: "My music is on a disk at home. How do I listen on my phone when I'm out?"
+      a: "Run Navidrome at home. It is a single program written in Go, and a Raspberry Pi can serve a library of tens of thousands of tracks. Any Subsonic-compatible app on the phone connects back; on home Wi-Fi it streams the original FLAC, and on mobile data it transcodes to a lower bitrate automatically. It needs a machine that stays on, and reaching it from outside takes port forwarding or a mesh network such as Tailscale. If you already run Jellyfin for films and shows, it plays music too, and saves running a second service."
+    - q: "How do I listen to podcasts without a platform app?"
+      a: "On Android, AntennaPod. It subscribes to RSS directly with no platform account, and supports automatic downloads, per-show speed, intro and outro skipping and a sleep timer; subscriptions import and export as OPML. It is Android only. The built-in Podcast Index and iTunes directory search finds shows, but there is no algorithmic recommendation."
+    - q: "What should I use for audiobooks, and will it remember where I was?"
+      a: "Audiobookshelf. It organises the library by book rather than by file and keeps progress on the server, so chapter 12 on the phone picks up at the same point in the web player. Official Android and iOS apps offer offline downloads and speed control, and it can subscribe to podcast RSS as well. It needs your own server or NAS, deployed with Docker, and covers and descriptions for Chinese audiobooks often have to be filled in by hand."

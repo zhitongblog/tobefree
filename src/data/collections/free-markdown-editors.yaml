@@ -1,0 +1,43 @@
+title:
+  zh: "免费 Markdown 编辑器推荐"
+  en: "Free Markdown Editors"
+description:
+  zh: "八款免费的 Markdown 写作工具：三款专注写作的编辑器、四款以 Markdown 为底的笔记软件，外加一个把 Markdown 转成 Word、PDF、EPUB 的格式转换器。"
+  en: "Eight free Markdown tools: three editors built for writing, four note apps built on Markdown, and a converter that turns Markdown into Word, PDF and EPUB."
+intro:
+  zh: "Markdown 的好处在文件本身：一个 .md 就是纯文本，任何编辑器都能打开，能进 Git 做版本管理，软件停更了文件照样能读。Typora 曾经是很多人的默认选择，2021 年 11 月发布 1.0 正式版后改为付费，只给 15 天试用。这份清单里的工具都免费，其中多数开源。分两类：专心写一篇东西的编辑器，和管理大量笔记的知识库。另外收了 Pandoc，Markdown 写完要交 Word 或出 PDF 时用得上。"
+  en: "The value of Markdown is in the file itself: a .md file is plain text that any editor opens, that versions in Git, and that stays readable after the software is gone. Typora was the default for many people until it left beta with version 1.0 in November 2021 and became paid, with a 15-day trial. Everything on this list is free, and most of it is open source. It falls into two groups: editors for writing one piece, and knowledge bases for managing many notes. Pandoc is included too, for when Markdown has to be delivered as Word or PDF."
+criteria:
+  zh:
+    - "写作和导出功能免费，不设试用期，不按月订阅。"
+    - "内容以 Markdown 保存，能直接读取或完整导出成 .md 文件，不被锁在某个软件里。"
+    - "本地写作不需要注册账号，不联网也能用。"
+    - "同步收费的单独说明，比如思源的官方云同步，并给出免费的替代方式。"
+  en:
+    - "Writing and export are free, with no trial period and no monthly subscription."
+    - "Content is stored as Markdown and can be read directly or exported in full as .md files, not locked into one application."
+    - "Local writing needs no account and works offline."
+    - "Where sync costs money — SiYuan's official cloud, for example — it is noted along with a free alternative."
+tools: [marktext, solomd, zettlr, obsidian, joplin, siyuan, logseq, pandoc]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "想找一个 Typora 那样所见即所得的免费编辑器？"
+      a: "MarkText。MIT 开源，实时预览，另有源码、打字机、专注三种模式，支持 KaTeX 公式、表格编辑、粘贴图片，能导出 HTML 和 PDF。网上一度传它停更，实际 2026 年 6 月还发了 v0.19.1。缺点是体积，基于 Electron，Windows 安装包 106 MB。"
+    - q: "写论文、写书，要挂参考文献，用哪个？"
+      a: "Zettlr。它内置 Zotero 和 JabRef 的文献引用，有脚注，能导出成期刊格式的 PDF 和 Word。只记日常笔记的话用不上这些，选更轻的。交稿格式要求严的，再配一个 Pandoc：套用 Word 模板直接出 .docx，配合 BibTeX 或 CSL 文件按 APA、GB/T 7714 等格式生成引用。Pandoc 是命令行工具，转 PDF 还要另装 LaTeX。"
+    - q: "Obsidian、思源、Logseq、Joplin 都是笔记软件，怎么选？"
+      a: "Obsidian 的笔记就是文件夹里的 .md 文件，插件生态最大，但它不开源。思源是 AGPL 开源，引用粒度到块，中文排版细节做得好，官方云同步收费，可以用 S3、WebDAV 或 Syncthing 免费同步。Logseq 是大纲式的，每一行都是块，适合写日记、列任务，写成段的长文会别扭。Joplin 带端到端加密同步，可以同步到自己的 Nextcloud、Dropbox，笔记能整体导出成 Markdown。"
+    - q: "SoloMD 和它们有什么不同？"
+      a: "SoloMD 是我们自己做的，一个文件一个窗口，偏写作。MIT 开源，默认不发遥测，桌面和手机都有。它带本地语义搜索和 AutoGit 自动留版本，还内置 CLI 和 MCP 服务，Claude 这类 AI 工具可以直接调用它读写文档。"
+  en:
+    - q: "A free WYSIWYG editor like Typora?"
+      a: "MarkText. MIT-licensed with real-time preview, plus source, typewriter and focus modes; it handles KaTeX math, table editing and pasted images, and exports HTML and PDF. It was rumoured to be abandoned, but v0.19.1 shipped in June 2026. The drawback is size: it is built on Electron, and the Windows installer is 106 MB."
+    - q: "Writing a paper or a book with a bibliography?"
+      a: "Zettlr. It has built-in Zotero and JabRef citations, footnotes, and export to journal-ready PDF and Word. For daily notes none of that applies, and something lighter fits better. Where the submission format is strict, add Pandoc: supply a Word template to produce .docx directly, and use a BibTeX or CSL file to generate citations in APA and many other styles. Pandoc is a command-line tool, and PDF output needs a LaTeX installation."
+    - q: "Obsidian, SiYuan, Logseq and Joplin are all note apps. Which one?"
+      a: "Obsidian keeps notes as .md files in a folder and has the largest plugin ecosystem, but it is not open source. SiYuan is AGPL open source, references down to the block level, and handles Chinese typesetting carefully; its official cloud sync is paid, but S3, WebDAV or Syncthing sync for free. Logseq is an outliner where every line is a block — good for journals and task lists, awkward for long prose. Joplin offers end-to-end encrypted sync to your own Nextcloud or Dropbox, and notes export in full as Markdown."
+    - q: "How is SoloMD different?"
+      a: "SoloMD is the editor we make ourselves: one file, one window, aimed at writing. It is MIT-licensed, sends no telemetry by default, and runs on desktop and mobile. It adds local semantic search and AutoGit versioning, and ships with a CLI and an MCP server so AI tools such as Claude can read and write documents through it directly."

@@ -1,0 +1,43 @@
+title:
+  zh: "iPhone 免费无广告 App 推荐"
+  en: "Free Ad-Free iPhone Apps"
+description:
+  zh: "十四款 iPhone 上的免费无广告 App，覆盖浏览器、通讯、密码与两步验证、传文件、播放器、离线地图、笔记、照片备份、影音串流和证件照。"
+  en: "Fourteen free, ad-free iPhone apps covering browsing, messaging, passwords and two-factor codes, file transfer, media playback, offline maps, notes, photo backup, streaming and ID photos."
+intro:
+  zh: "App Store 审核管得住恶意代码，管不住收费套路。标着「免费」的 App，打开先弹订阅页，关闭按钮做得很小，试用期结束自动按周扣费；证件照、习惯打卡这几类尤其常见。这份清单只收核心功能不花钱、没有广告的 iPhone App，大多是开源项目，安卓和桌面端也有对应版本，换设备不用重新找。部分 App 需要自己有一台服务器或电脑配合，会在问答里说明。"
+  en: "App Store review catches malicious code but not billing tricks. An app labelled \"free\" opens on a subscription screen with a tiny close button, and the trial rolls into a weekly charge; ID photos and habit tracking are the usual suspects. This list covers only iPhone apps whose core features cost nothing and show no ads. Most are open-source projects with Android and desktop versions too, so switching devices does not mean starting over. A few need your own server or computer on the other end, which the FAQ explains."
+criteria:
+  zh:
+    - "核心功能免费，没有订阅弹窗，没有「去广告」内购。"
+    - "App Store 里是作者本人上架的官方版本。"
+    - "优先选择开源、在安卓和桌面端也有版本的项目。"
+    - "需要账号或需要自建服务端的，逐款说明。"
+  en:
+    - "Core features are free, with no subscription pop-up and no in-app purchase to remove ads."
+    - "The App Store listing is the developer's own official build."
+    - "Open-source projects with Android and desktop versions are preferred."
+    - "Where an account or a self-hosted server is needed, it is stated."
+tools: [freeid-photo, firefox, signal, bitwarden, ente-auth, localsend, vlc, organic-maps, kiwix, joplin, immich, jellyfin, moonlight, ppsspp]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "拍证件照有不收钱的 App 吗？"
+      a: "FreeID Photo。拍的时候实时引导构图，覆盖 10 个国家 16 种规格，照片在手机本地处理，不上传，导出没有水印，也没有付费项。"
+    - q: "iPhone 上的两步验证器用哪个？"
+      a: "Ente Auth。开源，验证码密钥在本机加密后再同步，服务器只存密文，换手机登录就能恢复，电脑上也能取码。它需要注册 Ente 账号，主密码丢了没人能解开数据，恢复密钥要单独存好。安卓上常被推荐的 Aegis 没有 iOS 版。"
+    - q: "iPhone 和 Windows 电脑之间怎么传照片？"
+      a: "LocalSend。两台设备在同一个 Wi-Fi 下会互相发现，文件点对点直传，原图不压缩，不需要账号。限制是必须在同一个局域网，开了客户端隔离的公司或学校网络上设备互相看不见，可以让一端开热点绕过去。"
+    - q: "Immich、Jellyfin、Moonlight 装上为什么用不了？"
+      a: "这三个是客户端，另一端要有自己的机器。Immich 和 Jellyfin 需要先在电脑或 NAS 上部署服务端，前者备份手机照片，后者播放自己的影视库。Moonlight 串流的是家里电脑的画面，电脑上要装 Sunshine 这类服务端。"
+  en:
+    - q: "Is there an ID photo app that does not charge?"
+      a: "FreeID Photo. It guides framing live as you shoot, covers 16 formats across 10 countries, processes the photo on the phone without uploading, and exports with no watermark and nothing to pay for."
+    - q: "Which two-factor authenticator on iPhone?"
+      a: "Ente Auth. It is open source, encrypts secrets on the device before syncing so the server holds only ciphertext, restores on a new phone after signing in, and lets you read codes on a computer too. It needs an Ente account, and nobody can decrypt your data if the password is lost, so store the recovery key separately. Aegis, the usual Android recommendation, has no iOS version."
+    - q: "How do I move photos between an iPhone and a Windows PC?"
+      a: "LocalSend. Devices on the same Wi-Fi find each other and transfer peer-to-peer, originals uncompressed, with no account. Both must be on the same local network; on company or school Wi-Fi with client isolation the devices cannot see each other, which a hotspot from one end works around."
+    - q: "Why don't Immich, Jellyfin and Moonlight work after installing?"
+      a: "All three are clients that need your own machine on the other end. Immich and Jellyfin require a server deployed on a computer or NAS first — the former backs up phone photos, the latter plays your own film library. Moonlight streams a home computer's screen, which needs a host such as Sunshine installed on that computer."

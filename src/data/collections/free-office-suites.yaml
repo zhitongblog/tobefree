@@ -1,0 +1,43 @@
+title:
+  zh: "免费 Office 办公软件推荐"
+  en: "Free Office Software"
+description:
+  zh: "九款免费办公软件，覆盖文档、表格、演示、PDF 阅读与页面处理、流程图和文档排版，能打开和保存 docx、xlsx、pptx，不需要订阅。"
+  en: "Nine free office tools covering documents, spreadsheets, slides, PDF reading and page handling, diagrams and typesetting — they open and save docx, xlsx and pptx, with no subscription."
+intro:
+  zh: "Microsoft Office 现在的主推形态是 Microsoft 365，按年订阅，停止续费后文档还在，编辑功能没了。多数人的实际需求没这么大：打开别人发来的 docx，改几处，存回原格式发回去；做一张表；改一份 PPT；看 PDF、拆几页。这份清单按这些需求配：两个完整办公套件负责 Word、Excel、PowerPoint 的活，PDF 阅读器和页面工具负责 Acrobat 的活，draw.io 负责 Visio 的活，再加上 Pandoc 和 Typst 两个写作与排版工具。格式兼容是换软件时最大的顾虑，下面的问答里单独说。"
+  en: "Microsoft Office is now sold mainly as Microsoft 365, a yearly subscription; stop paying and the documents remain but editing goes away. Most people need far less: open a docx someone sent, change a few lines, save it back in the same format; build a spreadsheet; fix a slide deck; read a PDF and pull out a few pages. This list is matched to those jobs — two full office suites for Word, Excel and PowerPoint work, PDF readers and page tools for the Acrobat work, draw.io for the Visio work, and Pandoc and Typst for writing and typesetting. Format compatibility is the biggest worry when switching, and the FAQ below takes it on directly."
+criteria:
+  zh:
+    - "能打开、编辑并保存 docx、xlsx、pptx 或 PDF，不是只读。"
+    - "不需要订阅，免费版没有页数、文件数或导出限制。"
+    - "桌面端离线可用，文件存在本机，不强制登录云账号。"
+    - "开源，无广告，不捆绑安装其他软件。"
+  en:
+    - "Opens, edits and saves docx, xlsx, pptx or PDF — not view-only."
+    - "No subscription, and no page, file-count or export limits on the free version."
+    - "Works offline on the desktop with files kept locally and no forced cloud sign-in."
+    - "Open source, with no ads and no bundled installers."
+tools: [libreoffice, onlyoffice-desktop-editors, drawio, sumatra-pdf, okular, pdfsam-basic, stirling-pdf, pandoc, typst]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "LibreOffice 和 ONLYOFFICE 选哪个？"
+      a: "经常和用 Microsoft Office 的人来回传文件，选 ONLYOFFICE。它对 docx、xlsx、pptx 的还原度在开源套件里排在前面，复杂表格和演示打开后很少错位，界面也是选项卡式，和 Office 接近。要的组件更全，选 LibreOffice，文字、表格、演示之外还有绘图、公式和数据库，一共六个组件。两个都免费，都装上也不冲突。"
+    - q: "别人发来的 docx 用免费软件打开会乱吗？"
+      a: "简单文档基本不会，文字、标题、普通表格、图片都能正常显示。容易出问题的是精细调过的样式、浮动的图文混排和复杂表格，还有对方用了你电脑上没有的字体。遇到重要文件，先用 ONLYOFFICE 打开对照一次，再决定是否要让对方改发 PDF。"
+    - q: "Acrobat 的活用什么替代？"
+      a: "看 PDF 在 Windows 上用 SumatraPDF，启动快、占用小，还能做成单文件绿色版；跨平台或者要高亮、批注、填表单，用 Okular。合并、拆分、提取页面、旋转用 PDFsam Basic，全在本机做。需要 OCR、压缩、格式转换、签名这类更多功能，用 Docker 部署 Stirling-PDF，50 多个工具都在自己的机器上跑。"
+    - q: "Pandoc 和 Typst 跟 Office 有什么关系？"
+      a: "它们替代的是「在 Word 里写长文档」这件事。Pandoc 负责格式转换，用 Markdown 写，一条命令转成 docx 交出去，还能套 Word 模板、自动生成参考文献。Typst 是排版系统，写论文、报告、简历，改一行立刻看到结果，公式和交叉引用都是内置的。两个都要打字写标记，不是点菜单的工具。"
+  en:
+    - q: "LibreOffice or ONLYOFFICE?"
+      a: "If you trade files with Microsoft Office users all the time, ONLYOFFICE. Its docx, xlsx and pptx fidelity is among the best of the open-source suites, complex spreadsheets and slides rarely shift on opening, and the tabbed interface is close to Office. If you want the broader set of apps, LibreOffice — beyond documents, spreadsheets and slides it has drawing, formulas and a database, six apps in all. Both are free and can be installed side by side."
+    - q: "Will a docx someone sent me break in free software?"
+      a: "Simple documents are fine — text, headings, ordinary tables and images display correctly. Trouble comes from finely tuned styles, floating text-and-image layouts, complex tables, and fonts the sender has but you do not. For an important file, open it once in ONLYOFFICE to compare, then decide whether to ask for a PDF instead."
+    - q: "What replaces Acrobat?"
+      a: "For reading on Windows, SumatraPDF: it starts fast, uses little memory and can run as a single portable file. Cross-platform, or for highlights, annotations and form filling, Okular. For merging, splitting, extracting and rotating pages, PDFsam Basic, entirely on your machine. For OCR, compression, conversion and signing, deploy Stirling-PDF with Docker — more than 50 tools running on your own hardware."
+    - q: "Where do Pandoc and Typst fit in an Office replacement?"
+      a: "They replace writing long documents in Word. Pandoc converts between formats: write in Markdown, turn it into a docx with one command, apply a Word template and generate the bibliography automatically. Typst is a typesetting system for papers, reports and CVs, showing each edit immediately, with formulas and cross-references built in. Both mean typing markup rather than clicking menus."

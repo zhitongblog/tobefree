@@ -1,0 +1,43 @@
+title:
+  zh: "Linux 免费软件推荐"
+  en: "Free Linux Software"
+description:
+  zh: "二十二款 Linux 上的免费软件，覆盖浏览器、邮件、办公、影音、修图剪辑、开发、密码、同步备份和游戏，全部无广告、不订阅。"
+  en: "Twenty-two free Linux applications covering browsing, email, office work, media, image and video editing, development, passwords, sync, backup and gaming — all ad-free and subscription-free."
+intro:
+  zh: "从 Windows 换到 Linux，卡住人的通常是三件事：别人发来的 docx 排版会不会乱、Epic 和 GOG 上买的游戏怎么玩、某个只有 Windows 版的软件还能不能用。前两件有现成答案，ONLYOFFICE 对 Office 格式的还原度在开源套件里数一数二，Heroic 接管 Epic 和 GOG 的游戏库；第三件交给 Bottles，每个 Windows 程序一个独立环境。其余日常软件大多本来就是跨平台的开源项目，在 Linux 上是原生版本。这份清单按用途分六类：上网与邮件、办公、影音与创作、开发、密码与数据、游戏。"
+  en: "Moving from Windows to Linux, people usually get stuck on three things: whether a docx someone sends will keep its layout, how to play games bought on Epic and GOG, and whether a Windows-only program will still run. The first two have ready answers — ONLYOFFICE has some of the best Office-format fidelity among open-source suites, and Heroic takes over Epic and GOG libraries. The third goes to Bottles, which gives every Windows program its own isolated environment. Most other everyday software is already cross-platform open source with a native Linux build. This list sorts six ways: web and email, office, media and creative work, development, passwords and data, and gaming."
+criteria:
+  zh:
+    - "有 Linux 原生版本，或者本身就是只为 Linux 做的工具。"
+    - "核心功能免费，没有订阅才能解锁的日常能力。"
+    - "无广告、不强制注册。"
+    - "优先选择开源、长期维护、主流发行版都能装的软件。"
+  en:
+    - "Has a native Linux build, or is built for Linux specifically."
+    - "Core features are free, with no everyday capability behind a subscription."
+    - "No ads and no forced registration."
+    - "Open source, actively maintained and installable on mainstream distributions are preferred."
+tools: [firefox, thunderbird, libreoffice, onlyoffice-desktop-editors, vlc, gimp, krita, obs-studio, kdenlive, handbrake, flameshot, vscodium, keepassxc, bitwarden, syncthing, kopia, localsend, kde-connect, lutris, heroic-games-launcher, bottles, ventoy]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "装 Linux 之前先准备什么？"
+      a: "在 Windows 上用 Ventoy 做一个启动盘。U 盘装一次 Ventoy，之后把发行版的 ISO 直接拖进去就能启动，想试几个发行版就放几个 ISO，不用反复格式化。重要文件先用 Kopia 备份一份，它在本地加密去重后再存到硬盘、NAS 或云存储。"
+    - q: "Office 文档用 LibreOffice 还是 ONLYOFFICE？"
+      a: "经常收发 docx、xlsx、pptx 的选 ONLYOFFICE，界面接近 MS Office，复杂表格和演示打开很少错位。LibreOffice 组件更全，文字、表格、演示之外还有绘图、公式和数据库。两个可以同时装，按文件挑。"
+    - q: "Linux 上玩游戏怎么配？"
+      a: "Steam 有官方 Linux 客户端，内置 Proton，不需要额外工具。Epic 和 GOG 没有 Linux 客户端，用 Heroic。其他来源的 Windows 游戏和模拟器用 Lutris，社区安装脚本会配好 Wine 版本和依赖。带内核级反作弊的多人游戏大多跑不了，这是反作弊厂商的限制，买之前去 ProtonDB 查一下评级。"
+    - q: "手机和 Linux 电脑怎么互通？"
+      a: "安卓手机装 KDE Connect，通知、剪贴板、传文件、当触控板都能用，Linux 是它的原生平台。只是传一次文件用 LocalSend，iPhone 也支持。要让两台设备的文件夹一直保持一致，用 Syncthing，不经过任何中央服务器。"
+  en:
+    - q: "What should I prepare before installing Linux?"
+      a: "Make a boot drive with Ventoy on Windows. Install Ventoy to a USB stick once, then drag distribution ISOs straight onto it and boot from them — one ISO per distribution you want to try, with no reformatting. Back up important files with Kopia first; it encrypts and deduplicates locally before storing to a drive, a NAS or cloud storage."
+    - q: "LibreOffice or ONLYOFFICE for Office documents?"
+      a: "If you exchange docx, xlsx and pptx often, ONLYOFFICE — its interface is close to MS Office and complex spreadsheets and decks rarely shift. LibreOffice has more components, adding drawing, formulas and a database to the word processor, spreadsheet and presentations. Install both and pick per file."
+    - q: "How do I set up gaming on Linux?"
+      a: "Steam has an official Linux client with Proton built in and needs nothing extra. Epic and GOG have no Linux client, so use Heroic. For Windows games from other sources and for emulators, use Lutris, whose community install scripts set up the right Wine version and dependencies. Multiplayer games with kernel-level anti-cheat mostly do not run — a restriction from the anti-cheat vendors — so check the game's ProtonDB rating before buying."
+    - q: "How do I connect a phone to a Linux computer?"
+      a: "On Android, install KDE Connect for notifications, shared clipboard, file transfer and using the phone as a touchpad; Linux is its native platform. For a one-off file transfer use LocalSend, which also works on iPhone. To keep a folder identical across two devices continuously, use Syncthing, with no central server involved."

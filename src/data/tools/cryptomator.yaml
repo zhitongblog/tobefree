@@ -18,5 +18,5 @@ tagline:
   zh: 上传云盘前先加密，密钥只在你手里
   en: Encrypt files before they hit the cloud — the key stays with you
 description:
-  zh: 在本地为云盘文件做客户端加密，文件内容和文件名都用 AES-256 加密。上传 Dropbox、Google Drive、OneDrive 等前先建一个加密"保险库"，云服务商看不到明文。
-  en: Client-side encryption for your cloud files, protecting both contents and filenames with AES-256. Create an encrypted vault before syncing to Dropbox, Google Drive, OneDrive and more — the provider never sees plaintext.
+  zh: 在本地为云盘文件做客户端加密，文件内容和文件名都用 AES-256 加密。上传 Dropbox、Google Drive、OneDrive 等前先建一个加密"保险库"，云服务商看不到明文。桌面版完全免费；iOS 和 Android 版免费时只能读取，写入要一次性内购解锁。
+  en: Client-side encryption for your cloud files, protecting both contents and filenames with AES-256. Create an encrypted vault before syncing to Dropbox, Google Drive, OneDrive and more — the provider never sees plaintext. The desktop apps are fully free; the iOS and Android apps are read-only for free, with write access unlocked by a one-time in-app purchase.

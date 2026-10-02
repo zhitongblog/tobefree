@@ -1,0 +1,43 @@
+title:
+  zh: "免费广告拦截工具推荐"
+  en: "Free Ad Blockers"
+description:
+  zh: "九款免费广告与追踪拦截工具，分浏览器扩展、自带拦截的浏览器、全屋 DNS 过滤和无广告视频客户端四类，全部开源，不卖「白名单」。"
+  en: "Nine free ad and tracker blockers in four groups — browser extensions, browsers with blocking built in, network-wide DNS filtering and an ad-free video client — all open source, with no paid whitelisting."
+intro:
+  zh: "广告拦截发生在三个位置，能力各不相同。浏览器扩展看得到网页内容，能拦同一域名下的广告元素，但只管这一个浏览器。DNS 过滤装在局域网里，电视、手机 App、游戏机一起生效，但只认域名，和正文同域名的广告拦不掉。第三种是换客户端，比如用 NewPipe 看视频，广告模块压根不加载。Chrome 转到 Manifest V3 之后，扩展能调用的拦截接口被收窄，完整版 uBlock Origin 在 Chrome 上已经装不了，只剩功能受限的 uBlock Origin Lite。想继续用完整拦截，要么换 Firefox 系浏览器，要么用把拦截做进浏览器本体的 Brave 或 Cromite。"
+  en: "Ad blocking happens in three places, each with different reach. A browser extension sees page content and can remove ad elements served from the same domain, but only inside that one browser. DNS filtering runs on your local network and covers TVs, phone apps and consoles at once, but it only sees domain names, so ads from the same domain as the content get through. The third route is a different client — watch video in NewPipe and the ad module never loads. Since Chrome moved to Manifest V3, the blocking APIs available to extensions have narrowed, and the full uBlock Origin can no longer be installed on Chrome, leaving only the more limited uBlock Origin Lite. To keep full blocking, move to a Firefox-based browser or to Brave or Cromite, which build blocking into the browser itself."
+criteria:
+  zh:
+    - "开源，拦截规则和代码公开可查。"
+    - "不收广告商的钱做「可接受广告」白名单。"
+    - "拦截在本机或自己的服务器上完成，浏览记录不发给第三方。"
+    - "默认开启就能用，不需要注册账号。"
+  en:
+    - "Open source, with blocking rules and code open to inspection."
+    - "No paid \"acceptable ads\" whitelist funded by advertisers."
+    - "Blocking happens on your device or your own server, and browsing history is not sent to a third party."
+    - "Works out of the box, with no account required."
+tools: [ublock-origin, privacy-badger, firefox, librewolf, brave, cromite, adguard-home, pi-hole, newpipe]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "电脑上只装一个，装什么？"
+      a: "Firefox 加 uBlock Origin。广告、追踪器、挖矿脚本和恶意站点默认都拦，资源占用低。不想自己配置的话，LibreWolf 出厂就预装了 uBlock Origin，遥测、赞助磁贴和 Pocket 推荐也都关掉了。Privacy Badger 可以再加一个，它按行为识别跨站追踪器，补名单漏掉的部分，但它本身不拦广告。"
+    - q: "离不开 Chrome 内核怎么办？"
+      a: "用 Brave。它的 Shields 拦截是浏览器自带的，不受 Manifest V3 对扩展的限制，Chrome 商店的扩展照样能装。要注意 Brave 新标签页默认有赞助磁贴，设置里可以关，Brave Rewards 需要主动开启。安卓上也可以选 Cromite，它去掉了 Google 服务连接，拦截同样做在浏览器里，但不在 Play 商店，要从官网或 F-Droid 下载。"
+    - q: "手机 App 和智能电视里的广告怎么拦？"
+      a: "用 DNS 过滤，在家里一台常开的机器上装 Pi-hole 或 AdGuard Home，把路由器的 DNS 指向它，全家设备一起生效。树莓派上跑、要最多的教程选 Pi-hole；要加密 DNS、家长控制，或者装在 Windows、macOS 上，选 AdGuard Home。两者装一个就够。这台机器宕机时全家解析不了域名，路由器里要配一个备用 DNS。"
+    - q: "视频里的贴片广告为什么 DNS 拦不掉？"
+      a: "因为贴片广告和正片常常来自同一个域名，DNS 过滤只看域名，分不出来。电脑上靠浏览器里的 uBlock Origin 处理。安卓上可以用 NewPipe，它不加载官方客户端的库，没有贴片和插播广告，还能后台播放、下载到本地，不需要账号。平台改接口时它会暂时失效，要等新版本修复。"
+  en:
+    - q: "One tool on a computer — which?"
+      a: "Firefox with uBlock Origin. Ads, trackers, cryptominers and malware sites are blocked by default at low resource cost. If you would rather not configure anything, LibreWolf ships with uBlock Origin preinstalled and telemetry, sponsored tiles and Pocket recommendations removed. Privacy Badger is a sensible addition: it spots cross-site trackers by behaviour and catches what lists miss, though it does not block ads itself."
+    - q: "What if I need a Chromium browser?"
+      a: "Brave. Its Shields blocking is built into the browser, so Manifest V3 limits on extensions do not apply, and Chrome Web Store extensions still install. Note that Brave shows sponsored tiles on the new-tab page by default, which can be switched off in settings, and Brave Rewards is opt-in. On Android, Cromite is another option — Google service connections stripped out, blocking built in — but it is not on the Play Store; get it from the official site or F-Droid."
+    - q: "How do I block ads in phone apps and on a smart TV?"
+      a: "DNS filtering. Put Pi-hole or AdGuard Home on an always-on machine at home, point the router's DNS at it, and every device is covered. Pi-hole for a Raspberry Pi and the largest pool of guides; AdGuard Home for encrypted DNS, parental controls, or running on Windows or macOS. One of the two is enough. If that machine goes down, nothing in the house can resolve names, so set a fallback DNS in the router."
+    - q: "Why can DNS filtering not stop pre-roll video ads?"
+      a: "Pre-roll ads often come from the same domain as the video itself, and DNS filtering only sees domain names. On a computer, uBlock Origin in the browser handles them. On Android, NewPipe loads none of the official client libraries, so there are no pre-roll or mid-roll ads; it also plays in the background and downloads locally, with no account. When the platform changes its interface it can break for a while until a new release fixes it."

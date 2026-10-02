@@ -1,0 +1,43 @@
+title:
+  zh: "免费儿童教育软件推荐"
+  en: "Free Educational Software for Kids"
+description:
+  zh: "十款给孩子用的免费软件：启蒙小游戏、图形化编程、动态几何、天文、离线百科、绘画、国际象棋和两款开源游戏。没有广告，不卖体力，不做内购关卡。"
+  en: "Ten free programs for children: early-learning activities, block programming, dynamic geometry, astronomy, an offline encyclopedia, painting, chess and two open-source games. No ads, no energy meters, no paid levels."
+intro:
+  zh: "儿童 App 是广告和内购最密的品类之一：「再看一个视频解锁下一关」，礼包弹窗做成孩子会点的样子，账号体系顺手收集设备和使用数据。家长能做的是换一批从设计上就不靠这些挣钱的软件。这份清单里多数是开源项目，由基金会、非营利组织或志愿者社区维护，装好之后内容全部可用，大部分不联网也能用。按用途分三类：学习启蒙、看世界、玩和创作。"
+  en: "Children's apps are among the densest categories for ads and in-app purchases: watch one more video to unlock the next level, bundle pop-ups designed for a child to tap, and an account system that collects device and usage data along the way. What a parent can do is switch to software that was never designed to earn money that way. Most of this list is open source, maintained by foundations, non-profits or volunteer communities; everything is usable once installed, and most of it works offline. It falls into three groups: early learning, seeing the world, and play and making things."
+criteria:
+  zh:
+    - "内容全部免费，没有广告，没有体力值、看视频解锁或付费关卡。"
+    - "本地使用不需要注册账号；需要账号的功能在各自页面里标明。"
+    - "由基金会、非营利组织或开源社区维护，不靠收集孩子的数据挣钱。"
+    - "不要求全部开源，但授权限制会写清楚，比如 GeoGebra 只对非商业使用免费。"
+  en:
+    - "All content free, with no ads, energy meters, watch-to-unlock or paid levels."
+    - "No account needed for local use; features that require one are noted on each page."
+    - "Maintained by a foundation, non-profit or open-source community, not funded by collecting children's data."
+    - "Not everything is open source, but licence limits are stated — GeoGebra, for example, is free only for non-commercial use."
+tools: [gcompris, scratch, geogebra, stellarium, celestia, kiwix, krita, lichess, supertuxkart, luanti]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "三四岁的孩子第一次用电脑，装什么？"
+      a: "GCompris。KDE 社区做的，面向 2 到 10 岁，26.0 版有 197 个活动，最小的孩子从点鼠标、按方向键开始，大一点的做算术、认钟表、拼图、地理和简单的科学演示。全部离线，没有账号，也没有广告和内购。Windows、Linux、Android 是最新版，macOS 只有 4.3 旧版，没有 iOS 版。"
+    - q: "孩子想学编程，从哪个开始？"
+      a: "Scratch，适合 8 岁以上。MIT 媒体实验室做的，用积木块拼程序，形状不匹配的块拼不上，孩子不会卡在语法上，学到的是循环、条件、变量、事件这些真正的编程概念。桌面版离线可用、不要账号；只有把作品分享到 Scratch 社区才需要注册。"
+    - q: "有哪些能帮孩子理解数学和天文的？"
+      a: "数学用 GeoGebra，输入函数就出图，拖动图上的点，公式跟着变，从小学几何用到大学微积分；它对学生和个人免费，但不是开源软件。天文用 Stellarium 和 Celestia：Stellarium 输入时间地点，渲染出当时真实的星空；Celestia 把人放进太空，选中土星按 G 就飞过去，适合讲太阳系的尺度。Celestia 在应用商店的手机版有 PLUS 订阅，加的是附加功能，太空模拟本身免费，桌面版没有这一层。"
+    - q: "想给孩子玩游戏，又不想碰内购？"
+      a: "SuperTuxKart 和 Luanti。SuperTuxKart 是 3D 卡丁车，一台电脑最多八人分屏，适合一家人一起玩，本地游戏不要账号。Luanti 原名 Minetest，是方块沙盒，挖掘建造、联机都有，全程不需要账号也不需要付费。喜欢下棋的孩子可以上 Lichess，免费、无广告，打电脑和用分析棋盘不用注册。"
+  en:
+    - q: "What should a three- or four-year-old start with on a computer?"
+      a: "GCompris. Made by the KDE community for ages 2 to 10, version 26.0 has 197 activities: the youngest start with clicking the mouse and pressing arrow keys, older children move on to arithmetic, telling the time, puzzles, geography and simple science demonstrations. Fully offline, no account, no ads, no in-app purchases. Windows, Linux and Android get the latest release; macOS only has the older 4.3, and there is no iOS version."
+    - q: "Where should a child start with programming?"
+      a: "Scratch, for ages 8 and up. Built at the MIT Media Lab, it assembles programs from blocks, and blocks that do not fit will not snap together, so a child never gets stuck on syntax and learns real concepts — loops, conditions, variables, events. The desktop version works offline with no account; registration is only needed to share projects to the Scratch community."
+    - q: "What helps with maths and astronomy?"
+      a: "For maths, GeoGebra: type a function and it is plotted, drag a point and the formula follows, from primary-school geometry through university calculus. It is free for students and personal use but is not open source. For astronomy, Stellarium and Celestia: Stellarium renders the real sky for any time and place; Celestia puts you in space — select Saturn, press G and you fly there, which makes the scale of the solar system concrete. Celestia's app-store mobile versions offer a PLUS subscription for extra features; the space simulation itself is free, and the desktop version has no such tier."
+    - q: "Games without in-app purchases?"
+      a: "SuperTuxKart and Luanti. SuperTuxKart is a 3D kart racer with split-screen for up to eight players on one computer, good for the whole family, and local play needs no account. Luanti, formerly Minetest, is a block sandbox with mining, building and multiplayer, and nothing requires an account or a purchase. For a child who likes chess, Lichess is free and ad-free, and playing the computer or using the analysis board needs no registration."

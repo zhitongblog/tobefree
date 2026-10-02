@@ -1,0 +1,43 @@
+title:
+  zh: "免费备份与同步软件推荐"
+  en: "Free Backup and Sync Software"
+description:
+  zh: "八款免费备份、同步与加密工具，覆盖增量备份、多设备同步、云盘搬运、上传前加密和照片备份，存储位置由你决定，不按容量收订阅费。"
+  en: "Eight free tools for backup, sync and encryption — incremental backup, multi-device sync, moving data between clouds, encryption before upload and photo backup — with storage wherever you choose and no subscription by capacity."
+intro:
+  zh: "同步和备份是两回事。同步让几台设备上的文件保持一致，文件被误删、被勒索软件加密，这个结果也会同步到每一台设备上。备份是保存某个时间点的副本，出事后能回到那个时间点。常用的判断标准是 3-2-1：3 份副本，2 种介质，1 份放在异地。异地那份通常是云，这时要在本机加密后再上传，密钥只在自己手里，服务商拿到的只是密文。这份清单按这几步分：Kopia 做定时增量备份，Syncthing 和 Nextcloud 做同步，rclone 把数据搬到各家云存储，Cryptomator 和 VeraCrypt 负责加密，Immich 和 Ente Photos 专管手机照片。"
+  en: "Sync and backup are different things. Sync keeps files identical across devices, so when a file is deleted by mistake or encrypted by ransomware, that result is synced to every device too. Backup keeps a copy from a point in time you can return to after something goes wrong. The usual rule is 3-2-1: three copies, on two kinds of media, with one offsite. The offsite copy is usually a cloud, and it should be encrypted on your machine before upload so the key stays with you and the provider holds only ciphertext. The list follows those steps: Kopia for scheduled incremental backup, Syncthing and Nextcloud for sync, rclone for moving data to any cloud storage, Cryptomator and VeraCrypt for encryption, and Immich and Ente Photos for phone photos."
+criteria:
+  zh:
+    - "存储位置由你选择：本地硬盘、NAS、自建服务器或任意云存储。"
+    - "支持在本机加密，服务商或中间节点看不到明文。"
+    - "不按容量或设备数收订阅费，自建版本功能不设限。"
+    - "开源，数据格式可以脱离原厂服务独立恢复。"
+  en:
+    - "You choose where data lives: a local disk, a NAS, your own server or any cloud storage."
+    - "Encryption on your own machine, so providers and relays never see plaintext."
+    - "No subscription by capacity or device count, and no feature limits on self-hosted versions."
+    - "Open source, with data that can be restored without the original vendor's service."
+tools: [kopia, syncthing, rclone, cryptomator, veracrypt, nextcloud, immich, ente-photos]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "已经在用网盘同步了，还需要备份吗？"
+      a: "需要。同步会把误删和勒索软件加密后的文件一起同步过去。Kopia 每次备份都是一个完整快照，可以恢复到任意一次，只传输变化的数据块，还能设保留策略，比如最近 7 天每天一份、最近 12 个月每月一份。配一个每天自动运行的任务，建好后立刻试着恢复几个文件，确认流程走得通。"
+    - q: "Syncthing 和 Nextcloud 怎么选？"
+      a: "只在自己几台设备之间同步文件，选 Syncthing，点对点直连，没有中央服务器，不用维护额外的机器。还要共享链接、日历、通讯录、在浏览器里在线预览，选 Nextcloud，它需要一台常年开机的机器，更新、备份和 HTTPS 证书都要自己负责。两者都是同步工具，不能代替 Kopia 这类备份。"
+    - q: "文件放进商业网盘，怎么防止被服务商看到？"
+      a: "上传前加密。Cryptomator 在同步文件夹里建一个保险库，文件内容和文件名都用 AES-256 加密，官方客户端照常同步。rclone 的 crypt 后端也能做到，适合用命令行批量搬运的人。Kopia 备份到云时本来就是先加密再上传。VeraCrypt 更适合加密整块移动硬盘或 U 盘，放 3-2-1 里离线的那一份。这几种方式的密码丢了，数据都无法恢复，要单独存好。"
+    - q: "手机照片备份选 Immich 还是 Ente Photos？"
+      a: "有一台自己的服务器，选 Immich，手机 App 自动上传原图，人脸识别和以图搜图都在自己的机器上算，建议 4 GB 内存起步。不想维护服务器，选 Ente Photos，照片在手机上加密后上传，官方托管有 10 GB 永久免费额度，服务端也可以自己部署。两种方式都只算一份副本，照片还要再有一份异地或离线备份。"
+  en:
+    - q: "I already sync to a cloud drive. Do I still need backup?"
+      a: "Yes. Sync carries accidental deletions and ransomware-encrypted files along with everything else. Each Kopia backup is a full snapshot you can restore from, only changed blocks are transferred, and retention policies can keep, say, one copy a day for 7 days and one a month for 12 months. Set up a daily scheduled task, then restore a few files right away to confirm the process works."
+    - q: "Syncthing or Nextcloud?"
+      a: "To keep files in step across your own devices, Syncthing: direct peer-to-peer, no central server, no extra machine to maintain. For share links, calendar, contacts and in-browser previews too, Nextcloud — it needs an always-on machine, and updates, backups and HTTPS certificates are your job. Both are sync tools and neither replaces a backup tool like Kopia."
+    - q: "How do I keep a commercial cloud provider from reading my files?"
+      a: "Encrypt before upload. Cryptomator creates a vault inside the sync folder and encrypts file contents and names with AES-256, while the provider's own client syncs as usual. rclone's crypt backend does the same for people moving data in bulk from the command line. Kopia encrypts before upload when it backs up to a cloud. VeraCrypt suits encrypting a whole external drive or USB stick — the offline copy in a 3-2-1 setup. With all of these, a lost password means unrecoverable data, so store it separately."
+    - q: "Immich or Ente Photos for phone photos?"
+      a: "With a server of your own, Immich: the phone app uploads originals automatically, and face recognition and image search run on your machine; start with at least 4 GB of RAM. Without a server to maintain, Ente Photos: photos are encrypted on the phone before upload, the hosted service has a permanent 10 GB free tier, and the server can be self-hosted. Either counts as one copy — photos still need another offsite or offline backup."

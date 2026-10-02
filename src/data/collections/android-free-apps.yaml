@@ -1,0 +1,43 @@
+title:
+  zh: "安卓免费无广告 App 推荐"
+  en: "Free Ad-Free Android Apps"
+description:
+  zh: "十八款安卓上的免费无广告 App，覆盖视频、播客、浏览器、地图、两步验证、密码、传文件、阅读、笔记、记账和习惯打卡，全部开源。"
+  en: "Eighteen free, ad-free Android apps covering video, podcasts, browsing, maps, two-factor codes, passwords, file transfer, reading, notes, budgeting and habits — all open source."
+intro:
+  zh: "安卓应用商店里，免费 App 的常见形态是开屏广告加信息流广告，再卖一个「去广告版」。另一类问题更隐蔽：有人拿开源项目改个图标重新上架，加上广告 SDK 收费，搜名字搜出来的未必是原作者发的版本。F-Droid 是绕开这些的一条路，它只收开源应用，从源码自己编译，带广告、带追踪的应用会被标出来。这份清单里 NewPipe 和 Cromite 不在 Play 商店，要从官网或 F-Droid 装；其余多数在 Play 商店也有官方版本。"
+  en: "On Android app stores, the usual shape of a free app is a splash ad plus in-feed ads, then a paid \"ad-free edition.\" A quieter problem sits alongside it: someone takes an open-source project, changes the icon, adds an ad SDK and relists it for money, so searching a name does not guarantee the original developer's build. F-Droid is one way around all of this — it carries only open-source apps, builds them from source itself, and flags apps that contain ads or tracking. In this list, NewPipe and Cromite are not on the Play Store and come from their official sites or F-Droid; most of the rest also have official Play Store listings."
+criteria:
+  zh:
+    - "没有广告，没有「去广告」内购。"
+    - "开源，安装包来自官方渠道：官网、F-Droid 或作者本人的商店页面。"
+    - "日常功能不需要注册账号，需要账号的逐款说明。"
+    - "免费版有实际限制的，写在下面的问答里。"
+  en:
+    - "No ads, and no in-app purchase to remove them."
+    - "Open source, installed from official channels: the project site, F-Droid or the developer's own store listing."
+    - "Everyday use needs no account; where one is needed, it is stated."
+    - "Where the free tier has a real limit, it is spelled out in the FAQ."
+tools: [newpipe, antennapod, cromite, firefox, vlc, organic-maps, osmand, aegis-authenticator, bitwarden, localsend, kde-connect, koreader, kiwix, joplin, anki, signal, money-manager-ex, loop-habit-tracker]
+skills: []
+featured: false
+added: '2026-09-24'
+faq:
+  zh:
+    - q: "NewPipe 为什么在 Play 商店搜不到？"
+      a: "它不在 Play 商店上架，从官网下 APK 或者用 F-Droid 装，认准官方签名。NewPipe 不调用官方客户端的库，没有广告模块，能后台播放，订阅存在手机本地，不需要账号。代价是平台改接口它就会坏，历史上出现过几天不能用、等新版本修复的情况。"
+    - q: "手机浏览器怎么去广告？"
+      a: "Chrome 手机版不支持扩展，装不了拦截插件。Cromite 把广告和追踪拦截做进浏览器本体，不依赖扩展机制，同样不在 Play 商店，从官网或 F-Droid 装。想要装扩展的话用 Firefox，安卓版支持扩展。"
+    - q: "两步验证用 Aegis 还是 Bitwarden？"
+      a: "验证码交给 Aegis。它不申请联网权限，密钥用主密码或指纹加密后只存在本机，能从 Google Authenticator 和 Authy 导入。装好之后先导出一份加密备份，手机丢了没有备份，验证码就找不回来。网站密码交给 Bitwarden，免费版不限密码条数和设备数。"
+    - q: "Organic Maps 和 OsmAnd 选哪个？"
+      a: "日常出行选 Organic Maps，装完就会用，搜索和导航断网也能做。徒步、骑行长途、要录 GPX 轨迹和看等高线的选 OsmAnd。OsmAnd 免费版最多下载 7 份地图，一份通常是一个省或一个中等国家，超出要买 Maps+，从 F-Droid 装也是同样的限制。"
+  en:
+    - q: "Why can't I find NewPipe on the Play Store?"
+      a: "It is not listed there. Download the APK from the official site or install through F-Droid, and check the official signature. NewPipe links no official client libraries, so it has no ad module; it plays in the background and keeps subscriptions on the phone with no account. The cost is that it breaks when the platform changes its interface, and there have been stretches of several days waiting for a fix."
+    - q: "How do I block ads in a mobile browser?"
+      a: "Mobile Chrome does not support extensions, so blocker add-ons are out. Cromite builds ad and tracker blocking into the browser itself rather than into an extension; it is also off the Play Store, installed from its site or F-Droid. If you want extensions, use Firefox, whose Android version supports them."
+    - q: "Aegis or Bitwarden for two-factor codes?"
+      a: "Codes go to Aegis. It requests no network permission, encrypts secrets with a master password or fingerprint and keeps them only on the phone, and imports from Google Authenticator and Authy. Export an encrypted backup right after setup — a lost phone with no backup means the codes are gone. Site passwords go to Bitwarden, whose free tier has no limit on passwords or devices."
+    - q: "Organic Maps or OsmAnd?"
+      a: "For everyday travel, Organic Maps: it works as soon as it is installed, and search and navigation run offline. For hiking, long-distance cycling, recording GPX tracks and contour lines, OsmAnd. OsmAnd's free tier allows seven map downloads, each typically a province or a mid-sized country; beyond that you buy Maps+, and the F-Droid build has the same limit."
