@@ -127,3 +127,65 @@ export function writeTool(input, { overwrite = false } = {}) {
   writeFileSync(file, body, 'utf8');
   return { slug, file };
 }
+
+// Supporter wall ------------------------------------------------------------
+
+export const SUPPORTERS_DIR = join(ROOT, 'src', 'data', 'supporters');
+
+export const SUPPORTER_KINDS = (() => {
+  const m = CONSTS_SRC.match(/export const SUPPORTER_KINDS = \[([^\]]+)\] as const;/);
+  if (!m) throw new Error('consts.ts: could not find "export const SUPPORTER_KINDS"');
+  return [...m[1].matchAll(/'([^']+)'/g)].map((x) => x[1]);
+})();
+
+export function listSupporters() {
+  if (!existsSync(SUPPORTERS_DIR)) return [];
+  return readdirSync(SUPPORTERS_DIR)
+    .filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'))
+    .map((f) => {
+      const slug = f.replace(/\.ya?ml$/, '');
+      const data = yaml.load(readFileSync(join(SUPPORTERS_DIR, f), 'utf8'));
+      return { slug, file: f, data };
+    })
+    .sort((a, b) => String(b.data.added).localeCompare(String(a.data.added)));
+}
+
+/** Validate a supporter entry. Returns an array of error strings (empty = ok). */
+export function validateSupporter(s) {
+  const errs = [];
+  const req = (cond, msg) => { if (!cond) errs.push(msg); };
+  const url = (v) => v === undefined || /^https?:\/\//.test(v);
+  req(s.name, 'name is required');
+  req(Array.isArray(s.kinds) && s.kinds.length > 0, `kinds must list at least one of: ${SUPPORTER_KINDS.join(', ')}`);
+  for (const k of s.kinds || []) req(SUPPORTER_KINDS.includes(k), `unknown kind: ${k}`);
+  req(url(s.url), 'url must be a valid http(s) URL');
+  req(url(s.proof), 'proof must be a valid http(s) URL');
+  req(!(s.kinds || []).includes('promote') || s.proof, 'promote entries need a proof link to the public post');
+  req(!s.note || (s.note.zh && s.note.en), 'note needs both zh and en');
+  req(/^\d{4}-\d{2}-\d{2}$/.test(s.added || ''), 'added must be YYYY-MM-DD');
+  return errs;
+}
+
+/** Write a supporter to disk. Returns { slug, file }. */
+export function writeSupporter(input, { overwrite = false } = {}) {
+  const s = {
+    name: String(input.name || '').trim(),
+    kinds: [...new Set(input.kinds || [])],
+    ...(input.url ? { url: input.url } : {}),
+    ...(input.proof ? { proof: input.proof } : {}),
+    ...(input.note?.zh || input.note?.en ? { note: { zh: input.note?.zh || '', en: input.note?.en || '' } } : {}),
+    added: input.added || todayISO(),
+  };
+  const errs = validateSupporter(s);
+  if (errs.length) throw new Error('Validation failed:\n - ' + errs.join('\n - '));
+  // Names are often non-Latin; fall back to a dated slug so files never collide on "tool".
+  const base = slugify(input.slug || s.name);
+  const slug = base === 'tool' ? `supporter-${s.added}-${Date.now().toString(36)}` : base;
+  const file = join(SUPPORTERS_DIR, `${slug}.yaml`);
+  if (existsSync(file) && !overwrite) {
+    throw new Error(`"${slug}.yaml" already exists. Pass a different slug or overwrite.`);
+  }
+  if (!existsSync(SUPPORTERS_DIR)) mkdirSync(SUPPORTERS_DIR, { recursive: true });
+  writeFileSync(file, yaml.dump(s, { lineWidth: -1, noRefs: true }), 'utf8');
+  return { slug, file };
+}

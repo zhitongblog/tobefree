@@ -11,6 +11,7 @@ import { createInterface } from 'node:readline';
 import {
   CATEGORIES, BADGES, PLATFORMS, PRICE_MODELS,
   listTools, writeTool,
+  SUPPORTER_KINDS, listSupporters, writeSupporter,
 } from './lib.mjs';
 
 const SERVER = { name: 'tobefree', version: '0.1.0' };
@@ -66,6 +67,34 @@ const TOOLS = [
       },
     },
   },
+  {
+    name: 'list_supporters',
+    description: 'List everyone on the supporter wall (people who promoted or sponsored the site), newest first.',
+    inputSchema: { type: 'object', properties: {} },
+  },
+  {
+    name: 'add_supporter',
+    description:
+      'Add an approved promoter or sponsor to the supporter wall (src/data/supporters/). ' +
+      'The wall is a thank-you only and must never influence tool inclusion or ranking. ' +
+      'Promotion entries require a public proof link.',
+    inputSchema: {
+      type: 'object',
+      required: ['name', 'kinds'],
+      properties: {
+        name: { type: 'string', description: 'Display name exactly as the supporter asked for it' },
+        kinds: { type: 'array', minItems: 1, items: { type: 'string', enum: SUPPORTER_KINDS } },
+        url: { type: 'string', description: 'Supporter homepage (optional)' },
+        proof: { type: 'string', description: 'Public link to the promotion (required for promote)' },
+        note: {
+          type: 'object', description: 'Optional one-line note shown under the name',
+          properties: { zh: { type: 'string' }, en: { type: 'string' } },
+        },
+        slug: { type: 'string', description: 'File name; use ASCII when the name is not Latin' },
+        added: { type: 'string', description: 'YYYY-MM-DD, defaults to today' },
+      },
+    },
+  },
 ];
 
 function callTool(name, args = {}) {
@@ -82,6 +111,13 @@ function callTool(name, args = {}) {
   if (name === 'add_tool') {
     const { slug, file } = writeTool(args);
     return text(`✓ Added "${args.name}" as ${slug}.yaml\n${file}\n\nRun \`npm run build\` to preview, then git push to deploy.`);
+  }
+  if (name === 'list_supporters') {
+    return text(JSON.stringify(listSupporters().map(({ slug, data }) => ({ slug, ...data })), null, 2));
+  }
+  if (name === 'add_supporter') {
+    const { slug, file } = writeSupporter(args);
+    return text(`✓ Added "${args.name}" to the supporter wall as ${slug}.yaml\n${file}\n\nRun \`npm run build\` to preview, then git push to deploy.`);
   }
   throw new Error(`Unknown tool: ${name}`);
 }

@@ -1,0 +1,65 @@
+name: 申请上支持者榜 / Join the supporter wall
+description: 推广过或赞助过 To Be Free？填这张表，审核后名字上榜。Promoted or sponsored To Be Free? Fill this in to be listed.
+title: "上榜申请 / Supporter: "
+labels: [supporter]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢支持！审核通过后，你的名字会出现在 https://tobefree.app/zh/supporters/ 。
+        上榜只是致谢，**不会影响任何工具的收录或排序**。
+
+        Thank you! Once approved, your name appears on https://tobefree.app/en/supporters/.
+        The wall is a thank-you only — **it never affects which tools are listed or how they rank**.
+  - type: checkboxes
+    id: kinds
+    attributes:
+      label: 支持方式 / How you supported
+      options:
+        - label: 推广 / Promotion — 公开发布过推荐本站的内容 / published something recommending this site
+        - label: 赞助 / Sponsorship — GitHub Sponsors、微信或支付宝 / GitHub Sponsors, WeChat Pay or Alipay
+  - type: input
+    id: name
+    attributes:
+      label: 上榜显示的名字 / Display name
+      description: 昵称、真名或团队名都可以 / A nickname, real name or team name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 你的主页（可选）/ Your homepage (optional)
+      description: 名字会链接到这里 / Your name will link here
+      placeholder: https://
+  - type: input
+    id: proof
+    attributes:
+      label: 推广内容链接（推广必填）/ Link to your promotion (required for promotion)
+      description: 文章、视频、帖子、Newsletter、awesome 列表 PR 等，需要公开可访问并包含本站链接 / An article, video, post, newsletter or awesome-list PR that is public and links to this site
+      placeholder: https://
+  - type: dropdown
+    id: channel
+    attributes:
+      label: 赞助渠道（赞助必填）/ Sponsorship channel (required for sponsorship)
+      options:
+        - 无 / None
+        - GitHub Sponsors
+        - 微信支付 / WeChat Pay
+        - 支付宝 / Alipay
+  - type: input
+    id: payment
+    attributes:
+      label: 付款时间和金额（微信 / 支付宝赞助用于核对）/ Payment time and amount (WeChat / Alipay, for matching)
+      description: 例如「2026-10-03 21:40，¥20」。不要填写账号、订单截图或任何个人信息 / e.g. "2026-10-03 21:40, ¥20". Do not post account numbers, screenshots or personal details.
+  - type: textarea
+    id: note
+    attributes:
+      label: 一句话备注（可选）/ One-line note (optional)
+      description: 会显示在名字下面，例如「在少数派写了一篇推荐」 / Shown under your name, e.g. "Wrote a review on my blog"
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认 / Confirm
+      options:
+        - label: 我同意在公开页面展示上面的名字和链接 / I agree to show the name and links above on a public page
+          required: true

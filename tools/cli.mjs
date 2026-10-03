@@ -2,7 +2,9 @@
 // To Be Free — CLI for managing the tools catalog.
 //   node tools/cli.mjs add        interactively add a tool
 //   node tools/cli.mjs list       list all tools
-//   node tools/cli.mjs validate   validate every tool file
+//   node tools/cli.mjs validate   validate every tool and supporter file
+//   node tools/cli.mjs supporter  interactively add someone to the supporter wall
+//   node tools/cli.mjs supporters list the supporter wall
 //   node tools/cli.mjs help
 
 import { createInterface } from 'node:readline/promises';
@@ -10,6 +12,7 @@ import { stdin, stdout } from 'node:process';
 import {
   CATEGORIES, BADGES, PLATFORMS, PRICE_MODELS,
   listTools, validate, writeTool,
+  SUPPORTER_KINDS, listSupporters, validateSupporter, writeSupporter,
 } from './lib.mjs';
 
 const rl = createInterface({ input: stdin, output: stdout });
@@ -103,17 +106,56 @@ function listFlow() {
 
 function validateFlow() {
   const tools = listTools();
+  const supporters = listSupporters();
   let bad = 0;
-  for (const { slug, data } of tools) {
-    const errs = validate(data);
-    if (errs.length) {
-      bad++;
-      console.log(c.red(`✗ ${slug}`));
-      errs.forEach((e) => console.log(`    ${e}`));
-    }
+  const check = (slug, errs) => {
+    if (!errs.length) return;
+    bad++;
+    console.log(c.red(`✗ ${slug}`));
+    errs.forEach((e) => console.log(`    ${e}`));
+  };
+  for (const { slug, data } of tools) check(slug, validate(data));
+  for (const { slug, data } of supporters) check(`supporters/${slug}`, validateSupporter(data));
+  if (bad === 0) console.log(c.green(`✓ ${tools.length} 款工具、${supporters.length} 位支持者全部通过校验`));
+  else console.log(c.red(`\n${bad} 个文件有问题`));
+  if (bad) process.exitCode = 1;
+}
+
+async function supporterFlow() {
+  console.log(c.accent('\n🙌  添加支持者 / Add a supporter\n'));
+  console.log(c.dim('上榜只是致谢，不影响任何工具的收录和排序。\n'));
+
+  const name = await ask(c.b('显示名 / Display name'));
+  if (!name) { console.log(c.red('名字不能为空')); return; }
+  const kindsRaw = await ask(`支持方式 ${c.dim('(' + SUPPORTER_KINDS.join(',') + '，逗号分隔)')}`, 'promote');
+  const kinds = kindsRaw.split(',').map((s) => s.trim()).filter(Boolean);
+  const url = await ask('主页 URL（可留空）');
+  const proof = kinds.includes('promote') ? await ask(c.b('推广内容链接 / Promotion link')) : '';
+  const noteZh = await ask('一句话备注（中文，可留空）');
+  const noteEn = noteZh ? await ask('Note (English)') : '';
+  const slug = await ask('文件名 slug（中文名请填英文或拼音，可留空）');
+
+  try {
+    const res = writeSupporter({
+      name, kinds, url, proof, slug: slug || undefined,
+      note: noteZh ? { zh: noteZh, en: noteEn } : undefined,
+    });
+    console.log(c.green(`\n✓ 已写入 supporters/${res.slug}.yaml`));
+    console.log(c.dim('  记得在对应的 GitHub issue 里回复并关闭。'));
+  } catch (e) {
+    console.log(c.red(`\n✗ ${e.message}`));
+    process.exitCode = 1;
   }
-  if (bad === 0) console.log(c.green(`✓ ${tools.length} 款工具全部通过校验`));
-  else console.log(c.red(`\n${bad} 款工具有问题`));
+}
+
+function supportersFlow() {
+  const list = listSupporters();
+  console.log(c.accent(`\n🙌  支持者榜共 ${list.length} 位\n`));
+  for (const { slug, data } of list) {
+    console.log(`  ${c.b(String(data.name).padEnd(18))} ${c.dim(data.kinds.join('+').padEnd(16))} ${c.dim(data.added)}`);
+    console.log(`  ${c.dim(slug)}`);
+  }
+  console.log();
 }
 
 function help() {
@@ -123,7 +165,9 @@ ${c.accent('To Be Free CLI')}
   ${c.b('npm run cli')}            交互式添加工具 (= add)
   ${c.b('npm run cli add')}        交互式添加工具
   ${c.b('npm run cli list')}       列出所有工具
-  ${c.b('npm run cli validate')}   校验所有工具数据
+  ${c.b('npm run cli validate')}   校验所有工具和支持者数据
+  ${c.b('npm run cli supporter')}  交互式添加一位支持者（上支持者榜）
+  ${c.b('npm run cli supporters')} 列出支持者榜
 
 添加后运行 ${c.b('npm run dev')} 预览，或推送到 GitHub 让 Cloudflare 自动部署。
 `);
@@ -134,6 +178,8 @@ try {
   if (cmd === 'add') await addFlow();
   else if (cmd === 'list') listFlow();
   else if (cmd === 'validate') validateFlow();
+  else if (cmd === 'supporter') await supporterFlow();
+  else if (cmd === 'supporters') supportersFlow();
   else help();
 } finally {
   rl.close();

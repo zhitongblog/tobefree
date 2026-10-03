@@ -335,6 +335,17 @@ export const SKILL_KINDS = [
 export type SkillKind = (typeof SKILL_KINDS)[number]['id'];
 export const skillKindById = Object.fromEntries(SKILL_KINDS.map((k) => [k.id, k]));
 
+/** Ways to land on the supporter wall (/supporters). Plain ids so lib.mjs can parse them. */
+export const SUPPORTER_KINDS = ['promote', 'sponsor'] as const;
+export type SupporterKind = (typeof SUPPORTER_KINDS)[number];
+
+/** Sponsorship channels shown on /supporters. QR images live in public/sponsor/. */
+export const SPONSOR = {
+  github: 'https://github.com/sponsors/zhitongblog',
+  wechatQr: '/sponsor/wechat-qr.jpg',
+  alipayQr: '/sponsor/alipay-qr.jpg',
+};
+
 // Lookup helpers -------------------------------------------------------------
 
 export const categoryById = Object.fromEntries(CATEGORIES.map((c) => [c.id, c]));

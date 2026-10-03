@@ -1,0 +1,516 @@
+---
+// Supporter program: promote or sponsor the site, get your name on the wall.
+// The wall is a thank-you only. It must never influence tool inclusion,
+// ordering or reviews — keep the promise box and FAQ in sync with that rule.
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE, SPONSOR, pick, type Locale } from '../../consts';
+import { useTranslations, localizedPath, type Lang } from '../../i18n/utils';
+import { localePaths } from '../../lib/tools';
+
+export function getStaticPaths() {
+  return localePaths();
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const loc = lang as Locale;
+const t = useTranslations(lang);
+
+const supporters = (await getCollection('supporters'))
+  .map((s) => s.data)
+  .sort((a, b) => b.added.localeCompare(a.added) || a.name.localeCompare(b.name));
+
+const applyUrl = `${SITE.repo}/issues/new?template=supporter.yml`;
+
+const c = {
+  zh: {
+    eyebrow: '支持者计划',
+    title: '推广或赞助，名字就上榜',
+    lead: 'To Be Free 不放广告、不收收录费，网站开销和每一款工具的试用、核实都靠业余时间撑着。如果它帮你找到过好用的软件，有两种方式支持它：把它推荐给更多人，或者赞助一点。做了任意一种，填一张表，审核后你的名字就出现在本页的支持者榜上。',
+    promiseTitle: '上榜只是致谢，不换任何东西',
+    promise: [
+      '不影响任何工具的收录、排序和评测。赞助了也不能让一款不达标的工具上站，推广了也不能让自家工具排得更靠前。',
+      '榜上的链接带 nofollow / sponsored 标记，不传递搜索权重。',
+      '所有支持者一个列表，按上榜时间排，不分金额等级。',
+    ],
+    promoteTitle: '推广',
+    promoteLead: '公开发布过一条推荐本站、并带上本站链接的内容，就算数。',
+    promoteOk: [
+      '博客、公众号、知乎、少数派、小红书等平台的文章或回答',
+      'B 站、YouTube 等平台的视频，或视频简介里的推荐',
+      'X、微博、即刻、Mastodon 上的帖子',
+      'Newsletter、播客节目里的推荐',
+      '把本站加进 GitHub 上的 awesome 列表（PR 合并后算）',
+    ],
+    promoteNo: '刷量、批量群发、留言区灌水、链接农场不算，已经上榜的也会撤下。',
+    sponsorTitle: '赞助',
+    sponsorLead: '金额随意，一杯咖啡就够。赞助完记得填表，不然我们没法知道是谁。',
+    gh: 'GitHub Sponsors',
+    ghDesc: '支持按月或一次性，适合海外读者',
+    ghCta: '去 GitHub 赞助 →',
+    wechat: '微信支付',
+    wechatDesc: '打开微信，扫一扫',
+    alipay: '支付宝',
+    alipayDesc: '打开支付宝，扫一扫',
+    sponsorNote: '微信和支付宝收款方显示为「智通」，是站长本人。填表时写上付款时间和金额，方便核对；不要上传付款截图或账号信息。只想赞助、不想上榜，就不用填表。',
+    stepsTitle: '怎么上榜',
+    steps: [
+      ['推广或赞助', '做上面任意一种。'],
+      ['在 GitHub 填表', '写上显示名、主页，推广附内容链接，赞助写渠道和付款时间。'],
+      ['审核后上榜', '一般一周内处理，通过后会在 issue 里回复你。'],
+    ],
+    applyCta: '在 GitHub 填表申请 ↗',
+    wallTitle: '支持者榜',
+    wallCount: '共 {n} 位',
+    wallEmpty: '还没有人上榜。第一个推广或赞助的人，名字会排在这里。',
+    kindPromote: '推广',
+    kindSponsor: '赞助',
+    seeProof: '看推荐',
+    faqTitle: '常见问题',
+    faq: [
+      ['赞助能让我的工具被收录，或者排得更靠前吗？', '不能。收录只看「真免费、无广告、不强制注册和追踪」这几条标准，排序和评测由编辑独立决定。工具作者当然可以赞助、可以上榜，但榜单和工具目录是两件完全分开的事。'],
+      ['没有 GitHub 账号怎么申请？', '支持者表单放在 GitHub 上，是因为审核记录公开可查。实在没有账号，可以在推广内容里或付款备注里写一句「To Be Free 上榜：显示名」，我们看到后手动加上。'],
+      ['可以匿名支持吗？', '可以。不填表就不会上榜；填表时显示名写「匿名」也行。'],
+      ['推广内容删了会怎样？', '推广内容需要保持公开。定期检查时发现链接失效，会先在 issue 里问一声，确认删除后从榜上撤下。赞助上榜不受影响。'],
+      ['赞助的钱用在哪？', '域名、托管，以及试用和核实每款工具、维护本站所花的时间。'],
+    ] as [string, string][],
+  },
+  en: {
+    eyebrow: 'Supporter program',
+    title: 'Promote or sponsor us, and your name goes on the wall',
+    lead: 'To Be Free runs no ads and charges nothing for listings. Hosting, and testing and fact-checking every tool, happen on spare time. If it ever helped you find good software, there are two ways to support it: recommend it to more people, or sponsor a little. Do either one, fill in a short form, and once approved your name appears on the supporter wall below.',
+    promiseTitle: 'The wall is a thank-you, nothing more',
+    promise: [
+      'It never affects which tools are listed, how they rank or what the reviews say. Sponsoring cannot get a tool that fails our standards onto the site, and promoting cannot move your own tool up.',
+      'Links on the wall carry nofollow / sponsored attributes and pass no search ranking.',
+      'All supporters share one list, ordered by date. No tiers by amount.',
+    ],
+    promoteTitle: 'Promote',
+    promoteLead: 'Any public post that recommends this site and links to it counts.',
+    promoteOk: [
+      'An article or answer on your blog, Medium, Reddit, Hacker News or a forum',
+      'A video on YouTube or another platform, or a mention in its description',
+      'A post on X, Mastodon, Bluesky or Threads',
+      'A mention in a newsletter or podcast episode',
+      'Adding this site to an awesome list on GitHub (counts once the PR is merged)',
+    ],
+    promoteNo: 'Bought traffic, mass messaging, comment spam and link farms do not count, and entries found doing this are removed.',
+    sponsorTitle: 'Sponsor',
+    sponsorLead: 'Any amount — a coffee is plenty. Remember to fill in the form afterwards, or we have no way of knowing it was you.',
+    gh: 'GitHub Sponsors',
+    ghDesc: 'Monthly or one-time, works worldwide',
+    ghCta: 'Sponsor on GitHub →',
+    wechat: 'WeChat Pay',
+    wechatDesc: 'Scan with WeChat',
+    alipay: 'Alipay',
+    alipayDesc: 'Scan with Alipay',
+    sponsorNote: 'The WeChat and Alipay payee shows as "智通", the site’s maintainer. In the form, give the payment time and amount so we can match it; please do not upload screenshots or account details. If you would rather sponsor without being listed, skip the form.',
+    stepsTitle: 'How to get listed',
+    steps: [
+      ['Promote or sponsor', 'Either one of the above.'],
+      ['Fill in the form on GitHub', 'Your display name and homepage, plus the link to your promotion or the sponsorship channel and payment time.'],
+      ['Listed after review', 'Usually within a week. We reply on the issue once it is approved.'],
+    ],
+    applyCta: 'Apply on GitHub ↗',
+    wallTitle: 'Supporter wall',
+    wallCount: '{n} supporters',
+    wallEmpty: 'Nobody is on the wall yet. The first person to promote or sponsor the site will be listed here.',
+    kindPromote: 'Promoted',
+    kindSponsor: 'Sponsored',
+    seeProof: 'See post',
+    faqTitle: 'Frequently asked questions',
+    faq: [
+      ['Can sponsoring get my tool listed, or ranked higher?', 'No. Inclusion depends only on our standards — genuinely free, ad-free, no forced sign-up or tracking — and ordering and reviews are decided independently by the editors. Tool authors are welcome to sponsor and be listed, but the wall and the tool directory are completely separate.'],
+      ['I don’t have a GitHub account. How do I apply?', 'The form lives on GitHub so that approvals are public. Without an account, add a line such as "To Be Free wall: <display name>" to your post or payment note, and we will add you by hand.'],
+      ['Can I support anonymously?', 'Yes. Skip the form and you will not be listed, or use "Anonymous" as your display name.'],
+      ['What if my post is deleted?', 'Promotions need to stay public. If a periodic check finds a dead link, we ask on the issue first and remove the entry once deletion is confirmed. Sponsorship entries are not affected.'],
+      ['Where does the money go?', 'The domain and hosting, and the time spent testing and fact-checking each tool and maintaining the site.'],
+    ] as [string, string][],
+  },
+}[loc];
+
+const supporterRel = (kinds: string[]) =>
+  kinds.includes('sponsor') ? 'sponsored nofollow noopener' : 'ugc nofollow noopener';
+---
+
+<BaseLayout title={c.title} description={c.lead}>
+  <section class="section container narrow">
+    <div class="section-head">
+      <p class="eyebrow">{c.eyebrow}</p>
+      <h1 class="title">{c.title}</h1>
+      <p>{c.lead}</p>
+    </div>
+
+    <div class="promise">
+      <h2>{c.promiseTitle}</h2>
+      <ul>
+        {c.promise.map((p) => <li>{p}</li>)}
+      </ul>
+    </div>
+
+    <div class="ways">
+      <article class="way">
+        <h2><span aria-hidden="true">📣</span> {c.promoteTitle}</h2>
+        <p class="way-lead">{c.promoteLead}</p>
+        <ul class="ok">
+          {c.promoteOk.map((x) => <li>{x}</li>)}
+        </ul>
+        <p class="fine">{c.promoteNo}</p>
+      </article>
+
+      <article class="way">
+        <h2><span aria-hidden="true">☕</span> {c.sponsorTitle}</h2>
+        <p class="way-lead">{c.sponsorLead}</p>
+        <div class="channels">
+          <div class="channel gh">
+            <b>{c.gh}</b>
+            <span>{c.ghDesc}</span>
+            <a class="btn btn-primary" href={SPONSOR.github} target="_blank" rel="noopener">{c.ghCta}</a>
+          </div>
+          <div class="channel qr">
+            <a href={SPONSOR.wechatQr} target="_blank" rel="noopener" aria-label={c.wechat}>
+              <img src={SPONSOR.wechatQr} alt={c.wechat} width="828" height="1104" loading="lazy" />
+            </a>
+            <b>{c.wechat}</b>
+            <span>{c.wechatDesc}</span>
+          </div>
+          <div class="channel qr">
+            <a href={SPONSOR.alipayQr} target="_blank" rel="noopener" aria-label={c.alipay}>
+              <img src={SPONSOR.alipayQr} alt={c.alipay} width="1280" height="1919" loading="lazy" />
+            </a>
+            <b>{c.alipay}</b>
+            <span>{c.alipayDesc}</span>
+          </div>
+        </div>
+        <p class="fine">{c.sponsorNote}</p>
+      </article>
+    </div>
+
+    <h2 class="h2">{c.stepsTitle}</h2>
+    <ol class="steps">
+      {c.steps.map(([k, v], i) => (
+        <li>
+          <span class="num" aria-hidden="true">{i + 1}</span>
+          <div><b>{k}</b><span>{v}</span></div>
+        </li>
+      ))}
+    </ol>
+    <div class="cta">
+      <a class="btn btn-primary" href={applyUrl} target="_blank" rel="noopener">{c.applyCta}</a>
+      <a class="btn btn-ghost" href={localizedPath(lang, 'about')}>{t('hero.cta.about')}</a>
+    </div>
+
+    <div class="wall-head" id="wall">
+      <h2 class="h2">{c.wallTitle}</h2>
+      {supporters.length > 0 && <span class="count">{c.wallCount.replace('{n}', String(supporters.length))}</span>}
+    </div>
+    {supporters.length === 0 ? (
+      <p class="wall-empty">{c.wallEmpty}</p>
+    ) : (
+      <ul class="wall">
+        {supporters.map((s) => (
+          <li class="supporter">
+            <div class="who">
+              {s.url ? (
+                <a class="name" href={s.url} target="_blank" rel={supporterRel(s.kinds)}>{s.name}</a>
+              ) : (
+                <span class="name">{s.name}</span>
+              )}
+              <span class="kinds">
+                {s.kinds.map((k) => (
+                  <span class:list={['kind', k]}>{k === 'sponsor' ? c.kindSponsor : c.kindPromote}</span>
+                ))}
+              </span>
+            </div>
+            {s.note && <p class="note">{pick(s.note, loc)}</p>}
+            <div class="meta">
+              <time datetime={s.added}>{s.added}</time>
+              {s.proof && (
+                <a href={s.proof} target="_blank" rel="ugc nofollow noopener">{c.seeProof} ↗</a>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    <h2 class="h2">{c.faqTitle}</h2>
+    <div class="faq">
+      {c.faq.map(([q, a]) => (
+        <details>
+          <summary>{q}</summary>
+          <p>{a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .narrow {
+    max-width: 860px;
+  }
+  .title {
+    font-family: var(--font-serif);
+    font-size: clamp(1.7rem, 4vw, 2.5rem);
+    line-height: 1.2;
+    margin: 0.3rem 0 0.8rem;
+  }
+  .h2 {
+    font-family: var(--font-serif);
+    font-size: clamp(1.3rem, 2.6vw, 1.6rem);
+    margin: 2.6rem 0 1rem;
+  }
+  .promise {
+    background: var(--green-soft);
+    border: 1px solid color-mix(in srgb, var(--green) 30%, transparent);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.3rem;
+    margin: 1.6rem 0 2rem;
+  }
+  .promise h2 {
+    font-size: 1.05rem;
+    color: var(--green);
+    margin: 0 0 0.5rem;
+  }
+  .promise ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: 0.35rem;
+    color: var(--text);
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+  .ways {
+    display: grid;
+    gap: 1rem;
+  }
+  .way {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.3rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .way h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .way-lead {
+    margin: 0;
+    color: var(--text);
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .ok {
+    margin: 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: 0.3rem;
+    color: var(--text-soft);
+    font-size: 0.93rem;
+    line-height: 1.6;
+  }
+  .fine {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-faint);
+    line-height: 1.6;
+  }
+  .channels {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 0.7rem;
+  }
+  .channel {
+    background: var(--surface-2);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius);
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+  }
+  .channel span {
+    color: var(--text-soft);
+    font-size: 0.82rem;
+  }
+  .channel.gh .btn {
+    align-self: flex-start;
+    margin-top: 0.3rem;
+  }
+  .channel.qr {
+    align-items: center;
+    text-align: center;
+  }
+  .channel.qr a {
+    display: block;
+    width: 100%;
+    max-width: 190px;
+  }
+  .channel.qr img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .steps {
+    list-style: none;
+    margin: 0 0 1.4rem;
+    padding: 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .steps li {
+    display: flex;
+    gap: 0.9rem;
+    align-items: flex-start;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.85rem 1.1rem;
+  }
+  .steps .num {
+    display: grid;
+    place-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    font-weight: 800;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+  }
+  .steps b {
+    display: block;
+    color: var(--text);
+  }
+  .steps div span {
+    color: var(--text-soft);
+    font-size: 0.93rem;
+    line-height: 1.6;
+  }
+  .cta {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+  .wall-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem;
+    scroll-margin-top: 80px;
+  }
+  .count {
+    color: var(--text-faint);
+    font-size: 0.9rem;
+  }
+  .wall-empty {
+    color: var(--text-soft);
+    padding: 1.1rem 1.2rem;
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+    margin: 0;
+  }
+  .wall {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.7rem;
+  }
+  .supporter {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .who {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .name {
+    font-weight: 700;
+    color: var(--text);
+    overflow-wrap: anywhere;
+  }
+  a.name:hover {
+    color: var(--accent-ink);
+  }
+  .kinds {
+    display: flex;
+    gap: 0.3rem;
+  }
+  .kind {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.12rem 0.5rem;
+    border-radius: 999px;
+  }
+  .kind.promote {
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+  }
+  .kind.sponsor {
+    background: var(--green-soft);
+    color: var(--green);
+  }
+  .note {
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-faint);
+    margin-top: auto;
+  }
+  .faq {
+    display: grid;
+    gap: 0.6rem;
+  }
+  .faq details {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.85rem 1.1rem;
+  }
+  .faq summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .faq p {
+    margin: 0.6rem 0 0;
+    color: var(--text-soft);
+    line-height: 1.7;
+  }
+  @media (max-width: 640px) {
+    .channels {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+    }
+    .channel.gh {
+      grid-column: 1 / -1;
+    }
+    .way {
+      padding: 1.1rem 1rem;
+    }
+  }
+</style>

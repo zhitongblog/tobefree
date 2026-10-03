@@ -18,6 +18,7 @@ export const ui = {
     'nav.selfmade': '自研',
     'nav.about': '关于',
     'nav.submit': '推荐工具',
+    'nav.supporters': '支持者',
     'nav.categories': '分类',
 
     'hero.title': '自由地使用软件',
@@ -107,6 +108,7 @@ export const ui = {
     'nav.selfmade': 'Made by Us',
     'nav.about': 'About',
     'nav.submit': 'Suggest',
+    'nav.supporters': 'Supporters',
     'nav.categories': 'Categories',
 
     'hero.title': 'Use software, freely',

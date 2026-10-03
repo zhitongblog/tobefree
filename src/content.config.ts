@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
-import { CATEGORY_IDS, BADGE_IDS, PLATFORM_IDS, PRICE_MODELS } from './consts';
+import { CATEGORY_IDS, BADGE_IDS, PLATFORM_IDS, PRICE_MODELS, SUPPORTER_KINDS } from './consts';
 
 const localized = z.object({
   zh: z.string(),
@@ -105,4 +105,26 @@ const collectionPages = defineCollection({
   }),
 });
 
-export const collections = { tools, skills, collectionPages };
+/**
+ * Supporter wall: people who promoted or sponsored the site.
+ * Being listed here never affects which tools are included or how they rank.
+ */
+const supporters = defineCollection({
+  loader: glob({ pattern: '**/*.yaml', base: './src/data/supporters' }),
+  schema: z.object({
+    /** Display name exactly as the supporter asked for it. */
+    name: z.string(),
+    /** How they supported: promotion, sponsorship, or both. */
+    kinds: z.array(z.enum(SUPPORTER_KINDS)).min(1),
+    /** Their own homepage / profile (rendered with rel="nofollow"). */
+    url: optionalUrl,
+    /** Public link to the promotion (article, video, post). Promoters only. */
+    proof: optionalUrl,
+    /** Optional one-line note, e.g. "Wrote a review on sspai". */
+    note: localized.optional(),
+    /** ISO date approved, e.g. "2026-10-03". Wall is sorted newest first. */
+    added: z.string(),
+  }),
+});
+
+export const collections = { tools, skills, collectionPages, supporters };

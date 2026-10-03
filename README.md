@@ -27,7 +27,7 @@ npm run preview    # 预览构建产物
 | 方式 | 命令 | 说明 |
 |------|------|------|
 | 🖥️ 可视化后台 | `npm run admin` | 浏览器打开表单，填完保存，实时预览。**日常首选** |
-| ⌨️ CLI | `npm run cli add` | 交互式问答录入；`npm run cli list` / `validate` |
+| ⌨️ CLI | `npm run cli add` | 交互式问答录入；`npm run cli list` / `validate` / `supporter` |
 | 🤖 MCP | 见下方 `mcp.json` | 让 Claude 等 AI 直接"收录这个工具" |
 
 三种方式最终都只是往 `src/data/tools/` 写一个 YAML 文件。加完：
@@ -48,6 +48,23 @@ git add . && git commit -m "add: 某工具" && git push
 
 详见站内 `/zh/about` 页。
 
+## 支持者计划（推广 / 赞助上榜）
+
+推广或赞助本站的人，审核后名字出现在 `/zh/supporters` 的支持者榜上。**上榜只是致谢，不影响任何工具的收录、排序和评测**，榜上链接带 `nofollow` / `sponsored`。
+
+- **推广**：公开发布推荐本站、带本站链接的内容（文章、视频、帖子、Newsletter、awesome 列表 PR）。
+- **赞助**：GitHub Sponsors（`zhitongblog`）、微信、支付宝，金额随意。收款码在 `public/sponsor/`，渠道配置在 `src/consts.ts` 的 `SPONSOR`。
+- **申请**：GitHub issue 表单 `.github/ISSUE_TEMPLATE/supporter.yml`（标签 `supporter`）。
+
+审核通过后加一条记录（每人一个 `src/data/supporters/*.yaml`），然后回复并关闭 issue：
+
+```bash
+npm run cli supporter    # 交互式添加；推广必须附公开链接
+npm run cli supporters   # 列出支持者榜
+```
+
+MCP 对应 `add_supporter` / `list_supporters`。推广内容删除、或发现刷量灌水，从榜上撤下（删掉对应 YAML）。
+
 ## 热门专题
 
 - [免费无广告软件推荐](https://tobefree.app/zh/collections/ad-free-free-software/)
@@ -65,9 +82,10 @@ src/
   consts.ts            站点配置 + 分类/徽章/平台词表（单一数据源）
   content.config.ts    工具数据的 Zod schema（录入时自动校验）
   data/tools/*.yaml    每个工具一个文件 ← 你日常只动这里
+  data/supporters/     支持者榜，每人一个 YAML
   i18n/                中英文案与路由工具
   layouts/ components/ 布局与组件
-  pages/[lang]/        中英双语页面（首页/全部/详情/分类/自研/关于/推荐）
+  pages/[lang]/        中英双语页面（首页/全部/详情/分类/自研/关于/推荐/支持者）
 tools/
   admin.mjs            本地可视化后台
   cli.mjs              命令行录入
