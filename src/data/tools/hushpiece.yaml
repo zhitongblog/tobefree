@@ -17,8 +17,8 @@ tagline:
   zh: Mac 本机会议同传，任何会议软件都能出双语字幕
   en: On-device meeting interpreter for Mac — live bilingual subtitles for any meeting app
 description:
-  zh: 对方说外语，屏幕上实时显示你的语言（附原文）；你说母语，说完一句就出译文，装了虚拟音频设备时对方还能直接听到译文语音。识别、翻译、发音全部用 macOS 本机模型，不联网、不注册、不限时长、不保存录音。支持中英日韩法德西意葡 9 种语言任意互译，自带 CLI 和 MCP。需要 macOS 26 与 Apple 芯片。
-  en: When the other side speaks another language, subtitles in yours appear live, with the original underneath; say something in your language and the translation appears as soon as you pause — with a virtual audio device, they hear it spoken. Recognition, translation and speech all run on macOS on-device models — no internet, no account, no minute limits, no recordings. Any pair of 9 languages (Chinese, English, Japanese, Korean, French, German, Spanish, Italian, Portuguese). Ships a CLI and an MCP server. Requires macOS 26 on Apple silicon.
+  zh: 对方说外语，屏幕上实时显示你的语言（附原文）；你说母语，说完一句就出译文，装了虚拟音频设备时对方还能直接听到译文语音。识别、翻译、发音全部用 macOS 本机模型，不联网、不注册、不限时长、不保存录音。支持中英日韩法德西意葡 9 种语言任意互译；界面有中文和英文两种，跟随系统语言。自带 CLI 和 MCP。需要 macOS 26 与 Apple 芯片。
+  en: When the other side speaks another language, subtitles in yours appear live, with the original underneath; say something in your language and the translation appears as soon as you pause — with a virtual audio device, they hear it spoken. Recognition, translation and speech all run on macOS on-device models — no internet, no account, no minute limits, no recordings. Any pair of 9 languages (Chinese, English, Japanese, Korean, French, German, Spanish, Italian, Portuguese); the interface comes in English and Chinese and follows your Mac's language. Ships a CLI and an MCP server. Requires macOS 26 on Apple silicon.
 review:
   zh: |
     和外语同事开会，市面上的同传工具大多要把会议音频传到云端、按分钟收费，还要先注册账号。
