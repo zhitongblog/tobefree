@@ -22,6 +22,8 @@ const c = {
       ['完全无广告', '不弹窗、不塞推广、不捆绑第三方软件。'],
       ['无负担', '不强制注册、不绑定手机号、不在后台静默上传你的数据。'],
     ],
+    scopeTitle: '收录范围：通用软件',
+    scope: '我们收的是面向一般用户的通用软件。只为某条链或某个代币项目服务的工具，比如挖矿监控、收益面板、单币钱包，即使满足上面三条硬性标准也不收：这类条目放进目录，读起来就像在替具体项目做推广。密码管理、加密、通用的资产记账这类不绑定具体项目的工具不受影响。',
     softTitle: '加分项（优先，但不强制开源）',
     softIntro: '开源当然更让人安心，但像 Everything、Obsidian 这样闭源却真正无负担的好工具也值得收。我们不搞一刀切，而是把每款工具的特性用徽章明明白白标出来，让你自己判断：',
     linkTitle: '关于链接：只指向官方，不自己托管',
@@ -46,6 +48,8 @@ const c = {
       ['Completely ad-free', 'No pop-ups, no promotions, no bundled third-party software.'],
       ['Burden-free', 'No forced sign-up, no phone-number binding, no silent uploading of your data.'],
     ],
+    scopeTitle: 'Scope: general-purpose software',
+    scope: 'We list general-purpose software for everyday users. Tools that exist to serve one blockchain or token project, such as mining monitors, earnings dashboards or single-coin wallets, are not listed even when they meet the three hard requirements: in a directory like this they read as promotion for that project. Project-agnostic tools such as password managers, encryption and general portfolio tracking are unaffected.',
     softTitle: 'Bonus points (preferred, but open source not required)',
     softIntro: 'Open source is reassuring, but closed-source yet truly burden-free gems like Everything and Obsidian deserve a place too. Rather than a blanket rule, we mark every trait with a badge so you can judge for yourself:',
     linkTitle: 'On links: official sources only, never self-hosted',
@@ -96,7 +100,12 @@ const jsonLd = {
     </section>
 
     <section class="block">
-      <h2><span class="num">02</span> {c.softTitle}</h2>
+      <h2><span class="num">02</span> {c.scopeTitle}</h2>
+      <p>{c.scope}</p>
+    </section>
+
+    <section class="block">
+      <h2><span class="num">03</span> {c.softTitle}</h2>
       <p>{c.softIntro}</p>
       <div class="badge-grid">
         {BADGES.map((b) => (
@@ -106,17 +115,17 @@ const jsonLd = {
     </section>
 
     <section class="block">
-      <h2><span class="num">03</span> {c.linkTitle}</h2>
+      <h2><span class="num">04</span> {c.linkTitle}</h2>
       <p>{c.link}</p>
     </section>
 
     <section class="block">
-      <h2><span class="num">04</span> {c.buildTitle}</h2>
+      <h2><span class="num">05</span> {c.buildTitle}</h2>
       <p>{c.build}</p>
     </section>
 
     <section class="block faq">
-      <h2><span class="num">05</span> {c.faqTitle}</h2>
+      <h2><span class="num">06</span> {c.faqTitle}</h2>
       <dl>
         {c.faq.map(([q, a]) => (
           <div class="qa">
