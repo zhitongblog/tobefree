@@ -1,0 +1,34 @@
+name: Dockge
+accent: '#16A34A'
+initials: DG
+category: selfhosted
+price: free
+license: MIT
+website: https://dockge.kuma.pet
+download: https://github.com/louislam/dockge
+repo: https://github.com/louislam/dockge
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - docker
+  - compose
+  - 容器管理
+  - 自建
+  - 开源
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: Uptime Kuma 作者出品的 Docker Compose 可视化管理面板，所有配置保持标准目录文件
+  en: A reactive, stack-oriented Docker Compose manager by the creator of Uptime Kuma
+description:
+  zh: 由 Uptime Kuma 作者开发的 MIT 开源 Docker Compose 管理工具。不同于 Portainer 把编排文件藏进私有数据库，Dockge 直接读写你硬盘上标准的 `compose.yaml` 目录，删掉面板也丝毫不影响正在跑的容器，还自带交互式网页终端与 docker run 一键转换。
+  en: Created by the author of Uptime Kuma, Dockge manages `compose.yaml` stacks through a clean reactive web UI while keeping your standard compose files on disk untouched, complete with a docker-run converter and live terminal.

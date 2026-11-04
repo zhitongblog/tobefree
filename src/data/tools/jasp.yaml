@@ -1,0 +1,36 @@
+name: JASP
+accent: '#0284C7'
+initials: JP
+category: learning
+price: free
+license: GPL-3.0
+website: https://jasp-stats.org
+download: https://jasp-stats.org/download/
+repo: https://github.com/jasp-stats/jasp-desktop
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 统计分析
+  - spss替代
+  - 贝叶斯统计
+  - 科研
+  - 论文图表
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 阿姆斯特丹大学研发的开源免费统计软件，点选之间替代昂贵笨重的商业 SPSS
+  en: Free and open-source graphical statistical software offering both classical and Bayesian analysis
+description:
+  zh: 由阿姆斯特丹大学团队支持开发的开源统计分析软件（底层基于 R 语言）。针对社科、医学与心理学研究者不想写代码的痛点，提供比商业软件 SPSS 更清爽的左侧勾选变量、右侧实时刷新 APA 标准学术三线表与高清配图的交互体验，同时原生支持经典频率学派与贝叶斯统计。
+  en: Developed with support from the University of Amsterdam, JASP is an intuitive, open-source alternative to SPSS. Check variables on the left and watch publication-ready APA tables and plots update live on the right.

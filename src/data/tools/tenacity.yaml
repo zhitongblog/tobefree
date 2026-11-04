@@ -1,0 +1,36 @@
+name: Tenacity
+accent: '#DC2626'
+initials: TN
+category: media
+price: free
+license: GPL-2.0
+website: https://tenacityaudio.org
+download: https://codeberg.org/tenacityteam/tenacity/releases
+repo: https://codeberg.org/tenacityteam/tenacity
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 音频剪辑
+  - audacity分支
+  - 无遥测
+  - 录音
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 社区维护的零遥测、纯离线 Audacity 开源分支
+  en: Community-maintained, telemetry-free open-source multi-track audio editor forked from Audacity
+description:
+  zh: 在 Audacity 被商业公司收购并尝试引入遥测与云服务功能后，由开源社区分叉维护的纯净多轨音频录制与编辑软件。彻底移除了所有联网追踪、崩溃上报与云端推销代码，百分之百保留你熟悉的波形剪辑、降噪与 VST 插件支持。
+  en: Forked by the community when Audacity introduced telemetry after its corporate acquisition, Tenacity delivers the exact multi-track waveform editing, noise reduction and plugin support you know, stripped of all networking and tracking.

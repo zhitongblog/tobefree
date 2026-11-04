@@ -1,0 +1,36 @@
+name: LibrePCB
+accent: '#059669'
+initials: LP
+category: cad
+price: free
+license: GPL-3.0
+website: https://librepcb.org
+download: https://librepcb.org/download/
+repo: https://github.com/LibrePCB/LibrePCB
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - pcb设计
+  - 电路图
+  - eda
+  - git友好
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 界面极度直观、专为 Git 版本控制优化的跨平台开源 PCB 电路板设计软件
+  en: Free, intuitive, cross-platform open-source EDA software with human-readable Git-friendly project files
+description:
+  zh: GPL-3.0 开源的跨平台电子电路设计软件。很多传统 EDA 软件的工程文件是一坨没法做 Git Diff 的乱码，而且换个版本就打不开；LibrePCB 界面极度干净易学，所有工程与封装库文件专门设计为对 Git 极度友好的可读文本结构，还内置一键导出打样文件功能。
+  en: A GPL-3.0 cross-platform PCB design suite praised for its intuitive interface, built-in library manager, 3D viewer and canonical human-readable file format designed specifically for clean Git diffs.

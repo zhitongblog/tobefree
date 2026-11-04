@@ -1,0 +1,33 @@
+kind: mcp
+name: Stripe Agent Toolkit / MCP
+accent: '#635BFF'
+initials: SP
+license: MIT
+website: https://docs.stripe.com/agents
+repo: https://github.com/stripe/agent-toolkit
+install: npx -y @stripe/mcp --tools=all
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 支付接入
+  - stripe
+  - 账单订阅
+  - api文档
+  - 官方
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+tagline:
+  zh: Stripe 官方出品的 MCP 服务与知识库检索，写跨境支付与订阅制代码零幻觉
+  en: Official Stripe MCP server for querying Stripe documentation, customers, subscriptions and payment links
+description:
+  zh: Stripe 官方开源的 Agent 工具包与 MCP Server。既能让 AI 实时检索最新的 Stripe API 文档避免写出废弃的 Webhook 逻辑，也能在沙盒测试环境下直接用自然语言创建商品、价格与测试支付链接。
+  en: Stripe’s official MIT-licensed MCP server allowing coding agents to search canonical Stripe docs and interact with sandbox products, prices, customers and invoices.

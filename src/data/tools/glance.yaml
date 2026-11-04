@@ -1,0 +1,37 @@
+name: Glance
+accent: '#D97706'
+initials: GL
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://github.com/glanceapp/glance
+download: https://github.com/glanceapp/glance/releases
+repo: https://github.com/glanceapp/glance
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 导航页
+  - 信息聚合
+  - rss
+  - 仪表盘
+  - 自建
+platforms:
+  - linux
+  - macos
+  - windows
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 一个配置文件搞定的自建个人资讯与服务器状态聚合仪表盘
+  en: A self-hosted dashboard that puts your RSS feeds, Hacker News, weather and server stats in one page
+description:
+  zh: 用 Go 编写的单二进制开源个人主页。不同于只摆一排图标的普通导航页，Glance 把你常看的 RSS 订阅、Hacker News、Reddit、GitHub Releases、天气预报、股票行情与内网服务器状态全部聚合在一屏信息流里，内存占用不到 20MB。
+  en: A single-binary Go dashboard that aggregates your RSS feeds, Hacker News, Reddit, GitHub releases, weather, bookmarks and server status widgets into one fast, customizable startpage using under 20MB of RAM.

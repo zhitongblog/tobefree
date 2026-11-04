@@ -1,0 +1,36 @@
+name: mGBA
+accent: '#7C3AED'
+initials: MG
+category: gaming
+price: free
+license: MPL-2.0
+website: https://mgba.io
+download: https://mgba.io/downloads.html
+repo: https://github.com/mgba-emu/mgba
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 模拟器
+  - gba
+  - gameboy
+  - 掌机
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: GBA 掌机模拟器的黄金标准，兼顾老电脑低配流畅与像素级硬件精准还原
+  en: 'The gold-standard open-source Game Boy Advance emulator: fast, accurate and lightweight'
+description:
+  zh: MPL-2.0 开源的 Game Boy Advance（同时向下兼容 GB / GBC）模拟器标杆。早已全面取代年代久远的 VisualBoyAdvance（VBA），启动秒开、还原度极高，内置最多 4 台虚拟掌机同屏连接通信线交换宝可梦、金手指、即时存档与太阳光传感器模拟。
+  en: The modern MPL-2.0 standard for Game Boy Advance emulation (also playing GB and GBC titles). Far more accurate and secure than legacy VBA builds, with built-in 4-player link cable emulation, solar sensor support and rewinds.

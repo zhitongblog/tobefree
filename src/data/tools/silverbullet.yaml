@@ -1,0 +1,38 @@
+name: SilverBullet
+accent: '#475569'
+initials: SB
+category: productivity
+price: free
+license: MIT
+website: https://silverbullet.md
+download: https://silverbullet.md/Install
+repo: https://github.com/silverbulletmd/silverbullet
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 笔记
+  - markdown
+  - 双链
+  - 自建
+  - 离线优先
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 把本地纯 Markdown 文件夹变成可编程双链知识库的轻量级笔记应用
+  en: An open-source, programmable Markdown note-taking app with live queries and offline sync
+description:
+  zh: MIT 开源的「黑客风」双链 Markdown 笔记软件。底层就是你硬盘上干干净净的 `.md` 纯文本文件夹，但通过浏览器打开即可获得实时双向链接、类似 SQL 的动态文档查询与模板渲染，且支持 PWA 离线缓存与多设备自动同步。
+  en: An MIT-licensed note-taking web app backed by plain Markdown files on disk. Combines instant bidirectional linking, live SQL-like queries inside notes, and offline-capable PWA sync.

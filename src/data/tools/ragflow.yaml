@@ -1,0 +1,37 @@
+name: RAGFlow
+accent: '#0D9488'
+initials: RF
+category: ai
+price: free
+license: Apache-2.0
+website: https://ragflow.io
+download: https://github.com/infiniflow/ragflow
+repo: https://github.com/infiniflow/ragflow
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - rag
+  - 知识库
+  - 文档解析
+  - 自建
+  - 开源
+platforms:
+  - linux
+  - macos
+  - windows
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 主打深度文档布局理解与精准溯源的开源 RAG 知识库引擎
+  en: Open-source RAG engine built around deep document layout understanding and grounded citations
+description:
+  zh: Apache-2.0 开源的检索增强生成（RAG）引擎。不同于粗暴按字数切块的普通知识库，它内置专门的文档布局分析模型，能精准识别复杂 PDF 中的多栏排版、表格和扫描件，回答问题时直接高亮原文依据，支持全套私有化部署。
+  en: An Apache-2.0 RAG engine that replaces naive text chunking with deep document layout recognition. Accurately parses complex multi-column PDFs, tables and scans, returning answers with highlighted source citations on your own server.

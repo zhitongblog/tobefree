@@ -1,0 +1,33 @@
+name: KeePassDX
+accent: '#16A34A'
+initials: KD
+category: privacy
+price: free
+license: GPL-3.0
+website: https://www.keepassdx.com
+download: https://github.com/Kunzisoft/KeePassDX/releases
+repo: https://github.com/Kunzisoft/KeePassDX
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 密码管理
+  - keepass
+  - 完全无网权限
+  - android
+  - 开源
+platforms:
+  - android
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 连「联网权限」都没申请的安卓开源 KeePass 密码库，从物理层面杜绝密码外泄
+  en: Material Design open-source KeePass password manager for Android that requests zero Internet permission
+description:
+  zh: 安卓端最受推崇的 GPL-3.0 开源离线密码管理器（电脑端 KeePassXC 的黄金手机搭档）。它甚至在安卓系统安装包清单里直接砍掉了 `INTERNET` 联网权限——哪怕你想怀疑它偷偷传数据，操作系统都不会放行一字节网络请求，支持指纹解锁与全局自动填充。
+  en: A modern GPL-3.0 KeePass client for Android compatible with `.kdbx` vaults from KeePassXC. It literally does not request the Android `INTERNET` permission, making network exfiltration impossible by design.

@@ -1,0 +1,32 @@
+name: Fractal
+accent: '#059669'
+initials: FR
+category: chat
+price: free
+license: GPL-3.0
+website: https://apps.gnome.org/Fractal/
+download: https://flathub.org/apps/org.gnome.Fractal
+repo: https://gitlab.gnome.org/World/fractal
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - matrix
+  - rust
+  - gtk4
+  - linux聊天
+  - 端到端加密
+platforms:
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 用纯 Rust 与 GTK4 编写的 GNOME 官方 Matrix 加密聊天客户端
+  en: Fast, native GTK4 Matrix messaging app for GNOME written in Rust
+description:
+  zh: 基于 Rust `matrix-sdk` 与 GTK4 / Libadwaita 构建的原生 Linux 聊天客户端。摒弃了占内存的 Electron 外壳，在 Linux 桌面与移动设备上极速启动，完整支持 Matrix 端到端加密聊天与媒体浏览。
+  en: Built in Rust on top of `matrix-sdk` and GTK4, Fractal delivers a fast, native Linux desktop experience for encrypted Matrix rooms without Electron overhead.

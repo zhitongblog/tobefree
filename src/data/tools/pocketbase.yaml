@@ -1,0 +1,38 @@
+name: PocketBase
+accent: '#18181B'
+initials: PB
+category: selfhosted
+price: free
+license: MIT
+website: https://pocketbase.io
+download: https://pocketbase.io/docs/
+repo: https://github.com/pocketbase/pocketbase
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 后端
+  - sqlite
+  - baas
+  - 单文件
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 仅需一个可执行文件的开源后端，内置 SQLite 数据库、用户鉴权与管理后台
+  en: Open-source backend in 1 file with embedded SQLite database, realtime subscriptions, auth and admin UI
+description:
+  zh: 用 Go 编写的单文件 MIT 开源后端（BaaS）。下载一个十几兆的文件执行 `./pocketbase serve`，立刻获得带可视化网页后台的 SQLite 数据库、REST 与实时订阅 API、OAuth2 用户登录以及本地/S3 文件存储，是独立开发与内部小工具的绝配。
+  en: An MIT-licensed backend packed into a single Go executable. Run one file to get an embedded SQLite database, realtime API subscriptions, user authentication, file storage and a clean web admin dashboard.

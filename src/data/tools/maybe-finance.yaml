@@ -1,0 +1,36 @@
+name: Maybe
+accent: '#18181B'
+initials: MB
+category: finance
+price: free
+license: AGPL-3.0
+website: https://maybefinance.com
+download: https://github.com/maybe-finance/maybe/blob/main/docs/hosting/docker.md
+repo: https://github.com/maybe-finance/maybe
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 个人财务
+  - 资产管理
+  - 记账
+  - 自建
+  - 开源
+platforms:
+  - web
+  - linux
+  - macos
+  - windows
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 曾烧掉百万美金风投后全部开源的超高颜值个人财务与全资产净值管理系统
+  en: The open-source OS for your personal finances, net worth tracking and investment portfolios
+description:
+  zh: 原本是硅谷明星创业项目，后团队决定将价值百万美金的代码库以 AGPL-3.0 完全开源。界面设计堪称记账软件天花板，统一追踪日常流水、多币种账户、房产车辆、股票基金持仓与净值曲线，支持用 Docker Compose 在自己电脑或 NAS 上免费部署。
+  en: Originally a VC-backed fintech startup that open-sourced its entire codebase under AGPL-3.0. Tracks cash flow, multi-currency accounts, debts, real estate and investment portfolios in a stunning self-hostable dashboard.

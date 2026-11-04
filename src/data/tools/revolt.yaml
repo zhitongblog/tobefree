@@ -1,0 +1,37 @@
+name: Revolt
+accent: '#E11D48'
+initials: RV
+category: chat
+price: free
+license: AGPL-3.0
+website: https://revolt.chat
+download: https://revolt.chat/download
+repo: https://github.com/revoltchat
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 语音开黑
+  - discord替代
+  - 社区聊天
+  - 自建
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+  - android
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 专为游戏开黑与兴趣社区打造的开源 Discord 平替，不卖用户数据
+  en: Open-source, user-first chat and voice platform built as a privacy-respecting alternative to Discord
+description:
+  zh: AGPL-3.0 开源的现代社区与游戏语音聊天平台。操作逻辑与 Discord 几乎零学习成本（支持自建服务器分组、自定义角色权限、文字频道与低延迟语音频道），但前后端代码全部开源，不拿你的聊天记录训练商业广告模型，也支持自己架设私有服务端。
+  en: An AGPL-3.0 chat platform built from the ground up to feel immediately familiar to Discord users — with servers, custom roles, text channels and voice rooms — while remaining open source and self-hostable.

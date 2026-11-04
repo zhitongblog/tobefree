@@ -1,0 +1,35 @@
+name: SemDecide
+accent: '#4F46E5'
+initials: SD
+category: dev
+price: free
+license: MIT
+website: https://github.com/heyjunpenn/awesome-jev
+repo: https://github.com/heyjunpenn/awesome-jev
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - cli
+  - unix
+  - shell
+  - 脚本
+platforms:
+  - macos
+  - linux
+  - windows
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 把语义判断变成 Unix 管道命令，用退出码和标准输出衔接 Shell 脚本
+  en: A Unix command-line utility for evaluating semantic predicates in shell pipelines
+description:
+  zh: 遵循 Unix 哲学的轻量级命令行工具，将 Jev 的二元判断、多选分类与打分原语暴露为标准 CLI 命令。可以直接在管道（pipe）里对日志、提交信息或文本流做毫秒级语义过滤，并用标准退出码配合 if / xargs 编写自动化脚本。
+  en: A Unix-philosophy CLI that exposes Jev boolean, select and score primitives to shell pipelines. Pipe logs, commit messages or text streams into SemDecide and branch on semantic predicates using standard exit codes and xargs.

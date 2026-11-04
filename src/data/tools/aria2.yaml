@@ -1,0 +1,38 @@
+name: aria2
+accent: '#334155'
+initials: A2
+category: network
+price: free
+license: GPL-2.0
+website: https://aria2.github.io
+download: https://github.com/aria2/aria2/releases
+repo: https://github.com/aria2/aria2
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 下载器
+  - 多线程下载
+  - bt下载
+  - cli
+  - rpc
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 几乎所有开源下载器背后的多线程引擎本尊，仅占几兆内存即可跑满千兆宽带
+  en: Ultra-lightweight multi-protocol and multi-source command-line download utility with JSON-RPC
+description:
+  zh: Motrix 等无数图形下载器底层的核心引擎（C++ 编写，GPL-2.0 开源）。本身是一个只占几兆内存的命令行与后台 RPC 服务，支持同时从 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink 多源切片并发下载同一个文件，是 NAS 与服务器挂机下载的绝对主力。
+  en: The battle-tested GPL-2.0 C++ download engine that powers countless GUI frontends. Downloads files concurrently across HTTP/HTTPS, FTP, SFTP and BitTorrent while consuming just a few megabytes of RAM.

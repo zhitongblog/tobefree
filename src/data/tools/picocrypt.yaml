@@ -1,0 +1,36 @@
+name: Picocrypt
+accent: '#18181B'
+initials: PC
+category: privacy
+price: free
+license: GPL-3.0
+website: https://github.com/Picocrypt/Picocrypt
+download: https://github.com/Picocrypt/Picocrypt/releases
+repo: https://github.com/Picocrypt/Picocrypt
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 文件加密
+  - xchacha20
+  - argon2
+  - 单文件
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 极简到只需拖入文件输密码，但底层采用 XChaCha20 与 Argon2id 顶级密码学的加密工具
+  en: A very small, very simple, yet audited and ultra-secure file encryption desktop tool
+description:
+  zh: 通过独立第三方密码学安全审计的 GPL-3.0 开源文件加密小工具。如果你觉得 VeraCrypt 每次都要建虚拟磁盘太繁琐，Picocrypt 只需把任意文件或文件夹拖进窗口、设个密码（或密钥文件），一秒生成带 Reed-Solomon 抗损坏纠错码的 `.pcv` 加密包。
+  en: An independently audited GPL-3.0 file encryption app. Drag and drop files, enter a password or keyfile, and encrypt immediately with XChaCha20-Poly1305, Argon2id and optional Reed-Solomon data corruption recovery.

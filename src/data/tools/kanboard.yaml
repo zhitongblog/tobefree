@@ -1,0 +1,36 @@
+name: Kanboard
+accent: '#dc2626'
+initials: KB
+category: productivity
+price: free
+license: MIT
+website: https://kanboard.org
+download: https://github.com/kanboard/kanboard/releases
+repo: https://github.com/kanboard/kanboard
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 看板
+  - kanban
+  - 项目管理
+  - 自建
+  - 极简
+platforms:
+  - web
+  - linux
+  - windows
+  - macos
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 极简到只需一个 SQLite 文件就能跑起来的开源看板任务管理系统
+  en: Minimalist open-source Kanban project management software backed by a single SQLite file
+description:
+  zh: MIT 开源的极简主义看板软件。拒绝花哨臃肿的视觉特效，专注「限制在制品数量（WIP）」的核心看板方法论；资源占用极小，默认只需 PHP + 单文件 SQLite 数据库即可运行，几秒钟就能在任意小主机上搭好。
+  en: An MIT-licensed Kanban board that eschews visual bloat in favor of fast keyboard navigation, Work-In-Progress (WIP) limits, automated triggers and a tiny SQLite footprint.

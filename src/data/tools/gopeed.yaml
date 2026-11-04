@@ -1,0 +1,40 @@
+name: Gopeed
+accent: '#10B981'
+initials: GP
+category: network
+price: free
+license: GPL-3.0
+website: https://gopeed.com
+download: https://gopeed.com/zh-CN#download
+repo: https://github.com/GopeedLab/gopeed
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 下载器
+  - bt磁力
+  - 全平台
+  - golang
+  - 扩展脚本
+platforms:
+  - windows
+  - macos
+  - linux
+  - android
+  - ios
+  - web
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 用 Go + Flutter 编写的全平台开源高速下载器，支持 HTTP、BT 磁力与自定义解析扩展
+  en: High-speed open-source download manager supporting HTTP, BitTorrent and Magnet across all platforms
+description:
+  zh: GPL-3.0 开源的全平台下载器（Go 后端 + Flutter 界面，覆盖电脑、手机与 Docker Web 端）。不依赖外部 aria2 进程，原生支持多线程 HTTP 与 BitTorrent / 磁力链接下载，并独创 JavaScript 插件机制，可通过社区扩展直接解析网盘或音视频流媒体地址。
+  en: Written in Go and Flutter under GPL-3.0, Gopeed runs natively on desktop, mobile and Docker, handling HTTP multi-threading, BitTorrent/Magnet links and custom JavaScript extractor extensions.

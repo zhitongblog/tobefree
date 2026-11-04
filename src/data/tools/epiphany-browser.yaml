@@ -1,0 +1,32 @@
+name: GNOME Web (Epiphany)
+accent: '#2563EB'
+initials: GW
+category: browser
+price: free
+license: GPL-3.0
+website: https://apps.gnome.org/Epiphany/
+download: https://flathub.org/apps/org.gnome.Epiphany
+repo: https://gitlab.gnome.org/GNOME/epiphany
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - webkit
+  - gnome
+  - linux浏览器
+  - 去广告
+  - 开源
+platforms:
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: GNOME 桌面官方出品的 WebKit 内核纯净浏览器，自带智能防追踪与广告过滤
+  en: The official WebKit-based web browser for GNOME with built-in tracker blocking and ad filtering
+description:
+  zh: GNOME 桌面环境的官方 GPL-3.0 浏览器。不跟风套壳 Chromium，而是采用与苹果 Safari 同源的 WebKitGTK 引擎，默认开启智能防追踪（ITP）与内置广告拦截器，界面与 Linux 原生桌面浑然一体。
+  en: Powered by WebKitGTK under GPL-3.0, GNOME Web offers an independent browser engine alternative on Linux with built-in Intelligent Tracking Prevention and content blocking.

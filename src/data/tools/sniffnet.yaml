@@ -1,0 +1,36 @@
+name: Sniffnet
+accent: '#4F46E5'
+initials: SN
+category: network
+price: free
+license: MIT / Apache-2.0
+website: https://sniffnet.net
+download: https://sniffnet.net/download/
+repo: https://github.com/GyulyVGC/sniffnet
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 流量监控
+  - 网络可视化
+  - rust
+  - 抓包
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 用 Rust 编写的高颜值实时网络流量监控软件，一眼看清本机正在和哪些国家的服务器通信
+  en: Comfortable, cross-platform Rust application to comfortably monitor your Internet traffic in real time
+description:
+  zh: 如果你觉得 Wireshark 满屏十六进制报文像天书，用 Rust 编写的 Sniffnet 就是专门为普通人和开发者打造的直观网络监控仪。选择网卡后即可实时绘制上下行流量图，列出当前电脑连了哪些进程、目标 IP 归属国旗、ASN 运营商与服务端口。
+  en: 'Written in Rust, Sniffnet makes network traffic inspection approachable for everyone: pick an adapter and watch live throughput charts, active processes, destination countries and ASN owners.'

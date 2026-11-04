@@ -1,0 +1,33 @@
+name: MLX-LM
+accent: '#059669'
+initials: MX
+category: ai
+price: free
+license: MIT
+website: https://github.com/ml-explore/mlx-lm
+repo: https://github.com/ml-explore/mlx-lm
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - apple-silicon
+  - mac
+  - 本地大模型
+  - 微调
+  - 推理
+platforms:
+  - macos
+  - cli
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 苹果官方 MLX 团队出品，专为 Apple Silicon 统一内存优化的极速大模型套件
+  en: Apple’s official Python package for fast LLM inference and LoRA fine-tuning on Apple Silicon
+description:
+  zh: 由 Apple 机器学习团队维护的 MIT 开源工具包，专为 M 系列芯片的统一内存架构打造。在 Mac 上不管是跑大模型推理、量化转换还是本地 LoRA 微调，速度和显存利用率通常都明显高于通用跨平台框架。
+  en: Maintained by Apple machine learning research under the MIT license, MLX-LM squeezes maximum inference speed and memory efficiency out of M-series unified memory, with built-in quantization, local HTTP serving and LoRA fine-tuning.

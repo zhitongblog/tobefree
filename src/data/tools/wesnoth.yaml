@@ -1,0 +1,37 @@
+name: The Battle for Wesnoth
+accent: '#B45309'
+initials: BW
+category: gaming
+price: free
+license: GPL-2.0
+website: https://www.wesnoth.org
+download: https://www.wesnoth.org/#download
+repo: https://github.com/wesnoth/wesnoth
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 战棋
+  - 回合制策略
+  - 开源游戏
+  - 单机
+  - 奇幻
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 开源游戏史上内容最宏大的奇幻六角格战棋大作，内置十几个长篇战役与上百个社区模组
+  en: Classic open-source turn-based hex tactical strategy game with 17 campaigns and ratusan add-ons
+description:
+  zh: 持续开发超过二十年的殿堂级 GPL 开源回合制战棋游戏（《韦诺之战》）。自带完整的官方中文，包含 17 个主线长篇单人剧情战役、六大种族兵种晋升树、地形闪避与昼夜系统，游戏内直接提供完全免费的社区创意工坊下载数百个玩家自制战役。
+  en: Polished over two decades under GPL-2.0, Wesnoth is a deep turn-based fantasy tactical strategy game featuring 17 official single-player campaigns, unit leveling trees, multiplayer and an in-game add-on server.

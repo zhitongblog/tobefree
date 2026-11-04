@@ -1,0 +1,35 @@
+name: foobar2000
+accent: '#334155'
+initials: FB
+category: media
+price: free
+license: Freeware
+website: https://www.foobar2000.org
+download: https://www.foobar2000.org/download
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 音乐播放器
+  - 无损音频
+  - flac
+  - 轻量
+  - 经典
+platforms:
+  - windows
+  - macos
+  - ios
+  - android
+badges:
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 纯净坚守二十余年的殿堂级本地无损音乐播放器，秒开十万首曲库
+  en: Legendary lightweight, endlessly customizable local audio player supporting every lossless format
+description:
+  zh: 自 2002 年发布至今依然纯粹的免费本地音频播放器。没有任何在线歌单广告、直播间弹窗或会员推销，内存占用极小，原生通吃 FLAC、APE、WAV、DSD 等无损格式，并提供强大的批量标签管理、音频格式转换与 ReplayGain 响度均衡。
+  en: A revered freeware audio player running strong for over two decades with zero ads, telemetry or streaming bloat. Handles massive libraries of FLAC, WAV, ALAC and DSD effortlessly with built-in format conversion and tagging.

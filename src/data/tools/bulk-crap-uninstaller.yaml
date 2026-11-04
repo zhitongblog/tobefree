@@ -1,0 +1,33 @@
+name: BCUninstaller
+accent: '#DC2626'
+initials: BC
+category: utility
+price: free
+license: Apache-2.0
+website: https://www.bcuninstaller.com
+download: https://www.bcuninstaller.com/#download
+repo: https://github.com/Klocman/Bulk-Crap-Uninstaller
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 软件卸载
+  - 批量卸载
+  - 注册表清理
+  - windows
+  - 开源
+platforms:
+  - windows
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Windows 下最彻底的开源批量软件卸载器，连顽固流氓软件与残留注册表一起拔除
+  en: Free, open-source bulk program uninstaller for Windows with deep leftover and registry detection
+description:
+  zh: Apache-2.0 开源的 Windows 强力卸载工具（Bulk Crap Uninstaller）。不仅能识别普通控制面板看不见的损坏安装项、Windows 商店应用和便携软件，还支持全自动静默批量卸载，并在卸载后深度扫描并清除残留文件夹与注册表项。
+  en: An Apache-2.0 Windows uninstaller that detects standard apps, Microsoft Store packages, portable apps and broken installers. Automates unattended batch uninstalls and scrubs leftover directories and registry keys.

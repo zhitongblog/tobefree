@@ -1,0 +1,40 @@
+name: ezBookkeeping
+accent: '#D97706'
+initials: EZ
+category: finance
+price: free
+license: MIT
+website: https://ezbookkeeping.mayswind.net
+download: https://ezbookkeeping.mayswind.net/installation
+repo: https://github.com/mayswind/ezbookkeeping
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 记账
+  - 自建
+  - 手机记账
+  - 轻量
+  - pwa
+  - 开源
+platforms:
+  - web
+  - linux
+  - windows
+  - macos
+  - ios
+  - android
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 连树莓派都能秒跑的超轻量自建记账应用，手机端界面跟原生记账 App 一样顺手
+  en: Lightweight, self-hosted personal bookkeeping app with a polished mobile-first PWA and desktop UI
+description:
+  zh: MIT 开源的轻量级自托管个人记账软件（Go 语言单文件 + SQLite）。很多开源财务系统只适合在电脑大屏上填报表，出门买杯咖啡根本没法随手记；ezBookkeeping 专门打磨了媲美商业记账 App 的手机端 PWA 界面，支持收支分类、多币种汇率、账单图片附件与 AI 票据识别。
+  en: An MIT-licensed, single-binary Go bookkeeping server designed to feel like a native mobile finance app on your phone while keeping all ledger data and receipt photos on your own hardware.

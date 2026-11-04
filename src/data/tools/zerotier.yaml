@@ -1,0 +1,37 @@
+name: ZeroTier
+accent: '#D97706'
+initials: ZT
+category: network
+price: freemium
+license: BSL-1.1
+website: https://www.zerotier.com
+download: https://www.zerotier.com/download/
+repo: https://github.com/zerotier/ZeroTierOne
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 异地组网
+  - 虚拟局域网
+  - 二层网络
+  - nas远程
+  - 内网穿透
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - cli
+badges:
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 把分散在世界各地的电脑、手机与 NAS 接进同一个虚拟二层交换机的老牌组网工具
+  en: A global virtual Ethernet switch that connects your devices across any network via Layer-2 P2P
+description:
+  zh: 异地组网领域的老牌标杆。不同于多数三层 VPN，ZeroTier 模拟的是真正的二层以太网交换机（支持广播、多播与任意协议，打局域网老游戏联机尤其好用）。输入一串 16 位网络 ID 即可把家里的 NAS、在外办公的笔记本与手机直连互通，也支持自建控制器与 Moon 中转节点。
+  en: Emulates a true Layer-2 Ethernet switch over encrypted peer-to-peer UDP tunnels, supporting broadcast/multicast traffic for LAN games, NAS access and remote administration.

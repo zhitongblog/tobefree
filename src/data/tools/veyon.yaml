@@ -1,0 +1,36 @@
+name: Veyon
+accent: '#0284C7'
+initials: VY
+category: remote
+price: free
+license: GPL-2.0
+website: https://veyon.io
+download: https://veyon.io/en/download/
+repo: https://github.com/veyon/veyon
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 多机监控
+  - 机房管理
+  - 屏幕广播
+  - 远程协助
+  - 开源
+platforms:
+  - windows
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 一屏同看几十台局域网电脑画面、一键屏幕广播与远程控制的开源机房/实验室神器
+  en: Open-source computer monitoring and classroom management software for Windows and Linux
+description:
+  zh: GPL-2.0 开源的跨平台多机远程监控与控制软件。不仅适合学校机房和培训室（一屏网格查看所有机器画面、一键把主机屏幕广播给所有人、远程锁屏或分发文件），也非常适合家里或工作室管理多台测试机，完全局域网运行零费用。
+  en: A GPL-2.0 LAN monitoring and remote control suite. View dozens of Windows and Linux screens in a single grid, broadcast your screen in real time, distribute files and take remote control with zero cloud relays.

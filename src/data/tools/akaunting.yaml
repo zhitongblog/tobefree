@@ -1,0 +1,36 @@
+name: Akaunting
+accent: '#16A34A'
+initials: AK
+category: finance
+price: freemium
+license: GPL-3.0
+website: https://akaunting.com
+download: https://github.com/akaunting/akaunting/releases
+repo: https://github.com/akaunting/akaunting
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 企业财务
+  - 自由职业
+  - 账单发票
+  - 会计
+  - 自建
+platforms:
+  - web
+  - linux
+  - windows
+  - macos
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 面向自由职业者与小微团队的开源自建财务会计系统，含客户账单、供应商与现金流报表
+  en: Free and open-source accounting software for freelancers and small businesses
+description:
+  zh: 基于 Laravel 构建的 GPL-3.0 开源小微企业与独立开发者财务系统。支持自建在自己的服务器上，管理客户报价单、发票（Invoicing）、周期性收款、供应商采购账单以及多币种损益表。
+  en: A GPL-3.0 self-hostable accounting system built for freelancers and small teams to manage client invoicing, vendor bills, expense tracking and profit-and-loss reporting on their own server.

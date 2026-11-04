@@ -1,0 +1,38 @@
+name: Dufs
+accent: '#D97706'
+initials: DF
+category: remote
+price: free
+license: MIT / Apache-2.0
+website: https://github.com/sigoden/dufs
+download: https://github.com/sigoden/dufs/releases
+repo: https://github.com/sigoden/dufs
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 文件共享
+  - http文件服务
+  - webdav
+  - 局域网传文件
+  - rust
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 一行命令把任意本地文件夹变成支持上传、搜索、打包下载与 WebDAV 挂载的极速文件服务器
+  en: A distinctive single-binary file server in Rust supporting static serving, uploads, search and WebDAV
+description:
+  zh: 用 Rust 编写的单文件 HTTP / WebDAV 文件共享工具。以前临时给局域网同事传文件经常用 `python -m http.server`，但它既不能上传也不能搜索；而执行一句 `dufs -A` 就能秒开一个支持拖拽上传、文件夹打包成 zip 下载、断点续传、权限控制还能直接当 WebDAV 网盘挂载的服务。
+  en: A single-binary Rust file server that upgrades `python -m http.server` with drag-and-drop uploads, folder-as-zip downloads, resumable transfers, access control and full WebDAV mounting.

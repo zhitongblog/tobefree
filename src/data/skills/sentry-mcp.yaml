@@ -1,0 +1,34 @@
+kind: mcp
+name: Sentry MCP Server
+accent: '#362D59'
+initials: ST
+license: Apache-2.0
+website: https://docs.sentry.io/product/sentry-mcp/
+repo: https://github.com/getsentry/sentry-mcp
+install: npx -y @sentry/mcp-server
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 报错监控
+  - 错误堆栈
+  - 调试
+  - sentry
+  - 官方
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+tagline:
+  zh: Sentry 官方出品，让 AI 直接拉取线上真实崩溃堆栈、面包屑日志并定位修复代码
+  en: Official Sentry MCP server that feeds production stack traces and issue context straight to your coding agent
+description:
+  zh: 由 Sentry 官方维护的开源 MCP 服务。无需手动复制粘贴线上报错信息，直接把 Sentry Issue 链接丢给 Claude Code 或 Cursor，AI 即可自动拉取完整调用栈、触发频率与上下文事件并生成修复补丁。
+  en: Maintained by Sentry, this MCP server lets your AI coding assistant inspect live production exceptions, stack traces, breadcrumbs and release regressions to propose fixes directly.

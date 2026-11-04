@@ -1,0 +1,35 @@
+name: Horizon EDA
+accent: '#0284C7'
+initials: HE
+category: cad
+price: free
+license: GPL-3.0
+website: https://horizon-eda.org
+download: https://github.com/horizon-eda/horizon/releases
+repo: https://github.com/horizon-eda/horizon
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - pcb设计
+  - 电路板
+  - eda
+  - 硬件开发
+  - 开源
+platforms:
+  - windows
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 从零现代设计的开源电子电路原理图与 PCB 布局软件，内置严谨的元器件库与 3D 预览
+  en: Modern free and open-source Electronic Design Automation package for schematic capture and PCB layout
+description:
+  zh: GPL-3.0 开源的现代电子设计自动化（EDA）套件。吸收了商业软件在元器件封装管理上的精髓（明确区分实体器件、逻辑符号与焊盘封装），集成 KiCad 的交互式推挤布线器、实时设计规则检查（DRC）以及极速的 OpenGL 3D 电路板预览。
+  en: A modern GPL-3.0 EDA package featuring unified library management from symbol to 3D package, an interactive push-and-shove router, live DRC checks and hardware-accelerated 3D board previews.

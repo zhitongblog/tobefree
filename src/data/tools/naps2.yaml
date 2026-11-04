@@ -1,0 +1,37 @@
+name: NAPS2
+accent: '#2563EB'
+initials: NP
+category: office
+price: free
+license: GPL-2.0
+website: https://www.naps2.com
+download: https://www.naps2.com/download
+repo: https://github.com/cyanfish/naps2
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 扫描仪
+  - pdf扫描
+  - ocr
+  - 办公
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 拯救各种老旧与难用原厂驱动的开源全能文档扫描软件，内置多语言离线 OCR
+  en: 'Not Another PDF Scanner: free, open-source document scanning and OCR software for any scanner'
+description:
+  zh: 名字就叫「Not Another PDF Scanner」的 GPL 开源扫描神器。打印机原厂自带的扫描软件往往高达几百兆还逼你登录账号，NAPS2 安装包极小，通吃 WIA、TWAIN、SANE 与局域网 ESCL 无线扫描仪，支持双面交叉合并、自动纠偏裁剪，并内置 Tesseract 离线 OCR 生成可搜索 PDF。
+  en: Replaces bloated manufacturer scanner software with a fast, tiny GPL-2.0 app supporting WIA, TWAIN, SANE and network ESCL scanners. Includes duplex interleaving, auto-deskew and built-in offline Tesseract OCR for searchable PDFs.

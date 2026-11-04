@@ -1,0 +1,37 @@
+name: Beszel
+accent: '#0284C7'
+initials: BZ
+category: selfhosted
+price: free
+license: MIT
+website: https://beszel.dev
+download: https://beszel.dev/guide/getting-started
+repo: https://github.com/henrygd/beszel
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 服务器监控
+  - docker监控
+  - 探针
+  - 轻量
+  - 自建
+platforms:
+  - linux
+  - macos
+  - windows
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 比 Grafana 轻十倍的开源服务器与 Docker 容器资源监控面板
+  en: Lightweight server resource monitoring hub with historical data, Docker stats and alerts
+description:
+  zh: 基于 PocketBase 构建的超轻量级自建服务器监控中心。如果你觉得 Prometheus + Grafana 太重，而 Uptime Kuma 只能看在线率看不了 CPU、内存、磁盘温度和各个 Docker 容器的资源历史曲线，Beszel 只需几兆内存就能完美解决，还自带阈值告警。
+  en: Built on PocketBase, Beszel fills the gap between Uptime Kuma and heavy Prometheus/Grafana stacks. Tracks historical CPU, RAM, disk I/O, GPU temperatures and per-container Docker stats across all your servers with minimal RAM.

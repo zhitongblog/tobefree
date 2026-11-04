@@ -1,0 +1,38 @@
+name: Rocket.Chat
+accent: '#DC2626'
+initials: RC
+category: chat
+price: freemium
+license: MIT
+website: https://www.rocket.chat
+download: https://www.rocket.chat/install
+repo: https://github.com/RocketChat/Rocket.Chat
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 团队协作
+  - slack替代
+  - 内网聊天
+  - 自建
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 支持全套私有化部署的开源团队即时通讯平台，数据完全留在企业自己服务器
+  en: Open-source, self-hostable team communications platform for organizations requiring full data ownership
+description:
+  zh: 老牌开源团队协作与即时通讯平台。提供频道、私聊、消息话题串、文件共享、端到端加密以及与 Matrix 联邦互通能力，支持使用 Docker 在内网完全断外网环境独立部署，配套全平台桌面与手机客户端。
+  en: A mature self-hostable team chat platform featuring channels, threads, file sharing, end-to-end encryption and Matrix federation, with native apps across desktop and mobile.

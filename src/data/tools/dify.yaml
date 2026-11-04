@@ -1,0 +1,35 @@
+name: Dify
+accent: '#1D4ED8'
+initials: DF
+category: ai
+price: freemium
+license: Apache-2.0 (modified)
+website: https://dify.ai
+download: https://docs.dify.ai/getting-started/install-self-hosted
+repo: https://github.com/langgenius/dify
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 工作流
+  - agent
+  - rag
+  - 自建
+  - 低代码
+platforms:
+  - web
+  - linux
+  - macos
+  - windows
+badges:
+  - no-ads
+  - no-tracking
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 可视化的 AI 工作流与 Agent 编排平台，支持 Docker 自建
+  en: Self-hostable visual LLM workflow, RAG pipeline and agent orchestration platform
+description:
+  zh: 熱門的 LLM 应用开发与可视化工作流平台。通过拖拽节点即可把本地大模型、知识库检索（RAG）、代码执行器与外部工具串联成完整的 AI 应用或 API，支持使用 Docker Compose 在本地或内网免费自建。
+  en: A visual platform for building LLM workflows, RAG pipelines and tool-using agents. Drag and drop nodes to wire local models, document retrieval and custom code into production APIs, fully self-hostable via Docker Compose.

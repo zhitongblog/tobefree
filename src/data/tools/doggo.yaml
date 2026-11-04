@@ -1,0 +1,37 @@
+name: doggo
+accent: '#0284C7'
+initials: DG
+category: network
+price: free
+license: GPL-3.0
+website: https://doggo.mrkaran.dev
+download: https://github.com/mr-karan/doggo/releases
+repo: https://github.com/mr-karan/doggo
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - dns查询
+  - dig替代
+  - doh
+  - dot
+  - 网络诊断
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 写给人看的现代化命令行 DNS 查询工具，支持彩色表格、JSON 输出与 DoH / DoT
+  en: A modern, human-friendly command-line DNS client replacing dig with DoH, DoT and DoQ support
+description:
+  zh: 用 Go 编写的 GPL-3.0 现代 DNS 诊断命令行工具（古老 `dig` 命令的优雅替代品）。输出结构清晰的高亮表格或标准 JSON，且原生支持直接测试 DNS-over-HTTPS（DoH）、DNS-over-TLS（DoT）与 DNSCrypt 上游服务器。
+  en: A GPL-3.0 command-line DNS client written in Go. Replaces cryptic `dig` output with color-coded tables, JSON mode and native support for DNS-over-HTTPS (DoH), DoT and DoQ.

@@ -1,0 +1,36 @@
+name: Cyberduck
+accent: '#EAB308'
+initials: CD
+category: remote
+price: free
+license: GPL-3.0
+website: https://cyberduck.io
+download: https://cyberduck.io/download/
+repo: https://github.com/iterate-ch/cyberduck
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ftp
+  - sftp
+  - webdav
+  - s3
+  - 对象存储
+  - 开源
+platforms:
+  - windows
+  - macos
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 那只著名的小黄鸭：同时通吃 SFTP 服务器、WebDAV 网盘与 S3/R2 对象存储的开源传输客户端
+  en: Libre server and cloud storage browser for Mac and Windows supporting SFTP, WebDAV, S3 and Cryptomator
+description:
+  zh: GPL-3.0 开源的老牌远程文件与云存储浏览器（官网可直接免费下载安装包）。不仅能连传统的 FTP / SFTP 服务器，还能直接管理 Cloudflare R2、AWS S3、Backblaze B2、WebDAV 与 OneDrive，并且原生内置 Cryptomator 客户端加密，上传前自动在本地把文件名和内容锁死。
+  en: A GPL-3.0 file transfer client for macOS and Windows that connects equally well to SFTP servers, WebDAV shares and S3/R2 object storage buckets, featuring built-in Cryptomator client-side encryption.

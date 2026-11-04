@@ -1,0 +1,37 @@
+name: Feishin
+accent: '#2563EB'
+initials: FS
+category: media
+price: free
+license: GPL-3.0
+website: https://github.com/jeffvli/feishin
+download: https://github.com/jeffvli/feishin/releases
+repo: https://github.com/jeffvli/feishin
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 音乐播放器
+  - navidrome
+  - jellyfin
+  - subsonic
+  - 自建曲库
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 专为自建音乐库（Navidrome / Jellyfin）打造的高颜值开源桌面音乐客户端
+  en: A modern open-source desktop music player for Navidrome, Subsonic and Jellyfin servers
+description:
+  zh: 如果你在 NAS 上用 Navidrome 或 Jellyfin 搭了自己的私有无损音乐库，Feishin 就是电脑端体验最接近商业流媒体软件的 GPL-3.0 开源播放器。支持智能歌单、歌词显示、内置 MPV 音频后端直通播放与优雅的专辑墙浏览。
+  en: A modern GPL-3.0 desktop and web music client for self-hosted Navidrome, Subsonic and Jellyfin servers, offering smart playlists, synchronized lyrics and an optional MPV audio backend.

@@ -1,0 +1,35 @@
+kind: skill
+name: Rust Agent Skills
+accent: '#EA580C'
+initials: RS
+license: MIT
+website: https://github.com/awesome-agent-skills
+repo: https://github.com/rust-lang/rust-clippy
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - rust
+  - clippy
+  - 并发安全
+  - 错误处理
+  - 编程技能
+clients:
+  - Claude Code
+  - Cursor
+  - Cline
+  - Windsurf
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 专治 AI 写不出地道 Rust：涵盖所有权借用规避、thiserror/anyhow 规范与零拷贝模式
+  en: Agent skills for writing idiomatic, clippy-clean Rust with proper ownership and error handling
+description:
+  zh: 针对 AI 写 Rust 代码时极易滥用 `.clone()`、`.unwrap()` 以及生命周期报错死循环的痛点，提炼出的一套 Rust 工程化 Agent 技能指令：强制遵循 `cargo clippy` 严格检查、区分库与应用层错误处理（thiserror vs anyhow）及异步 Tokio 最佳实践。
+  en: Guides coding agents away from `.unwrap()` and excessive `.clone()` anti-patterns toward idiomatic Rust ownership, `thiserror`/`anyhow` error handling and strict `cargo clippy` verification.

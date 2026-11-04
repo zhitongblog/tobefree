@@ -1,0 +1,37 @@
+name: chisel
+accent: '#7C3AED'
+initials: CH
+category: remote
+price: free
+license: MIT
+website: https://github.com/jpillora/chisel
+download: https://github.com/jpillora/chisel/releases
+repo: https://github.com/jpillora/chisel
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 端口转发
+  - 内网穿透
+  - ssh隧道
+  - golang
+  - 单文件
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 把 TCP / UDP 端口转发封装进加密 HTTP WebSocket 隧道的 Go 语言单文件穿透神器
+  en: A fast TCP/UDP tunnel transported over HTTP and secured via SSH in a single Go executable
+description:
+  zh: 用 Go 编写的 MIT 开源单可执行文件隧道工具（服务端与客户端合二为一）。只需一条命令就能通过 HTTP/WebSocket 建立起由 SSH 协议加密的正向或反向端口转发隧道，轻松穿过严苛的企业防火墙访问内网服务。
+  en: An MIT-licensed single-binary Go utility (acting as both client and server) that tunnels TCP and UDP traffic over HTTP WebSockets secured with SSH encryption.

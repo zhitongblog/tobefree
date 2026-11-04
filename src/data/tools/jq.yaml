@@ -1,0 +1,36 @@
+name: jq
+accent: '#2563EB'
+initials: JQ
+category: dev
+price: free
+license: MIT
+website: https://jqlang.org
+download: https://jqlang.org/download/
+repo: https://github.com/jqlang/jq
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - json
+  - cli
+  - 命令行
+  - 数据处理
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 命令行里的 JSON 手术刀，零依赖实现切片、过滤、映射与重构
+  en: Lightweight and flexible command-line JSON processor — like sed and awk for JSON data
+description:
+  zh: 用可移植 C 语言编写的零运行时依赖命令行 JSON 处理器。无论是把接口返回的一坨压缩 JSON 高亮美化，还是用一行表达式从几百兆日志里抽取出特定字段并重组结构，jq 都是全球开发者脚本里的标准基建。
+  en: Written in portable C with zero runtime dependencies, jq lets you slice, filter, map and transform structured JSON data with the same ease that sed, awk and grep give you for plain text.

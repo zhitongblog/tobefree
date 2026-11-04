@@ -1,0 +1,37 @@
+name: Violentmonkey
+accent: '#EA580C'
+initials: VM
+category: browser
+price: free
+license: MIT
+website: https://violentmonkey.github.io
+download: https://violentmonkey.github.io/get-it/
+repo: https://github.com/violentmonkey/violentmonkey
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 油猴脚本
+  - userscript
+  - 浏览器扩展
+  - tampermonkey替代
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 真正 MIT 完全开源、无暗藏统计代码的纯净油猴用户脚本管理器（暴力猴）
+  en: Truly open-source userscript manager for browsers — the clean alternative to closed-source Tampermonkey
+description:
+  zh: 很多人不知道如今最火的 Tampermonkey（篡改猴）早就变成了闭源商业扩展。Violentmonkey（暴力猴）则是真正坚守 MIT 开源协议、代码完全透明且无任何后台追踪的油猴脚本管理器，完美兼容 Greasy Fork 等站点的全部 `.user.js` 脚本。
+  en: While Tampermonkey has been closed-source for years, Violentmonkey remains 100% open source under the MIT license with zero tracking, running all standard `.user.js` scripts across Chrome, Firefox and Edge.

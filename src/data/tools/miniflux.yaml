@@ -1,0 +1,37 @@
+name: Miniflux
+accent: '#334155'
+initials: MF
+category: selfhosted
+price: free
+license: Apache-2.0
+website: https://miniflux.app
+download: https://miniflux.app/docs/installation.html
+repo: https://github.com/miniflux/v2
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - rss
+  - 阅读器
+  - 自建
+  - golang
+  - 极简
+platforms:
+  - linux
+  - macos
+  - windows
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 极简、极快、专注纯粹文字阅读的 Go 语言自建 RSS 服务端
+  en: Minimalist and opinionated self-hosted feed reader written in Go
+description:
+  zh: Apache-2.0 开源的自托管 RSS 阅读器。用 Go 语言编写，推崇极简与键盘优先，默认自动剥离追踪像素与广告脚本，内置一键抓取全文规则，并完整兼容 Fever 与 Google Reader API，可无缝对接 NetNewsWire、Reeder 等各平台客户端。
+  en: An Apache-2.0 self-hosted RSS reader written in Go. Strips tracking pixels, fetches full article text for truncated feeds, supports keyboard-driven reading and exposes Fever/Google Reader APIs for mobile clients.

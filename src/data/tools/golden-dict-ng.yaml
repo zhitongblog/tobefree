@@ -1,0 +1,36 @@
+name: GoldenDict-ng
+accent: '#D97706'
+initials: GD
+category: learning
+price: free
+license: GPL-3.0
+website: https://xiaoyifang.github.io/goldendict-ng/
+download: https://github.com/xiaoyifang/goldendict-ng/releases
+repo: https://github.com/xiaoyifang/goldendict-ng
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 词典
+  - mdx
+  - 屏幕取词
+  - 英语学习
+  - 离线词典
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 支持同时加载几十本 MDX / StarDict 权威离线词典的下一代开源查词神器
+  en: Next-generation open-source offline dictionary lookup program supporting MDX, StarDict and DSL
+description:
+  zh: 基于 Qt6 与现代 WebEngine 内核重构的下一代开源离线词典外壳。市面上各种在线词典客户端塞满卖课广告和资讯流，GoldenDict-ng 完全离线、零广告，导入你自己收集的牛津、朗文、韦氏等 `.mdx` / StarDict 词库后，查一个词瞬间瀑布流聚合展示所有权威词典释义与真人发音，支持全局快捷键屏幕取词并与 Anki 联动制卡。
+  en: A modernized Qt6/WebEngine fork of GoldenDict. Load your own offline MDX, DSL, StarDict and Zim dictionaries to view aggregated definitions and audio pronunciations side by side with popup scan-translate and Anki integration.

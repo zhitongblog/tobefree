@@ -1,0 +1,35 @@
+name: Nyxt
+accent: '#18181B'
+initials: NX
+category: browser
+price: free
+license: BSD-3-Clause
+website: https://nyxt.atlas.engineer
+download: https://nyxt.atlas.engineer/download
+repo: https://github.com/atlas-engineer/nyxt
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 全键盘浏览器
+  - emacs风
+  - 可编程
+  - lisp
+  - 极客
+platforms:
+  - linux
+  - macos
+  - windows
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 浏览器界的 Emacs：全键盘驱动、支持多标签树状检索与 Common Lisp 实时改装
+  en: The hacker’s keyboard-driven, infinitely extensible web browser written in Common Lisp
+description:
+  zh: 用 Common Lisp 编写的极客向开源浏览器。支持 Emacs、Vim 与 CUA 三套键位绑定，你可以一次跨几十个打开的标签页同时模糊搜索页面内的标题或链接，甚至在浏览器运行过程中直接重写任意内部函数来定制专属自动化流程。
+  en: A BSD-licensed, keyboard-driven web browser inspired by Emacs and Vim. Search across dozens of open buffers simultaneously, navigate structured link trees without touching the mouse, and introspect or modify every function live in Common Lisp.

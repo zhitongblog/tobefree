@@ -1,0 +1,36 @@
+name: LobeChat
+accent: '#111827'
+initials: LC
+category: ai
+price: freemium
+license: Apache-2.0 (modified)
+website: https://lobehub.com
+download: https://github.com/lobehub/lobe-chat/releases
+repo: https://github.com/lobehub/lobe-chat
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ai对话
+  - 自建
+  - mcp
+  - 知识库
+  - 客户端
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 颜值与交互出众的现代化 AI 聊天与 Agent 工作区，支持一键自建
+  en: Modern, design-forward AI chat workspace supporting local models, plugins,知识库 and self-hosting
+description:
+  zh: 设计精致的现代化 AI 对话与助手平台，支持一键部署到 Vercel / Docker 或直接使用桌面客户端。兼容 Ollama 本地模型与全部主流大模型服务商，具备完善的分支对话、Artifacts 实时预览、本地知识库与插件生态。
+  en: A polished AI chat workspace deployable via Docker or desktop app. Supports local Ollama models and major cloud providers, featuring branching conversations, live Artifacts preview, knowledge base management and MCP plugins.

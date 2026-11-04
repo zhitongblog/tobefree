@@ -1,0 +1,37 @@
+name: Kiri:Moto
+accent: '#0284C7'
+initials: KM
+category: cad
+price: free
+license: MIT
+website: https://grid.space/kiri/
+repo: https://github.com/GridSpace/grid-apps
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 3d打印切片
+  - cnc加工
+  - 激光切割
+  - 网页端
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 直接在浏览器本地完成 3D 打印切片、CNC 铣削刀路与激光切割排版的开源工具
+  en: Browser-based open-source slicer and toolpath generator for 3D printing, CNC milling and laser cutting
+description:
+  zh: MIT 开源的三合一数字化制造切片器。无需安装几百兆的桌面切片软件，打开网页即可在浏览器本地将 STL / STEP 模型生成 FDM/SLA 3D 打印 G-code、三轴 CNC 加工刀路或激光切割矢量路径，模型数据完全留在本地。
+  en: An MIT-licensed client-side web slicer that generates G-code and toolpaths for FDM/SLA 3D printers, CNC mills and laser cutters right in your browser with zero cloud uploads.

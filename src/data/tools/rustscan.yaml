@@ -1,0 +1,37 @@
+name: RustScan
+accent: '#7C3AED'
+initials: RS
+category: network
+price: free
+license: GPL-3.0
+website: https://github.com/RustScan/RustScan
+download: https://github.com/RustScan/RustScan/releases
+repo: https://github.com/RustScan/RustScan
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 端口扫描
+  - nmap
+  - 网络安全
+  - rust
+  - cli
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 3 秒钟扫完 65535 个端口并自动把开放端口喂给 Nmap 深度识别的极速扫描器
+  en: The modern port scanner written in Rust that sweeps all 65k ports in seconds and pipes into Nmap
+description:
+  zh: 用异步 Rust 编写的 GPL-3.0 现代端口扫描工具。传统用 Nmap 扫全量 65535 个端口往往要等很久，RustScan 先在几秒钟内极速探出哪些端口处于开放状态，随后自动把这几个开放端口传给 Nmap 做服务版本与脚本深度分析，兼顾速度与深度。
+  en: Written in async Rust under GPL-3.0, RustScan sweeps all 65,535 TCP ports in seconds to find open ports and automatically pipes only the live ones into Nmap for service fingerprinting.

@@ -1,0 +1,32 @@
+kind: mcp
+name: Linear MCP
+accent: '#5E6AD2'
+initials: LN
+license: MIT
+website: https://linear.app/docs/mcp
+repo: https://github.com/jerhadf/linear-mcp-server
+install: npx -y @modelcontextprotocol/server-linear
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - linear
+  - 项目管理
+  - issue
+  - 工作流
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+tagline:
+  zh: 在编辑器和对话里直接读写 Linear 任务、Sprint 与项目进度
+  en: Search, create and update Linear issues, cycles and projects directly from your MCP client
+description:
+  zh: 连接 Linear 项目管理平台的 MCP 服务。开发者在 IDE 或终端里修复 Bug 时，可以直接让 AI 拉取对应 Issue 的上下文、更新任务状态、创建子任务或关联 PR，无需在浏览器与编辑器之间反复横跳。
+  en: Connects Linear to your AI assistant so you can pull issue context, update statuses, file sub-issues and link pull requests without leaving your terminal or code editor.

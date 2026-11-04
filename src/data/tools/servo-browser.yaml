@@ -1,0 +1,35 @@
+name: Servo
+accent: '#059669'
+initials: SV
+category: browser
+price: free
+license: MPL-2.0
+website: https://servo.org
+download: https://servo.org/download/
+repo: https://github.com/servo/servo
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 浏览器内核
+  - rust
+  - linux基金会
+  - 独立引擎
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 诞生于 Mozilla、现由 Linux 基金会托管的纯 Rust 并行渲染浏览器引擎
+  en: Independent, memory-safe parallel web rendering engine written in Rust under the Linux Foundation
+description:
+  zh: 为打破 Blink（Chrome）与 WebKit 垄断而生的独立开源浏览器渲染引擎。最早由 Mozilla 发起并催生了 Rust 语言，如今在 Linux 基金会欧洲分会旗下高速复兴，利用 Rust 的内存安全与多核 GPU 并行排版，提供每日构建的轻量级体验外壳。
+  en: Originally started at Mozilla and now stewarded by Linux Foundation Europe, Servo is a brand-new web browser rendering engine written in Rust to take full advantage of multi-core CPUs and GPUs.

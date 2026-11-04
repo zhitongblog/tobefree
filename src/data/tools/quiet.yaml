@@ -1,0 +1,37 @@
+name: Quiet
+accent: '#6366F1'
+initials: QT
+category: chat
+price: free
+license: GPL-3.0
+website: https://tryquiet.org
+download: https://github.com/TryQuiet/quiet/releases
+repo: https://github.com/TryQuiet/quiet
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - p2p聊天
+  - tor
+  - 无服务器
+  - 免手机号
+  - 隐私
+platforms:
+  - windows
+  - macos
+  - linux
+  - android
+  - ios
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 不需要任何中心服务器的点对点团队群聊软件，通过 Tor 网络在成员设备间直接同步
+  en: Peer-to-peer private team chat over Tor with zero central servers, email or phone number required
+description:
+  zh: 连自建服务器都省了的 GPL-3.0 开源团队聊天应用（Slack / Discord 的纯 P2P 替代方案）。创建团队无需手机号或邮箱，所有文字消息与文件直接通过内嵌的 Tor 洋葱网络在团队成员各自的设备之间点对点加密同步，没有任何第三方服务器能关停或偷窥你的群组。
+  en: A GPL-3.0 peer-to-peer team chat app that needs no central server at all. Messages and files sync directly between team members’ devices over embedded Tor onion services with no phone number or email sign-up.

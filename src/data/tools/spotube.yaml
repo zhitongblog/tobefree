@@ -1,0 +1,36 @@
+name: Spotube
+accent: '#16A34A'
+initials: SP
+category: media
+price: free
+license: BSD-4-Clause
+website: https://spotube.krtirtho.dev
+download: https://spotube.krtirtho.dev/downloads
+repo: https://github.com/KRTirtho/spotube
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 音乐客户端
+  - 跨平台
+  - 歌词
+  - 无广告
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - android
+  - ios
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+tagline:
+  zh: 轻量无广告的开源跨平台音乐客户端，支持同步歌单与逐字滚动歌词
+  en: Open-source, cross-platform music client with synced lyrics and zero ads or telemetry
+description:
+  zh: 用 Flutter 编写的开源跨平台音乐播放器。不捆绑沉重的 Electron 浏览器内核，内存占用极低，支持歌单曲库管理、桌面端与移动端逐字同步歌词以及无广告纯净播放体验。
+  en: A lightweight Flutter-based open-source music client across desktop and mobile featuring time-synced lyrics, playlist management and an ad-free, telemetry-free listening experience.

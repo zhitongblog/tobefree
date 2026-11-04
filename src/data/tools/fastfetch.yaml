@@ -1,0 +1,36 @@
+name: Fastfetch
+accent: '#0D9488'
+initials: FF
+category: utility
+price: free
+license: MIT
+website: https://github.com/fastfetch-cli/fastfetch
+download: https://github.com/fastfetch-cli/fastfetch/releases
+repo: https://github.com/fastfetch-cli/fastfetch
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 系统信息
+  - cli
+  - neofetch替代
+  - 终端
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 用纯 C 语言重写的极速系统信息展示工具，Neofetch 停更后的标准继承者
+  en: A maintained, feature-rich and blazingly fast system information tool written in C
+description:
+  zh: 在老牌工具 Neofetch 归档停更后成为社区标准的系统软硬件信息概览工具。由纯 C 语言编写，把原本需要几百毫秒的 Shell 脚本检测压缩到十几毫秒内完成，一眼列出操作系统、内核、显示器分辨率、CPU/GPU、内存与本地 IP。
+  en: The community-standard successor to Neofetch, written primarily in C for instantaneous execution. Prints OS, kernel, uptime, display resolution, CPU, GPU, memory, disk and local IP alongside ASCII distro logos in milliseconds.

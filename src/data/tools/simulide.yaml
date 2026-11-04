@@ -1,0 +1,36 @@
+name: SimulIDE
+accent: '#16A34A'
+initials: SI
+category: learning
+price: free
+license: GPL-3.0
+website: https://simulide.com
+download: https://simulide.com/p/downloads/
+repo: https://github.com/SimulIDE/SimulIDE
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 电路仿真
+  - 单片机仿真
+  - arduino仿真
+  - 电子工程
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 不用买开发板也能跑通代码的开源模拟/数字电路与 Arduino / AVR 单片机实时仿真器
+  en: Real-time open-source electronic circuit simulator supporting PIC, AVR and Arduino microcontrollers
+description:
+  zh: GPL-3.0 开源的实时电子电路与单片机仿真软件。不仅能仿真电阻、电容、运放、示波器等模拟与数字电路，还能直接把编译好的固件（或 Arduino 代码）烧进画面里的虚拟 AVR / PIC 单片机芯片中实时运行，观察小灯闪烁、电机转动与串口输出。
+  en: A fast GPL-3.0 real-time electronic circuit simulator that runs analog/digital components alongside virtual Arduino, AVR and PIC microcontrollers with built-in oscilloscopes and logic analyzers.

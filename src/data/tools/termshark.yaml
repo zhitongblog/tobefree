@@ -1,0 +1,37 @@
+name: Termshark
+accent: '#2563EB'
+initials: TS
+category: network
+price: free
+license: MIT
+website: https://termshark.io
+download: https://github.com/gcla/termshark/releases
+repo: https://github.com/gcla/termshark
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 抓包
+  - wireshark
+  - tui
+  - ssh排障
+  - 网络分析
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 搬进 SSH 字符终端里的 Wireshark，在无图形界面的远程服务器上直接交互式看 pcap 包
+  en: A terminal UI for tshark, inspired by Wireshark, for inspecting packet captures over SSH
+description:
+  zh: MIT 开源的终端网络抓包分析界面（基于 tshark）。当你在远程 Linux 服务器上抓了一个 `.pcap` 包，不用大费周章拉回本地电脑，直接在 SSH 终端里运行 Termshark 就能像用桌面版 Wireshark 一样按显示过滤器筛选、展开每一层协议头并重组 TCP 流。
+  en: An MIT-licensed terminal UI for tshark that brings Wireshark’s packet list, protocol tree dissection and TCP stream reassembly directly into your SSH session.

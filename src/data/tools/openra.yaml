@@ -1,0 +1,36 @@
+name: OpenRA
+accent: '#DC2626'
+initials: OR
+category: gaming
+price: free
+license: GPL-3.0
+website: https://www.openra.net
+download: https://www.openra.net/download/
+repo: https://github.com/OpenRA/OpenRA
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 即时战略
+  - 红警
+  - rts
+  - 开源游戏
+  - 联机
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 用现代开源引擎重制的《红色警戒》《命令与征服》与《沙丘 2000》，原生高分屏与联机大厅
+  en: Open-source classic RTS game engine recreating Red Alert, Command & Conquer and Dune 2000
+description:
+  zh: GPL-3.0 开源的经典即时战略（RTS）游戏重制引擎。完美支持现代高分辨率宽屏、战争迷雾、单位生产队列、战局录像回放以及全球免费多人联机大厅，装完即可直接免费畅玩初代《红色警戒》《泰伯利亚黎明》与《沙丘 2000》。
+  en: A GPL-3.0 engine that modernizes classic Westwood strategy games (Red Alert, Tiberian Dawn, Dune 2000) for current operating systems with widescreen support, fog of war, replays and built-in online multiplayer.

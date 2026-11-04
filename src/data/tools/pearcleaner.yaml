@@ -1,0 +1,32 @@
+name: Pearcleaner
+accent: '#84CC16'
+initials: PC
+category: utility
+price: free
+license: GPL-3.0
+website: https://itsalin.com/appInfo/?id=pearcleaner
+download: https://github.com/alienator88/Pearcleaner/releases
+repo: https://github.com/alienator88/Pearcleaner
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 软件卸载
+  - 残留清理
+  - mac
+  - 开源
+platforms:
+  - macos
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 开源免费的 Mac 应用彻底卸载与孤立残留文件清理工具
+  en: Open-source macOS app cleaner and leftover file remover written in native Swift
+description:
+  zh: 用原生 SwiftUI 编写的开源 macOS 软件卸载工具。在 Mac 上把应用拖进废纸篓往往会在 Library 里留下一堆缓存与配置垃圾，Pearcleaner 能一键扫描并勾选关联残留文件、清理已卸载应用的孤儿文件，还支持为通用二进制（Universal）应用瘦身。
+  en: A native SwiftUI open-source app uninstaller for macOS. Tracks down scattered Library caches, preferences and orphaned files left behind by deleted apps, and can strip unused architectures from Universal binaries to save disk space.

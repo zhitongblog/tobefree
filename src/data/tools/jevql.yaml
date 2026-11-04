@@ -1,0 +1,35 @@
+name: JevQL
+accent: '#0284C7'
+initials: JQ
+category: dev
+price: free
+license: MIT
+website: https://github.com/heyjunpenn/awesome-jev
+repo: https://github.com/heyjunpenn/awesome-jev
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - postgresql
+  - sql
+  - 数据库
+  - cli
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 在 PostgreSQL 查询里直接嵌入毫秒级语义过滤与打分
+  en: Combine standard PostgreSQL queries with low-latency Jev semantic evaluation
+description:
+  zh: 将标准 SQL 查询与 Jev 类型化语义评估结合的命令行与数据库辅助工具。先用 PostgreSQL 索引完成结构化粗筛，再对候选行并发执行语义分类或相关性打分，无需折腾 pgvector 也能实现精准的混合检索。
+  en: A CLI and query helper that pairs PostgreSQL filtering with concurrent Jev semantic scoring. Narrow rows with standard SQL indexes first, then rank or classify candidates by meaning without managing vector embeddings.

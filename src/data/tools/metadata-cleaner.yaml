@@ -1,0 +1,37 @@
+name: MAT2 (Metadata Cleaner)
+accent: '#059669'
+initials: MC
+category: privacy
+price: free
+license: LGPL-3.0
+website: https://0xacab.org/jvoisin/mat2
+download: https://flathub.org/apps/fr.romainvigier.MetadataCleaner
+repo: https://0xacab.org/jvoisin/mat2
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - exif清理
+  - 元数据抹除
+  - 照片隐私
+  - 防定位泄露
+  - 开源
+platforms:
+  - linux
+  - macos
+  - windows
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 发原图和文档前一键扒光 GPS 经纬度、相机序列号与作者姓名的开源元数据粉碎机
+  en: Metadata Anonymisation Toolkit to strip hidden GPS coordinates and author info from photos and PDFs
+description:
+  zh: 手机拍的原图、导出的 PDF 和 Office 文档里往往藏着精确到门牌号的 GPS 坐标、设备指纹与电脑用户名。MAT2（及其图形界面 Metadata Cleaner）是 Tails 隐私系统御用的开源元数据清理工具，把文件发上网前一键彻底抹除所有隐藏属性。
+  en: The Metadata Anonymisation Toolkit (bundled in Tails OS and wrapped by the GTK Metadata Cleaner GUI) strips hidden EXIF GPS coordinates, device serials and author names from images, PDFs, Office docs and audio files.

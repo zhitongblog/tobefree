@@ -1,0 +1,35 @@
+name: Pomatez
+accent: '#EF4444'
+initials: PM
+category: productivity
+price: free
+license: MIT
+website: https://roldanjr.github.io/pomatez/
+download: https://github.com/roldanjr/pomatez/releases
+repo: https://github.com/roldanjr/pomatez
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 番茄钟
+  - 专注
+  - 时间管理
+  - 桌面工具
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 安静无打扰的开源桌面番茄钟，自带内置任务清单与休息强制提醒
+  en: A sleek, distraction-free open-source Pomodoro timer for desktop with built-in task lists
+description:
+  zh: MIT 开源的跨平台番茄工作法计时器。现在连个简单的倒计时软件都流行弹广告或收订阅费，Pomatez 完全离线、零账号、零弹窗推销，支持自定义专注/短休/长休时长、内置当前任务待办列表与全局快捷键。
+  en: An MIT-licensed desktop Pomodoro timer that stays completely offline with zero account prompts or subscription nags. Includes customizable work/break intervals, a built-in task list and global shortcuts.

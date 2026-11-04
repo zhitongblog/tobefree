@@ -1,0 +1,44 @@
+title:
+  zh: 免费开源 Jev 决策模型工具、本地平替与 MCP 推荐
+  en: Free Open-Source Jev Decision Model Tools, Local Alternatives & MCPs
+description:
+  zh: 精选围绕 Jev（System 1 类型化决策模型）的开源本地平替模型、极速浏览器 Agent、语义命令行工具、MCP 服务与实战技能。
+  en: Curated open-source local alternatives, ultrafast browser agents, semantic CLI utilities, MCP servers and agent skills built around Jev System 1 typed decision models.
+intro:
+  zh: Jev 代表了大模型应用的一次重要分流：不再让笨重的聊天模型（System 2）逐个 Token 写废话，而是把程序状态和结构化问题（单选、多选、打分、布尔判断）交给百毫秒级的「System 1（系统一）」决策模型。虽然 TypeSafe AI 官方 Jev 模型闭源，但开源社区已经迅速构建出可本地离线运行的平替权重（如 Kev、Open-Jev）以及极速浏览器自动化、语义搜索 CLI 和 MCP 服务。这里汇总所有真正免费、开源、无广告的 Jev 生态核心工具。
+  en: 'Jev marks a major split in AI engineering: instead of asking a slow, chatty System 2 LLM to stream tokens for simple routing or classification, you pass program state and typed questions (select, score, boolean) to a sub-100ms System 1 decision model. While TypeSafe AI’s hosted weights are proprietary, the open-source community has built local open-weight alternatives (Kev, Open-Jev), ultrafast browser agents, Unix CLIs and MCP servers. Everything listed here is free, open source and ad-free.'
+criteria:
+  zh:
+    - 开源协议明确（MIT / Apache-2.0），代码可在 GitHub 审计。
+    - 本地模型支持完全离线推理，无需注册账号。
+    - CLI、Agent 与 MCP 工具零广告、零捆绑，支持对接官方 Jev 或本地兼容端点。
+  en:
+    - Open-source licensed (MIT / Apache-2.0) with auditable repositories.
+    - Local model families run completely offline without mandatory sign-up.
+    - CLIs, agents and MCP servers are free of ads, tracking and vendor lock-in.
+tools:
+  - kev
+  - open-jev
+  - jev-ultrafast
+  - jevgrep
+  - semdecide
+  - jevql
+skills:
+  - jev-mcp
+  - typesafe-jev-skills
+  - awesome-jev
+  - jev-cookbook
+  - jev-explained
+featured: true
+added: '2026-11-03'
+faq:
+  zh:
+    - q: 什么是 Jev？它和普通大模型（如 GPT、Claude、Qwen）有什么区别？
+      a: 普通聊天大模型是「生成式（System 2）」，擅长写文章、写代码，但哪怕做个简单的二选一分类也要逐 Token 生成，延迟动辄几秒；Jev 是「类型化决策模型（System 1）」，不生成自由文本，只对给定的结构化问题（布尔、单选、多选、打分）在一次前向传播（50~100ms）内直接输出强类型结果和校准概率。
+    - q: 不想调云端付费 API，怎么在本地免费跑 Jev？
+      a: 首选 Jared Palmer 开源的 Kev（基于 Qwen 架构微调的指针头决策模型）或社区复现的 Open-Jev。它们完全开源，可以在本机显卡或 Mac 统一内存上离线运行，且接口契约兼容 TypeSafe SDK。
+  en:
+    - q: What is Jev and how does it differ from chat LLMs like GPT or Claude?
+      a: 'Chat LLMs are generative System 2 models: great at writing prose or code, but slow and expensive when you just need a routing decision or classification. Jev is a System 1 typed decision model that skips token generation and returns constrained choices and calibrated probabilities in 50–100ms.'
+    - q: How can I run Jev locally for free without paying for a cloud API?
+      a: Use Kev (by Jared Palmer) or Open-Jev. Both provide open weights and training code that replicate the System 1 decision interface on your own GPU or Apple Silicon Mac.

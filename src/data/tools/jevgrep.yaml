@@ -1,0 +1,35 @@
+name: jevgrep
+accent: '#7C3AED'
+initials: JG
+category: dev
+price: free
+license: MIT
+website: https://www.npmjs.com/package/jevgrep
+repo: https://github.com/heyjunpenn/awesome-jev
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 代码搜索
+  - cli
+  - 语义检索
+  - mcp
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 用自然语言搜代码的命令行工具，无需预建笨重的向量索引
+  en: Natural-language semantic code search CLI & MCP tool without heavy vector indexes
+description:
+  zh: 结合传统快速文本过滤与 Jev 并发打分的命令行代码搜索工具（同时可作为 MCP Server 运行）。不需要提前给整个代码库建庞大的 Embedding 向量库，直接用自然语言提问即可按语义相关性对代码片段和 Git diff 快速重排。
+  en: A command-line semantic code search utility (and MCP server) that combines fast lexical filtering with parallel Jev relevance scoring. Query your codebase in plain language and rank code chunks or diffs without maintaining a heavy embedding database.

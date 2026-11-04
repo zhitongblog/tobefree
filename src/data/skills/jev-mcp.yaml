@@ -1,0 +1,35 @@
+kind: mcp
+name: Jev MCP Server
+accent: '#0F766E'
+initials: JM
+license: MIT
+website: https://github.com/heyjunpenn/awesome-jev
+repo: https://github.com/heyjunpenn/awesome-jev
+install: npx -y @jkudish/jev-mcp
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 决策
+  - 护栏
+  - 语义排序
+  - 校验
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 把 Jev 的毫秒级引用核查、注入拦截与语义重排接入任意 MCP 客户端
+  en: Expose Jev primitives (jev_verify, jev_screen, jev_find) as MCP tools for coding and chat agents
+description:
+  zh: 将 Jev 决策模型最核心的三大高频原语封装为标准 MCP 服务：jev_verify（实时核对模型回答是否忠于原文引用）、jev_screen（毫秒级提示词注入与安全护栏筛查）以及 jev_find（无需建向量库的轻量语义排序）。
+  en: 'Wraps the most practical Jev decision patterns into an MCP server: jev_verify for citation grounding checks, jev_screen for fast prompt-injection screening, and jev_find for embedding-free semantic ranking.'

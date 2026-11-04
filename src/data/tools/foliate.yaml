@@ -1,0 +1,33 @@
+name: Foliate
+accent: '#059669'
+initials: FL
+category: office
+price: free
+license: GPL-3.0
+website: https://johnfactotum.github.io/foliate/
+download: https://johnfactotum.github.io/foliate/
+repo: https://github.com/johnfactotum/foliate
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 电子书
+  - epub
+  - linux
+  - 阅读器
+  - 开源
+platforms:
+  - linux
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Linux 桌面端颜值最高、排版最优雅的现代 GTK4 电子书阅读器
+  en: A simple and modern GTK4 eBook viewer for Linux Desktop supporting EPUB, Mobipocket and Kindle
+description:
+  zh: 专为 Linux 桌面打造的 GPL-3.0 开源电子书阅读器。如果觉得 Calibre 自带的阅读器界面太复古，Foliate 提供了极具书卷气的双栏/滚动排版、内置词典与维基百科划词查询、高亮批注导出 Markdown 以及 OPDS 书库连接。
+  en: A beautifully designed GTK4 eBook reader for Linux supporting EPUB, Mobipocket, Kindle, FB2 and CBZ. Features distraction-free typography, pop-up dictionary lookup, annotation export and OPDS catalog browsing.

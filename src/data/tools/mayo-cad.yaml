@@ -1,0 +1,36 @@
+name: Mayo
+accent: '#4F46E5'
+initials: MY
+category: cad
+price: free
+license: BSD-2-Clause
+website: https://github.com/fougue/mayo
+download: https://github.com/fougue/mayo/releases
+repo: https://github.com/fougue/mayo
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - cad看图
+  - step转换
+  - iges
+  - 3d看图
+  - 开源
+platforms:
+  - windows
+  - linux
+  - macos
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 秒开 STEP / IGES 工业三维图纸并支持一键跨格式互转的开源 3D CAD 看图器
+  en: Fast open-source 3D CAD viewer and converter powered by OpenCASCADE for STEP, IGES and STL
+description:
+  zh: 基于 OpenCASCADE 内核的 BSD 开源三维 CAD 看图与格式转换神器。机械工程师收到客户发来的几百兆 `.step` 或 `.iges` 装配体图纸时，不用苦等庞大的 SolidWorks 启动，用 Mayo 秒开查看装配树、剖切面测量尺寸，并支持批量互转 STL / OBJ / glTF。
+  en: A fast BSD-licensed 3D CAD viewer and converter built on OpenCASCADE. Inspect STEP, IGES, BREP, STL, OBJ and glTF assemblies, measure cross-sections and convert formats offline.

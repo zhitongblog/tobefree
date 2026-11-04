@@ -1,0 +1,34 @@
+kind: skill
+name: Awesome Jev
+accent: '#EA580C'
+initials: AJ
+license: MIT
+website: https://github.com/heyjunpenn/awesome-jev
+repo: https://github.com/heyjunpenn/awesome-jev
+install: ''
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 合集
+  - 导航
+  - mcp
+  - 开源生态
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 社区维护最全的 Jev 开源工具、本地平替模型、MCP 与 Agent 技能导航
+  en: Community-curated catalog of open-source Jev tools, local models, MCP servers, CLIs and agent skills
+description:
+  zh: 收录上百个围绕 Jev（System 1 类型化决策模型）构建的开源项目清单，涵盖本地开源平替模型（Kev、Open-Jev）、浏览器自动化（Jev Ultrafast）、语义命令行工具（jevgrep、SemDecide）、PostgreSQL 扩展以及各类 MCP Server 与实战配方。
+  en: 'The central community index tracking hundreds of open-source projects in the Jev ecosystem: local model alternatives, browser agents, CLI utilities, database extensions, MCP servers and agent skills.'

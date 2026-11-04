@@ -1,0 +1,32 @@
+name: MonitorControl
+accent: '#2563EB'
+initials: MC
+category: utility
+price: free
+license: MIT
+website: https://monitorcontrol.app
+download: https://github.com/MonitorControl/MonitorControl/releases
+repo: https://github.com/MonitorControl/MonitorControl
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 显示器
+  - 亮度调节
+  - mac
+  - 外接屏
+platforms:
+  - macos
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 让 Mac 键盘上的亮度与音量键直接控制第三方外接显示器
+  en: Control your external display brightness and volume on macOS using native keyboard keys
+description:
+  zh: macOS 外接非苹果显示器时的必装开源神器。通过 DDC/CI 硬件协议或软件遮罩，让你直接按键盘上的原生亮度键、音量键就能调节戴尔、LG、明基等第三方外接屏的真实背光与音响，连 OSD 弹窗都和 macOS 原生一模一样。
+  en: An MIT-licensed macOS menu bar utility that uses DDC/CI protocols to let your native Apple keyboard brightness and volume keys control third-party external monitors seamlessly.

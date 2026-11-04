@@ -1,0 +1,36 @@
+name: Void
+accent: '#1E293B'
+initials: VD
+category: dev
+price: free
+license: Apache-2.0
+website: https://voideditor.com
+download: https://voideditor.com
+repo: https://github.com/voideditor/void
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ai编辑器
+  - cursor替代
+  - vscode
+  - 本地模型
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 完全开源的 Cursor 替代编辑器，支持直接连接本地模型与自有 API
+  en: The open-source Cursor alternative built on VS Code with direct local and BYOK model connections
+description:
+  zh: 基于 VS Code 源码分支构建的开源 AI 代码编辑器。提供与 Cursor 一致的行内修改、全局代码库问答、智能补全与 Agent 体验，但所有 AI 请求直接从你的电脑发往本地 Ollama 或你自己的模型密钥，不经过任何中间商服务器截留，兼容全部 VS Code 插件。
+  en: An open-source AI code editor forked from VS Code as a privacy-first alternative to Cursor. Offers inline edits, codebase chat, tab autocomplete and agentic tools while sending requests directly to your local Ollama or personal API keys with zero middleman proxy.

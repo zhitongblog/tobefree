@@ -1,0 +1,36 @@
+name: GitUI
+accent: '#EA580C'
+initials: GU
+category: dev
+price: free
+license: MIT
+website: https://github.com/extrawurst/gitui
+download: https://github.com/extrawurst/gitui/releases
+repo: https://github.com/extrawurst/gitui
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - git
+  - tui
+  - rust
+  - 终端
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Rust 编写的极速 Git 终端界面，面对超大代码仓库依然丝滑不卡顿
+  en: Blazing-fast terminal UI for Git written in Rust that stays responsive on massive repositories
+description:
+  zh: 用纯异步 Rust 开发的终端 Git 客户端。专门针对包含数十万次提交的大型单仓（Monorepo）做了性能优化，绝不冻结界面；底部常驻当前上下文快捷键提示，无需死记硬背键位即可高速完成分块暂存（Hunk Stage）、Blame 溯源与分支变基。
+  en: An MIT-licensed terminal UI for Git written in async Rust. Engineered to stay responsive without UI freezes even on massive monorepos with hundreds of thousands of commits, featuring context-sensitive key hints at the bottom so you never have to memorize shortcuts.

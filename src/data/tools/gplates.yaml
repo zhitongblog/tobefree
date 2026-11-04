@@ -1,0 +1,35 @@
+name: GPlates
+accent: '#0D9488'
+initials: GP
+category: learning
+price: free
+license: GPL-2.0
+website: https://www.gplates.org
+download: https://www.gplates.org/download/
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 地球科学
+  - 板块构造
+  - 地质演化
+  - 古地理
+  - 科研
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 悉尼大学与加州理工联合研发的开源板块构造软件，在 3D 地球仪上倒放数亿年大陆漂移
+  en: Open-source desktop software for the interactive visualization of plate tectonics through geological time
+description:
+  zh: 由悉尼大学、加州理工学院与挪威地质调查局联合开发的 GPL 开源古地理与板块构造可视化软件。拖动时间轴就能在三维地球仪上直观演示几亿年来盘古大陆如何裂解漂移成今天的七大洲，不论是地质学研究还是给孩子科普地球演化史都极其震撼。
+  en: Developed by the University of Sydney and Caltech, GPlates lets researchers and students scrub through hundreds of millions of years of geological time on an interactive 3D globe to watch continents drift and collide.

@@ -1,0 +1,37 @@
+name: Homepage
+accent: '#2563EB'
+initials: HP
+category: selfhosted
+price: free
+license: GPL-3.0
+website: https://gethomepage.dev
+download: https://gethomepage.dev/installation/
+repo: https://github.com/gethomepage/homepage
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 导航页
+  - homelab
+  - nas
+  - docker
+  - 自建
+platforms:
+  - linux
+  - macos
+  - windows
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: NAS 与家庭服务器玩家首选的导航面板，原生支持 100+ 自建服务实时小组件
+  en: A modern, fast, secure self-hosted application dashboard with 100+ live service integrations
+description:
+  zh: 专为 Homelab 与 NAS 玩家打造的 GPL-3.0 开源起始页。支持通过 Docker 标签自动发现容器服务，并内置对 Jellyfin、qBittorrent、AdGuard Home、Immich、Nextcloud 等上百款自建服务的深度 API 集成，直接在图标卡片上显示实时下载速度、拦截数与排队任务。
+  en: A GPL-3.0 startpage for homelabs and NAS setups. Discovers services automatically via Docker labels and ships over 100 built-in API widgets showing live stats from Jellyfin, qBittorrent, Pi-hole, Immich and Nextcloud.

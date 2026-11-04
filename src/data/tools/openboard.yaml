@@ -1,0 +1,36 @@
+name: OpenBoard
+accent: '#2563EB'
+initials: OB
+category: learning
+price: free
+license: GPL-3.0
+website: https://openboard.ch
+download: https://openboard.ch/download.en.html
+repo: https://github.com/OpenBoard-org/OpenBoard
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 教学白板
+  - 录课
+  - 电子黑板
+  - 教师工具
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 瑞士教育部门官方支持维护的开源教学互动电子白板，老师录网课与手写板书神器
+  en: Open-source interactive whiteboard for schools and universities maintained by Swiss public education
+description:
+  zh: 由瑞士日内瓦公共教育部等机构官方维护的 GPL-3.0 开源教学白板软件。专为课堂投屏与教师录播微课设计，不仅支持无限板书、直接把激光笔和画笔叠在电脑桌面任意软件上圈画批注，还内置圆规、量角器、三角板、函数绘图等丰富教具。
+  en: Maintained by Swiss public education bodies under GPL-3.0, OpenBoard is an interactive classroom whiteboard featuring desktop overlay annotation, built-in geometry rulers/compasses and podcast screen recording.

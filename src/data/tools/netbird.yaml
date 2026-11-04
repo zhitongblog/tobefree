@@ -1,0 +1,38 @@
+name: NetBird
+accent: '#EA580C'
+initials: NB
+category: network
+price: freemium
+license: BSD-3-Clause
+website: https://netbird.io
+download: https://netbird.io/download
+repo: https://github.com/netbirdio/netbird
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 异地组网
+  - wireguard
+  - 内网穿透
+  - 自建
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 连可视化管理后台与中继服务端都完全开源的 WireGuard 异地组网平台
+  en: Open-source Zero Trust mesh networking platform built on WireGuard with a fully self-hostable control plane
+description:
+  zh: 基于 WireGuard 协议的 BSD 开源异地组网工具。Tailscale 虽然好用但它的官方控制平面与网页后台是闭源的；NetBird 则把客户端、管理控制端、可视化 Web 面板与信令中继（Coturn）全部开源，一条脚本就能在自己的云主机上搭起百分之百自主可控的虚拟局域网。
+  en: Unlike mesh VPNs whose control planes are proprietary, NetBird open-sources both its WireGuard client and its entire management server, web dashboard and relay stack under BSD-3-Clause.

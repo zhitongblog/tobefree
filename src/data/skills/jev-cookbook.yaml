@@ -1,0 +1,33 @@
+kind: skill
+name: Datawhale Jev Cookbook
+accent: '#0284C7'
+initials: JC
+license: MIT
+website: https://github.com/datawhalechina/jev-cookbook
+repo: https://github.com/datawhalechina/jev-cookbook
+install: git clone https://github.com/datawhalechina/jev-cookbook.git
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 中文教程
+  - datawhale
+  - 实战配方
+  - notebook
+clients:
+  - Claude Code
+  - Jupyter
+  - Cursor
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Datawhale 开源的中文 Jev 实战指南，含 12+ 教程与 18 篇行业级配方
+  en: Datawhale’s hands-on Chinese Jev cookbook with 12+ interactive notebooks and 18 real-world recipes
+description:
+  zh: 国内开源组织 Datawhale 编写的 Jev 系统性中文入门与进阶仓库。通过十余个可运行的 Jupyter Notebook 拆解三大问题原语（布尔、选择、打分），并附带垃圾信息拦截、代码漏洞扫描、智能家居意图路由、工单分级等 18 个可直接复用的实战模板。
+  en: A comprehensive Chinese tutorial and recipe collection by Datawhale featuring interactive Jupyter Notebooks and 18 ready-to-run templates for spam detection, vulnerability scanning, smart-home routing and ticket triage.

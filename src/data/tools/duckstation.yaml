@@ -1,0 +1,36 @@
+name: DuckStation
+accent: '#D97706'
+initials: DS
+category: gaming
+price: free
+license: GPL-3.0
+website: https://www.duckstation.org
+download: https://github.com/stenzek/duckstation/releases
+repo: https://github.com/stenzek/duckstation
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 模拟器
+  - ps1
+  - playstation
+  - 画质增强
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 能消掉初代 PS1 画面多边形抖动、直出 4K 宽屏的现代 PlayStation 1 模拟器
+  en: Fast PlayStation 1 emulator with PGXP perspective correction and 4K widescreen enhancements
+description:
+  zh: GPL-3.0 开源的初代索尼 PlayStation（PS1 / PSX）模拟器。除了无需折腾繁琐插件就能满帧运行，它最大的杀手锏是 PGXP 几何精度修正技术——能彻底消除当年 PS1 硬件缺少浮点坐标导致的贴图扭曲与多边形抖动，让三十年前的老游戏在 4K 显示器上焕然一新。
+  en: A modern GPL-3.0 PlayStation 1 emulator that works out of the box without plugin headaches. Its standout PGXP feature fixes the classic PS1 polygon wobble and texture warping while upscaling 3D games to 4K widescreen.

@@ -1,0 +1,38 @@
+name: IT-Tools
+accent: '#10B981'
+initials: IT
+category: selfhosted
+price: free
+license: GPL-3.0
+website: https://it-tools.tech
+download: https://github.com/CorentinTh/it-tools
+repo: https://github.com/CorentinTh/it-tools
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 工具箱
+  - 在线工具
+  - docker
+  - 自建
+  - 开发者
+platforms:
+  - web
+  - linux
+  - windows
+  - macos
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 80+ 款程序员与运维常用在线小工具合集，一条 Docker 命令自建内网工具站
+  en: Collection of 80+ handy web utilities for developers and sysadmins, ready to self-host via Docker
+description:
+  zh: GPL-3.0 开源的 Web 工具箱，汇集了 Token 生成、哈希加密、Docker run 转 docker-compose、Chmod 计算器、IPv4 子网划分、二维码生成、JSON/YAML/TOML 互转等 80 多种高频工具。官网直接免费免登录可用，也能用一条 Docker 命令部署在自己内网。
+  en: A GPL-3.0 web app bundling over 80 everyday utilities — Docker run to Compose converter, subnet calculator, token generator, crontab helper, JSON/YAML converters and more. Use it free on the web or self-host with one Docker command.

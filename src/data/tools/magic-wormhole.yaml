@@ -1,0 +1,37 @@
+name: Magic Wormhole
+accent: '#9333EA'
+initials: MW
+category: remote
+price: free
+license: MIT
+website: https://magic-wormhole.readthedocs.io
+download: https://github.com/magic-wormhole/magic-wormhole
+repo: https://github.com/magic-wormhole/magic-wormhole
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 文件传输
+  - 虫洞
+  - pake加密
+  - cli
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 开创「一次性人类可读口令」安全传文件范式的 MIT 开源鼻祖
+  en: Get things from one computer to another safely using short, human-pronounceable one-time codes
+description:
+  zh: 开创了口令直传文件先河的 MIT 开源工具（Python 生态及多语言客户端如 Warp / Wormhole William 通用协议）。只需在电话里或聊天窗把类似 `7-crossover-clockwork` 的一次性短语报给对方，两台处于不同内网的电脑就能完成 SPAKE2 密钥协商并高速直传文件。
+  en: The original MIT-licensed tool and protocol for moving files safely between computers using short, human-pronounceable one-time SPAKE2 codes like `7-crossover-clockwork` with no accounts or SSH keys.

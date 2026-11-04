@@ -1,0 +1,33 @@
+name: OpenSnitch
+accent: '#DC2626'
+initials: OS
+category: privacy
+price: free
+license: GPL-3.0
+website: https://github.com/evilsocket/opensnitch
+download: https://github.com/evilsocket/opensnitch/releases
+repo: https://github.com/evilsocket/opensnitch
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 防火墙
+  - 出站拦截
+  - linux
+  - 隐私保护
+  - 网络监控
+platforms:
+  - linux
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Linux 桌面端的交互式应用防火墙，哪个软件偷偷联网立刻弹窗抓现行
+  en: GNU/Linux interactive application firewall inspired by Little Snitch to block sneaky outbound traffic
+description:
+  zh: 受 macOS 名作 Little Snitch 启发而开发的 GPL-3.0 Linux 应用级出站防火墙。每当系统里有未知程序尝试向外发起网络连接时，OpenSnitch 会第一时间弹出提示窗展示进程路径、目标 IP、域名与端口，由你决定放行一次还是永久拉黑。
+  en: A GPL-3.0 application-level outbound firewall for Linux. Whenever a process attempts a new network connection, OpenSnitch prompts you with the binary path, destination host and port so you can allow or block it.

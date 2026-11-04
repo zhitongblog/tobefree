@@ -1,0 +1,36 @@
+name: rotki
+accent: '#EA580C'
+initials: RK
+category: finance
+price: freemium
+license: AGPL-3.0
+website: https://rotki.com
+download: https://rotki.com/products/
+repo: https://github.com/rotki/rotki
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 投资组合
+  - 隐私记账
+  - 本地加密
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 数据百分之百加密留在本地硬盘的开源多账户投资组合与财务统计软件
+  en: Open-source portfolio tracker and accounting tool that keeps all financial data encrypted locally
+description:
+  zh: AGPL-3.0 开源的本地优先资产与投资组合追踪桌面应用。绝大多数投资统计网站都要求把你的持仓和交易记录存到它们的云端数据库，rotki 则将所有账目加密保存在你自己的电脑本地，支持导出完整财务盈亏报表。
+  en: An AGPL-3.0 local-first portfolio management and accounting application that stores your financial history encrypted on your own drive rather than on a vendor cloud.

@@ -1,0 +1,36 @@
+name: Page Assist
+accent: '#10B981'
+initials: PA
+category: ai
+price: free
+license: MIT
+website: https://github.com/n4ze3m/page-assist
+download: https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo
+repo: https://github.com/n4ze3m/page-assist
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 浏览器扩展
+  - ollama
+  - 本地模型
+  - 网页总结
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 把本地 Ollama 模型装进浏览器侧边栏，随时与当前网页对话
+  en: An open-source browser sidebar and Web UI for your local Ollama and LM Studio models
+description:
+  zh: MIT 开源的浏览器扩展，为本地运行的 Ollama、LM Studio 或兼容 API 提供清爽的侧边栏与全屏聊天界面。看长文、读文档时按快捷键呼出侧边栏，直接用本机显卡总结网页或联网搜索，浏览记录与正文完全不经过第三方服务器。
+  en: An MIT-licensed browser extension that brings a clean sidebar and full-page Web UI to your local Ollama or LM Studio models. Chat with the current webpage, summarize articles or run local RAG without sending your browsing data to third-party servers.

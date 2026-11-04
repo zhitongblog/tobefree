@@ -1,0 +1,36 @@
+name: Cinny
+accent: '#18181B'
+initials: CN
+category: chat
+price: free
+license: AGPL-3.0
+website: https://cinny.in
+download: https://github.com/cinnyapp/cinny-desktop/releases
+repo: https://github.com/cinnyapp/cinny
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - matrix
+  - 端到端加密
+  - 去中心化聊天
+  - discord风
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 颜值最高、交互最像 Discord 的现代 Matrix 端到端加密聊天客户端
+  en: A sleek, modern Matrix client focusing on a clean, Discord-like interface and end-to-end encryption
+description:
+  zh: AGPL-3.0 开源的 Matrix 协议网页与桌面客户端。如果你觉得官方 Element 的界面还是偏传统技术风，Cinny 提供了极度清爽的现代化社区频道（Spaces）、话题串、表情回应与完整的端到端加密（E2EE）支持。
+  en: An AGPL-3.0 Matrix client for web and desktop that pairs full end-to-end encryption and decentralized server support with a clean, Discord-inspired Spaces and channel layout.

@@ -1,0 +1,33 @@
+name: simplewall
+accent: '#2563EB'
+initials: SW
+category: privacy
+price: free
+license: GPL-3.0
+website: https://www.henrypp.org/product/simplewall
+download: https://github.com/henrypp/simplewall/releases
+repo: https://github.com/henrypp/simplewall
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 防火墙
+  - 禁网
+  - wfp
+  - windows
+  - 遥测拦截
+platforms:
+  - windows
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 不到 2MB 的开源 Windows 网络过滤神器，默认禁止一切未授权软件联网
+  en: Featherweight open-source tool to configure Windows Filtering Platform (WFP) and block telemetry
+description:
+  zh: 体积仅有 1MB 出头的 GPL-3.0 开源 Windows 防火墙配置工具。它不装臃肿的第三方驱动，而是直接控制 Windows 内核原生的过滤平台（WFP），开启白名单模式后，任何新装软件想联网都必须先过你弹窗点头，还能一键屏蔽 Windows 系统级遥测 IP。
+  en: A tiny 1MB GPL-3.0 utility that configures the native Windows Filtering Platform (WFP) without third-party drivers. Blocks all unauthorized app connections by default and includes built-in blocklists for Windows telemetry.

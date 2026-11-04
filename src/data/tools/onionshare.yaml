@@ -1,0 +1,39 @@
+name: OnionShare
+accent: '#7C3AED'
+initials: OS
+category: privacy
+price: free
+license: GPL-3.0
+website: https://onionshare.org
+download: https://onionshare.org/#download
+repo: https://github.com/onionshare/onionshare
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 匿名分享
+  - tor
+  - 暗网服务
+  - 端到端传输
+  - 隐私
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 利用 Tor 洋葱网络直接从你电脑临时开启匿名文件收发站，文件绝不经过任何第三方云盘
+  en: Open-source tool that lets you securely and anonymously share files, host websites and chat using Tor
+description:
+  zh: 调查记者与隐私安全专家标配的 GPL-3.0 开源工具。它直接在你的电脑上临时启动一个隐藏的 `.onion` 洋葱服务，生成一次性地址与密钥发给对方；对方用 Tor 浏览器直接从你的硬盘拉取文件（或向你的匿名收件箱投递文件），传完即焚，中间没有任何云盘服务器留存痕迹。
+  en: A GPL-3.0 tool that spins up an ephemeral `.onion` service right on your computer so recipients can download files, drop documents into an anonymous inbox or chat directly with you over Tor without any middleman server.

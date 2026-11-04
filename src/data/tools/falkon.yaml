@@ -1,0 +1,34 @@
+name: Falkon
+accent: '#0284C7'
+initials: FK
+category: browser
+price: free
+license: GPL-3.0
+website: https://www.falkon.org
+download: https://www.falkon.org/download/
+repo: https://invent.kde.org/network/falkon
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - kde
+  - 轻量浏览器
+  - 内置去广告
+  - qt
+  - 开源
+platforms:
+  - linux
+  - windows
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: KDE 社区官方维护的轻量级浏览器，开箱自带 AdBlock 与零遥测纯净体验
+  en: KDE’s lightweight cross-platform QtWebEngine web browser with built-in AdBlock
+description:
+  zh: 隶属 KDE 开源社区（前身为 QupZilla）的 GPL-3.0 桌面浏览器。基于 QtWebEngine 构建，不捆绑任何云端商业账号体系、新闻推荐或遥测埋点，开箱即内置完整的 AdBlock 广告拦截器、书签与历史记录侧边栏合二为一，干净轻快。
+  en: Maintained by the KDE community under GPL-3.0, Falkon is a clean QtWebEngine browser that ships with integrated AdBlock, unified sidebar management and zero corporate telemetry or account walls.

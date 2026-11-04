@@ -1,0 +1,33 @@
+name: QuickLook
+accent: '#0EA5E9'
+initials: QL
+category: utility
+price: free
+license: GPL-3.0
+website: https://github.com/QL-Win/QuickLook
+download: https://github.com/QL-Win/QuickLook/releases
+repo: https://github.com/QL-Win/QuickLook
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 空格预览
+  - 效率
+  - 文件管理
+  - windows
+  - 开源
+platforms:
+  - windows
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 把 macOS 最爽的「按空格键秒看文件」带到 Windows 资源管理器
+  en: Bring macOS-style spacebar instant file preview to Windows File Explorer
+description:
+  zh: GPL-3.0 开源的 Windows 效率小工具。选中任意图片、视频、PDF、压缩包、Markdown 或代码文件，按下空格键即可在毫秒间弹出预览窗口，再按一下空格立刻关闭，无需等待笨重的 Office 或看图软件缓慢启动。
+  en: A GPL-3.0 utility that brings macOS Quick Look to Windows. Highlight any image, video, PDF, archive, Markdown or source file in Explorer and press Spacebar for an instant preview window.

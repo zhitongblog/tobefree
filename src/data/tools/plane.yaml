@@ -1,0 +1,36 @@
+name: Plane
+accent: '#3B82F6'
+initials: PL
+category: productivity
+price: freemium
+license: AGPL-3.0
+website: https://plane.so
+download: https://developers.plane.so/self-hosting/overview
+repo: https://github.com/makeplane/plane
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 项目管理
+  - jira替代
+  - 看板
+  - 自建
+  - 开源
+platforms:
+  - web
+  - linux
+  - macos
+  - windows
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 清爽现代的开源项目管理与任务追踪系统，Jira 与 Linear 的自建平替
+  en: Open-source project management tool to track issues, cycles and product roadmaps
+description:
+  zh: AGPL-3.0 开源的现代团队项目管理平台。集成了看板、列表、甘特图、迭代周期（Cycles）、模块拆分与内置 Wiki 页面（Pages），界面清爽流畅，支持通过 Docker 在团队自己的服务器上免费自建。
+  en: An AGPL-3.0 project management platform combining issue tracking, Kanban boards, sprint cycles, roadmaps and wiki pages in a clean interface you can self-host via Docker.

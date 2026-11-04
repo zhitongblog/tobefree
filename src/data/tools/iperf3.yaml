@@ -1,0 +1,40 @@
+name: iPerf3
+accent: '#16A34A'
+initials: IP
+category: network
+price: free
+license: BSD-3-Clause
+website: https://software.es.net/iperf/
+download: https://github.com/esnet/iperf/releases
+repo: https://github.com/esnet/iperf
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 局域网测速
+  - 内网带宽
+  - nas测速
+  - 吞吐量
+  - cli
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 由美国能源部科学网开发的行业标准内网真实带宽压测工具，测路由器与万兆 NAS 必用
+  en: The industry-standard tool for active measurements of maximum achievable bandwidth on IP networks
+description:
+  zh: 由美国能源部 ESnet 维护的 BSD 开源网络吞吐量基准测试工具。家里的 Wi-Fi、网线或 NAS 到底能不能跑满 2.5G / 万兆？网页测速测的是外网宽带，而在两台设备间跑一条 `iperf3` 命令，几秒钟就能测出纯粹的内网极限 TCP/UDP 带宽、抖动与丢包率。
+  en: Developed by ESnet under BSD-3-Clause, iPerf3 measures the true maximum TCP, UDP and SCTP throughput, jitter and packet loss between any two machines on your LAN or VPN.

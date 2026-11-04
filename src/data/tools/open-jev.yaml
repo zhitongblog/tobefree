@@ -1,0 +1,47 @@
+name: Open-Jev
+accent: '#2563EB'
+initials: OJ
+category: ai
+price: free
+license: Apache-2.0
+website: https://github.com/Zefan-Cai/Open-Jev
+download: https://github.com/Zefan-Cai/Open-Jev/releases
+repo: https://github.com/Zefan-Cai/Open-Jev
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 决策模型
+  - 本地部署
+  - 开源模型
+  - 推理
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 开源复现的 Jev 类型化决策模型与推理框架，支持自建与离线部署
+  en: Open-source reproduction of the Jev typed decision model and inference runtime
+description:
+  zh: 面向研究与私有化部署的开源 Jev 实现（含 Open-Jev-27B 等权重与训练管线）。输入上下文与候选选项，一次前向传播直接输出带置信度的结构化决策，适合替代传统大模型在分类、审核与状态机跳转中的高延迟调用。
+  en: An open-source implementation of Jev (including Open-Jev-27B weights and training pipelines) for research and self-hosted deployment. It evaluates context and candidate choices in a single forward pass to return structured decisions with calibrated confidence scores.
+review:
+  zh: |-
+    如果你需要较大参数规模（如 27B）的开源 Jev 决策能力，或者想研究 System 1 决策模型怎么从开源权重训练出来，Open-Jev 提供了完整的复现代码与开放权重。
+
+    它可以部署在本地 GPU 或内网推理节点上，把原本需要几秒钟 JSON Mode 生成的分类、打分任务压缩到一次前向推理完成。
+  en: |-
+    If you want larger-scale open weights (such as 27B) or want to study how System 1 decision models are trained from scratch, Open-Jev ships both the open weights and the full reproduction pipeline.
+
+    Deploy it on a local GPU or internal node to replace slow multi-second JSON-mode chat calls with a single forward pass.

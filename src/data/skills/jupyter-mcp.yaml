@@ -1,0 +1,34 @@
+kind: mcp
+name: Jupyter MCP Server
+accent: '#F37626'
+initials: JP
+license: BSD-3-Clause
+website: https://github.com/datalayer/jupyter-mcp-server
+repo: https://github.com/datalayer/jupyter-mcp-server
+install: uvx jupyter-mcp-server
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jupyter
+  - notebook
+  - 数据分析
+  - python
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Any MCP client
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 让 AI 实时读写并执行 Jupyter Notebook 单元格，直接看到图表和报错
+  en: Allow AI agents to read, edit and execute Jupyter Notebook cells in real time
+description:
+  zh: 为 JupyterLab 与本地 Notebook 提供双向控制的开源 MCP 服务器。AI 不仅可以往 Notebook 插入代码与 Markdown 单元格，还能直接在当前 Python 内核中执行代码、读取输出的表格和图像结果，并根据回溯栈自动修正数据分析脚本。
+  en: A BSD-licensed MCP server that connects AI agents directly to live Jupyter kernels. Agents can insert code or Markdown cells, execute them, inspect DataFrame outputs or plots, and iterate on data science workflows.

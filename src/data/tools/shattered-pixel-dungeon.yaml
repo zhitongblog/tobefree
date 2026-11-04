@@ -1,0 +1,38 @@
+name: Shattered Pixel Dungeon
+accent: '#059669'
+initials: SP
+category: gaming
+price: free
+license: GPL-3.0
+website: https://shatteredpixel.com
+download: https://github.com/00-Evan/shattered-pixel-dungeon/releases
+repo: https://github.com/00-Evan/shattered-pixel-dungeon
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - roguelike
+  - 地牢探险
+  - 像素游戏
+  - 开源游戏
+  - 无内购
+platforms:
+  - windows
+  - macos
+  - linux
+  - android
+  - ios
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 零广告、零氪金抽卡、纯靠策略通关的开源像素地牢 Roguelike 神作
+  en: A traditional open-source roguelike pixel dungeon crawler RPG with zero ads or microtransactions
+description:
+  zh: GPL-3.0 开源的《破碎的像素地牢》。每一局都是随机生成的 26 层地牢、随机药水卷轴鉴定与五大独特职业，没有任何体力限制、复活广告或属性内购，GitHub Releases 与 F-Droid 直接提供全平台免费安装包。
+  en: A beloved GPL-3.0 roguelike RPG with five distinct heroes, randomized levels and hundreds of items across 26 dungeon floors — completely playable offline with zero ads or pay-to-win microtransactions.

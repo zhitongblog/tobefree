@@ -1,0 +1,36 @@
+name: AB Download Manager
+accent: '#2563EB'
+initials: AB
+category: network
+price: free
+license: Apache-2.0
+website: https://abdownloadmanager.com
+download: https://abdownloadmanager.com/#download
+repo: https://github.com/amir1376/ab-download-manager
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 下载器
+  - idm替代
+  - 多线程
+  - 浏览器接管
+  - 开源
+platforms:
+  - windows
+  - linux
+  - macos
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 体验最接近 IDM 的现代化开源多线程桌面下载器，配齐浏览器自动接管扩展
+  en: A modern, open-source multi-threaded desktop download manager built as a free IDM alternative
+description:
+  zh: Apache-2.0 开源的现代桌面多线程下载工具（Internet Download Manager / IDM 的最佳免费开源替代方案）。界面清爽现代（支持深色模式），支持自动接管 Chrome / Firefox 浏览器下载请求、多线程分块加速、排队计划任务与全局限速，彻底告别弹窗与过期假激活报错。
+  en: An Apache-2.0 desktop download manager designed to replace paid IDM. Features multi-connection chunk acceleration, browser integration extensions, download queues, schedulers and speed limiters with zero ads.

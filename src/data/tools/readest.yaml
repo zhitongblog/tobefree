@@ -1,0 +1,38 @@
+name: Readest
+accent: '#D97706'
+initials: RD
+category: productivity
+price: freemium
+license: AGPL-3.0
+website: https://readest.com
+download: https://github.com/readest/readest/releases
+repo: https://github.com/readest/readest
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 电子书
+  - epub
+  - 阅读器
+  - 双屏对照
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - web
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 支持双书同屏对照阅读的现代化全平台开源电子书阅读器
+  en: Modern open-source cross-platform ebook reader with side-by-side parallel reading
+description:
+  zh: 基于 Tauri v2 构建的现代化全平台开源阅读器（支持 EPUB、MOBI、AZW3、PDF 等）。最大的亮点是支持在同一窗口内同时打开两本书（比如中英文原版对照阅读），排版细腻、启动轻快，本地阅读与批注完全免费无需登录。
+  en: Built with Tauri v2, Readest is a sleek open-source ebook reader supporting EPUB, MOBI, AZW3 and PDF across desktop and mobile, featuring a standout parallel view for reading two books or translations side by side.

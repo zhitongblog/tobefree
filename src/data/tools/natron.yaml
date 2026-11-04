@@ -1,0 +1,36 @@
+name: Natron
+accent: '#334155'
+initials: NT
+category: creative
+price: free
+license: GPL-2.0
+website: https://natrongithub.github.io
+download: https://natrongithub.github.io/#download
+repo: https://github.com/NatronGitHub/Natron
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 影视后期
+  - 节点合成
+  - vfx
+  - 抠像
+  - nuke替代
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 对标影视工业标准 Nuke 的开源节点式视觉特效（VFX）与视频合成软件
+  en: Open-source node-based compositing and VFX software inspired by Foundry Nuke
+description:
+  zh: GPL-2.0 开源的专业节点式影视后期合成工具。界面与逻辑高度对齐工业界的 Nuke，支持 OpenFX 插件标准、绿幕抠像、二维/平面运动跟踪、Roto 遮罩绘制与多层 EXR 渲染，适合独立短片创作者与三维动画合成。
+  en: A GPL-2.0 node-based digital compositing application for VFX artists. Supports OpenFX plugins, rotoscoping, keying, planar tracking and multi-layer EXR pipelines without expensive studio subscriptions.

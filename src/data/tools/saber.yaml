@@ -1,0 +1,39 @@
+name: Saber
+accent: '#7C3AED'
+initials: SB
+category: office
+price: free
+license: GPL-3.0
+website: https://saber.adil.hanney.org
+download: https://saber.adil.hanney.org/#download
+repo: https://github.com/saber-notes/saber
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 手写笔记
+  - ipad
+  - 平板笔记
+  - 加密同步
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 横跨 iPad、安卓平板与电脑的开源手写笔记软件，深色模式下连 PDF 底色都自动反色护眼
+  en: Open-source cross-platform handwritten notes app built for tablets with smart dark-mode PDF inversion
+description:
+  zh: GPL-3.0 开源的全平台手写笔记应用（GoodNotes / Notability 的开源替代方案）。针对夜间学习做了智能反色（深色模式下黑白 PDF 与字迹自动反色，而彩色插图保持原色），并支持使用你自己的 Nextcloud / WebDAV 服务器进行端到端加密同步。
+  en: A GPL-3.0 cross-platform handwriting app for iPad, Android tablets and desktop. Intelligently inverts black-and-white PDFs in dark mode while keeping diagrams in color, and syncs via your own Nextcloud/WebDAV server.

@@ -1,0 +1,38 @@
+name: Tabby
+accent: '#D97706'
+initials: TB
+category: ai
+price: free
+license: Apache-2.0
+website: https://tabby.tabbyml.com
+download: https://tabby.tabbyml.com/docs/quick-start/installation/
+repo: https://github.com/TabbyML/tabby
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ai编程
+  - 代码补全
+  - 自建
+  - copilot替代
+  - rust
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 可一条 Docker 命令自建的开源 GitHub Copilot 替代方案
+  en: Self-hosted open-source AI coding assistant and GitHub Copilot alternative written in Rust
+description:
+  zh: 用 Rust 编写的自托管开源 AI 编程助手。一条 Docker 命令即可在本地或团队内网启动完整服务，无需外部数据库，提供毫秒级行内代码补全、基于仓库索引的问答（Answer Engine）以及 VS Code / JetBrains 插件支持，代码完全不出内网。
+  en: A self-hosted AI coding assistant written in Rust that deploys as a single self-contained binary or Docker container. Delivers low-latency inline code completion, repo-aware chat and VS Code/JetBrains extensions while keeping all source code on your own hardware.

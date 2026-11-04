@@ -16,8 +16,23 @@ criteria:
     - Core tasks such as reading, merging, splitting, compressing and converting are usable for free.
     - Local or self-hostable processing is preferred for sensitive documents.
     - Strong watermarking or aggressive pop-ups are avoided.
-tools: [sumatra-pdf, stirling-pdf, solopdf, okular, pdfsam-basic, xournalpp, ocrmypdf, libreoffice, onlyoffice-desktop-editors]
-skills: [markdownify-mcp, anthropic-document-skills]
+tools:
+  - sumatra-pdf
+  - stirling-pdf
+  - solopdf
+  - okular
+  - pdfsam-basic
+  - xournalpp
+  - ocrmypdf
+  - libreoffice
+  - onlyoffice-desktop-editors
+  - pdfarranger
+  - naps2
+  - rnote
+  - saber
+skills:
+  - markdownify-mcp
+  - anthropic-document-skills
 faq:
   zh:
     - q: 敏感 PDF 可以用在线工具吗？

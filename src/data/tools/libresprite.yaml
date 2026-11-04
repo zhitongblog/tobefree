@@ -1,0 +1,35 @@
+name: LibreSprite
+accent: '#7C3AED'
+initials: LS
+category: creative
+price: free
+license: GPL-2.0
+website: https://libresprite.github.io
+download: https://github.com/LibreSprite/LibreSprite/releases
+repo: https://github.com/LibreSprite/LibreSprite
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 像素画
+  - 帧动画
+  - aseprite分支
+  - 游戏美术
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 源自 Aseprite 最后一个 GPL 开源版本的免费像素画与帧动画制作软件
+  en: Free and open-source pixel art and animated sprite editor forked from the last GPL version of Aseprite
+description:
+  zh: 当知名像素画软件 Aseprite 从 GPL-2.0 转向闭源专有许可后，社区基于其最后一个开源版本持续维护的免费分支。完整保留了经典的像素画笔、洋葱皮帧动画时间轴、瓦片地图（Tilemap）模式与调色板管理，开箱即用无需自己编译。
+  en: Forked from the last GPLv2 commit of Aseprite before it went proprietary, LibreSprite provides pre-built binaries with onion-skinning timelines, layer groups, palette control and tilemap modes for 2D pixel artists.

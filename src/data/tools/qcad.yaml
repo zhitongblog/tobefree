@@ -1,0 +1,36 @@
+name: QCAD Community
+accent: '#2563EB'
+initials: QC
+category: cad
+price: freemium
+license: GPL-3.0
+website: https://www.qcad.org
+download: https://www.qcad.org/en/qcad-downloads-trial
+repo: https://github.com/qcad/qcad
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 2d-cad
+  - dxf
+  - 机械制图
+  - 平面图
+  - autocad替代
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: LibreCAD 的源头上游，成熟稳定的 GPL 开源二维机械与建筑工程制图系统
+  en: Mature open-source 2D CAD system for technical drawings, floor plans and mechanical parts
+description:
+  zh: 历史悠久且持续活跃的 GPL-3.0 二维 CAD 制图软件（LibreCAD 早年即从它分支而来）。专注于高精度的二维工程图、户型平面图、机械零件图与激光切割 DXF 图纸绘制，内置超过 40 种构造工具、60 种修改工具与数千个标准零件图库。
+  en: A mature GPL-3.0 2D CAD application for technical drawings, building plans, interiors and mechanical parts/schematics, natively reading and writing standard DXF files.

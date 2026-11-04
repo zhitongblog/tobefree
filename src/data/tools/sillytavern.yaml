@@ -1,0 +1,37 @@
+name: SillyTavern
+accent: '#9333EA'
+initials: ST
+category: ai
+price: free
+license: AGPL-3.0
+website: https://sillytavern.app
+download: https://docs.sillytavern.app/installation/
+repo: https://github.com/SillyTavern/SillyTavern
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ai前端
+  - 提示词工程
+  - 角色扮演
+  - 本地部署
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 可玩性与参数控制力拉满的开源大模型高级前端
+  en: Power-user LLM frontend with deep prompt engineering, world info and multi-backend support
+description:
+  zh: 面向进阶用户的开源大模型前端界面，支持连接 Ollama、KoboldCpp、llama.cpp 及各类云端 API。提供极其精细的上下文模板、正则后处理、世界书（World Info 动态触发词库）、群聊协作与 TTS 语音合成，所有对话数据纯本地存储。
+  en: An open-source LLM frontend built for power users. Connects to Ollama, KoboldCpp, llama.cpp and cloud APIs while offering granular context templates, World Info keyword lorebooks, group chats, regex post-processing and local data storage.

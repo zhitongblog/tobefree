@@ -1,0 +1,37 @@
+name: Goose
+accent: '#18181B'
+initials: GS
+category: ai
+price: free
+license: Apache-2.0
+website: https://block.github.io/goose/
+download: https://block.github.io/goose/docs/getting-started/installation
+repo: https://github.com/block/goose
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - agent
+  - mcp
+  - 终端
+  - 桌面端
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Block（原 Square）开源的本地 AI 开发者 Agent，深度原生支持 MCP
+  en: Block’s open-source local AI agent that automates engineering tasks with native MCP extensions
+description:
+  zh: 由支付巨头 Block 开源的本地 AI 工程智能体，提供桌面应用与 CLI 双形态。它运行在你的本机环境，可自主读写代码、执行测试、操作终端，并把 MCP（Model Context Protocol）作为一等公民扩展机制，支持接入任意大模型或本地 Ollama。
+  en: An open-source on-machine AI agent by Block available as both a desktop app and CLI. Goose autonomously writes code, runs tests, drives the shell and uses Model Context Protocol (MCP) servers as first-class extensions with any LLM or local Ollama.

@@ -1,0 +1,38 @@
+name: SingleFile
+accent: '#D97706'
+initials: SF
+category: browser
+price: free
+license: AGPL-3.0
+website: https://github.com/gildas-lormeau/SingleFile
+download: https://github.com/gildas-lormeau/SingleFile
+repo: https://github.com/gildas-lormeau/SingleFile
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 网页存档
+  - 离线保存
+  - 单文件html
+  - 防404
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 点一下把整个网页连带图片、字体和排版完美封存进单个独立 HTML 文件的存档神器
+  en: Save a faithful copy of an entire web page (with images, fonts and styles) as a single HTML file
+description:
+  zh: AGPL-3.0 开源的网页永久存档扩展与 CLI 工具。浏览器自带的「网页另存为」总是拆出一堆零散文件夹还经常丢样式，SingleFile 则把页面上所有 CSS、矢量图、照片与字体内联打包进一个干干净净的 `.html` 文件，十年后断网双击依然原样打开。
+  en: An AGPL-3.0 browser extension and CLI that packs a complete webpage — including CSS, images, web fonts and frames — into a single self-contained `.html` file that opens faithfully offline forever.

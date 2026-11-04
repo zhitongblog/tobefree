@@ -1,0 +1,34 @@
+kind: mcp
+name: Jev Shield MCP
+accent: '#DC2626'
+initials: JS
+license: MIT
+website: https://github.com/heyjunpenn/awesome-jev
+repo: https://github.com/heyjunpenn/awesome-jev
+install: npx -y jev-shield
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 安全护栏
+  - 提示词注入
+  - 审计
+  - mcp
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 基于 Jev 类型化概率决策的毫秒级 MCP 工具调用安全筛查护栏
+  en: Low-latency prompt injection and tool-call screening guardrail powered by Jev
+description:
+  zh: 在 AI Agent 执行高危 Shell 命令或读取外部不可信网页/邮件内容前，利用 Jev 的百毫秒级二元与多选概率判定，快速识别潜在的间接提示词注入（Indirect Prompt Injection）与越权指令。
+  en: Screens untrusted external content and outgoing tool calls in tens of milliseconds using Jev calibrated probability checks to catch indirect prompt injection.

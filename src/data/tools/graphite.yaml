@@ -1,0 +1,37 @@
+name: Graphite
+accent: '#EA580C'
+initials: GR
+category: creative
+price: free
+license: Apache-2.0
+website: https://graphite.rs
+download: https://editor.graphite.rs
+repo: https://github.com/GraphiteEditor/Graphite
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 矢量设计
+  - 节点编辑
+  - rust
+  - 非破坏性编辑
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 用 Rust 编写的新一代开源 2D 矢量与节点式程序化图形编辑器
+  en: Open-source 2D vector and raster graphics editor combining layers with a non-destructive node graph
+description:
+  zh: Apache-2.0 开源的现代 2D 平面设计工具。将传统 Illustrator 式的图层画布与 Blender 式的「非破坏性节点图（Node Graph）」合二为一，每一次绘画、布尔运算和滤镜都是节点管线的一步，随时可以回退调整参数，打开浏览器即可离线运行。
+  en: An Apache-2.0 2D design engine written in Rust that marries traditional vector layers with a non-destructive procedural node graph. Runs instantly in the browser via WebAssembly with zero sign-up.

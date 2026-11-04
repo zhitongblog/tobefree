@@ -1,0 +1,35 @@
+name: Min
+accent: '#334155'
+initials: MN
+category: browser
+price: free
+license: Apache-2.0
+website: https://minbrowser.org
+download: https://minbrowser.org
+repo: https://github.com/minbrowser/min
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 极简浏览器
+  - 防分心
+  - 去广告
+  - 轻量
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 把界面砍到只剩一条顶栏的极简开源浏览器，内置广告拦截与阅读模式
+  en: A fast, minimal open-source browser that protects privacy and eliminates visual clutter
+description:
+  zh: Apache-2.0 开源的极简主义桌面浏览器。把地址栏、标签页与搜索框融合成顶部极窄的一条，支持按任务分组（Tasks）切换工作区、全文模糊检索浏览过的网页正文，并默认内置 EasyList 广告追踪拦截与屏蔽图片/脚本的省流专注模式。
+  en: An Apache-2.0 minimalist browser that condenses tabs and the address bar into a single clean strip, featuring built-in ad/tracker blocking, full-text history search and task-based tab groups.

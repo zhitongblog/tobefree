@@ -1,0 +1,43 @@
+name: Jev Ultrafast
+accent: '#EA580C'
+initials: JU
+category: ai
+price: free
+license: MIT
+website: https://github.com/browser-use/jev-ultrafast
+repo: https://github.com/browser-use/jev-ultrafast
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 浏览器自动化
+  - agent
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: browser-use 团队出品的极速浏览器 Agent，用 Jev 毫秒级选择网页元素
+  en: Ultrafast browser automation agent by browser-use powered by Jev typed decisions
+description:
+  zh: 由知名开源项目 browser-use 团队打造的超高速网页自动化智能体。它不向通用聊天大模型反复发送庞大的截图和冗长思维链，而是将网页 DOM 映射为编号元素表，交由 Jev 决策模型在百毫秒内决定点击、输入或跳转动作，数十秒即可跑完复杂网页流程。
+  en: Built by the browser-use team, Jev Ultrafast maps DOM elements into a numbered table and uses Jev decision models to pick actions (CLICK, TYPE, SELECT) in tens of milliseconds instead of streaming heavy screenshots to a slow chat LLM at every step.
+review:
+  zh: |-
+    传统浏览器 Agent 最大的痛点就是一个字：慢。每点一下按钮都要截屏、塞进视觉大模型、等它思考几秒钟再输出动作，查个机票能跑三分钟。
+
+    Jev Ultrafast 换了一种思路：网页操作本质上是「在当前页面的几十个可交互元素里选哪一个」。把页面抽成结构化元素表后用 Jev 并发打分决策，单步延迟直接掉进百毫秒级，成本也降了一个数量级。代码完全 MIT 开源，可对接官方 Jev 或本地兼容端点。
+  en: |-
+    Traditional browser agents are painfully slow: every click takes a screenshot, sends it to a vision chat model, and waits seconds for a chain-of-thought reply.
+
+    Jev Ultrafast reframes web automation as a structured selection problem over numbered DOM elements. By delegating each step to a System 1 decision call, latency drops into the sub-second range and token cost plummets. MIT-licensed and ready to wire into Jev or compatible local endpoints.

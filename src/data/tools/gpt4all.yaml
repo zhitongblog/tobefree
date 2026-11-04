@@ -1,0 +1,34 @@
+name: GPT4All
+accent: '#3B82F6'
+initials: G4
+category: ai
+price: free
+license: MIT
+website: https://www.nomic.ai/gpt4all
+download: https://www.nomic.ai/gpt4all
+repo: https://github.com/nomic-ai/gpt4all
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 本地大模型
+  - 离线聊天
+  - localdocs
+  - 隐私
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-signup
+tagline:
+  zh: Nomic 出品的老牌本地大模型桌面软件，内置 LocalDocs 本地文档问答
+  en: Privacy-aware local chatbot desktop application with built-in LocalDocs file indexing
+description:
+  zh: 由 Nomic AI 开源的跨平台本地大模型桌面应用。主打零配置与普通消费级电脑友好，内置「LocalDocs」功能，只需指定本地文件夹即可离线针对 PDF、Word 和 Markdown 文档提问，全程无需联网或注册账号。
+  en: An open-source desktop application by Nomic AI designed to run LLMs on everyday consumer hardware. Its built-in LocalDocs feature lets you point at a local folder of PDFs, Word docs and Markdown files and chat with them completely offline.

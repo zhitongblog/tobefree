@@ -1,0 +1,36 @@
+name: btop++
+accent: '#E11D48'
+initials: BT
+category: utility
+price: free
+license: Apache-2.0
+website: https://github.com/aristocratos/btop
+download: https://github.com/aristocratos/btop/releases
+repo: https://github.com/aristocratos/btop
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 系统监控
+  - htop替代
+  - 终端
+  - tui
+  - 开源
+platforms:
+  - linux
+  - macos
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 颜值天花板级的终端系统资源监控器，支持鼠标点击与进程管理
+  en: A gorgeous terminal resource monitor showing CPU, memory, disks, network and processes
+description:
+  zh: 用 C++ 编写的现代终端资源监控面板（htop 的华丽进化版）。在字符终端里画出高分辨率渐变折线图，同屏展示多核 CPU 频率温度、内存、磁盘 IO、网卡吞吐与进程树，并且完整支持鼠标点击排序、搜索与一键杀进程。
+  en: A C++ continuation of bashtop and bpytop that renders smooth braille graphs for CPU, GPU, memory, disk I/O and network throughput right in your terminal, complete with full mouse support and process filtering.

@@ -1,0 +1,38 @@
+name: Paisa
+accent: '#059669'
+initials: PS
+category: finance
+price: free
+license: GPL-3.0
+website: https://paisa.fyi
+download: https://paisa.fyi/guide/getting-started/
+repo: https://github.com/ananthakumaran/paisa
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 复式记账
+  - 纯文本记账
+  - ledger
+  - 净值统计
+  - 离线
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 建立在纯文本复式记账（Ledger）之上的可视化个人资产与收益分析面板
+  en: Open-source personal finance and net-worthvisualizer built on top of plain-text Ledger accounting
+description:
+  zh: 专为纯文本复式记账（Ledger / hledger）用户打造的 GPL-3.0 图形化资产管理软件。底层账本依然是你随时可以用 Git 管理的纯文本文件，但打开 Paisa 即可自动绘出家庭净值走势、退休金预测、资产配置比例与年化内部收益率（XIRR）。
+  en: A GPL-3.0 desktop and web dashboard built on plain-text accounting. Keep your transactions in human-readable Ledger files while inspecting interactive charts for net worth, asset allocation and XIRR returns.

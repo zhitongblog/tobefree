@@ -1,0 +1,37 @@
+name: Dark Reader
+accent: '#18181B'
+initials: DR
+category: browser
+price: free
+license: MIT
+website: https://darkreader.org
+download: https://darkreader.org
+repo: https://github.com/darkreader/darkreader
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 深色模式
+  - 夜间护眼
+  - 浏览器扩展
+  - 无广告
+  - 开源
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 为全球任意刺眼白底网站实时生成舒适深色模式的 MIT 开源浏览器扩展
+  en: MIT-licensed browser extension that creates real-time dark themes for every website on the fly
+description:
+  zh: 拥有数百万用户的 MIT 开源护眼浏览器扩展。智能分析网页 CSS 与对比度，把刺眼的纯白网页实时转换为柔和的深色主题（而不会把照片和视频错误反色），完全不含任何广告插入或浏览记录上传。
+  en: An MIT-licensed browser extension that analyzes page styles in real time to invert bright white websites into high-contrast dark modes without mangling images, with zero ads or tracking.

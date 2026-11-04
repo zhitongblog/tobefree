@@ -1,0 +1,37 @@
+name: bat
+accent: '#7C3AED'
+initials: BT
+category: dev
+price: free
+license: MIT / Apache-2.0
+website: https://github.com/sharkdp/bat
+download: https://github.com/sharkdp/bat/releases
+repo: https://github.com/sharkdp/bat
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - cli
+  - rust
+  - 终端
+  - 语法高亮
+  - cat替代
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 长了翅膀的 cat 命令：自带语法高亮、行号、Git 增删标记与自动分页
+  en: 'A cat clone with wings: syntax highlighting, Git integration and automatic paging'
+description:
+  zh: 现代命令行必装的 cat 替代工具（Rust 编写）。在终端查看文件时自动提供百余种语言的语法高亮、行号以及左侧 Git 修改状态标记；当被放进管道（pipe）时又会自动退化为纯文本输出，百分之百兼容原有脚本。
+  en: A Rust-powered replacement for the classic cat command. Adds syntax highlighting for over a hundred languages, line numbers, Git gutter modification markers and automatic paging when interactive, while falling back to plain text seamlessly inside shell pipelines.

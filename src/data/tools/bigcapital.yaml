@@ -1,0 +1,36 @@
+name: Bigcapital
+accent: '#4F46E5'
+initials: BC
+category: finance
+price: free
+license: AGPL-3.0
+website: https://bigcapital.app
+download: https://docs.bigcapital.ly/deployment/docker
+repo: https://github.com/bigcapitalhq/bigcapital
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 企业记账
+  - 进销存
+  - 复式记账
+  - 财务报表
+  - 自建
+platforms:
+  - web
+  - linux
+  - windows
+  - macos
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 支持标准复式记账与库存进销存的开源现代财务系统，QuickBooks 的自建替代品
+  en: Open-source accounting and inventory management software built to replace QuickBooks and Xero
+description:
+  zh: AGPL-3.0 开源的现代企业记账与进销存软件。不同于只记流水账的个人小工具，Bigcapital 底层是严谨的会计科目表（Chart of Accounts）与复式凭证，原生支持应收应付、商品库存追踪、多币种重估与标准三大财务报表。
+  en: An AGPL-3.0 self-hostable accounting system featuring a proper double-entry Chart of Accounts, inventory tracking, accounts receivable/payable and automated financial statements.

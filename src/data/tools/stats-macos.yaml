@@ -1,0 +1,33 @@
+name: Stats
+accent: '#10B981'
+initials: ST
+category: utility
+price: free
+license: MIT
+website: https://github.com/exelban/stats
+download: https://github.com/exelban/stats/releases
+repo: https://github.com/exelban/stats
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 系统监控
+  - 菜单栏
+  - mac
+  - 风扇控制
+  - 开源
+platforms:
+  - macos
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: iStat Menus 的完美开源免费平替，在 Mac 菜单栏实时查看全套硬件状态
+  en: Free, open-source macOS system monitor in your menu bar — a full alternative to iStat Menus
+description:
+  zh: MIT 开源的 macOS 菜单栏系统监控工具。涵盖 CPU、GPU、内存、磁盘读写、实时网速、电池健康度、传感器温度以及蓝牙设备电量，每个模块都能单独开关并自定义菜单栏图表样式，完全免费替代昂贵的付费监控软件。
+  en: An MIT-licensed macOS menu bar monitor covering CPU, GPU, memory, disk, network, battery health, sensor temperatures and Bluetooth battery levels with customizable widgets.

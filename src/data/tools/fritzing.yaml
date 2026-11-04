@@ -1,0 +1,36 @@
+name: Fritzing
+accent: '#D97706'
+initials: FZ
+category: cad
+price: freemium
+license: GPL-3.0
+website: https://fritzing.org
+download: https://github.com/fritzing/fritzing-app
+repo: https://github.com/fritzing/fritzing-app
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 面包板
+  - arduino
+  - 电子创客
+  - 原理图
+  - 电路设计
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Arduino 与树莓派创客必用的开源电子设计软件，面包板接线图一键同步转 PCB
+  en: Open-source electronics design tool that bridges breadboard prototypes, schematics and PCBs
+description:
+  zh: 创客与硬件教程里出镜率最高的 GPL-3.0 开源电子设计软件。你只需在可视化的虚拟面包板上把传感器、电阻与 Arduino 开发板用杜邦线连好，软件就会自动同步生成标准电路原理图与可打样的 PCB 版图。
+  en: A GPL-3.0 electronics prototyping tool that lets makers wire virtual breadboards with Arduino and Raspberry Pi components and switch seamlessly to schematics and PCB layout.

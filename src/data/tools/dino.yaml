@@ -1,0 +1,32 @@
+name: Dino
+accent: '#10B981'
+initials: DN
+category: chat
+price: free
+license: GPL-3.0
+website: https://dino.im
+download: https://dino.im/#download
+repo: https://github.com/dino/dino
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - xmpp
+  - jabber
+  - omemo加密
+  - 去中心化
+  - linux
+platforms:
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 现代、清爽的开源 XMPP / Jabber 加密聊天客户端，支持 OMEMO 端到端加密与音视频通话
+  en: A clean, modern open-source XMPP/Jabber chat client with OMEMO encryption and encrypted calls
+description:
+  zh: 让古老而开放的 XMPP（Jabber）去中心化通讯协议重获现代体验的 GPL-3.0 客户端。采用清爽的 GTK4 界面，原生集成 OMEMO（基于 Signal 双棘轮算法）端到端加密、加密文件传输与点对点加密音视频通话。
+  en: A modern GTK4 XMPP client under GPL-3.0 that brings a clean conversational UI, OMEMO end-to-end encryption, multi-device message synchronization and encrypted audio/video calls to the decentralized Jabber network.

@@ -1,0 +1,35 @@
+kind: mcp
+name: GitLab MCP Server
+accent: '#FC6D26'
+initials: GL
+license: MIT
+website: https://github.com/modelcontextprotocol/servers
+repo: https://github.com/modelcontextprotocol/servers
+install: npx -y @modelcontextprotocol/server-gitlab
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - gitlab
+  - 代码托管
+  - merge-request
+  - ci-cd
+  - 自建git
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 连接官方 GitLab 或企业内网自建 GitLab 实例，自动审阅 MR、查 Issue 与看流水线
+  en: MCP server for GitLab.com and self-hosted GitLab instances to manage repositories, issues and MRs
+description:
+  zh: 支持连接 GitLab.com 及企业自建 GitLab 私有实例的标准 MCP 服务器。让 AI 助手能够直接搜索项目代码、读取或创建 Merge Request 评审意见、管理 Issue 并排查 CI/CD 构建失败原因。
+  en: Connects AI assistants to both GitLab.com and self-hosted GitLab servers to search repositories, review Merge Requests, file issues and inspect pipeline statuses.

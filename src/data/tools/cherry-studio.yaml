@@ -1,0 +1,36 @@
+name: Cherry Studio
+accent: '#E11D48'
+initials: CS
+category: ai
+price: free
+license: Apache-2.0
+website: https://cherry-ai.com
+download: https://cherry-ai.com/download
+repo: https://github.com/CherryHQ/cherry-studio
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ai客户端
+  - ollama
+  - mcp
+  - 知识库
+  - 跨平台
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 功能极全的开源多模型 AI 桌面客户端，内置本地知识库与 MCP 支持
+  en: Feature-packed open-source desktop client for local and cloud LLMs with RAG and MCP
+description:
+  zh: 支持同时接入本地 Ollama / LM Studio 与数十家云端 API 的跨平台 AI 桌面工作台。内置本地知识库（RAG）、多模型同屏对比、数百个预设助手以及原生的 MCP Server 可视化管理，无需注册即可开箱使用。
+  en: A cross-platform desktop AI workbench that connects to local Ollama/LM Studio models and dozens of cloud APIs. Includes built-in local knowledge bases (RAG), multi-model side-by-side comparison, preset assistants and visual MCP server management with no sign-up required.

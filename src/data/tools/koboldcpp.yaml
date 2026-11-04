@@ -1,0 +1,38 @@
+name: KoboldCpp
+accent: '#8B5CF6'
+initials: KC
+category: ai
+price: free
+license: AGPL-3.0
+website: https://github.com/LostRuins/koboldcpp
+download: https://github.com/LostRuins/koboldcpp/releases
+repo: https://github.com/LostRuins/koboldcpp
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - gguf
+  - 单文件
+  - 绿色版
+  - llama-cpp
+  - 离线
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 单文件免安装的本地大模型运行器，双击就能加载 GGUF 模型
+  en: Zero-install single-file local LLM runner built on llama.cpp with a bundled Web UI
+description:
+  zh: 基于 llama.cpp 深度整合的单文件绿色软件。不需要安装依赖、不写注册表，下载一个可执行文件双击即可选择 GGUF 模型启动，同时内置聊天、故事续写、文生图（Stable Diffusion）、语音识别（Whisper）与 TTS，堪称本地 AI 的瑞士军刀。
+  en: A single-file, zero-install executable built on llama.cpp. Download one file, pick a GGUF model and immediately get a web UI and API covering chat, creative writing, image generation, Whisper speech-to-text and TTS.

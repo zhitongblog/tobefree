@@ -1,0 +1,38 @@
+name: CyberChef
+accent: '#16A34A'
+initials: CC
+category: dev
+price: free
+license: Apache-2.0
+website: https://gchq.github.io/CyberChef/
+download: https://github.com/gchq/CyberChef/releases
+repo: https://github.com/gchq/CyberChef
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 编码解码
+  - 加密
+  - 正则
+  - 离线网页
+  - 安全
+platforms:
+  - web
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 被称为「赛博瑞士军刀」的数据编码、加解密与格式转换神器，纯本地浏览器运行
+  en: The Cyber Swiss Army Knife for encoding, encryption, compression and data analysis in your browser
+description:
+  zh: Apache-2.0 开源的纯前端数据料理工作台，内置超过 300 种操作（Base64、Hex、JWT、AES/RSA、Gzip、正则提取、时间戳、二进制解析等）。支持像搭积木一样串联多步转换配方，所有计算 100% 在本地浏览器内完成，也可下载单个 HTML 断网使用。
+  en: An Apache-2.0 web app packing over 300 operations — Base64, Hex, JWT, AES/RSA, compression, regex extraction, timestamps and binary parsing. Chain steps into reusable recipes; everything executes 100% client-side and downloads as a standalone offline HTML bundle.

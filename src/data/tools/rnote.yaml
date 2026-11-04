@@ -1,0 +1,36 @@
+name: Rnote
+accent: '#0284C7'
+initials: RN
+category: office
+price: free
+license: GPL-3.0
+website: https://rnote.flxzt.net
+download: https://github.com/flxzt/rnote/releases
+repo: https://github.com/flxzt/rnote
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 手写笔记
+  - 数位板
+  - pdf批注
+  - 矢量绘图
+  - rust
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 用 Rust 编写的开源矢量手写笔记与 PDF 批注软件，专为数位板和触控笔设计
+  en: An open-source vector-based drawing app for sketching, handwritten notes and PDF annotation
+description:
+  zh: 用 Rust 与 GTK4 开发的跨平台开源矢量手写软件。支持压感触控笔、逼真的钢笔与刷子笔触、无限延展或固定页边距画布，可以直接导入老师发的 PDF 讲义在上面流畅手写推导公式，然后再导出为高清矢量 PDF。
+  en: Written in Rust and GTK4, Rnote is a pressure-sensitive vector handwriting and sketching app built for stylus tablets, making it easy to annotate PDF lecture slides or sketch on infinite canvases offline.

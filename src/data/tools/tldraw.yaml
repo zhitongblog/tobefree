@@ -1,0 +1,30 @@
+name: tldraw
+accent: '#18181B'
+initials: TL
+category: creative
+price: free
+license: tldraw License
+website: https://www.tldraw.com
+repo: https://github.com/tldraw/tldraw
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 白板
+  - 手绘草图
+  - 无限画布
+  - 流程图
+platforms:
+  - web
+badges:
+  - offline
+  - cross-platform
+  - no-ads
+  - no-signup
+tagline:
+  zh: 打开网页就能画的丝滑无限画布白板，支持多人实时协作与离线自动保存
+  en: An instant, collaborative infinite canvas whiteboard in your browser with no sign-up required
+description:
+  zh: 手感极佳的免费在线无限画布白板（与 Excalidraw 并称双雄）。打开网站无需注册登录即可直接画架构草图、连线、贴图片，笔触压感自然，内容自动保存在本地浏览器 IndexedDB 中，也可一键生成分享链接多人同屏协作。
+  en: A snappy infinite whiteboard web app that opens straight to a canvas with zero sign-up walls. Features expressive ink strokes, smart arrows, local IndexedDB persistence and instant multiplayer rooms.

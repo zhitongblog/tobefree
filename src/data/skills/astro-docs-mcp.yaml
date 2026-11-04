@@ -1,0 +1,34 @@
+kind: mcp
+name: Astro Docs MCP
+accent: '#FF5D01'
+initials: AS
+license: MIT
+website: https://docs.astro.build/en/guides/build-with-ai/
+repo: https://github.com/withastro/docs
+install: https://mcp.docs.astro.build/mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - astro
+  - 前端开发
+  - 静态网站
+  - 官方文档
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Astro 官方提供的免费免密钥文档 MCP，彻底解决大模型把 Astro 5 写回旧版语法的毛病
+  en: Official Astro documentation MCP server giving AI assistants real-time access to the latest Astro 5 APIs
+description:
+  zh: 由 Astro 官方团队提供的免费、免注册 MCP 服务。大模型经常分不清 Astro 旧版 Content Collections 与新版 Content Layer API，接入此服务后 AI 每次改 Astro 代码前都能实时核对最新官方文档。
+  en: Provided free by the Astro team with no API key required, giving coding agents live search over current Astro documentation so they never hallucinate outdated v2/v3 syntax.

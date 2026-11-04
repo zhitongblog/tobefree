@@ -1,0 +1,36 @@
+name: Bonsai (BlenderBIM)
+accent: '#16A34A'
+initials: BB
+category: cad
+price: free
+license: GPL-3.0
+website: https://bonsaibim.org
+download: https://bonsaibim.org/download.html
+repo: https://github.com/IfcOpenShell/IfcOpenShell
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - bim
+  - 建筑设计
+  - ifc
+  - revit替代
+  - blender
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 获得建筑工业界大奖的开源 OpenBIM 设计套件，直接读写原生 IFC 替代天价 Revit
+  en: Award-winning free and open-source OpenBIM authoring platform and native IFC CAD environment
+description:
+  zh: 基于 IfcOpenShell 与 Blender 打造的 GPL-3.0 开源建筑信息模型（BIM）软件（原名 BlenderBIM）。不搞私有格式锁死，直接以国际标准 `.ifc` 作为原生保存格式，支持完整的建筑结构建模、工程量清单统计、碰撞检测与二维施工图纸自动生成，商业工程同样永久免费。
+  en: Formerly BlenderBIM, Bonsai is a GPL-3.0 OpenBIM authoring platform that edits international standard `.ifc` files natively, providing structural modeling, quantity take-offs, clash detection and 2D construction drawings.

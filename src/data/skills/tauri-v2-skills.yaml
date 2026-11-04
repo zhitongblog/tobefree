@@ -1,0 +1,35 @@
+kind: skill
+name: Tauri v2 Agent Skills
+accent: '#0284C7'
+initials: TR
+license: MIT
+website: https://v2.tauri.app
+repo: https://github.com/tauri-apps/tauri-docs
+install: ''
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - tauri
+  - 桌面开发
+  - 跨平台应用
+  - rust
+  - 前端
+clients:
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Cline
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 让 AI 准确掌握 Tauri v2 全新权限系统（Capabilities）、IPC 通信与移动端打包规范
+  en: Up-to-date agent skills for building desktop and mobile apps with Tauri v2 Capabilities and plugins
+description:
+  zh: Tauri 从 v1 升级到 v2 后，权限配置（从 allowlist 改为 capabilities）和官方插件包名发生了彻底重构。该技能帮助 AI 编程助手准确编写 Tauri v2 的 Rust Command 暴露、前端 invoke 调用及细粒度安全权限文件。
+  en: Prevents coding agents from mixing deprecated Tauri v1 `allowlist` configs into Tauri v2 projects, covering the v2 Capabilities security model, IPC commands and official plugin system.

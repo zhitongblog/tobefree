@@ -1,0 +1,36 @@
+name: TeXstudio
+accent: '#D97706'
+initials: TX
+category: office
+price: free
+license: GPL-3.0
+website: https://www.texstudio.org
+download: https://www.texstudio.org/#download
+repo: https://github.com/texstudio-org/texstudio
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - latex
+  - 论文排版
+  - 学术写作
+  - 公式
+  - 离线
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 学术界最经典的本地离线 LaTeX 论文集成编写环境，告别云端编译排队与断网焦虑
+  en: The classic, full-featured open-source integrated writing environment for LaTeX documents
+description:
+  zh: GPL-3.0 开源的本地 LaTeX 集成编辑环境（IDE）。内置超过 1000 个数学符号面板、公式鼠标悬停即时预览、表格向导、BibTeX 文献自动补全以及代码与右侧 PDF 正反向同步跳转，不限编译时长、断网照写论文。
+  en: A comprehensive GPL-3.0 LaTeX IDE offering 1000+ math symbol palettes, inline formula hover previews, table wizards, BibTeX completion and instant SyncTeX source-to-PDF jumping completely offline.

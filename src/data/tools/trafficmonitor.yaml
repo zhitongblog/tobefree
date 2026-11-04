@@ -1,0 +1,33 @@
+name: TrafficMonitor
+accent: '#0284C7'
+initials: TM
+category: utility
+price: free
+license: GPL-3.0
+website: https://github.com/zhongyang219/TrafficMonitor
+download: https://github.com/zhongyang219/TrafficMonitor/releases
+repo: https://github.com/zhongyang219/TrafficMonitor
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 网速监控
+  - 任务栏
+  - 硬件监控
+  - windows
+  - 开源
+platforms:
+  - windows
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 干净纯粹的 Windows 任务栏网速、CPU、内存与硬件温度监控悬浮窗
+  en: Clean, open-source Windows taskbar monitor for network speeds, CPU, RAM and temperatures
+description:
+  zh: 国内开发者开源的轻量级 Windows 状态监控小工具。曾经只有安全卫士全家桶才带的「桌面网速悬浮球」和「任务栏嵌入式监控」，用它只需几兆内存就能实现，完全开源、无弹窗、无后台驻留服务，支持自定义皮肤与硬件温度读取。
+  en: A lightweight GPL-3.0 Windows utility that embeds real-time upload/download speeds, CPU/RAM load and hardware temperatures right into your taskbar or a tiny floating widget — with zero bloatware or pop-up ads.

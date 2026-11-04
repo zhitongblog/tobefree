@@ -1,0 +1,39 @@
+name: MediaInfo
+accent: '#0284C7'
+initials: MI
+category: media
+price: free
+license: BSD-2-Clause
+website: https://mediaarea.net/en/MediaInfo
+download: https://mediaarea.net/en/MediaInfo/Download
+repo: https://github.com/MediaArea/MediaInfo
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 视频参数
+  - 编码检测
+  - 码率
+  - hdr
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 一秒看穿视频与音频文件的真实编码、码率、色深、HDR 格式与内封字幕轨
+  en: Inspect exact codec, bitrate, color space, HDR metadata and audio/subtitle tracks of any media file
+description:
+  zh: BSD 开源的音视频文件技术参数透视镜。右键点击任意视频或音频文件，立刻列出封装格式、视频编码（H.264/HEVC/AV1）、真实码率、帧率模式（恒定/可变）、色彩空间（10-bit/Dolby Vision/HDR10）以及每一条内封音轨和字幕轨的详细参数。
+  en: 'A BSD-licensed utility that reveals the exact technical specifications inside any video or audio container: codec profiles, bitrates, constant vs. variable frame rates, 10-bit/HDR metadata, audio channels and embedded subtitle tracks.'

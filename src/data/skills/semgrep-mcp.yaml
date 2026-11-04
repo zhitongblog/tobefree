@@ -1,0 +1,35 @@
+kind: mcp
+name: Semgrep MCP
+accent: '#10B981'
+initials: SG
+license: MIT
+website: https://github.com/semgrep/mcp
+repo: https://github.com/semgrep/mcp
+install: uvx semgrep-mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 安全扫描
+  - 静态分析
+  - sast
+  - 代码审计
+clients:
+  - Claude
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Any MCP client
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Semgrep 官方出品的代码安全扫描 MCP，让 AI 写完代码立刻做静态漏洞审计
+  en: Official Semgrep MCP server enabling AI coding agents to scan code for security vulnerabilities locally
+description:
+  zh: 由知名静态代码分析工具 Semgrep 官方维护的 MCP 服务器。接入 Claude Code 或 Cursor 后，AI 在生成或修改代码时可直接调用本地 Semgrep 规则库扫描 SQL 注入、XSS、硬编码密钥等安全隐患，并自动根据扫描报告完成修复。
+  en: Maintained by the Semgrep team, this MCP server lets coding agents run fast static analysis rules against newly written code to catch SQLi, XSS, hardcoded secrets and logic bugs before committing.

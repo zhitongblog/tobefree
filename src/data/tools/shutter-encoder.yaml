@@ -1,0 +1,36 @@
+name: Shutter Encoder
+accent: '#4F46E5'
+initials: SE
+category: media
+price: free
+license: GPL-3.0
+website: https://www.shutterencoder.com
+download: https://www.shutterencoder.com/en/index.html#download
+repo: https://github.com/paulpacifico/shutter-encoder
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 视频转码
+  - 压制
+  - prores
+  - ffmpeg
+  - 剪辑工具
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 专业剪辑师私藏的开源视频转码瑞士军刀，不仅能压 H.264/AV1 还能转 ProRes 与 DNxHD
+  en: Professional video, audio and image converter built by video editors on top of FFmpeg
+description:
+  zh: 由专业影视剪辑师开发并 GPL-3.0 开源的全能媒体转码工具。如果说 HandBrake 只适合把视频压成 MP4/MKV，Shutter Encoder 则把 FFmpeg 的全部功力做成直观界面：支持转苹果 ProRes / 达芬奇 DNxHR 中间片编码、无损抽音轨、烧录字幕、封装替换、帧率插值与响度标准化。
+  en: Designed by video editors under GPL-3.0, Shutter Encoder goes beyond consumer transcoders like HandBrake by supporting broadcast codecs (Apple ProRes, Avid DNxHR, GoPro CineForm), lossless re-wrapping, audio normalization and subtitle burn-in.

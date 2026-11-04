@@ -1,0 +1,37 @@
+name: DevToys
+accent: '#6366F1'
+initials: DT
+category: dev
+price: free
+license: MIT
+website: https://devtoys.app
+download: https://devtoys.app/download
+repo: https://github.com/DevToys-app/DevToys
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 开发者工具箱
+  - json
+  - jwt
+  - 正则
+  - 离线
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 程序员的离线桌面瑞士军刀，再也不用把敏感 JSON 和密钥粘到可疑在线网站
+  en: An offline Swiss Army knife for developers so you never paste sensitive data into shady websites
+description:
+  zh: MIT 开源的跨平台开发者日常工具箱，内置 JSON 格式化、JWT 解码、Cron 表达式解析、文本对比、哈希生成、正则测试、颜色与图片压缩等 30+ 常用小工具。智能剪贴板会自动识别复制的内容并推荐对应工具，全程本地离线运行。
+  en: 'An MIT-licensed cross-platform desktop toolbox featuring 30+ everyday utilities: JSON formatting, JWT decoding, Cron parsing, diffs, hashing, regex testing and image conversion. Smart clipboard detection suggests the right tool automatically, all 100% offline.'

@@ -1,0 +1,32 @@
+kind: skill
+name: Jev Explained
+accent: '#7C3AED'
+initials: JE
+license: MIT
+website: https://github.com/davila7/jev-explained
+repo: https://github.com/davila7/jev-explained
+install: git clone https://github.com/davila7/jev-explained.git
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - jev
+  - 架构解析
+  - system-1
+  - 代码示例
+clients:
+  - Claude Code
+  - Cursor
+  - Cline
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 用极简代码与架构图讲透 System 1 决策模型如何替代笨重的 Chat LLM 调用
+  en: Clear architecture breakdowns and minimal code examples showing when and how to replace Chat LLMs with Jev
+description:
+  zh: 面向架构师与 AI 工程师的开源对照指南与技能包。用直观的延迟对比、Token 成本测算和可运行的最小代码片段，演示如何将传统 Agent 循环里的路由、裁判（LLM-as-a-Judge）和状态转移拆解为百毫秒级的 Jev 调用。
+  en: An open-source reference and agent skill repository explaining System 1 decision models through side-by-side latency benchmarks, cost comparisons and minimal code patterns for routing and LLM-as-a-Judge.

@@ -1,0 +1,36 @@
+name: Wings 3D
+accent: '#DC2626'
+initials: W3
+category: cad
+price: free
+license: BSD-3-Clause
+website: https://www.wings3d.com
+download: https://www.wings3d.com/?page_id=84
+repo: https://github.com/dgud/wings
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 多边形建模
+  - 细分曲面
+  - 3d建模
+  - 轻量
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 专注纯粹多边形与细分曲面造型、右键菜单交互极度高效的轻量开源 3D 建模器
+  en: An advanced open-source subdivision 3D modeler focused on fast context-menu polygon modeling
+description:
+  zh: 用 Erlang 编写的老牌 BSD 开源细分曲面（Subdivision）三维建模软件。砍掉了繁杂的骨骼动画与渲染管线，把全部精力放在多边形点线面推拉捏合与 AutoUV 展平上，右键上下文菜单随手即得，非常适合快速构建机械外壳与三维打印原型。
+  en: A BSD-licensed polygon and subdivision surface 3D modeler with a context-sensitive right-click workflow and built-in AutoUV mapping.

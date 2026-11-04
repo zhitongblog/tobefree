@@ -1,0 +1,36 @@
+name: Avogadro
+accent: '#0D9488'
+initials: AV
+category: learning
+price: free
+license: BSD-3-Clause
+website: https://two.avogadro.cc
+download: https://two.avogadro.cc/install/
+repo: https://github.com/OpenChemistry/avogadrolibs
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 化学
+  - 分子建模
+  - 3d可视化
+  - 计算化学
+  - 科研
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 开源的 3D 化学分子建模与分子轨道可视化工具，一键优化分子空间构型
+  en: Open-source 3D molecular editor and visualizer for computational chemistry and materials science
+description:
+  zh: 面向化学教学、计算化学与材料科学的 BSD 开源三维分子编辑器。鼠标点几下就能搭出复杂有机分子或晶体结构，自动补氢并调用内置力场（Force Fields）实时把键角与空间构型弛豫到最低能量状态，还能直接生成 Gaussian、ORCA 等量子化学软件的输入文件。
+  en: A BSD-licensed 3D molecular builder and visualizer. Sketch molecules interactively, run real-time force-field geometry optimization, inspect molecular orbitals and generate input decks for ORCA, Gaussian and GAMESS.

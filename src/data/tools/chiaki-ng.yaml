@@ -1,0 +1,36 @@
+name: chiaki-ng
+accent: '#2563EB'
+initials: CK
+category: gaming
+price: free
+license: GPL-3.0
+website: https://streetpea.github.io/chiaki-ng/
+download: https://github.com/streetpea/chiaki-ng/releases
+repo: https://github.com/streetpea/chiaki-ng
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ps5串流
+  - ps4遥控
+  - steamdeck
+  - hdr串流
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 在电脑与 Steam Deck 上免登录索尼云端、支持 HDR 与自适应扳机的开源 PS5 / PS4 远程串流客户端
+  en: Open-source PlayStation 5 and PS4 Remote Play client supporting HDR and DualSense haptics
+description:
+  zh: 索尼官方 Remote Play 客户端不仅限制多、不支持 Linux/Steam Deck，还经常因为外网连不上 PSN 就不让在自家客厅局域网串流。chiaki-ng 是 GPL-3.0 开源的第三方串流神器，支持纯局域网唤醒直连、HDR 高动态范围画面与 DualSense 手柄完整震动反馈。
+  en: A GPL-3.0 PlayStation Remote Play client for Windows, macOS, Linux and Steam Deck offering higher bitrates, HDR streaming, DualSense adaptive triggers and offline LAN connection.

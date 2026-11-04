@@ -1,0 +1,36 @@
+name: Logisim-evolution
+accent: '#16A34A'
+initials: LE
+category: learning
+price: free
+license: GPL-3.0
+website: https://github.com/logisim-evolution/logisim-evolution
+download: https://github.com/logisim-evolution/logisim-evolution/releases
+repo: https://github.com/logisim-evolution/logisim-evolution
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 数字电路
+  - 计算机组成原理
+  - cpu设计
+  - 仿真
+  - 教学
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 学《计算机组成原理》必装的开源数字逻辑电路画板，能从与非门一步步拼出整颗 CPU
+  en: Educational open-source digital logic circuit designer and simulator with chronograms and FPGA export
+description:
+  zh: 全球高校计算机组成原理与数字逻辑课程广泛采用的 GPL-3.0 开源电路仿真软件。从最基础的 AND / OR / NOT 逻辑门开始拖拽连线，实时看到高低电平信号流动，一步步搭建出加法器、ALU、寄存器堆乃至完整的 RISC-V 处理器，还支持时序波形图与导出到真实 FPGA 开发板。
+  en: A GPL-3.0 educational digital logic simulator maintained by European universities. Wire logic gates, flip-flops, RAM and ALUs into complete working CPUs, inspect timing chronograms and synthesize designs to FPGA boards.

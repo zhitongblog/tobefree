@@ -1,0 +1,35 @@
+name: massCode
+accent: '#0EA5E9'
+initials: MC
+category: productivity
+price: free
+license: AGPL-3.0
+website: https://masscode.io
+download: https://masscode.io/#download
+repo: https://github.com/massCodeIO/massCode
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 代码片段
+  - snippet
+  - 笔记
+  - 程序员
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 专为程序员打造的开源离线代码片段（Snippets）管理工具
+  en: Free and open-source code snippets manager for developers with multi-fragment tabs
+description:
+  zh: 开源跨平台的本地代码片段管理桌面软件。支持多级文件夹、标签、每个片段内分多个 Tab（例如把 HTML、CSS、JS 存在同一条记录里）、600+ 语言语法高亮以及 Markdown 实时预览，数据以本地 JSON 存储，可随时配合网盘或 Git 同步。
+  en: An open-source desktop snippet manager featuring multi-level folders, tags, multi-tabbed fragments per snippet, 600+ language grammars and local storage you can sync via Git or cloud drives.

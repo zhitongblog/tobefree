@@ -1,0 +1,30 @@
+name: WizTree
+accent: '#16A34A'
+initials: WT
+category: utility
+price: free
+license: Freeware (Personal)
+website: https://diskanalyzer.com
+download: https://diskanalyzer.com/download
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 磁盘分析
+  - 空间清理
+  - windows
+  - 极速
+platforms:
+  - windows
+badges:
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 直接读取 NTFS 主文件表，几秒钟扫完几 TB 硬盘的极速空间分析器
+  en: The fastest disk space analyzer for Windows — scans whole TB drives in seconds via NTFS MFT
+description:
+  zh: Windows 下最快的磁盘空间占用分析工具（个人免费、无广告）。不同于传统工具逐个文件夹递归遍历，WizTree 直接读取 NTFS 分区底层的主文件表（MFT），几秒钟就能生成直观的方块树图（Treemap），瞬间揪出吃满 C 盘的元凶。
+  en: Instead of walking directories file by file, WizTree reads the NTFS Master File Table (MFT) directly from disk, rendering a visual treemap of multi-terabyte drives in seconds so you can spot space hogs instantly.

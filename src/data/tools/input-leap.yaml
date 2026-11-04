@@ -1,0 +1,36 @@
+name: Input Leap
+accent: '#0284C7'
+initials: IL
+category: remote
+price: free
+license: GPL-2.0
+website: https://github.com/input-leap/input-leap
+download: https://github.com/input-leap/input-leap/releases
+repo: https://github.com/input-leap/input-leap
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 一套键鼠
+  - kvm
+  - barrier继承
+  - 多电脑协同
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 著名开源键鼠共享软件 Barrier 原班主力开发者维护的现代正统续作
+  en: Open-source software KVM switch to share one mouse and keyboard across multiple computers
+description:
+  zh: 由经典软件 Barrier 的核心维护者们创建的 GPL-2.0 正统演进项目。桌上同时摆着 Windows 台式机、MacBook 和 Linux 主机时，不需要买硬件 KVM 切换器，鼠标直接滑出屏幕边缘就能无缝移到另一台电脑上打字和共享剪贴板，全程局域网离线运行。
+  en: Maintained by the developers behind Barrier, Input Leap turns multiple PCs, Macs and Linux boxes on your desk into a single workspace controlled by one mouse and keyboard over your local network.

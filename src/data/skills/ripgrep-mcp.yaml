@@ -1,0 +1,34 @@
+kind: mcp
+name: ripgrep MCP
+accent: '#059669'
+initials: RG
+license: MIT
+website: https://github.com/mcollina/mcp-ripgrep
+repo: https://github.com/mcollina/mcp-ripgrep
+install: npx -y mcp-ripgrep
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 代码检索
+  - ripgrep
+  - 极速搜索
+  - 本地文件
+clients:
+  - Claude Desktop
+  - Claude Code
+  - Cursor
+  - Any MCP client
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Node.js 核心委员编写的 ripgrep 极速本地文件与代码搜索 MCP 服务
+  en: Expose blazing-fast local ripgrep searches to Claude Desktop and any MCP client
+description:
+  zh: 由 Node.js 技术指导委员会成员 Matteo Collina 开源的轻量级 MCP 服务器。让 Claude Desktop 等原本没有内置高速正则搜代码能力的客户端，直接调用本机 `rg` 命令在毫秒间搜遍整个工程目录。
+  en: Created by Node.js TSC member Matteo Collina, this MIT-licensed MCP server gives Claude Desktop and other MCP clients direct access to local `ripgrep` searches.

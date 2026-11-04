@@ -16,7 +16,28 @@ criteria:
     - Works well on Windows with clear install and uninstall paths.
     - Useful for new PC setup or repeated daily work.
     - Ad-free, unbundled and offline-capable tools are prioritized.
-tools: [7-zip, everything, powertoys, sharex, sumatra-pdf, vlc, libreoffice, onlyoffice-desktop-editors, bitwarden, keepassxc, obs-studio, rufus, ventoy, winscp, notepad-plus-plus]
+tools:
+  - 7-zip
+  - everything
+  - powertoys
+  - sharex
+  - sumatra-pdf
+  - vlc
+  - libreoffice
+  - onlyoffice-desktop-editors
+  - bitwarden
+  - keepassxc
+  - obs-studio
+  - rufus
+  - ventoy
+  - winscp
+  - notepad-plus-plus
+  - wiztree
+  - trafficmonitor
+  - bulk-crap-uninstaller
+  - quicklook
+  - ear-trumpet
+  - ab-download-manager
 skills: []
 faq:
   zh:

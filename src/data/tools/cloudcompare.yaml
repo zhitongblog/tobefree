@@ -1,0 +1,36 @@
+name: CloudCompare
+accent: '#059669'
+initials: CC
+category: cad
+price: free
+license: GPL-2.0
+website: https://www.cloudcompare.org
+download: https://www.cloudcompare.org/release/
+repo: https://github.com/CloudCompare/CloudCompare
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 激光雷达
+  - 三维点云
+  - 测绘
+  - 逆向工程
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 激光雷达（LiDAR）与三维扫描领域的开源工业标准点云处理与比对软件
+  en: Open-source 3D point cloud and triangular mesh processing software for LiDAR and 3D scanning
+description:
+  zh: 工业测绘、古建数字化与逆向工程领域大名鼎鼎的 GPL 开源点云软件。能够轻松加载并流畅旋转上亿个点的激光雷达（LiDAR）点云数据，执行两次扫描之间的形变偏差色谱比对、ICP 自动配准与地面滤波。
+  en: The industry-standard GPL-2.0 software for inspecting, registering and comparing dense 3D point clouds and LiDAR scans containing hundreds of millions of points.

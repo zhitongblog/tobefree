@@ -1,0 +1,37 @@
+name: age
+accent: '#4F46E5'
+initials: AG
+category: privacy
+price: free
+license: BSD-3-Clause
+website: https://age-encryption.org
+download: https://github.com/FiloSottile/age/releases
+repo: https://github.com/FiloSottile/age
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 文件加密
+  - gpg替代
+  - cli
+  - ssh密钥
+  - 现代密码学
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 由知名密码学家设计的现代命令行文件加密工具，支持直接用你的 GitHub SSH 公钥加密
+  en: A simple, modern and secure file encryption CLI tool that replaces complex GPG flags
+description:
+  zh: 由前 Google / Cloudflare 密码学负责人 Filippo Valsorda 设计的 BSD 开源命令行加密工具。彻底抛弃了 GPG 历史包袱沉重的配置文件与过期算法，没有任何复杂选项，甚至支持直接指定别人的现有 SSH 公钥（`~/.ssh/id_ed25519.pub`）来加密备份文件。
+  en: Designed by cryptographer Filippo Valsorda to replace GPG for file encryption. Features zero configuration files, explicit modern primitives, and native support for encrypting files directly to standard SSH keys.

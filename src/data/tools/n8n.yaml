@@ -1,0 +1,35 @@
+name: n8n
+accent: '#EA580C'
+initials: N8
+category: selfhosted
+price: freemium
+license: Sustainable Use License
+website: https://n8n.io
+download: https://docs.n8n.io/hosting/
+repo: https://github.com/n8n-io/n8n
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 自动化
+  - 工作流
+  - zapier替代
+  - ai-agent
+  - 自建
+platforms:
+  - web
+  - linux
+  - macos
+  - windows
+badges:
+  - no-ads
+  - no-tracking
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 可免费自建的 Zapier 强力替代品，内置 400+ 集成节点与本地 AI 工作流
+  en: Self-hostable workflow automation platform with 400+ integrations and native AI agent nodes
+description:
+  zh: 全球最受欢迎的自托管工作流自动化平台。在可视化画布上把 Webhook、定时任务、数据库、飞书/Telegram/Slack 通知、自定义 JS/Python 代码以及本地 Ollama 大模型串联成全自动流水线，个人与内部业务使用 Docker 自建完全免费且不限执行次数。
+  en: A node-based workflow automation tool that lets you wire webhooks, cron jobs, databases, chat apps, custom JS/Python code and local LLMs together. Free for self-hosting on your own server with unlimited workflow executions.

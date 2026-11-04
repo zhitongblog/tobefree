@@ -1,0 +1,37 @@
+name: Unciv
+accent: '#D97706'
+initials: UC
+category: gaming
+price: free
+license: MPL-2.0
+website: https://github.com/yairm210/Unciv
+download: https://github.com/yairm210/Unciv/releases
+repo: https://github.com/yairm210/Unciv
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 文明5
+  - 4x策略
+  - 回合制
+  - 开源游戏
+  - 秒开
+platforms:
+  - windows
+  - macos
+  - linux
+  - android
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 安装包仅 20MB 却完整重现《文明 5》全套科技树、政策与模组生态的开源 4X 神作
+  en: Open-source Android and desktop remake of Civilization V in a tiny, fast 20MB package
+description:
+  zh: 用 Kotlin 编写的 MPL-2.0 开源 4X 历史策略游戏。它把让人通宵达旦的《文明 5（Civilization V）》全部核心规则（科技树、社会政策、宗教、间谍、城邦与奇观）浓缩进一个 20MB 的像素风轻量包里，后期几百个单位过回合依然不到一秒，自带完整中文与一健下载上百个大型 Mod。
+  en: An MPL-2.0 open-source remake of Sid Meier’s Civilization V. Packs the entire tech tree, social policies, diplomacy and modding ecosystem into a 20MB app where late-game AI turns finish in a split second.

@@ -1,0 +1,36 @@
+name: PDF Arranger
+accent: '#DC2626'
+initials: PA
+category: office
+price: free
+license: GPL-3.0
+website: https://github.com/pdfarranger/pdfarranger
+download: https://github.com/pdfarranger/pdfarranger/releases
+repo: https://github.com/pdfarranger/pdfarranger
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - pdf
+  - pdf合并
+  - pdf拆分
+  - 页面排序
+  - 离线
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 像在桌面上摆扑克牌一样直观拖拽合并、拆分、旋转和裁剪 PDF 页面的小工具
+  en: A small open-source desktop app to merge, split, rotate, crop and rearrange PDF pages visually
+description:
+  zh: 基于 pikepdf 的轻量级 GPL-3.0 开源桌面软件。很多时候你只是想把两份 PDF 拼在一起、删掉其中几页空白页或者把扫倒了的一页转正，用 PDF Arranger 直接在缩略图网格里鼠标拖拽就能搞定，几秒导出且绝无水印。
+  en: A lightweight GPL-3.0 desktop utility built on pikepdf. Drop multiple PDFs into a visual thumbnail grid, drag pages around to reorder, delete blank pages, rotate scans or crop margins, and save instantly offline with no watermarks.

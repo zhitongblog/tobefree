@@ -1,0 +1,36 @@
+name: MeshLab
+accent: '#4F46E5'
+initials: ML
+category: cad
+price: free
+license: GPL-3.0
+website: https://www.meshlab.net
+download: https://www.meshlab.net/#download
+repo: https://github.com/cnr-isti-vclab/meshlab
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 3d打印
+  - 网格修复
+  - 点云处理
+  - stl修复
+  - 三维扫描
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 3D 打印与三维扫描玩家必备的开源三角网格修复、减面、补洞与点云重建神器
+  en: The open-source system for processing, cleaning, healing and converting 3D triangular meshes
+description:
+  zh: 由意大利国家研究委员会视觉计算实验室研发的 GPL-3.0 开源三维网格处理系统。当你从网上下载的 STL 模型有破面、法线反转无法切片，或者三维扫描仪扫出来的几千万面点云需要重建、平滑和减面时，MeshLab 是行业里最权威的免费手术刀。
+  en: Developed by the ISTI-CNR Visual Computing Lab under GPL-3.0, MeshLab is the go-to tool for cleaning, healing, remeshing, simplifying and inspecting dense 3D triangular meshes and 3D scan point clouds before 3D printing.

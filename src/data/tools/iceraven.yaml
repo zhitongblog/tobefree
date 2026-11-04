@@ -1,0 +1,32 @@
+name: Iceraven Browser
+accent: '#4F46E5'
+initials: IR
+category: browser
+price: free
+license: MPL-2.0
+website: https://github.com/fork-maintainers/iceraven-browser
+download: https://github.com/fork-maintainers/iceraven-browser/releases
+repo: https://github.com/fork-maintainers/iceraven-browser
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 安卓浏览器
+  - firefox分支
+  - 扩展支持
+  - about-config
+  - 开源
+platforms:
+  - android
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 解锁完整 about:config 高级设置与海量扩展支持的安卓 Firefox 开源强化分支
+  en: An open-source Android browser forked from Firefox with broad add-on support and about:config unlocked
+description:
+  zh: 基于 Mozilla Android 组件构建的开源手机浏览器。针对官方移动版 Firefox 正式版隐藏 `about:config` 及部分高级选项的限制，Iceraven 默认开放完整底层配置、剥离遥测统计，并提供极其丰富的自定义扩展安装列表。
+  en: An MPL-2.0 Android browser based on Mozilla Fenix that unlocks `about:config` in stable builds, strips telemetry and exposes an expanded catalog of browser extensions and UI tweaks.

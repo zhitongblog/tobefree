@@ -1,0 +1,33 @@
+name: EarTrumpet
+accent: '#4F46E5'
+initials: ET
+category: utility
+price: free
+license: MPL-2.0
+website: https://eartrumpet.app
+download: https://github.com/File-New-Project/EarTrumpet/releases
+repo: https://github.com/File-New-Project/EarTrumpet
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 音量控制
+  - 音频路由
+  - 任务栏
+  - windows
+  - 开源
+platforms:
+  - windows
+badges:
+  - open-source
+  - offline
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 前微软工程师开源的 Windows 分应用音量调节与声道切换小工具
+  en: Powerful per-app volume control and audio device routing for Windows
+description:
+  zh: 由前微软工程师参与开发的开源 Windows 音量管理器。点击任务栏小喇叭即可直接拉动每个正在发声软件的独立音量滑块，或者右键把游戏声音切到耳机、把音乐切到音箱，完美填补 Windows 原生音量面板的痛点。
+  en: An open-source volume control app for Windows built by former Microsoft engineers. Adjust individual app volumes right from the system tray and move specific apps between headphones and speakers with two clicks.

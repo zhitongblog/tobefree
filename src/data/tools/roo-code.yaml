@@ -1,0 +1,35 @@
+name: Roo Code
+accent: '#6366F1'
+initials: RC
+category: ai
+price: free
+license: Apache-2.0
+website: https://roocode.com
+download: https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline
+repo: https://github.com/RooVetGit/Roo-Code
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - ai编程
+  - vscode
+  - agent
+  - cline
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 支持多角色模式切换的开源 VS Code 自主编程 Agent
+  en: Open-source autonomous coding agent for VS Code with customizable Architect/Code/Debug modes
+description:
+  zh: 源于 Cline 生态并高速演进的 Apache-2.0 开源编程智能体扩展。独创 Architect（架构设计）、Code（编码）、Ask（问答）、Debug（排错）及自定义角色模式，可按模式绑定不同成本的模型（含本地 Ollama 或自带 API Key），插件本身完全免费无抽成。
+  en: An Apache-2.0 autonomous coding agent extension for VS Code featuring customizable modes (Architect, Code, Ask, Debug). Assign different local or BYOK models to each role with zero platform markup or mandatory account.

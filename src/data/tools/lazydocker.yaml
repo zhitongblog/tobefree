@@ -1,0 +1,36 @@
+name: Lazydocker
+accent: '#0284C7'
+initials: LD
+category: dev
+price: free
+license: MIT
+website: https://github.com/jesseduffield/lazydocker
+download: https://github.com/jesseduffield/lazydocker/releases
+repo: https://github.com/jesseduffield/lazydocker
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - docker
+  - tui
+  - 终端
+  - 容器
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Lazygit 作者出品的 Docker 终端管理面板，一个界面看全日志、容器与占用
+  en: The lazier way to manage everything Docker from a single terminal UI
+description:
+  zh: 与 Lazygit 出自同一作者的 MIT 开源终端工具。无需记一长串 docker 与 docker-compose 命令，在终端里用键盘或鼠标就能实时查看容器状态、实时日志流、CPU/内存折线图，并一键重启、清理悬空镜像或进入容器 Shell。
+  en: An MIT-licensed terminal UI for Docker and docker-compose by the creator of Lazygit. Inspect container state, tail logs, watch live CPU/memory graphs, prune unused images and jump into shells with single keystrokes.

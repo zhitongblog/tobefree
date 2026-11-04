@@ -1,0 +1,36 @@
+name: Maxima
+accent: '#2563EB'
+initials: MX
+category: learning
+price: free
+license: GPL-2.0
+website: https://maxima.sourceforge.io
+download: https://sourceforge.net/projects/maxima/files/
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-03'
+tags:
+  - 符号计算
+  - 微积分
+  - 计算机代数
+  - mathematica替代
+  - 数学
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - offline
+  - cross-platform
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 脱胎于麻省理工学院 MACSYMA 的开源符号计算系统，免费做微积分推导与方程求解
+  en: Open-source computer algebra system descended from MIT’s MACSYMA for symbolic math and calculus
+description:
+  zh: 源自 MIT 传奇计算机代数系统 MACSYMA 的 GPL 开源数学软件（通常自带图形界面 wxMaxima）。不同于只算浮点数的计算器，Maxima 擅长符号代数：求不定积分、泰勒展开、解微分方程、矩阵特征值推导与三维函数绘图，是 Mathematica 与 Maple 的轻量离线平替。
+  en: A GPL-2.0 Computer Algebra System (bundled with the wxMaxima GUI) capable of symbolic differentiation, integration, Taylor series, Laplace transforms, ordinary differential equations and 2D/3D plotting offline.
