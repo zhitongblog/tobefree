@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 在 Audacity 被商业公司收购并尝试引入遥测与云服务功能后，由开源社区分叉维护的纯净多轨音频录制与编辑软件。彻底移除了所有联网追踪、崩溃上报与云端推销代码，百分之百保留你熟悉的波形剪辑、降噪与 VST 插件支持。
   en: Forked by the community when Audacity introduced telemetry after its corporate acquisition, Tenacity delivers the exact multi-track waveform editing, noise reduction and plugin support you know, stripped of all networking and tracking.
+review:
+  zh: |
+    Tenacity 是 开源工具 领域中一款值得长期留存的代表作。在 Audacity 被商业公司收购并尝试引入遥测与云服务功能后，由开源社区分叉维护的纯净多轨音频录制与编辑软件。彻底移除了所有联网追踪、崩溃上报与云端推销代码，百分之百保留你熟悉的波形剪辑、降噪与 VST 插件支持。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Tenacity is a standout choice in software tools. Forked by the community when Audacity introduced telemetry after its corporate acquisition, Tenacity delivers the exact multi-track waveform editing, noise reduction and plugin support you know, stripped of all networking and tracking.
+
+    From a user-freedom perspective, it is released under the GPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 用可移植 C 语言编写的零运行时依赖命令行 JSON 处理器。无论是把接口返回的一坨压缩 JSON 高亮美化，还是用一行表达式从几百兆日志里抽取出特定字段并重组结构，jq 都是全球开发者脚本里的标准基建。
   en: Written in portable C with zero runtime dependencies, jq lets you slice, filter, map and transform structured JSON data with the same ease that sed, awk and grep give you for plain text.
+review:
+  zh: |
+    jq 是 开源工具 领域中一款值得长期留存的代表作。用可移植 C 语言编写的零运行时依赖命令行 JSON 处理器。无论是把接口返回的一坨压缩 JSON 高亮美化，还是用一行表达式从几百兆日志里抽取出特定字段并重组结构，jq 都是全球开发者脚本里的标准基建。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    jq is a standout choice in software tools. Written in portable C with zero runtime dependencies, jq lets you slice, filter, map and transform structured JSON data with the same ease that sed, awk and grep give you for plain text.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 轻快的 Windows 源码编辑器与记事本替代品，支持约 80 种语言的语法高亮、代码折叠与多标签编辑。基于 Scintilla，启动快、占用小，永久免费开源。
   en: A fast Windows source-code editor and Notepad replacement with syntax highlighting for around 80 languages, code folding and tabbed editing. Built on Scintilla — quick to launch, light on resources, free and open source forever.
+review:
+  zh: |
+    Notepad++ 是 开源工具 领域中一款值得长期留存的代表作。轻快的 Windows 源码编辑器与记事本替代品，支持约 80 种语言的语法高亮、代码折叠与多标签编辑。基于 Scintilla，启动快、占用小，永久免费开源。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Notepad++ is a standout choice in software tools. A fast Windows source-code editor and Notepad replacement with syntax highlighting for around 80 languages, code folding and tabbed editing. Built on Scintilla — quick to launch, light on resources, free and open source forever.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

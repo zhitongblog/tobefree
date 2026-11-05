@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 将标准 SQL 查询与 Jev 类型化语义评估结合的命令行与数据库辅助工具。先用 PostgreSQL 索引完成结构化粗筛，再对候选行并发执行语义分类或相关性打分，无需折腾 pgvector 也能实现精准的混合检索。
   en: A CLI and query helper that pairs PostgreSQL filtering with concurrent Jev semantic scoring. Narrow rows with standard SQL indexes first, then rank or classify candidates by meaning without managing vector embeddings.
+review:
+  zh: |
+    JevQL 是 开源工具 领域中一款值得长期留存的代表作。将标准 SQL 查询与 Jev 类型化语义评估结合的命令行与数据库辅助工具。先用 PostgreSQL 索引完成结构化粗筛，再对候选行并发执行语义分类或相关性打分，无需折腾 pgvector 也能实现精准的混合检索。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    JevQL is a standout choice in software tools. A CLI and query helper that pairs PostgreSQL filtering with concurrent Jev semantic scoring. Narrow rows with standard SQL indexes first, then rank or classify candidates by meaning without managing vector embeddings.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

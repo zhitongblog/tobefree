@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 由经典软件 Barrier 的核心维护者们创建的 GPL-2.0 正统演进项目。桌上同时摆着 Windows 台式机、MacBook 和 Linux 主机时，不需要买硬件 KVM 切换器，鼠标直接滑出屏幕边缘就能无缝移到另一台电脑上打字和共享剪贴板，全程局域网离线运行。
   en: Maintained by the developers behind Barrier, Input Leap turns multiple PCs, Macs and Linux boxes on your desk into a single workspace controlled by one mouse and keyboard over your local network.
+review:
+  zh: |
+    Input Leap 是 开源工具 领域中一款值得长期留存的代表作。由经典软件 Barrier 的核心维护者们创建的 GPL-2.0 正统演进项目。桌上同时摆着 Windows 台式机、MacBook 和 Linux 主机时，不需要买硬件 KVM 切换器，鼠标直接滑出屏幕边缘就能无缝移到另一台电脑上打字和共享剪贴板，全程局域网离线运行。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Input Leap is a standout choice in software tools. Maintained by the developers behind Barrier, Input Leap turns multiple PCs, Macs and Linux boxes on your desk into a single workspace controlled by one mouse and keyboard over your local network.
+
+    From a user-freedom perspective, it is released under the GPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

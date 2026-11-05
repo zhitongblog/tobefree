@@ -5,6 +5,7 @@ import SkillCard from '../../../components/SkillCard.astro';
 import { SITE, badgeById, skillKindById, pick, type Locale } from '../../../consts';
 import { locales, useTranslations, localizedPath, type Lang } from '../../../i18n/utils';
 import { getAllSkills, relatedSkills } from '../../../lib/skills';
+import { getAllCollectionPages } from '../../../lib/collections';
 
 export async function getStaticPaths() {
   const items = await getAllSkills();
@@ -23,6 +24,8 @@ const d = skill.data;
 
 const all = await getAllSkills();
 const rel = relatedSkills(all, skill);
+const allCollections = await getAllCollectionPages();
+const inCollections = allCollections.filter((col) => col.data.skills.includes(skill.id));
 const kind = skillKindById[d.kind];
 const initials = d.initials ?? d.name.replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase();
 const reviewHtml = d.review ? marked.parse(pick(d.review, loc), { async: false }) : '';
@@ -30,8 +33,8 @@ const copyLabel = lang === 'zh' ? '复制' : 'Copy';
 const copiedLabel = lang === 'zh' ? '已复制' : 'Copied';
 const pageTitle =
   lang === 'zh'
-    ? `${d.name} 安装与使用`
-    : `${d.name} Install and Review`;
+    ? `${d.name}：${pick(d.tagline, loc)}`
+    : `${d.name}: ${pick(d.tagline, loc)}`;
 const pageDescription =
   lang === 'zh'
     ? `${d.name} 是一个免费开源的 ${kind ? pick(kind.label, loc) : d.kind}：${pick(d.description, loc)}`
@@ -46,7 +49,11 @@ const jsonLd = [
     description: pick(d.description, loc),
     applicationCategory: 'DeveloperApplication',
     url: d.website,
+    ...(d.repo ? { sameAs: d.repo } : {}),
     ...(d.license ? { license: d.license } : {}),
+    featureList: d.badges.map((b) => badgeById[b] ? pick(badgeById[b].label, loc) : b),
+    datePublished: d.added,
+    inLanguage: lang === 'zh' ? 'zh-CN' : 'en-US',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     isAccessibleForFree: true,
   },
@@ -137,6 +144,16 @@ const jsonLd = [
             <>
               <dt>{t('tool.tags')}</dt>
               <dd class="tags">{d.tags.map((tag) => <span>#{tag}</span>)}</dd>
+            </>
+          )}
+          {inCollections.length > 0 && (
+            <>
+              <dt>{lang === 'zh' ? '入选专题' : 'Collections'}</dt>
+              <dd class="tags">
+                {inCollections.map((col) => (
+                  <a href={localizedPath(lang, `collections/${col.id}`)}>{pick(col.data.title, loc)}</a>
+                ))}
+              </dd>
             </>
           )}
         </dl>

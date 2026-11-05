@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 基于 Element 代码库持续维护的开源 Matrix 客户端。修复了许多普通用户觉得 Element 别扭的交互细节：支持把私聊和群聊合并在同一个紧凑的时间流列表里、更舒服的气泡样式与标记未读体验。
   en: A community fork of Element that adds a unified single-list inbox view (mixing direct messages and group rooms chronologically), customizable message bubbles and power-user tweaks.
+review:
+  zh: |
+    SchildiChat 是 开源工具 领域中一款值得长期留存的代表作。基于 Element 代码库持续维护的开源 Matrix 客户端。修复了许多普通用户觉得 Element 别扭的交互细节：支持把私聊和群聊合并在同一个紧凑的时间流列表里、更舒服的气泡样式与标记未读体验。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、Android、Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    SchildiChat is a standout choice in software tools. A community fork of Element that adds a unified single-list inbox view (mixing direct messages and group rooms chronologically), customizable message bubbles and power-user tweaks.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, Android, Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -31,3 +31,12 @@ tagline:
 description:
   zh: 由前微软工程师参与开发的开源 Windows 音量管理器。点击任务栏小喇叭即可直接拉动每个正在发声软件的独立音量滑块，或者右键把游戏声音切到耳机、把音乐切到音箱，完美填补 Windows 原生音量面板的痛点。
   en: An open-source volume control app for Windows built by former Microsoft engineers. Adjust individual app volumes right from the system tray and move specific apps between headphones and speakers with two clicks.
+review:
+  zh: |
+    EarTrumpet 是 开源工具 领域中一款值得长期留存的代表作。由前微软工程师参与开发的开源 Windows 音量管理器。点击任务栏小喇叭即可直接拉动每个正在发声软件的独立音量滑块，或者右键把游戏声音切到耳机、把音乐切到音箱，完美填补 Windows 原生音量面板的痛点。
+
+    在“真免费、少打扰”的维度上，它采用 MPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    EarTrumpet is a standout choice in software tools. An open-source volume control app for Windows built by former Microsoft engineers. Adjust individual app volumes right from the system tray and move specific apps between headphones and speakers with two clicks.
+
+    From a user-freedom perspective, it is released under the MPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

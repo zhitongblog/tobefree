@@ -30,3 +30,12 @@ tagline:
 description:
   zh: 正是这款 GPL-3.0 安卓应用发明了如今席卷整个 XMPP 生态的 OMEMO 端到端加密扩展，并被德国联邦信息安全局（BSI）选作安全通讯方案。后台常驻极度省电，支持端到端加密群聊、加密文件与音视频通话，在 F-Droid 与 GitHub 完全免费。
   en: The GPL-3.0 Android XMPP client that pioneered OMEMO end-to-end encryption. Engineered for minimal battery impact, encrypted group chats and encrypted voice/video calls (available free via F-Droid and GitHub).
+review:
+  zh: |
+    Conversations 是 开源工具 领域中一款值得长期留存的代表作。正是这款 GPL-3.0 安卓应用发明了如今席卷整个 XMPP 生态的 OMEMO 端到端加密扩展，并被德国联邦信息安全局（BSI）选作安全通讯方案。后台常驻极度省电，支持端到端加密群聊、加密文件与音视频通话，在 F-Droid 与 GitHub 完全免费。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Android 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Conversations is a standout choice in software tools. The GPL-3.0 Android XMPP client that pioneered OMEMO end-to-end encryption. Engineered for minimal battery impact, encrypted group chats and encrypted voice/video calls (available free via F-Droid and GitHub).
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Android, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

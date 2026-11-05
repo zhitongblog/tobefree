@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 用 Flutter 编写的开源跨平台音乐播放器。不捆绑沉重的 Electron 浏览器内核，内存占用极低，支持歌单曲库管理、桌面端与移动端逐字同步歌词以及无广告纯净播放体验。
   en: A lightweight Flutter-based open-source music client across desktop and mobile featuring time-synced lyrics, playlist management and an ad-free, telemetry-free listening experience.
+review:
+  zh: |
+    Spotube 是 开源工具 领域中一款值得长期留存的代表作。用 Flutter 编写的开源跨平台音乐播放器。不捆绑沉重的 Electron 浏览器内核，内存占用极低，支持歌单曲库管理、桌面端与移动端逐字同步歌词以及无广告纯净播放体验。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-4-Clause 开源协议，代码公开透明、可独立审计，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、Android、iOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Spotube is a standout choice in software tools. A lightweight Flutter-based open-source music client across desktop and mobile featuring time-synced lyrics, playlist management and an ad-free, telemetry-free listening experience.
+
+    From a user-freedom perspective, it is released under the BSD-4-Clause open-source license with publicly auditable code, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, Android, iOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

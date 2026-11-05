@@ -12,6 +12,7 @@ import {
 } from '../../../consts';
 import { locales, useTranslations, localizedPath, type Lang } from '../../../i18n/utils';
 import { getAllTools, related } from '../../../lib/tools';
+import { getAllCollectionPages } from '../../../lib/collections';
 
 export async function getStaticPaths() {
   const tools = await getAllTools();
@@ -27,14 +28,16 @@ const d = tool.data;
 
 const all = await getAllTools();
 const rel = related(all, tool);
+const allCollections = await getAllCollectionPages();
+const inCollections = allCollections.filter((col) => col.data.tools.includes(tool.id));
 
 const cat = categoryById[d.category];
 const initials = d.initials ?? d.name.replace(/[^A-Za-z0-9一-龥]/g, '').slice(0, 2).toUpperCase();
 const reviewHtml = d.review ? marked.parse(pick(d.review, loc), { async: false }) : '';
 const pageTitle =
   lang === 'zh'
-    ? `${d.name} 免费软件推荐`
-    : `${d.name} Free Software Review`;
+    ? `${d.name}：${pick(d.tagline, loc)}`
+    : `${d.name}: ${pick(d.tagline, loc)}`;
 const pageDescription =
   lang === 'zh'
     ? `${d.name} 是一款${d.price === 'free' ? '免费' : '有免费版'}的${cat ? pick(cat.label, loc) : '软件工具'}：${pick(d.description, loc)}`
@@ -51,7 +54,12 @@ const jsonLd = [
     applicationCategory: cat ? pick(cat.label, 'en') : 'Utility',
     operatingSystem: d.platforms.join(', '),
     url: d.website,
+    ...(d.download ? { downloadUrl: d.download } : {}),
+    ...(d.repo ? { sameAs: d.repo } : {}),
     ...(d.license ? { license: d.license } : {}),
+    featureList: d.badges.map((b) => badgeById[b] ? pick(badgeById[b].label, loc) : b),
+    datePublished: d.added,
+    inLanguage: lang === 'zh' ? 'zh-CN' : 'en-US',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     isAccessibleForFree: true,
   },
@@ -60,7 +68,7 @@ const jsonLd = [
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: t('nav.home'), item: abs(localizedPath(lang, '')) },
-      { '@type': 'ListItem', position: 2, name: t('nav.tools'), item: abs(localizedPath(lang, 'tools')) },
+      { '@type': 'ListItem', position: 2, name: cat ? pick(cat.label, loc) : t('nav.tools'), item: abs(localizedPath(lang, `category/${d.category}`)) },
       { '@type': 'ListItem', position: 3, name: d.name, item: abs(localizedPath(lang, `tools/${tool.id}`)) },
     ],
   },
@@ -141,6 +149,16 @@ const jsonLd = [
             <>
               <dt>{t('tool.tags')}</dt>
               <dd class="tags">{d.tags.map((tag) => <span>#{tag}</span>)}</dd>
+            </>
+          )}
+          {inCollections.length > 0 && (
+            <>
+              <dt>{lang === 'zh' ? '入选专题' : 'Collections'}</dt>
+              <dd class="tags">
+                {inCollections.map((col) => (
+                  <a href={localizedPath(lang, `collections/${col.id}`)}>{pick(col.data.title, loc)}</a>
+                ))}
+              </dd>
             </>
           )}
         </dl>

@@ -34,3 +34,12 @@ tagline:
 description:
   zh: MPL-2.0 开源的 Game Boy Advance（同时向下兼容 GB / GBC）模拟器标杆。早已全面取代年代久远的 VisualBoyAdvance（VBA），启动秒开、还原度极高，内置最多 4 台虚拟掌机同屏连接通信线交换宝可梦、金手指、即时存档与太阳光传感器模拟。
   en: The modern MPL-2.0 standard for Game Boy Advance emulation (also playing GB and GBC titles). Far more accurate and secure than legacy VBA builds, with built-in 4-player link cable emulation, solar sensor support and rewinds.
+review:
+  zh: |
+    mGBA 是 开源工具 领域中一款值得长期留存的代表作。MPL-2.0 开源的 Game Boy Advance（同时向下兼容 GB / GBC）模拟器标杆。早已全面取代年代久远的 VisualBoyAdvance（VBA），启动秒开、还原度极高，内置最多 4 台虚拟掌机同屏连接通信线交换宝可梦、金手指、即时存档与太阳光传感器模拟。
+
+    在“真免费、少打扰”的维度上，它采用 MPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    mGBA is a standout choice in software tools. The modern MPL-2.0 standard for Game Boy Advance emulation (also playing GB and GBC titles). Far more accurate and secure than legacy VBA builds, with built-in 4-player link cable emulation, solar sensor support and rewinds.
+
+    From a user-freedom perspective, it is released under the MPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

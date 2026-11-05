@@ -35,3 +35,12 @@ tagline:
 description:
   zh: Apache-2.0 开源的现代 2D 平面设计工具。将传统 Illustrator 式的图层画布与 Blender 式的「非破坏性节点图（Node Graph）」合二为一，每一次绘画、布尔运算和滤镜都是节点管线的一步，随时可以回退调整参数，打开浏览器即可离线运行。
   en: An Apache-2.0 2D design engine written in Rust that marries traditional vector layers with a non-destructive procedural node graph. Runs instantly in the browser via WebAssembly with zero sign-up.
+review:
+  zh: |
+    Graphite 是 设计、图像与音视频创作 领域中一款值得长期留存的代表作。Apache-2.0 开源的现代 2D 平面设计工具。将传统 Illustrator 式的图层画布与 Blender 式的「非破坏性节点图（Node Graph）」合二为一，每一次绘画、布尔运算和滤镜都是节点管线的一步，随时可以回退调整参数，打开浏览器即可离线运行。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Graphite is a standout choice in creative design, imaging, and audio/video production. An Apache-2.0 2D design engine written in Rust that marries traditional vector layers with a non-destructive procedural node graph. Runs instantly in the browser via WebAssembly with zero sign-up.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Web browsers, Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

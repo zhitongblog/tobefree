@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 为打破 Blink（Chrome）与 WebKit 垄断而生的独立开源浏览器渲染引擎。最早由 Mozilla 发起并催生了 Rust 语言，如今在 Linux 基金会欧洲分会旗下高速复兴，利用 Rust 的内存安全与多核 GPU 并行排版，提供每日构建的轻量级体验外壳。
   en: Originally started at Mozilla and now stewarded by Linux Foundation Europe, Servo is a brand-new web browser rendering engine written in Rust to take full advantage of multi-core CPUs and GPUs.
+review:
+  zh: |
+    Servo 是 开源工具 领域中一款值得长期留存的代表作。为打破 Blink（Chrome）与 WebKit 垄断而生的独立开源浏览器渲染引擎。最早由 Mozilla 发起并催生了 Rust 语言，如今在 Linux 基金会欧洲分会旗下高速复兴，利用 Rust 的内存安全与多核 GPU 并行排版，提供每日构建的轻量级体验外壳。
+
+    在“真免费、少打扰”的维度上，它采用 MPL-2.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Servo is a standout choice in software tools. Originally started at Mozilla and now stewarded by Linux Foundation Europe, Servo is a brand-new web browser rendering engine written in Rust to take full advantage of multi-core CPUs and GPUs.
+
+    From a user-freedom perspective, it is released under the MPL-2.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

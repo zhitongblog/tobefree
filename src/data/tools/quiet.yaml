@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 连自建服务器都省了的 GPL-3.0 开源团队聊天应用（Slack / Discord 的纯 P2P 替代方案）。创建团队无需手机号或邮箱，所有文字消息与文件直接通过内嵌的 Tor 洋葱网络在团队成员各自的设备之间点对点加密同步，没有任何第三方服务器能关停或偷窥你的群组。
   en: A GPL-3.0 peer-to-peer team chat app that needs no central server at all. Messages and files sync directly between team members’ devices over embedded Tor onion services with no phone number or email sign-up.
+review:
+  zh: |
+    Quiet 是 开源工具 领域中一款值得长期留存的代表作。连自建服务器都省了的 GPL-3.0 开源团队聊天应用（Slack / Discord 的纯 P2P 替代方案）。创建团队无需手机号或邮箱，所有文字消息与文件直接通过内嵌的 Tor 洋葱网络在团队成员各自的设备之间点对点加密同步，没有任何第三方服务器能关停或偷窥你的群组。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、Android、iOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Quiet is a standout choice in software tools. A GPL-3.0 peer-to-peer team chat app that needs no central server at all. Messages and files sync directly between team members’ devices over embedded Tor onion services with no phone number or email sign-up.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, Android, iOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

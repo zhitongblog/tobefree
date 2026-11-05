@@ -34,3 +34,12 @@ tagline:
 description:
   zh: GPL-3.0 开源的老牌远程文件与云存储浏览器（官网可直接免费下载安装包）。不仅能连传统的 FTP / SFTP 服务器，还能直接管理 Cloudflare R2、AWS S3、Backblaze B2、WebDAV 与 OneDrive，并且原生内置 Cryptomator 客户端加密，上传前自动在本地把文件名和内容锁死。
   en: A GPL-3.0 file transfer client for macOS and Windows that connects equally well to SFTP servers, WebDAV shares and S3/R2 object storage buckets, featuring built-in Cryptomator client-side encryption.
+review:
+  zh: |
+    Cyberduck 是 开源工具 领域中一款值得长期留存的代表作。GPL-3.0 开源的老牌远程文件与云存储浏览器（官网可直接免费下载安装包）。不仅能连传统的 FTP / SFTP 服务器，还能直接管理 Cloudflare R2、AWS S3、Backblaze B2、WebDAV 与 OneDrive，并且原生内置 Cryptomator 客户端加密，上传前自动在本地把文件名和内容锁死。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Cyberduck is a standout choice in software tools. A GPL-3.0 file transfer client for macOS and Windows that connects equally well to SFTP servers, WebDAV shares and S3/R2 object storage buckets, featuring built-in Cryptomator client-side encryption.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

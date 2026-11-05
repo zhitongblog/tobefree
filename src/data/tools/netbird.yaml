@@ -36,3 +36,12 @@ tagline:
 description:
   zh: 基于 WireGuard 协议的 BSD 开源异地组网工具。Tailscale 虽然好用但它的官方控制平面与网页后台是闭源的；NetBird 则把客户端、管理控制端、可视化 Web 面板与信令中继（Coturn）全部开源，一条脚本就能在自己的云主机上搭起百分之百自主可控的虚拟局域网。
   en: Unlike mesh VPNs whose control planes are proprietary, NetBird open-sources both its WireGuard client and its entire management server, web dashboard and relay stack under BSD-3-Clause.
+review:
+  zh: |
+    NetBird 是 开源工具 领域中一款值得长期留存的代表作。基于 WireGuard 协议的 BSD 开源异地组网工具。Tailscale 虽然好用但它的官方控制平面与网页后台是闭源的；NetBird 则把客户端、管理控制端、可视化 Web 面板与信令中继（Coturn）全部开源，一条脚本就能在自己的云主机上搭起百分之百自主可控的虚拟局域网。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-3-Clause 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、iOS、Android、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    NetBird is a standout choice in software tools. Unlike mesh VPNs whose control planes are proprietary, NetBird open-sources both its WireGuard client and its entire management server, web dashboard and relay stack under BSD-3-Clause.
+
+    From a user-freedom perspective, it is released under the BSD-3-Clause open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, iOS, Android, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 工业测绘、古建数字化与逆向工程领域大名鼎鼎的 GPL 开源点云软件。能够轻松加载并流畅旋转上亿个点的激光雷达（LiDAR）点云数据，执行两次扫描之间的形变偏差色谱比对、ICP 自动配准与地面滤波。
   en: The industry-standard GPL-2.0 software for inspecting, registering and comparing dense 3D point clouds and LiDAR scans containing hundreds of millions of points.
+review:
+  zh: |
+    CloudCompare 是 开源工具 领域中一款值得长期留存的代表作。工业测绘、古建数字化与逆向工程领域大名鼎鼎的 GPL 开源点云软件。能够轻松加载并流畅旋转上亿个点的激光雷达（LiDAR）点云数据，执行两次扫描之间的形变偏差色谱比对、ICP 自动配准与地面滤波。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    CloudCompare is a standout choice in software tools. The industry-standard GPL-2.0 software for inspecting, registering and comparing dense 3D point clouds and LiDAR scans containing hundreds of millions of points.
+
+    From a user-freedom perspective, it is released under the GPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

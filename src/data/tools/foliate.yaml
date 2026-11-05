@@ -31,3 +31,12 @@ tagline:
 description:
   zh: 专为 Linux 桌面打造的 GPL-3.0 开源电子书阅读器。如果觉得 Calibre 自带的阅读器界面太复古，Foliate 提供了极具书卷气的双栏/滚动排版、内置词典与维基百科划词查询、高亮批注导出 Markdown 以及 OPDS 书库连接。
   en: A beautifully designed GTK4 eBook reader for Linux supporting EPUB, Mobipocket, Kindle, FB2 and CBZ. Features distraction-free typography, pop-up dictionary lookup, annotation export and OPDS catalog browsing.
+review:
+  zh: |
+    Foliate 是 开源工具 领域中一款值得长期留存的代表作。专为 Linux 桌面打造的 GPL-3.0 开源电子书阅读器。如果觉得 Calibre 自带的阅读器界面太复古，Foliate 提供了极具书卷气的双栏/滚动排版、内置词典与维基百科划词查询、高亮批注导出 Markdown 以及 OPDS 书库连接。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Foliate is a standout choice in software tools. A beautifully designed GTK4 eBook reader for Linux supporting EPUB, Mobipocket, Kindle, FB2 and CBZ. Features distraction-free typography, pop-up dictionary lookup, annotation export and OPDS catalog browsing.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -34,3 +34,12 @@ tagline:
 description:
   zh: AGPL-3.0 开源的现代企业记账与进销存软件。不同于只记流水账的个人小工具，Bigcapital 底层是严谨的会计科目表（Chart of Accounts）与复式凭证，原生支持应收应付、商品库存追踪、多币种重估与标准三大财务报表。
   en: An AGPL-3.0 self-hostable accounting system featuring a proper double-entry Chart of Accounts, inventory tracking, accounts receivable/payable and automated financial statements.
+review:
+  zh: |
+    Bigcapital 是 开源工具 领域中一款值得长期留存的代表作。AGPL-3.0 开源的现代企业记账与进销存软件。不同于只记流水账的个人小工具，Bigcapital 底层是严谨的会计科目表（Chart of Accounts）与复式凭证，原生支持应收应付、商品库存追踪、多币种重估与标准三大财务报表。
+
+    在“真免费、少打扰”的维度上，它采用 AGPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、Linux、Windows、macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Bigcapital is a standout choice in software tools. An AGPL-3.0 self-hostable accounting system featuring a proper double-entry Chart of Accounts, inventory tracking, accounts receivable/payable and automated financial statements.
+
+    From a user-freedom perspective, it is released under the AGPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Web browsers, Linux, Windows, macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

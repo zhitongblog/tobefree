@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 熱門的 LLM 应用开发与可视化工作流平台。通过拖拽节点即可把本地大模型、知识库检索（RAG）、代码执行器与外部工具串联成完整的 AI 应用或 API，支持使用 Docker Compose 在本地或内网免费自建。
   en: A visual platform for building LLM workflows, RAG pipelines and tool-using agents. Drag and drop nodes to wire local models, document retrieval and custom code into production APIs, fully self-hostable via Docker Compose.
+review:
+  zh: |
+    Dify 是 开源工具 领域中一款值得长期留存的代表作。熱門的 LLM 应用开发与可视化工作流平台。通过拖拽节点即可把本地大模型、知识库检索（RAG）、代码执行器与外部工具串联成完整的 AI 应用或 API，支持使用 Docker Compose 在本地或内网免费自建。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 (modified) 授权，核心功能对个人用户诚意开放，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、Linux、macOS、Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Dify is a standout choice in software tools. A visual platform for building LLM workflows, RAG pipelines and tool-using agents. Drag and drop nodes to wire local models, document retrieval and custom code into production APIs, fully self-hostable via Docker Compose.
+
+    From a user-freedom perspective, it is distributed under Apache-2.0 (modified) with a generous free experience, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Web browsers, Linux, macOS, Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

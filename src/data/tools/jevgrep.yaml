@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 结合传统快速文本过滤与 Jev 并发打分的命令行代码搜索工具（同时可作为 MCP Server 运行）。不需要提前给整个代码库建庞大的 Embedding 向量库，直接用自然语言提问即可按语义相关性对代码片段和 Git diff 快速重排。
   en: A command-line semantic code search utility (and MCP server) that combines fast lexical filtering with parallel Jev relevance scoring. Query your codebase in plain language and rank code chunks or diffs without maintaining a heavy embedding database.
+review:
+  zh: |
+    jevgrep 是 开源工具 领域中一款值得长期留存的代表作。结合传统快速文本过滤与 Jev 并发打分的命令行代码搜索工具（同时可作为 MCP Server 运行）。不需要提前给整个代码库建庞大的 Embedding 向量库，直接用自然语言提问即可按语义相关性对代码片段和 Git diff 快速重排。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    jevgrep is a standout choice in software tools. A command-line semantic code search utility (and MCP server) that combines fast lexical filtering with parallel Jev relevance scoring. Query your codebase in plain language and rank code chunks or diffs without maintaining a heavy embedding database.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

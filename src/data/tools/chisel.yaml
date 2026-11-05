@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 用 Go 编写的 MIT 开源单可执行文件隧道工具（服务端与客户端合二为一）。只需一条命令就能通过 HTTP/WebSocket 建立起由 SSH 协议加密的正向或反向端口转发隧道，轻松穿过严苛的企业防火墙访问内网服务。
   en: An MIT-licensed single-binary Go utility (acting as both client and server) that tunnels TCP and UDP traffic over HTTP WebSockets secured with SSH encryption.
+review:
+  zh: |
+    chisel 是 开源工具 领域中一款值得长期留存的代表作。用 Go 编写的 MIT 开源单可执行文件隧道工具（服务端与客户端合二为一）。只需一条命令就能通过 HTTP/WebSocket 建立起由 SSH 协议加密的正向或反向端口转发隧道，轻松穿过严苛的企业防火墙访问内网服务。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    chisel is a standout choice in software tools. An MIT-licensed single-binary Go utility (acting as both client and server) that tunnels TCP and UDP traffic over HTTP WebSockets secured with SSH encryption.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 持续开发超过二十年的殿堂级 GPL 开源回合制战棋游戏（《韦诺之战》）。自带完整的官方中文，包含 17 个主线长篇单人剧情战役、六大种族兵种晋升树、地形闪避与昼夜系统，游戏内直接提供完全免费的社区创意工坊下载数百个玩家自制战役。
   en: Polished over two decades under GPL-2.0, Wesnoth is a deep turn-based fantasy tactical strategy game featuring 17 official single-player campaigns, unit leveling trees, multiplayer and an in-game add-on server.
+review:
+  zh: |
+    The Battle for Wesnoth 是 开源工具 领域中一款值得长期留存的代表作。持续开发超过二十年的殿堂级 GPL 开源回合制战棋游戏（《韦诺之战》）。自带完整的官方中文，包含 17 个主线长篇单人剧情战役、六大种族兵种晋升树、地形闪避与昼夜系统，游戏内直接提供完全免费的社区创意工坊下载数百个玩家自制战役。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、iOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    The Battle for Wesnoth is a standout choice in software tools. Polished over two decades under GPL-2.0, Wesnoth is a deep turn-based fantasy tactical strategy game featuring 17 official single-player campaigns, unit leveling trees, multiplayer and an in-game add-on server.
+
+    From a user-freedom perspective, it is released under the GPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, iOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

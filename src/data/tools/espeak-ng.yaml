@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 用共振峰合成的轻量语音引擎，支持一百多种语言和口音，整个程序只有几 MB，在极低配置的设备上也能跑。声音是明显的机器音，胜在体积、速度、语言覆盖和完全离线，是很多屏幕阅读器的底层引擎。
   en: A compact formant-synthesis speech engine covering more than a hundred languages and accents in a few megabytes, running on very low-powered hardware. The voice is plainly synthetic; the strengths are size, speed, language coverage and being entirely offline. It is the engine underneath many screen readers.
+review:
+  zh: |
+    eSpeak NG 是 开源工具 领域中一款值得长期留存的代表作。用共振峰合成的轻量语音引擎，支持一百多种语言和口音，整个程序只有几 MB，在极低配置的设备上也能跑。声音是明显的机器音，胜在体积、速度、语言覆盖和完全离线，是很多屏幕阅读器的底层引擎。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、Android、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    eSpeak NG is a standout choice in software tools. A compact formant-synthesis speech engine covering more than a hundred languages and accents in a few megabytes, running on very low-powered hardware. The voice is plainly synthetic; the strengths are size, speed, language coverage and being entirely offline. It is the engine underneath many screen readers.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, Android, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

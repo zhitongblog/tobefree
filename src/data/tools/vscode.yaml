@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 轻量却强大的编辑器，插件生态几乎覆盖所有语言和框架。源码开源（想要零遥测可选 VSCodium 构建）。
   en: A lightweight yet powerful editor with an extension ecosystem covering nearly every language. Source is open (choose VSCodium builds for zero telemetry).
+review:
+  zh: |
+    VS Code 是 开源工具 领域中一款值得长期留存的代表作。轻量却强大的编辑器，插件生态几乎覆盖所有语言和框架。源码开源（想要零遥测可选 VSCodium 构建）。
+
+    在“真免费、少打扰”的维度上，它采用 MIT · 源码开源 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    VS Code is a standout choice in software tools. A lightweight yet powerful editor with an extension ecosystem covering nearly every language. Source is open (choose VSCodium builds for zero telemetry).
+
+    From a user-freedom perspective, it is released under the MIT · 源码开源 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

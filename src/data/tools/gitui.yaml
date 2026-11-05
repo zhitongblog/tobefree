@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 用纯异步 Rust 开发的终端 Git 客户端。专门针对包含数十万次提交的大型单仓（Monorepo）做了性能优化，绝不冻结界面；底部常驻当前上下文快捷键提示，无需死记硬背键位即可高速完成分块暂存（Hunk Stage）、Blame 溯源与分支变基。
   en: An MIT-licensed terminal UI for Git written in async Rust. Engineered to stay responsive without UI freezes even on massive monorepos with hundreds of thousands of commits, featuring context-sensitive key hints at the bottom so you never have to memorize shortcuts.
+review:
+  zh: |
+    GitUI 是 开源工具 领域中一款值得长期留存的代表作。用纯异步 Rust 开发的终端 Git 客户端。专门针对包含数十万次提交的大型单仓（Monorepo）做了性能优化，绝不冻结界面；底部常驻当前上下文快捷键提示，无需死记硬背键位即可高速完成分块暂存（Hunk Stage）、Blame 溯源与分支变基。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    GitUI is a standout choice in software tools. An MIT-licensed terminal UI for Git written in async Rust. Engineered to stay responsive without UI freezes even on massive monorepos with hundreds of thousands of commits, featuring context-sensitive key hints at the bottom so you never have to memorize shortcuts.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

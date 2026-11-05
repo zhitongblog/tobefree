@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 开创了口令直传文件先河的 MIT 开源工具（Python 生态及多语言客户端如 Warp / Wormhole William 通用协议）。只需在电话里或聊天窗把类似 `7-crossover-clockwork` 的一次性短语报给对方，两台处于不同内网的电脑就能完成 SPAKE2 密钥协商并高速直传文件。
   en: The original MIT-licensed tool and protocol for moving files safely between computers using short, human-pronounceable one-time SPAKE2 codes like `7-crossover-clockwork` with no accounts or SSH keys.
+review:
+  zh: |
+    Magic Wormhole 是 开源工具 领域中一款值得长期留存的代表作。开创了口令直传文件先河的 MIT 开源工具（Python 生态及多语言客户端如 Warp / Wormhole William 通用协议）。只需在电话里或聊天窗把类似 `7-crossover-clockwork` 的一次性短语报给对方，两台处于不同内网的电脑就能完成 SPAKE2 密钥协商并高速直传文件。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Magic Wormhole is a standout choice in software tools. The original MIT-licensed tool and protocol for moving files safely between computers using short, human-pronounceable one-time SPAKE2 codes like `7-crossover-clockwork` with no accounts or SSH keys.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

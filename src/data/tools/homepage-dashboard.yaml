@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 专为 Homelab 与 NAS 玩家打造的 GPL-3.0 开源起始页。支持通过 Docker 标签自动发现容器服务，并内置对 Jellyfin、qBittorrent、AdGuard Home、Immich、Nextcloud 等上百款自建服务的深度 API 集成，直接在图标卡片上显示实时下载速度、拦截数与排队任务。
   en: A GPL-3.0 startpage for homelabs and NAS setups. Discovers services automatically via Docker labels and ships over 100 built-in API widgets showing live stats from Jellyfin, qBittorrent, Pi-hole, Immich and Nextcloud.
+review:
+  zh: |
+    Homepage 是 开源工具 领域中一款值得长期留存的代表作。专为 Homelab 与 NAS 玩家打造的 GPL-3.0 开源起始页。支持通过 Docker 标签自动发现容器服务，并内置对 Jellyfin、qBittorrent、AdGuard Home、Immich、Nextcloud 等上百款自建服务的深度 API 集成，直接在图标卡片上显示实时下载速度、拦截数与排队任务。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux、macOS、Windows、Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Homepage is a standout choice in software tools. A GPL-3.0 startpage for homelabs and NAS setups. Discovers services automatically via Docker labels and ships over 100 built-in API widgets showing live stats from Jellyfin, qBittorrent, Pi-hole, Immich and Nextcloud.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, macOS, Windows, Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

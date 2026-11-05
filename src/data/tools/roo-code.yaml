@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 源于 Cline 生态并高速演进的 Apache-2.0 开源编程智能体扩展。独创 Architect（架构设计）、Code（编码）、Ask（问答）、Debug（排错）及自定义角色模式，可按模式绑定不同成本的模型（含本地 Ollama 或自带 API Key），插件本身完全免费无抽成。
   en: An Apache-2.0 autonomous coding agent extension for VS Code featuring customizable modes (Architect, Code, Ask, Debug). Assign different local or BYOK models to each role with zero platform markup or mandatory account.
+review:
+  zh: |
+    Roo Code 是 开源工具 领域中一款值得长期留存的代表作。源于 Cline 生态并高速演进的 Apache-2.0 开源编程智能体扩展。独创 Architect（架构设计）、Code（编码）、Ask（问答）、Debug（排错）及自定义角色模式，可按模式绑定不同成本的模型（含本地 Ollama 或自带 API Key），插件本身完全免费无抽成。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Roo Code is a standout choice in software tools. An Apache-2.0 autonomous coding agent extension for VS Code featuring customizable modes (Architect, Code, Ask, Debug). Assign different local or BYOK models to each role with zero platform markup or mandatory account.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

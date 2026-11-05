@@ -32,3 +32,12 @@ tagline:
 description:
   zh: 隶属 KDE 开源社区（前身为 QupZilla）的 GPL-3.0 桌面浏览器。基于 QtWebEngine 构建，不捆绑任何云端商业账号体系、新闻推荐或遥测埋点，开箱即内置完整的 AdBlock 广告拦截器、书签与历史记录侧边栏合二为一，干净轻快。
   en: Maintained by the KDE community under GPL-3.0, Falkon is a clean QtWebEngine browser that ships with integrated AdBlock, unified sidebar management and zero corporate telemetry or account walls.
+review:
+  zh: |
+    Falkon 是 开源工具 领域中一款值得长期留存的代表作。隶属 KDE 开源社区（前身为 QupZilla）的 GPL-3.0 桌面浏览器。基于 QtWebEngine 构建，不捆绑任何云端商业账号体系、新闻推荐或遥测埋点，开箱即内置完整的 AdBlock 广告拦截器、书签与历史记录侧边栏合二为一，干净轻快。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux、Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Falkon is a standout choice in software tools. Maintained by the KDE community under GPL-3.0, Falkon is a clean QtWebEngine browser that ships with integrated AdBlock, unified sidebar management and zero corporate telemetry or account walls.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

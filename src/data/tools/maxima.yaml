@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 源自 MIT 传奇计算机代数系统 MACSYMA 的 GPL 开源数学软件（通常自带图形界面 wxMaxima）。不同于只算浮点数的计算器，Maxima 擅长符号代数：求不定积分、泰勒展开、解微分方程、矩阵特征值推导与三维函数绘图，是 Mathematica 与 Maple 的轻量离线平替。
   en: A GPL-2.0 Computer Algebra System (bundled with the wxMaxima GUI) capable of symbolic differentiation, integration, Taylor series, Laplace transforms, ordinary differential equations and 2D/3D plotting offline.
+review:
+  zh: |
+    Maxima 是 开源工具 领域中一款值得长期留存的代表作。源自 MIT 传奇计算机代数系统 MACSYMA 的 GPL 开源数学软件（通常自带图形界面 wxMaxima）。不同于只算浮点数的计算器，Maxima 擅长符号代数：求不定积分、泰勒展开、解微分方程、矩阵特征值推导与三维函数绘图，是 Mathematica 与 Maple 的轻量离线平替。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Maxima is a standout choice in software tools. A GPL-2.0 Computer Algebra System (bundled with the wxMaxima GUI) capable of symbolic differentiation, integration, Taylor series, Laplace transforms, ordinary differential equations and 2D/3D plotting offline.
+
+    From a user-freedom perspective, it is released under the GPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -33,3 +33,12 @@ tagline:
 description:
   zh: Apache-2.0 开源的极简主义桌面浏览器。把地址栏、标签页与搜索框融合成顶部极窄的一条，支持按任务分组（Tasks）切换工作区、全文模糊检索浏览过的网页正文，并默认内置 EasyList 广告追踪拦截与屏蔽图片/脚本的省流专注模式。
   en: An Apache-2.0 minimalist browser that condenses tabs and the address bar into a single clean strip, featuring built-in ad/tracker blocking, full-text history search and task-based tab groups.
+review:
+  zh: |
+    Min 是 开源工具 领域中一款值得长期留存的代表作。Apache-2.0 开源的极简主义桌面浏览器。把地址栏、标签页与搜索框融合成顶部极窄的一条，支持按任务分组（Tasks）切换工作区、全文模糊检索浏览过的网页正文，并默认内置 EasyList 广告追踪拦截与屏蔽图片/脚本的省流专注模式。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Min is a standout choice in software tools. An Apache-2.0 minimalist browser that condenses tabs and the address bar into a single clean strip, featuring built-in ad/tracker blocking, full-text history search and task-based tab groups.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 用异步 Rust 编写的 GPL-3.0 现代端口扫描工具。传统用 Nmap 扫全量 65535 个端口往往要等很久，RustScan 先在几秒钟内极速探出哪些端口处于开放状态，随后自动把这几个开放端口传给 Nmap 做服务版本与脚本深度分析，兼顾速度与深度。
   en: Written in async Rust under GPL-3.0, RustScan sweeps all 65,535 TCP ports in seconds to find open ports and automatically pipes only the live ones into Nmap for service fingerprinting.
+review:
+  zh: |
+    RustScan 是 开源工具 领域中一款值得长期留存的代表作。用异步 Rust 编写的 GPL-3.0 现代端口扫描工具。传统用 Nmap 扫全量 65535 个端口往往要等很久，RustScan 先在几秒钟内极速探出哪些端口处于开放状态，随后自动把这几个开放端口传给 Nmap 做服务版本与脚本深度分析，兼顾速度与深度。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    RustScan is a standout choice in software tools. Written in async Rust under GPL-3.0, RustScan sweeps all 65,535 TCP ports in seconds to find open ports and automatically pipes only the live ones into Nmap for service fingerprinting.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

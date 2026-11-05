@@ -38,3 +38,12 @@ tagline:
 description:
   zh: MIT 开源的轻量级自托管个人记账软件（Go 语言单文件 + SQLite）。很多开源财务系统只适合在电脑大屏上填报表，出门买杯咖啡根本没法随手记；ezBookkeeping 专门打磨了媲美商业记账 App 的手机端 PWA 界面，支持收支分类、多币种汇率、账单图片附件与 AI 票据识别。
   en: An MIT-licensed, single-binary Go bookkeeping server designed to feel like a native mobile finance app on your phone while keeping all ledger data and receipt photos on your own hardware.
+review:
+  zh: |
+    ezBookkeeping 是 开源工具 领域中一款值得长期留存的代表作。MIT 开源的轻量级自托管个人记账软件（Go 语言单文件 + SQLite）。很多开源财务系统只适合在电脑大屏上填报表，出门买杯咖啡根本没法随手记；ezBookkeeping 专门打磨了媲美商业记账 App 的手机端 PWA 界面，支持收支分类、多币种汇率、账单图片附件与 AI 票据识别。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、Linux、Windows、macOS、iOS、Android 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    ezBookkeeping is a standout choice in software tools. An MIT-licensed, single-binary Go bookkeeping server designed to feel like a native mobile finance app on your phone while keeping all ledger data and receipt photos on your own hardware.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Web browsers, Linux, Windows, macOS, iOS, Android, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

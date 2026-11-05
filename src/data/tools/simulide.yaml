@@ -34,3 +34,12 @@ tagline:
 description:
   zh: GPL-3.0 开源的实时电子电路与单片机仿真软件。不仅能仿真电阻、电容、运放、示波器等模拟与数字电路，还能直接把编译好的固件（或 Arduino 代码）烧进画面里的虚拟 AVR / PIC 单片机芯片中实时运行，观察小灯闪烁、电机转动与串口输出。
   en: A fast GPL-3.0 real-time electronic circuit simulator that runs analog/digital components alongside virtual Arduino, AVR and PIC microcontrollers with built-in oscilloscopes and logic analyzers.
+review:
+  zh: |
+    SimulIDE 是 开源工具 领域中一款值得长期留存的代表作。GPL-3.0 开源的实时电子电路与单片机仿真软件。不仅能仿真电阻、电容、运放、示波器等模拟与数字电路，还能直接把编译好的固件（或 Arduino 代码）烧进画面里的虚拟 AVR / PIC 单片机芯片中实时运行，观察小灯闪烁、电机转动与串口输出。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    SimulIDE is a standout choice in software tools. A fast GPL-3.0 real-time electronic circuit simulator that runs analog/digital components alongside virtual Arduino, AVR and PIC microcontrollers with built-in oscilloscopes and logic analyzers.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

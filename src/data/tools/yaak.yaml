@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 由知名 API 工具 Insomnia 的原作者用 Rust（Tauri）重新打造的下一代桌面 API 客户端。针对老东家收购后强推云端账号的痛点，Yaak 坚持离线优先、无遥测、MIT 开源，原生支持 REST、GraphQL、SSE、WebSocket 与 gRPC，并能直接同步成普通目录配合 Git 版本管理。
   en: Built with Tauri and Rust by the original creator of Insomnia after traditional API clients forced cloud accounts. Yaak is MIT-licensed, offline-first and telemetry-free, supporting REST, GraphQL, gRPC, WebSockets and plain-folder Git sync.
+review:
+  zh: |
+    Yaak 是 开源工具 领域中一款值得长期留存的代表作。由知名 API 工具 Insomnia 的原作者用 Rust（Tauri）重新打造的下一代桌面 API 客户端。针对老东家收购后强推云端账号的痛点，Yaak 坚持离线优先、无遥测、MIT 开源，原生支持 REST、GraphQL、SSE、WebSocket 与 gRPC，并能直接同步成普通目录配合 Git 版本管理。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Yaak is a standout choice in software tools. Built with Tauri and Rust by the original creator of Insomnia after traditional API clients forced cloud accounts. Yaak is MIT-licensed, offline-first and telemetry-free, supporting REST, GraphQL, gRPC, WebSockets and plain-folder Git sync.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

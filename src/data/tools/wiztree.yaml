@@ -28,3 +28,12 @@ tagline:
 description:
   zh: Windows 下最快的磁盘空间占用分析工具（个人免费、无广告）。不同于传统工具逐个文件夹递归遍历，WizTree 直接读取 NTFS 分区底层的主文件表（MFT），几秒钟就能生成直观的方块树图（Treemap），瞬间揪出吃满 C 盘的元凶。
   en: Instead of walking directories file by file, WizTree reads the NTFS Master File Table (MFT) directly from disk, rendering a visual treemap of multi-terabyte drives in seconds so you can spot space hogs instantly.
+review:
+  zh: |
+    WizTree 是 开源工具 领域中一款值得长期留存的代表作。Windows 下最快的磁盘空间占用分析工具（个人免费、无广告）。不同于传统工具逐个文件夹递归遍历，WizTree 直接读取 NTFS 分区底层的主文件表（MFT），几秒钟就能生成直观的方块树图（Treemap），瞬间揪出吃满 C 盘的元凶。
+
+    在“真免费、少打扰”的维度上，它采用 Freeware (Personal) 授权，核心功能对个人用户诚意开放，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    WizTree is a standout choice in software tools. Instead of walking directories file by file, WizTree reads the NTFS Master File Table (MFT) directly from disk, rendering a visual treemap of multi-terabyte drives in seconds so you can spot space hogs instantly.
+
+    From a user-freedom perspective, it is distributed under Freeware (Personal) with a generous free experience, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

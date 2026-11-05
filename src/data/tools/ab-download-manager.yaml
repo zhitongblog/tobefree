@@ -34,3 +34,12 @@ tagline:
 description:
   zh: Apache-2.0 开源的现代桌面多线程下载工具（Internet Download Manager / IDM 的最佳免费开源替代方案）。界面清爽现代（支持深色模式），支持自动接管 Chrome / Firefox 浏览器下载请求、多线程分块加速、排队计划任务与全局限速，彻底告别弹窗与过期假激活报错。
   en: An Apache-2.0 desktop download manager designed to replace paid IDM. Features multi-connection chunk acceleration, browser integration extensions, download queues, schedulers and speed limiters with zero ads.
+review:
+  zh: |
+    AB Download Manager 是 开源工具 领域中一款值得长期留存的代表作。Apache-2.0 开源的现代桌面多线程下载工具（Internet Download Manager / IDM 的最佳免费开源替代方案）。界面清爽现代（支持深色模式），支持自动接管 Chrome / Firefox 浏览器下载请求、多线程分块加速、排队计划任务与全局限速，彻底告别弹窗与过期假激活报错。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、Linux、macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    AB Download Manager is a standout choice in software tools. An Apache-2.0 desktop download manager designed to replace paid IDM. Features multi-connection chunk acceleration, browser integration extensions, download queues, schedulers and speed limiters with zero ads.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, Linux, macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 用 Go 编写的 GPL-3.0 现代 DNS 诊断命令行工具（古老 `dig` 命令的优雅替代品）。输出结构清晰的高亮表格或标准 JSON，且原生支持直接测试 DNS-over-HTTPS（DoH）、DNS-over-TLS（DoT）与 DNSCrypt 上游服务器。
   en: A GPL-3.0 command-line DNS client written in Go. Replaces cryptic `dig` output with color-coded tables, JSON mode and native support for DNS-over-HTTPS (DoH), DoT and DoQ.
+review:
+  zh: |
+    doggo 是 开源工具 领域中一款值得长期留存的代表作。用 Go 编写的 GPL-3.0 现代 DNS 诊断命令行工具（古老 `dig` 命令的优雅替代品）。输出结构清晰的高亮表格或标准 JSON，且原生支持直接测试 DNS-over-HTTPS（DoH）、DNS-over-TLS（DoT）与 DNSCrypt 上游服务器。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    doggo is a standout choice in software tools. A GPL-3.0 command-line DNS client written in Go. Replaces cryptic `dig` output with color-coded tables, JSON mode and native support for DNS-over-HTTPS (DoH), DoT and DoQ.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

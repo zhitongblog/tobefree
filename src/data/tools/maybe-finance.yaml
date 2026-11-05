@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 原本是硅谷明星创业项目，后团队决定将价值百万美金的代码库以 AGPL-3.0 完全开源。界面设计堪称记账软件天花板，统一追踪日常流水、多币种账户、房产车辆、股票基金持仓与净值曲线，支持用 Docker Compose 在自己电脑或 NAS 上免费部署。
   en: Originally a VC-backed fintech startup that open-sourced its entire codebase under AGPL-3.0. Tracks cash flow, multi-currency accounts, debts, real estate and investment portfolios in a stunning self-hostable dashboard.
+review:
+  zh: |
+    Maybe 是 开源工具 领域中一款值得长期留存的代表作。原本是硅谷明星创业项目，后团队决定将价值百万美金的代码库以 AGPL-3.0 完全开源。界面设计堪称记账软件天花板，统一追踪日常流水、多币种账户、房产车辆、股票基金持仓与净值曲线，支持用 Docker Compose 在自己电脑或 NAS 上免费部署。
+
+    在“真免费、少打扰”的维度上，它采用 AGPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、Linux、macOS、Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Maybe is a standout choice in software tools. Originally a VC-backed fintech startup that open-sourced its entire codebase under AGPL-3.0. Tracks cash flow, multi-currency accounts, debts, real estate and investment portfolios in a stunning self-hostable dashboard.
+
+    From a user-freedom perspective, it is released under the AGPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Web browsers, Linux, macOS, Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

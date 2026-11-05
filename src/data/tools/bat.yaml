@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 现代命令行必装的 cat 替代工具（Rust 编写）。在终端查看文件时自动提供百余种语言的语法高亮、行号以及左侧 Git 修改状态标记；当被放进管道（pipe）时又会自动退化为纯文本输出，百分之百兼容原有脚本。
   en: A Rust-powered replacement for the classic cat command. Adds syntax highlighting for over a hundred languages, line numbers, Git gutter modification markers and automatic paging when interactive, while falling back to plain text seamlessly inside shell pipelines.
+review:
+  zh: |
+    bat 是 开源工具 领域中一款值得长期留存的代表作。现代命令行必装的 cat 替代工具（Rust 编写）。在终端查看文件时自动提供百余种语言的语法高亮、行号以及左侧 Git 修改状态标记；当被放进管道（pipe）时又会自动退化为纯文本输出，百分之百兼容原有脚本。
+
+    在“真免费、少打扰”的维度上，它采用 MIT / Apache-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    bat is a standout choice in software tools. A Rust-powered replacement for the classic cat command. Adds syntax highlighting for over a hundred languages, line numbers, Git gutter modification markers and automatic paging when interactive, while falling back to plain text seamlessly inside shell pipelines.
+
+    From a user-freedom perspective, it is released under the MIT / Apache-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

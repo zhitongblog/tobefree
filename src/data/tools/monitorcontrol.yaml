@@ -30,3 +30,12 @@ tagline:
 description:
   zh: macOS 外接非苹果显示器时的必装开源神器。通过 DDC/CI 硬件协议或软件遮罩，让你直接按键盘上的原生亮度键、音量键就能调节戴尔、LG、明基等第三方外接屏的真实背光与音响，连 OSD 弹窗都和 macOS 原生一模一样。
   en: An MIT-licensed macOS menu bar utility that uses DDC/CI protocols to let your native Apple keyboard brightness and volume keys control third-party external monitors seamlessly.
+review:
+  zh: |
+    MonitorControl 是 开源工具 领域中一款值得长期留存的代表作。macOS 外接非苹果显示器时的必装开源神器。通过 DDC/CI 硬件协议或软件遮罩，让你直接按键盘上的原生亮度键、音量键就能调节戴尔、LG、明基等第三方外接屏的真实背光与音响，连 OSD 弹窗都和 macOS 原生一模一样。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    MonitorControl is a standout choice in software tools. An MIT-licensed macOS menu bar utility that uses DDC/CI protocols to let your native Apple keyboard brightness and volume keys control third-party external monitors seamlessly.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

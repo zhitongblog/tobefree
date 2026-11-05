@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 面向产品团队的设计与原型工具，设计即代码（SVG/CSS/HTML）。可用官方云端，也能完全自托管掌控数据。
   en: A design and prototyping tool for product teams where designs are real code (SVG/CSS/HTML). Use the official cloud, or self-host it to fully own your data.
+review:
+  zh: |
+    Penpot 是 设计、图像与音视频创作 领域中一款值得长期留存的代表作。面向产品团队的设计与原型工具，设计即代码（SVG/CSS/HTML）。可用官方云端，也能完全自托管掌控数据。
+
+    在“真免费、少打扰”的维度上，它采用 MPL-2.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Penpot is a standout choice in creative design, imaging, and audio/video production. A design and prototyping tool for product teams where designs are real code (SVG/CSS/HTML). Use the official cloud, or self-host it to fully own your data.
+
+    From a user-freedom perspective, it is released under the MPL-2.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -38,3 +38,12 @@ tagline:
 description:
   zh: 由美国能源部 ESnet 维护的 BSD 开源网络吞吐量基准测试工具。家里的 Wi-Fi、网线或 NAS 到底能不能跑满 2.5G / 万兆？网页测速测的是外网宽带，而在两台设备间跑一条 `iperf3` 命令，几秒钟就能测出纯粹的内网极限 TCP/UDP 带宽、抖动与丢包率。
   en: Developed by ESnet under BSD-3-Clause, iPerf3 measures the true maximum TCP, UDP and SCTP throughput, jitter and packet loss between any two machines on your LAN or VPN.
+review:
+  zh: |
+    iPerf3 是 开源工具 领域中一款值得长期留存的代表作。由美国能源部 ESnet 维护的 BSD 开源网络吞吐量基准测试工具。家里的 Wi-Fi、网线或 NAS 到底能不能跑满 2.5G / 万兆？网页测速测的是外网宽带，而在两台设备间跑一条 `iperf3` 命令，几秒钟就能测出纯粹的内网极限 TCP/UDP 带宽、抖动与丢包率。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-3-Clause 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、iOS、Android、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    iPerf3 is a standout choice in software tools. Developed by ESnet under BSD-3-Clause, iPerf3 measures the true maximum TCP, UDP and SCTP throughput, jitter and packet loss between any two machines on your LAN or VPN.
+
+    From a user-freedom perspective, it is released under the BSD-3-Clause open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, iOS, Android, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

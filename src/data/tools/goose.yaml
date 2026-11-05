@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 由支付巨头 Block 开源的本地 AI 工程智能体，提供桌面应用与 CLI 双形态。它运行在你的本机环境，可自主读写代码、执行测试、操作终端，并把 MCP（Model Context Protocol）作为一等公民扩展机制，支持接入任意大模型或本地 Ollama。
   en: An open-source on-machine AI agent by Block available as both a desktop app and CLI. Goose autonomously writes code, runs tests, drives the shell and uses Model Context Protocol (MCP) servers as first-class extensions with any LLM or local Ollama.
+review:
+  zh: |
+    Goose 是 开源工具 领域中一款值得长期留存的代表作。由支付巨头 Block 开源的本地 AI 工程智能体，提供桌面应用与 CLI 双形态。它运行在你的本机环境，可自主读写代码、执行测试、操作终端，并把 MCP（Model Context Protocol）作为一等公民扩展机制，支持接入任意大模型或本地 Ollama。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Goose is a standout choice in software tools. An open-source on-machine AI agent by Block available as both a desktop app and CLI. Goose autonomously writes code, runs tests, drives the shell and uses Model Context Protocol (MCP) servers as first-class extensions with any LLM or local Ollama.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

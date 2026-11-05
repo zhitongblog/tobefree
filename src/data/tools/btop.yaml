@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 用 C++ 编写的现代终端资源监控面板（htop 的华丽进化版）。在字符终端里画出高分辨率渐变折线图，同屏展示多核 CPU 频率温度、内存、磁盘 IO、网卡吞吐与进程树，并且完整支持鼠标点击排序、搜索与一键杀进程。
   en: A C++ continuation of bashtop and bpytop that renders smooth braille graphs for CPU, GPU, memory, disk I/O and network throughput right in your terminal, complete with full mouse support and process filtering.
+review:
+  zh: |
+    btop++ 是 开源工具 领域中一款值得长期留存的代表作。用 C++ 编写的现代终端资源监控面板（htop 的华丽进化版）。在字符终端里画出高分辨率渐变折线图，同屏展示多核 CPU 频率温度、内存、磁盘 IO、网卡吞吐与进程树，并且完整支持鼠标点击排序、搜索与一键杀进程。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux、macOS、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    btop++ is a standout choice in software tools. A C++ continuation of bashtop and bpytop that renders smooth braille graphs for CPU, GPU, memory, disk I/O and network throughput right in your terminal, complete with full mouse support and process filtering.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, macOS, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

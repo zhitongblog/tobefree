@@ -32,3 +32,12 @@ tagline:
 description:
   zh: MIT 开源的无服务端网页文件加密工具。利用现代浏览器的 WebCrypto 与流式分块加密技术，文件全程一字节都不会上传到服务器，支持使用密码或 X25519 公钥对几个 GB 的大文件在本地浏览器内秒级加密。
   en: An MIT-licensed web app that encrypts and decrypts large files completely inside your browser via chunked XChaCha20-Poly1305 and Argon2id — zero bytes ever leave your device.
+review:
+  zh: |
+    Hat.sh 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。MIT 开源的无服务端网页文件加密工具。利用现代浏览器的 WebCrypto 与流式分块加密技术，文件全程一字节都不会上传到服务器，支持使用密码或 X25519 公钥对几个 GB 的大文件在本地浏览器内秒级加密。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Hat.sh is a standout choice in privacy protection, encryption, and security. An MIT-licensed web app that encrypts and decrypts large files completely inside your browser via chunked XChaCha20-Poly1305 and Argon2id — zero bytes ever leave your device.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -36,3 +36,12 @@ tagline:
 description:
   zh: 用 Rust 编写的自托管开源 AI 编程助手。一条 Docker 命令即可在本地或团队内网启动完整服务，无需外部数据库，提供毫秒级行内代码补全、基于仓库索引的问答（Answer Engine）以及 VS Code / JetBrains 插件支持，代码完全不出内网。
   en: A self-hosted AI coding assistant written in Rust that deploys as a single self-contained binary or Docker container. Delivers low-latency inline code completion, repo-aware chat and VS Code/JetBrains extensions while keeping all source code on your own hardware.
+review:
+  zh: |
+    Tabby 是 开源工具 领域中一款值得长期留存的代表作。用 Rust 编写的自托管开源 AI 编程助手。一条 Docker 命令即可在本地或团队内网启动完整服务，无需外部数据库，提供毫秒级行内代码补全、基于仓库索引的问答（Answer Engine）以及 VS Code / JetBrains 插件支持，代码完全不出内网。
+
+    在“真免费、少打扰”的维度上，它采用 Apache-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Tabby is a standout choice in software tools. A self-hosted AI coding assistant written in Rust that deploys as a single self-contained binary or Docker container. Delivers low-latency inline code completion, repo-aware chat and VS Code/JetBrains extensions while keeping all source code on your own hardware.
+
+    From a user-freedom perspective, it is released under the Apache-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

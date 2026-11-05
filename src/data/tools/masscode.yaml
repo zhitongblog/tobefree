@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 开源跨平台的本地代码片段管理桌面软件。支持多级文件夹、标签、每个片段内分多个 Tab（例如把 HTML、CSS、JS 存在同一条记录里）、600+ 语言语法高亮以及 Markdown 实时预览，数据以本地 JSON 存储，可随时配合网盘或 Git 同步。
   en: An open-source desktop snippet manager featuring multi-level folders, tags, multi-tabbed fragments per snippet, 600+ language grammars and local storage you can sync via Git or cloud drives.
+review:
+  zh: |
+    massCode 是 效率与知识管理 领域中一款值得长期留存的代表作。开源跨平台的本地代码片段管理桌面软件。支持多级文件夹、标签、每个片段内分多个 Tab（例如把 HTML、CSS、JS 存在同一条记录里）、600+ 语言语法高亮以及 Markdown 实时预览，数据以本地 JSON 存储，可随时配合网盘或 Git 同步。
+
+    在“真免费、少打扰”的维度上，它采用 AGPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    massCode is a standout choice in productivity and knowledge management. An open-source desktop snippet manager featuring multi-level folders, tags, multi-tabbed fragments per snippet, 600+ language grammars and local storage you can sync via Git or cloud drives.
+
+    From a user-freedom perspective, it is released under the AGPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

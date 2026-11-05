@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 用 Kotlin 编写的 MPL-2.0 开源 4X 历史策略游戏。它把让人通宵达旦的《文明 5（Civilization V）》全部核心规则（科技树、社会政策、宗教、间谍、城邦与奇观）浓缩进一个 20MB 的像素风轻量包里，后期几百个单位过回合依然不到一秒，自带完整中文与一健下载上百个大型 Mod。
   en: An MPL-2.0 open-source remake of Sid Meier’s Civilization V. Packs the entire tech tree, social policies, diplomacy and modding ecosystem into a 20MB app where late-game AI turns finish in a split second.
+review:
+  zh: |
+    Unciv 是 开源工具 领域中一款值得长期留存的代表作。用 Kotlin 编写的 MPL-2.0 开源 4X 历史策略游戏。它把让人通宵达旦的《文明 5（Civilization V）》全部核心规则（科技树、社会政策、宗教、间谍、城邦与奇观）浓缩进一个 20MB 的像素风轻量包里，后期几百个单位过回合依然不到一秒，自带完整中文与一健下载上百个大型 Mod。
+
+    在“真免费、少打扰”的维度上，它采用 MPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、Android 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Unciv is a standout choice in software tools. An MPL-2.0 open-source remake of Sid Meier’s Civilization V. Packs the entire tech tree, social policies, diplomacy and modding ecosystem into a 20MB app where late-game AI turns finish in a split second.
+
+    From a user-freedom perspective, it is released under the MPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, Android, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

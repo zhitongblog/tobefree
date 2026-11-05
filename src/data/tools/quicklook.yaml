@@ -31,3 +31,12 @@ tagline:
 description:
   zh: GPL-3.0 开源的 Windows 效率小工具。选中任意图片、视频、PDF、压缩包、Markdown 或代码文件，按下空格键即可在毫秒间弹出预览窗口，再按一下空格立刻关闭，无需等待笨重的 Office 或看图软件缓慢启动。
   en: A GPL-3.0 utility that brings macOS Quick Look to Windows. Highlight any image, video, PDF, archive, Markdown or source file in Explorer and press Spacebar for an instant preview window.
+review:
+  zh: |
+    QuickLook 是 开源工具 领域中一款值得长期留存的代表作。GPL-3.0 开源的 Windows 效率小工具。选中任意图片、视频、PDF、压缩包、Markdown 或代码文件，按下空格键即可在毫秒间弹出预览窗口，再按一下空格立刻关闭，无需等待笨重的 Office 或看图软件缓慢启动。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    QuickLook is a standout choice in software tools. A GPL-3.0 utility that brings macOS Quick Look to Windows. Highlight any image, video, PDF, archive, Markdown or source file in Explorer and press Spacebar for an instant preview window.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

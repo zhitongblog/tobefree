@@ -131,9 +131,22 @@ const c = {
 
 const supporterRel = (kinds: string[]) =>
   kinds.includes('sponsor') ? 'sponsored nofollow noopener' : 'ugc nofollow noopener';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: c.faq.map(([q, a]) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: a,
+    },
+  })),
+};
 ---
 
-<BaseLayout title={c.title} description={c.lead}>
+<BaseLayout title={c.title} description={c.lead} jsonLd={jsonLd}>
   <section class="section container narrow">
     <div class="section-head">
       <p class="eyebrow">{c.eyebrow}</p>

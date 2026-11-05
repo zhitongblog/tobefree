@@ -32,3 +32,12 @@ tagline:
 description:
   zh: 由 Uptime Kuma 作者开发的 MIT 开源 Docker Compose 管理工具。不同于 Portainer 把编排文件藏进私有数据库，Dockge 直接读写你硬盘上标准的 `compose.yaml` 目录，删掉面板也丝毫不影响正在跑的容器，还自带交互式网页终端与 docker run 一键转换。
   en: Created by the author of Uptime Kuma, Dockge manages `compose.yaml` stacks through a clean reactive web UI while keeping your standard compose files on disk untouched, complete with a docker-run converter and live terminal.
+review:
+  zh: |
+    Dockge 是 开源工具 领域中一款值得长期留存的代表作。由 Uptime Kuma 作者开发的 MIT 开源 Docker Compose 管理工具。不同于 Portainer 把编排文件藏进私有数据库，Dockge 直接读写你硬盘上标准的 `compose.yaml` 目录，删掉面板也丝毫不影响正在跑的容器，还自带交互式网页终端与 docker run 一键转换。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux、Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Dockge is a standout choice in software tools. Created by the author of Uptime Kuma, Dockge manages `compose.yaml` stacks through a clean reactive web UI while keeping your standard compose files on disk untouched, complete with a docker-run converter and live terminal.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

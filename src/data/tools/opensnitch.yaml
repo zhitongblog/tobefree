@@ -31,3 +31,12 @@ tagline:
 description:
   zh: 受 macOS 名作 Little Snitch 启发而开发的 GPL-3.0 Linux 应用级出站防火墙。每当系统里有未知程序尝试向外发起网络连接时，OpenSnitch 会第一时间弹出提示窗展示进程路径、目标 IP、域名与端口，由你决定放行一次还是永久拉黑。
   en: A GPL-3.0 application-level outbound firewall for Linux. Whenever a process attempts a new network connection, OpenSnitch prompts you with the binary path, destination host and port so you can allow or block it.
+review:
+  zh: |
+    OpenSnitch 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。受 macOS 名作 Little Snitch 启发而开发的 GPL-3.0 Linux 应用级出站防火墙。每当系统里有未知程序尝试向外发起网络连接时，OpenSnitch 会第一时间弹出提示窗展示进程路径、目标 IP、域名与端口，由你决定放行一次还是永久拉黑。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    OpenSnitch is a standout choice in privacy protection, encryption, and security. A GPL-3.0 application-level outbound firewall for Linux. Whenever a process attempts a new network connection, OpenSnitch prompts you with the binary path, destination host and port so you can allow or block it.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

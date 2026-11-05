@@ -28,3 +28,12 @@ tagline:
 description:
   zh: 手感极佳的免费在线无限画布白板（与 Excalidraw 并称双雄）。打开网站无需注册登录即可直接画架构草图、连线、贴图片，笔触压感自然，内容自动保存在本地浏览器 IndexedDB 中，也可一键生成分享链接多人同屏协作。
   en: A snappy infinite whiteboard web app that opens straight to a canvas with zero sign-up walls. Features expressive ink strokes, smart arrows, local IndexedDB persistence and instant multiplayer rooms.
+review:
+  zh: |
+    tldraw 是 设计、图像与音视频创作 领域中一款值得长期留存的代表作。手感极佳的免费在线无限画布白板（与 Excalidraw 并称双雄）。打开网站无需注册登录即可直接画架构草图、连线、贴图片，笔触压感自然，内容自动保存在本地浏览器 IndexedDB 中，也可一键生成分享链接多人同屏协作。
+
+    在“真免费、少打扰”的维度上，它采用 tldraw License 授权，核心功能对个人用户诚意开放，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    tldraw is a standout choice in creative design, imaging, and audio/video production. A snappy infinite whiteboard web app that opens straight to a canvas with zero sign-up walls. Features expressive ink strokes, smart arrows, local IndexedDB persistence and instant multiplayer rooms.
+
+    From a user-freedom perspective, it is distributed under tldraw License with a generous free experience, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

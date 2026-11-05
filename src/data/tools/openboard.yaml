@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 由瑞士日内瓦公共教育部等机构官方维护的 GPL-3.0 开源教学白板软件。专为课堂投屏与教师录播微课设计，不仅支持无限板书、直接把激光笔和画笔叠在电脑桌面任意软件上圈画批注，还内置圆规、量角器、三角板、函数绘图等丰富教具。
   en: Maintained by Swiss public education bodies under GPL-3.0, OpenBoard is an interactive classroom whiteboard featuring desktop overlay annotation, built-in geometry rulers/compasses and podcast screen recording.
+review:
+  zh: |
+    OpenBoard 是 开源工具 领域中一款值得长期留存的代表作。由瑞士日内瓦公共教育部等机构官方维护的 GPL-3.0 开源教学白板软件。专为课堂投屏与教师录播微课设计，不仅支持无限板书、直接把激光笔和画笔叠在电脑桌面任意软件上圈画批注，还内置圆规、量角器、三角板、函数绘图等丰富教具。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    OpenBoard is a standout choice in software tools. Maintained by Swiss public education bodies under GPL-3.0, OpenBoard is an interactive classroom whiteboard featuring desktop overlay annotation, built-in geometry rulers/compasses and podcast screen recording.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

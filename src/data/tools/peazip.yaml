@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 免费开源的文件压缩与解压工具，支持 7Z、RAR、TAR、ZIP 等 200 多种格式，内置强加密、分卷压缩和文件管理器。Windows、macOS、Linux 全平台可用。
   en: A free and open-source archiver supporting 200+ formats including 7Z, RAR, TAR and ZIP, with built-in strong encryption, split archives and a file manager. Runs on Windows, macOS and Linux.
+review:
+  zh: |
+    PeaZip 是 开源工具 领域中一款值得长期留存的代表作。免费开源的文件压缩与解压工具，支持 7Z、RAR、TAR、ZIP 等 200 多种格式，内置强加密、分卷压缩和文件管理器。Windows、macOS、Linux 全平台可用。
+
+    在“真免费、少打扰”的维度上，它采用 LGPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、Linux、macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    PeaZip is a standout choice in software tools. A free and open-source archiver supporting 200+ formats including 7Z, RAR, TAR and ZIP, with built-in strong encryption, split archives and a file manager. Runs on Windows, macOS and Linux.
+
+    From a user-freedom perspective, it is released under the LGPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, Linux, macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

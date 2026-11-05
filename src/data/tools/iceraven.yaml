@@ -30,3 +30,12 @@ tagline:
 description:
   zh: 基于 Mozilla Android 组件构建的开源手机浏览器。针对官方移动版 Firefox 正式版隐藏 `about:config` 及部分高级选项的限制，Iceraven 默认开放完整底层配置、剥离遥测统计，并提供极其丰富的自定义扩展安装列表。
   en: An MPL-2.0 Android browser based on Mozilla Fenix that unlocks `about:config` in stable builds, strips telemetry and exposes an expanded catalog of browser extensions and UI tweaks.
+review:
+  zh: |
+    Iceraven Browser 是 开源工具 领域中一款值得长期留存的代表作。基于 Mozilla Android 组件构建的开源手机浏览器。针对官方移动版 Firefox 正式版隐藏 `about:config` 及部分高级选项的限制，Iceraven 默认开放完整底层配置、剥离遥测统计，并提供极其丰富的自定义扩展安装列表。
+
+    在“真免费、少打扰”的维度上，它采用 MPL-2.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Android 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Iceraven Browser is a standout choice in software tools. An MPL-2.0 Android browser based on Mozilla Fenix that unlocks `about:config` in stable builds, strips telemetry and exposes an expanded catalog of browser extensions and UI tweaks.
+
+    From a user-freedom perspective, it is released under the MPL-2.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Android, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

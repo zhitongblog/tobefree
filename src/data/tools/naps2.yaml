@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 名字就叫「Not Another PDF Scanner」的 GPL 开源扫描神器。打印机原厂自带的扫描软件往往高达几百兆还逼你登录账号，NAPS2 安装包极小，通吃 WIA、TWAIN、SANE 与局域网 ESCL 无线扫描仪，支持双面交叉合并、自动纠偏裁剪，并内置 Tesseract 离线 OCR 生成可搜索 PDF。
   en: Replaces bloated manufacturer scanner software with a fast, tiny GPL-2.0 app supporting WIA, TWAIN, SANE and network ESCL scanners. Includes duplex interleaving, auto-deskew and built-in offline Tesseract OCR for searchable PDFs.
+review:
+  zh: |
+    NAPS2 是 开源工具 领域中一款值得长期留存的代表作。名字就叫「Not Another PDF Scanner」的 GPL 开源扫描神器。打印机原厂自带的扫描软件往往高达几百兆还逼你登录账号，NAPS2 安装包极小，通吃 WIA、TWAIN、SANE 与局域网 ESCL 无线扫描仪，支持双面交叉合并、自动纠偏裁剪，并内置 Tesseract 离线 OCR 生成可搜索 PDF。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    NAPS2 is a standout choice in software tools. Replaces bloated manufacturer scanner software with a fast, tiny GPL-2.0 app supporting WIA, TWAIN, SANE and network ESCL scanners. Includes duplex interleaving, auto-deskew and built-in offline Tesseract OCR for searchable PDFs.
+
+    From a user-freedom perspective, it is released under the GPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

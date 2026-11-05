@@ -8,6 +8,7 @@ import {
   getAllTools, getFeatured, getPopular, getSelfMade, inCategory, localePaths,
 } from '../../lib/tools';
 import { getAllSkills } from '../../lib/skills';
+import { getAllCollectionPages } from '../../lib/collections';
 
 export function getStaticPaths() {
   return localePaths();
@@ -22,6 +23,8 @@ const popular = await getPopular();
 const featured = await getFeatured();
 const selfMade = await getSelfMade();
 const skillsCount = (await getAllSkills()).length;
+const allCollections = await getAllCollectionPages();
+const featuredCollections = allCollections.filter((c) => c.data.featured).slice(0, 8);
 
 // Editor's picks grid = featured tools that aren't already in the popular band.
 const picks = featured.filter((tool) => !tool.data.popular).slice(0, 9);
@@ -130,6 +133,34 @@ const pageSeo = {
       })}
     </div>
   </section>
+
+  <!-- Featured Collections (SEO internal linking hub) -->
+  {featuredCollections.length > 0 && (
+    <section class="section container">
+      <div class="section-head with-link">
+        <div>
+          <p class="eyebrow">📚 {lang === 'zh' ? '场景专题清单' : 'Curated Collections'}</p>
+          <h2>{lang === 'zh' ? '按场景挑最佳免费软件' : 'Best Free Tools by Use Case'}</h2>
+          <p>
+            {lang === 'zh'
+              ? '不知道选哪款？从这些带筛选标准与常见问答的场景专题开始。'
+              : 'Not sure which tool to pick? Start with these scenario-based comparison guides.'}
+          </p>
+        </div>
+        <a class="see-all" href={localizedPath(lang, 'collections')}>
+          {lang === 'zh' ? `全部 ${allCollections.length} 个专题 →` : `All ${allCollections.length} collections →`}
+        </a>
+      </div>
+      <div class="cat-grid">
+        {featuredCollections.map((col) => (
+          <a class="cat" href={localizedPath(lang, `collections/${col.id}`)}>
+            <span class="cat-name">{pick(col.data.title, loc)}</span>
+            <span class="cat-count">{col.data.tools.length + col.data.skills.length}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- Skills & MCP — extend your AI, freely -->
   {skillsCount > 0 && (

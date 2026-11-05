@@ -34,3 +34,12 @@ tagline:
 description:
   zh: GPL-2.0 开源的专业节点式影视后期合成工具。界面与逻辑高度对齐工业界的 Nuke，支持 OpenFX 插件标准、绿幕抠像、二维/平面运动跟踪、Roto 遮罩绘制与多层 EXR 渲染，适合独立短片创作者与三维动画合成。
   en: A GPL-2.0 node-based digital compositing application for VFX artists. Supports OpenFX plugins, rotoscoping, keying, planar tracking and multi-layer EXR pipelines without expensive studio subscriptions.
+review:
+  zh: |
+    Natron 是 设计、图像与音视频创作 领域中一款值得长期留存的代表作。GPL-2.0 开源的专业节点式影视后期合成工具。界面与逻辑高度对齐工业界的 Nuke，支持 OpenFX 插件标准、绿幕抠像、二维/平面运动跟踪、Roto 遮罩绘制与多层 EXR 渲染，适合独立短片创作者与三维动画合成。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Natron is a standout choice in creative design, imaging, and audio/video production. A GPL-2.0 node-based digital compositing application for VFX artists. Supports OpenFX plugins, rotoscoping, keying, planar tracking and multi-layer EXR pipelines without expensive studio subscriptions.
+
+    From a user-freedom perspective, it is released under the GPL-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

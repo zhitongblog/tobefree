@@ -36,3 +36,12 @@ tagline:
 description:
   zh: GPL-3.0 开源的《破碎的像素地牢》。每一局都是随机生成的 26 层地牢、随机药水卷轴鉴定与五大独特职业，没有任何体力限制、复活广告或属性内购，GitHub Releases 与 F-Droid 直接提供全平台免费安装包。
   en: A beloved GPL-3.0 roguelike RPG with five distinct heroes, randomized levels and hundreds of items across 26 dungeon floors — completely playable offline with zero ads or pay-to-win microtransactions.
+review:
+  zh: |
+    Shattered Pixel Dungeon 是 开源工具 领域中一款值得长期留存的代表作。GPL-3.0 开源的《破碎的像素地牢》。每一局都是随机生成的 26 层地牢、随机药水卷轴鉴定与五大独特职业，没有任何体力限制、复活广告或属性内购，GitHub Releases 与 F-Droid 直接提供全平台免费安装包。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、Android、iOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Shattered Pixel Dungeon is a standout choice in software tools. A beloved GPL-3.0 roguelike RPG with five distinct heroes, randomized levels and hundreds of items across 26 dungeon floors — completely playable offline with zero ads or pay-to-win microtransactions.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, Android, iOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

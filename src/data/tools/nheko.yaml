@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 如果你讨厌聊天软件动辄吃掉上百兆甚至上 G 内存（因为套了浏览器内核），Nheko 是用纯 C++ 与 Qt 原生编写的 GPL-3.0 Matrix 客户端，常驻内存仅几十分之一，同时完整支持 E2EE 端到端加密与 VoIP 语音通话。
   en: A native C++/Qt desktop Matrix client under GPL-3.0 that uses a fraction of the RAM of Electron-based apps while supporting full end-to-end encryption and VoIP calls.
+review:
+  zh: |
+    Nheko 是 开源工具 领域中一款值得长期留存的代表作。如果你讨厌聊天软件动辄吃掉上百兆甚至上 G 内存（因为套了浏览器内核），Nheko 是用纯 C++ 与 Qt 原生编写的 GPL-3.0 Matrix 客户端，常驻内存仅几十分之一，同时完整支持 E2EE 端到端加密与 VoIP 语音通话。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Nheko is a standout choice in software tools. A native C++/Qt desktop Matrix client under GPL-3.0 that uses a fraction of the RAM of Electron-based apps while supporting full end-to-end encryption and VoIP calls.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

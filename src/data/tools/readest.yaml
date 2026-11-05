@@ -36,3 +36,12 @@ tagline:
 description:
   zh: 基于 Tauri v2 构建的现代化全平台开源阅读器（支持 EPUB、MOBI、AZW3、PDF 等）。最大的亮点是支持在同一窗口内同时打开两本书（比如中英文原版对照阅读），排版细腻、启动轻快，本地阅读与批注完全免费无需登录。
   en: Built with Tauri v2, Readest is a sleek open-source ebook reader supporting EPUB, MOBI, AZW3 and PDF across desktop and mobile, featuring a standout parallel view for reading two books or translations side by side.
+review:
+  zh: |
+    Readest 是 效率与知识管理 领域中一款值得长期留存的代表作。基于 Tauri v2 构建的现代化全平台开源阅读器（支持 EPUB、MOBI、AZW3、PDF 等）。最大的亮点是支持在同一窗口内同时打开两本书（比如中英文原版对照阅读），排版细腻、启动轻快，本地阅读与批注完全免费无需登录。
+
+    在“真免费、少打扰”的维度上，它采用 AGPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、iOS、Android、Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Readest is a standout choice in productivity and knowledge management. Built with Tauri v2, Readest is a sleek open-source ebook reader supporting EPUB, MOBI, AZW3 and PDF across desktop and mobile, featuring a standout parallel view for reading two books or translations side by side.
+
+    From a user-freedom perspective, it is released under the AGPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, iOS, Android, Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

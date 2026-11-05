@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 由前 Google / Cloudflare 密码学负责人 Filippo Valsorda 设计的 BSD 开源命令行加密工具。彻底抛弃了 GPG 历史包袱沉重的配置文件与过期算法，没有任何复杂选项，甚至支持直接指定别人的现有 SSH 公钥（`~/.ssh/id_ed25519.pub`）来加密备份文件。
   en: Designed by cryptographer Filippo Valsorda to replace GPG for file encryption. Features zero configuration files, explicit modern primitives, and native support for encrypting files directly to standard SSH keys.
+review:
+  zh: |
+    age 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。由前 Google / Cloudflare 密码学负责人 Filippo Valsorda 设计的 BSD 开源命令行加密工具。彻底抛弃了 GPG 历史包袱沉重的配置文件与过期算法，没有任何复杂选项，甚至支持直接指定别人的现有 SSH 公钥（`~/.ssh/id_ed25519.pub`）来加密备份文件。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-3-Clause 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    age is a standout choice in privacy protection, encryption, and security. Designed by cryptographer Filippo Valsorda to replace GPG for file encryption. Features zero configuration files, explicit modern primitives, and native support for encrypting files directly to standard SSH keys.
+
+    From a user-freedom perspective, it is released under the BSD-3-Clause open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

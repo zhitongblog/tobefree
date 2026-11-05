@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 用 Common Lisp 编写的极客向开源浏览器。支持 Emacs、Vim 与 CUA 三套键位绑定，你可以一次跨几十个打开的标签页同时模糊搜索页面内的标题或链接，甚至在浏览器运行过程中直接重写任意内部函数来定制专属自动化流程。
   en: A BSD-licensed, keyboard-driven web browser inspired by Emacs and Vim. Search across dozens of open buffers simultaneously, navigate structured link trees without touching the mouse, and introspect or modify every function live in Common Lisp.
+review:
+  zh: |
+    Nyxt 是 开源工具 领域中一款值得长期留存的代表作。用 Common Lisp 编写的极客向开源浏览器。支持 Emacs、Vim 与 CUA 三套键位绑定，你可以一次跨几十个打开的标签页同时模糊搜索页面内的标题或链接，甚至在浏览器运行过程中直接重写任意内部函数来定制专属自动化流程。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-3-Clause 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux、macOS、Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Nyxt is a standout choice in software tools. A BSD-licensed, keyboard-driven web browser inspired by Emacs and Vim. Search across dozens of open buffers simultaneously, navigate structured link trees without touching the mouse, and introspect or modify every function live in Common Lisp.
+
+    From a user-freedom perspective, it is released under the BSD-3-Clause open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, macOS, Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

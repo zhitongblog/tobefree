@@ -30,3 +30,12 @@ tagline:
 description:
   zh: 基于 Rust `matrix-sdk` 与 GTK4 / Libadwaita 构建的原生 Linux 聊天客户端。摒弃了占内存的 Electron 外壳，在 Linux 桌面与移动设备上极速启动，完整支持 Matrix 端到端加密聊天与媒体浏览。
   en: Built in Rust on top of `matrix-sdk` and GTK4, Fractal delivers a fast, native Linux desktop experience for encrypted Matrix rooms without Electron overhead.
+review:
+  zh: |
+    Fractal 是 开源工具 领域中一款值得长期留存的代表作。基于 Rust `matrix-sdk` 与 GTK4 / Libadwaita 构建的原生 Linux 聊天客户端。摒弃了占内存的 Electron 外壳，在 Linux 桌面与移动设备上极速启动，完整支持 Matrix 端到端加密聊天与媒体浏览。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Fractal is a standout choice in software tools. Built in Rust on top of `matrix-sdk` and GTK4, Fractal delivers a fast, native Linux desktop experience for encrypted Matrix rooms without Electron overhead.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

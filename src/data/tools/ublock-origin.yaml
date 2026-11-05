@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 广谱内容拦截浏览器扩展，默认拦截广告、追踪器、挖矿脚本和恶意站点，占用资源极低。完整版在 Firefox 及其衍生浏览器上可用；Chrome 完成 Manifest V3 迁移后只能装功能受限的 uBlock Origin Lite。
   en: A wide-spectrum content-blocking browser extension that stops ads, trackers, cryptominers and malware sites by default, and is extremely light on resources. The full version runs on Firefox and Firefox-based browsers; since Chrome's Manifest V3 migration, Chrome can only install the feature-limited uBlock Origin Lite.
+review:
+  zh: |
+    uBlock Origin 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。广谱内容拦截浏览器扩展，默认拦截广告、追踪器、挖矿脚本和恶意站点，占用资源极低。完整版在 Firefox 及其衍生浏览器上可用；Chrome 完成 Manifest V3 迁移后只能装功能受限的 uBlock Origin Lite。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    uBlock Origin is a standout choice in privacy protection, encryption, and security. A wide-spectrum content-blocking browser extension that stops ads, trackers, cryptominers and malware sites by default, and is extremely light on resources. The full version runs on Firefox and Firefox-based browsers; since Chrome's Manifest V3 migration, Chrome can only install the feature-limited uBlock Origin Lite.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

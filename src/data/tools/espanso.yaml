@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 用 Rust 编写的文本扩展器，输入短触发词即可自动展开为常用邮件、代码片段或任意长文本。基于 YAML 配置，可跨应用工作。开源、免费、无账号。
   en: A text expander written in Rust — type a short trigger and it expands into your common emails, code snippets or any long text. YAML-based config that works across every app. Open source, free, no account.
+review:
+  zh: |
+    Espanso 是 开源工具 领域中一款值得长期留存的代表作。用 Rust 编写的文本扩展器，输入短触发词即可自动展开为常用邮件、代码片段或任意长文本。基于 YAML 配置，可跨应用工作。开源、免费、无账号。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Espanso is a standout choice in software tools. A text expander written in Rust — type a short trigger and it expands into your common emails, code snippets or any long text. YAML-based config that works across every app. Open source, free, no account.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

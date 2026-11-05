@@ -36,3 +36,12 @@ tagline:
 description:
   zh: MIT 开源的「黑客风」双链 Markdown 笔记软件。底层就是你硬盘上干干净净的 `.md` 纯文本文件夹，但通过浏览器打开即可获得实时双向链接、类似 SQL 的动态文档查询与模板渲染，且支持 PWA 离线缓存与多设备自动同步。
   en: An MIT-licensed note-taking web app backed by plain Markdown files on disk. Combines instant bidirectional linking, live SQL-like queries inside notes, and offline-capable PWA sync.
+review:
+  zh: |
+    SilverBullet 是 效率与知识管理 领域中一款值得长期留存的代表作。MIT 开源的「黑客风」双链 Markdown 笔记软件。底层就是你硬盘上干干净净的 `.md` 纯文本文件夹，但通过浏览器打开即可获得实时双向链接、类似 SQL 的动态文档查询与模板渲染，且支持 PWA 离线缓存与多设备自动同步。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    SilverBullet is a standout choice in productivity and knowledge management. An MIT-licensed note-taking web app backed by plain Markdown files on disk. Combines instant bidirectional linking, live SQL-like queries inside notes, and offline-capable PWA sync.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Web browsers, Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

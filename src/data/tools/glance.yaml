@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 用 Go 编写的单二进制开源个人主页。不同于只摆一排图标的普通导航页，Glance 把你常看的 RSS 订阅、Hacker News、Reddit、GitHub Releases、天气预报、股票行情与内网服务器状态全部聚合在一屏信息流里，内存占用不到 20MB。
   en: A single-binary Go dashboard that aggregates your RSS feeds, Hacker News, Reddit, GitHub releases, weather, bookmarks and server status widgets into one fast, customizable startpage using under 20MB of RAM.
+review:
+  zh: |
+    Glance 是 开源工具 领域中一款值得长期留存的代表作。用 Go 编写的单二进制开源个人主页。不同于只摆一排图标的普通导航页，Glance 把你常看的 RSS 订阅、Hacker News、Reddit、GitHub Releases、天气预报、股票行情与内网服务器状态全部聚合在一屏信息流里，内存占用不到 20MB。
+
+    在“真免费、少打扰”的维度上，它采用 AGPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux、macOS、Windows、Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Glance is a standout choice in software tools. A single-binary Go dashboard that aggregates your RSS feeds, Hacker News, Reddit, GitHub releases, weather, bookmarks and server status widgets into one fast, customizable startpage using under 20MB of RAM.
+
+    From a user-freedom perspective, it is released under the AGPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, macOS, Windows, Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

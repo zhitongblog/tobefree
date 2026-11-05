@@ -53,6 +53,15 @@ const itemListElement = [
 const jsonLd = [
   {
     '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: lang === 'zh' ? '首页' : 'Home', item: abs(localizedPath(lang, '')) },
+      { '@type': 'ListItem', position: 2, name: lang === 'zh' ? '专题清单' : 'Collections', item: abs(localizedPath(lang, 'collections')) },
+      { '@type': 'ListItem', position: 3, name: title, item: abs(localizedPath(lang, `collections/${page.id}`)) },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: title,
     description,

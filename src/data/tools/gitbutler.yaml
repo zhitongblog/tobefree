@@ -32,3 +32,12 @@ tagline:
 description:
   zh: 由 GitHub 联合创始人与《Pro Git》作者 Scott Chacon 推出的新型 Git 桌面客户端。独创「虚拟分支（Virtual Branches）」机制，在同一个工作目录里写代码后，直接把不同文件甚至不同代码行拖拽到不同分支泳道分别提交，彻底告别频繁 git stash 和 git checkout。
   en: 'Created by GitHub co-founder Scott Chacon, GitButler introduces Virtual Branches: work in a single working directory and drag individual files or hunks into separate branch lanes to commit or PR independently without constant stashing and switching.'
+review:
+  zh: |
+    GitButler 是 开源工具 领域中一款值得长期留存的代表作。由 GitHub 联合创始人与《Pro Git》作者 Scott Chacon 推出的新型 Git 桌面客户端。独创「虚拟分支（Virtual Branches）」机制，在同一个工作目录里写代码后，直接把不同文件甚至不同代码行拖拽到不同分支泳道分别提交，彻底告别频繁 git stash 和 git checkout。
+
+    在“真免费、少打扰”的维度上，它采用 FSL-1.1-MIT 授权，核心功能对个人用户诚意开放，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    GitButler is a standout choice in software tools. Created by GitHub co-founder Scott Chacon, GitButler introduces Virtual Branches: work in a single working directory and drag individual files or hunks into separate branch lanes to commit or PR independently without constant stashing and switching.
+
+    From a user-freedom perspective, it is distributed under FSL-1.1-MIT with a generous free experience, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

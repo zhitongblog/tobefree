@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 在浏览器里即开即用的手绘风白板，画流程图、示意图、草图都很顺手，无需注册，绘图数据存在本地，协作时端到端加密。
   en: A hand-drawn-style whiteboard that runs right in the browser for flowcharts, diagrams and sketches. No sign-up, drawings stay local, and collaboration is end-to-end encrypted.
+review:
+  zh: |
+    Excalidraw 是 设计、图像与音视频创作 领域中一款值得长期留存的代表作。在浏览器里即开即用的手绘风白板，画流程图、示意图、草图都很顺手，无需注册，绘图数据存在本地，协作时端到端加密。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Excalidraw is a standout choice in creative design, imaging, and audio/video production. A hand-drawn-style whiteboard that runs right in the browser for flowcharts, diagrams and sketches. No sign-up, drawings stay local, and collaboration is end-to-end encrypted.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Web browsers, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

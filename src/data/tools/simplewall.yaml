@@ -31,3 +31,12 @@ tagline:
 description:
   zh: 体积仅有 1MB 出头的 GPL-3.0 开源 Windows 防火墙配置工具。它不装臃肿的第三方驱动，而是直接控制 Windows 内核原生的过滤平台（WFP），开启白名单模式后，任何新装软件想联网都必须先过你弹窗点头，还能一键屏蔽 Windows 系统级遥测 IP。
   en: A tiny 1MB GPL-3.0 utility that configures the native Windows Filtering Platform (WFP) without third-party drivers. Blocks all unauthorized app connections by default and includes built-in blocklists for Windows telemetry.
+review:
+  zh: |
+    simplewall 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。体积仅有 1MB 出头的 GPL-3.0 开源 Windows 防火墙配置工具。它不装臃肿的第三方驱动，而是直接控制 Windows 内核原生的过滤平台（WFP），开启白名单模式后，任何新装软件想联网都必须先过你弹窗点头，还能一键屏蔽 Windows 系统级遥测 IP。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    simplewall is a standout choice in privacy protection, encryption, and security. A tiny 1MB GPL-3.0 utility that configures the native Windows Filtering Platform (WFP) without third-party drivers. Blocks all unauthorized app connections by default and includes built-in blocklists for Windows telemetry.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

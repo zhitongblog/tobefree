@@ -37,3 +37,12 @@ tagline:
 description:
   zh: 调查记者与隐私安全专家标配的 GPL-3.0 开源工具。它直接在你的电脑上临时启动一个隐藏的 `.onion` 洋葱服务，生成一次性地址与密钥发给对方；对方用 Tor 浏览器直接从你的硬盘拉取文件（或向你的匿名收件箱投递文件），传完即焚，中间没有任何云盘服务器留存痕迹。
   en: A GPL-3.0 tool that spins up an ephemeral `.onion` service right on your computer so recipients can download files, drop documents into an anonymous inbox or chat directly with you over Tor without any middleman server.
+review:
+  zh: |
+    OnionShare 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。调查记者与隐私安全专家标配的 GPL-3.0 开源工具。它直接在你的电脑上临时启动一个隐藏的 `.onion` 洋葱服务，生成一次性地址与密钥发给对方；对方用 Tor 浏览器直接从你的硬盘拉取文件（或向你的匿名收件箱投递文件），传完即焚，中间没有任何云盘服务器留存痕迹。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、iOS、Android、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    OnionShare is a standout choice in privacy protection, encryption, and security. A GPL-3.0 tool that spins up an ephemeral `.onion` service right on your computer so recipients can download files, drop documents into an anonymous inbox or chat directly with you over Tor without any middleman server.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, iOS, Android, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

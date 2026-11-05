@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 异地组网领域的老牌标杆。不同于多数三层 VPN，ZeroTier 模拟的是真正的二层以太网交换机（支持广播、多播与任意协议，打局域网老游戏联机尤其好用）。输入一串 16 位网络 ID 即可把家里的 NAS、在外办公的笔记本与手机直连互通，也支持自建控制器与 Moon 中转节点。
   en: Emulates a true Layer-2 Ethernet switch over encrypted peer-to-peer UDP tunnels, supporting broadcast/multicast traffic for LAN games, NAS access and remote administration.
+review:
+  zh: |
+    ZeroTier 是 开源工具 领域中一款值得长期留存的代表作。异地组网领域的老牌标杆。不同于多数三层 VPN，ZeroTier 模拟的是真正的二层以太网交换机（支持广播、多播与任意协议，打局域网老游戏联机尤其好用）。输入一串 16 位网络 ID 即可把家里的 NAS、在外办公的笔记本与手机直连互通，也支持自建控制器与 Moon 中转节点。
+
+    在“真免费、少打扰”的维度上，它采用 BSL-1.1 授权，核心功能对个人用户诚意开放，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、iOS、Android、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    ZeroTier is a standout choice in software tools. Emulates a true Layer-2 Ethernet switch over encrypted peer-to-peer UDP tunnels, supporting broadcast/multicast traffic for LAN games, NAS access and remote administration.
+
+    From a user-freedom perspective, it is distributed under BSL-1.1 with a generous free experience, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, iOS, Android, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -30,3 +30,12 @@ tagline:
 description:
   zh: GNOME 桌面环境的官方 GPL-3.0 浏览器。不跟风套壳 Chromium，而是采用与苹果 Safari 同源的 WebKitGTK 引擎，默认开启智能防追踪（ITP）与内置广告拦截器，界面与 Linux 原生桌面浑然一体。
   en: Powered by WebKitGTK under GPL-3.0, GNOME Web offers an independent browser engine alternative on Linux with built-in Intelligent Tracking Prevention and content blocking.
+review:
+  zh: |
+    GNOME Web (Epiphany) 是 开源工具 领域中一款值得长期留存的代表作。GNOME 桌面环境的官方 GPL-3.0 浏览器。不跟风套壳 Chromium，而是采用与苹果 Safari 同源的 WebKitGTK 引擎，默认开启智能防追踪（ITP）与内置广告拦截器，界面与 Linux 原生桌面浑然一体。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    GNOME Web (Epiphany) is a standout choice in software tools. Powered by WebKitGTK under GPL-3.0, GNOME Web offers an independent browser engine alternative on Linux with built-in Intelligent Tracking Prevention and content blocking.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

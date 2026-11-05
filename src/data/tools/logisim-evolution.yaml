@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 全球高校计算机组成原理与数字逻辑课程广泛采用的 GPL-3.0 开源电路仿真软件。从最基础的 AND / OR / NOT 逻辑门开始拖拽连线，实时看到高低电平信号流动，一步步搭建出加法器、ALU、寄存器堆乃至完整的 RISC-V 处理器，还支持时序波形图与导出到真实 FPGA 开发板。
   en: A GPL-3.0 educational digital logic simulator maintained by European universities. Wire logic gates, flip-flops, RAM and ALUs into complete working CPUs, inspect timing chronograms and synthesize designs to FPGA boards.
+review:
+  zh: |
+    Logisim-evolution 是 开源工具 领域中一款值得长期留存的代表作。全球高校计算机组成原理与数字逻辑课程广泛采用的 GPL-3.0 开源电路仿真软件。从最基础的 AND / OR / NOT 逻辑门开始拖拽连线，实时看到高低电平信号流动，一步步搭建出加法器、ALU、寄存器堆乃至完整的 RISC-V 处理器，还支持时序波形图与导出到真实 FPGA 开发板。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Logisim-evolution is a standout choice in software tools. A GPL-3.0 educational digital logic simulator maintained by European universities. Wire logic gates, flip-flops, RAM and ALUs into complete working CPUs, inspect timing chronograms and synthesize designs to FPGA boards.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

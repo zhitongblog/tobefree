@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 手机拍的原图、导出的 PDF 和 Office 文档里往往藏着精确到门牌号的 GPS 坐标、设备指纹与电脑用户名。MAT2（及其图形界面 Metadata Cleaner）是 Tails 隐私系统御用的开源元数据清理工具，把文件发上网前一键彻底抹除所有隐藏属性。
   en: The Metadata Anonymisation Toolkit (bundled in Tails OS and wrapped by the GTK Metadata Cleaner GUI) strips hidden EXIF GPS coordinates, device serials and author names from images, PDFs, Office docs and audio files.
+review:
+  zh: |
+    MAT2 (Metadata Cleaner) 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。手机拍的原图、导出的 PDF 和 Office 文档里往往藏着精确到门牌号的 GPS 坐标、设备指纹与电脑用户名。MAT2（及其图形界面 Metadata Cleaner）是 Tails 隐私系统御用的开源元数据清理工具，把文件发上网前一键彻底抹除所有隐藏属性。
+
+    在“真免费、少打扰”的维度上，它采用 LGPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux、macOS、Windows、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    MAT2 (Metadata Cleaner) is a standout choice in privacy protection, encryption, and security. The Metadata Anonymisation Toolkit (bundled in Tails OS and wrapped by the GTK Metadata Cleaner GUI) strips hidden EXIF GPS coordinates, device serials and author names from images, PDFs, Office docs and audio files.
+
+    From a user-freedom perspective, it is released under the LGPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Linux, macOS, Windows, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

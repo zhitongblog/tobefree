@@ -30,3 +30,12 @@ tagline:
 description:
   zh: 用原生 SwiftUI 编写的开源 macOS 软件卸载工具。在 Mac 上把应用拖进废纸篓往往会在 Library 里留下一堆缓存与配置垃圾，Pearcleaner 能一键扫描并勾选关联残留文件、清理已卸载应用的孤儿文件，还支持为通用二进制（Universal）应用瘦身。
   en: A native SwiftUI open-source app uninstaller for macOS. Tracks down scattered Library caches, preferences and orphaned files left behind by deleted apps, and can strip unused architectures from Universal binaries to save disk space.
+review:
+  zh: |
+    Pearcleaner 是 开源工具 领域中一款值得长期留存的代表作。用原生 SwiftUI 编写的开源 macOS 软件卸载工具。在 Mac 上把应用拖进废纸篓往往会在 Library 里留下一堆缓存与配置垃圾，Pearcleaner 能一键扫描并勾选关联残留文件、清理已卸载应用的孤儿文件，还支持为通用二进制（Universal）应用瘦身。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Pearcleaner is a standout choice in software tools. A native SwiftUI open-source app uninstaller for macOS. Tracks down scattered Library caches, preferences and orphaned files left behind by deleted apps, and can strip unused architectures from Universal binaries to save disk space.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

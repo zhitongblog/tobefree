@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 帮你收集、整理、标注和引用研究资料，支持 9000+ 种引用格式，可直接在 Word、LibreOffice 与 Google Docs 中插入参考文献。应用本身免费开源，仅云端存储扩容为付费项。
   en: Collects, organizes, annotates and cites your research sources with 9,000+ citation styles, inserting references directly in Word, LibreOffice and Google Docs. The app itself is free and open source; only extra cloud storage is paid.
+review:
+  zh: |
+    Zotero 是 开源工具 领域中一款值得长期留存的代表作。帮你收集、整理、标注和引用研究资料，支持 9000+ 种引用格式，可直接在 Word、LibreOffice 与 Google Docs 中插入参考文献。应用本身免费开源，仅云端存储扩容为付费项。
+
+    在“真免费、少打扰”的维度上，它采用 AGPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Zotero is a standout choice in software tools. Collects, organizes, annotates and cites your research sources with 9,000+ citation styles, inserting references directly in Word, LibreOffice and Google Docs. The app itself is free and open source; only extra cloud storage is paid.
+
+    From a user-freedom perspective, it is released under the AGPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

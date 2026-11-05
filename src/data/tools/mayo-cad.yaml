@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 基于 OpenCASCADE 内核的 BSD 开源三维 CAD 看图与格式转换神器。机械工程师收到客户发来的几百兆 `.step` 或 `.iges` 装配体图纸时，不用苦等庞大的 SolidWorks 启动，用 Mayo 秒开查看装配树、剖切面测量尺寸，并支持批量互转 STL / OBJ / glTF。
   en: A fast BSD-licensed 3D CAD viewer and converter built on OpenCASCADE. Inspect STEP, IGES, BREP, STL, OBJ and glTF assemblies, measure cross-sections and convert formats offline.
+review:
+  zh: |
+    Mayo 是 开源工具 领域中一款值得长期留存的代表作。基于 OpenCASCADE 内核的 BSD 开源三维 CAD 看图与格式转换神器。机械工程师收到客户发来的几百兆 `.step` 或 `.iges` 装配体图纸时，不用苦等庞大的 SolidWorks 启动，用 Mayo 秒开查看装配树、剖切面测量尺寸，并支持批量互转 STL / OBJ / glTF。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-2-Clause 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、Linux、macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Mayo is a standout choice in software tools. A fast BSD-licensed 3D CAD viewer and converter built on OpenCASCADE. Inspect STEP, IGES, BREP, STL, OBJ and glTF assemblies, measure cross-sections and convert formats offline.
+
+    From a user-freedom perspective, it is released under the BSD-2-Clause open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, Linux, macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

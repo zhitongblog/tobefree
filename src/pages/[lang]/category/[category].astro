@@ -55,18 +55,6 @@ const jsonLd = [
       })),
     },
   },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name: pageTitle,
-    numberOfItems: tools.length,
-    itemListElement: tools.map((tl, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: tl.data.name,
-      url: abs(localizedPath(lang, `tools/${tl.id}`)),
-    })),
-  },
 ];
 ---
 

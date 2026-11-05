@@ -18,6 +18,7 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
+      filter: (page) => page !== `${SITE_URL}/` && page !== SITE_URL,
       i18n: {
         defaultLocale: 'zh',
         locales: {

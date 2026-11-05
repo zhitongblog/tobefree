@@ -20,3 +20,12 @@ tagline:
 description:
   zh: 世界最大的端到端加密邮件服务，邮件在离开设备前就加密，Proton 自己也读不到内容。位于瑞士、受严格隐私法保护，客户端开源、经独立审计。免费版即可拥有一个私密邮箱。
   en: The world's largest end-to-end encrypted email service — mail is encrypted before it leaves your device, so not even Proton can read it. Based in Switzerland under strict privacy law, with open-source, independently audited clients. The free tier gives you a private mailbox.
+review:
+  zh: |
+    Proton Mail 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。世界最大的端到端加密邮件服务，邮件在离开设备前就加密，Proton 自己也读不到内容。位于瑞士、受严格隐私法保护，客户端开源、经独立审计。免费版即可拥有一个私密邮箱。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 (clients) 开源协议，代码公开透明、可独立审计，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、iOS、Android、Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Proton Mail is a standout choice in privacy protection, encryption, and security. The world's largest end-to-end encrypted email service — mail is encrypted before it leaves your device, so not even Proton can read it. Based in Switzerland under strict privacy law, with open-source, independently audited clients. The free tier gives you a private mailbox.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 (clients) open-source license with publicly auditable code, ships with zero ads and no invasive telemetry. With native support across Web browsers, iOS, Android, Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

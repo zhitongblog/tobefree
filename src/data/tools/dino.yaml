@@ -30,3 +30,12 @@ tagline:
 description:
   zh: 让古老而开放的 XMPP（Jabber）去中心化通讯协议重获现代体验的 GPL-3.0 客户端。采用清爽的 GTK4 界面，原生集成 OMEMO（基于 Signal 双棘轮算法）端到端加密、加密文件传输与点对点加密音视频通话。
   en: A modern GTK4 XMPP client under GPL-3.0 that brings a clean conversational UI, OMEMO end-to-end encryption, multi-device message synchronization and encrypted audio/video calls to the decentralized Jabber network.
+review:
+  zh: |
+    Dino 是 开源工具 领域中一款值得长期留存的代表作。让古老而开放的 XMPP（Jabber）去中心化通讯协议重获现代体验的 GPL-3.0 客户端。采用清爽的 GTK4 界面，原生集成 OMEMO（基于 Signal 双棘轮算法）端到端加密、加密文件传输与点对点加密音视频通话。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Dino is a standout choice in software tools. A modern GTK4 XMPP client under GPL-3.0 that brings a clean conversational UI, OMEMO end-to-end encryption, multi-device message synchronization and encrypted audio/video calls to the decentralized Jabber network.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

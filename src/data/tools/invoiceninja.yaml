@@ -35,3 +35,12 @@ tagline:
 description:
   zh: 专为独立开发者、设计师与咨询顾问打造的自建账单与工时管理系统。支持按项目开启计时器记录工时，一键把工时和支出转化为排版精美的 PDF 发票发给客户，使用官方 Docker 镜像自建即可免费解锁全部高级模板与去水印能力。
   en: A self-hostable invoicing and time-tracking suite for freelancers and agencies. Track billable hours on Kanban boards, convert tasks into PDF quotes or invoices, and manage client portals on your own infrastructure.
+review:
+  zh: |
+    Invoice Ninja 是 开源工具 领域中一款值得长期留存的代表作。专为独立开发者、设计师与咨询顾问打造的自建账单与工时管理系统。支持按项目开启计时器记录工时，一键把工时和支出转化为排版精美的 PDF 发票发给客户，使用官方 Docker 镜像自建即可免费解锁全部高级模板与去水印能力。
+
+    在“真免费、少打扰”的维度上，它采用 ELv2 (Source Available) 授权，核心功能对个人用户诚意开放，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无广告弹窗与商业遥测追踪。目前原生覆盖 Web 浏览器、Windows、macOS、Linux、iOS、Android 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Invoice Ninja is a standout choice in software tools. A self-hostable invoicing and time-tracking suite for freelancers and agencies. Track billable hours on Kanban boards, convert tasks into PDF quotes or invoices, and manage client portals on your own infrastructure.
+
+    From a user-freedom perspective, it is distributed under ELv2 (Source Available) with a generous free experience, can be self-hosted on your own server or homelab to avoid vendor lock-in, ships with zero ads and no invasive telemetry. With native support across Web browsers, Windows, macOS, Linux, iOS, Android, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

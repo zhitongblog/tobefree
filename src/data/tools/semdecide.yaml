@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 遵循 Unix 哲学的轻量级命令行工具，将 Jev 的二元判断、多选分类与打分原语暴露为标准 CLI 命令。可以直接在管道（pipe）里对日志、提交信息或文本流做毫秒级语义过滤，并用标准退出码配合 if / xargs 编写自动化脚本。
   en: A Unix-philosophy CLI that exposes Jev boolean, select and score primitives to shell pipelines. Pipe logs, commit messages or text streams into SemDecide and branch on semantic predicates using standard exit codes and xargs.
+review:
+  zh: |
+    SemDecide 是 开源工具 领域中一款值得长期留存的代表作。遵循 Unix 哲学的轻量级命令行工具，将 Jev 的二元判断、多选分类与打分原语暴露为标准 CLI 命令。可以直接在管道（pipe）里对日志、提交信息或文本流做毫秒级语义过滤，并用标准退出码配合 if / xargs 编写自动化脚本。
+
+    在“真免费、少打扰”的维度上，它采用 MIT 开源协议，代码公开透明、可独立审计，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 macOS、Linux、Windows、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    SemDecide is a standout choice in software tools. A Unix-philosophy CLI that exposes Jev boolean, select and score primitives to shell pipelines. Pipe logs, commit messages or text streams into SemDecide and branch on semantic predicates using standard exit codes and xargs.
+
+    From a user-freedom perspective, it is released under the MIT open-source license with publicly auditable code, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across macOS, Linux, Windows, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

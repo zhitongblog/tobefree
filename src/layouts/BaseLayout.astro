@@ -32,7 +32,9 @@ const canonical = new URL(Astro.url.pathname, SITE.url).href;
 const ogImage = new URL(image, SITE.url).href;
 const altPath = altLangPath(Astro.url, lang);
 const altHref = new URL(altPath, SITE.url).href;
+const xDefaultHref = lang === 'en' ? canonical : altHref;
 const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
+const ogAltLocale = lang === 'zh' ? 'en_US' : 'zh_CN';
 ---
 
 <!doctype html>
@@ -48,7 +50,7 @@ const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
     <!-- hreflang -->
     <link rel="alternate" hreflang={lang === 'zh' ? 'zh-CN' : 'en-US'} href={canonical} />
     <link rel="alternate" hreflang={lang === 'zh' ? 'en-US' : 'zh-CN'} href={altHref} />
-    <link rel="alternate" hreflang="x-default" href={new URL('/', SITE.url).href} />
+    <link rel="alternate" hreflang="x-default" href={xDefaultHref} />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -61,6 +63,7 @@ const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content={pageTitle} />
     <meta property="og:locale" content={ogLocale} />
+    <meta property="og:locale:alternate" content={ogAltLocale} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -76,6 +79,8 @@ const ogLocale = lang === 'zh' ? 'zh_CN' : 'en_US';
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Context Summary" />
+    <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Full Catalog" />
 
     {jsonLd &&
       (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((obj) => (

@@ -34,3 +34,12 @@ tagline:
 description:
   zh: 面向化学教学、计算化学与材料科学的 BSD 开源三维分子编辑器。鼠标点几下就能搭出复杂有机分子或晶体结构，自动补氢并调用内置力场（Force Fields）实时把键角与空间构型弛豫到最低能量状态，还能直接生成 Gaussian、ORCA 等量子化学软件的输入文件。
   en: A BSD-licensed 3D molecular builder and visualizer. Sketch molecules interactively, run real-time force-field geometry optimization, inspect molecular orbitals and generate input decks for ORCA, Gaussian and GAMESS.
+review:
+  zh: |
+    Avogadro 是 开源工具 领域中一款值得长期留存的代表作。面向化学教学、计算化学与材料科学的 BSD 开源三维分子编辑器。鼠标点几下就能搭出复杂有机分子或晶体结构，自动补氢并调用内置力场（Force Fields）实时把键角与空间构型弛豫到最低能量状态，还能直接生成 Gaussian、ORCA 等量子化学软件的输入文件。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-3-Clause 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Avogadro is a standout choice in software tools. A BSD-licensed 3D molecular builder and visualizer. Sketch molecules interactively, run real-time force-field geometry optimization, inspect molecular orbitals and generate input decks for ORCA, Gaussian and GAMESS.
+
+    From a user-freedom perspective, it is released under the BSD-3-Clause open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

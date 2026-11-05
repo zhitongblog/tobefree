@@ -36,3 +36,12 @@ tagline:
 description:
   zh: 用 Rust 编写的单文件 HTTP / WebDAV 文件共享工具。以前临时给局域网同事传文件经常用 `python -m http.server`，但它既不能上传也不能搜索；而执行一句 `dufs -A` 就能秒开一个支持拖拽上传、文件夹打包成 zip 下载、断点续传、权限控制还能直接当 WebDAV 网盘挂载的服务。
   en: A single-binary Rust file server that upgrades `python -m http.server` with drag-and-drop uploads, folder-as-zip downloads, resumable transfers, access control and full WebDAV mounting.
+review:
+  zh: |
+    Dufs 是 开源工具 领域中一款值得长期留存的代表作。用 Rust 编写的单文件 HTTP / WebDAV 文件共享工具。以前临时给局域网同事传文件经常用 `python -m http.server`，但它既不能上传也不能搜索；而执行一句 `dufs -A` 就能秒开一个支持拖拽上传、文件夹打包成 zip 下载、断点续传、权限控制还能直接当 WebDAV 网盘挂载的服务。
+
+    在“真免费、少打扰”的维度上，它采用 MIT / Apache-2.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，支持 Docker 或私有服务器自建部署，彻底摆脱第三方云服务锁定，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    Dufs is a standout choice in software tools. A single-binary Rust file server that upgrades `python -m http.server` with drag-and-drop uploads, folder-as-zip downloads, resumable transfers, access control and full WebDAV mounting.
+
+    From a user-freedom perspective, it is released under the MIT / Apache-2.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, can be self-hosted on your own server or homelab to avoid vendor lock-in, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

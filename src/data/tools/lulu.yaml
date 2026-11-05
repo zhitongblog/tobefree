@@ -31,3 +31,12 @@ tagline:
 description:
   zh: 由知名苹果安全研究机构 Objective-See（Patrick Wardle）开源的 macOS 防火墙。macOS 自带防火墙只管外部连入、不管内部软件往外发数据，LuLu 则专门盯防本机软件的出站请求，帮你一举掐断破解软件后门或流氓应用的遥测上报。
   en: Built by macOS security researcher Patrick Wardle (Objective-See), LuLu monitors outgoing network traffic on your Mac and alerts you whenever an app or background daemon tries to phone home without permission.
+review:
+  zh: |
+    LuLu 是 隐私、加密与安全防护 领域中一款值得长期留存的代表作。由知名苹果安全研究机构 Objective-See（Patrick Wardle）开源的 macOS 防火墙。macOS 自带防火墙只管外部连入、不管内部软件往外发数据，LuLu 则专门盯防本机软件的出站请求，帮你一举掐断破解软件后门或流氓应用的遥测上报。
+
+    在“真免费、少打扰”的维度上，它采用 GPL-3.0 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 macOS 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    LuLu is a standout choice in privacy protection, encryption, and security. Built by macOS security researcher Patrick Wardle (Objective-See), LuLu monitors outgoing network traffic on your Mac and alerts you whenever an app or background daemon tries to phone home without permission.
+
+    From a user-freedom perspective, it is released under the GPL-3.0 open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across macOS, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.

@@ -37,3 +37,12 @@ tagline:
 description:
   zh: BSD 开源的音视频文件技术参数透视镜。右键点击任意视频或音频文件，立刻列出封装格式、视频编码（H.264/HEVC/AV1）、真实码率、帧率模式（恒定/可变）、色彩空间（10-bit/Dolby Vision/HDR10）以及每一条内封音轨和字幕轨的详细参数。
   en: 'A BSD-licensed utility that reveals the exact technical specifications inside any video or audio container: codec profiles, bitrates, constant vs. variable frame rates, 10-bit/HDR metadata, audio channels and embedded subtitle tracks.'
+review:
+  zh: |
+    MediaInfo 是 开源工具 领域中一款值得长期留存的代表作。BSD 开源的音视频文件技术参数透视镜。右键点击任意视频或音频文件，立刻列出封装格式、视频编码（H.264/HEVC/AV1）、真实码率、帧率模式（恒定/可变）、色彩空间（10-bit/Dolby Vision/HDR10）以及每一条内封音轨和字幕轨的详细参数。
+
+    在“真免费、少打扰”的维度上，它采用 BSD-2-Clause 开源协议，代码公开透明、可独立审计，支持纯本地离线运行，核心数据保存在你自己的设备上，无需强制注册账号即可直接上手使用，无广告弹窗与商业遥测追踪。目前原生覆盖 Windows、macOS、Linux、iOS、Android、命令行 (CLI) 平台，非常适合希望摆脱昂贵订阅制或臃肿商业软件的用户作为主力替代方案。
+  en: |
+    MediaInfo is a standout choice in software tools. A BSD-licensed utility that reveals the exact technical specifications inside any video or audio container: codec profiles, bitrates, constant vs. variable frame rates, 10-bit/HDR metadata, audio channels and embedded subtitle tracks.
+
+    From a user-freedom perspective, it is released under the BSD-2-Clause open-source license with publicly auditable code, works completely offline so your files and data stay on your own disk, requires no mandatory account sign-up to get started, ships with zero ads and no invasive telemetry. With native support across Windows, macOS, Linux, iOS, Android, CLI, it serves as a dependable, long-term alternative to subscription-heavy or ad-bloated commercial software.
