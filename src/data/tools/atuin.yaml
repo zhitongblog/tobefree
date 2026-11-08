@@ -1,0 +1,46 @@
+name: Atuin
+accent: "#7C3AED"
+initials: AT
+category: dev
+price: free
+license: MIT
+website: https://atuin.sh
+download: https://github.com/atuinsh/atuin/releases
+repo: https://github.com/atuinsh/atuin
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - Shell历史
+  - 终端工具
+  - Rust
+  - SQLite
+  - 端到端加密
+platforms:
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 用 SQLite 数据库接管你的 Shell 历史记录，支持按目录/退出码检索与自建端到端加密同步
+  en: Magical shell history backed by SQLite with context filtering and optional E2E encrypted sync
+description:
+  zh: 替代简陋的 .bash_history / .zsh_history 纯文本文件，记录每条命令的执行目录、耗时与返回值，按下 Ctrl+R 即可调出全屏交互式模糊搜索，支持纯离线或自建服务器加密同步。
+  en: Replaces plain-text shell history files with a local SQLite database recording working directory, exit code, and duration. Press Ctrl+R for a full-screen fuzzy search UI, with optional self-hosted E2E sync.
+review:
+  zh: |
+    几个月前敲过一条复杂的 ffmpeg 或 docker 命令，但怎么按方向键都翻不出来？Atuin 把 Shell 历史升级成了结构化的本地 SQLite 数据库，不仅记下命令本身，还记下了当时的工作目录、耗时和是否执行成功。
+
+    你可以直接过滤「只在当前目录下执行成功的命令」，默认完全离线保存在本机；如果你有多台电脑，还可以用 Docker 自建它的同步服务端，通过端到端加密共享命令库。
+  en: |
+    Plain-text shell history files lose context and get overwritten easily. Atuin stores your command history in a local SQLite database along with the working directory, exit code, duration, and hostname.
+
+    Pressing Ctrl+R launches a fast TUI where you can filter for commands that succeeded in the current folder. It works 100% offline by default, and its optional E2E-encrypted sync server can be self-hosted.

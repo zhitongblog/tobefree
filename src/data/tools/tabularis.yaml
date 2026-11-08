@@ -1,0 +1,45 @@
+name: Tabularis
+accent: "#0EA5E9"
+initials: TB
+category: dev
+price: free
+license: Apache-2.0
+website: https://github.com/TabularisDB/tabularis
+download: https://github.com/TabularisDB/tabularis/releases
+repo: https://github.com/TabularisDB/tabularis
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 数据库客户端
+  - SQL
+  - TablePlus平替
+  - DataGrip平替
+  - MCP
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 现代开源桌面 SQL 工作台与数据库客户端，内置 SQL Notebook 与 MCP 服务
+  en: Modern open-source desktop SQL workspace for 15+ databases with SQL Notebooks and built-in MCP
+description:
+  zh: 原生及插件支持 PostgreSQL、MySQL、SQLite、DuckDB、ClickHouse、Redis 等 15+ 数据库。集交互式表格管理、SQL 笔记本（查询+Markdown+图表）与本地 MCP 服务于一体。
+  en: Supports PostgreSQL, MySQL, SQLite, DuckDB, ClickHouse, Redis, and 15+ databases. Combines fast table management, SQL Notebooks (queries, Markdown, and charts), and a local MCP server for AI coding agents.
+review:
+  zh: |
+    想要一个像 TablePlus 一样轻快、又不限制连接数和窗口数的免费数据库客户端？Tabularis 给出了极佳的开源答案。它原生支持主流关系型数据库，并通过插件轻松扩展至 DuckDB、ClickHouse 等现代分析型引擎。
+
+    除了顺手的表结构浏览与行内编辑，它最有特色的是「SQL Notebooks」——可以把 SQL 查询、说明文档与可视化图表保存在同一份工作区里；同时内置本地 MCP 端点，允许你的 AI 编程助手在受控权限下安全读取表结构并验证查询。
+  en: |
+    If you want a database client as snappy as TablePlus without connection limits or license paywalls, Tabularis is a standout open-source choice. It handles PostgreSQL, MySQL, and SQLite out of the box and extends to DuckDB, ClickHouse, and Redis via plugins.
+
+    Beyond fast inline table editing, its standout features are SQL Notebooks—combining queries, Markdown notes, and charts in one document—and a built-in local MCP server that lets AI coding assistants inspect schemas safely.

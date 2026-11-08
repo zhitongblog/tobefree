@@ -1,0 +1,45 @@
+name: Kilo Code
+accent: "#F59E0B"
+initials: KC
+category: ai
+price: free
+license: Apache-2.0
+website: https://kilocode.ai
+download: https://github.com/Kilo-Org/kilocode/releases
+repo: https://github.com/Kilo-Org/kilocode
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - AI编程
+  - Coding-Agent
+  - VS-Code插件
+  - CLI
+  - 本地大模型
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 开源多模型 AI 编程助手与终端 Agent，融合架构规划、编码执行与自动调试
+  en: Open-source multi-model AI coding agent for VS Code and CLI with Architect, Code, and Debug modes
+description:
+  zh: 结合 Cline 与 Roo Code 生态优势的 Apache-2.0 开源编程 Agent，支持自带 API Key（BYOK）或连接本地 Ollama / LM Studio 模型，无强制订阅，原生支持 MCP 与 Agent Skills。
+  en: An Apache-2.0 open-source AI coding agent combining multi-mode orchestration (Architect, Code, Debug), native MCP and Agent Skills support, and full BYOK or local Ollama/LM Studio compatibility.
+review:
+  zh: |
+    Kilo Code 是近期开源 AI 编程社区增长极快的一匹黑马。它采用 Apache-2.0 协议完全开源，既提供深度的编辑器分身模式（架构师模式、编码模式、调试模式），又支持终端 CLI 运行。
+
+    最良心的是它不搞模型差价捆绑：你可以直接接入本机的 Ollama / vLLM 做到零成本离线编程，也可以填入自己的任意 API Key，并直接调用本地 MCP 服务与技能包。
+  en: |
+    Kilo Code has quickly become a favorite in the open-source AI coding ecosystem. Released under Apache-2.0, it offers dedicated Architect, Code, and Debug modes alongside a terminal CLI.
+
+    It never locks you into a proprietary subscription: point it at a local Ollama or LM Studio model for zero-cost offline coding, bring your own API keys, and plug in any MCP server or SKILL.md package.

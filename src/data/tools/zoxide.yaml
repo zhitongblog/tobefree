@@ -1,0 +1,46 @@
+name: zoxide
+accent: "#D97706"
+initials: ZX
+category: dev
+price: free
+license: MIT
+website: https://github.com/ajeetdsouza/zoxide
+download: https://github.com/ajeetdsouza/zoxide/releases
+repo: https://github.com/ajeetdsouza/zoxide
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 命令行
+  - Rust
+  - 终端效率
+  - 目录跳转
+  - Shell
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 用 Rust 编写的智能 cd 命令替代品，记住你常去的目录并一键瞬移
+  en: A smarter cd command written in Rust that remembers your most-used directories
+description:
+  zh: 根据访问频率与最近使用时间（Frecency）对本地目录排序，只需输入目录名的几个字母（如 z proj）即可瞬间跳转到深层文件夹，兼容所有主流 Shell 与 fzf 交互预览。
+  en: Ranks directories by frecency so you can jump to deep folders by typing just a few characters (e.g. z proj). Works across Bash, Zsh, Fish, PowerShell, and Nushell with fzf integration.
+review:
+  zh: |
+    在终端里反复敲 `cd ../../some/deep/folder` 是最浪费生命的操作之一。zoxide 用 Rust 重写了目录跳转体验：它会安静地记录你去过的路径，之后无论你在哪个位置，输入 `z tobefree` 就能一步直达。
+
+    如果配合 fzf，输入 `zi` 还能调出带实时文件预览的交互式选择框。体积仅几 MB、零网络请求、支持包括 Windows PowerShell 在内的所有主流 Shell。
+  en: |
+    Typing long relative paths with cd is a relic of the past. Written in Rust, zoxide learns which directories you visit most often and lets you teleport anywhere on your disk with a short fuzzy query like z proj.
+
+    Paired with fzf, running zi opens an interactive picker with live directory previews. It runs completely offline with sub-millisecond overhead across every major shell.

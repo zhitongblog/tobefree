@@ -1,0 +1,43 @@
+kind: skill
+name: Hallmark UI Skill
+accent: "#B45309"
+initials: HM
+license: MIT
+website: https://github.com/Nutlope/hallmark
+repo: https://github.com/Nutlope/hallmark
+install: npx skills add Nutlope/hallmark
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - UI设计
+  - 前端审美
+  - Anti-AI-Slop
+  - Tailwind
+  - React
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Nutlope 开源的反 AI 模板味前端设计技能，内置高质感主题材质库与严格视觉验收门禁
+  en: Anti-AI-slop frontend design skill by Nutlope featuring curated theme materials and visual quality gates
+description:
+  zh: 提供经过精心调校的质感配色方案、任务导向的页面布局范式（仪表盘、编辑器、着陆页）与交互微动效规范，阻止编码助手输出廉价的套壳模板。
+  en: Provides curated tactile color palettes, task-driven layout archetypes (dashboards, editors, landing pages), and strict UI quality checklists for coding assistants.
+review:
+  zh: |
+    由知名开源开发者 Hassan El Mghari（Nutlope）开源的 Hallmark，是另一款专门整治「AI 廉价审美」的高人气技能包。它不靠空泛的形容词，而是给 Agent 提供了具体的质感材质库（纸张风、瑞士网格风、工业暗色风等）和分场景布局约束。
+
+    与 Impeccable 搭配或单独在 Claude Code / Cursor 中启用，都能立竿见影地提升生成页面的质感与细节完成度。
+  en: |
+    Created by Hassan El Mghari (Nutlope), Hallmark tackles "AI UI slop" by giving coding agents concrete tactile palettes—like warm paper, Swiss grid, and industrial dark—alongside task-first layout blueprints.
+
+    Instead of vague prompt adjectives, it enforces concrete CSS and component constraints so your AI assistant produces intentional, high-craft interfaces.

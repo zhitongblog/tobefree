@@ -1,0 +1,45 @@
+name: Vercel Agent Browser
+accent: "#171717"
+initials: AB
+category: dev
+price: free
+license: Apache-2.0
+website: https://agent-browser.dev
+download: https://github.com/vercel-labs/agent-browser/releases
+repo: https://github.com/vercel-labs/agent-browser
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 浏览器CLI
+  - AI-Agent
+  - Rust
+  - 自动化测试
+  - Vercel
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Vercel 开源的 Rust 极速 Agent 浏览器 CLI，用精简元素引用大幅节省 Token
+  en: High-speed Rust browser automation CLI for AI agents using token-efficient element references
+description:
+  zh: 专为 Claude Code、Cursor、Codex 等编码 Agent 打造的命令行无头浏览器工具。将网页精简为带编号引用（@e1、@e2）的语义快照，让 AI 用极少 Token 完成网页交互与前端自测。
+  en: A headless browser CLI engineered for coding agents. It converts pages into compact snapshots with short element references (@e1, @e2) so agents can click, type, and verify UIs with minimal token overhead.
+review:
+  zh: |
+    当编程 Agent 需要自己打开浏览器验证刚写好的前端页面时，传统 Playwright MCP 往往会把整个庞大 DOM 树塞进上下文，瞬间烧光 Token。Vercel 实验室开源的 Agent Browser 用 Rust 重写了这一流程。
+
+    它把当前页面精简为高信噪比的语义快照和短引用编号（如 `@e1`、`@e2`），Agent 只需执行简单的 CLI 子命令即可完成点击、填表和截图验收，响应快且完全免费开源。
+  en: |
+    Traditional browser tools often flood an agent's context window with massive DOM dumps. Built in Rust by Vercel Labs, Agent Browser solves this by turning web pages into compact accessibility snapshots indexed by short references like @e1 and @e2.
+
+    Coding agents can navigate, click, fill inputs, and verify local frontend builds directly from the terminal at native speed while consuming a fraction of the tokens.

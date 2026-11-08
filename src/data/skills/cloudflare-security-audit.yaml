@@ -1,0 +1,44 @@
+kind: skill
+name: Cloudflare Security Audit Skill
+accent: "#F38020"
+initials: CF
+license: Apache-2.0
+website: https://github.com/cloudflare/security-audit-skill
+repo: https://github.com/cloudflare/security-audit-skill
+install: npx skills add cloudflare/security-audit-skill
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 安全审计
+  - 代码审计
+  - 漏洞挖掘
+  - Cloudflare
+  - 官方技能
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - OpenCode
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: Cloudflare 官方开源的多阶段代码安全审计技能，输出可验证、低误报的结构化漏洞报告
+  en: Cloudflare's official multi-phase security audit skill with verifiable, machine-readable findings
+description:
+  zh: 指导 AI 编程助手像专业安全工程师一样对代码库执行威胁建模、攻击面枚举、数据流追踪与概念验证（PoC）复核，过滤幻觉误报，输出带修复建议的标准安全报告。
+  en: Guides coding agents through structured threat modeling, attack-surface mapping, taint tracking, and self-verification phases to uncover real vulnerabilities while filtering out false positives.
+review:
+  zh: |
+    直接让大模型「检查代码有没有安全漏洞」，往往会得到一堆泛泛而谈的废话或假阳性误报。Cloudflare 官方开源的这款安全审计技能，把资深安全团队的标准作业程序（SOP）固化成了多阶段工作流。
+
+    它会先让 Agent 绘制项目的信任边界和外部输入入口，再逐条追踪数据流并要求模型对每个疑似漏洞做反证复核，非常适合在发版或合并 PR 前在本地免费跑一轮深度安全体检。
+  en: |
+    Asking an LLM to "check for security bugs" usually yields noisy guesses. Open-sourced by Cloudflare, this skill turns your coding agent into a disciplined security auditor with a multi-phase methodology.
+
+    It maps trust boundaries and entry points first, traces untrusted input through the codebase, and runs a verification pass to eliminate false positives before emitting machine-readable findings.

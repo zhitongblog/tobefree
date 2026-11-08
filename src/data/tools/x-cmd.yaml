@@ -1,0 +1,45 @@
+name: x-cmd
+accent: "#0284C7"
+initials: XC
+category: dev
+price: free
+license: MIT
+website: https://x-cmd.com
+download: https://x-cmd.com/start/
+repo: https://github.com/x-cmd/x-cmd
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 命令行
+  - Shell工具箱
+  - 包管理器
+  - AI-CLI
+  - 轻量
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 超轻量 POSIX Shell 工具箱与 AI 命令行伴侣，免 root 一键按需引导上千款 CLI 工具
+  en: Lightweight POSIX shell toolkit and AI CLI companion that bootstraps 1,000+ command-line tools on demand
+description:
+  zh: 仅需极小体积即可在任意 Linux/macOS/WSL 环境中运行，内置数百个纯 Shell 增强模块与云服务/大模型交互命令，无需系统管理员权限即可按需下载并沙箱化运行超过 1,000 款开源 CLI。
+  en: A tiny POSIX shell runtime that brings hundreds of built-in TUI enhancements, LLM/API helpers, and rootless on-demand bootstrapping for over 1,000 open-source CLI utilities.
+review:
+  zh: |
+    当你登录一台没有 root 权限的远程服务器或精简容器，想要用 jq、fzf、ripgrep 却装不了时，x-cmd 就像随身携带的百宝箱。它底层基于纯 POSIX Shell 和 awk 构建，启动极快、不污染系统环境。
+
+    除了免权限按需拉取上千款开源二进制工具，它还为常用系统命令提供了友好的交互式 TUI 界面和终端 AI 辅助命令，非常适合运维工程师与重度终端用户。
+  en: |
+    When you SSH into a stripped-down server or container without root privileges, x-cmd acts as a portable Swiss Army knife. Built on pure POSIX shell and awk, it installs in seconds without polluting the host system.
+
+    From there, it can bootstrap over 1,000 open-source CLI binaries on demand in user space and adds interactive TUI wrappers for everyday commands and AI terminal workflows.

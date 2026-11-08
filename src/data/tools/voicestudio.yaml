@@ -1,0 +1,45 @@
+name: VoiceStudio
+accent: "#8B5CF6"
+initials: VS
+category: media
+price: free
+license: MIT
+website: https://github.com/debpalash/VoiceStudio
+download: https://github.com/debpalash/VoiceStudio/releases
+repo: https://github.com/debpalash/VoiceStudio
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 语音合成
+  - 声音克隆
+  - ElevenLabs平替
+  - 视频配音
+  - TTS
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 纯本地运行的开源 ElevenLabs 平替，集成声音克隆、视频配音与有声书制作
+  en: Fully local open-source ElevenLabs alternative for voice cloning, video dubbing, and audiobooks
+description:
+  zh: 在本地显卡或 Mac 上离线完成零样本声音克隆、音色设计、多语种视频配音翻译、语音转写与长文本有声书批量合成，不按字符数收费，音色数据留在本机。
+  en: Run zero-shot voice cloning, voice design, multilingual video dubbing, transcription, and long-form audiobook generation completely offline on your own GPU or Mac with zero per-character fees.
+review:
+  zh: |
+    商业 AI 配音平台（如 ElevenLabs）按字符计费极贵，且上传人声样本存在隐私顾虑。VoiceStudio 将开源社区最强的语音合成、克隆与转写模型整合进一套干净的本地工作台中。
+
+    无论是给短视频做多语种自动配音、克隆自己的声音朗读长篇电子书，还是生成多角色播客对白，全部在本机离线完成。没有额度焦虑、没有水印、无需注册账号。
+  en: |
+    Commercial AI voice platforms charge steep per-character fees and require uploading voice samples to the cloud. VoiceStudio packages open-source voice cloning, TTS, dubbing, and transcription models into a cohesive local desktop studio.
+
+    Whether you are dubbing videos into another language, cloning your own voice for narration, or producing multi-speaker audiobooks, everything runs offline on your hardware with no credit meters or watermarks.

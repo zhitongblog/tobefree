@@ -1,0 +1,46 @@
+title:
+  zh: 免费开源 AI 原生 UI 设计软件与「去 AI 塑料感」前端技能推荐
+  en: Free Open-Source AI-Native UI Design Tools & Anti-AI-Slop Frontend Skills
+description:
+  zh: 告别昂贵的 Figma 席位费与千篇一律的 AI 塑料感网页：精选开源「设计即代码」矢量设计软件、前端视觉规范技能包与双向设计 MCP 服务。
+  en: "Replace costly design subscriptions and eliminate generic AI UI slop: curated open-source vector UI tools, Design-as-Code MCP servers, and frontend visual quality skills."
+intro:
+  zh: 用 AI 写前端代码很快，但如果缺乏专业的视觉约束，大模型往往会输出千篇一律的蓝紫渐变、呆板圆角卡片与混乱排版（俗称 AI Slop）；与此同时，传统商业设计软件的团队订阅费越来越高。这份清单将「开源矢量 UI 设计工具（OpenPencil、Penpot）」与近期爆火的「反 AI 塑料感前端设计技能（Impeccable、Hallmark）」结合在一起，帮你零成本做出真正有设计质感的产品界面。
+  en: LLMs can generate frontend code in seconds, but without design guardrails they default to generic purple gradients and cookie-cutter cards ("AI slop"). This collection combines open-source vector UI design studios (OpenPencil, Penpot) with the top anti-AI-slop design skills (Impeccable, Hallmark) and MCP servers so you can ship polished interfaces for free.
+criteria:
+  zh:
+    - 设计软件完全免费开源，支持本地运行或私有化自建，无席位费与文件数量限制。
+    - 前端设计技能（SKILL.md）兼容 Claude Code、Cursor、Codex、Windsurf 等主流编程助手。
+    - 支持「设计即代码（Design-as-Code）」或通过 MCP 服务让 AI 直接读写画布与设计 Token。
+  en:
+    - UI design tools are 100% open source and free to run locally or self-host with no per-seat fees.
+    - Design skills work across Claude Code, Cursor, Codex, Windsurf, and OpenCode.
+    - Supports Design-as-Code workflows or MCP connections between canvases and codebases.
+tools:
+  - openpencil
+  - penpot
+  - excalidraw
+  - inkscape
+  - quant-ux
+  - lunacy
+skills:
+  - impeccable
+  - hallmark
+  - openpencil-mcp
+  - figma-context-mcp
+  - ui-ux-pro-max
+  - shadcn-ui-mcp
+  - vercel-agent-skills
+featured: true
+added: '2026-11-08'
+faq:
+  zh:
+    - q: OpenPencil 和 Penpot 这两款开源 Figma 平替该怎么选？
+      a: 如果你是开发者或重度使用 AI 编程助手（如 Claude Code、Cursor），首选 OpenPencil —— 它底层直接把画布存为可 Git Diff 的代码节点树，且内置双向读写 MCP；如果是传统设计师团队与产品经理多人协作画图，首选成熟的自托管平台 Penpot。
+    - q: 怎么让 AI 写出来的网页不再有浓浓的「AI 模板味」？
+      a: 在项目中安装 Impeccable（pbakaus/impeccable）和 Hallmark（Nutlope/hallmark）这两个开源技能。它们会为 Agent 设定严格的字体层级、留白节奏、材质配色和反模式门禁，从源头拦截廉价的模板套用。
+  en:
+    - q: Should I choose OpenPencil or Penpot as a free Figma alternative?
+      a: Choose OpenPencil if you are a developer or use AI coding agents heavily—it stores designs as diffable code trees and includes a built-in read/write MCP server. Choose Penpot if you want a full-featured, web-based collaborative design platform for traditional design teams.
+    - q: How do I stop Claude Code or Cursor from generating generic "AI slop" UIs?
+      a: Install the Impeccable and Hallmark agent skills. Together they enforce strict typography scales, tactile color palettes, layout archetypes, and anti-pattern checks before your agent writes CSS or JSX.

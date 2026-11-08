@@ -3,10 +3,10 @@ title:
   en: Recommended Claude Skills and Agent Skills
 description:
   zh: 免费的 Claude Skills / Agent Skills 推荐：Anthropic 官方技能、工程方法论、设计、科研、安全审计，以及 Hugging Face、Cloudflare、Expo 等官方技能包和技能导航清单。
-  en: 'Free Claude Skills and Agent Skills: Anthropic''s official skills, engineering workflows, design, science and security audits, plus official skill packs from Hugging Face, Cloudflare and Expo and the best curated skill lists.'
+  en: "Free Claude Skills and Agent Skills: Anthropic's official skills, engineering workflows, design, science and security audits, plus official skill packs from Hugging Face, Cloudflare and Expo and the best curated skill lists."
 intro:
   zh: 技能（Skill）是一个文件夹：一份 SKILL.md 写清楚什么时候用、怎么做，再附上脚本和素材。Agent 平时只看到技能的一句描述，任务对上了才加载全文，所以装几十个也不怎么占上下文。MCP 给 Agent 接工具，技能教 Agent 做事的方法，两者经常一起用。这份清单只收免费、能直接装上用的技能包，协议按仓库里的 LICENSE 文件标注，没有写协议的也照实标出。
-  en: 'A skill is a folder: a SKILL.md that says when to use it and how, plus scripts and assets. The agent sees only a one-line description until a task matches, then loads the full text — so dozens of installed skills cost little context. MCP connects tools to an agent; skills teach it how to do the work, and the two are often used together. This list covers free skill packs you can install and use right away. Licences are taken from each repository''s LICENSE file, and missing licences are stated as such.'
+  en: "A skill is a folder: a SKILL.md that says when to use it and how, plus scripts and assets. The agent sees only a one-line description until a task matches, then loads the full text — so dozens of installed skills cost little context. MCP connects tools to an agent; skills teach it how to do the work, and the two are often used together. This list covers free skill packs you can install and use right away. Licences are taken from each repository's LICENSE file, and missing licences are stated as such."
 criteria:
   zh:
     - 免费使用，安装方式清楚，能直接装进 Claude Code 或其他支持技能的客户端。
@@ -15,7 +15,7 @@ criteria:
     - 协议照实标注，官方文档技能这类源码公开但非开源的，不打开源徽章。
   en:
     - Free to use, with a clear install path into Claude Code or another skills-capable client.
-    - 'Solves real work: engineering process, documents, design, science, security, platform development.'
+    - "Solves real work: engineering process, documents, design, science, security, platform development."
     - Officially maintained or widely recognized and still active; archived projects are excluded.
     - Licences stated as they are — source-available skills such as the official document skills get no open-source badge.
 tools: []
@@ -52,6 +52,12 @@ skills:
   - jev-cookbook
   - jev-explained
   - obsidian-skills
+  - impeccable
+  - hallmark
+  - claude-mem
+  - cloudflare-security-audit
+  - voltagent-awesome-skills
+  - mattpocock-skills
 featured: true
 added: '2026-09-24'
 faq:
@@ -66,6 +72,6 @@ faq:
     - q: What's the difference between a skill and an MCP server?
       a: An MCP server connects outside capabilities to the agent — a database, a browser, an API. A skill is an operating manual written for the agent, telling it which steps and scripts to use for a kind of task. One covers what the agent can do; the other covers how to do it well.
     - q: How do I install a skill?
-      a: 'In Claude Code the easiest route is the plugin marketplace: /plugin marketplace add <repo>, then /plugin install <skill>. You can also copy a skill folder into ~/.claude/skills/ or your project''s .claude/skills/. Skills in the open Agent Skills format also work in Codex, Cursor and other clients.'
+      a: "In Claude Code the easiest route is the plugin marketplace: /plugin marketplace add <repo>, then /plugin install <skill>. You can also copy a skill folder into ~/.claude/skills/ or your project's .claude/skills/. Skills in the open Agent Skills format also work in Codex, Cursor and other clients."
     - q: Will many installed skills slow the agent down?
       a: Barely. At startup only each skill's name and one-line description are loaded; the body is read only when a task matches. Skill scripts do run on your machine, though, so look at the repository first and install only from sources you trust.

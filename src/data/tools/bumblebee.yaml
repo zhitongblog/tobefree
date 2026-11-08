@@ -1,0 +1,46 @@
+name: Perplexity Bumblebee
+accent: "#20808D"
+initials: BB
+category: privacy
+price: free
+license: MIT
+website: https://github.com/perplexityai/bumblebee
+download: https://github.com/perplexityai/bumblebee/releases
+repo: https://github.com/perplexityai/bumblebee
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 供应链安全
+  - 安全扫描
+  - MCP安全
+  - 漏洞检测
+  - 离线审计
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Perplexity 开源的只读开发者供应链与 MCP 配置安全扫描器，全离线秒级排查
+  en: Read-only offline developer endpoint & supply-chain security scanner by Perplexity
+description:
+  zh: 使用 Go 编写的零网络外联本地安全审计工具，数秒内扫描本机 npm、PyPI、Go 依赖、VS Code 插件、浏览器扩展以及 MCP 配置文件是否包含已知投毒包或高危漏洞。
+  en: A fast, read-only Go CLI that scans your local machine for compromised npm/PyPI/Go packages, malicious VS Code or browser extensions, and risky MCP configurations without making outbound network calls.
+review:
+  zh: |
+    随着开发者在本地安装越来越多的第三方 MCP Server、VS Code 插件和开源包，供应链投毒已经成为头号安全威胁。Perplexity 安全团队开源的 Bumblebee 是一款专为开发者打造的「本机体检仪」。
+
+    它最硬核的设计是**纯只读、扫描期间零网络外联**：编译成单文件二进制后，几秒钟就能把本机的包管理器缓存、IDE 扩展和 MCP 配置文件澈底扫一遍，不上传任何隐私数据，强烈建议每位开发者定期运行。
+  en: |
+    As developers install more MCP servers, IDE extensions, and open-source packages, supply-chain attacks have become a top threat. Open-sourced by Perplexity’s security team, Bumblebee acts as an instant health check for developer machines.
+
+    It operates strictly read-only and makes zero outbound network calls during a scan—checking npm, PyPI, Go modules, browser/IDE extensions, and MCP config files in seconds while keeping all findings strictly on your disk.

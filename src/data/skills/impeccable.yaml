@@ -1,0 +1,44 @@
+kind: skill
+name: Impeccable Design Skill
+accent: "#111827"
+initials: IM
+license: MIT
+website: https://impeccable.style
+repo: https://github.com/pbakaus/impeccable
+install: npx skills add pbakaus/impeccable
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 前端设计
+  - UI规范
+  - Anti-AI-Slop
+  - 设计系统
+  - Agent-Skill
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+  - OpenCode
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 消除「AI 塑料感界面」的前端设计词典与多 Agent 技能，内置版式底线与反模式审查
+  en: Frontend design vocabulary and multi-agent skill that eliminates generic AI UI slop
+description:
+  zh: 由 Paul Bakaus 开源的 AI 界面设计技能包。为编码 Agent 注入专业的排版层级、留白节奏、色彩对比度底线与典型“AI 模板味”反模式检测，自动生成并维护项目专属 DESIGN.md 规范。
+  en: Created by Paul Bakaus, Impeccable equips coding agents with professional typography scales, spatial rhythm, layout quality floors, and anti-pattern checks so generated UIs look human-crafted.
+review:
+  zh: |
+    为什么大模型写出来的网页总是一眼就能看出「AI 味」（紫蓝渐变、千篇一律的圆角卡片、混乱的字号层级）？因为模型缺少明确的设计约束词典。Impeccable 正是近期 GitHub 上最火的「去 AI 塑料感」技能。
+
+    安装后，它会在编码助手生成或修改前端组件时强制执行视觉层级检查、反模式拦截，并帮你沉淀项目的 `DESIGN.md`，让 AI 写出的界面真正达到成熟产品设计师的水准。
+  en: |
+    Why do LLM-generated websites all look the same—purple gradients, generic cards, and muddy typography? Because coding models lack a rigorous design vocabulary. Impeccable fixes this as a plug-and-play Agent Skill.
+
+    It enforces visual hierarchy, spacing rhythm, and anti-slop quality gates across Claude Code, Cursor, and Codex, helping your agent maintain a project-specific DESIGN.md specification.

@@ -48,6 +48,8 @@ skills:
   - semgrep-mcp
   - linear-mcp
   - jupyter-mcp
+  - tabularis-mcp
+  - openpencil-mcp
 faq:
   zh:
     - q: MCP Server 适合谁？

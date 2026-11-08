@@ -6,7 +6,7 @@ description:
   en: Twenty-six free and open-source services to run on your own server or NAS — reverse proxies, private networking, container management, photos, media, documents, passwords, team chat, push notifications and monitoring.
 intro:
   zh: 自建的动机通常很具体：网盘涨价了、相册开始按 GB 收费、笔记服务宣布停止运营、某个功能被挪进了订阅。自建换来的是数据在自己硬盘上、功能不会被单方面收回，代价是你要负责备份、更新和安全。这份清单按搭建顺序排 —— 先是底座（容器管理、反向代理、内网连接），再是跑在上面的服务，最后是监控。全部可以用 Docker 部署。
-  en: 'The reasons to self-host are usually specific: the cloud drive raised its price, the photo service started charging by the gigabyte, the notes product announced a shutdown, a feature moved behind a subscription. What you get back is data on your own disk and features nobody can withdraw; what you take on is backups, updates and security. This list follows the order you build in — the base layer first (container management, reverse proxy, private networking), then the services on top, then monitoring. Everything here deploys with Docker.'
+  en: "The reasons to self-host are usually specific: the cloud drive raised its price, the photo service started charging by the gigabyte, the notes product announced a shutdown, a feature moved behind a subscription. What you get back is data on your own disk and features nobody can withdraw; what you take on is backups, updates and security. This list follows the order you build in — the base layer first (container management, reverse proxy, private networking), then the services on top, then monitoring. Everything here deploys with Docker."
 criteria:
   zh:
     - 可以完整部署在自己的服务器上，核心功能不依赖厂商云服务。
@@ -55,6 +55,9 @@ tools:
   - miniflux
   - dify
   - ragflow
+  - coolify
+  - docmost
+  - forgejo
 skills:
   - n8n-mcp
   - searxng-mcp

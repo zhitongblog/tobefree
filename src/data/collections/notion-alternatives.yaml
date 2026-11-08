@@ -16,8 +16,23 @@ criteria:
     - Free features can support real note, knowledge base or collaboration workflows.
     - Exportable, local-first or open-source tools are prioritized.
     - Personal notes, team collaboration and Markdown writing are all covered.
-tools: [obsidian, logseq, joplin, appflowy, affine, siyuan, anytype, trilium-notes, zettlr, zim, solomd]
-skills: [obsidian-mcp, filesystem-mcp, notion-mcp]
+tools:
+  - obsidian
+  - logseq
+  - joplin
+  - appflowy
+  - affine
+  - siyuan
+  - anytype
+  - trilium-notes
+  - zettlr
+  - zim
+  - solomd
+  - docmost
+skills:
+  - obsidian-mcp
+  - filesystem-mcp
+  - notion-mcp
 faq:
   zh:
     - q: 哪个最像 Notion？

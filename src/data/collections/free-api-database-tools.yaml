@@ -6,7 +6,7 @@ description:
   en: Six free API clients, traffic inspectors and database tools that keep request collections and connection settings local — no forced login, no per-seat pricing.
 intro:
   zh: API 客户端这个品类几年前集体转向了云端：接口集合默认同步到厂商服务器，不登录用不了，团队协作按人头收费，免费版限制集合数量。但接口定义本来就该和代码放在一起走 Git，环境变量里常常有生产密钥，这两件事都不适合躺在第三方服务器上。这份清单里的工具把数据留在本机。按用途分三类：发请求、看请求、连数据库。
-  en: 'API clients moved to the cloud collectively a few years ago: collections sync to a vendor server by default, nothing works signed out, collaboration is billed per seat, and free tiers cap how many collections you may keep. Yet request definitions belong in Git next to the code, and environment variables frequently hold production secrets — neither belongs on someone else''s server. Everything here keeps data local. The list sorts three ways — sending requests, inspecting requests, and connecting to databases.'
+  en: "API clients moved to the cloud collectively a few years ago: collections sync to a vendor server by default, nothing works signed out, collaboration is billed per seat, and free tiers cap how many collections you may keep. Yet request definitions belong in Git next to the code, and environment variables frequently hold production secrets — neither belongs on someone else's server. Everything here keeps data local. The list sorts three ways — sending requests, inspecting requests, and connecting to databases."
 criteria:
   zh:
     - 不登录即可使用全部核心功能。
@@ -29,6 +29,7 @@ tools:
   - cyberchef
   - devtoys
   - jevql
+  - tabularis
 skills:
   - mcp-toolbox-databases
   - duckdb-mcp
@@ -36,6 +37,7 @@ skills:
   - qdrant-mcp
   - neo4j-mcp
   - mcp-inspector
+  - tabularis-mcp
 featured: false
 added: '2026-09-18'
 faq:

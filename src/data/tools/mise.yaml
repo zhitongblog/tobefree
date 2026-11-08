@@ -1,0 +1,46 @@
+name: mise-en-place
+accent: "#DB2777"
+initials: MS
+category: dev
+price: free
+license: MIT
+website: https://mise.jdx.dev
+download: https://github.com/jdx/mise/releases
+repo: https://github.com/jdx/mise
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 版本管理
+  - Rust
+  - nvm平替
+  - asdf平替
+  - 任务运行器
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Rust 编写的全能开发环境版本管理器与任务运行器，一举替代 nvm、pyenv、asdf 与 direnv
+  en: Fast Rust polyglot tool version manager, environment manager, and task runner replacing nvm, asdf, and direnv
+description:
+  zh: 用极速无垫片（shim-less）架构统一管理 Node.js、Python、Go、Rust、Java 等数百种开发工具版本，内置按目录自动切换的环境变量管理与并行任务执行器。
+  en: Manages hundreds of dev runtimes (Node, Python, Go, Rust, Java, etc.) without slow shell shims, while bundling directory-scoped environment variables and a fast project task runner.
+review:
+  zh: |
+    以前配置一台新开发机，往往要装 nvm 管 Node、pyenv 管 Python、sdkman 管 Java、direnv 管环境变量，不仅拖慢终端启动速度，还容易互相冲突。mise 用一个 Rust 二进制文件把这四件事全干了。
+
+    它不依赖缓慢的 Shell Shims，切换目录瞬间切好对应项目的语言版本和环境变量，兼容已有的 `.nvmrc`、`.tool-versions` 文件，是现代开发者最值得升级的底座工具之一。
+  en: |
+    Juggling nvm, pyenv, rbenv, direnv, and Make slows down shell startup and fragments project onboarding. Written in Rust, mise unifies polyglot runtime version management, per-directory environment variables, and task running in one fast binary.
+
+    It reads existing .nvmrc and .tool-versions files directly and avoids slow shim overhead, keeping your terminal instant.

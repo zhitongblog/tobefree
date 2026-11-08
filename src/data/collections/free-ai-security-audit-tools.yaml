@@ -1,0 +1,44 @@
+title:
+  zh: 免费开源 AI 安全审计、供应链扫描与 MCP 防火墙工具推荐
+  en: Free Open-Source AI Security Audit, Supply-Chain Scanner & MCP Firewall Tools
+description:
+  zh: 精选保护开发者本机、AI 编程助手与 MCP 服务的免费开源安全工具：只读供应链投毒扫描、MCP 流量防火墙、密钥泄漏拦截与自动化代码安全审计技能。
+  en: "Curated free and open-source security tools protecting developer machines, coding agents, and MCP servers: offline supply-chain scanners, MCP traffic firewalls, secret detection, and multi-phase security audit skills."
+intro:
+  zh: 当我们在电脑上安装越来越多的 MCP Server、Agent Skills、VS Code 扩展与 npm/PyPI 依赖，并赋予 AI 编程助手直接执行终端命令的权限时，全新的安全风险随之而来：间接提示词注入（Indirect Prompt Injection）可能诱导 Agent 偷传你的 `.env` 密钥，供应链投毒包可能潜伏在依赖树中。这里汇总了全部开源、无广告、支持本地离线审计的 AI 安全护城河工具。
+  en: "Giving AI coding agents shell access and connecting dozens of third-party MCP servers, IDE extensions, and npm/PyPI packages introduces a new attack surface: indirect prompt injection can exfiltrate your .env secrets, and poisoned dependencies can hide in local caches. This collection brings together free, open-source, local-first security scanners, MCP firewalls, and auditing skills."
+criteria:
+  zh:
+    - 100% 开源可审计（MIT / Apache-2.0 / GPL），安全工具本身绝不夹带商业遥测或私自上传源码。
+    - 支持在本机离线扫描或作为本地网关运行，无需注册云端账号。
+    - 覆盖事前依赖体检（Bumblebee/Trivy）、事中 MCP 流量拦截（Pipelock）与代码深度审计（Cloudflare/Trail of Bits 技能）。
+  en:
+    - 100% open source with auditable code and zero telemetry or cloud code uploads.
+    - Runs locally offline as a CLI scanner or inline localhost proxy without mandatory accounts.
+    - Covers supply-chain scanning (Bumblebee, Trivy), live MCP traffic firewalling (Pipelock), and deep code auditing skills.
+tools:
+  - bumblebee
+  - pipelock
+  - gitleaks
+  - trivy
+  - semgrep
+  - osv-scanner
+  - bearer
+  - nuclei
+skills:
+  - cloudflare-security-audit
+  - trailofbits-security-skills
+  - semgrep-mcp
+featured: true
+added: '2026-11-08'
+faq:
+  zh:
+    - q: 如何快速检查我电脑上安装的 MCP Server 和开发包有没有被投毒？
+      a: 首推 Perplexity 开源的 Bumblebee。它是用 Go 编写的纯只读扫描器，扫描期间完全不联网，几秒钟就能排查本机 npm、PyPI、Go 缓存、浏览器/IDE 扩展以及 MCP 配置文件中的恶意特征。
+    - q: 怎么防止 Claude Code 或 Cursor 在读网页/调工具时把我的本地 API Key 泄露出去？
+      a: 可以在 Agent 与网络/MCP 服务之间串联开源的 Pipelock 防火墙。它会实时检查所有 MCP JSON-RPC 消息与出站 HTTP 请求，一旦发现环境变量密钥外泄、SSRF 或工具描述投毒会立即阻断。
+  en:
+    - q: How can I check if my local MCP servers, extensions, or npm/PyPI packages are compromised?
+      a: Run Perplexity Bumblebee. It is a read-only Go CLI that scans local package caches, browser/VS Code extensions, and MCP configuration files in seconds without making any outbound network calls.
+    - q: How do I stop coding agents from leaking my .env secrets via prompt injection?
+      a: Place Pipelock inline as a local proxy between your coding agent and its MCP servers/network. It inspects traffic in real time to block credential exfiltration, tool poisoning, and SSRF.

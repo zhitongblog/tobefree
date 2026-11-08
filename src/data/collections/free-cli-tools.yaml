@@ -6,7 +6,7 @@ description:
   en: Fifteen open-source command-line tools for search, file management, terminal sessions, version control, prompts and media processing — all offline and account-free.
 intro:
   zh: 命令行工具这几年出现了一轮重写：ripgrep 之于 grep、fd 之于 find、Yazi 之于 ranger，多数用 Rust 或 Go 重做，快一到两个数量级，默认行为也更符合现在的使用场景（比如自动跳过 .gitignore 里的路径）。这份清单按用途分五类 —— 找东西、管文件、管会话、管代码、处理媒体，每一款都是单个可执行文件，装完即用，不联网不上报。
-  en: 'Command-line tooling went through a rewrite wave: ripgrep for grep, fd for find, Yazi for ranger — mostly redone in Rust or Go, one to two orders of magnitude faster, with defaults that match how people actually work today, such as skipping paths listed in .gitignore. This list sorts five ways — finding things, managing files, managing sessions, managing code, processing media. Each is a single executable that works on install, with no network and no telemetry.'
+  en: "Command-line tooling went through a rewrite wave: ripgrep for grep, fd for find, Yazi for ranger — mostly redone in Rust or Go, one to two orders of magnitude faster, with defaults that match how people actually work today, such as skipping paths listed in .gitignore. This list sorts five ways — finding things, managing files, managing sessions, managing code, processing media. Each is a single executable that works on install, with no network and no telemetry."
 criteria:
   zh:
     - 开源，单个可执行文件，不需要注册或联网激活。
@@ -45,6 +45,14 @@ tools:
   - semdecide
   - croc
   - aria2
+  - zoxide
+  - eza
+  - mise
+  - atuin
+  - x-cmd
+  - surge-dl
+  - agent-browser
+  - bumblebee
 skills: []
 featured: true
 added: '2026-09-18'
@@ -62,7 +70,7 @@ faq:
     - q: If I only install two?
       a: fzf and ripgrep. Once fzf takes over Ctrl-R, finding an old command goes from remembering the exact prefix to typing any few letters, which pays off daily. ripgrep turns searching a codebase for a string from tens of seconds into tens of milliseconds, because it does not descend into node_modules or .git by default. Together they are under 20 MB.
     - q: Zellij or tmux?
-      a: 'They do the same job — a dropped ssh does not kill the work. The difference is the entry cost: tmux expects a whole Ctrl-b vocabulary, while Zellij keeps the available keys pinned to the bottom of the screen and is usable on first launch. In exchange Zellij uses more resources, noticeable on an old low-memory VPS, and has no native Windows build.'
+      a: "They do the same job — a dropped ssh does not kill the work. The difference is the entry cost: tmux expects a whole Ctrl-b vocabulary, while Zellij keeps the available keys pinned to the bottom of the screen and is usable on first launch. In exchange Zellij uses more resources, noticeable on an old low-memory VPS, and has no native Windows build."
     - q: Neovim or Helix?
       a: Helix works out of the box — syntax highlighting, LSP completion and multiple cursors are built in, and you can write code without a config file. Neovim expects you to build a configuration or adopt someone's distribution, but its ecosystem and plugin count are an order of magnitude beyond. Take Helix to start immediately, Neovim to trade time for total control.
     - q: Why is Git on this list?

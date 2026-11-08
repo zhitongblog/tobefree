@@ -1,0 +1,39 @@
+kind: skill
+name: Matt Pocock TypeScript & TDD Skills
+accent: "#3178C6"
+initials: MP
+license: MIT
+website: https://github.com/mattpocock/skills
+repo: https://github.com/mattpocock/skills
+install: npx skills add mattpocock/skills
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - TypeScript
+  - TDD
+  - 代码重构
+  - 类型安全
+  - 测试驱动开发
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - OpenCode
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Total TypeScript 作者 Matt Pocock 开源的严格类型架构、TDD 循环与重构技能集
+  en: Strict TypeScript architecture, TDD workflow loops, and codebase refactoring skills by Matt Pocock
+description:
+  zh: 禁止 AI 滥用 any 类型或写出脆弱断言，强制编码助手遵循「先写失败测试 -> 最小实现 -> 类型收窄与重构」的严谨工程闭环。
+  en: Prevents coding agents from littering code with any casts or brittle mocks, enforcing strict TypeScript patterns and Red-Green-Refactor TDD loops.
+review:
+  zh: |
+    Total TypeScript 作者 Matt Pocock 将自己多年的 TypeScript 类型体操与工程实践提炼成了这套开源技能。它能有效克制大模型偷懒写 `as any` 的毛病，并引导 Agent 用严格的测试驱动开发（TDD）小步快跑完成复杂需求。
+  en: |
+    Authored by Total TypeScript creator Matt Pocock, this skill pack stops AI assistants from cheating with "as any" casts and guides them through disciplined Red-Green-Refactor TDD cycles.

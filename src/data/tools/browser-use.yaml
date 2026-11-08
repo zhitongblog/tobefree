@@ -1,0 +1,46 @@
+name: Browser-Use
+accent: "#10B981"
+initials: BU
+category: ai
+price: free
+license: MIT
+website: https://browser-use.com
+download: https://github.com/browser-use/browser-use/releases
+repo: https://github.com/browser-use/browser-use
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 浏览器自动化
+  - AI-Agent
+  - Web-Agent
+  - 网页抓取
+  - 开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 让 AI Agent 像真人一样顺畅操作网页的开源浏览器自动化框架
+  en: The open-source standard for making websites accessible and actionable for AI agents
+description:
+  zh: 将复杂网页解析为大模型可理解的交互元素与视觉标记，支持接入 Ollama 本地模型或任意主流 LLM，在本机自动完成表单填写、跨站比价、数据抓取与端到端测试。
+  en: Extracts interactive page elements for LLMs so local Ollama models or cloud agents can autonomously navigate websites, fill forms, extract structured data, and run end-to-end tests.
+review:
+  zh: |
+    Browser-Use 是目前 GitHub 上最具代表性的开源 AI 浏览器自动化底座。它通过智能提取网页可交互节点并结合可选视觉上下文，让大模型不再迷失在几万行的混乱 HTML 中。
+
+    采用 MIT 协议开源，完全可以在本机配合本地浏览器与 Ollama 模型免费运行，用来自动处理繁琐的网页表单、定期巡检或构建私人自动化工作流。
+  en: |
+    Browser-Use is the flagship open-source framework for connecting AI agents to real web browsers. Instead of feeding raw, noisy HTML into an LLM, it distills interactive DOM elements into clean action targets.
+
+    MIT-licensed and self-hostable, it works seamlessly with local Ollama models or your own API keys to automate repetitive web workflows, form submissions, and QA testing on your own machine.

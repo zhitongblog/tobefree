@@ -1,0 +1,46 @@
+name: Surge Downloader
+accent: "#EA580C"
+initials: SG
+category: network
+price: free
+license: MIT
+website: https://github.com/SurgeDM/Surge
+download: https://github.com/SurgeDM/Surge/releases
+repo: https://github.com/SurgeDM/Surge
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 下载器
+  - 多线程下载
+  - TUI
+  - IDM平替
+  - 命令行
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Go 编写的极速终端 TUI 多线程下载管理器，支持 32 并发分块与浏览器接管
+  en: Blazing-fast Go TUI multi-connection download manager with 32 parallel streams and browser integration
+description:
+  zh: 告别单线程慢速 curl/wget 与收费的 IDM。支持单文件最高 32 并发连接、多镜像源加速、断点续传、剪贴板 cURL 自动解析、后台守护进程模式以及浏览器扩展接管。
+  en: Splits downloads into up to 32 concurrent chunks across multiple mirrors with a rich terminal UI, clipboard cURL parsing, background daemon mode, and companion browser extensions.
+review:
+  zh: |
+    无论是拉取几十 GB 的大模型权重文件，还是下载大型开源数据集，单流下载往往跑不满带宽。Surge 是用 Go 语言打造的现代终端下载器，兼具高颜值 TUI 进度面板与硬核的多线程分块引擎。
+
+    它支持最高 32 线程并发、断点续传和多镜像源同时拉取，还能自动识别剪贴板里的 cURL 命令或配合浏览器插件直接接管日常下载，开源无广告，速度拉满。
+  en: |
+    Whether you are pulling multi-gigabyte LLM weights or large datasets, single-stream downloads leave bandwidth on the table. Written in Go, Surge combines a slick terminal UI with a multi-connection engine supporting up to 32 concurrent streams.
+
+    It parses cURL commands straight from your clipboard, supports multi-mirror acceleration and reliable resume, and even offers browser extensions to intercept everyday downloads with zero ads.

@@ -1,0 +1,40 @@
+kind: mcp
+name: OpenPencil Design MCP
+accent: "#4F46E5"
+initials: OM
+license: MIT
+website: https://github.com/open-pencil/open-pencil
+repo: https://github.com/open-pencil/open-pencil
+install: npx @open-pencil/mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-08'
+tags:
+  - UI设计MCP
+  - Figma平替
+  - Design-as-Code
+  - 前端开发
+clients:
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 让 AI 编程助手直接读写矢量 UI 画布与组件树的开源设计 MCP 服务
+  en: Open-source MCP server enabling coding agents to read and edit vector UI canvases and component trees live
+description:
+  zh: 连接 OpenPencil 设计画布与终端编程 Agent，支持双向同步：Agent 既能读取选中图层的精确布局属性生成前端代码，也能直接通过指令在画布上批量创建和修改 UI 组件。
+  en: "Bridges the OpenPencil vector canvas and your coding agent for two-way sync: agents can inspect selected layer tokens or programmatically create and update UI layouts on the canvas."
+review:
+  zh: |
+    相比只读的 Figma MCP，OpenPencil MCP 支持真正的**双向读写**：你可以让多个 AI Agent 在画布上直接生成页面原型、调整间距规范，并实时导出为干净的 React / Vue / Tailwind 代码。
+  en: |
+    Unlike read-only design connectors, OpenPencil MCP gives coding agents full two-way read/write access to the vector node tree—letting agents generate layouts on the canvas and export clean frontend code.

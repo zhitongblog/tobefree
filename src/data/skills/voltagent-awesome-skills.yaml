@@ -1,0 +1,40 @@
+kind: skill
+name: VoltAgent Awesome Agent Skills
+accent: "#10B981"
+initials: VA
+license: MIT
+website: https://github.com/VoltAgent/awesome-agent-skills
+repo: https://github.com/VoltAgent/awesome-agent-skills
+install: git clone https://github.com/VoltAgent/awesome-agent-skills.git
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 技能导航
+  - Awesome列表
+  - Agent-Skills
+  - Claude-Code
+  - 开发工作流
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+  - Gemini CLI
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 收录上千个工程团队与框架维护者实战 Agent Skills 的开源精选索引库
+  en: Community-driven directory of 1,000+ real-world Agent Skills across engineering, design, DevOps, and security
+description:
+  zh: 按前端框架、后端架构、数据库调优、自动化测试、安全合规与文档撰写分类整理的高质量 SKILL.md 技能包大全，通配所有主流 AI 编程助手。
+  en: Curates battle-tested SKILL.md packages from official framework maintainers and engineering teams across frontend, backend, database tuning, QA testing, and security.
+review:
+  zh: |
+    随着 `SKILL.md` 成为跨编码助手的通用技能标准，如何快速找到靠谱的领域技能成了刚需。VoltAgent 维护的这份开源清单是目前社区分类最全、更新最勤的技能宝库之一，所有收录项目均可直接免费检视与安装。
+  en: |
+    As SKILL.md has become the universal format across coding agents, VoltAgent’s repository serves as a comprehensive, well-organized index of open-source skills contributed by framework authors and engineering teams.

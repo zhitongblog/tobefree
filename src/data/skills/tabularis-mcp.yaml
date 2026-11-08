@@ -1,0 +1,41 @@
+kind: mcp
+name: Tabularis Database MCP
+accent: "#0EA5E9"
+initials: TM
+license: Apache-2.0
+website: https://github.com/TabularisDB/tabularis
+repo: https://github.com/TabularisDB/tabularis
+install: tabularis --mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 数据库MCP
+  - SQL
+  - DuckDB
+  - ClickHouse
+  - PostgreSQL
+clients:
+  - Claude Desktop
+  - Claude Code
+  - Cursor
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: Tabularis 内置的统一多数据库 MCP 服务，让 AI 安全读取 15+ 种数据库表结构与查询
+  en: Unified local MCP server built into Tabularis for inspecting schemas and running queries across 15+ databases
+description:
+  zh: 无需为 Postgres、MySQL、SQLite、DuckDB、ClickHouse 分别配置不同的 MCP 进程，直接复用 Tabularis 桌面端的连接池与只读安全权限控制，在本地供 AI 助手调用。
+  en: Instead of configuring separate MCP servers for Postgres, MySQL, SQLite, DuckDB, and ClickHouse, expose your active connections safely to coding agents through Tabularis’s built-in local MCP endpoint.
+review:
+  zh: |
+    平时同时连着本地 SQLite、测试服 Postgres 和分析库 DuckDB 时，借助 Tabularis 内置的 MCP 服务，只需一个端点就能让 Claude 或 Cursor 理解所有库表关系并帮你编写、验证复杂 SQL。
+  en: |
+    By reusing your configured connections in Tabularis, this built-in MCP server gives Claude Code and Cursor unified, permission-controlled schema inspection across 15+ database engines.

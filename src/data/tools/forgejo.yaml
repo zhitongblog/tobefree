@@ -1,0 +1,45 @@
+name: Forgejo
+accent: "#EA580C"
+initials: FJ
+category: selfhosted
+price: free
+license: GPL-3.0
+website: https://forgejo.org
+download: https://forgejo.org/download/
+repo: https://codeberg.org/forgejo/forgejo
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - Git服务
+  - 代码托管
+  - GitHub平替
+  - CI-CD
+  - 社区自治
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - self-hostable
+tagline:
+  zh: 非营利社区自治的轻量级自建 Git 代码托管平台（Codeberg 官方底座）
+  en: Community-governed, lightweight self-hosted Git service and software forge powering Codeberg
+description:
+  zh: 由公益组织 Codeberg e.V. 托管治理由 Go 语言编写的开源软件锻造台。承诺永远100%自由开源、无商业企业版阉割，极低内存占用即可运行完整的代码仓库、PR 评审、容器镜像库与 Forgejo Actions CI/CD。
+  en: Stewarded under non-profit governance by Codeberg e.V., Forgejo provides Git hosting, pull requests, package registries, and GitHub Actions-compatible CI/CD on minimal RAM with zero open-core paywalls.
+review:
+  zh: |
+    在不少开源自托管项目转向「商业公司控股 + 企业版功能锁定（Open-Core）」的背景下，Forgejo 是由德国非营利组织 Codeberg e.V. 守护的纯社区分支。它明确保证永远不会出现付费专属功能或遥测后门。
+
+    得益于 Go 语言单二进制架构，它在几百 MB 内存的树莓派或小主机上就能跑得飞快，且自带兼容 GitHub Actions 语法的 Forgejo Actions，是个人与团队私有化代码库的安心之选。
+  en: |
+    While many self-hosted Git platforms have shifted toward venture-backed "open-core" models, Forgejo is governed by the non-profit Codeberg e.V. and pledges to remain 100% free software forever with no enterprise paywalls.
+
+    Compiled to a single Go binary, it runs comfortably on a Raspberry Pi with a few hundred megabytes of RAM while offering PR reviews, package registries, and GitHub Actions-compatible CI/CD.

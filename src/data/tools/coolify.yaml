@@ -1,0 +1,43 @@
+name: Coolify
+accent: "#6366F1"
+initials: CL
+category: selfhosted
+price: free
+license: Apache-2.0
+website: https://coolify.io
+download: https://coolify.io/docs/installation
+repo: https://github.com/coollabsio/coolify
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 自建PaaS
+  - Vercel平替
+  - Heroku平替
+  - Docker部署
+  - 服务器管理
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 开源自托管的 Heroku / Vercel / Netlify 平替，把任意廉价 VPS 变成现代化云平台
+  en: Open-source, self-hostable Heroku, Netlify, and Vercel alternative for deploying apps and databases on any server
+description:
+  zh: 在自己的服务器或树莓派上一键部署全栈应用、静态网站、PostgreSQL/Redis 数据库以及上百种开源自建服务。自带 Git 推送自动构建、免费 Let’s Encrypt SSL 证书与自动备份。
+  en: "Turn any VPS or homelab server into your own PaaS: git-push deployments, automatic SSL certificates, one-click databases, and 100+ one-click open-source service templates."
+review:
+  zh: |
+    托管平台（Vercel、Heroku、Render）一旦团队规模上来或流量激增，账单往往令人肉疼。Coolify 让你只需花几美元租一台普通 Linux VPS，就能拥有几乎一模一样的 Git 推送自动部署体验。
+
+    它的自托管版本采用 Apache-2.0 协议完全免费开源，没有任何席位费或项目数量限制，还内置了一键部署 Immich、Vaultwarden、n8n 等上百款开源应用的应用商店，是自建玩家的首选面板。
+  en: |
+    Managed cloud platforms like Vercel and Heroku get expensive fast once you add team members or databases. Coolify gives you that same git-push deployment experience on any $5 VPS or home server you own.
+
+    Self-hosting Coolify is 100% free and open source under Apache-2.0 with unlimited projects, automatic Let’s Encrypt SSL, database backups, and a one-click catalog of over a hundred open-source apps.

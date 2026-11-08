@@ -1,0 +1,46 @@
+name: eza
+accent: "#16A34A"
+initials: EZ
+category: dev
+price: free
+license: MIT
+website: https://eza.rocks
+download: https://github.com/eza-community/eza/releases
+repo: https://github.com/eza-community/eza
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 命令行
+  - Rust
+  - ls平替
+  - 文件列表
+  - 终端工具
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 现代、多彩的 Rust 版 ls 替代工具，原生集成 Git 状态、文件图标与树状视图
+  en: A modern, colorful Rust replacement for ls with Git status, file icons, and tree views
+description:
+  zh: 经典项目 exa 的社区活跃继任者。用颜色区分文件类型与权限，直接在文件列表旁显示每个文件的 Git 修改状态、目录树层级与扩展属性。
+  en: The actively maintained community successor to exa. Color-codes file types and permissions while displaying inline Git repository status, Nerd Font icons, and recursive tree views.
+review:
+  zh: |
+    传统的 `ls` 命令几十年没有变过，信息黑白单调。在原 `exa` 停止维护后，开源社区接棒推出了 eza，不仅修复了大量陈年 Bug，还加入了更丰富的 Git 状态展示、超链接支持和配色主题。
+
+    把 `alias ls="eza --icons --git"` 写进你的 Shell 配置后，每次查看目录都能一眼看清哪些文件被修改、哪些未追踪，连 `tree` 命令都可以一并省掉。
+  en: |
+    After the original exa project went unmaintained, the open-source community forked and revitalized it as eza. Written in Rust, it turns dull ls output into an information-rich view with Nerd Font icons, human-readable sizes, and inline Git staging status.
+
+    It also includes a built-in tree mode (--tree), replacing both ls and tree with a single fast binary.

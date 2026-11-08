@@ -1,0 +1,46 @@
+name: OpenPencil
+accent: "#4F46E5"
+initials: OP
+category: creative
+price: free
+license: MIT
+website: https://github.com/open-pencil/open-pencil
+download: https://github.com/open-pencil/open-pencil/releases
+repo: https://github.com/open-pencil/open-pencil
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - UI设计
+  - Figma平替
+  - Design-as-Code
+  - MCP
+  - 矢量设计
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 开源 AI 原生矢量 UI 设计工具，主打「设计即代码」的 Figma 免费平替
+  en: Open-source AI-native vector UI design tool & Figma alternative built on Design-as-Code
+description:
+  zh: 将界面设计直接存储为可 Git Diff 的结构化节点树与前端组件代码（React/Vue/Svelte/Tailwind），支持导入 .fig 文件，并内置 MCP 服务供 AI 编程助手实时协同改稿。
+  en: Stores UI designs as diffable node trees and clean frontend components (React, Vue, Svelte, Tailwind), supports .fig files, and ships with a built-in MCP server so coding agents can inspect and edit canvases live.
+review:
+  zh: |
+    OpenPencil 切中了 AI 时代前端与设计协作的最大痛点：传统设计稿只是一张静态画布，而 OpenPencil 从底层把设计定义为可读写的语法树（Design-as-Code）。你在画布上拖拽图层，底层同步生成干净的 JSX 与样式代码，完全可以用 Git 进行版本对比与合并。
+
+    它采用 MIT 协议完全开源，不仅兼容导入 Figma（.fig）文件，还内置了终端 MCP Server，让 Claude Code、Cursor 等编程 Agent 能够直接读取设计上下文或并发修改界面布局，是独立开发者与研发团队摆脱高昂设计订阅费的利器。
+  en: |
+    OpenPencil solves the biggest friction between UI design and AI-assisted development: instead of treating a canvas as a static picture, it treats design as a diffable node tree and real code. Every visual adjustment maps cleanly to React, Vue, Svelte, or Tailwind code that you can version-control with Git.
+
+    Released under the MIT license, it supports importing .fig files and includes a built-in MCP server so coding agents like Claude Code and Cursor can read layout tokens and modify designs directly on your local machine.

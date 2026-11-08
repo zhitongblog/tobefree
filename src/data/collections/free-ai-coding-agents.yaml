@@ -6,7 +6,7 @@ description:
   en: Seven free and open-source AI coding assistants and agents, with their licences, where they run and how models attach. All are bring-your-own-model, and pointing them at a local model costs nothing.
 intro:
   zh: 这个品类几乎全是订阅制：每月付费，模型是厂商选的，代码要过厂商的服务器。开源的那一批换了个结构——软件本身免费，模型你自己接，接云端 API 按 token 付费给模型服务商，接 Ollama 或 LM Studio 上的本地模型则一分不花，代码也不出本机。这里按运行位置（终端 / 编辑器 / 后台常驻）和协议分。所有星数截至 2026 年 9 月，可在各自仓库核对。
-  en: 'This category is dominated by subscriptions: pay monthly, the vendor picks the model, and your code passes through the vendor''s servers. The open-source group has a different structure — the software is free and you attach the model. A cloud API is billed per token by the model provider; a local model served by Ollama or LM Studio costs nothing and keeps the code on your machine. This collection sorts them by where they run (terminal, editor, background daemon) and by licence. Star counts are as of September 2026 and can be checked against each repository.'
+  en: "This category is dominated by subscriptions: pay monthly, the vendor picks the model, and your code passes through the vendor's servers. The open-source group has a different structure — the software is free and you attach the model. A cloud API is billed per token by the model provider; a local model served by Ollama or LM Studio costs nothing and keeps the code on your machine. This collection sorts them by where they run (terminal, editor, background daemon) and by licence. Star counts are as of September 2026 and can be checked against each repository."
 criteria:
   zh:
     - 软件本身开源且免费，核心功能不设付费墙。
@@ -36,6 +36,9 @@ tools:
   - void-editor
   - jev-ultrafast
   - jevgrep
+  - kilo-code
+  - browser-use
+  - agent-browser
 skills:
   - serena
   - context7
@@ -47,6 +50,9 @@ skills:
   - jev-mcp
   - typesafe-jev-skills
   - semgrep-mcp
+  - claude-mem
+  - impeccable
+  - hallmark
 featured: true
 added: '2026-09-08'
 faq:
@@ -59,8 +65,8 @@ faq:
       a: 因为 Agent 是否离线取决于你接的模型在哪儿。软件本身可以断网运行，但接的是云端 API 就必然要联网，这由你的配置决定而不由软件决定，所以 OpenCode、DeepSeek Harness、Cline、OpenClaw 都没给这个徽章。Ollama 和 LM Studio 是模型运行器，模型权重下载完之后整个推理过程就在本机，断网照常出结果，徽章是实打实的。
   en:
     - q: Are these actually free?
-      a: 'The software is; the model may not be. All of these are bring-your-own-model: the software is open source and takes nothing from you, but a cloud API bills tokens directly to the model provider, and a complex task consumes a real amount. For genuinely zero cost, run an open-weights model locally through Ollama or LM Studio — at the price of being noticeably weaker than frontier cloud models on large refactoring work.'
+      a: "The software is; the model may not be. All of these are bring-your-own-model: the software is open source and takes nothing from you, but a cloud API bills tokens directly to the model provider, and a complex task consumes a real amount. For genuinely zero cost, run an open-weights model locally through Ollama or LM Studio — at the price of being noticeably weaker than frontier cloud models on large refactoring work."
     - q: Terminal or editor?
       a: If you work in tmux, Neovim and over ssh, take OpenCode — the terminal is its home. If you write code in VS Code all day, take Cline, which shows every change as a diff for approval. If you want something resident in the background that you command from a chat app and that handles non-coding chores too, take OpenClaw. If you want AI agents driving a real terminal session from outside, take Unterm.
     - q: Why do the agents lack the offline badge while Ollama and LM Studio have it?
-      a: 'Because whether an agent is offline depends on where your model lives. The software runs without a network, but a cloud API obviously does not, and that is decided by your configuration rather than by the software — so OpenCode, DeepSeek Harness, Cline and OpenClaw carry no offline badge. Ollama and LM Studio are model runners: once the weights are downloaded, inference happens entirely on your machine and keeps producing results with the network unplugged, so for them the badge is literal.'
+      a: "Because whether an agent is offline depends on where your model lives. The software runs without a network, but a cloud API obviously does not, and that is decided by your configuration rather than by the software — so OpenCode, DeepSeek Harness, Cline and OpenClaw carry no offline badge. Ollama and LM Studio are model runners: once the weights are downloaded, inference happens entirely on your machine and keeps producing results with the network unplugged, so for them the badge is literal."

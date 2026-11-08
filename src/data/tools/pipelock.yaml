@@ -1,0 +1,47 @@
+name: Pipelock
+accent: "#DC2626"
+initials: PL
+category: privacy
+price: free
+license: Apache-2.0
+website: https://github.com/pipelab-org/pipelock
+download: https://github.com/pipelab-org/pipelock/releases
+repo: https://github.com/pipelab-org/pipelock
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-08'
+tags:
+  - MCP防火墙
+  - AI安全
+  - 防提示词注入
+  - 流量代理
+  - 隐私保护
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 开源 AI Agent 防火墙与 MCP 流量安全代理，拦截提示词注入、工具投毒与密钥外泄
+  en: Open-source AI agent firewall and MCP egress proxy blocking prompt injection and credential leaks
+description:
+  zh: 串联在 Claude Code、Cursor 等编程 Agent 与外部网络/MCP 服务之间的本地安全网关，实时检测环境变量窃取、SSRF 攻击、恶意工具描述投毒，并生成可审计的加密签名回执。
+  en: Sits inline between coding agents (Claude Code, Cursor, Cline) and external MCP servers or HTTP endpoints to block secret exfiltration, tool poisoning, prompt injection, and SSRF.
+review:
+  zh: |
+    当你赋予 AI Agent 执行终端命令和调用外部 MCP 服务的权限时，一旦遇到网页里的隐藏提示词注入（Indirect Prompt Injection），Agent 可能会在不知情下把你的 `.env` 密钥发送给外部服务器。Pipelock 正是为解决这一安全盲区而生的开源防火墙。
+
+    它以轻量级本地代理的形式运行，实时审计所有 MCP JSON-RPC 消息与出站流量，一旦发现密钥外泄或工具描述投毒立即阻断，是重度 AI 编程用户的安全护城河。
+  en: |
+    Giving AI agents shell access and third-party MCP tools creates a dangerous blind spot: a single indirect prompt injection can trick an agent into exfiltrating your .env secrets. Pipelock closes that gap as an open-source local agent firewall.
+
+    Running inline between your agent and MCP/HTTP traffic, it inspects JSON-RPC payloads for secret leaks, tool poisoning, and SSRF attempts in real time without sending your traffic to any third-party cloud.

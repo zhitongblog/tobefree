@@ -1,0 +1,44 @@
+kind: skill
+name: Claude-Mem
+accent: "#D97706"
+initials: CM
+license: MIT
+website: https://claude-mem.ai
+repo: https://github.com/thedotmack/claude-mem
+install: npx claude-mem install
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 持久化记忆
+  - 上下文压缩
+  - Claude-Code
+  - OpenCode
+  - Agent记忆
+clients:
+  - Claude Code
+  - OpenClaw
+  - OpenCode
+  - Cursor
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 让编程 Agent 拥有跨会话长期记忆的开源插件，自动捕获、压缩并按需注入项目经验
+  en: Persistent cross-session memory plugin for coding agents that captures, compresses, and injects project history
+description:
+  zh: 在本地自动记录每次编码会话中的架构决策、踩坑修复与文件变更，通过结构化摘要索引保存在本机，并在新会话启动时精准注入相关上下文，彻底告别「每次新开窗口都要重新解释项目」。
+  en: Automatically records architectural decisions, bug fixes, and file changes during coding sessions, compresses them into a local index, and injects relevant memories into future sessions.
+review:
+  zh: |
+    用 Claude Code 或 OpenCode 写大项目时，最痛苦的就是每当上下文满了开启新会话，Agent 就把之前的架构约定和刚踩过的坑忘得一干二净。Claude-Mem 完美补上了这块拼图。
+
+    它利用生命周期 Hooks 自动捕获关键操作记录，在本地做高密度压缩和语义检索，下次再改同一模块时自动唤醒相关历史经验，数据100%留在本地硬盘。
+  en: |
+    The biggest frustration with terminal coding agents is amnesia: start a fresh session and your agent forgets every architectural rule and bug it solved yesterday. Claude-Mem fixes this automatically.
+
+    Using lifecycle hooks, it captures session observations, compresses them into a local searchable store, and injects only the relevant context into future runs—keeping your data on your own machine.

@@ -1,0 +1,42 @@
+name: Docmost
+accent: "#2563EB"
+initials: DM
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://docmost.com
+download: https://docmost.com/docs/installation
+repo: https://github.com/docmost/docmost
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-08'
+tags:
+  - 团队Wiki
+  - 知识库
+  - Notion平替
+  - Confluence平替
+  - 自建服务
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 开源可自建的团队协作 Wiki 与文档知识库，轻量清爽的 Notion / Confluence 平替
+  en: Open-source collaborative wiki and documentation software — a clean, self-hosted Notion and Confluence alternative
+description:
+  zh: 支持多人实时协同编辑、多级空间（Spaces）权限控制、内嵌 Draw.io / Excalidraw / Mermaid 流程图、数学公式与全文搜索，通过 Docker Compose 即可在自有服务器私有化部署。
+  en: Features real-time multiplayer rich-text editing, hierarchical spaces, granular permissions, built-in Draw.io/Excalidraw/Mermaid diagrams, and easy Docker Compose self-hosting.
+review:
+  zh: |
+    很多团队只想要一个结构清晰、支持多人同时改文档的内部 Wiki，却被 Confluence 的臃肿和按人头收费劝退。Docmost 专注于把「团队文档与知识库」这件事做得极度干净流畅。
+
+    它原生集成了 Excalidraw 手绘白板、Draw.io 架构图和 Mermaid 流程图，无需外挂插件就能写技术架构文档。通过 Docker 自建在公司内网或 NAS 上，数据完全自主掌控。
+  en: |
+    Many teams just want a fast, organized internal wiki without paying per-seat Confluence or Notion subscriptions. Docmost delivers a clean, real-time collaborative editor organized into spaces and nested pages.
+
+    It natively embeds Excalidraw, Draw.io, and Mermaid diagrams right inside documents and deploys in minutes via Docker Compose so your company knowledge stays on your own server.
