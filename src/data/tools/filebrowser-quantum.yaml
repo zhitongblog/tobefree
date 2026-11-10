@@ -1,0 +1,42 @@
+name: FileBrowser Quantum
+accent: "#3B82F6"
+initials: FQ
+category: selfhosted
+price: free
+license: Apache-2.0
+website: https://github.com/gtsteffaniak/filebrowser
+download: https://github.com/gtsteffaniak/filebrowser/releases
+repo: https://github.com/gtsteffaniak/filebrowser
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 自建网盘
+  - 文件管理
+  - NAS工具
+  - 全文搜索
+  - 轻量私有云
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 经典轻量自建网盘 FileBrowser 的现代化高性能分支，新增毫秒级实时索引搜索与多目录挂载
+  en: Modern, high-performance fork of FileBrowser featuring real-time indexed search, multi-source mounts, and media previews
+description:
+  zh: 保留单二进制极速部署的优点，无需把现有硬盘文件导入专用数据库即可直接挂载管理，新增实时全文/文件名索引、Office/PDF/音视频流式预览、细粒度分享外链与 OIDC 登录。
+  en: Runs as a single binary over your existing filesystem without proprietary database imports, adding instant indexed search, multi-directory sources, rich media/office previews, and OIDC authentication.
+review:
+  zh: |
+    Nextcloud 太重，而原版 FileBrowser 功能多年未大更。FileBrowser Quantum 在Selfh.st 社区大受欢迎：它依然只需一个几 chục MB 的单文件或容器就能把服务器上的文件夹变成清爽的网页网盘，但补齐了毫秒级全局搜索、多存储源同时挂载和现代化 UI。
+  en: |
+    When Nextcloud feels too heavy, FileBrowser Quantum gives you a blazing-fast web file manager in a single binary that works directly on your existing folders—now upgraded with instant indexed search and modern media previews.

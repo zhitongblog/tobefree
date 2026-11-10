@@ -1,0 +1,44 @@
+name: Gas Town (gastown)
+accent: "#B91C1C"
+initials: GT
+category: ai
+price: free
+license: MIT
+website: https://github.com/steveyegge/gastown
+download: https://github.com/steveyegge/gastown
+repo: https://github.com/steveyegge/gastown
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 多Agent编排
+  - Git-Worktree
+  - AI编程
+  - Claude-Code
+  - 并发开发
+platforms:
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 多 Agent 军团工作区与并发编码编排器，通过 Git Worktree 让十几个 AI 同时改代码不冲突
+  en: Multi-agent workspace and git-worktree orchestrator for running parallel fleets of AI coding assistants
+description:
+  zh: 由资深工程师 Steve Yegge 发起的开源多 Agent 协同调度底座。自动为每个 Claude Code / Codex / OpenCode 实例分配独立的 Git Worktree 与持久化状态管道，崩溃自动恢复并统一合并分支。
+  en: Created by Steve Yegge, Gas Town coordinates multiple concurrent coding agents across isolated Git worktrees with persistent state recovery and structured inter-agent messaging.
+review:
+  zh: |
+    只开一个编程 Agent 改代码时，你往往要干等它跑测试；但如果同时在同一个目录开 5 个 Agent，它们又会互相覆盖文件把代码库搞崩。Gas Town 用精巧的 Git Worktree 自动化管理解决了「多 Agent 并发写代码」的核心难题。
+
+    它让你可以像调度工程团队一样同时派发十几个子任务给不同的本地 Agent 实例，各自在独立沙箱分支推进并持久化状态，最后干净地审查合并。
+  en: |
+    Running multiple coding agents in the same directory leads to file collisions, while running just one leaves you waiting. Gas Town orchestrates parallel fleets of Claude Code, Codex, or OpenCode instances using isolated Git worktrees.
+
+    It persists task state across crashes, routes inter-agent messages, and lets you merge completed branches cleanly—all completely free and local.

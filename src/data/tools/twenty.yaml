@@ -1,0 +1,40 @@
+name: Twenty CRM
+accent: "#18181B"
+initials: TW
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://twenty.com
+download: https://twenty.com/developers/self-hosting/docker-compose
+repo: https://github.com/twentyhq/twenty
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - CRM
+  - 客户管理
+  - Salesforce平替
+  - HubSpot平替
+  - 自建办公
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: GitHub 上最受欢迎的现代化开源 CRM 系统，界面媲美 Notion / Linear 的 Salesforce 自建平替
+  en: "The #1 modern open-source CRM on GitHub — a fast, self-hostable alternative to Salesforce and HubSpot"
+description:
+  zh: 彻底告别老旧难用的传统企业软件。支持自定义业务对象与字段、看板与表格视图、邮箱与日历自动同步、工作流自动化以及完整的 GraphQL / REST API，支持 Docker 私有化部署。
+  en: Features a keyboard-first UI inspired by Notion and Linear, custom objects and fields, pipeline kanban boards, email/calendar sync, workflow automation, and easy Docker Compose self-hosting.
+review:
+  zh: |
+    传统 CRM 软件要么界面停留在十年前，要么像 HubSpot / Salesforce 一样按席位收取高昂年费。Twenty 用类似 Linear 和 Notion 的极简现代交互彻底重做了客户关系管理。
+
+    通过 Docker Compose 自建在自己的服务器上，你可以完全免费拥有无限席位的销售漏斗、客户往来邮件自动归档与自定义数据模型，客户隐私数据 100% 留在内网。
+  en: |
+    Commercial CRMs lock your customer data behind steep per-seat pricing and clunky interfaces. Twenty brings a snappy, Linear-style UX to customer relationship management with custom objects, email sync, and workflow automation—100% free when self-hosted.

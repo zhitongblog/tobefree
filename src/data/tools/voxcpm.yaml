@@ -1,0 +1,42 @@
+name: VoxCPM
+accent: "#7C3AED"
+initials: VX
+category: media
+price: free
+license: Apache-2.0
+website: https://github.com/OpenBMB/VoxCPM
+download: https://github.com/OpenBMB/VoxCPM
+repo: https://github.com/OpenBMB/VoxCPM
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 语音合成
+  - 声音克隆
+  - TTS
+  - OpenBMB
+  - 本地AI
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 面壁智能开源的免分词器（Tokenizer-Free）连续表征语音生成与零样本声音克隆工具
+  en: Open-source tokenizer-free speech generation and zero-shot voice cloning toolkit by OpenBMB
+description:
+  zh: 摒弃传统离散语音 Token 损失，直接在连续语音空间建模，支持中英双语高表现力语音合成、一句话零样本音色克隆与细粒度情感语调控制，可全离线本地部署。
+  en: Models speech directly in continuous space without discrete tokenizer loss, delivering expressive bilingual TTS, zero-shot voice cloning, and fine-grained emotion control offline.
+review:
+  zh: |
+    传统开源 TTS 模型常因离散量化导致笑声、叹气或情绪起伏生硬。OpenBMB（面壁智能）开源的 VoxCPM 采用免 Tokenizer 的连续语音扩散架构，在中英文自然度、韵律连贯性和零样本克隆还原度上表现惊艳，Apache-2.0 协议允许个人与商业免费使用。
+  en: |
+    Released by OpenBMB under Apache-2.0, VoxCPM bypasses discrete audio tokenizers to generate remarkably natural, emotionally expressive speech and zero-shot voice clones locally on your GPU.

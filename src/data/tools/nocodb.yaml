@@ -1,0 +1,41 @@
+name: NocoDB
+accent: "#1D4ED8"
+initials: NC
+category: office
+price: free
+license: AGPL-3.0
+website: https://nocodb.com
+download: https://docs.nocodb.com/getting-started/self-hosted/
+repo: https://github.com/nocodb/nocodb
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 多维表格
+  - Airtable平替
+  - 无代码数据库
+  - 飞书多维表格平替
+  - 自建服务
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+  - cross-platform
+tagline:
+  zh: 开源智能多维表格平台，一键把任意 MySQL / Postgres / SQLite 变成在线 Airtable
+  en: Open-source Airtable alternative that turns any SQL database into a smart collaborative spreadsheet
+description:
+  zh: 支持网格、看板、画廊、表单、日历视图切换，既能从零新建无代码业务表，也能直接连接现有的生产数据库生成可视化后台与 REST API，无行数付费墙。
+  en: Provides Grid, Kanban, Gallery, Form, and Calendar views on top of new or existing MySQL, PostgreSQL, SQLite, or SQL Server databases, complete with instant REST APIs and webhooks.
+review:
+  zh: |
+    Airtable 和商业多维表格一旦数据超过几千行就开始按行数和人头高价收费。NocoDB 不仅用单文件二进制或 Docker 让你免费拥有同款多维表格体验，最绝的是它能**直接挂载到你已有的 MySQL/Postgres 数据库上**，瞬间生成一个带权限控制的数据管理后台。
+  en: |
+    Commercial no-code spreadsheets cap row counts aggressively on free plans. NocoDB runs via Docker or a single binary with millions of rows supported, and can even connect directly to your existing SQL databases as an instant admin UI.

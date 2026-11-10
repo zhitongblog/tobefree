@@ -1,0 +1,38 @@
+name: BookStack
+accent: "#0288D1"
+initials: BS
+category: selfhosted
+price: free
+license: MIT
+website: https://www.bookstackapp.com
+download: https://www.bookstackapp.com/docs/admin/installation/
+repo: https://github.com/BookStackApp/BookStack
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 自建Wiki
+  - 文档手册
+  - 知识库
+  - MIT开源
+  - 电子书结构
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 按「书架 → 书籍 → 章节 → 页面」组织的开源自托管知识库，像整理图书馆一样管文档
+  en: MIT-licensed self-hosted wiki that organizes documentation intuitively into Shelves, Books, Chapters, and Pages
+description:
+  zh: 摒弃容易变成乱麻的无限嵌套目录树，采用符合直觉的「书架-书-章节-页」四级结构，内置所见即所得与 Markdown 双编辑器、Draw.io 图表集成与一键导出 PDF 电子书。
+  en: Replaces messy infinite folder trees with a clear Shelf → Book → Chapter → Page hierarchy, complete with WYSIWYG and Markdown editors, built-in Draw.io diagrams, and one-click PDF exports.
+review:
+  zh: |
+    很多公司的 Wiki 用久了就会变成没人找得到东西的「文档垃圾场」，因为无限层级的文件夹没有结构约束。BookStack 强制把文档组织成一本本清晰的「书」，100% MIT 开源且没有任何付费企业版阉割，非常适合编写产品手册、家庭服务指南与运维 SOP。
+  en: |
+    Infinite folder hierarchies often turn wikis into unsearchablegraveyards. BookStack keeps knowledge organized using a simple Bookshelf → Book → Chapter → Page metaphor, and is 100% MIT-licensed with zero paid enterprise tiers.

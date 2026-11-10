@@ -1,0 +1,44 @@
+name: Television (tv)
+accent: "#F59E0B"
+initials: TV
+category: dev
+price: free
+license: MIT
+website: https://github.com/alexpasmantier/television
+download: https://github.com/alexpasmantier/television/releases
+repo: https://github.com/alexpasmantier/television
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 模糊搜索
+  - TUI
+  - Rust
+  - fzf平替
+  - 终端神器
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Rust 编写的极速多频道模糊搜索 TUI，把 Neovim Telescope 体验带到任意终端
+  en: Blazing-fast, extensible fuzzy finder TUI written in Rust with customizable TOML channels
+description:
+  zh: 底层采用 Helix 编辑器的 Nucleo 异步匹配引擎，内置文件、文本内容、Git 分支/日志、环境变量、Docker 容器等「频道（Channels）」，并支持用几行 TOML 自定义专属搜索面板。
+  en: Powered by the Nucleo异步 matching engine from Helix, Television lets you fuzzy-search files, git logs, env vars, Docker containers, and custom TOML-defined channels with rich syntax-highlighted previews.
+review:
+  zh: |
+    如果你喜欢 Neovim 里 Telescope 插件那种「左边模糊筛选、右边实时代码高亮预览」的丝滑感，Television (tv) 直接把它变成了一个独立通用的终端工具。
+
+    它比手写复杂的 fzf 预览脚本省心得多，开箱自带搜文件、搜 Git 提交、搜环境变量等多个频道，还能用几行简单的 TOML 配置扩展出属于你自己的搜索工作台。
+  en: |
+    Television brings the polish of Neovim’s Telescope picker to any terminal shell. Instead of wrestling with complex fzf preview scripts, it works out of the box with built-in channels for files, text, Git commits, and Docker containers.

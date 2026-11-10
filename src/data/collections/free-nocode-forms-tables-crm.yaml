@@ -1,0 +1,43 @@
+title:
+  zh: 免费开源多维表格、在线表单与无代码办公套件推荐（Airtable / Typeform / Zapier 平替）
+  en: Free Open-Source Smart Spreadsheets, Form Builders, CRM & Workflow Automation Tools
+description:
+  zh: 告别按行数、按答卷份数和按席位收费的 SaaS 订阅墙：精选支持本地或 Docker 免费自建的多维表格、问卷表单、开源 CRM、日程预约与工作流自动化软件。
+  en: "Escape per-row, per-response, and per-seat SaaS paywalls: curated free and open-source alternatives to Airtable, Typeform, Calendly, Salesforce, and Zapier."
+intro:
+  zh: 商业 SaaS 办公工具最常见的套路是「免费版让你先用起来，一旦表格超过 1,000 行、问卷超过 100 份或团队增加第 3 个人，立刻弹出高昂的按月订阅账单」。其实在开源社区里，多维表格（NocoDB、Baserow）、在线问卷（Formbricks、OpnForm）、客户管理（Twenty CRM）、日程预约（Cal.com）以及自动化流（n8n、Activepieces）都已经有了极其成熟的免费自托管方案，数据 100% 留在你自己的服务器上。
+  en: Commercial SaaS tools hook you with a tiny free tier and hit you with steep per-seat or per-row bills as soon as your data grows. This collection brings together mature, open-source, self-hostable replacements for Airtable (NocoDB, Baserow), Typeform (Formbricks, OpnForm), Salesforce/HubSpot (Twenty CRM), Calendly (Cal.com), and Zapier (n8n, Activepieces)—with zero artificial limits.
+criteria:
+  zh:
+    - 核心代码完全开源，支持通过 Docker 或单文件二进制在自有服务器/NAS 上免费私有化部署。
+    - 自建版本无行数限制、无问卷回收份数限制、无强制席位费。
+    - 提供完善的 Webhook 与 REST/GraphQL API，可互相串联形成完整的免订阅办公闭环。
+  en:
+    - Open-source licensed and fully self-hostable via Docker or single binary on your own server or NAS.
+    - No artificial row caps, response quotas, or per-seat charges when self-hosted.
+    - Includes webhooks and REST/GraphQL APIs for end-to-end automation without vendor lock-in.
+tools:
+  - nocodb
+  - baserow
+  - twenty
+  - activepieces
+  - n8n
+  - cal-com
+  - formbricks
+  - opnform
+  - plane
+  - invoiceninja
+skills: []
+featured: true
+added: '2026-11-10'
+faq:
+  zh:
+    - q: NocoDB 和 Baserow 哪个更适合用来替代 Airtable 或飞书多维表格？
+      a: 如果你已经有现成的 MySQL、PostgreSQL 或 SQLite 数据库，想直接把它变成可视化多维表格，选 NocoDB；如果你是从零新建大表、看重几十万行数据的极致滚动流畅度以及自带无代码门户网站构建器，选 Baserow。
+    - q: Activepieces 和 n8n 这两款开源自动化工具该怎么选？
+      a: n8n 的生态节点最丰富、复杂逻辑能力最强（采用 Sustainable Use 协议）；Activepieces 则采用完全宽松的 MIT 开源协议，且步骤式界面更像 Zapier，非常适合追求纯正 MIT 开源或希望非技术人员也能轻松上手的团队。
+  en:
+    - q: Should I pick NocoDB or Baserow to replace Airtable?
+      a: Pick NocoDB if you want to connect directly to an existing MySQL, Postgres, or SQLite database and turn it into a spreadsheet UI. Pick Baserow if you are building new tables from scratch and want blazing PostgreSQL performance plus a built-in no-code web app builder.
+    - q: How does Activepieces compare to n8n for workflow automation?
+      a: n8n offers the largest node ecosystem for complex developer pipelines under a fair-code license, while Activepieces is 100% MIT-licensed and features a cleaner, Zapier-like step builder that non-technical teammates can pick up immediately.

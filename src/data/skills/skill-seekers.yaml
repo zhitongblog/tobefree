@@ -1,0 +1,41 @@
+kind: skill
+name: Skill Seekers
+accent: "#8B5CF6"
+initials: SS
+license: MIT
+website: https://github.com/yusufkaraaslan/Skill_Seekers
+repo: https://github.com/yusufkaraaslan/Skill_Seekers
+install: git clone https://github.com/yusufkaraaslan/Skill_Seekers.git
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 技能生成器
+  - 文档转Skill
+  - SKILL.md
+  - 知识提炼
+  - 自动化
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+  - OpenCode
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 一键把任意技术文档网站、GitHub 仓库或 PDF 自动提炼打包成标准 SKILL.md 技能包
+  en: Automatically converts documentation websites, GitHub repos, and PDFs into structured SKILL.md agent skills
+description:
+  zh: 抓取并解析任意框架官网文档、开源代码库或本地 PDF 手册，自动去噪、提炼最佳实践与代码示例，生成可直接挂载到 Claude Code / Cursor 的模块化技能文件夹。
+  en: Crawls framework docs, repositories, or local PDFs and distills API rules, anti-patterns, and code examples into ready-to-use SKILL.md packages and local RAG indexes.
+review:
+  zh: |
+    遇到一个刚发布的小众开源库或公司内部私有框架，网上还没有现成的 Agent Skill 怎么办？用 Skill Seekers 指向它的文档地址或代码目录，几分钟就能自动生成一份结构规范的 `SKILL.md`，让你的 AI 编程助手立刻学会新框架。
+  en: |
+    When working with a brand-new library or internal company framework that lacks prebuilt agent skills, Skill Seekers crawls the docs or repo and compiles a structured SKILL.md package automatically.

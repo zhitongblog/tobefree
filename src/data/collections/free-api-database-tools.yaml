@@ -30,6 +30,11 @@ tools:
   - devtoys
   - jevql
   - tabularis
+  - lazysql
+  - nocodb
+  - baserow
+  - meilisearch
+  - typesense
 skills:
   - mcp-toolbox-databases
   - duckdb-mcp

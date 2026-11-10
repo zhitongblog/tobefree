@@ -1,0 +1,42 @@
+name: bottom (btm)
+accent: "#10B981"
+initials: BT
+category: utility
+price: free
+license: MIT
+website: https://clementtsang.github.io/bottom/
+download: https://github.com/ClementTsang/bottom/releases
+repo: https://github.com/ClementTsang/bottom
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 系统监控
+  - TUI
+  - Rust
+  - htop平替
+  - 任务管理器
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Rust 编写的跨平台图形化终端系统监控与进程管理器（htop / btop 极速平替）
+  en: Customizable cross-platform graphical process and system monitor for the terminal written in Rust
+description:
+  zh: 在终端内实时绘制 CPU、内存、磁盘 I/O、网络吞吐、硬件温度传感器与电池状态折线图，支持进程树视图、鼠标点击交互与高度自定义的窗口布局。
+  en: Renders real-time charts for CPU, RAM, disk I/O, network throughput, temperatures, and battery alongside an interactive process manager across Windows, macOS, and Linux.
+review:
+  zh: |
+    相比只支持类 Unix 系统的传统 htop，用 Rust 编写的 bottom (命令为 `btm`) 原生横跨 Windows、macOS 和 Linux 三大平台。它不仅折线图直观漂亮，还能按进程树筛选并一键结束卡死进程，资源占用极低。
+  en: |
+    Written in Rust, bottom (btm) runs natively across Windows, macOS, and Linux, combining responsive Braille graphs for CPU/RAM/network/temperature with a fast, filterable process tree.

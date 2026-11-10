@@ -1,0 +1,42 @@
+name: K9s
+accent: "#326CE5"
+initials: K9
+category: dev
+price: free
+license: Apache-2.0
+website: https://k9scli.io
+download: https://github.com/derailed/k9s/releases
+repo: https://github.com/derailed/k9s
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - Kubernetes
+  - K8s
+  - TUI
+  - Go
+  - 容器运维
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Kubernetes 终端可视化管理 TUI 的事实标准，告别冗长繁琐的 kubectl 命令
+  en: The gold-standard terminal UI to observe, navigate, and manage Kubernetes clusters in real time
+description:
+  zh: 实时监控 K8s 集群中 Pod、Deployment、Service 等所有资源的健康状态，一键追踪实时日志、进入容器 Shell、端口转发、弹性扩缩容与故障排查。
+  en: Continuously watches your Kubernetes clusters and offers instant keyboard shortcuts to stream pod logs, shell into containers, port-forward, edit manifests, and diagnose cluster bottlenecks.
+review:
+  zh: |
+    只要你日常接触 Kubernetes，K9s 就是装机必装的第一神器。它把原本需要敲几十个字符的 `kubectl get/describe/logs/exec` 命令浓缩成了直观的实时终端大盘，按一个键就能看日志、进容器、做端口转发，完全开源免费。
+  en: |
+    K9s is indispensable for anyone working with Kubernetes. It replaces verbose kubectl commands with a responsive real-time terminal dashboard for streaming logs, shelling into pods, port-forwarding, and inspecting cluster health.

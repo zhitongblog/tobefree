@@ -23,6 +23,7 @@ tools:
   - espeak-ng
   - localai
   - voicestudio
+  - voxcpm
 skills: []
 featured: false
 added: '2026-09-18'

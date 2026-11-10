@@ -1,0 +1,45 @@
+title:
+  zh: 免费开源终端 TUI 效率神器推荐：用 Rust 与 Go 打造全键盘工作流
+  en: Best Free Open-Source Terminal TUI Apps in Rust & Go for Keyboard Workflows
+description:
+  zh: 无需离开终端即可可视化管理 Git、Docker、Kubernetes、SQL 数据库、文件系统、网络下载与系统监控的顶级开源 TUI 工具清单。
+  en: Manage Git, Docker, Kubernetes, SQL databases, file trees, multi-stream downloads, and system metrics visually inside your terminal with zero GUI bloat.
+intro:
+  zh: 得益于 Rust（Ratatui）与 Go（Bubble Tea）生态的爆发，现代终端工具早已不再是枯燥的黑白命令行。现在的 TUI（终端用户界面）应用既有媲美图形软件的分栏面板、实时折线图与代码高亮预览，又保持了毫秒级启动、几 MB 内存占用和纯键盘（Vim 键位）操作的极致效率，在本地或远程 SSH 服务器上都能丝滑运行。
+  en: Powered by Rust (Ratatui) and Go (Bubble Tea), modern Terminal User Interface (TUI) apps combine visual multi-pane layouts, live charts, and syntax-highlighted previews with sub-millisecond startup times and tiny RAM footprints—working identically on your laptop or over SSH.
+criteria:
+  zh:
+    - 100% 开源免费（MIT / Apache-2.0 / GPL），无广告、无遥测、无需注册账号。
+    - 单二进制运行，纯本地离线可用，兼顾全键盘快捷键与鼠标点击支持。
+    - 涵盖代码版本控制、容器编排、数据库管理、文件搜索导航与系统监控全链路。
+  en:
+    - 100% free and open source (MIT / Apache-2.0 / GPL) with zero telemetry, ads, or accounts.
+    - Runs offline as a fast native binary supporting both Vim-style keyboard navigation and mouse clicks.
+    - Covers Git, Docker, Kubernetes, SQL databases, fuzzy file finding, downloads, and system monitoring.
+tools:
+  - lazygit
+  - lazydocker
+  - lazysql
+  - k9s
+  - yazi
+  - television
+  - broot
+  - bottom
+  - btop
+  - surge-dl
+  - atuin
+  - zellij
+skills: []
+featured: true
+added: '2026-11-10'
+faq:
+  zh:
+    - q: 想搭建一套现代化的全键盘终端工作流，最推荐先装哪几款 TUI？
+      a: 最核心的「五大件」是：用 Zellij 做终端多窗格复用、Yazi 做异步文件管理器、Television (tv) 做全局模糊搜索预览、Lazygit 管理代码提交、Bottom (btm) 监控系统进程。这五款全部开源且跨平台支持 Windows、macOS 和 Linux。
+    - q: 在远程 SSH 服务器上管理容器和数据库用什么最轻量？
+      a: 管理 Docker 容器首选 Lazydocker，管理 Kubernetes 集群首选 K9s，查改 PostgreSQL/MySQL/SQLite 数据库首选 Lazysql。它们都是单文件 Go 程序，考进服务器即可直接运行，无需开启沉重的网页控制台。
+  en:
+    - q: Which TUI tools should I install first for a modern terminal workflow?
+      a: "Start with the core five: Zellij for terminal multiplexing, Yazi for fast file management, Television (tv) for fuzzy searching with previews, Lazygit for Git workflows, and bottom (btm) for system monitoring."
+    - q: What are the best lightweight TUI tools for managing containers and databases over SSH?
+      a: Use Lazydocker for Docker Compose stacks, K9s for Kubernetes clusters, and Lazysql for inspecting and editing SQL databases—all three compile to single Go binaries with minimal resource usage.

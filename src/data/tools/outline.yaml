@@ -1,0 +1,39 @@
+name: Outline Wiki
+accent: "#0F172A"
+initials: OL
+category: selfhosted
+price: free
+license: BSL-1.1
+website: https://www.getoutline.com
+download: https://docs.getoutline.com/s/hosting
+repo: https://github.com/outline/outline
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 团队知识库
+  - Wiki
+  - Markdown
+  - Notion平替
+  - 自建文档
+platforms:
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 速度极快、排版优雅的现代化团队知识库与实时协作 Wiki，原生纯正 Markdown 体验
+  en: Fast, collaborative team knowledge base and wiki built around clean Markdown and instant search
+description:
+  zh: 以极致响应速度和干净排版著称的知识库系统，支持斜杠命令（/）、双向链接、多人实时协同、版本历史回溯与毫秒级全局快捷键搜索，支持免费社区版自托管。
+  en: Renowned for its blazing speed and clean typography, Outline offers real-time multiplayer Markdown editing, backlinks, slash commands, and instant command-palette search for self-hosted teams.
+review:
+  zh: |
+    如果你觉得 Notion 太慢太杂，只想要一个打开即写、排版极其赏心悦目的结构化知识库，Outline 是许多技术团队心目中的颜值与速度天花板，其社区自托管版可免费部署在内网服务器上。
+  en: |
+    If Notion feels sluggish and over-engineered, Outline delivers a remarkably fast, keyboard-centric Markdown wiki that you can self-host for your team.

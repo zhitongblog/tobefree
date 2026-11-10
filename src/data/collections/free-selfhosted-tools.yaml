@@ -58,6 +58,18 @@ tools:
   - coolify
   - docmost
   - forgejo
+  - activepieces
+  - twenty
+  - cal-com
+  - nocodb
+  - baserow
+  - outline
+  - bookstack
+  - filebrowser-quantum
+  - formbricks
+  - opnform
+  - meilisearch
+  - typesense
 skills:
   - n8n-mcp
   - searxng-mcp

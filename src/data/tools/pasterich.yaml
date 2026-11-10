@@ -1,0 +1,41 @@
+name: PasteRich
+accent: "#2563EB"
+initials: PR
+category: productivity
+price: free
+license: MIT
+website: https://github.com/RamonRiosJr/PasteRich
+download: https://github.com/RamonRiosJr/PasteRich/releases
+repo: https://github.com/RamonRiosJr/PasteRich
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 剪贴板
+  - Markdown转富文本
+  - 办公效率
+  - Word粘贴
+  - 小工具
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 轻量级剪贴板守护小工具，一键把复制的 Markdown 转为富文本粘贴进 Word / 邮件 / 企微
+  en: Lightweight clipboard daemon that converts copied Markdown into rich HTML/RTF on the fly via hotkey
+description:
+  zh: "从大模型对话框或 Obsidian 复制出来的文本往往带着满屏的 **星号** 与 ### 井号。按下全局快捷键即可在剪贴板内原地将其转化为带格式的富文本，直接完美粘贴到 Word、Outlook、Teams 等办公软件。"
+  en: "Eliminates raw **asterisks** and ### hashes when pasting LLM output or Obsidian notes into Microsoft Word, Outlook, Google Docs, or Slack by converting clipboard Markdown into rich HTML/RTF instantly."
+review:
+  zh: |
+    经常从 AI 聊天框或 Markdown 编辑器里复制内容粘贴到 Word、邮件或工作群的人一定懂这种痛：满篇都是未解析的 `**加粗星号**` 和表格竖线。PasteRich 常驻后台，按一下快捷键就能把剪贴板里的 Markdown 变成排版整齐的富文本，小巧纯粹。
+  en: |
+    Pasting Markdown from an LLM or Obsidian into Word or Outlook usually leaves ugly raw asterisks and pipe tables. PasteRich sits quietly in the background and converts clipboard Markdown into formatted HTML/RTF with a single hotkey.

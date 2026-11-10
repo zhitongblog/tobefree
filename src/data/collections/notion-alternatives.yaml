@@ -29,6 +29,11 @@ tools:
   - zim
   - solomd
   - docmost
+  - nocodb
+  - baserow
+  - outline
+  - bookstack
+  - blinko
 skills:
   - obsidian-mcp
   - filesystem-mcp

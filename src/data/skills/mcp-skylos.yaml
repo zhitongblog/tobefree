@@ -1,0 +1,41 @@
+kind: mcp
+name: Skylos Static Analysis MCP
+accent: "#EF4444"
+initials: SK
+license: MIT
+website: https://github.com/duriantaco/skylos
+repo: https://github.com/duriantaco/skylos
+install: pipx install skylos && skylos mcp
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 死代码检测
+  - 静态分析
+  - PR门禁
+  - 安全扫描
+  - 防AI幻觉
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 专门揪出「AI 遗留死代码、密钥泄露与架构坏味道」的本地静态分析与 PR 门禁 MCP
+  en: Local-first static analysis, dead-code detector, and security PR gate MCP server for Python, TypeScript, and Go
+description:
+  zh: 向编程 Agent 暴露 17 个本地静态分析工具，覆盖 Python、TypeScript 与 Go 代码库。在提交代码前自动检测未使用的死函数、未引用依赖、硬编码密钥、循环依赖与安全缺陷。
+  en: Exposes 17 specialized static-analysis tools for Python, TypeScript, and Go so coding agents can automatically catch dead code, unused imports, leaked secrets, and security regressions before committing.
+review:
+  zh: |
+    AI 写代码有个通病：重构时喜欢只加新函数、不删旧函数，久而久之项目里全是没人调用的「僵尸死代码」。Skylos 既能作为命令行门禁，又能作为 MCP 让 Agent 写完代码后自己跑一遍 17 项静态体检，把死代码和安全隐患清理干净再提交。
+  en: |
+    AI coding agents love adding new functions without cleaning up unused old ones. Skylos plugs into your agent via MCP with 17 static-analysis tools to catch dead code, secret leaks, and architecture smells locally before every commit.

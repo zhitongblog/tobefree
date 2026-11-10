@@ -1,0 +1,41 @@
+name: OmniGet
+accent: "#EC4899"
+initials: OG
+category: network
+price: free
+license: MIT
+website: https://github.com/OpenSelena/omniget
+download: https://github.com/OpenSelena/omniget/releases
+repo: https://github.com/OpenSelena/omniget
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 视频下载
+  - Tauri
+  - Rust
+  - 流媒体抓取
+  - 跨平台
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 基于 Tauri 2.0 与 Rust 打造的现代高颜值桌面全能音视频与文件下载器
+  en: Modern, lightweight desktop media and file downloader built with Tauri 2.0, Rust, and Svelte
+description:
+  zh: 安装包小巧、界面清爽无广告，一键从 YouTube、Bilibili、在线课程平台及 1,800+ 网站下载高清视频、提取无损音频或批量拉取播放列表。
+  en: A native, bloat-free desktop downloader supporting video, audio, course, and playlist extraction across 1,800+ websites with zero ads or telemetry.
+review:
+  zh: |
+    很多桌面视频下载器要么套着笨重的 Electron 壳，要么塞满弹窗广告和「会员解锁 4K」套路。OmniGet 采用 Tauri 2.0 + Rust 编写，安装包极小、内存占用低，打开粘贴链接即可选择最高画质或仅提取音频，干净利落。
+  en: |
+    Unlike bloated Electron downloaders or ad-ridden shareware that paywall 4K resolutions, OmniGet is built with Tauri 2.0 and Rust—delivering a tiny, fast desktop UI for downloading videos and audio from 1,800+ sites for free.

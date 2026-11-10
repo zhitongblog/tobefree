@@ -30,6 +30,7 @@ tools:
   - gopeed
   - aria2
   - surge-dl
+  - omniget
 skills: []
 featured: true
 added: '2026-09-18'

@@ -53,6 +53,12 @@ tools:
   - surge-dl
   - agent-browser
   - bumblebee
+  - television
+  - lazysql
+  - k9s
+  - bottom
+  - broot
+  - markitdown
 skills: []
 featured: true
 added: '2026-09-18'

@@ -1,0 +1,45 @@
+name: Meilisearch
+accent: "#FF5CAA"
+initials: MS
+category: dev
+price: free
+license: MIT
+website: https://www.meilisearch.com
+download: https://www.meilisearch.com/docs/learn/Self-hosted/install_meilisearch_locally
+repo: https://github.com/meilisearch/meilisearch
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 搜索引擎
+  - 全文检索
+  - 向量搜索
+  - Rust
+  - Algolia平替
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: Rust 编写的毫秒级开源全文与混合向量搜索引擎，开箱即用的 Algolia 免费自建平替
+  en: Lightning-fast Rust full-text and hybrid vector search engine — a turnkey open-source Algolia alternative
+description:
+  zh: 无需像 Elasticsearch 那样调整几百行配置。单文件启动即可在 50 毫秒内返回支持拼写容错（Typo-tolerant）、同义词、中文分词、分面过滤（Facets）及语义向量混合检索的结果。
+  en: Delivers sub-50ms typo-tolerant search, faceted filtering, CJK tokenization, and hybrid keyword + semantic vector search from a single zero-config Rust binary under the MIT license.
+review:
+  zh: |
+    给自己的网站、博客或内部知识库加搜索功能，Elasticsearch 太重太吃内存，Algolia 按搜索次数收费又太贵。Meilisearch 用 Rust 打造了一个单二进制文件就能跑起来的极速搜索引擎。
+
+    导入 JSON 文档后零配置就能实现「敲第一个字就毫秒级实时出结果、拼写错了也能搜到」，现在还原生支持关键词+向量混合搜索（Hybrid Search），MIT 协议完全免费。
+  en: |
+    Elasticsearch is heavy to maintain and Algolia gets expensive fast. Written in Rust and MIT-licensed, Meilisearch runs as a single binary that gives your app sub-50ms typo-tolerant and hybrid vector search out of the box.

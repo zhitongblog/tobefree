@@ -1,0 +1,42 @@
+kind: mcp
+name: Codebase-Memory-MCP
+accent: "#10B981"
+initials: CB
+license: MIT
+website: https://github.com/DeusData/codebase-memory-mcp
+repo: https://github.com/DeusData/codebase-memory-mcp
+install: npx -y codebase-memory-mcp
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 代码图谱
+  - Tree-sitter
+  - 节省Token
+  - 调用链分析
+  - 本地索引
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 基于 Tree-sitter 构建本地代码知识图谱的 MCP 服务，让 Agent 查调用链省下 80% Token
+  en: Builds a persistent local knowledge graph of functions, classes, and call chains across 150+ languages via Tree-sitter
+description:
+  zh: 支持 150+ 编程语言，在本地建立函数定义、引用关系与依赖调用图的持久化索引。编程 Agent 可以直接按图索骥查询符号与上下游调用链，无需反复全库 grep 和盲读大文件。
+  en: Indexes your repository with Tree-sitter into a local symbol and call-chain graph so coding agents can query exact definitions, callers, and dependencies without burning tokens on repeated full-file reads.
+review:
+  zh: |
+    在几十万行代码的大项目里用 Claude Code 或 Cursor，大模型往往要把十几个文件从头读到尾才能搞清一个函数被谁调用，既慢又费钱。Codebase-Memory-MCP 用 Tree-sitter 在本地建好了一张函数级知识图谱，Agent 一次查询就能拿到精准的调用关系，Token 消耗骤降。
+  en: |
+    Instead of letting your coding agent grep and read entire files just to trace a function call, Codebase-Memory-MCP indexes 150+ languages locally with Tree-sitter so agents can query call graphs directly with minimal tokens.

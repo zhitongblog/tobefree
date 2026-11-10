@@ -1,0 +1,38 @@
+name: OpnForm
+accent: "#3B82F6"
+initials: OF
+category: office
+price: free
+license: AGPL-3.0
+website: https://opnform.com
+download: https://docs.opnform.com/self-hosting/docker
+repo: https://github.com/JhumanJ/OpnForm
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 在线表单
+  - 问卷收集
+  - Tally平替
+  - 无代码
+  - 自建表单
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 开源极简的高颜值在线表单构建器，3 分钟搭出带条件逻辑与文件上传的专属收集表
+  en: Clean, open-source form builder with conditional logic, file uploads, and webhooks
+description:
+  zh: 提供超过 30 种表单字段组件、条件显隐逻辑、电子签名、文件上传与 Webhook/Notion/Slack 通知集成，云端免费版即支持无限表单与无限提交，亦可全功能自托管。
+  en: Offers 30+ input types, conditional logic, digital signatures, file uploads, and webhook integrations—with unlimited forms and responses on both its free tier and self-hosted Docker deployment.
+review:
+  zh: |
+    平时活动报名、收集资料或登记信息，如果不想用夹带广告的第三方小程序，OpnForm 是最轻快的选择。不仅自建完全免费，连官方提供的云端免费版都开放了无限表单与无限答卷提交，非常良心。
+  en: |
+    OpnForm makes building clean registration and data-collection forms effortless, offering unlimited forms and submissions without ads whether you use its free tier or self-host via Docker.

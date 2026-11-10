@@ -1,0 +1,44 @@
+title:
+  zh: 免费开源文档转 Markdown、代码知识图谱与本地 RAG 检索工具推荐
+  en: Free Open-Source Document-to-Markdown, Code Knowledge Graph & Local RAG Tools
+description:
+  zh: 把杂乱的 PDF、Office 文档与庞大代码库转化为大模型最易理解的结构化 Markdown、Tree-sitter 知识图谱与毫秒级本地混合向量索引。
+  en: Turn messy PDFs, Office files, and massive codebases into clean Markdown, Tree-sitter knowledge graphs, and fast local hybrid vector indexes for LLMs and personal knowledge bases.
+intro:
+  zh: 无论是搭建个人本地第二大脑，还是让 AI 编程助手理解大型项目，核心瓶颈往往不在模型本身，而在「喂给模型的上下文质量」。直接塞入原始 PDF/Word 或让 Agent 全库盲读代码，既烧 Token 又容易产生幻觉。这份清单精选了文档清洗转 Markdown、代码结构图谱 MCP 以及轻量级本地全文/向量检索引擎，全部开源免费、支持纯本地运行。
+  en: Whether you are building a private second brain or steering a coding agent through a large repository, context quality is everything. This collection brings together open-source tools that convert messy Office/PDF files into clean Markdown, index codebases into Tree-sitter knowledge graphs, and provide fast local hybrid search.
+criteria:
+  zh:
+    - 开源免费，支持在本机或自有服务器离线运行，私密文档与源码不出本地。
+    - 显著提升大模型上下文信噪比，大幅降低 Token 消耗与检索延迟。
+  en:
+    - Free and open source, running locally on your machine or self-hosted server so private docs and code stay yours.
+    - Drastically reduces LLM token usage and retrieval latency by structuring raw files and code.
+tools:
+  - markitdown
+  - anythingllm
+  - open-webui
+  - blinko
+  - meilisearch
+  - typesense
+  - obsidian
+  - siyuan
+  - karakeep
+skills:
+  - codebase-memory-mcp
+  - skill-seekers
+  - context7
+  - claude-mem
+featured: true
+added: '2026-11-10'
+faq:
+  zh:
+    - q: 如何把一堆 PDF、Word 和 Excel 批量转换成干净的 Markdown 导入知识库？
+      a: 使用微软开源的 MarkItDown（MIT 协议）。它能保留原文档的标题层级、列表和表格结构，一键将 .docx、.pptx、.xlsx、PDF 乃至音频和图片转换为高可读性的 Markdown 文件。
+    - q: 怎么让 Claude Code 或 Cursor 在大型代码库里少消耗 Token？
+      a: 配置 Codebase-Memory-MCP 和 Claude-Mem：前者用 Tree-sitter 在本地生成函数与调用链图谱，避免 Agent 反复全库盲读代码；后者跨会话持久化保存项目架构记忆，不用每次重头解释。
+  en:
+    - q: What is the easiest free way to batch-convert PDF, Word, and Excel files into Markdown?
+      a: Use Microsoft’s MIT-licensed MarkItDown utility. It preserves headings, tables, and lists cleanly across .docx, .pptx, .xlsx, and PDF files offline.
+    - q: How can I cut down token usage when running coding agents on large repositories?
+      a: Pair Codebase-Memory-MCP (which builds a local Tree-sitter call graph across 150+ languages) with Claude-Mem (which persists compressed architectural context across sessions).

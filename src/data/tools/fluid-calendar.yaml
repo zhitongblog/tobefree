@@ -1,0 +1,40 @@
+name: FluidCalendar
+accent: "#6366F1"
+initials: FC
+category: productivity
+price: free
+license: MIT
+website: https://fluidcalendar.com
+download: https://github.com/eyalzh/fluid-calendar
+repo: https://github.com/eyalzh/fluid-calendar
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 智能日历
+  - 自动排期
+  - Motion平替
+  - 时间管理
+  - 自建服务
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 开源的智能日历与待办任务自动排期工具，高价订阅软件 Motion 的免费自建平替
+  en: Open-source intelligent calendar and auto-scheduling task manager — a free self-hostable alternative to Motion
+description:
+  zh: 根据待办任务的截止日期、优先级、预估耗时以及你日历上的已有会议，自动将任务塞进空闲时间块（Time-blocking），一旦临时插入新会议还能一键重新动态排期。
+  en: Automatically time-blocks your to-do list around existing calendar meetings based on priority, deadlines, and estimated duration, dynamically rescheduling when plans change.
+review:
+  zh: |
+    商业自动排期日历 Motion 一年订阅费高达数百美元。FluidCalendar 用 MIT 开源协议把「待办事项自动填入日历空闲块」这一核心功能免费带给了所有人，支持自托管部署，彻底治好拖延症与排期焦虑。
+  en: |
+    Commercial auto-scheduling calendars like Motion charge hundreds of dollars a year. FluidCalendar brings automatic time-blocking and dynamic task rescheduling to an MIT-licensed open-source app you can run yourself for free.

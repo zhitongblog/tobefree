@@ -1,0 +1,46 @@
+name: MarkItDown
+accent: "#0078D4"
+initials: MD
+category: office
+price: free
+license: MIT
+website: https://github.com/microsoft/markitdown
+download: https://pypi.org/project/markitdown/
+repo: https://github.com/microsoft/markitdown
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - Markdown转换
+  - PDF转Markdown
+  - Office文档
+  - RAG预处理
+  - 微软开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 微软开源的万能文档转 Markdown 神器，一键清洗 PDF、Word、PPT、Excel 与音频
+  en: Microsoft’s open-source utility for converting PDF, Word, PowerPoint, Excel, images, and audio into clean Markdown
+description:
+  zh: 专为大模型预处理与本地知识库（如 Obsidian）打造的轻量级 Python 命令行与库。保留标题层级、表格与列表结构，将繁杂的办公文档瞬间转化为高信噪比的纯文本 Markdown。
+  en: A lightweight Python CLI and library that converts Office documents (.docx, .pptx, .xlsx), PDFs, HTML, ZIP archives, images, and audio into structured Markdown while preserving tables and headings.
+review:
+  zh: |
+    想把公司历年的 Word 规范、Excel 报表和 PDF 研报喂给本地大模型或导入 Obsidian，直接丢原始文件既费 Token 又容易乱码。微软开源的 MarkItDown 用最轻巧的方式解决了这个问题。
+
+    只需一行命令 `markitdown report.docx > report.md`，它就能把复杂的表格、章节结构完好地提取为干净的 Markdown 文本，MIT 协议完全开源，纯本地离线即可运行。
+  en: |
+    Feeding raw Word docs, Excel sheets, or PDFs into LLMs wastes tokens and mangles tables. Open-sourced by Microsoft under the MIT license, MarkItDown converts nearly any office file into clean, structured Markdown in one command.
+
+    It preserves headings, lists, and tables accurately, making it an essential offline tool for Obsidian users and local RAG pipelines.

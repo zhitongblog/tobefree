@@ -1,0 +1,38 @@
+name: Cal.com
+accent: "#111827"
+initials: CL
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://cal.com
+download: https://cal.com/docs/self-hosting/docker
+repo: https://github.com/calcom/cal.com
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 日程预约
+  - Calendly平替
+  - 日历同步
+  - 会议排期
+  - 自建服务
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 开源的时间排期与会议预约基础设施，功能强大的 Calendly 免费自建平替
+  en: Open-source scheduling infrastructure and self-hostable Calendly alternative
+description:
+  zh: 双向同步 Google / Outlook / Apple 日历与本地 CalDAV，自动检测多时区空闲时段，生成专属预约链接并自动创建视频会议房间，支持个人免费使用或团队 Docker 自托管。
+  en: Connects to Google, Outlook, Apple, and CalDAV calendars to prevent double-bookings, generate booking links, and automate video meeting links—free for individuals or fully self-hostable.
+review:
+  zh: |
+    和外部客户、候选人约会议时间，来回发消息确认「周三下午三点有空吗」效率极低。Cal.com 是 Calendly 最强大的开源替代品：个人版直接提供不限预约类型的免费额度，团队或注重隐私的用户还可以用 Docker 完整自建。
+  en: |
+    Cal.com replaces back-and-forth scheduling emails with clean booking pages that sync across all your calendars, offering a generous free tier for individuals and full Docker self-hosting for complete data control.

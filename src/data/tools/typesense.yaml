@@ -1,0 +1,41 @@
+name: Typesense
+accent: "#D97706"
+initials: TS
+category: dev
+price: free
+license: GPL-3.0
+website: https://typesense.org
+download: https://typesense.org/downloads/
+repo: https://github.com/typesense/typesense
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 搜索引擎
+  - C++
+  - 即时搜索
+  - 向量数据库
+  - Elasticsearch平替
+platforms:
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 用现代 C++ 构建的内存级极速开源搜索引擎，原生集成向量检索、语义搜索与地理围栏
+  en: Fast, typo-tolerant open-source search engine written in C++ with built-in vector and conversational search
+description:
+  zh: 将全部索引紧凑优化在内存中以实现极致吞吐与微秒级延迟，支持 Raft 高可用集群、拼写容错、动态排序权重、内置 Embedding 模型向量搜索以及 RAG 对话式问答接口。
+  en: Engineered in C++ for low-latency instant search, Typesense supports Raft clustering, typo tolerance, geo-search, built-in vector embeddings, and conversational RAG endpoints with zero external dependencies.
+review:
+  zh: |
+    Typesense 是用 C++ 编写的另一款顶尖开源即时搜索引擎。它没有任何外部运行时依赖（不像 ES 需要装庞大的 JVM），支持内置自动生成向量 Embedding 和多节点 Raft 高可用集群，商业公司与个人自建均完全免费。
+  en: |
+    Written in C++ with zero JVM overhead, Typesense delivers sub-millisecond typo-tolerant search, built-in vector embeddings, and easy Raft clustering in a single self-hostable binary.

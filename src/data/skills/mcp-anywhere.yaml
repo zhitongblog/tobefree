@@ -1,0 +1,42 @@
+kind: mcp
+name: MCP Anywhere
+accent: "#2563EB"
+initials: MA
+license: MIT
+website: https://github.com/locomotive-agency/mcp-anywhere
+repo: https://github.com/locomotive-agency/mcp-anywhere
+install: npx -y mcp-anywhere
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-10'
+tags:
+  - MCP网关
+  - 统一路由
+  - 容器管理
+  - MCP聚合
+  - 开发工具
+clients:
+  - Claude Desktop
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 统一管理、容器化隔离并聚合路由任意 GitHub MCP 服务的开源本地网关
+  en: Unified open-source gateway to discover, containerize, and route multiple MCP servers through a single endpoint
+description:
+  zh: 告别在 Claude、Cursor、Windsurf 里重复维护十几份零散的 JSON 配置文件。在一个面板中统一安装并容器化运行所有 MCP 服务，向所有客户端暴露单一聚合端点。
+  en: Stop duplicating JSON config files across Claude, Cursor, and Windsurf. MCP Anywhere runs your MCP servers in isolated containers and exposes them through one unified endpoint.
+review:
+  zh: |
+    当你同时使用 Claude Desktop、Claude Code 和 Cursor 时，每装一个新 MCP 都要去改三个软件的配置文件。MCP Anywhere 提供了统一的本地聚合网关，配置一次即可全客户端共享，还能按需开关工具以节省上下文。
+  en: |
+    Managing separate MCP JSON configs across multiple AI clients quickly becomes a mess. MCP Anywhere aggregates all your MCP servers behind one clean local gateway with container isolation.

@@ -1,0 +1,38 @@
+name: Formbricks
+accent: "#00C4B8"
+initials: FB
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://formbricks.com
+download: https://formbricks.com/docs/self-hosting/setup/docker
+repo: https://github.com/formbricks/formbricks
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 问卷调查
+  - 表单工具
+  - Typeform平替
+  - 用户反馈
+  - 隐私优先
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 隐私优先的开源问卷调查与产品内用户反馈平台（Typeform / Qualtrics 自建平替）
+  en: Privacy-first open-source survey and experience management platform — a self-hostable Typeform & Qualtrics alternative
+description:
+  zh: 支持创建高转化率的独立网页问卷、多分支跳转逻辑、NPS 满意度调查以及嵌入网页/App 内的微弹窗调研，自建部署不限制问卷数量与回收份数。
+  en: Build link surveys, multi-step conditional forms, NPS polls, and in-app micro-surveys with zero response limits when self-hosted on your own infrastructure.
+review:
+  zh: |
+    大多数在线问卷平台在免费版只允许回收几十份答卷，或者在问卷底部强行挂广告。Formbricks 允许你通过 Docker 私有化部署一套专业级问卷与用户调研系统，答卷数据直接落入你自己的数据库，不限份数、干净体面。
+  en: |
+    Most form builders cap free responses at a tiny quota or slap branding onto your surveys. Formbricks lets you self-host a full survey and user-feedback suite via Docker with unlimited responses and full data ownership.

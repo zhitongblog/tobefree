@@ -1,0 +1,42 @@
+name: Broot
+accent: "#D97706"
+initials: BR
+category: utility
+price: free
+license: MIT
+website: https://dystroy.org/broot/
+download: https://github.com/Canop/broot/releases
+repo: https://github.com/Canop/broot
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 目录树
+  - 磁盘空间分析
+  - Rust
+  - 文件导航
+  - 终端工具
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Rust 编写的自适应树状目录导航与磁盘空间分析工具，再庞大的目录也能一屏尽览
+  en: Interactive tree-based directory navigator and disk usage analyzer written in Rust
+description:
+  zh: 解决传统 tree 命令在大型项目里刷屏无法阅读的痛点：自动根据终端高度折叠次要层级，边输入边模糊过滤目录树，内置文件内容预览、Git 状态过滤与磁盘占用排序（鲸鱼模式）。
+  en: Fits even massive directory trees onto a single screen by dynamically pruning hierarchy levels as you type fuzzy filters, complete with file previews, Git status filters, and a disk-usage "whale" mode.
+review:
+  zh: |
+    在一个包含几万个文件的项目里敲 `tree` 只会让屏幕疯狂滚动。Broot 的聪明之处在于它永远只用一屏展示最重要的目录骨架，你一边敲字母它一边实时展开匹配的分支，切到鲸鱼模式还能瞬间揪出占满硬盘的大文件夹。
+  en: |
+    Running tree on a large repo floods your scrollback. Broot dynamically fits the most relevant directory structure onto one screen, filtering in real time as you type and doubling as a fast disk-space analyzer.

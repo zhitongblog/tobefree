@@ -1,0 +1,42 @@
+name: Lazysql
+accent: "#0284C7"
+initials: LS
+category: dev
+price: free
+license: MIT
+website: https://github.com/jorgerojas26/lazysql
+download: https://github.com/jorgerojas26/lazysql/releases
+repo: https://github.com/jorgerojas26/lazysql
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 数据库TUI
+  - SQL
+  - Go
+  - 终端工具
+  - Vim键位
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Go 编写的跨平台终端数据库管理 TUI，全键盘 Vim 键位操作多种 SQL 数据库
+  en: Cross-platform terminal TUI database management tool written in Go with Vim-style navigation
+description:
+  zh: 受 lazygit 启发打造的终端数据库客户端，支持 PostgreSQL、MySQL、SQLite 与 MSSQL。无需离开终端即可多标签浏览表数据、修改字段、过滤排序与执行自定义 SQL。
+  en: Inspired by lazygit, Lazysql provides a fast keyboard-driven TUI for browsing tables, editing cells, inspecting schemas, and running SQL queries across PostgreSQL, MySQL, SQLite, and SQL Server.
+review:
+  zh: |
+    在远程 SSH 服务器上查库，或者不想为了改一行数据去启动几百 MB 的图形化数据库客户端时，Lazysql 是最顺手的终端方案。熟悉的 Vim 快捷键配合分栏视图，查表、改值、看索引一气呵成。
+  en: |
+    When working over SSH or living in the terminal, Lazysql gives you a full multi-tab database workspace with Vim keybindings, inline cell editing, and zero GUI bloat.

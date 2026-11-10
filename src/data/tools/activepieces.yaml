@@ -1,0 +1,42 @@
+name: Activepieces
+accent: "#6D28D9"
+initials: AP
+category: selfhosted
+price: free
+license: MIT
+website: https://www.activepieces.com
+download: https://www.activepieces.com/docs/install/overview
+repo: https://github.com/activepieces/activepieces
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 工作流自动化
+  - Zapier平替
+  - AI-Agent
+  - 无代码
+  - MIT开源
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 采用宽松 MIT 协议开源的 AI 工作流自动化平台，高颜值、易上手的 Zapier 免费自建平替
+  en: MIT-licensed open-source AI workflow automation platform and self-hostable Zapier alternative
+description:
+  zh: 提供类似 Zapier 的直观步骤式可视化编排界面与 280+ 开源连接器（Pieces），所有扩展均基于 TypeScript 编写，原生支持接入本地/云端大模型构建自动化 AI Agent 流水线。
+  en: Combines a clean, non-technical step builder like Zapier with 280+ TypeScript connectors, native AI agent nodes, and human-in-the-loop approvals—all self-hostable via Docker under the MIT license.
+review:
+  zh: |
+    在开源自动化领域，n8n 虽然强大但采用非标准商业限制协议（Sustainable Use License），而 Activepieces 核心与全部连接器均采用真正的 **MIT 开源协议**。
+
+    它的界面比节点连线式的工具更容易上手，非技术人员也能在几分钟内搭好「收到邮件 -> 调大模型提取摘要 -> 写入表格并通知群聊」的自动化流，Docker 一键自建完全免费。
+  en: |
+    While many workflow tools use source-available licenses, Activepieces releases its core engine and 280+ TypeScript connectors under the permissive MIT license.
+
+    Its step-based builder is clean enough for non-developers while offering full code steps and AI agent orchestration when self-hosted on your own server.

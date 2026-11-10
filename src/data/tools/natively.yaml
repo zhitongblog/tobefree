@@ -1,0 +1,45 @@
+name: Natively AI Assistant
+accent: "#4F46E5"
+initials: NV
+category: ai
+price: free
+license: MIT
+website: https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant
+download: https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant/releases
+repo: https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 会议纪要
+  - 实时转写
+  - 面试助手
+  - 本地RAG
+  - Ollama
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 纯本地开源的 AI 会议实时转写与智能副驾驶，Otter / Fireflies / Cluely 的免费平替
+  en: Privacy-first open-source AI meeting assistant and real-time copilot — a free local alternative to Otter and Cluely
+description:
+  zh: 实时捕获系统音频与麦克风进行离线语音转写，结合本地个人知识库（RAG）与 Ollama 本地模型或自带 API Key，在会议、网课或技术交流中实时生成要点摘要与回答建议。
+  en: Captures system audio and microphone input for real-time transcription, pairing local RAG documents with Ollama or BYOK models to surface instant meeting summaries and context-aware answers.
+review:
+  zh: |
+    商业 AI 会议助手（如 Otter、Fireflies 或高价订阅的 Cluely）不仅月费高昂，还要求把整场会议录音上传到第三方云端。Natively 将这一体验完全本地化并开源。
+
+    你可以直接接入本机的 Ollama 大模型和本地知识库文档，在不联网、不花一分钱订阅费的前提下，实时获得会议语音转写、行动项提炼与屏幕上下文辅助。
+  en: |
+    Commercial AI meeting copilots charge steep monthly subscriptions and upload sensitive audio to the cloud. Natively gives you a 100% open-source desktop alternative that runs on your own hardware.
+
+    Connect it to local Ollama models or your own API keys to get live audio transcription, local document RAG lookup, and instant meeting summaries with zero recurring fees.

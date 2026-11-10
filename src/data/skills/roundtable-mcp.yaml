@@ -1,0 +1,40 @@
+kind: mcp
+name: Roundtable Meta-MCP
+accent: "#D97706"
+initials: RT
+license: MIT
+website: https://github.com/askbudi/roundtable
+repo: https://github.com/askbudi/roundtable
+install: npx -y @askbudi/roundtable-mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 多模型协同
+  - Meta-MCP
+  - 交叉审查
+  - Code-Review
+  - Agent编排
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Gemini CLI
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 让多个本地编程 Agent（Claude、Codex、Gemini）在同一次会话里互相会诊与交叉 Code Review 的元 MCP
+  en: Meta-MCP server that unifies multiple coding CLI agents for cross-model code review and collaborative debugging
+description:
+  zh: 将你本机已安装的多个 AI 编程 CLI 封装为统一的 MCP 工具，让你在主编辑器里写完代码后，直接呼叫另一个不同家族的模型进行独立盲审、找 Bug 或架构方案辩论。
+  en: Wraps your locally installed AI coding CLIs behind a single MCP server so your primary agent can ask second-opinion models to review diffs, debate architecture, or hunt elusive bugs.
+review:
+  zh: |
+    同一个大模型很难发现自己刚刚写出的逻辑漏洞，但让另一个不同架构的模型来挑刺往往一抓一个准。Roundtable MCP 让你不用在多个终端窗口之间来回复制粘贴，直接在当前 Agent 会话里发起「多模型圆桌会诊」。
+  en: |
+    A single LLM rarely catches its own blind spots, whereas a second model family spots them immediately. Roundtable MCP lets your primary coding agent summon other local CLI agents for instant cross-model code reviews.

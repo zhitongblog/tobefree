@@ -1,0 +1,45 @@
+name: Lightpanda Browser
+accent: "#06B6D4"
+initials: LP
+category: browser
+price: free
+license: AGPL-3.0
+website: https://lightpanda.io
+download: https://github.com/lightpanda-io/browser/releases
+repo: https://github.com/lightpanda-io/browser
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 无头浏览器
+  - Zig
+  - AI-Agent
+  - CDP
+  - 网页抓取
+platforms:
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 用 Zig 语言从零编写的 AI 原生超轻量无头浏览器，比 Chrome 快 10 倍、省 90% 内存
+  en: AI-native headless browser built from scratch in Zig — 10x faster and 9x lighter than headless Chrome
+description:
+  zh: 非 Chromium 套壳，专为机器、爬虫与 AI Agent 打造的极速无头浏览器。砍掉冗余图形渲染层，内置 JavaScript 执行与 Web API 支持，原生兼容 Playwright 与 Puppeteer 的 CDP 协议。
+  en: Built from scratch in Zig rather than forking Chromium, Lightpanda drops graphical rendering overhead while executing JS and exposing a Chrome DevTools Protocol (CDP) endpoint for Playwright, Puppeteer, and AI agents.
+review:
+  zh: |
+    当你的 AI Agent 或自动化脚本需要并发打开几十个网页时，传统的 Headless Chrome 动辄吃掉十几个 GB 的内存。Lightpanda 做了一件极其硬核的事：用 Zig 语言从零写了一个专为机器服务的无头浏览器。
+
+    因为它根本不渲染像素画面，只构建 DOM 树并执行必要的 JavaScript，启动耗时仅几毫秒，内存占用不到 Chrome 的十分之一，却能直接对接你现有的 Playwright 和 Puppeteer 代码，是本地运行大规模 Web Agent 的神兵利器。
+  en: |
+    Spinning up dozens of headless Chrome instances for AI agents or web scrapers quickly exhausts system RAM. Lightpanda solves this at the root by building a headless browser from scratch in Zig.
+
+    By skipping pixel rasterization while keeping DOM construction, JavaScript execution, and Chrome DevTools Protocol (CDP) compatibility, it launches in milliseconds and uses a fraction of Chrome’s memory footprint.

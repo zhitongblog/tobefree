@@ -50,6 +50,10 @@ skills:
   - jupyter-mcp
   - tabularis-mcp
   - openpencil-mcp
+  - codebase-memory-mcp
+  - mcp-skylos
+  - roundtable-mcp
+  - mcp-anywhere
 faq:
   zh:
     - q: MCP Server 适合谁？

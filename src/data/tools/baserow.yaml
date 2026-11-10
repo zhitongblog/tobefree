@@ -1,0 +1,38 @@
+name: Baserow
+accent: "#2563EB"
+initials: BS
+category: office
+price: free
+license: MIT
+website: https://baserow.io
+download: https://baserow.io/docs/installation/install-with-docker
+repo: https://github.com/baserow/baserow
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 无代码数据库
+  - 多维表格
+  - Airtable平替
+  - 应用构建器
+  - 自建服务
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 支持百万级行性能的开源无代码多维数据库与应用构建器（Airtable 免费自建平替）
+  en: Open-source no-code database and application builder — a fast, self-hostable Airtable alternative
+description:
+  zh: 底层基于 PostgreSQL 构建，即使在数十万行数据规模下依然保持丝滑流畅。集多维表格、自动化表单与可视化门户网站构建器于一体。
+  en: Backed by PostgreSQL for high-speed handling of massive tables, Baserow combines collaborative database views, webhooks, and a no-code web application builder.
+review:
+  zh: |
+    Baserow 与 NocoDB 并称开源多维表格双雄。Baserow 的强项在于极致的表格滚动性能以及自带的「Application Builder」，让你不仅能管数据，还能直接把表数据拖拽发布成对外的查询门户网站。
+  en: |
+    Built on PostgreSQL, Baserow stays snappy even with hundreds of thousands of rows and includes a built-in Application Builder for turning your tables into public portals or internal tools.

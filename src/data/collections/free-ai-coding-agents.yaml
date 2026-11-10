@@ -39,6 +39,8 @@ tools:
   - kilo-code
   - browser-use
   - agent-browser
+  - gastown
+  - lightpanda
 skills:
   - serena
   - context7
@@ -53,6 +55,9 @@ skills:
   - claude-mem
   - impeccable
   - hallmark
+  - codebase-memory-mcp
+  - mcp-skylos
+  - roundtable-mcp
 featured: true
 added: '2026-09-08'
 faq:

@@ -3,7 +3,7 @@ title:
   en: Free Speech-to-Text Tools
 description:
   zh: 在本机离线把录音转成文字的免费工具，会议纪要、视频字幕、采访转写都能用，全部开源、不需要注册账号。
-  en: "Free tools that turn recordings into text offline on your own machine — meeting notes, video subtitles, interview transcripts. All open source, no account required."
+  en: Free tools that turn recordings into text offline on your own machine — meeting notes, video subtitles, interview transcripts. All open source, no account required.
 intro:
   zh: 这些工具跑的是同一批 Whisper 模型，所以中文准不准取决于你选多大的模型，不取决于你用哪个工具。真正的差别在形态：有的是引擎（命令行/库），有的是桌面应用（拖文件就转），还有一个专做字幕（词级时间戳 + 说话人分离）。这个专题按「你缺哪一层」来分，所有数字截至 2026 年 8 月，可在各自仓库核对。
   en: "These tools run the same Whisper models, so accuracy depends on which model size you can run, not which tool you choose. The real difference is form: some are engines (command line or library), some are desktop apps you drag files into, and one is built for subtitles with word-level timestamps and speaker diarization. This collection sorts them by which layer you are missing. All figures verified August 2026 against their repositories."
@@ -18,7 +18,13 @@ criteria:
     - Runs fully offline; audio never leaves your machine.
     - No account required.
     - Licences recorded from the actual LICENSE file, not repository auto-detection.
-tools: [whisper-cpp, faster-whisper, whisperx, buzz, vibe]
+tools:
+  - whisper-cpp
+  - faster-whisper
+  - whisperx
+  - buzz
+  - vibe
+  - natively
 skills: []
 featured: true
 added: '2026-08-15'
@@ -36,8 +42,8 @@ faq:
     - q: Which one is most accurate for non-English speech?
       a: "Wrong target for the question. All five run the same Whisper models: give them large-v3 and the output text is identical. Accuracy depends on the model size you can run — tiny is 75 MiB but error-prone, medium is 1.5 GiB, large-v3 is 2.9 GiB. On modest hardware try the quantized large-v3 at 1.1 GiB first."
     - q: Which should I pick if I never want to touch a terminal?
-      a: "Vibe or Buzz — both are desktop apps where you drag a file in. Take Vibe if disk is tight (43.2 MB on Windows, 39.8 MB on macOS), Buzz for batch work and more export formats (449 MB for the macOS ARM64 build)."
+      a: Vibe or Buzz — both are desktop apps where you drag a file in. Take Vibe if disk is tight (43.2 MB on Windows, 39.8 MB on macOS), Buzz for batch work and more export formats (449 MB for the macOS ARM64 build).
     - q: What if I need subtitles and speaker labels?
-      a: "WhisperX. It adds word-level timestamps and speaker diarization on top of Whisper and is the only one here with both out of the box. The trade-off is a longer dependency chain and a fussier install."
+      a: WhisperX. It adds word-level timestamps and speaker diarization on top of Whisper and is the only one here with both out of the box. The trade-off is a longer dependency chain and a fussier install.
     - q: Is faster-whisper still usable?
       a: "Yes, but know that maintenance has stalled: the last commit was 19 November 2025, the last release v1.2.1 on 31 October 2025, and 315 issues are open. The repo is not archived, so existing projects are fine; for something you plan to maintain long-term, prefer whisper.cpp."

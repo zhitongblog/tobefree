@@ -1,0 +1,43 @@
+name: Blinko
+accent: "#F59E0B"
+initials: BK
+category: productivity
+price: free
+license: MIT
+website: https://blinko.space
+download: https://github.com/blinkospace/blinko/releases
+repo: https://github.com/blinkospace/blinko
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-10'
+tags:
+  - 闪念笔记
+  - AI笔记
+  - Memos升级
+  - Flomo平替
+  - 本地RAG
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+  - ios
+  - android
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+  - cross-platform
+tagline:
+  zh: 内置本地 AI 语义检索的开源闪念卡片笔记，兼具 Flomo 的轻快与第二大脑的记忆检索
+  en: Open-source AI-powered flash note and fleeting thought manager with built-in RAG search
+description:
+  zh: 采用 MIT 协议开源，既支持像刷微博/Flomo 一样随手记录碎片灵感与截图，又内置向量语义搜索（RAG），哪怕忘了关键词也能用自然语言提问找回半年前记下的想法。
+  en: MIT-licensed self-hostable & desktop flash-note app that pairs instant card-style capture (like Flomo/Memos) with built-in AI vector search so you never lose a fleeting idea.
+review:
+  zh: |
+    用卡片笔记记了上千条碎片想法后，最大的痛点是「记了但再也搜不到」。Blinko 在保持 Memos / Flomo 极速随手记体验的同时，原生集成了 RAG 向量检索，并提供全平台客户端与 Docker 自建支持。
+  en: |
+    Capturing fleeting notes is easy; finding them months later when you forget the exact keyword is hard. Blinko pairs instant card-based note capture with built-in semantic RAG search across desktop, mobile, and self-hosted Docker.
