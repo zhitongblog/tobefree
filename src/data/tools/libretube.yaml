@@ -1,0 +1,38 @@
+name: LibreTube
+accent: "#EF4444"
+initials: LT
+category: media
+price: free
+license: GPL-3.0
+website: https://libretube.dev
+download: https://github.com/libre-tube/LibreTube/releases
+repo: https://github.com/libre-tube/LibreTube
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - YouTube隐私前端
+  - Piped客户端
+  - 安卓播放器
+  - Material-You
+  - 无广告
+platforms:
+  - android
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 基于 Piped 隐私代理与 Material You 设计的开源安卓无广告 YouTube 客户端
+  en: Privacy-focused open-source Android YouTube client powered by Piped with Material You design
+description:
+  zh: 通过连接开源 Piped 代理服务器（或本地提取模式）获取视频流，让你的真实 IP 地址与设备指纹永远不直接接触 Google 服务器。原生支持 SponsorBlock、播放列表同步、画中画与音频后台播放。
+  en: Routes video requests through open-source Piped proxy instances (or local extraction) so your IP and device fingerprint stay hidden from Google servers, wrapped in a polished Material You interface.
+review:
+  zh: |
+    LibreTube 是安卓端颜值最高的开源第三方 YouTube 客户端之一。它采用原生 Material You 动态取色设计，最大的特点是可以走 Piped 隐私中继——不仅没广告、能后台听歌，而且连你的真实 IP 都不会暴露给视频平台。
+  en: |
+    LibreTube combines a modern Material You Android interface with Piped proxy routing—blocking ads, enabling background audio, and shielding your IP address from Google’s tracking servers.

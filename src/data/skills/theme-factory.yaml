@@ -22,3 +22,12 @@ description:
     An official open-source (Apache-2.0) skill with ten ready-made color-and-font themes (and
     on-the-fly new ones), so the slides, docs and HTML pages Claude produces share a consistent
     look.
+review:
+  zh: |
+    Theme Factory 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Anthropic 官方开源（Apache-2.0）技能，内置十套配色加字体的主题，也能现场生成新主题，让 Claude 做出的幻灯片、文档、HTML 页面风格统一，不再每次都长得不一样。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，无缝兼容 Claude、Claude Code、Claude Desktop 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Theme Factory is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An official open-source (Apache-2.0) skill with ten ready-made color-and-font themes (and on-the-fly new ones), so the slides, docs and HTML pages Claude produces share a consistent look.
+
+    Released under the Apache-2.0 license, it works across Claude, Claude Code, Claude Desktop. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

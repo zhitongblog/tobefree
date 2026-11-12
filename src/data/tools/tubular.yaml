@@ -1,0 +1,37 @@
+name: Tubular
+accent: "#DC2626"
+initials: TB
+category: media
+price: free
+license: GPL-3.0
+website: https://github.com/polymorphicshade/Tubular
+download: https://github.com/polymorphicshade/Tubular/releases
+repo: https://github.com/polymorphicshade/Tubular
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - YouTube客户端
+  - SponsorBlock
+  - 跳过恰饭广告
+  - NewPipe分支
+  - 安卓无广告
+platforms:
+  - android
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 集成 SponsorBlock 自动跳过视频内「恰饭口播软广」与显示踩数的 NewPipe 增强版
+  en: Fork of NewPipe for Android with built-in SponsorBlock and ReturnYouTubeDislike support
+description:
+  zh: 在继承 NewPipe 轻量、免 Google 框架、免登录、支持息屏后台播放与离线下载全部优点的基础上，原生集成了 SponsorBlock（自动跳过视频中穿插的赞助口播、片头片尾与求三连片段）及点踩数显示。
+  en: Builds on NewPipe’s lightweight, Google-free Android player by integrating SponsorBlock (auto-skipping in-video sponsor segments, intros, and outros) and ReturnYouTubeDislike out of the box.
+review:
+  zh: |
+    用过 NewPipe 的安卓用户几乎都会爱上 Tubular。原版 NewPipe 虽然去掉了平台贴片广告，但对博主要在视频正片里念两分钟赞助商口播无能为力；Tubular 直接把社区驱动的 SponsorBlock 集成进了播放器底层，遇到恰饭片段毫秒级自动跳过，全程无需登录 Google 账号。
+  en: |
+    While standard NewPipe blocks pre-roll ads, Tubular goes a step further by baking SponsorBlock and ReturnYouTubeDislike directly into the player—automatically skipping in-video sponsor reads and filler segments without needing a Google account.

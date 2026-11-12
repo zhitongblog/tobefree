@@ -1,0 +1,39 @@
+kind: mcp
+name: 21st.dev Magic UI MCP
+accent: "#18181B"
+initials: "21"
+license: MIT
+website: https://21st.dev
+repo: https://github.com/21st-dev/magic-mcp
+install: npx -y @21st-dev/magic
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - UI组件库
+  - React
+  - Tailwind
+  - shadcn
+  - 前端设计MCP
+clients:
+  - Cursor
+  - Claude Code
+  - Windsurf
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+tagline:
+  zh: 连接 21st.dev 开源设计工程组件库的 MCP 服务，让 AI 直接拉取生产级 React + Tailwind 组件
+  en: MCP server connecting your IDE agent to thousands of production-ready React, Tailwind, and shadcn/ui components
+description:
+  zh: 与其让大模型从零凭空捏造简陋的按钮和卡片，不如通过 21st.dev Magic MCP 直接检索并注入由顶尖设计工程师开源发布的高质感动效组件、着陆页英雄区与交互表单。
+  en: Instead of letting LLMs improvise generic UI from scratch, Magic MCP lets Cursor, Claude Code, and Windsurf search and inject crafted React + Tailwind + Radix components from the 21st.dev community registry.
+review:
+  zh: |
+    前端开发者用 AI 写页面时，配合 Impeccable 技能约束排版、再用 21st.dev Magic MCP 直接调取社区打磨好的高级 React/Tailwind/shadcn 动效组件，能在几分钟内搭出媲美顶级初创公司官网的界面。
+  en: |
+    Pairs with Cursor, Claude Code, and Windsurf to pull battle-tested, beautifully animated React and Tailwind components straight from the 21st.dev open registry into your codebase.

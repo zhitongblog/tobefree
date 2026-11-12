@@ -24,3 +24,12 @@ description:
     An open-source (AGPL-3.0) memory MCP server. Knowledge from your conversations is written as
     linked Markdown notes on your own disk that the model reads back next time, so you stop
     re-explaining your project. The files open directly in Obsidian.
+review:
+  zh: |
+    Basic Memory 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（AGPL-3.0）的记忆型 MCP 服务器。对话里沉淀的知识会写成本地 Markdown 笔记并互相链接，下次对话 AI 能读回来，不用每次重新解释项目背景。文件就在你硬盘上，可以直接用 Obsidian 打开编辑。
+
+    在实用性与工程自由度上，它采用 AGPL-3.0 协议开放源码，可通过 `claude mcp add basic-memory -- uvx basic-memory mcp` 快速接入，无缝兼容 Claude Desktop、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Basic Memory is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (AGPL-3.0) memory MCP server. Knowledge from your conversations is written as linked Markdown notes on your own disk that the model reads back next time, so you stop re-explaining your project. The files open directly in Obsidian.
+
+    Released under the AGPL-3.0 license, it works across Claude Desktop, Claude Code, Cursor, Any MCP client. You can set it up quickly via `claude mcp add basic-memory -- uvx basic-memory mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

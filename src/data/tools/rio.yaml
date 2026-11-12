@@ -1,0 +1,41 @@
+name: Rio Terminal
+accent: "#F43F5E"
+initials: RO
+category: dev
+price: free
+license: MIT
+website: https://rioterm.com
+download: https://github.com/raphamorim/rio/releases
+repo: https://github.com/raphamorim/rio
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 终端模拟器
+  - Rust
+  - WebGPU
+  - GPU加速
+  - 跨平台
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 基于 Rust、WebGPU 与 SugarLoaf 引擎打造的硬件加速现代终端模拟器
+  en: Hardware-accelerated GPU terminal emulator built in Rust using WebGPU and the SugarLoaf rendering engine
+description:
+  zh: 100% 纯 Rust 编写，利用现代 WebGPU 管线实现超高帧率渲染。原生支持分屏（Splits）、图片协议（Sixel / iTerm2 / Kitty）、RetroArch 着色器特效（如 CRT 复古滤镜）与零依赖跨平台配置。
+  en: Written in pure Rust on top of WebGPU, Rio delivers ultra-low-latency text rendering, native pane splits, Sixel/Kitty image protocols, and custom RetroArch shader support across Windows, macOS, and Linux.
+review:
+  zh: |
+    在 Rust 终端阵营中，Rio 的独特之处在于它底层采用 WebGPU 和自研的 SugarLoaf 渲染引擎，不仅原生自带多窗格分屏和行内高清图片显示，还支持挂载自定义 GPU 着色器，轻量、开源且完全离线可用。
+  en: |
+    Powered by Rust and WebGPU, Rio combines blazing frame rates with built-in pane splitting, Kitty/Sixel inline images, and custom GPU shader support without any telemetry or account login.

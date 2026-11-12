@@ -19,3 +19,12 @@ tagline:
 description:
   zh: MongoDB 官方开源的 MCP 服务器，让模型连接本地 MongoDB 或 Atlas 集群，运行查询、聚合、管理集合与索引，并操作 Atlas 资源。本地以 npx 运行，需提供连接字符串或 Atlas 凭据。
   en: MongoDB's official open-source MCP server that lets the model connect to a local MongoDB or an Atlas cluster to run queries and aggregations, manage collections and indexes, and administer Atlas resources. Runs locally via npx and needs a connection string or Atlas credentials.
+review:
+  zh: |
+    MongoDB MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。MongoDB 官方开源的 MCP 服务器，让模型连接本地 MongoDB 或 Atlas 集群，运行查询、聚合、管理集合与索引，并操作 Atlas 资源。本地以 npx 运行，需提供连接字符串或 Atlas 凭据。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，可通过 `npx -y @mongodb-js/mongodb-mcp-server` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    MongoDB MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. MongoDB's official open-source MCP server that lets the model connect to a local MongoDB or an Atlas cluster to run queries and aggregations, manage collections and indexes, and administer Atlas resources. Runs locally via npx and needs a connection string or Atlas credentials.
+
+    Released under the Apache-2.0 license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `npx -y @mongodb-js/mongodb-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

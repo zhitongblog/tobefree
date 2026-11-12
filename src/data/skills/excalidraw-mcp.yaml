@@ -24,3 +24,12 @@ description:
     An open-source (MIT) Excalidraw MCP server that also ships an agent skill and CLI. AI adds,
     arranges and edits shapes on a live local canvas, converts from Mermaid and exports PNG, SVG or
     .excalidraw files — no more manual dragging for architecture and flow diagrams.
+review:
+  zh: |
+    Excalidraw MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（MIT）的 Excalidraw MCP 服务器，同时附带 Agent 技能和命令行。AI 可以在本地实时画布上添加、排列、修改图形，支持从 Mermaid 转换，导出 PNG / SVG / .excalidraw 文件，画架构图和流程图时省掉大量拖拽。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y mcp-excalidraw-server start` 快速接入，无缝兼容 Claude Code、Codex、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Excalidraw MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (MIT) Excalidraw MCP server that also ships an agent skill and CLI. AI adds, arranges and edits shapes on a live local canvas, converts from Mermaid and exports PNG, SVG or .excalidraw files — no more manual dragging for architecture and flow diagrams.
+
+    Released under the MIT license, it works across Claude Code, Codex, Cursor, Any MCP client. You can set it up quickly via `npx -y mcp-excalidraw-server start`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

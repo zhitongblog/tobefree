@@ -6,7 +6,7 @@ description:
   en: Eleven free tools for bookkeeping, budgeting, subscription and portfolio tracking, storing data locally or on your own server, with no bank credentials uploaded and no per-transaction pricing.
 intro:
   zh: 记账软件有个绕不开的问题：它要看你的全部消费记录。商业记账 App 的典型做法是让你绑定银行卡自动同步，账目存在厂商服务器上，免费版限制账本数量或历史查询范围，导出功能藏在付费墙后面。这份清单里的工具都把数据留在你自己手上 —— 本地数据库、纯文本文件，或者你自己搭的服务。按用途分三类：复式记账、日常预算、投资组合跟踪。
-  en: 'Bookkeeping software has an unavoidable property: it sees everything you spend. Commercial apps typically want your bank login for automatic sync, keep the ledger on a vendor server, cap the number of books or the history range on the free tier, and put export behind a paywall. Everything in this list keeps the data in your hands — a local database, plain text files, or a service you run. It sorts three ways: double-entry accounting, everyday budgeting, and portfolio tracking.'
+  en: "Bookkeeping software has an unavoidable property: it sees everything you spend. Commercial apps typically want your bank login for automatic sync, keep the ledger on a vendor server, cap the number of books or the history range on the free tier, and put export behind a paywall. Everything in this list keeps the data in your hands — a local database, plain text files, or a service you run. It sorts three ways: double-entry accounting, everyday budgeting, and portfolio tracking."
 criteria:
   zh:
     - 数据存本地或可自建，不强制把账目上传到厂商服务器。
@@ -35,6 +35,7 @@ tools:
   - paisa
   - akaunting
   - invoiceninja
+  - maybe
 skills: []
 featured: true
 added: '2026-09-18'

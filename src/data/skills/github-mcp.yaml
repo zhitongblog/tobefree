@@ -19,3 +19,12 @@ tagline:
 description:
   zh: GitHub 官方开源、用 Go 编写的 MCP 服务器，让模型读写仓库、管理 issue 与 PR、检索代码并自动化工作流。需要 GitHub 个人访问令牌或 OAuth 授权。
   en: GitHub's official open-source MCP server written in Go, letting the model read/write repositories, manage issues and PRs, search code and automate workflows. Requires a GitHub personal access token or OAuth.
+review:
+  zh: |
+    GitHub MCP Server 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。GitHub 官方开源、用 Go 编写的 MCP 服务器，让模型读写仓库、管理 issue 与 PR、检索代码并自动化工作流。需要 GitHub 个人访问令牌或 OAuth 授权。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    GitHub MCP Server is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. GitHub's official open-source MCP server written in Go, letting the model read/write repositories, manage issues and PRs, search code and automate workflows. Requires a GitHub personal access token or OAuth.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

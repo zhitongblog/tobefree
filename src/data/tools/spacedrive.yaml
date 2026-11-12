@@ -1,0 +1,41 @@
+name: Spacedrive
+accent: "#2563EB"
+initials: SD
+category: utility
+price: free
+license: AGPL-3.0
+website: https://www.spacedrive.com
+download: https://www.spacedrive.com/download
+repo: https://github.com/spacedriveapp/spacedrive
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 文件管理器
+  - Rust
+  - Tauri
+  - 跨设备索引
+  - VDFS
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 基于 Rust 与虚拟分布式文件系统（VDFS）打造的下一代跨设备开源文件管理器
+  en: Open-source cross-platform file manager written in Rust and powered by a Virtual Distributed File System (VDFS)
+description:
+  zh: 将散落在多台电脑、移动硬盘、NAS 与云盘里的文件统一编目到同一个本地数据库中。即使移动硬盘拔掉未插，也能随时检索目录、查看缩略图、打颜色标签与去重整理。
+  en: Unifies files across your local disks, external drives, NAS shares, and cloud storage into a single virtual filesystem—letting you search, tag, preview, and organize even offline drives.
+review:
+  zh: |
+    很多创作者手头有两台电脑、三块冷备份移动硬盘和一台 NAS，想找半年前的一个视频素材却不知道在哪块盘上。Spacedrive 用 Rust 构建了虚拟分布式文件系统，把所有离线硬盘的索引和缩略图汇总在一起，插不插盘都能秒搜。
+  en: |
+    Built in Rust with Tauri, Spacedrive indexes your internal drives, external hard disks, and NAS folders into a unified virtual catalog so you can search, tag, and preview files across every device.

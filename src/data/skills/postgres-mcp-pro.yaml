@@ -19,3 +19,12 @@ tagline:
 description:
   zh: Crystal DBA 出品的开源 MCP 服务器，为 AI Agent 提供 Postgres 的读写访问、健康检查、索引调优和 EXPLAIN 执行计划分析。支持只读的受限模式，可安全用于生产环境，全程本地运行。
   en: An open-source MCP server from Crystal DBA giving AI agents read/write access to Postgres plus database health checks, index tuning and EXPLAIN plan analysis. A restricted read-only mode makes it safe for production, and it runs entirely locally.
+review:
+  zh: |
+    Postgres MCP Pro 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。Crystal DBA 出品的开源 MCP 服务器，为 AI Agent 提供 Postgres 的读写访问、健康检查、索引调优和 EXPLAIN 执行计划分析。支持只读的受限模式，可安全用于生产环境，全程本地运行。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `pipx install postgres-mcp` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Postgres MCP Pro is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source MCP server from Crystal DBA giving AI agents read/write access to Postgres plus database health checks, index tuning and EXPLAIN plan analysis. A restricted read-only mode makes it safe for production, and it runs entirely locally.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `pipx install postgres-mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

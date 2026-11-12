@@ -32,3 +32,12 @@ tagline:
 description:
   zh: TypeSafe AI 官方维护的 Agent 技能包。由于大模型默认习惯把 Jev 当成普通聊天接口一次只问一个问题，该技能专门向 Claude Code / Cursor 注入正确的 System 1 编程范式：把多个结构化问题合并在一次 Prefill 调用中并发求值，充分发挥百毫秒级延迟与极低成本优势。
   en: Official skills from TypeSafe AI that teach coding agents how to write idiomatic Jev code — specifically batching multiple typed questions into a single state prefill call rather than falling into slow single-question anti-patterns.
+review:
+  zh: |
+    TypeSafe Jev Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。TypeSafe AI 官方维护的 Agent 技能包。由于大模型默认习惯把 Jev 当成普通聊天接口一次只问一个问题，该技能专门向 Claude Code / Cursor 注入正确的 System 1 编程范式：把多个结构化问题合并在一次 Prefill 调用中并发求值，充分发挥百毫秒级延迟与极低成本优势。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `git clone https://github.com/typesafe-ai/skills.git` 快速接入，无缝兼容 Claude Code、Cursor、Cline、Windsurf 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    TypeSafe Jev Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Official skills from TypeSafe AI that teach coding agents how to write idiomatic Jev code — specifically batching multiple typed questions into a single state prefill call rather than falling into slow single-question anti-patterns.
+
+    Released under the MIT license, it works across Claude Code, Cursor, Cline, Windsurf. You can set it up quickly via `git clone https://github.com/typesafe-ai/skills.git`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

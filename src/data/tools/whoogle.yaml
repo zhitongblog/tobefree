@@ -1,0 +1,39 @@
+name: Whoogle Search
+accent: "#4285F4"
+initials: WG
+category: privacy
+price: free
+license: MIT
+website: https://github.com/benbusby/whoogle-search
+download: https://github.com/benbusby/whoogle-search#install
+repo: https://github.com/benbusby/whoogle-search
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 隐私搜索
+  - Google平替
+  - 去广告搜索
+  - 无追踪
+  - 自建服务
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 可一键自建的纯净版 Google 搜索代理：保留谷歌搜索结果，彻底剔除广告、追踪与 AMP
+  en: Self-hosted, ad-free, privacy-respecting metasearch engine that fetches Google results without tracking or AMP
+description:
+  zh: 厌倦了搜索结果前四条全是竞价排名广告和重定向追踪链接？Whoogle 在服务端替你请求 Google 搜索并返回洗净广告、移除 Cookie、剥离 JavaScript 与 AMP 锁定的极简结果页。
+  en: Fetches Google search results on your behalf and strips out sponsored ads, tracking cookies, JavaScript, and AMP links—delivering clean, fast search results you can self-host in one Docker container.
+review:
+  zh: |
+    想要 Google 的搜索准确度，但不想忍受排在最前面的赞助商广告、重定向跳转和个人画像追踪？Whoogle 只需一个轻量 Docker 容器就能跑起来，打开就是毫秒级响应的纯正搜索结果，清爽至极。
+  en: |
+    Get Google’s search index without the sponsored results, tracking redirects, or cookie profiling. Whoogle deploys in a single lightweight container and renders clean, ad-free results instantly.

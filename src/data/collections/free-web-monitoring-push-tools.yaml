@@ -1,0 +1,42 @@
+title:
+  zh: 免费开源网页变动监控（降价/补货提醒）、状态巡检与自建消息推送工具推荐
+  en: Free Open-Source Web Change Detection, Price Drop Monitors & Self-Hosted Push Notification Tools
+description:
+  zh: 第一时间捕捉商品降价、库存补货、公告更新与服务器异常：精选开源网页变动监控、Uptime 巡检与多渠道实时推送工具。
+  en: "Catch price drops, restocks, policy updates, and server outages instantly: curated free and open-source web change monitors, uptime checkers, and push notification servers."
+intro:
+  zh: 无论是盯紧电商页面等降价补货、监控政务/高校官网等通知发布，还是巡检自己的网站与接口是否宕机，商业监控 SaaS 往往对免费用户限制极严（例如只允许监控 5 个网址、每 6 小时才检查一次）。通过以下开源工具，你可以在本机或廉价 VPS/NAS 上零成本搭建不限数量的全天候监控哨兵，并配合 ntfy、Gotify 或 Apprise 秒级推送到手机上。
+  en: Commercial monitoring services cap free accounts at a few URLs and slow check intervals. With these open-source tools, you can monitor hundreds of web pages for price drops, restocks, text diffs, and server downtime on your own machine or server—and push instant alerts to your phone via ntfy, Gotify, or Apprise.
+criteria:
+  zh:
+    - 100% 开源免费（MIT / Apache-2.0），自建部署无监控网址数量限制、无推送条数收费。
+    - 支持可视化元素框选（XPath/CSS）、无头浏览器动态渲染与高亮 Diff 对比。
+    - 打通从「发现变动/故障」到「手机/桌面秒级弹窗通知」的完整私有化闭环。
+  en:
+    - 100% free and open source (MIT / Apache-2.0) with unlimited URL watches and push messages when self-hosted.
+    - Supports visual element selection, headless JS rendering, and highlighted text/visual diffs.
+    - Forms a complete private pipeline from change/outage detection to instant mobile and desktop push alerts.
+tools:
+  - changedetection
+  - uptime-kuma
+  - beszel
+  - ntfy
+  - gotify
+  - apprise
+  - homepage
+  - homarr
+  - glance
+skills: []
+featured: true
+added: '2026-11-12'
+faq:
+  zh:
+    - q: changedetection.io 和 Uptime Kuma 有什么区别？可以一起用吗？
+      a: 它们是绝佳的互补搭档：Uptime Kuma 专门监控「网站或服务器活没活着、响应快不快」；而 changedetection.io 专门监控「网页里面的文字、价格数字或 JSON 内容变没变（比如从“缺货”变成“有货”、从 2999 元降到 2499 元）」。
+    - q: 自建消息推送选 ntfy 还是 Gotify？
+      a: 两者都非常轻量优秀：ntfy 支持直接通过主题订阅（甚至可以直接用官方免费公共服务而无需自建），且同时支持 iOS 与 Android；Gotify 则采用应用 Token 机制，服务端内存占用极低，适合搭配 Android 与网页端自建使用。
+  en:
+    - q: How does changedetection.io differ from Uptime Kuma?
+      a: "They complement each other: Uptime Kuma checks whether a server, port, or website is online and fast, whereas changedetection.io watches the actual content inside a web page or API—alerting you when a price drops, an item restocks, or a document changes."
+    - q: Should I choose ntfy or Gotify for self-hosted push notifications?
+      a: Pick ntfy if you want pub/sub topic simplicity and native iOS + Android apps (plus a free public server option). Pick Gotify if you want a super-lightweight Go server with per-application tokens for Android, CLI, and web.

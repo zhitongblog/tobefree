@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 将 Jev 决策模型最核心的三大高频原语封装为标准 MCP 服务：jev_verify（实时核对模型回答是否忠于原文引用）、jev_screen（毫秒级提示词注入与安全护栏筛查）以及 jev_find（无需建向量库的轻量语义排序）。
   en: 'Wraps the most practical Jev decision patterns into an MCP server: jev_verify for citation grounding checks, jev_screen for fast prompt-injection screening, and jev_find for embedding-free semantic ranking.'
+review:
+  zh: |
+    Jev MCP Server 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。将 Jev 决策模型最核心的三大高频原语封装为标准 MCP 服务：jev_verify（实时核对模型回答是否忠于原文引用）、jev_screen（毫秒级提示词注入与安全护栏筛查）以及 jev_find（无需建向量库的轻量语义排序）。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y @jkudish/jev-mcp` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Jev MCP Server is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Wraps the most practical Jev decision patterns into an MCP server: jev_verify for citation grounding checks, jev_screen for fast prompt-injection screening, and jev_find for embedding-free semantic ranking.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `npx -y @jkudish/jev-mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

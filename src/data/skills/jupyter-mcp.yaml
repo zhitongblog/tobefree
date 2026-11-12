@@ -32,3 +32,12 @@ tagline:
 description:
   zh: 为 JupyterLab 与本地 Notebook 提供双向控制的开源 MCP 服务器。AI 不仅可以往 Notebook 插入代码与 Markdown 单元格，还能直接在当前 Python 内核中执行代码、读取输出的表格和图像结果，并根据回溯栈自动修正数据分析脚本。
   en: A BSD-licensed MCP server that connects AI agents directly to live Jupyter kernels. Agents can insert code or Markdown cells, execute them, inspect DataFrame outputs or plots, and iterate on data science workflows.
+review:
+  zh: |
+    Jupyter MCP Server 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。为 JupyterLab 与本地 Notebook 提供双向控制的开源 MCP 服务器。AI 不仅可以往 Notebook 插入代码与 Markdown 单元格，还能直接在当前 Python 内核中执行代码、读取输出的表格和图像结果，并根据回溯栈自动修正数据分析脚本。
+
+    在实用性与工程自由度上，它采用 BSD-3-Clause 协议开放源码，可通过 `uvx jupyter-mcp-server` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Jupyter MCP Server is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. A BSD-licensed MCP server that connects AI agents directly to live Jupyter kernels. Agents can insert code or Markdown cells, execute them, inspect DataFrame outputs or plots, and iterate on data science workflows.
+
+    Released under the BSD-3-Clause license, it works across Claude, Claude Code, Cursor, Any MCP client. You can set it up quickly via `uvx jupyter-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

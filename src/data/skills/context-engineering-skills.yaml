@@ -22,3 +22,12 @@ description:
     An open-source (MIT) skill collection on context engineering — context compression and
     degradation, memory systems, multi-agent architectures, tool design and evaluation. For
     developers building or tuning agent systems.
+review:
+  zh: |
+    Agent Skills for Context Engineering 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。开源（MIT）的技能集，专讲上下文工程：上下文压缩与降级、记忆系统、多智能体架构、工具设计和评估方法。适合正在搭建或调优 AI Agent 系统的开发者。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `/plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering` 快速接入，无缝兼容 Claude Code、Cursor、Codex 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Agent Skills for Context Engineering is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An open-source (MIT) skill collection on context engineering — context compression and degradation, memory systems, multi-agent architectures, tool design and evaluation. For developers building or tuning agent systems.
+
+    Released under the MIT license, it works across Claude Code, Cursor, Codex. You can set it up quickly via `/plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

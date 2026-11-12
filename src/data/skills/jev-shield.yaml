@@ -32,3 +32,12 @@ tagline:
 description:
   zh: 在 AI Agent 执行高危 Shell 命令或读取外部不可信网页/邮件内容前，利用 Jev 的百毫秒级二元与多选概率判定，快速识别潜在的间接提示词注入（Indirect Prompt Injection）与越权指令。
   en: Screens untrusted external content and outgoing tool calls in tens of milliseconds using Jev calibrated probability checks to catch indirect prompt injection.
+review:
+  zh: |
+    Jev Shield MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。在 AI Agent 执行高危 Shell 命令或读取外部不可信网页/邮件内容前，利用 Jev 的百毫秒级二元与多选概率判定，快速识别潜在的间接提示词注入（Indirect Prompt Injection）与越权指令。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y jev-shield` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Jev Shield MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Screens untrusted external content and outgoing tool calls in tens of milliseconds using Jev calibrated probability checks to catch indirect prompt injection.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. You can set it up quickly via `npx -y jev-shield`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

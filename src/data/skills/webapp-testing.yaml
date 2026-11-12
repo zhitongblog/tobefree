@@ -25,3 +25,12 @@ description:
     toolkit to drive and test local web apps: verify frontend functionality, debug
     UI behavior, capture browser screenshots, and inspect browser logs — ideal for
     dogfooding a page you just built.
+review:
+  zh: |
+    Webapp Testing 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Anthropic 官方开源（Apache-2.0）技能，为 Claude 提供一套用 Playwright 操作和测试本地 Web 应用的工具箱：验证前端功能、调试 UI 行为、抓取浏览器截图、查看浏览器日志，适合自查刚写好的页面。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，无缝兼容 Claude、Claude Code、Claude Desktop 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Webapp Testing is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An official open-source (Apache-2.0) skill giving Claude a Playwright-based toolkit to drive and test local web apps: verify frontend functionality, debug UI behavior, capture browser screenshots, and inspect browser logs — ideal for dogfooding a page you just built.
+
+    Released under the Apache-2.0 license, it works across Claude, Claude Code, Claude Desktop. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

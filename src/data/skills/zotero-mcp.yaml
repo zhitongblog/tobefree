@@ -24,3 +24,12 @@ description:
     An open-source (MIT) Zotero MCP server that lets Claude search your local Zotero library, read
     full text and PDF annotations and organize citations, with optional semantic search. Great for
     papers and literature reviews — it talks to local Zotero by default.
+review:
+  zh: |
+    Zotero MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（MIT）的 Zotero MCP 服务器，让 Claude 直接检索本地 Zotero 文献库、读取全文和 PDF 批注、整理引用，可选开启语义搜索。写论文、做文献综述时很顺手；默认连本地 Zotero，文献不用上传。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uv tool install zotero-mcp-server` 快速接入，无缝兼容 Claude Desktop、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Zotero MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (MIT) Zotero MCP server that lets Claude search your local Zotero library, read full text and PDF annotations and organize citations, with optional semantic search. Great for papers and literature reviews — it talks to local Zotero by default.
+
+    Released under the MIT license, it works across Claude Desktop, Claude Code, Cursor, Any MCP client. You can set it up quickly via `uv tool install zotero-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

@@ -1,0 +1,42 @@
+name: Komga
+accent: "#0284C7"
+initials: KG
+category: selfhosted
+price: free
+license: MIT
+website: https://komga.org
+download: https://komga.org/docs/installation/docker/
+repo: https://github.com/gotson/komga
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 漫画服务器
+  - 画集管理
+  - OPDS
+  - Mihon支持
+  - 自建服务
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 采用 MIT 协议开源的专业漫画、杂志、画集与图像小说自托管媒体服务器
+  en: MIT-licensed self-hosted media server for comics, mangas, BDs, magazines, and eBooks
+description:
+  zh: 自动解析 ComicInfo.xml 与 EPUB 元数据，提供强大的系列/阅读列表管理、重复页面检测、内置网页阅读器，并原生支持 OPDS、Kobo 电子书同步及 Mihon / Tachiyomi 插件直连。
+  en: Features automatic metadata extraction, reading lists, duplicate page detection, a responsive web reader, Kobo sync, and native integration with Mihon/Tachiyomi and OPDS clients.
+review:
+  zh: |
+    如果你在 NAS 里存了大量漫画、艺术设定集或 PDF 杂志，Komga 是最专业的自建管理底座。它不仅网页端好用，还能直接作为安卓漫画神器 Mihon（原 Tachiyomi）或墨水屏阅读器 Kobo 的私有云书源。
+  en: |
+    Komga is the gold-standard MIT-licensed server for organizing comics, manga, and magazines—offering native Kobo e-reader sync, OPDS feeds, and direct integration with Android’s Mihon reader.

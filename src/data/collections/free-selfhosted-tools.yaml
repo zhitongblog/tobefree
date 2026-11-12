@@ -70,6 +70,16 @@ tools:
   - opnform
   - meilisearch
   - typesense
+  - invidious
+  - piped
+  - kavita
+  - komga
+  - changedetection
+  - homepage
+  - homarr
+  - gotify
+  - whoogle
+  - maybe
 skills:
   - n8n-mcp
   - searxng-mcp

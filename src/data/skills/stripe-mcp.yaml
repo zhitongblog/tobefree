@@ -31,3 +31,12 @@ tagline:
 description:
   zh: Stripe 官方开源的 Agent 工具包与 MCP Server。既能让 AI 实时检索最新的 Stripe API 文档避免写出废弃的 Webhook 逻辑，也能在沙盒测试环境下直接用自然语言创建商品、价格与测试支付链接。
   en: Stripe’s official MIT-licensed MCP server allowing coding agents to search canonical Stripe docs and interact with sandbox products, prices, customers and invoices.
+review:
+  zh: |
+    Stripe Agent Toolkit / MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。Stripe 官方开源的 Agent 工具包与 MCP Server。既能让 AI 实时检索最新的 Stripe API 文档避免写出废弃的 Webhook 逻辑，也能在沙盒测试环境下直接用自然语言创建商品、价格与测试支付链接。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y @stripe/mcp --tools=all` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Stripe Agent Toolkit / MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Stripe’s official MIT-licensed MCP server allowing coding agents to search canonical Stripe docs and interact with sandbox products, prices, customers and invoices.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. You can set it up quickly via `npx -y @stripe/mcp --tools=all`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

@@ -1,0 +1,38 @@
+name: Maybe Finance
+accent: "#10B981"
+initials: MB
+category: finance
+price: free
+license: AGPL-3.0
+website: https://maybefinance.com
+download: https://github.com/maybe-finance/maybe/blob/main/docs/hosting/docker.md
+repo: https://github.com/maybe-finance/maybe
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 个人记账
+  - 净资产管理
+  - 投资追踪
+  - 理财软件
+  - 自建财务
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 耗资百万美元研发后完全开源的现代个人财务、净资产与多币种投资组合管理平台
+  en: Modern open-source personal finance, budgeting, and net-worth tracker — a self-hostable Mint & Copilot Money alternative
+description:
+  zh: 将银行账户、信用卡账单、股票/基金投资组合、房产车辆估值与多币种收支预算汇聚在极其精美的数据仪表盘中，支持 CSV 账单导入、自动分类规则与 Docker 完全私有化自建。
+  en: Tracks cash flow, budgets, multi-currency accounts, stock portfolios, real estate, and debts in a polished interface that you can self-host via Docker so your financial data never leaves your server.
+review:
+  zh: |
+    Maybe 原本是一个融资数百万美元、由顶级设计师打磨的商业理财 SaaS，后来团队决定将其源码以 AGPL-3.0 协议完整开源！它的界面精致度远超传统记账软件，用 Docker 自建在家庭服务器上即可免费管理全家净资产与收支预算，财务隐私绝不外泄。
+  en: |
+    Originally built as a venture-backed commercial product before open-sourcing its entire codebase under AGPL-3.0, Maybe brings world-class UI design to self-hosted personal finance, budgeting, and net-worth tracking.

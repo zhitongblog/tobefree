@@ -1,0 +1,45 @@
+title:
+  zh: 免费无广告 YouTube 与流媒体开源客户端推荐（含 SponsorBlock 自动跳过恰饭广告）
+  en: Best Free Ad-Free Open-Source YouTube & Streaming Clients (with SponsorBlock)
+description:
+  zh: 告别片头贴片广告、视频内恰饭口播、算法信息茧房与隐私追踪：精选桌面、安卓与可自建的无广告开源视频/音乐流媒体客户端。
+  en: "Watch and listen without pre-roll ads, in-video sponsor reads, algorithmic feeds, or Google tracking: curated free and open-source clients for Android, desktop, and self-hosted web."
+intro:
+  zh: 现在的在线视频平台不仅贴片广告越来越长、禁止免费用户息屏后台听音频，连视频正片里也塞满了博主的赞助商口播软广。开源社区为此打造了一整套完整的替代方案：在手机上用 NewPipe、Tubular 或 LibreTube，在电脑和手机上用跨平台聚合器 Grayjay，或者在软路由/NAS 上自建 Invidious 与 Piped 网页前端——不仅零贴片广告、免登录账号、支持离线下载与后台播放，还能通过社区驱动的 SponsorBlock 自动跳过视频内的恰饭片段。
+  en: Mainstream streaming apps bombard free users with unskippable pre-roll ads, lock background audio behind subscriptions, and track every click. This collection brings together open-source desktop, Android, and self-hostable web clients that strip away ads and telemetry, unlock background playback and offline downloads, and integrate SponsorBlock to skip in-video sponsor segments automatically.
+criteria:
+  zh:
+    - 100% 免费、无贴片广告、无商业遥测追踪，无需登录平台账号即可观看与本地订阅。
+    - 支持息屏后台音频播放、画中画（PiP）、高清视频离线下载，多款原生集成 SponsorBlock 自动跳过口播软广。
+    - 涵盖 Android 原生端、Windows/macOS/Linux 桌面端以及 Docker 自建网页端。
+  en:
+    - 100% free, ad-free, and tracker-free, with local subscriptions that require no Google account login.
+    - Supports background audio playback, picture-in-picture, offline downloads, and SponsorBlock integration.
+    - Covers Android apps, native desktop players, and self-hostable web front-ends.
+tools:
+  - grayjay
+  - tubular
+  - newpipe
+  - libretube
+  - freetube
+  - piped
+  - invidious
+  - yt-dlp
+  - omniget
+  - spotube
+  - supersonic
+  - feishin
+skills: []
+featured: true
+added: '2026-11-12'
+faq:
+  zh:
+    - q: NewPipe、Tubular 和 LibreTube 这三款安卓无广告客户端有什么区别？
+      a: NewPipe 是最稳定经典的原版；Tubular 是 NewPipe 的增强分支，在完全兼容的基础上加上了「SponsorBlock 自动跳过视频内恰饭口播」和点踩数显示；LibreTube 则采用更现代的 Material You 界面，并默认通过 Piped 隐私代理服务器中转流量，隐藏你的真实 IP。
+    - q: 在电脑（Windows / macOS / Linux）上想无广告看视频用哪款最好？
+      a: 如果你只看 YouTube，推荐纯本地隐私客户端 FreeTube；如果你同时看 YouTube、Bilibili、Twitch、Patreon 等多个平台，强烈推荐 FUTO 出品的聚合播放器 Grayjay。
+  en:
+    - q: What is the difference between NewPipe, Tubular, and LibreTube on Android?
+      a: NewPipe is the battle-tested original. Tubular is a fork of NewPipe that adds built-in SponsorBlock (skipping in-video sponsor reads) and ReturnYouTubeDislike. LibreTube features a Material You UI and routes streams through Piped proxy servers so your IP address is hidden from Google.
+    - q: Which ad-free streaming client is best for Windows, macOS, and Linux desktops?
+      a: Use FreeTube for a dedicated, privacy-first desktop YouTube experience, or Grayjay if you want to follow creators across YouTube, Twitch, Bilibili, Patreon, and PeerTube in one unified player.

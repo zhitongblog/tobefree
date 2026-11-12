@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 支持连接 GitLab.com 及企业自建 GitLab 私有实例的标准 MCP 服务器。让 AI 助手能够直接搜索项目代码、读取或创建 Merge Request 评审意见、管理 Issue 并排查 CI/CD 构建失败原因。
   en: Connects AI assistants to both GitLab.com and self-hosted GitLab servers to search repositories, review Merge Requests, file issues and inspect pipeline statuses.
+review:
+  zh: |
+    GitLab MCP Server 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。支持连接 GitLab.com 及企业自建 GitLab 私有实例的标准 MCP 服务器。让 AI 助手能够直接搜索项目代码、读取或创建 Merge Request 评审意见、管理 Issue 并排查 CI/CD 构建失败原因。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y @modelcontextprotocol/server-gitlab` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    GitLab MCP Server is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Connects AI assistants to both GitLab.com and self-hosted GitLab servers to search repositories, review Merge Requests, file issues and inspect pipeline statuses.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `npx -y @modelcontextprotocol/server-gitlab`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

@@ -1,0 +1,43 @@
+name: Gotify
+accent: "#2563EB"
+initials: GT
+category: selfhosted
+price: free
+license: MIT
+website: https://gotify.net
+download: https://gotify.net/docs/install
+repo: https://github.com/gotify/server
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 消息推送
+  - 自建通知
+  - WebSocket
+  - 运维告警
+  - MIT开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+  - android
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: Go 编写的超轻量开源自建实时消息推送服务器，一行命令给手机和电脑发告警
+  en: Simple, lightweight self-hosted server in Go for sending and receiving real-time push notifications via WebSocket
+description:
+  zh: 用极少内存即可在自有服务器运行，通过简单的 REST API（如一行 curl）按应用分类发送带 Markdown 格式的实时推送消息，配套开源无广告的网页端、CLI 与 Android 客户端。
+  en: Runs on minimal RAM and lets scripts, CI pipelines, and monitoring tools push Markdown-formatted alerts via a dead-simple REST API to its web UI and open-source Android app.
+review:
+  zh: |
+    自己的脚本跑完了、NAS 硬盘报警了，或者网页监控发现降价了，怎么第一时间推送到手机而不经过第三方商业平台？Gotify 只需一个几十 MB 的 Go 二进制文件就能搭起你的私人推送中心，发一条通知只需最简单的 HTTP POST。
+  en: |
+    Gotify gives you a private, self-hosted push notification server in a tiny Go binary—send a simple HTTP POST from any script or monitoring tool and receive it instantly on Web or Android.

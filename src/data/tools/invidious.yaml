@@ -1,0 +1,39 @@
+name: Invidious
+accent: "#E11D48"
+initials: IV
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://invidious.io
+download: https://docs.invidious.io/installation/
+repo: https://github.com/iv-org/invidious
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - YouTube替代前端
+  - 隐私保护
+  - 去广告网页
+  - 自建服务
+  - 轻量
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 开源、超轻量的 YouTube 网页替代前端，零广告、零 Google 追踪脚本，极速加载
+  en: Open-source alternative web front-end to YouTube with zero ads, zero Google tracking, and minimal JS
+description:
+  zh: 用 Crystal 语言编写的高性能开源视频前端。砍掉官方网页臃肿的数十 MB JavaScript 与广告追踪器，哪怕禁用浏览器 JS 也能流畅看视频，支持 RSS 订阅导出、音频模式与 Docker 自托管。
+  en: Written in Crystal, Invidious strips away YouTube’s heavy JavaScript, ads, and telemetry—letting you watch videos, manage subscriptions, and export RSS feeds from a fast, self-hostable web UI.
+review:
+  zh: |
+    官方 YouTube 网页版越来越吃内存，且遍布广告与行为画像追踪。Invidious 让你用极简清爽的网页直接观看和搜索视频，不仅加载快如闪电，还可以用 Docker 自建在自己的软路由或 NAS 上供全家无广告观看。
+  en: |
+    Invidious replaces YouTube’s bloated, tracker-heavy web interface with a fast, lightweight front-end that you can self-host via Docker for ad-free viewing across every device on your network.

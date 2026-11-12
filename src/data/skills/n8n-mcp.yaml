@@ -24,3 +24,12 @@ description:
     An open-source (MIT) MCP server bundling docs, properties and examples for n8n's 1,000+ nodes,
     so Claude knows how each one is configured and can generate, validate and deploy workflows to
     your self-hosted n8n. Describe the automation, get a working workflow.
+review:
+  zh: |
+    n8n MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（MIT）的 MCP 服务器，内置 n8n 上千个节点的文档、属性和示例，让 Claude 知道每个节点怎么配，直接生成、校验并部署到你自建的 n8n。描述一下想要的自动化，AI 就能拼出能跑的工作流。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx n8n-mcp` 快速接入，无缝兼容 Claude Desktop、Claude Code、Cursor、Windsurf、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    n8n MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (MIT) MCP server bundling docs, properties and examples for n8n's 1,000+ nodes, so Claude knows how each one is configured and can generate, validate and deploy workflows to your self-hosted n8n. Describe the automation, get a working workflow.
+
+    Released under the MIT license, it works across Claude Desktop, Claude Code, Cursor, Windsurf, Any MCP client. You can set it up quickly via `npx n8n-mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

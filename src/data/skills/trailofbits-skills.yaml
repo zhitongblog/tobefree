@@ -24,3 +24,12 @@ description:
     Trail of Bits' open-source (CC-BY-SA-4.0) Claude Code skills, distilling the security firm's
     code-audit, vulnerability-hunting and smart-contract review practice — static-analysis tooling,
     bug-pattern recognition and audit workflows.
+review:
+  zh: |
+    Trail of Bits Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。安全公司 Trail of Bits 开源（CC-BY-SA-4.0）的 Claude Code 技能集，把他们做代码审计、漏洞挖掘、智能合约审查的经验写成技能，包括静态分析工具用法、常见漏洞模式识别和审计工作流。
+
+    在实用性与工程自由度上，它采用 CC-BY-SA-4.0 协议开放源码，可通过 `/plugin marketplace add trailofbits/skills` 快速接入，无缝兼容 Claude Code、Codex 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Trail of Bits Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Trail of Bits' open-source (CC-BY-SA-4.0) Claude Code skills, distilling the security firm's code-audit, vulnerability-hunting and smart-contract review practice — static-analysis tooling, bug-pattern recognition and audit workflows.
+
+    Released under the CC-BY-SA-4.0 license, it works across Claude Code, Codex. You can set it up quickly via `/plugin marketplace add trailofbits/skills`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

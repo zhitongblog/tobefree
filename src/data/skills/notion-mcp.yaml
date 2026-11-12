@@ -19,3 +19,12 @@ tagline:
 description:
   zh: Notion 官方的开源 MCP 服务器，通过 Notion API 让 Agent 检索、创建和更新页面、数据库、块与评论。适合把 Notion 当知识库或任务系统交给 AI 操作。需要 Notion 集成 Token。
   en: Notion's official open-source MCP server that lets agents search, create and update pages, databases, blocks and comments through the Notion API. Great for handing your Notion knowledge base or task system to AI. Requires a Notion integration token.
+review:
+  zh: |
+    Notion MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。Notion 官方的开源 MCP 服务器，通过 Notion API 让 Agent 检索、创建和更新页面、数据库、块与评论。适合把 Notion 当知识库或任务系统交给 AI 操作。需要 Notion 集成 Token。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y @notionhq/notion-mcp-server` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Notion MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Notion's official open-source MCP server that lets agents search, create and update pages, databases, blocks and comments through the Notion API. Great for handing your Notion knowledge base or task system to AI. Requires a Notion integration token.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `npx -y @notionhq/notion-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

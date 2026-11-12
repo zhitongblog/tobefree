@@ -32,3 +32,12 @@ tagline:
 description:
   zh: 收录上百个围绕 Jev（System 1 类型化决策模型）构建的开源项目清单，涵盖本地开源平替模型（Kev、Open-Jev）、浏览器自动化（Jev Ultrafast）、语义命令行工具（jevgrep、SemDecide）、PostgreSQL 扩展以及各类 MCP Server 与实战配方。
   en: 'The central community index tracking hundreds of open-source projects in the Jev ecosystem: local model alternatives, browser agents, CLI utilities, database extensions, MCP servers and agent skills.'
+review:
+  zh: |
+    Awesome Jev 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。收录上百个围绕 Jev（System 1 类型化决策模型）构建的开源项目清单，涵盖本地开源平替模型（Kev、Open-Jev）、浏览器自动化（Jev Ultrafast）、语义命令行工具（jevgrep、SemDecide）、PostgreSQL 扩展以及各类 MCP Server 与实战配方。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Awesome Jev is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. The central community index tracking hundreds of open-source projects in the Jev ecosystem: local model alternatives, browser agents, CLI utilities, database extensions, MCP servers and agent skills.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

@@ -22,3 +22,12 @@ description:
     A curated list of Claude skills maintained by Composio, grouped into documents, development,
     data, writing, creative and more, with dozens of ready-to-use skills in the repo itself. A good
     first stop when hunting for an existing skill.
+review:
+  zh: |
+    Awesome Claude Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Composio 维护的 Claude 技能精选清单，按文档处理、开发、数据分析、写作、创意等分类收录社区和官方技能，仓库里还直接带了几十个可用的技能。想找现成技能时先来这里翻。
+
+    在实用性与工程自由度上，它采用 开源协议 协议开放源码，无缝兼容 Claude、Claude Code、Claude Desktop 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Awesome Claude Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. A curated list of Claude skills maintained by Composio, grouped into documents, development, data, writing, creative and more, with dozens of ready-to-use skills in the repo itself. A good first stop when hunting for an existing skill.
+
+    Released under the 开源协议 license, it works across Claude, Claude Code, Claude Desktop. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

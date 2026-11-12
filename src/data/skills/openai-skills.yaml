@@ -24,3 +24,12 @@ description:
     OpenAI's official skills catalog in system, curated and experimental tiers — addressing PR
     comments, writing plans, Cloudflare deploys, building CLIs and more. Each skill ships its own
     Apache-2.0 license and follows the open Agent Skills format, so Claude Code can use them too.
+review:
+  zh: |
+    OpenAI Codex Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。OpenAI 官方的技能目录，分为系统内置、精选和实验三类，涵盖处理 PR 评论、写计划、部署 Cloudflare、做 CLI 工具等。每个技能单独附 Apache-2.0 协议，遵循开放的 Agent Skills 格式，Claude Code 也能直接读取。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，可通过 `$skill-installer <skill-name>` 快速接入，无缝兼容 Codex、Claude Code 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    OpenAI Codex Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. OpenAI's official skills catalog in system, curated and experimental tiers — addressing PR comments, writing plans, Cloudflare deploys, building CLIs and more. Each skill ships its own Apache-2.0 license and follows the open Agent Skills format, so Claude Code can use them too.
+
+    Released under the Apache-2.0 license, it works across Codex, Claude Code. You can set it up quickly via `$skill-installer <skill-name>`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

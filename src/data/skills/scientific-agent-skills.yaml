@@ -24,3 +24,12 @@ description:
     An open-source (MIT) research skills library from K-Dense with 160+ validated skills and hooks
     into 100+ scientific databases like PubMed, UniProt and ChEMBL — genomics, drug discovery,
     molecular dynamics, literature search and more.
+review:
+  zh: |
+    Scientific Agent Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。K-Dense 开源（MIT）的科研技能库，包含 160 多个经过验证的技能，接入 PubMed、UniProt、ChEMBL 等上百个科学数据库，覆盖基因组学、药物发现、分子动力学、文献检索等流程，让 Agent 当科研助理。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude Code、Codex、Cursor、Antigravity 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Scientific Agent Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An open-source (MIT) research skills library from K-Dense with 160+ validated skills and hooks into 100+ scientific databases like PubMed, UniProt and ChEMBL — genomics, drug discovery, molecular dynamics, literature search and more.
+
+    Released under the MIT license, it works across Claude Code, Codex, Cursor, Antigravity. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

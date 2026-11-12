@@ -19,3 +19,12 @@ tagline:
 description:
   zh: Crawl4AI 官方内置的 MCP 服务器，一个完全开源、可自托管的 LLM 友好网页爬虫。通过 Docker 本地运行即可抓取网页并输出干净的 Markdown，本地部署无需第三方 API Key。
   en: The MCP server built into Crawl4AI, a fully open-source, self-hostable, LLM-friendly web crawler. Run it locally via Docker to crawl pages and produce clean Markdown — no third-party API key for local use.
+review:
+  zh: |
+    Crawl4AI MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。Crawl4AI 官方内置的 MCP 服务器，一个完全开源、可自托管的 LLM 友好网页爬虫。通过 Docker 本地运行即可抓取网页并输出干净的 Markdown，本地部署无需第三方 API Key。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，可通过 `docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g unclecode/crawl4ai:latest` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Crawl4AI MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. The MCP server built into Crawl4AI, a fully open-source, self-hostable, LLM-friendly web crawler. Run it locally via Docker to crawl pages and produce clean Markdown — no third-party API key for local use.
+
+    Released under the Apache-2.0 license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g unclecode/crawl4ai:latest`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

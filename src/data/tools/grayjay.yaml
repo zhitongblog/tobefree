@@ -1,0 +1,44 @@
+name: Grayjay
+accent: "#6366F1"
+initials: GJ
+category: media
+price: free
+license: Source-First (FUTO)
+website: https://grayjay.app
+download: https://grayjay.app/#download
+repo: https://gitlab.futo.org/videostreaming/grayjay
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 聚合播放器
+  - 无广告视频
+  - YouTube客户端
+  - Bilibili
+  - Twitch
+platforms:
+  - windows
+  - macos
+  - linux
+  - android
+badges:
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+tagline:
+  zh: FUTO 出品的「关注创作者而非平台」跨平台聚合流媒体客户端，无广告看遍全网视频
+  en: Creator-first, ad-free multi-platform video client aggregating YouTube, Twitch, Bilibili, Patreon, and more
+description:
+  zh: 通过开放插件体系将 YouTube、Bilibili、Twitch、Kick、Nebula、Patreon、Odysee 等十余个视频平台整合进同一个纯净播放器中。支持离线下载、后台播放、跳过赞助片段（SponsorBlock），无广告、无算法信息茧房、无需登录平台账号。
+  en: Aggregates YouTube, Twitch, Bilibili, Kick, Patreon, Odysee, and more into one unified, ad-free player via open plugins—supporting background playback, offline downloads, SponsorBlock, and local subscriptions.
+review:
+  zh: |
+    由捍卫数字主权的公益组织 FUTO 打造的 Grayjay，彻底打破了视频平台的围墙花园。你不再需要打开五个不同的 App 被各自的算法流绑架，而是可以直接在一个干净无广告的界面里合并关注同一位创作者在 YouTube、B站、Twitch 上的全部动态。
+
+    它支持桌面端（Windows/macOS/Linux）与安卓端，所有订阅列表和观看历史完全保存在你自己的设备本地，内置 SponsorBlock 自动跳过视频内的恰饭口播广告，体验极佳。
+  en: |
+    Built by FUTO, Grayjay flips streaming on its head: instead of locking you into platform algorithms, it lets you follow creators across YouTube, Twitch, Bilibili, Patreon, and PeerTube in one unified, ad-free app.
+
+    Available on desktop and Android, it keeps all subscriptions and watch history locally on your device and includes built-in SponsorBlock and offline download support.

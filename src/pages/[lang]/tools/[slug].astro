@@ -45,6 +45,53 @@ const pageDescription =
 
 const abs = (p: string) => new URL(p, SITE.url).href;
 
+const platformLabels = d.platforms
+  .map((p) => (platformById[p] ? pick(platformById[p].label, loc) : p))
+  .join(lang === 'zh' ? '、' : ', ');
+const badgeLabels = d.badges
+  .map((b) => (badgeById[b] ? pick(badgeById[b].label, loc) : b))
+  .join(lang === 'zh' ? '、' : ', ');
+const altNames = rel.slice(0, 4).map((r) => r.data.name).join(lang === 'zh' ? '、' : ', ');
+
+const autoFaq =
+  lang === 'zh'
+    ? [
+        {
+          q: `${d.name} 是真正免费的吗？有没有广告或暗坑？`,
+          a: `${d.name} 采用${d.price === 'free' ? '完全免费' : '免费增值（核心功能对个人诚意免费）'}模式，授权协议为 ${d.license || '免费授权'}。在自由度特性上支持：${badgeLabels || '无广告、少打扰'}。`,
+        },
+        {
+          q: `${d.name} 支持哪些操作系统和平台？可以离线或自建吗？`,
+          a: `${d.name} 目前支持 ${platformLabels || '主流桌面平台'}。${d.badges.includes('offline') ? '它支持纯本地离线运行，无需联网即可使用核心功能。' : ''}${d.badges.includes('self-hostable') ? '它支持在自有服务器或 NAS 上通过 Docker 私有化自托管部署。' : ''}`,
+        },
+        ...(rel.length > 0
+          ? [
+              {
+                q: `${d.name} 有哪些同类的免费替代软件（Alternatives）？`,
+                a: `如果你在寻找与 ${d.name} 同属于「${cat ? pick(cat.label, loc) : d.category}」领域的免费无广告替代方案，可以重点对比 ${altNames}。`,
+              },
+            ]
+          : []),
+      ]
+    : [
+        {
+          q: `Is ${d.name} genuinely free and ad-free?`,
+          a: `${d.name} is ${d.price === 'free' ? 'completely free' : 'freemium with a generous free tier for personal use'}, distributed under the ${d.license || 'Free'} license. Key user-freedom attributes include: ${badgeLabels || 'no ads and no invasive tracking'}.`,
+        },
+        {
+          q: `Which platforms does ${d.name} support, and does it work offline or self-hosted?`,
+          a: `${d.name} runs on ${platformLabels || 'major platforms'}. ${d.badges.includes('offline') ? 'It works offline on your local machine without a constant internet connection. ' : ''}${d.badges.includes('self-hostable') ? 'It can be self-hosted on your own server or homelab.' : ''}`,
+        },
+        ...(rel.length > 0
+          ? [
+              {
+                q: `What are the best free alternatives to ${d.name}?`,
+                a: `Top free, ad-free alternatives to ${d.name} in the ${cat ? pick(cat.label, loc) : d.category} category include ${altNames}.`,
+              },
+            ]
+          : []),
+      ];
+
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -71,6 +118,15 @@ const jsonLd = [
       { '@type': 'ListItem', position: 2, name: cat ? pick(cat.label, loc) : t('nav.tools'), item: abs(localizedPath(lang, `category/${d.category}`)) },
       { '@type': 'ListItem', position: 3, name: d.name, item: abs(localizedPath(lang, `tools/${tool.id}`)) },
     ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: autoFaq.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
   },
 ];
 ---
@@ -108,6 +164,17 @@ const jsonLd = [
             <div class="prose" set:html={reviewHtml} />
           </section>
         )}
+        <section class="tool-faq">
+          <h2>{lang === 'zh' ? '常见问题' : 'Frequently Asked Questions'}</h2>
+          <dl>
+            {autoFaq.map(({ q, a }) => (
+              <div class="qa-item">
+                <dt>{q}</dt>
+                <dd>{a}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
       </div>
 
       <aside class="aside">
@@ -342,6 +409,33 @@ const jsonLd = [
   .related h2 {
     font-size: 1.4rem;
     margin-bottom: 1.2rem;
+  }
+  .tool-faq {
+    margin-top: 2.2rem;
+  }
+  .tool-faq h2 {
+    font-size: 1.35rem;
+    margin-bottom: 0.9rem;
+  }
+  .tool-faq dl {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .qa-item {
+    padding: 0.95rem 1.1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .qa-item dt {
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+  .qa-item dd {
+    color: var(--text-soft);
+    font-size: 0.94rem;
+    line-height: 1.7;
   }
 
   @media (max-width: 820px) {

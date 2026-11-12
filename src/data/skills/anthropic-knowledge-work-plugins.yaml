@@ -1,0 +1,39 @@
+kind: skill
+name: Anthropic Knowledge Work Plugins
+accent: "#D97757"
+initials: AK
+license: MIT
+website: https://github.com/anthropics/knowledge-work-plugins
+repo: https://github.com/anthropics/knowledge-work-plugins
+install: npx skills add anthropics/knowledge-work-plugins
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - Anthropic官方
+  - 办公自动化
+  - 合同审查
+  - 财务分析
+  - 深度研究
+clients:
+  - Claude Code
+  - Claude Cowork
+  - Cursor
+  - Codex
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Anthropic 官方开源的知识工作者插件与技能库：覆盖法务审查、财务分析、产品调研与办公流
+  en: Anthropic’s official open-source plugins and skills for legal review, financial analysis, research, and knowledge work
+description:
+  zh: 将 AI Agent 的能力从写代码扩展到全场景知识工作。内置法务合同风险比对、财务报表拆解、市场竞品深度调研、营销内容核查与跨部门文档整理的标准化子 Agent 与斜杠命令。
+  en: Extends AI agents beyond coding into professional knowledge work with structured skills, slash commands, and sub-agents for contract review, financial modeling, competitive research, and operations.
+review:
+  zh: |
+    谁说 Agent Skills 只能用来写代码？Anthropic 官方开源的这套知识工作插件库，展示了如何用同样的 `SKILL.md` + 子 Agent 架构自动完成合同条款排雷、财报数据提炼和结构化行业调研报告，全部 MIT 协议免费开源。
+  en: |
+    Anthropic’s official repository proving that Agent Skills are just as powerful for non-coding knowledge work—providing MIT-licensed workflows for legal review, financial analysis, and deep research.

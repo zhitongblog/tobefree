@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 由 Obsidian 首席执行官 Steph Ango（kepano）亲自开源的 Agent 技能仓库。它把 Obsidian 专属的 Wikilinks 双链、Callouts 标注框、YAML Properties 属性、JSON Canvas 白板以及 `.base` 数据库规范完整教给 Claude Code 等智能体，让 AI 直接在本地笔记库里生成完美合规的结构化笔记。
   en: Created by Obsidian CEO Steph Ango (kepano), these skills teach coding agents the exact specifications for Obsidian Flavored Markdown, Wikilinks, Callouts, Properties, JSON Canvas and Bases so AI can manage your local vault cleanly.
+review:
+  zh: |
+    Obsidian Agent Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。由 Obsidian 首席执行官 Steph Ango（kepano）亲自开源的 Agent 技能仓库。它把 Obsidian 专属的 Wikilinks 双链、Callouts 标注框、YAML Properties 属性、JSON Canvas 白板以及 `.base` 数据库规范完整教给 Claude Code 等智能体，让 AI 直接在本地笔记库里生成完美合规的结构化笔记。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `git clone https://github.com/kepano/obsidian-skills.git` 快速接入，无缝兼容 Claude Code、Claude、Cursor、Obsidian 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Obsidian Agent Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Created by Obsidian CEO Steph Ango (kepano), these skills teach coding agents the exact specifications for Obsidian Flavored Markdown, Wikilinks, Callouts, Properties, JSON Canvas and Bases so AI can manage your local vault cleanly.
+
+    Released under the MIT license, it works across Claude Code, Claude, Cursor, Obsidian. You can set it up quickly via `git clone https://github.com/kepano/obsidian-skills.git`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

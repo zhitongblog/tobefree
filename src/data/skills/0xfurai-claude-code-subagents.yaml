@@ -26,3 +26,12 @@ description:
     spanning programming languages, frameworks, databases and DevOps. Drop the repo into
     ~/.claude/agents/ and Claude Code invokes them automatically by context or on demand;
     each subagent is a domain expert focused on one stack.
+review:
+  zh: |
+    Claude Code Subagents (0xfurai) 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。0xfurai 开源（MIT）的子 Agent 合集，含 100+ 个覆盖编程语言、框架、数据库、DevOps 等领域的 专职子 Agent。把仓库放进 ~/.claude/agents/ 即可，Claude Code 会按上下文自动调用或由你显式指定， 每个子 Agent 都是聚焦某一技术栈的领域专家。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude Code 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Claude Code Subagents (0xfurai) is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An open-source (MIT) subagent collection by 0xfurai with 100+ specialized subagents spanning programming languages, frameworks, databases and DevOps. Drop the repo into ~/.claude/agents/ and Claude Code invokes them automatically by context or on demand; each subagent is a domain expert focused on one stack.
+
+    Released under the MIT license, it works across Claude Code. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

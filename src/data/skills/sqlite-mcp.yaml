@@ -19,3 +19,12 @@ tagline:
 description:
   zh: MCP 官方的参考服务器，让模型直接对一个本地 SQLite 文件执行 SQL 查询、建表、写入并汇总数据洞察。纯本地、无需账号，是给 Agent 接数据库最轻量的起点。项目现已归档但仍开源可用。
   en: An official MCP reference server that lets the model run SQL, create tables, write rows and summarize insights against a local SQLite file. Fully local with no account — the lightest way to give an agent a database. The project is now archived but remains open source and usable.
+review:
+  zh: |
+    SQLite MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。MCP 官方的参考服务器，让模型直接对一个本地 SQLite 文件执行 SQL 查询、建表、写入并汇总数据洞察。纯本地、无需账号，是给 Agent 接数据库最轻量的起点。项目现已归档但仍开源可用。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx mcp-server-sqlite --db-path ./database.db` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    SQLite MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An official MCP reference server that lets the model run SQL, create tables, write rows and summarize insights against a local SQLite file. Fully local with no account — the lightest way to give an agent a database. The project is now archived but remains open source and usable.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `uvx mcp-server-sqlite --db-path ./database.db`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

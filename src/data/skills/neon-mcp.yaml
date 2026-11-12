@@ -1,0 +1,39 @@
+kind: mcp
+name: Neon Serverless Postgres MCP
+accent: "#00E599"
+initials: NN
+license: MIT
+website: https://neon.tech
+repo: https://github.com/neondatabase/mcp-server-neon
+install: npx -y @neondatabase/mcp-server-neon
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - PostgreSQL
+  - 数据库分支
+  - Neon官方
+  - Schema迁移
+  - SQL调优
+clients:
+  - Claude Desktop
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+tagline:
+  zh: Neon 官方开源的 Serverless Postgres MCP 服务，支持像 Git 分支一样安全测试数据库迁移
+  en: Official Neon MCP server for managing serverless Postgres databases, instant branches, and safe schema migrations
+description:
+  zh: 支持编程 Agent 在执行危险的数据库表结构变更（Migration）前，先秒级创建一个独立的数据库分支（Database Branch）进行演练验证，确认无误后再合并回主库，并提供慢查询 EXPLAIN 调优。
+  en: Enables AI agents to create isolated Postgres branches in seconds to test schema migrations safely before applying them to production, alongside SQL execution and slow-query tuning.
+review:
+  zh: |
+    让 AI 直接改生产或开发主库的表结构往往让人提心吊胆。Neon 官方开源的这款 MCP 最厉害的地方在于利用了 Postgres 秒级分支能力：Agent 可以先拉一个临时分支跑迁移和测试，验证通过再合入，安全感拉满。
+  en: |
+    Built by Neon under the MIT license, this MCP server lets coding agents spin up instant copy-on-write Postgres branches to test schema migrations and query plans safely before touching main.

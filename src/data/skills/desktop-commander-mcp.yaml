@@ -24,3 +24,12 @@ description:
     An open-source (MIT) local MCP server that gives the model terminal command execution,
     long-running process management, filesystem search and diff-based file edits — turning chat
     clients like Claude Desktop into a capable coding agent. One npx command sets it up.
+review:
+  zh: |
+    Desktop Commander 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（MIT）的本地 MCP 服务器，给 AI 提供终端命令执行、长进程管理、文件系统搜索和按 diff 精准改文件的能力，让 Claude Desktop 这类聊天客户端也能像编码 Agent 一样干活。一条 npx 命令完成配置。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx @wonderwhy-er/desktop-commander@latest setup` 快速接入，无缝兼容 Claude Desktop、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Desktop Commander is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (MIT) local MCP server that gives the model terminal command execution, long-running process management, filesystem search and diff-based file edits — turning chat clients like Claude Desktop into a capable coding agent. One npx command sets it up.
+
+    Released under the MIT license, it works across Claude Desktop, Claude Code, Cursor, Any MCP client. You can set it up quickly via `npx @wonderwhy-er/desktop-commander@latest setup`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

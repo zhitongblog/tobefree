@@ -1,0 +1,38 @@
+name: Homarr
+accent: "#EF4444"
+initials: HM
+category: selfhosted
+price: free
+license: MIT
+website: https://homarr.dev
+download: https://homarr.dev/docs/getting-started/installation
+repo: https://github.com/homarr-labs/homarr
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 拖拽导航
+  - Homelab面板
+  - NAS主页
+  - 可视化配置
+  - MIT开源
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 无需手写配置文件、纯网页拖拽排版的开源自建服务与家庭实验室仪表盘
+  en: Sleek, drag-and-drop open-source homelab dashboard that requires zero YAML configuration
+description:
+  zh: 采用 MIT 协议开源，专为不喜欢手改 YAML 配置的用户设计。直接在浏览器里拖拽调整卡片大小与网格位置，内置 10,000+ 高清应用图标库、日历/下载器实时联动与多用户权限管理。
+  en: MIT-licensed startpage and homelab dashboard featuring a visual drag-and-drop grid editor, 10,000+ built-in app icons, live media/torrent integrations, and multi-user authentication.
+review:
+  zh: |
+    如果你不想像配置 Homepage 那样去写 YAML 文件，只想在网页上用鼠标拖拽摆放图标和小组件，Homarr 是最省心的选择。它自带上万个现成高清图标，鼠标拖一拖就能搭出漂亮的家庭服务器门户。
+  en: |
+    If you prefer visual drag-and-drop editing over writing YAML files, Homarr lets you build a rich homelab dashboard right in your browser with 10,000+ built-in icons and live service widgets.

@@ -1,0 +1,41 @@
+kind: skill
+name: Andrej Karpathy Coding Guardrails Skill
+accent: "#EA580C"
+initials: AK
+license: MIT
+website: https://github.com/forrestchang/andrej-karpathy-skills
+repo: https://github.com/forrestchang/andrej-karpathy-skills
+install: npx skills add forrestchang/andrej-karpathy-skills
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - Karpathy
+  - 编码铁律
+  - 防过度设计
+  - 最小改动
+  - CLAUDE.md
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+  - OpenCode
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 将 Andrej Karpathy 总结的「大模型写代码四大铁律」固化为可复用的防翻车技能包
+  en: Encodes Andrej Karpathy’s viral LLM coding guardrails into a portable skill to stop over-engineering and rogue edits
+description:
+  zh: 强制编码 Agent 严格遵守四大核心准则：1. 先思考确认假设再动手写代码；2. 极简优先（拒绝把 50 行代码写成 500 行抽象）；3. 外科手术式最小改动（绝不乱改无关代码和注释）；4. 目标驱动的闭环验证。
+  en: "Enforces four disciplined engineering principles: Think Before Coding (no silent assumptions), Simplicity First (no bloated abstractions), Surgical Changes (never touch unrelated code), and Goal-Driven Verification."
+review:
+  zh: |
+    用 AI 写代码最让人血压升高的三件事：没搞懂需求就开始瞎猜猛写、明明 30 行能搞定的功能非要建 5 个设计模式类、顺手把旁边好端端的代码改坏了。这套高星技能将 Andrej Karpathy 的经典方法论提炼成了强约束指令，是每个项目都值得常驻的“防翻车紧箍咒”。
+  en: |
+    Stops coding agents from committing the three classic LLM sins: guessing requirements silently, turning 50 lines of logic into 500 lines of enterprise bloat, and breaking adjacent code during edits.

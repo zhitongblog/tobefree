@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 针对 AI 写 Rust 代码时极易滥用 `.clone()`、`.unwrap()` 以及生命周期报错死循环的痛点，提炼出的一套 Rust 工程化 Agent 技能指令：强制遵循 `cargo clippy` 严格检查、区分库与应用层错误处理（thiserror vs anyhow）及异步 Tokio 最佳实践。
   en: Guides coding agents away from `.unwrap()` and excessive `.clone()` anti-patterns toward idiomatic Rust ownership, `thiserror`/`anyhow` error handling and strict `cargo clippy` verification.
+review:
+  zh: |
+    Rust Agent Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。针对 AI 写 Rust 代码时极易滥用 `.clone()`、`.unwrap()` 以及生命周期报错死循环的痛点，提炼出的一套 Rust 工程化 Agent 技能指令：强制遵循 `cargo clippy` 严格检查、区分库与应用层错误处理（thiserror vs anyhow）及异步 Tokio 最佳实践。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude Code、Cursor、Cline、Windsurf 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Rust Agent Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Guides coding agents away from `.unwrap()` and excessive `.clone()` anti-patterns toward idiomatic Rust ownership, `thiserror`/`anyhow` error handling and strict `cargo clippy` verification.
+
+    Released under the MIT license, it works across Claude Code, Cursor, Cline, Windsurf. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

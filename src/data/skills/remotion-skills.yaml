@@ -25,3 +25,12 @@ description:
     write animations, add captions, handle audio and video assets, render and upgrade. The skills
     repo has no stated licence; Remotion itself is dual-licensed: free for individuals, companies of
     up to 3 people and non-profits, with a paid company licence for larger for-profits.
+review:
+  zh: |
+    Remotion Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Remotion 官方维护的技能集，教 Agent 用 React 代码做视频：新建项目、写动画、加字幕、处理音视频素材、渲染导出和升级版本。 技能仓库没有写协议；Remotion 本身是双层授权，个人、3 人以内的公司和非营利组织免费用，规模更大的营利公司要买公司授权。
+
+    在实用性与工程自由度上，它采用 开源协议 协议开放源码，可通过 `npx skills add remotion-dev/skills` 快速接入，无缝兼容 Claude Code、Codex、Cursor、Kimi Code 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Remotion Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Remotion's official skills that teach agents to make videos in React code — create projects, write animations, add captions, handle audio and video assets, render and upgrade. The skills repo has no stated licence; Remotion itself is dual-licensed: free for individuals, companies of up to 3 people and non-profits, with a paid company licence for larger for-profits.
+
+    Released under the 开源协议 license, it works across Claude Code, Codex, Cursor, Kimi Code. You can set it up quickly via `npx skills add remotion-dev/skills`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

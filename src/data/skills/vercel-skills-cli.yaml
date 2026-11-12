@@ -1,0 +1,41 @@
+kind: skill
+name: Vercel Skills CLI & find-skills
+accent: "#000000"
+initials: SK
+license: MIT
+website: https://skills.sh
+repo: https://github.com/vercel-labs/skills
+install: npx skills add vercel-labs/skills
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 技能包管理器
+  - skills.sh
+  - 元技能
+  - Meta-Skill
+  - Vercel
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+  - OpenCode
+  - Gemini CLI
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: skills.sh 官方包管理器与 330万+ 安装量的「find-skills」元技能，让 AI 自己按需找技能
+  en: "The official skills.sh CLI package manager and #1 meta-skill (3.3M+ installs) for dynamic skill discovery"
+description:
+  zh: AI 编程 Agent 界的 npm。除了提供 npx skills add/find/update 命令行管理外，其内置的 find-skills 元技能允许 Agent 在遇到陌生框架或特定任务时，主动检索并按需拉取社区技能包。
+  en: Acts as npm for AI coding agents. Includes the viral find-skills meta-skill that teaches your agent how to search skills.sh and install specialized SKILL.md packages mid-task.
+review:
+  zh: |
+    `vercel-labs/skills` 是整个开放 Agent Skills 生态的基石（累计安装超 330 万次）。装上它的 `find-skills` 元技能后，你甚至不需要自己去背有哪些技能库——直接对 Claude Code 或 Cursor 说「帮我找个适合当前技术栈的技能并装上」，Agent 就会自己检索并完成配置。
+  en: |
+    With over 3.3 million installs, vercel-labs/skills is the backbone of the open Agent Skills ecosystem. Installing its find-skills meta-skill lets Claude Code, Cursor, or Codex autonomously search and install relevant skills on the fly.

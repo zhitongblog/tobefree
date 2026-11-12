@@ -1,0 +1,44 @@
+name: Kavita
+accent: "#4AC694"
+initials: KV
+category: selfhosted
+price: free
+license: GPL-3.0
+website: https://www.kavitareader.com
+download: https://www.kavitareader.com/downloads
+repo: https://github.com/Kareadita/Kavita
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 电子书服务器
+  - 漫画阅读器
+  - EPUB
+  - PDF
+  - 自建书房
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 被誉为「数字阅读界的 Plex」，极速自建漫画、EPUB 电子书与轻小说在线书库
+  en: Fast, feature-rich self-hosted digital reading server for comics, manga, EPUBs, and PDFs
+description:
+  zh: 一站式扫描并管理你硬盘里的漫画压缩包（CBZ/CBR/ZIP）、电子书（EPUB）与 PDF。内置极其流畅的网页端条漫/双页翻转漫画阅读器与高颜值 EPUB 阅读器，支持多设备阅读进度实时同步与 OPDS。
+  en: Organizes your manga, comics (CBZ/CBR), light novels (EPUB), and PDFs into a sleek web library with built-in webtoon/dual-page comic readers, progress sync across devices, and OPDS support.
+review:
+  zh: |
+    Calibre 适合在电脑上整理电子书元数据，但它的网页阅读体验比较古早；Kavita 则像影音界的 Jellyfin/Plex 一样，把你的电子书和漫画文件夹变成了现代化的私人在线图书馆。
+
+    无论是在 iPad 浏览器里看双页日漫/条漫，还是在手机上接着昨晚的进度读 EPUB 小说，翻页速度和排版体验都堪称一流，完全开源免费。
+  en: |
+    Often called the "Plex for reading," Kavita turns your folders of EPUBs, PDFs, and CBZ/CBR manga archives into a responsive web library with built-in readers and seamless cross-device progress sync.

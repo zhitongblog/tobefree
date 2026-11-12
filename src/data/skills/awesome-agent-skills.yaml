@@ -27,3 +27,12 @@ description:
     community — hand-picked, not AI-generated — across development, testing, security,
     design, marketing and cloud infrastructure, compatible with Claude Code, Codex,
     Gemini CLI, Cursor and more. 27k+ GitHub stars.
+review:
+  zh: |
+    Awesome Agent Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。VoltAgent 维护的开源（MIT）精选目录，汇集来自官方团队（Anthropic、Google、Vercel、Stripe 等） 与社区的 1400+ 个 Agent Skill，均为人工精选而非 AI 生成，覆盖开发、测试、安全、设计、营销、 云基础设施等方向，兼容 Claude Code、Codex、Gemini CLI、Cursor 等多种客户端。GitHub 上 2.7 万+ star。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude Code、Codex、Cursor、Gemini CLI、GitHub Copilot、OpenCode、Windsurf 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Awesome Agent Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An open-source (MIT) curated directory maintained by VoltAgent, aggregating 1400+ agent skills from official teams (Anthropic, Google, Vercel, Stripe…) and the community — hand-picked, not AI-generated — across development, testing, security, design, marketing and cloud infrastructure, compatible with Claude Code, Codex, Gemini CLI, Cursor and more. 27k+ GitHub stars.
+
+    Released under the MIT license, it works across Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, Windsurf. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

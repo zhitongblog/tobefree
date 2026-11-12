@@ -24,3 +24,12 @@ description:
     MotherDuck's open-source (MIT) MCP server — in local mode it's just DuckDB, letting AI query
     CSV, Parquet, JSON or a local .duckdb file with SQL, fully offline. The MotherDuck cloud is
     optional.
+review:
+  zh: |
+    DuckDB MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。MotherDuck 开源（MIT）的 MCP 服务器，本地模式下就是一个 DuckDB：AI 用 SQL 直接查询 CSV、Parquet、JSON 文件或本地 .duckdb 库，完全离线。MotherDuck 云端是可选项，不用也行。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx mcp-server-motherduck --db-path :memory:` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    DuckDB MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. MotherDuck's open-source (MIT) MCP server — in local mode it's just DuckDB, letting AI query CSV, Parquet, JSON or a local .duckdb file with SQL, fully offline. The MotherDuck cloud is optional.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. You can set it up quickly via `uvx mcp-server-motherduck --db-path :memory:`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

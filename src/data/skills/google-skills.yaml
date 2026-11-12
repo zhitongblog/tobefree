@@ -1,0 +1,40 @@
+kind: skill
+name: Google Official Agent Skills
+accent: "#4285F4"
+initials: GG
+license: Apache-2.0
+website: https://github.com/google/skills
+repo: https://github.com/google/skills
+install: npx skills add google/skills
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - Google官方
+  - Google-Cloud
+  - BigQuery
+  - Vertex-AI
+  - 云架构
+clients:
+  - Gemini CLI
+  - Claude Code
+  - Cursor
+  - Codex
+  - Windsurf
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: Google 官方开源的云架构、BigQuery 数据分析、GenAI 推理与 IAM 安全配置技能集
+  en: Google’s official Agent Skills collection for Cloud architecture, BigQuery ML, Vertex AI, and IAM security
+description:
+  zh: 由 Google 官方团队维护并按 Apache-2.0 开源。为编程助手提供最新且准确的 Google Cloud 多产品架构蓝图、BigQuery SQL 优化、Gemini/Vertex AI SDK 规范与最小权限 IAM 审计指南。
+  en: Maintained by Google under Apache-2.0, equipping coding agents with verified patterns for Google Cloud infrastructure, BigQuery SQL/ML, Vertex AI integrations, and least-privilege IAM configurations.
+review:
+  zh: |
+    大模型预训练语料里的云厂商 SDK 和 API 经常滞后一两年。直接安装 `google/skills` 官方技能包，可以让 Gemini CLI、Claude Code 或 Cursor 准确使用最新的 GenAI SDK、BigQuery 语法与云原生部署最佳实践。
+  en: |
+    Prevents coding agents from hallucinating outdated Google Cloud or Gemini SDK methods by injecting official, maintainer-verified architecture and BigQuery patterns directly into your session.

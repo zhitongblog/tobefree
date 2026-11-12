@@ -19,3 +19,12 @@ tagline:
 description:
   zh: Cloudflare 官方开源的一组 MCP 服务器，覆盖可观测性、Workers、DNS、Radar、日志等多种服务，让模型通过 OAuth 授权管理你的 Cloudflare 账户。通过 mcp-remote 连接，需 Cloudflare 账户。
   en: Cloudflare's official open-source collection of MCP servers spanning observability, Workers, DNS, Radar, logs and more, letting the model manage your Cloudflare account via OAuth. Connect through mcp-remote; a Cloudflare account is required.
+review:
+  zh: |
+    Cloudflare MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。Cloudflare 官方开源的一组 MCP 服务器，覆盖可观测性、Workers、DNS、Radar、日志等多种服务，让模型通过 OAuth 授权管理你的 Cloudflare 账户。通过 mcp-remote 连接，需 Cloudflare 账户。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，可通过 `npx mcp-remote https://observability.mcp.cloudflare.com/mcp` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Cloudflare MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Cloudflare's official open-source collection of MCP servers spanning observability, Workers, DNS, Radar, logs and more, letting the model manage your Cloudflare account via OAuth. Connect through mcp-remote; a Cloudflare account is required.
+
+    Released under the Apache-2.0 license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `npx mcp-remote https://observability.mcp.cloudflare.com/mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 一个开源的编码 Agent 工具箱，借助语言服务器在符号级别理解代码——按符号查找、引用、精准编辑与重构，而不是靠行号和字符串匹配。让 AI 在大型代码库里更快更可靠，是 Cursor、Windsurf 的免费替代。纯本地运行。
   en: An open-source coding-agent toolkit that understands code at the symbol level via language servers — find symbols, references, and edit or refactor precisely instead of relying on line numbers and string matching. It makes AI faster and more reliable in large codebases, a free alternative to Cursor and Windsurf. Runs fully locally.
+review:
+  zh: |
+    Serena 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。一个开源的编码 Agent 工具箱，借助语言服务器在符号级别理解代码——按符号查找、引用、精准编辑与重构，而不是靠行号和字符串匹配。让 AI 在大型代码库里更快更可靠，是 Cursor、Windsurf 的免费替代。纯本地运行。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx --from git+https://github.com/oraios/serena serena start-mcp-server` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Serena is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source coding-agent toolkit that understands code at the symbol level via language servers — find symbols, references, and edit or refactor precisely instead of relying on line numbers and string matching. It makes AI faster and more reliable in large codebases, a free alternative to Cursor and Windsurf. Runs fully locally.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `uvx --from git+https://github.com/oraios/serena serena start-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

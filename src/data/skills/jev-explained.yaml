@@ -30,3 +30,12 @@ tagline:
 description:
   zh: 面向架构师与 AI 工程师的开源对照指南与技能包。用直观的延迟对比、Token 成本测算和可运行的最小代码片段，演示如何将传统 Agent 循环里的路由、裁判（LLM-as-a-Judge）和状态转移拆解为百毫秒级的 Jev 调用。
   en: An open-source reference and agent skill repository explaining System 1 decision models through side-by-side latency benchmarks, cost comparisons and minimal code patterns for routing and LLM-as-a-Judge.
+review:
+  zh: |
+    Jev Explained 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。面向架构师与 AI 工程师的开源对照指南与技能包。用直观的延迟对比、Token 成本测算和可运行的最小代码片段，演示如何将传统 Agent 循环里的路由、裁判（LLM-as-a-Judge）和状态转移拆解为百毫秒级的 Jev 调用。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `git clone https://github.com/davila7/jev-explained.git` 快速接入，无缝兼容 Claude Code、Cursor、Cline 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Jev Explained is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An open-source reference and agent skill repository explaining System 1 decision models through side-by-side latency benchmarks, cost comparisons and minimal code patterns for routing and LLM-as-a-Judge.
+
+    Released under the MIT license, it works across Claude Code, Cursor, Cline. You can set it up quickly via `git clone https://github.com/davila7/jev-explained.git`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

@@ -25,3 +25,12 @@ description:
     best practices, React Native guidelines, composition patterns, View Transitions, a web UI
     guidelines review, writing guidelines, and one-step deploys to Vercel. Deploying needs a Vercel
     account; the other skills need no sign-up.
+review:
+  zh: |
+    Vercel Agent Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Vercel 官方的技能集，README 声明 MIT 协议。包括 React / Next.js 性能最佳实践、React Native 规范、组件组合模式、 View Transitions、网页界面设计规范审查、文案写作规范，以及一键部署到 Vercel。部署需要 Vercel 账号，其余技能不用注册。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx skills add vercel-labs/agent-skills` 快速接入，无缝兼容 Claude Code、Codex、Cursor、OpenCode 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Vercel Agent Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Vercel's official skills collection, MIT-licensed per its README: React and Next.js performance best practices, React Native guidelines, composition patterns, View Transitions, a web UI guidelines review, writing guidelines, and one-step deploys to Vercel. Deploying needs a Vercel account; the other skills need no sign-up.
+
+    Released under the MIT license, it works across Claude Code, Codex, Cursor, OpenCode. You can set it up quickly via `npx skills add vercel-labs/agent-skills`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

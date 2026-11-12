@@ -19,3 +19,12 @@ tagline:
 description:
   zh: Ziplark 自带 ziplark-mcp 服务器，把解压 ZIP/RAR/7z/tar、创建 ZIP/7z/tar 的能力开放给 AI —— 全部在本地完成，无需联网。
   en: Ziplark ships a ziplark-mcp server that exposes extracting ZIP/RAR/7z/tar and creating ZIP/7z/tar to AI — all done locally, no network needed.
+review:
+  zh: |
+    Ziplark 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。Ziplark 自带 ziplark-mcp 服务器，把解压 ZIP/RAR/7z/tar、创建 ZIP/7z/tar 的能力开放给 AI —— 全部在本地完成，无需联网。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Ziplark is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Ziplark ships a ziplark-mcp server that exposes extracting ZIP/RAR/7z/tar and creating ZIP/7z/tar to AI — all done locally, no network needed.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

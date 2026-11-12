@@ -25,3 +25,12 @@ description:
     well-designed MCP (Model Context Protocol) servers, wrapping external APIs or
     services into clean, well-specified tools. Covers both Python (FastMCP) and
     Node/TypeScript (MCP SDK) stacks.
+review:
+  zh: |
+    MCP Builder 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Anthropic 官方开源（Apache-2.0）技能，指导 Claude 构建设计良好的 MCP（Model Context Protocol）服务器， 把外部 API 或服务封装成规范的工具。支持 Python（FastMCP）和 Node/TypeScript（MCP SDK）两套技术栈。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，无缝兼容 Claude、Claude Code、Claude Desktop 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    MCP Builder is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An official open-source (Apache-2.0) skill that guides Claude in building well-designed MCP (Model Context Protocol) servers, wrapping external APIs or services into clean, well-specified tools. Covers both Python (FastMCP) and Node/TypeScript (MCP SDK) stacks.
+
+    Released under the Apache-2.0 license, it works across Claude, Claude Code, Claude Desktop. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

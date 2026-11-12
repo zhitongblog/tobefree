@@ -25,3 +25,12 @@ description:
     PowerPoint and Excel files: create and edit documents, keep formatting and tracked changes, fill
     PDF forms, build spreadsheets with formulas. Source-available but not open source; free to use
     under your Anthropic terms.
+review:
+  zh: |
+    Document Skills (docx/pdf/pptx/xlsx) 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Anthropic 官方的四个文档技能，Claude.ai 里生成 Word、PDF、PPT、Excel 文件用的就是它们：创建和编辑文档、保留格式与修订、填 PDF 表单、做带公式的表格。源码公开可读，但不是开源协议，按你与 Anthropic 的服务协议免费使用。
+
+    在实用性与工程自由度上，它采用 Proprietary (source-available) 协议开放源码，可通过 `/plugin install document-skills@anthropic-agent-skills` 快速接入，无缝兼容 Claude、Claude Code、Claude Desktop 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Document Skills (docx/pdf/pptx/xlsx) is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Anthropic's four official document skills — the same ones Claude.ai uses to produce Word, PDF, PowerPoint and Excel files: create and edit documents, keep formatting and tracked changes, fill PDF forms, build spreadsheets with formulas. Source-available but not open source; free to use under your Anthropic terms.
+
+    Released under the Proprietary (source-available) license, it works across Claude, Claude Code, Claude Desktop. You can set it up quickly via `/plugin install document-skills@anthropic-agent-skills`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

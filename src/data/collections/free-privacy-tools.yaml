@@ -6,7 +6,7 @@ description:
   en: Twelve free tools for ad blocking, anti-tracking, two-factor authentication, encryption and anonymity, layered by where they intercept — from a browser extension up to an entire operating system.
 intro:
   zh: 隐私工具最容易犯的错是只装一层。浏览器插件挡得住网页里的追踪脚本，挡不住手机 App 直连广告域名；VPN 换得掉出口 IP，换不掉浏览器指纹。真正有效的做法是按拦截位置分层叠加 —— 浏览器一层、设备一层、整个网络一层，各管各的范围。这份清单按这个顺序排，最后两款走到极端：一个从 U 盘启动、关机什么都不剩，一个把全屋 DNS 都接管了。
-  en: 'The usual mistake with privacy tools is installing only one layer. A browser extension stops tracking scripts on a web page but not a mobile app dialling an ad domain directly; a VPN changes your exit address but not your browser fingerprint. What works is stacking by interception point — one layer in the browser, one on the device, one across the whole network, each covering what the others cannot. This list follows that order, ending with two extremes: one that boots from a USB stick and leaves nothing behind, and one that takes over DNS for the entire house.'
+  en: "The usual mistake with privacy tools is installing only one layer. A browser extension stops tracking scripts on a web page but not a mobile app dialling an ad domain directly; a VPN changes your exit address but not your browser fingerprint. What works is stacking by interception point — one layer in the browser, one on the device, one across the whole network, each covering what the others cannot. This list follows that order, ending with two extremes: one that boots from a USB stick and leaves nothing behind, and one that takes over DNS for the entire house."
 criteria:
   zh:
     - 不收集使用数据，工具本身不成为新的追踪源。
@@ -37,6 +37,10 @@ tools:
   - lulu
   - simplewall
   - hat-sh
+  - whoogle
+  - invidious
+  - piped
+  - libretube
 skills:
   - searxng-mcp
 featured: true

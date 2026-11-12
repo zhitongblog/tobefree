@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 社区维护的 MCP 服务器，通过 DuckDuckGo 为 Agent 提供网页搜索，并能抓取、解析结果页内容为干净文本。无需账号或 API Key，注重隐私、开箱即用。
   en: A community MCP server that gives agents web search via DuckDuckGo and can fetch and parse result pages into clean text. No account or API key required — privacy-focused and ready out of the box.
+review:
+  zh: |
+    DuckDuckGo MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。社区维护的 MCP 服务器，通过 DuckDuckGo 为 Agent 提供网页搜索，并能抓取、解析结果页内容为干净文本。无需账号或 API Key，注重隐私、开箱即用。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx duckduckgo-mcp-server` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    DuckDuckGo MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. A community MCP server that gives agents web search via DuckDuckGo and can fetch and parse result pages into clean text. No account or API key required — privacy-focused and ready out of the box.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `uvx duckduckgo-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

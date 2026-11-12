@@ -1,0 +1,43 @@
+name: changedetection.io
+accent: "#EA580C"
+initials: CD
+category: selfhosted
+price: free
+license: Apache-2.0
+website: https://changedetection.io
+download: https://github.com/dgtlmoon/changedetection.io
+repo: https://github.com/dgtlmoon/changedetection.io
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 网页监控
+  - 降价提醒
+  - 补货通知
+  - XPath
+  - 自动化告警
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: GitHub 2万+ 星的开源网页变动监控神器，商品降价、补货、公告发布第一时间自动推送
+  en: Open-source web page change detection, price drop tracker, and restock notification server
+description:
+  zh: 支持用可视化点击选择器（CSS/XPath/JSONPath）精准盯住任意网页的局部区域或价格数字，支持无头浏览器渲染动态页面、PDF 内容比对与 90+ 渠道（微信/飞书/Telegram/Bark/邮件）实时告警。
+  en: Monitors any web page, JSON API, or PDF for visual or text changes, price drops, and restocks—with visual element selectors, headless browser rendering, and alerts across 90+ notification channels.
+review:
+  zh: |
+    想盯住某款显卡什么时候补货、某个航班什么时候降价、某份官方文档或招考公告什么时候更新？商业网页监控工具免费版往往只给 5 个监控名额且间隔极长。
+
+    用 Docker 在本地或服务器跑一个 changedetection.io（Apache-2.0 开源），你可以完全免费添加几百个监控任务，用鼠标框选网页上的价格区域，一旦变动立刻带截图和高亮 Diff 推送到你的手机上。
+  en: |
+    Commercial web-monitoring services restrict free users to a handful of slow checks. Self-hosting changedetection.io via Docker gives you unlimited page watches, visual price-drop selectors, diff screenshots, and instant alerts across 90+ channels.

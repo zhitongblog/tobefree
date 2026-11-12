@@ -24,3 +24,12 @@ description:
     An open-source (GPL-3.0) spec-driven development MCP server that walks the AI through
     requirements, then design, then tasks, pausing for your approval at each step — with a live web
     dashboard and a VS Code extension to track progress.
+review:
+  zh: |
+    Spec Workflow MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（GPL-3.0）的规格驱动开发 MCP 服务器，引导 AI 先写需求、再出设计、再拆任务，每一步都等你审批，附带实时网页看板和 VS Code 插件查看进度。适合不想让 AI 一上来就闷头写代码的人。
+
+    在实用性与工程自由度上，它采用 GPL-3.0 协议开放源码，可通过 `npx -y @pimzino/spec-workflow-mcp@latest /path/to/your/project` 快速接入，无缝兼容 Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Spec Workflow MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (GPL-3.0) spec-driven development MCP server that walks the AI through requirements, then design, then tasks, pausing for your approval at each step — with a live web dashboard and a VS Code extension to track progress.
+
+    Released under the GPL-3.0 license, it works across Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `npx -y @pimzino/spec-workflow-mcp@latest /path/to/your/project`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

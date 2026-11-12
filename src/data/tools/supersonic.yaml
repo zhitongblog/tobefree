@@ -1,0 +1,40 @@
+name: Supersonic
+accent: "#0EA5E9"
+initials: SS
+category: media
+price: free
+license: GPL-3.0
+website: https://github.com/dweymouth/supersonic
+download: https://github.com/dweymouth/supersonic/releases
+repo: https://github.com/dweymouth/supersonic
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 音乐播放器
+  - Navidrome客户端
+  - Subsonic
+  - Jellyfin
+  - 无损音频
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 用 Go 与 mpv 音频引擎打造的轻量级桌面音乐客户端，Navidrome / Jellyfin 最佳搭档
+  en: Lightweight cross-platform desktop music player for Subsonic, Navidrome, and Jellyfin servers
+description:
+  zh: 告别占用几百 MB 内存的网页或 Electron 播放器。底层采用专业级 mpv 音频内核，支持无间隙播放（Gapless Playback）、ReplayGain 音量平衡、多波段均衡器、同步滚动歌词与本地缓存。
+  en: Powered by the mpv audio engine and a native Go GUI, Supersonic delivers gapless playback, ReplayGain, synced lyrics, and waveform seekbars for your self-hosted Navidrome or Jellyfin music library.
+review:
+  zh: |
+    在 NAS 上自建了 Navidrome 或 Jellyfin 音乐库后，在电脑上用什么听最舒服？Supersonic 用原生 Go 语言和 mpv 内核给出了满分答案：没有 Electron 的内存膨胀，支持真正的专辑无间隙连播（Gapless）和波形进度条，发烧友必备。
+  en: |
+    If you host your own music on Navidrome or Jellyfin, Supersonic gives you a fast, native desktop player powered by mpv with true gapless playback, ReplayGain, and zero Electron bloat.

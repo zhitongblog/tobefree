@@ -23,3 +23,12 @@ description:
   en: >-
     Anthropic's official directory of vetted Claude Code plugins bundling skills, subagents, slash
     commands and MCP servers. It ships with Claude Code — type /plugin to browse and install.
+review:
+  zh: |
+    Claude Plugins Official 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Anthropic 官方维护的 Claude Code 插件目录，收录经过审核的插件，里面打包了技能、子 Agent、斜杠命令和 MCP 服务器。Claude Code 自带这个市场，输入 /plugin 就能浏览安装。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，可通过 `/plugin` 快速接入，无缝兼容 Claude Code 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Claude Plugins Official is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Anthropic's official directory of vetted Claude Code plugins bundling skills, subagents, slash commands and MCP servers. It ships with Claude Code — type /plugin to browse and install.
+
+    Released under the Apache-2.0 license, it works across Claude Code. You can set it up quickly via `/plugin`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

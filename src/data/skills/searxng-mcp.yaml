@@ -22,3 +22,12 @@ description:
     An open-source (MIT) MCP server that plugs the SearXNG metasearch engine into your AI. Pair it
     with a self-hosted instance and you need no paid search API key and get no per-account tracking;
     it can also fetch pages as Markdown.
+review:
+  zh: |
+    SearXNG MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（MIT）的 MCP 服务器，把 SearXNG 元搜索引擎接给 AI。配合自建实例使用，不需要任何付费搜索 API Key，查询也不会按账号被追踪，还能把网页正文抓成 Markdown。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y mcp-searxng` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    SearXNG MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (MIT) MCP server that plugs the SearXNG metasearch engine into your AI. Pair it with a self-hosted instance and you need no paid search API key and get no per-account tracking; it can also fetch pages as Markdown.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. You can set it up quickly via `npx -y mcp-searxng`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

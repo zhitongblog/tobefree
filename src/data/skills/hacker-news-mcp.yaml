@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 一个 MCP 服务器，基于官方 Hacker News API，为 Agent 提供头条、最新、Ask/Show 榜单以及帖子评论的读取，方便追踪技术圈热点与讨论。无需 API Key。
   en: An MCP server built on the official Hacker News API, giving agents access to top, new, Ask/Show listings and post comments — handy for tracking tech news and discussion. No API key required.
+review:
+  zh: |
+    Hacker News MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。一个 MCP 服务器，基于官方 Hacker News API，为 Agent 提供头条、最新、Ask/Show 榜单以及帖子评论的读取，方便追踪技术圈热点与讨论。无需 API Key。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx mcp-hn` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Hacker News MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An MCP server built on the official Hacker News API, giving agents access to top, new, Ask/Show listings and post comments — handy for tracking tech news and discussion. No API key required.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `uvx mcp-hn`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

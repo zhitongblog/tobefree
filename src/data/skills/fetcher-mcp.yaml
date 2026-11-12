@@ -24,3 +24,12 @@ description:
     An open-source (MIT) fetch MCP server that renders pages in headless Chromium, capturing
     JS-rendered content a plain fetch misses, extracting the main content as Markdown, with parallel
     batch fetching. No API key needed.
+review:
+  zh: |
+    Fetcher MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源（MIT）的网页抓取 MCP 服务器，用无头 Chromium 渲染页面，能拿到普通 fetch 抓不到的 JS 动态内容，自动提取正文转成 Markdown，支持批量并行抓取。不需要任何 API Key。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y fetcher-mcp` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Fetcher MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source (MIT) fetch MCP server that renders pages in headless Chromium, capturing JS-rendered content a plain fetch misses, extracting the main content as Markdown, with parallel batch fetching. No API key needed.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. You can set it up quickly via `npx -y fetcher-mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

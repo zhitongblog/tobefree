@@ -30,3 +30,12 @@ tagline:
 description:
   zh: 连接 Linear 项目管理平台的 MCP 服务。开发者在 IDE 或终端里修复 Bug 时，可以直接让 AI 拉取对应 Issue 的上下文、更新任务状态、创建子任务或关联 PR，无需在浏览器与编辑器之间反复横跳。
   en: Connects Linear to your AI assistant so you can pull issue context, update statuses, file sub-issues and link pull requests without leaving your terminal or code editor.
+review:
+  zh: |
+    Linear MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。连接 Linear 项目管理平台的 MCP 服务。开发者在 IDE 或终端里修复 Bug 时，可以直接让 AI 拉取对应 Issue 的上下文、更新任务状态、创建子任务或关联 PR，无需在浏览器与编辑器之间反复横跳。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y @modelcontextprotocol/server-linear` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Linear MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Connects Linear to your AI assistant so you can pull issue context, update statuses, file sub-issues and link pull requests without leaving your terminal or code editor.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Any MCP client. You can set it up quickly via `npx -y @modelcontextprotocol/server-linear`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

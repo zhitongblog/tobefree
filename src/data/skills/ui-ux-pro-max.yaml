@@ -22,3 +22,12 @@ description:
     An open-source (MIT) design skill bundling UI styles, color palettes, font pairings, chart types
     and industry UX guidelines; the agent looks up a fitting design system before building, across
     web and mobile stacks.
+review:
+  zh: |
+    UI UX Pro Max 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。开源（MIT）的设计技能，内置大量界面风格、配色方案、字体搭配、图表类型和行业 UX 规范，Agent 做界面前先检索出合适的设计系统再动手，适合 Web、移动端多种技术栈。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` 快速接入，无缝兼容 Claude Code、Cursor、Windsurf、Codex 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    UI UX Pro Max is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An open-source (MIT) design skill bundling UI styles, color palettes, font pairings, chart types and industry UX guidelines; the agent looks up a fitting design system before building, across web and mobile stacks.
+
+    Released under the MIT license, it works across Claude Code, Cursor, Windsurf, Codex. You can set it up quickly via `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

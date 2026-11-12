@@ -1,0 +1,39 @@
+kind: skill
+name: Awesome Claude Plugins & Skills
+accent: "#7C3AED"
+initials: AC
+license: MIT
+website: https://github.com/quemsah/awesome-claude-plugins
+repo: https://github.com/quemsah/awesome-claude-plugins
+install: git clone https://github.com/quemsah/awesome-claude-plugins.git
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 插件大全
+  - Claude-Code
+  - Hooks
+  - Slash-Commands
+  - 精选列表
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - OpenCode
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 收录 100+ 顶级 Claude Code 插件、生命周期 Hooks、自定义斜杠命令与多 Agent 技能的导航库
+  en: Curated directory of 100+ top Claude Code plugins, lifecycle hooks, slash commands, and multi-agent skills
+description:
+  zh: 系统整理社区最受欢迎的 Claude Code 插件市场源（Marketplace）、自动化 Git/测试 Hooks、状态栏定制以及跨框架技能包，并附带一键安装指令。
+  en: Catalogs the best community plugin marketplaces, pre-commit/post-edit hooks, custom slash commands, and domain skills for Claude Code and compatible terminal agents.
+review:
+  zh: |
+    想一站式了解 Claude Code 的插件市场（`/plugin marketplace`）、Hooks 自动化脚本和热门斜杠命令？这份高星开源清单按实战场景做了极佳的分类整理，所有项目均开源免费。
+  en: |
+    A well-curated master index of open-source plugins, lifecycle hooks, and slash commands to supercharge Claude Code and terminal coding workflows.

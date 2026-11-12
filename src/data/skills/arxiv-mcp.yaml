@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 一个 MCP 服务器，让 Agent 按关键词、日期和分类搜索 arXiv 论文，下载全文并本地缓存后逐篇研读，适合做文献调研与科研辅助。直接查询 arXiv 公共接口，无需 API Key。
   en: An MCP server that lets agents search arXiv by keyword, date and category, download full papers and read them from a local cache — ideal for literature review and research assistance. Queries arXiv's public API directly, no API key needed.
+review:
+  zh: |
+    arXiv MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。一个 MCP 服务器，让 Agent 按关键词、日期和分类搜索 arXiv 论文，下载全文并本地缓存后逐篇研读，适合做文献调研与科研辅助。直接查询 arXiv 公共接口，无需 API Key。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx arxiv-mcp-server` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    arXiv MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An MCP server that lets agents search arXiv by keyword, date and category, download full papers and read them from a local cache — ideal for literature review and research assistance. Queries arXiv's public API directly, no API key needed.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `uvx arxiv-mcp-server`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

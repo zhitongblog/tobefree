@@ -33,3 +33,12 @@ tagline:
 description:
   zh: 由知名静态代码分析工具 Semgrep 官方维护的 MCP 服务器。接入 Claude Code 或 Cursor 后，AI 在生成或修改代码时可直接调用本地 Semgrep 规则库扫描 SQL 注入、XSS、硬编码密钥等安全隐患，并自动根据扫描报告完成修复。
   en: Maintained by the Semgrep team, this MCP server lets coding agents run fast static analysis rules against newly written code to catch SQLi, XSS, hardcoded secrets and logic bugs before committing.
+review:
+  zh: |
+    Semgrep MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。由知名静态代码分析工具 Semgrep 官方维护的 MCP 服务器。接入 Claude Code 或 Cursor 后，AI 在生成或修改代码时可直接调用本地 Semgrep 规则库扫描 SQL 注入、XSS、硬编码密钥等安全隐患，并自动根据扫描报告完成修复。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx semgrep-mcp` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Windsurf、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Semgrep MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Maintained by the Semgrep team, this MCP server lets coding agents run fast static analysis rules against newly written code to catch SQLi, XSS, hardcoded secrets and logic bugs before committing.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Windsurf, Any MCP client. You can set it up quickly via `uvx semgrep-mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

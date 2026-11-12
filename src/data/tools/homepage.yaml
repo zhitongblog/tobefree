@@ -1,0 +1,39 @@
+name: Homepage
+accent: "#3B82F6"
+initials: HP
+category: selfhosted
+price: free
+license: GPL-3.0
+website: https://gethomepage.dev
+download: https://gethomepage.dev/installation/
+repo: https://github.com/gethomepage/homepage
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 导航面板
+  - Homelab
+  - NAS大盘
+  - Docker监控
+  - 自建主页
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 高度可定制、极速响应的现代化自建服务与 NAS 导航大盘，内置 100+ 服务实时小组件
+  en: Modern, fast, secure, and highly customizable self-hosted application dashboard with 100+ service integrations
+description:
+  zh: 不仅是书签导航页，更内置了对 Jellyfin、Immich、qBittorrent、Pi-hole、Proxmox、Portainer 等 100+ 自建服务的 API 集成，直接在大盘卡片上实时显示下载速度、容器状态与服务器硬件负载。
+  en: Combines a static-fast bookmark startpage with live API widgets for over 100 self-hosted services (Jellyfin, Immich, Pi-hole, Proxmox, Docker), proxying all API keys securely on the server side.
+review:
+  zh: |
+    当你在 NAS 或家庭服务器（Homelab）上装了十几个 Docker 服务后，记端口号成了噩梦。Homepage 是目前开源圈口碑最好的自建起始页：它不仅加载快如静态网页，还能直接在图标卡片上显示 qBittorrent 当前下载速度、Immich 照片总数和 CPU 温度，配置基于干净的 YAML 文件，支持自动发现 Docker 容器。
+  en: |
+    Once your homelab grows past a dozen containers, remembering port numbers gets old. Homepage gives you an instant startpage with live status widgets for 100+ self-hosted apps and automatic Docker container discovery.

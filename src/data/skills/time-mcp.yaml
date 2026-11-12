@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 官方参考实现的 MCP 服务器，提供获取当前时间和在不同 IANA 时区之间转换时间的工具，全部在本地完成。
   en: An official reference MCP server that provides tools to get the current time and convert times between IANA time zones, all computed locally.
+review:
+  zh: |
+    Time MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。官方参考实现的 MCP 服务器，提供获取当前时间和在不同 IANA 时区之间转换时间的工具，全部在本地完成。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx mcp-server-time` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Time MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An official reference MCP server that provides tools to get the current time and convert times between IANA time zones, all computed locally.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `uvx mcp-server-time`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

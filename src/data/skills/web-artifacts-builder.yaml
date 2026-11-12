@@ -24,3 +24,12 @@ description:
     An official open-source (Apache-2.0) skill giving Claude a React + Tailwind CSS + shadcn/ui
     scaffold and bundling scripts for multi-component, stateful web artifacts, shipped as a single
     HTML file.
+review:
+  zh: |
+    Web Artifacts Builder 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Anthropic 官方开源（Apache-2.0）技能，给 Claude 一套 React、Tailwind CSS、shadcn/ui 的脚手架和打包脚本，用来做带状态管理、多组件的复杂网页小应用，最后打包成单个 HTML 文件。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，无缝兼容 Claude、Claude Code、Claude Desktop 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Web Artifacts Builder is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An official open-source (Apache-2.0) skill giving Claude a React + Tailwind CSS + shadcn/ui scaffold and bundling scripts for multi-component, stateful web artifacts, shipped as a single HTML file.
+
+    Released under the Apache-2.0 license, it works across Claude, Claude Code, Claude Desktop. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

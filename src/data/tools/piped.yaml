@@ -1,0 +1,39 @@
+name: Piped
+accent: "#9333EA"
+initials: PP
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://piped.video
+download: https://docs.piped.video/docs/self-hosting/
+repo: https://github.com/TeamPiped/Piped
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 隐私视频前端
+  - SponsorBlock
+  - 反向代理
+  - YouTube平替
+  - 自建服务
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 专为隐私与高性能设计的开源 YouTube 替代前端，网页端原生内置 SponsorBlock
+  en: Privacy-friendly open-source YouTube front-end with built-in SponsorBlock, LBRY integration, and proxy streaming
+description:
+  zh: 前后端分离架构，默认通过代理服务器中转全部音视频流，彻底阻断向 Google 发送任何连接请求。原生集成 SponsorBlock 跳过软广、ReturnYouTubeDislike、4K HDR 播放与仅音频省流模式。
+  en: Proxies all video and image streams so your browser never talks to Google servers directly, while baking in SponsorBlock, ReturnYouTubeDislike, 4K playback, and audio-only streaming.
+review:
+  zh: |
+    相比传统镜像站，Piped 从架构上保证了你的浏览器不会向 Google 发起哪怕一个字节的直连请求，并且网页端开箱自带 SponsorBlock 自动跳过口播广告，同时也是安卓端 LibreTube 的官方后端搭档。
+  en: |
+    Piped proxies media streams end-to-end so your browser never connects to Google’s servers, while offering built-in SponsorBlock, 4K streaming, and seamless sync with mobile clients like LibreTube.

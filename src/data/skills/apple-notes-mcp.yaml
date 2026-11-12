@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 开源的 macOS MCP 服务器，通过 JXA 脚本桥访问 Apple Notes，支持增删改查、按文件夹浏览，并在本地跑嵌入模型做语义搜索。100% 本地运行，无需 API Key，数据不出本机。
   en: An open-source macOS MCP server that reaches Apple Notes via the JXA scripting bridge, supporting full CRUD, folder browsing and local-embedding semantic search. Runs 100% locally with no API keys, so your data never leaves the machine.
+review:
+  zh: |
+    Apple Notes MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源的 macOS MCP 服务器，通过 JXA 脚本桥访问 Apple Notes，支持增删改查、按文件夹浏览，并在本地跑嵌入模型做语义搜索。100% 本地运行，无需 API Key，数据不出本机。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Apple Notes MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source macOS MCP server that reaches Apple Notes via the JXA scripting bridge, supporting full CRUD, folder browsing and local-embedding semantic search. Runs 100% locally with no API keys, so your data never leaves the machine.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

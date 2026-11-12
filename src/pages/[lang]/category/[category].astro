@@ -4,6 +4,7 @@ import ToolCard from '../../../components/ToolCard.astro';
 import { SITE, CATEGORIES, CATEGORY_SEO, categoryById, pick, type Locale } from '../../../consts';
 import { locales, useTranslations, localizedPath, type Lang } from '../../../i18n/utils';
 import { getAllTools, inCategory } from '../../../lib/tools';
+import { getAllCollectionPages } from '../../../lib/collections';
 
 export async function getStaticPaths() {
   return locales.flatMap((lang) =>
@@ -18,6 +19,17 @@ const cat = categoryById[category];
 
 const all = await getAllTools();
 const tools = inCategory(all, category);
+const toolIdsInCat = new Set(tools.map((tl) => tl.id));
+const allCollections = await getAllCollectionPages();
+const categoryCollections = allCollections
+  .map((col) => ({
+    col,
+    overlap: col.data.tools.filter((id) => toolIdsInCat.has(id)).length,
+  }))
+  .filter((x) => x.overlap > 0)
+  .sort((a, b) => b.overlap - a.overlap)
+  .slice(0, 6)
+  .map((x) => x.col);
 
 const abs = (p: string) => new URL(p, SITE.url).href;
 const catName = cat ? pick(cat.label, loc) : category;
@@ -72,6 +84,17 @@ const jsonLd = [
       <p class="count">{t('tools.count', { n: tools.length })}</p>
     </div>
 
+    {categoryCollections.length > 0 && (
+      <div class="cat-collections">
+        <span class="cat-col-label">{lang === 'zh' ? '相关场景专题：' : 'Related Guides:'}</span>
+        {categoryCollections.map((col) => (
+          <a class="cat-col-chip" href={localizedPath(lang, `collections/${col.id}`)}>
+            {pick(col.data.title, loc)}
+          </a>
+        ))}
+      </div>
+    )}
+
     {tools.length > 0 ? (
       <div class="grid cards-grid">
         {tools.map((tool) => <ToolCard tool={tool} lang={lang} />)}
@@ -104,5 +127,35 @@ const jsonLd = [
     color: var(--text-faint) !important;
     font-size: 0.92rem;
     margin-top: 0.45rem;
+  }
+  .cat-collections {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.8rem;
+    padding: 0.85rem 1.1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  .cat-col-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-soft);
+  }
+  .cat-col-chip {
+    font-size: 0.84rem;
+    font-weight: 600;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    background: var(--surface-2);
+    border: 1px solid var(--border-soft);
+    color: var(--text);
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .cat-col-chip:hover {
+    border-color: var(--accent);
+    color: var(--accent-ink);
   }
 </style>

@@ -1,0 +1,41 @@
+kind: skill
+name: Microsoft Playwright CLI Skill
+accent: "#2EAD33"
+initials: PW
+license: Apache-2.0
+website: https://github.com/microsoft/playwright-cli
+repo: https://github.com/microsoft/playwright-cli
+install: npx skills add microsoft/playwright-cli
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - Playwright
+  - 微软官方
+  - E2E测试
+  - 自动化测试
+  - 前端验收
+clients:
+  - Claude Code
+  - Cursor
+  - Codex
+  - GitHub Copilot
+  - Windsurf
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 微软官方出品的 Playwright CLI 自动化测试技能，让编码 Agent 写完页面自动跑 E2E 验收
+  en: Microsoft’s official Playwright CLI skill enabling coding agents to write, run, and debug end-to-end browser tests
+description:
+  zh: 指导 AI 编程助手遵循 Playwright 官方最新定位器规范（getByRole / getByLabel），自动通过命令行启动无头浏览器执行端到端测试、分析 Trace 快照并修复前端交互 Bug。
+  en: Teaches coding agents modern Playwright locator best practices (getByRole, web-first assertions) and CLI commands to execute, trace, and self-heal end-to-end browser tests locally.
+review:
+  zh: |
+    相比常驻后台占内存的 MCP 进程，微软官方推出的 Playwright CLI 技能让 Agent 直接通过轻量命令行跑测试、抓 Trace 报错并自动修好坏掉的按钮交互，既省 Token 又极其稳定。
+  en: |
+    Maintained by Microsoft, this skill trains coding agents to write resilient Playwright tests using accessible locators and run fast headless verification loops directly from the terminal.

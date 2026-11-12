@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 开源的 MCP 服务器，通过 Obsidian 的 Local REST API 社区插件访问本地知识库，让 Agent 检索、阅读、创建和编辑笔记。数据全程留在本机，需要该插件生成的 API Key。
   en: An open-source MCP server that reaches your local vault through Obsidian's Local REST API community plugin, letting agents search, read, create and edit notes. Everything stays on your machine; it needs the API key the plugin generates.
+review:
+  zh: |
+    Obsidian MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源的 MCP 服务器，通过 Obsidian 的 Local REST API 社区插件访问本地知识库，让 Agent 检索、阅读、创建和编辑笔记。数据全程留在本机，需要该插件生成的 API Key。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `uvx mcp-obsidian` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Obsidian MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source MCP server that reaches your local vault through Obsidian's Local REST API community plugin, letting agents search, read, create and edit notes. Everything stays on your machine; it needs the API key the plugin generates.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `uvx mcp-obsidian`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

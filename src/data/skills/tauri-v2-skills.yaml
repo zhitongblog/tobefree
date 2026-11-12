@@ -33,3 +33,12 @@ tagline:
 description:
   zh: Tauri 从 v1 升级到 v2 后，权限配置（从 allowlist 改为 capabilities）和官方插件包名发生了彻底重构。该技能帮助 AI 编程助手准确编写 Tauri v2 的 Rust Command 暴露、前端 invoke 调用及细粒度安全权限文件。
   en: Prevents coding agents from mixing deprecated Tauri v1 `allowlist` configs into Tauri v2 projects, covering the v2 Capabilities security model, IPC commands and official plugin system.
+review:
+  zh: |
+    Tauri v2 Agent Skills 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。Tauri 从 v1 升级到 v2 后，权限配置（从 allowlist 改为 capabilities）和官方插件包名发生了彻底重构。该技能帮助 AI 编程助手准确编写 Tauri v2 的 Rust Command 暴露、前端 invoke 调用及细粒度安全权限文件。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude Code、Cursor、Windsurf、Cline 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Tauri v2 Agent Skills is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. Prevents coding agents from mixing deprecated Tauri v1 `allowlist` configs into Tauri v2 projects, covering the v2 Capabilities security model, IPC commands and official plugin system.
+
+    Released under the MIT license, it works across Claude Code, Cursor, Windsurf, Cline. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

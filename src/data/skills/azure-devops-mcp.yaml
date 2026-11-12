@@ -24,3 +24,12 @@ description:
     Microsoft's official open-source (MIT) Azure DevOps MCP server. Agents can query and update work
     items, review PRs, inspect build and release pipelines and search wikis. Requires an existing
     Azure DevOps organization (free for small teams).
+review:
+  zh: |
+    Azure DevOps MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。微软官方开源（MIT）的 Azure DevOps MCP 服务器，让 Agent 查询和更新工作项、审阅 PR、查看构建与发布流水线、检索 Wiki。需要已有的 Azure DevOps 组织（小团队可免费使用）。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx -y @azure-devops/mcp <your-org>` 快速接入，无缝兼容 Claude Code、Cursor、VS Code、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Azure DevOps MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Microsoft's official open-source (MIT) Azure DevOps MCP server. Agents can query and update work items, review PRs, inspect build and release pipelines and search wikis. Requires an existing Azure DevOps organization (free for small teams).
+
+    Released under the MIT license, it works across Claude Code, Cursor, VS Code, Any MCP client. You can set it up quickly via `npx -y @azure-devops/mcp <your-org>`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

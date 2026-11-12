@@ -19,3 +19,12 @@ tagline:
 description:
   zh: 开源的 MCP 服务器，让 Agent 查询、创建、修改和删除 Google 日历事件，支持多账号、空闲时间查询和自然语言排程。需要自建 Google OAuth 凭据。
   en: An open-source MCP server that lets agents list, create, update and delete Google Calendar events, with multi-account support, free/busy queries and natural-language scheduling. Requires your own Google OAuth credentials.
+review:
+  zh: |
+    Google Calendar MCP 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。开源的 MCP 服务器，让 Agent 查询、创建、修改和删除 Google 日历事件，支持多账号、空闲时间查询和自然语言排程。需要自建 Google OAuth 凭据。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，可通过 `npx @cocal/google-calendar-mcp` 快速接入，无缝兼容 Claude、Claude Code、Cursor、Cline、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Google Calendar MCP is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. An open-source MCP server that lets agents list, create, update and delete Google Calendar events, with multi-account support, free/busy queries and natural-language scheduling. Requires your own Google OAuth credentials.
+
+    Released under the MIT license, it works across Claude, Claude Code, Cursor, Cline, Any MCP client. You can set it up quickly via `npx @cocal/google-calendar-mcp`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

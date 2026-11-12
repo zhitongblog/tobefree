@@ -2,7 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ToolCard from '../../../components/ToolCard.astro';
 import SkillCard from '../../../components/SkillCard.astro';
-import { SITE, pick, type Locale } from '../../../consts';
+import { SITE, badgeById, platformById, pick, type Locale } from '../../../consts';
 import { locales, localizedPath, type Lang } from '../../../i18n/utils';
 import { getAllCollectionPages } from '../../../lib/collections';
 import { getAllTools } from '../../../lib/tools';
@@ -34,6 +34,18 @@ const selectedTools = page.data.tools.map((id) => toolById.get(id)).filter(Boole
 const selectedSkills = page.data.skills.map((id) => skillById.get(id)).filter(Boolean) as typeof skills;
 const recommendationCount = selectedTools.length + selectedSkills.length;
 const abs = (p: string) => new URL(p, SITE.url).href;
+
+const allCollections = await getAllCollectionPages();
+const currentItemSet = new Set([...page.data.tools, ...page.data.skills]);
+const relatedCollections = allCollections
+  .filter((c) => c.id !== page.id)
+  .map((c) => {
+    const overlap = [...c.data.tools, ...c.data.skills].filter((id) => currentItemSet.has(id)).length;
+    return { col: c, score: overlap * 10 + (c.data.featured ? 1 : 0) };
+  })
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 4)
+  .map((x) => x.col);
 
 const itemListElement = [
   ...selectedTools.map((tool, i) => ({
@@ -113,6 +125,65 @@ const jsonLd = [
       </section>
     )}
 
+    {recommendationCount > 0 && (
+      <section class="compare-matrix">
+        <div class="section-head compact">
+          <h2>{lang === 'zh' ? '一表看懂横向对比' : 'Quick Comparison Matrix'}</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>{lang === 'zh' ? '名称' : 'Name'}</th>
+                <th>{lang === 'zh' ? '核心定位' : 'Best For'}</th>
+                <th>{lang === 'zh' ? '开源/协议' : 'License'}</th>
+                <th>{lang === 'zh' ? '支持平台 / 客户端' : 'Platforms / Clients'}</th>
+                <th>{lang === 'zh' ? '自由特性' : 'Freedom Highlights'}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {selectedTools.map((tool) => (
+                <tr>
+                  <td class="col-name">
+                    <a href={localizedPath(lang, `tools/${tool.id}`)}>{tool.data.name}</a>
+                  </td>
+                  <td class="col-desc">{pick(tool.data.tagline, loc)}</td>
+                  <td class="col-lic">{tool.data.license || 'Free'}</td>
+                  <td class="col-plat">
+                    {tool.data.platforms
+                      .map((p) => (platformById[p] ? pick(platformById[p].label, loc) : p))
+                      .join(', ')}
+                  </td>
+                  <td class="col-badges">
+                    {tool.data.badges
+                      .slice(0, 4)
+                      .map((b) => (badgeById[b] ? pick(badgeById[b].label, loc) : b))
+                      .join(' · ')}
+                  </td>
+                </tr>
+              ))}
+              {selectedSkills.map((skill) => (
+                <tr>
+                  <td class="col-name">
+                    <a href={localizedPath(lang, `skills/${skill.id}`)}>{skill.data.name}</a>
+                  </td>
+                  <td class="col-desc">{pick(skill.data.tagline, loc)}</td>
+                  <td class="col-lic">{skill.data.license || 'Open Source'}</td>
+                  <td class="col-plat">{skill.data.clients.slice(0, 4).join(', ')}</td>
+                  <td class="col-badges">
+                    {skill.data.badges
+                      .slice(0, 4)
+                      .map((b) => (badgeById[b] ? pick(badgeById[b].label, loc) : b))
+                      .join(' · ')}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
     {selectedTools.length > 0 && (
       <section class="recommendations">
         <div class="section-head compact">
@@ -146,6 +217,22 @@ const jsonLd = [
             </div>
           ))}
         </dl>
+      </section>
+    )}
+
+    {relatedCollections.length > 0 && (
+      <section class="related-collections">
+        <div class="section-head compact">
+          <h2>{lang === 'zh' ? '相关专题推荐' : 'Related Collections'}</h2>
+        </div>
+        <div class="rel-col-grid">
+          {relatedCollections.map((rc) => (
+            <a class="rel-col-card" href={localizedPath(lang, `collections/${rc.id}`)}>
+              <h3>{pick(rc.data.title, loc)}</h3>
+              <p>{pick(rc.data.description, loc)}</p>
+            </a>
+          ))}
+        </div>
       </section>
     )}
   </article>
@@ -235,5 +322,93 @@ const jsonLd = [
   .qa dd {
     color: var(--text-soft);
     line-height: 1.7;
+  }
+  .compare-matrix {
+    margin: 2.2rem 0 2.8rem;
+  }
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  th,
+  td {
+    padding: 0.78rem 1rem;
+    border-bottom: 1px solid var(--border-soft);
+    vertical-align: top;
+  }
+  th {
+    background: var(--surface-2);
+    color: var(--text);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  .col-name {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .col-desc {
+    color: var(--text-soft);
+    min-width: 220px;
+  }
+  .col-lic {
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--text-soft);
+    white-space: nowrap;
+  }
+  .col-plat,
+  .col-badges {
+    color: var(--text-soft);
+    font-size: 0.84rem;
+  }
+  .related-collections {
+    margin-top: 3.4rem;
+    padding-top: 2.2rem;
+    border-top: 1px solid var(--border);
+  }
+  .rel-col-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+  .rel-col-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    padding: 1.15rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+    transition: transform 0.16s var(--ease), border-color 0.16s;
+  }
+  .rel-col-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  .rel-col-card h3 {
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+  .rel-col-card p {
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    line-height: 1.55;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 </style>

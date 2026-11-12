@@ -27,3 +27,12 @@ description:
     security, data, business analysis and more. Each runs in its own context with
     carefully written instructions and tool permissions, installable globally or per
     project. 20k+ GitHub stars.
+review:
+  zh: |
+    Awesome Claude Code Subagents 是面向现代 AI 辅助编程与工作流的开源 AI Agent 技能包（Agent Skill）。VoltAgent 维护的开源（MIT）子 Agent 合集，收录 150+ 个覆盖核心开发、基础设施、安全、数据、 业务分析等 10 大类的专职子 Agent。每个都是独立上下文、有精心编写指令与工具权限的领域专家， 可全局或按项目安装。GitHub 上 2 万+ star。
+
+    在实用性与工程自由度上，它采用 MIT 协议开放源码，无缝兼容 Claude Code 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    Awesome Claude Code Subagents is an open-source modular AI Agent Skill built for modern AI-assisted development workflows. An open-source (MIT) subagent collection maintained by VoltAgent, gathering 150+ specialized subagents across 10 categories — core development, infrastructure, security, data, business analysis and more. Each runs in its own context with carefully written instructions and tool permissions, installable globally or per project. 20k+ GitHub stars.
+
+    Released under the MIT license, it works across Claude Code. it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.

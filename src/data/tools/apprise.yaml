@@ -1,0 +1,44 @@
+name: Apprise
+accent: "#10B981"
+initials: AP
+category: dev
+price: free
+license: BSD-2-Clause
+website: https://github.com/caronc/apprise
+download: https://pypi.org/project/apprise/
+repo: https://github.com/caronc/apprise
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-12'
+tags:
+  - 通知网关
+  - 消息推送
+  - 多渠道通知
+  - Webhook
+  - 命令行
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 打通 90+ 通知渠道的开源消息推送「瑞士军刀」，一套统一接口发遍全网软件
+  en: The open-source notification Swiss Army knife supporting 90+ push services through one unified CLI and API
+description:
+  zh: 用极简的 URL 语法统一对接 Telegram、飞书、钉钉、企业微信、Slack、Discord、Bark、ntfy、Gotify、邮件等 90+ 平台，支持命令行直接调用、Python 库集成或 Docker 自建统一网关。
+  en: Uses a universal URL syntax to send notifications, attachments, and alerts to 90+ services (Telegram, Discord, Slack, ntfy, Gotify, Bark, Email, Matrix, and more) via CLI, Python, or self-hosted API.
+review:
+  zh: |
+    为什么像 Uptime Kuma、changedetection.io 等开源项目一出世就能支持将近 100 种通知方式？因为它们底层都集成了 Apprise！你也可以直接在自己的命令行或定时脚本里调用 `apprise`，用一行命令同时往飞书、Telegram 和手机 Bark 发通知。
+  en: |
+    Apprise is the engine powering notifications inside dozens of major self-hosted apps. Use its CLI or self-hosted API to fan out alerts to 90+ platforms with a single command.

@@ -24,3 +24,12 @@ description:
     Google's open-source (Apache-2.0) database MCP server. A single tools.yaml exposes PostgreSQL,
     MySQL, SQL Server, SQLite, BigQuery, Spanner and dozens more to your agent, with connection
     pooling and auth built in.
+review:
+  zh: |
+    MCP Toolbox for Databases 是面向现代 AI 辅助编程与工作流的开源 MCP 服务（Model Context Protocol Server）。Google 开源（Apache-2.0）的数据库 MCP 服务器，一份 tools.yaml 就能把 PostgreSQL、MySQL、SQL Server、SQLite、BigQuery、Spanner 等几十种数据源交给 Agent，内置连接池和鉴权，适合把"查库"安全地交给 AI。
+
+    在实用性与工程自由度上，它采用 Apache-2.0 协议开放源码，可通过 `npx @toolbox-sdk/server --config tools.yaml` 快速接入，无缝兼容 Claude Code、Cursor、Gemini CLI、Any MCP client 等主流客户端，无广告且不捆绑私有订阅，非常适合作为开发者的日常生产力增强组件。
+  en: |
+    MCP Toolbox for Databases is an open-source Model Context Protocol (MCP) server built for modern AI-assisted development workflows. Google's open-source (Apache-2.0) database MCP server. A single tools.yaml exposes PostgreSQL, MySQL, SQL Server, SQLite, BigQuery, Spanner and dozens more to your agent, with connection pooling and auth built in.
+
+    Released under the Apache-2.0 license, it works across Claude Code, Cursor, Gemini CLI, Any MCP client. You can set it up quickly via `npx @toolbox-sdk/server --config tools.yaml`, and it ships with zero ads or vendor lock-in, making it a reliable addition to your local agent stack.
