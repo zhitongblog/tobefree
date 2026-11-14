@@ -1,0 +1,38 @@
+name: Pangolin
+accent: "#F97316"
+initials: PG
+category: selfhosted
+price: free
+license: AGPL-3.0
+website: https://github.com/fosrl/pangolin
+download: https://github.com/fosrl/pangolin/releases
+repo: https://github.com/fosrl/pangolin
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 内网穿透网关
+  - Cloudflare-Tunnel平替
+  - 身份认证代理
+  - WireGuard
+  - 自建安全
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 集 WireGuard 加密内网穿透与统一身份访问控制于一体的开源反向代理（Cloudflare Tunnel 自建平替）
+  en: Identity-aware open-source tunneled reverse proxy — a fully self-hosted alternative to Cloudflare Tunnels and Zero Trust
+description:
+  zh: 无需家庭宽带具备公网 IP 或开放路由器端口。通过加密隧道将家里的服务安全映射到 VPS，并在代理层直接拦截未登录访问，附加统一单点登录（SSO）、一次性验证码、密码或 IP 白名单保护。
+  en: Exposes private homelab services without opening router ports via encrypted WireGuard tunnels, wrapping every app in built-in SSO, PIN/password gates, and granular access rules.
+review:
+  zh: |
+    Pangolin 是近期在 Selfh.st 与 Reddit 自建社区爆火的明星项目！很多人用 Cloudflare Tunnel 穿回家里，但受限于大视频流媒体协议条款且流量要经过第三方解密；Pangolin 让你在自己的 VPS 上一键搭起「加密穿透隧道 + 网页登录门禁二合一」网关，满速看 4K 视频且安全可控。
+  en: |
+    Pangolin has taken the self-hosted community by storm by combining encrypted NAT-traversal tunnels with built-in zero-trust authentication gates—giving you a private, unthrottled alternative to Cloudflare Tunnels.

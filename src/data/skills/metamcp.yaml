@@ -1,0 +1,43 @@
+kind: mcp
+name: MetaMCP
+accent: "#4F46E5"
+initials: MM
+license: MIT
+website: https://metamcp.com
+repo: https://github.com/metatool-ai/metamcp
+install: npx -y @metamcp/mcp-server-metamcp
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - MCP编排
+  - 工作区切换
+  - 权限隔离
+  - MCP中间件
+  - 统一管理
+clients:
+  - Claude Desktop
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 开源的 MCP 统一编排、工作区命名空间隔离与工具权限管理平台
+  en: Open-source MCP aggregator, workspace namespace manager, and middleware GUI for controlling agent tools
+description:
+  zh: 将数十个本地 stdio 与远程 SSE MCP 服务统一收纳进可视化管理后台，支持按项目切分不同的「工作区配置（Namespaces）」，一键启用或屏蔽特定工具，并监控所有工具调用日志。
+  en: Aggregates all your stdio and remote MCP servers into one unified proxy with visual workspace namespaces—letting you toggle tool sets per project and inspect live tool-call logs.
+review:
+  zh: |
+    装了二十几个 MCP 服务后，如果一股脑全开，光是工具定义就会吃掉大模型上万个 Token。MetaMCP 允许你创建「前端开发包」「后端运维包」「写作研究包」等不同工作区，在网页后台点一下就能热切换当前向 Agent 暴露的工具集。
+  en: |
+    Loading 20+ MCP servers at once bloats your context window. MetaMCP lets you organize servers into project-specific workspaces and toggle active tools dynamically without restarting your IDE.

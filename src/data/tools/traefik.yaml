@@ -1,0 +1,43 @@
+name: Traefik Proxy
+accent: "#24A1C1"
+initials: TF
+category: selfhosted
+price: free
+license: MIT
+website: https://traefik.io/traefik/
+download: https://github.com/traefik/traefik/releases
+repo: https://github.com/traefik/traefik
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 反向代理
+  - Docker自动发现
+  - HTTPS证书
+  - 云原生网关
+  - 负载均衡
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 专为容器与微服务设计的开源反向代理网关，自动发现新增 Docker 容器并签发 HTTPS 证书
+  en: Cloud-native open-source reverse proxy and load balancer with automatic Docker discovery and Let’s Encrypt SSL
+description:
+  zh: 无需在每次新装一个 Docker 服务时手动去改反代配置文件并重启。只需在 docker-compose.yml 里加两行 Label，Traefik 就会自动识别新服务、绑定子域名并自动申请续期通配符 SSL 证书。
+  en: Automatically detects new Docker containers or Kubernetes ingresses via labels, routes traffic dynamically without restarts, and provisions Let’s Encrypt certificates out of the box.
+review:
+  zh: |
+    如果你在服务器上维护二三十个 Docker Compose 自建服务，Traefik 的「纯 Label 自动发现」会让运维变得无比优雅：新启动一个容器，子域名和 HTTPS 证书当场自动生效，连管理面板都不用点。
+  en: |
+    Traefik is a favorite among homelabbers and DevOps engineers because it discovers new Docker containers automatically via compose labels and handles HTTPS certificates dynamically under the MIT license.

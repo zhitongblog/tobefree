@@ -1,0 +1,42 @@
+name: exo
+accent: "#10B981"
+initials: EX
+category: ai
+price: free
+license: GPL-3.0
+website: https://github.com/exo-explore/exo
+download: https://github.com/exo-explore/exo
+repo: https://github.com/exo-explore/exo
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 分布式AI集群
+  - 局域网算力合并
+  - Apple-Silicon
+  - 本地大模型
+  - 多设备协同
+platforms:
+  - macos
+  - linux
+  - ios
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 把家里闲置的 MacBook、Mac mini、Linux 台式机甚至手机自动拼成一台超大显存的本地 AI 集群
+  en: Run your own AI cluster at home by pooling memory across everyday devices (MacBooks, Linux PCs, iPads, phones)
+description:
+  zh: 零配置局域网自动发现设备，按每台设备的内存大小智能切分模型网络层（Pipeline Parallelism）。让你用两三台普通电脑的内存总和，在本地离线跑起单机装不下的超大参数开源模型。
+  en: Automatically discovers devices on your local network and splits large language models across their combined memory—letting you run massive models that wouldn’t fit on a single machine.
+review:
+  zh: |
+    手头有一台 16GB 的 MacBook 和一台 16GB 的台式机，单台跑不动 32B/70B 的大模型怎么办？exo 可以自动把局域网里的多台设备串联成一个统一内存池，无需复杂主从节点配置，打开就能合体跑大模型。
+  en: |
+    Can’t fit a large 70B model onto a single laptop? exo automatically pools the unified memory and VRAM of your Macs and Linux machines over LAN or Thunderbolt with zero manual cluster configuration.

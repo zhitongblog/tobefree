@@ -1,0 +1,38 @@
+name: Quant-UX
+accent: "#2563EB"
+initials: QX
+category: creative
+price: free
+license: GPL-3.0
+website: https://www.quant-ux.com
+download: https://github.com/KlausSchaefers/quant-ux
+repo: https://github.com/KlausSchaefers/quant-ux
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 原型设计
+  - 可用性测试
+  - 热力图
+  - UI设计
+  - 自建设计工具
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 集视觉原型设计、交互逻辑验证与用户点击热力图分析于一体的开源 UX 平台
+  en: Open-source UX prototyping, wireframing, and usability testing platform with click heatmaps and analytics
+description:
+  zh: 不仅能快速绘制带数据绑定和条件跳转的高保真交互原型，还能直接生成测试链接发给真实用户，自动录制操作回放、生成点击热力图与转化漏斗统计，支持 Docker 完全自建。
+  en: Combines visual UI prototyping and conditional logic with built-in usability testing—recording user journeys, click heatmaps, and task drop-off analytics on your own self-hosted server.
+review:
+  zh: |
+    大多数原型工具只能画图，要做可用性测试还得另外购买昂贵的 Maze 或 Hotjar。Quant-UX 把「画交互原型」和「量化可用性测试热力图」合二为一，并且以 GPL-3.0 协议完整开源，非常适合产品经理与独立开发者验证点子。
+  en: |
+    Quant-UX bridges visual prototyping and quantitative user research—letting you build interactive wireframes and measure real user click heatmaps and task completion rates for free.

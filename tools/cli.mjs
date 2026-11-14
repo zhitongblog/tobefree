@@ -13,6 +13,7 @@ import {
   CATEGORIES, BADGES, PLATFORMS, PRICE_MODELS,
   listTools, validate, writeTool,
   SUPPORTER_KINDS, listSupporters, validateSupporter, writeSupporter,
+  listSkills, listCollections, validateCollection,
 } from './lib.mjs';
 
 const rl = createInterface({ input: stdin, output: stdout });
@@ -106,7 +107,11 @@ function listFlow() {
 
 function validateFlow() {
   const tools = listTools();
+  const skills = listSkills();
+  const collections = listCollections();
   const supporters = listSupporters();
+  const toolSlugs = new Set(tools.map((t) => t.slug));
+  const skillSlugs = new Set(skills.map((s) => s.slug));
   let bad = 0;
   const check = (slug, errs) => {
     if (!errs.length) return;
@@ -115,9 +120,17 @@ function validateFlow() {
     errs.forEach((e) => console.log(`    ${e}`));
   };
   for (const { slug, data } of tools) check(slug, validate(data));
+  for (const { slug, data } of collections) check(`collections/${slug}`, validateCollection(data, toolSlugs, skillSlugs));
   for (const { slug, data } of supporters) check(`supporters/${slug}`, validateSupporter(data));
-  if (bad === 0) console.log(c.green(`✓ ${tools.length} 款工具、${supporters.length} 位支持者全部通过校验`));
-  else console.log(c.red(`\n${bad} 个文件有问题`));
+  const coveredTools = new Set(collections.flatMap((c) => c.data.tools || []));
+  const coveredSkills = new Set(collections.flatMap((c) => c.data.skills || []));
+  const orphanTools = [...toolSlugs].filter((s) => !coveredTools.has(s));
+  const orphanSkills = [...skillSlugs].filter((s) => !coveredSkills.has(s));
+  if (bad === 0) {
+    console.log(c.green(`✓ ${tools.length} 款工具、${skills.length} 款技能/MCP、${collections.length} 篇专题（0 悬空引用，孤立项: ${orphanTools.length} 工具 / ${orphanSkills.length} 技能）、${supporters.length} 位支持者全部通过校验`));
+  } else {
+    console.log(c.red(`\n${bad} 个文件有问题`));
+  }
   if (bad) process.exitCode = 1;
 }
 

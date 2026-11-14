@@ -6,7 +6,7 @@ description:
   en: Seven free code editors and IDEs, from works-out-of-the-box to fully configurable, with each one's telemetry behaviour and commercial licensing stated.
 intro:
   zh: 编辑器这件事上免费不是问题 —— 这个品类里最流行的几个本来就不收钱。真正值得看清的是另外两层：一是遥测，微软发行版的 VS Code 默认开着使用数据收集，同一份代码的社区构建 VSCodium 把这部分去掉了；二是商用授权，IntelliJ IDEA 社区版是 Apache-2.0，公司里用也不需要买授权，这一点常被误解。这份清单按上手成本排，从装完就能写到需要自己搭一套配置。
-  en: 'Free is not the interesting question here — several of the most popular editors never charged. Two other layers are worth seeing clearly. One is telemetry: Microsoft''s VS Code build collects usage data by default, while VSCodium, the community build of the same source, removes it. The other is commercial licensing: IntelliJ IDEA Community Edition is Apache-2.0 and needs no purchase for company use, which is regularly misunderstood. This list runs by entry cost, from writing code immediately to assembling your own configuration.'
+  en: "Free is not the interesting question here — several of the most popular editors never charged. Two other layers are worth seeing clearly. One is telemetry: Microsoft's VS Code build collects usage data by default, while VSCodium, the community build of the same source, removes it. The other is commercial licensing: IntelliJ IDEA Community Edition is Apache-2.0 and needs no purchase for company use, which is regularly misunderstood. This list runs by entry cost, from writing code immediately to assembling your own configuration."
 criteria:
   zh:
     - 核心编辑功能完全免费，没有按项目数或文件大小的限制。
@@ -28,6 +28,9 @@ tools:
   - helix
   - lapce
   - void-editor
+  - gitbutler
+  - radicle
+  - masscode
 skills: []
 featured: true
 added: '2026-09-18'
@@ -47,7 +50,7 @@ faq:
     - q: How do VS Code and VSCodium relate?
       a: Two builds of the same open-source code. Microsoft's VS Code adds telemetry, Microsoft branding and some closed components on top, with usage data collection on by default (it can be turned off in settings). VSCodium builds from the same source with telemetry and branding removed and identical functionality. The trade is that it points at the open extension registry rather than Microsoft's, so a few Microsoft-only extensions — the remote development set among them — cannot be installed.
     - q: Can IntelliJ IDEA Community Edition be used at a company?
-      a: 'Yes. It is Apache-2.0 and commercial use requires no purchase. The difference from paid Ultimate is language and framework coverage: Community handles Java, Kotlin, Groovy, Scala with Maven and Gradle, which is enough for backend and Android work, while Ultimate adds web front-end, Spring, database tooling and deeper framework support. For pure Java or Kotlin, Community is a complete IDE.'
+      a: "Yes. It is Apache-2.0 and commercial use requires no purchase. The difference from paid Ultimate is language and framework coverage: Community handles Java, Kotlin, Groovy, Scala with Maven and Gradle, which is enough for backend and Android work, while Ultimate adds web front-end, Spring, database tooling and deeper framework support. For pure Java or Kotlin, Community is a complete IDE."
     - q: Is Zed worth switching to?
       a: It depends what you value. Zed is rewritten in Rust with noticeably lower startup and input latency than the Electron generation, it does not stall on large files, and collaborative editing and AI integration are built in. Its extension ecosystem is far smaller than VS Code's and toolchain support for some languages is still filling in. Worth trying for mainstream languages without exotic plugin dependencies; check for an equivalent first if you rely heavily on a particular VS Code extension.
     - q: Neovim or Helix?

@@ -1,0 +1,42 @@
+name: Trivy
+accent: "#0EA5E9"
+initials: TV
+category: privacy
+price: free
+license: Apache-2.0
+website: https://trivy.dev
+download: https://github.com/aquasecurity/trivy/releases
+repo: https://github.com/aquasecurity/trivy
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 漏洞扫描
+  - 容器安全
+  - Docker体检
+  - SBOM
+  - 供应链安全
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 全能开源安全与漏洞扫描器，一键体检 Docker 镜像、代码依赖、K8s 配置与 SBOM
+  en: Comprehensive open-source vulnerability, misconfiguration, and secret scanner for containers and codebases
+description:
+  zh: 由 Aqua Security 开源的行业标准扫描工具。支持扫描容器镜像、本地文件系统、Git 仓库、虚拟机镜像与 IaC（Terraform/Dockerfile/K8s）配置缺陷及软件物料清单（SBOM）。
+  en: Finds CVEs, OS package vulnerabilities, language dependency flaws, IaC misconfigurations, and leaked secrets across Docker images, filesystems, and Git repositories.
+review:
+  zh: |
+    不管是拉取别人的 Docker 镜像自建服务，还是发布自己的项目，跑一行 `trivy image` 或 `trivy fs .` 就能把系统底层包、npm/pip/Go 依赖漏洞和 Dockerfile 配置风险查个底朝天，Apache-2.0 完全免费开源。
+  en: |
+    Trivy is the Swiss Army knife of security scanning: point it at a Docker image, local folder, or Kubernetes manifest and get a clear report of CVEs, misconfigurations, and exposed secrets for free.

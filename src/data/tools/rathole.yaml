@@ -1,0 +1,43 @@
+name: rathole
+accent: "#D97706"
+initials: RH
+category: remote
+price: free
+license: Apache-2.0
+website: https://github.com/rapiz1/rathole
+download: https://github.com/rapiz1/rathole/releases
+repo: https://github.com/rapiz1/rathole
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 内网穿透
+  - Rust
+  - 低内存
+  - Noise加密
+  - 路由器工具
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 用 Rust 编写的超轻量、高吞吐内网穿透工具，内存占用低至几百 KB，硬路由也能跑
+  en: Lightweight, high-performance Rust reverse proxy for NAT traversal with Noise Protocol encryption and sub-megabyte RAM usage
+description:
+  zh: 专为追求极致吞吐量与超低硬件开销的场景设计。编译体积极小、空载内存不足 1MB，原生内置 Noise 协议与 TLS 传输加密，支持配置文件热重载。
+  en: Engineered in Rust for high throughput and tiny memory footprints (~500KB RAM), making it ideal for embedded routers, Raspberry Pis, and low-spec VPS instances.
+review:
+  zh: |
+    如果你的软路由或嵌入式设备内存极其紧张，用 Rust 编写的 rathole 是 frp 最强悍的轻量替代方案：不仅高并发吞吐表现优异，而且内置 Noise 加密协议，几行 TOML 就能配好加密穿透隧道。
+  en: |
+    Written in Rust, rathole delivers higher throughput and a tiny ~500KB memory footprint compared to traditional proxies, with built-in Noise Protocol encryption.

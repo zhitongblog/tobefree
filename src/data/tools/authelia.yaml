@@ -1,0 +1,40 @@
+name: Authelia
+accent: "#1E3A8A"
+initials: AU
+category: privacy
+price: free
+license: Apache-2.0
+website: https://www.authelia.com
+download: https://github.com/authelia/authelia/releases
+repo: https://github.com/authelia/authelia
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 单点登录
+  - 双因素认证
+  - 反向代理门禁
+  - 2FA
+  - WebAuthn
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 与 Nginx / Traefik / Caddy 无缝集成的开源统一认证与双因素安全门禁网关
+  en: Open-source authentication and authorization server providing 2FA, WebAuthn Passkeys, and SSO for reverse proxies
+description:
+  zh: 单 Go 二进制运行，为本身不带密码保护或登录较弱的自建网页应用在反向代理层外挂一道坚固的统一登录墙，支持 TOTP 动态口令、WebAuthn 硬件密钥/Passkey 与细粒度域名访问控制规则。
+  en: Works alongside Caddy, Traefik, or Nginx to put a unified SSO and two-factor authentication (TOTP, WebAuthn, Duo) portal in front of any self-hosted web application.
+review:
+  zh: |
+    很多好用的开源小工具本身没有写登录界面，直接放到公网上等于裸奔。把 Authelia 挂在你的 Caddy 或 Traefik 前面，就能用不到 30MB 的内存为所有子域名统一加上高颜值的双因素认证（2FA）大门。
+  en: |
+    Authelia uses under 30MB of RAM to place a battle-tested Single Sign-On and Two-Factor Authentication portal in front of every self-hosted app behind your reverse proxy.

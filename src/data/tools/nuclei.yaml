@@ -1,0 +1,42 @@
+name: Nuclei
+accent: "#8B5CF6"
+initials: NC
+category: privacy
+price: free
+license: MIT
+website: https://projectdiscovery.io/nuclei
+download: https://github.com/projectdiscovery/nuclei/releases
+repo: https://github.com/projectdiscovery/nuclei
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 漏洞扫描器
+  - YAML模板
+  - 渗透测试
+  - 安全巡检
+  - Go
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 基于 YAML 模板驱动的极速开源漏洞扫描器，背靠数千个社区实时更新的安全检测规则
+  en: Fast, YAML-template-based open-source vulnerability scanner backed by thousands of community security templates
+description:
+  zh: 由 ProjectDiscovery 开源的现代安全巡检引擎。支持对 HTTP、DNS、TCP、SSL、WebSocket 与云配置进行零误报模拟请求验证，帮你在上线前自查服务端配置漏洞与已知 CVE。
+  en: Sends fast, targeted requests across HTTP, DNS, TCP, SSL, and headless browsers using simple YAML templates to verify real-world CVEs and server misconfigurations with near-zero false positives.
+review:
+  zh: |
+    在把自建服务暴露到公网之前，用 Nuclei 对自己的域名或测试环境扫一遍，能快速发现未授权访问接口、过期证书、默认后台弱口令以及最新的 CVE 漏洞，MIT 协议完全开源免费。
+  en: |
+    Before exposing any web app or homelab service to the internet, run Nuclei against your endpoints to catch exposed panels, default credentials, and known CVEs using community-maintained YAML templates.

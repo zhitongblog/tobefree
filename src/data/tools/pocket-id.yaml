@@ -1,0 +1,38 @@
+name: Pocket ID
+accent: "#18181B"
+initials: PI
+category: privacy
+price: free
+license: MIT
+website: https://pocket-id.org
+download: https://github.com/pocket-id/pocket-id/releases
+repo: https://github.com/pocket-id/pocket-id
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - Passkey登录
+  - OIDC认证
+  - 单点登录
+  - 无密码认证
+  - 指纹面容解锁
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 专为通行密钥（Passkeys）设计的极简开源 OIDC 单点登录服务，用指纹/面容一键登录所有自建应用
+  en: Simple, lightweight open-source OIDC provider that authenticates your self-hosted apps exclusively with Passkeys
+description:
+  zh: 摒弃笨重复杂的传统企业级 IAM 系统与容易被撞库的密码。用极少内存提供标准 OIDC 单点登录服务端，让你的 Immich、Nextcloud、Paperless、Portainer 等自建服务直接通过手机 FaceID 或电脑 TouchID 无密码秒登。
+  en: Ditches complex enterprise LDAP/IAM bloat and passwords entirely—providing a clean, MIT-licensed OIDC identity provider that signs you into all your self-hosted apps via FaceID, TouchID, or YubiKey passkeys.
+review:
+  zh: |
+    以前想给自建服务配统一单点登录（SSO），装 Keycloak 或 Authentik 往往要吃掉好几百 MB 内存且配置极其繁琐。Pocket ID 只做一件事并做到了极致：**纯 Passkey（通行密钥）轻量 OIDC 登录**，内存占用极低，按一下指纹就能登进所有自建应用。
+  en: |
+    If Keycloak or Authentik feel like overkill for a personal homelab, Pocket ID is a breath of fresh air: a tiny, MIT-licensed OIDC server built purely around passwordless Passkeys.

@@ -29,7 +29,9 @@ tools:
   - kodi
   - supersonic
   - grayjay
-skills: []
+  - foobar2000
+skills:
+  - spotify-mcp
 featured: false
 added: '2026-09-24'
 faq:

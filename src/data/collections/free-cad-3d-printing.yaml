@@ -6,7 +6,7 @@ description:
   en: Twelve free tools for modelling, circuit design, interior layout, brick building and 3D print slicing — no watermarked exports, no file count limits, no cloud lock-in.
 intro:
   zh: 工程软件的免费版通常有三道锁：导出格式限制、文件数量上限、以及「个人版」条款里那句年营收超过某个数就要转商业授权。文件还经常只存在厂商云上，停止订阅就打不开。这份清单里的工具用的是开放格式，文件在你本机，按用途分四类：参数化建模、电路设计、室内与家具、3D 打印切片。
-  en: 'Free tiers in engineering software usually carry three locks: export format restrictions, a cap on how many files you may keep, and a clause in the personal licence converting you to commercial terms above a revenue threshold. Files also tend to live only in a vendor cloud, unopenable once the subscription stops. Everything here uses open formats with files on your own machine, sorted four ways — parametric modelling, circuit design, interiors and furniture, and 3D print slicing.'
+  en: "Free tiers in engineering software usually carry three locks: export format restrictions, a cap on how many files you may keep, and a clause in the personal licence converting you to commercial terms above a revenue threshold. Files also tend to live only in a vendor cloud, unopenable once the subscription stops. Everything here uses open formats with files on your own machine, sorted four ways — parametric modelling, circuit design, interiors and furniture, and 3D print slicing."
 criteria:
   zh:
     - 导出不加水印，不限制文件数量和导出格式。
@@ -36,6 +36,11 @@ tools:
   - horizon-eda
   - librepcb
   - meshlab
+  - cloudcompare
+  - fritzing
+  - kirimoto
+  - mayo-cad
+  - wings-3d
 skills: []
 featured: false
 added: '2026-09-18'
@@ -55,6 +60,6 @@ faq:
     - q: OrcaSlicer or PrusaSlicer?
       a: Same lineage; OrcaSlicer is a fork of PrusaSlicer. PrusaSlicer is steadier and best tuned for Prusa's own machines. OrcaSlicer moves faster, ships profiles for many more third-party printers, and adds calibration tools such as automatic flow tuning and pressure advance tests. People running Bambu or Creality machines mostly choose OrcaSlicer.
     - q: What about floor plans and interior design?
-      a: 'LibreCAD for 2D technical drawing — its interface and logic sit close to classic AutoCAD, it reads and writes DXF, and it is enough for plan drawings. Sweet Home 3D for home layout: drag furniture onto a plan and get a 3D view alongside, with no modelling background required.'
+      a: "LibreCAD for 2D technical drawing — its interface and logic sit close to classic AutoCAD, it reads and writes DXF, and it is enough for plan drawings. Sweet Home 3D for home layout: drag furniture onto a plan and get a 3D view alongside, with no modelling background required."
     - q: Does SolveSpace overlap with FreeCAD?
       a: No. SolveSpace is far smaller, built around a constraint solver, suited to mechanism motion analysis and simple parts, and it opens instantly. FreeCAD is much broader, with workbenches for part design, assemblies, finite element analysis and CAM. A small bracket is faster in SolveSpace; a full assembly belongs in FreeCAD.

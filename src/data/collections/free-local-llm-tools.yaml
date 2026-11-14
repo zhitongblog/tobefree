@@ -3,7 +3,7 @@ title:
   en: Free Tools to Run LLMs Locally
 description:
   zh: 在自己电脑上跑大模型的四个常见选择，全部免费、不需要注册账号、可离线运行。含协议真相与安装包体积实测。
-  en: 'Four common ways to run large language models on your own machine: all free, no account required, all able to run offline. Includes licence facts and measured installer sizes.'
+  en: "Four common ways to run large language models on your own machine: all free, no account required, all able to run offline. Includes licence facts and measured installer sizes."
 intro:
   zh: 在本地跑大模型现在不需要显卡集群，也不需要给谁付订阅费。但这几个常被并排比较的工具其实处在不同的层——有的是引擎，有的是桌面应用，有的是自建的网页界面。选错层比选错产品更常见。这个专题按「你缺哪一层」来分，所有数字截至 2026 年 8 月，可在各自发布页核对。
   en: Running a model locally no longer needs a GPU cluster or a subscription. But the tools people compare side by side actually sit at different layers — one is an engine, two are desktop apps, one is a self-hosted web interface. Picking the wrong layer is a more common mistake than picking the wrong product. This collection sorts them by which layer you are missing. All figures verified August 2026 against official release pages.
@@ -37,6 +37,10 @@ tools:
   - open-jev
   - mlx-lm
   - pinokio
+  - llamafile
+  - vllm
+  - exo
+  - lobe-chat
 skills: []
 featured: true
 added: '2026-08-14'
@@ -54,8 +58,8 @@ faq:
     - q: Which of the four should I install?
       a: It depends on which layer you are missing. If you never want to touch a terminal, install LM Studio or Jan — one app is enough. If you want a local model wired into an editor, a script or your own program, install Ollama, whose local API is the de-facto standard interface. If you want browser access or want to share it with a few people, Ollama plus Open WebUI is the usual pairing.
     - q: What hardware do I need?
-      a: 'A 7B-class model typically adds 4-5 GB of disk on top of the app, and it can fall back to CPU when VRAM is short — just slower. Check disk space first: Ollama''s Windows installer alone is 1492 MB because it bundles CUDA and ROCm runtimes, against 174.6 MB on macOS and just 55 MB for Jan on Windows.'
+      a: "A 7B-class model typically adds 4-5 GB of disk on top of the app, and it can fall back to CPU when VRAM is short — just slower. Check disk space first: Ollama's Windows installer alone is 1492 MB because it bundles CUDA and ROCm runtimes, against 174.6 MB on macOS and just 55 MB for Jan on Windows."
     - q: Is Open WebUI open source?
-      a: 'Strictly speaking, no. Its licence is BSD-3-Clause plus a fourth clause forbidding alteration or removal of Open WebUI branding. Restricting modification fails the OSI definition, making it source-available. There is an exception, though: deployments with 50 or fewer end users in any rolling 30-day period may change the branding, so personal and small-team use is effectively unaffected.'
+      a: "Strictly speaking, no. Its licence is BSD-3-Clause plus a fourth clause forbidding alteration or removal of Open WebUI branding. Restricting modification fails the OSI definition, making it source-available. There is an exception, though: deployments with 50 or fewer end users in any rolling 30-day period may change the branding, so personal and small-team use is effectively unaffected."
     - q: LM Studio is closed source — does commercial use cost money?
       a: No. It has been free for both personal and commercial use since July 2025, with no licence request or form, and no account needed to download models. A paid Enterprise tier exists for organizations wanting SSO and model gating, which is irrelevant to individual users.

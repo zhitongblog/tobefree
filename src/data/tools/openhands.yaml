@@ -1,0 +1,42 @@
+name: OpenHands (OpenDevin)
+accent: "#F59E0B"
+initials: OH
+category: ai
+price: free
+license: MIT
+website: https://www.all-hands.dev
+download: https://github.com/All-Hands-AI/OpenHands
+repo: https://github.com/All-Hands-AI/OpenHands
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 自主编程Agent
+  - OpenDevin
+  - 容器沙箱
+  - AI软件工程师
+  - MIT开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - self-hostable
+tagline:
+  zh: GitHub 5万+ 星的开源自主 AI 软件工程师平台（原 OpenDevin），自带安全容器沙箱与浏览器
+  en: Open-source autonomous AI software engineering agent platform (formerly OpenDevin) with sandboxed shell and browser execution
+description:
+  zh: 在隔离的本地 Docker 容器沙箱中赋予大模型编写代码、执行 Shell 终端命令、运行测试套件与操作网页浏览器的完整能力，支持接入任意本地 Ollama 模型或自有 API Key。
+  en: Runs autonomous coding agents inside isolated Docker sandboxes with full terminal, editor, and browser access—compatible with local Ollama models or any bring-your-own LLM API key under the MIT license.
+review:
+  zh: |
+    作为闭源高价软件 Devin 的头号开源替代品，OpenHands（原名 OpenDevin）最大的优势是**默认在安全的 Docker 沙箱里干活**：你可以放心地把修 Bug、写单测、配环境的脏活交给它自动循环尝试，不怕它误删宿主机文件，MIT 协议完全免费。
+  en: |
+    Originally launched as OpenDevin, OpenHands gives you a full autonomous software engineering workspace running safely inside a local Docker sandbox under the MIT license.

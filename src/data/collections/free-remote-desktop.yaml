@@ -36,6 +36,12 @@ tools:
   - magic-wormhole
   - input-leap
   - cyberduck
+  - frp
+  - rathole
+  - chisel
+  - dufs
+  - freerdp
+  - veyon
 skills: []
 featured: true
 added: '2026-09-18'

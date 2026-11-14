@@ -1,0 +1,42 @@
+name: llamafile
+accent: "#FF6B00"
+initials: LF
+category: ai
+price: free
+license: Apache-2.0
+website: https://github.com/Mozilla-Ocho/llamafile
+download: https://github.com/Mozilla-Ocho/llamafile/releases
+repo: https://github.com/Mozilla-Ocho/llamafile
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 单文件大模型
+  - Mozilla开源
+  - 免安装AI
+  - 离线大模型
+  - 跨平台可执行文件
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Mozilla 开源黑科技：把整个大语言模型权重与推理引擎打包成一个免安装、双击即跑的单个可执行文件
+  en: Mozilla’s open-source tool that collapses an entire LLM and inference engine into a single cross-platform executable file
+description:
+  zh: 结合 llama.cpp 与 Cosmopolitan Libc，让同一个包含数 GB 权重的单个文件无需安装任何依赖，即可直接在 Windows、macOS、Linux、FreeBSD 等 6 种操作系统上双击离线启动网页对话与 API。
+  en: Combines llama.cpp with Cosmopolitan Libc so you can distribute and run an LLM as a single portable file across Windows, macOS, Linux, and BSD with zero installation or network access.
+review:
+  zh: |
+    llamafile 是工程美学的极致体现：不用装 Python、不用配 CUDA 环境、甚至不用装管理软件，把一个 `.llamafile` 文件拷进 U 盘，插到任何一台断网的 Windows、Mac 或 Linux 电脑上双击，浏览器就会自动弹出一套完整的本地离线 AI 对话界面。
+  en: |
+    Backed by Mozilla under Apache-2.0, llamafile turns multi-gigabyte LLM weights into a single portable executable that runs identically across six operating systems right off a USB stick—completely offline.

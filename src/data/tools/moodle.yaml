@@ -1,0 +1,43 @@
+name: Moodle
+accent: "#F98012"
+initials: MD
+category: learning
+price: free
+license: GPL-3.0
+website: https://moodle.org
+download: https://download.moodle.org
+repo: https://github.com/moodle/moodle
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 在线学习平台
+  - LMS
+  - 课程管理
+  - 题库考试
+  - 开源教育
+platforms:
+  - windows
+  - macos
+  - linux
+  - web
+  - ios
+  - android
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+  - cross-platform
+tagline:
+  zh: 全球使用最广泛的开源在线课程与教学管理系统（LMS），零成本搭建专属网校与题库
+  en: The world’s most widely used open-source learning management system (LMS) for courses, quizzes, and classrooms
+description:
+  zh: 支持视频/图文课程编排、自动批改的多题型在线考试题库、作业互评、学习进度追踪与上千款社区教学插件，已被全球数万所高校、培训机构与开源社区采用。
+  en: Powers online classrooms, self-paced courses, automated quizzes, assignment grading, and offline mobile learning under the GPL-3.0 license.
+review:
+  zh: |
+    如果你想给学校社团、技术社区或内部培训搭一套带章节解锁、随堂测验和证书颁发的在线学习网站，Moodle 是经过全球上亿师生验证的纯开源基石，不收一分钱平台抽成。
+  en: |
+    Moodle is the battle-tested open-source standard for building online courses, question banks, and training portals on your own server without SaaS per-student fees.

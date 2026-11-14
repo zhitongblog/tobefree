@@ -80,6 +80,13 @@ tools:
   - gotify
   - whoogle
   - maybe
+  - traefik
+  - pangolin
+  - pocket-id
+  - authelia
+  - erpnext
+  - moodle
+  - frp
 skills:
   - n8n-mcp
   - searxng-mcp

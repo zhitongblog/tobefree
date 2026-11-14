@@ -1,0 +1,45 @@
+name: Nebula Overlay Network
+accent: "#4F46E5"
+initials: NB
+category: network
+price: free
+license: MIT
+website: https://nebula.defined.net
+download: https://github.com/slackhq/nebula/releases
+repo: https://github.com/slackhq/nebula
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 异地组网
+  - Mesh网络
+  - SD-WAN
+  - 点对点直连
+  - Slack开源
+platforms:
+  - windows
+  - macos
+  - linux
+  - ios
+  - android
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 由 Slack 开源的可扩展异地组网与点对点加密 Mesh 网络工具，完全自主掌控灯塔节点
+  en: Scalable peer-to-peer overlay networking tool open-sourced by Slack with built-in certificate-based firewalling
+description:
+  zh: 基于 Noise 加密协议与自签发证书体系，将分散在全球不同云厂商、家庭宽带与手机上的设备组成同一个虚拟局域网，自动通过 UDP 打洞实现端到端低延迟直连，并内置基于角色标签的内网防火墙。
+  en: Connects computers anywhere in the world into a single encrypted peer-to-peer mesh network using lightweight "lighthouse" discovery nodes and certificate-enforced security groups.
+review:
+  zh: |
+    相比依赖官方中心化协调服务器的商业组网工具，Slack 开源的 Nebula 从一开始就是百分百去中心化自建设计：你只需要在任意 VPS 上跑一个极其轻量的 Lighthouse（灯塔节点），就能免费连接成百上千台异地设备，不限设备数、不限速率。
+  en: |
+    Open-sourced by Slack under the MIT license, Nebula lets you run your own lightweight discovery lighthouses and connect unlimited devices into a fast, encrypted P2P mesh network with zero vendor lock-in.

@@ -56,6 +56,47 @@ skills:
   - mcp-anywhere
   - 21st-magic-mcp
   - neon-mcp
+  - shadcn-ui-mcp
+  - metamcp
+  - agentmail-mcp
+  - airtable-mcp
+  - arxiv-mcp
+  - astro-docs-mcp
+  - azure-devops-mcp
+  - crawl4ai-mcp
+  - duckduckgo-mcp
+  - e2b-mcp
+  - exa-mcp
+  - firecrawl-mcp
+  - gitlab-mcp
+  - google-calendar-mcp
+  - grafana-mcp
+  - hacker-news-mcp
+  - home-assistant-mcp
+  - jev-shield
+  - kubernetes-mcp
+  - markitdown-mcp
+  - memory-mcp
+  - mongodb-mcp
+  - reddit-mcp
+  - redis-mcp
+  - ripgrep-mcp
+  - ruflo
+  - sentry-mcp
+  - sequential-thinking-mcp
+  - slack-mcp
+  - solomd-mcp
+  - spotify-mcp
+  - stitch-mcp
+  - stripe-mcp
+  - supabase-mcp
+  - tavily-mcp
+  - terraform-mcp
+  - time-mcp
+  - todoist-mcp
+  - unfetch-mcp
+  - wikipedia-mcp
+  - ziplark-mcp
 faq:
   zh:
     - q: MCP Server 适合谁？

@@ -1,0 +1,38 @@
+name: ERPNext
+accent: "#0089FF"
+initials: EN
+category: finance
+price: free
+license: GPL-3.0
+website: https://erpnext.com
+download: https://github.com/frappe/erpnext
+repo: https://github.com/frappe/erpnext
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 开源ERP
+  - 财务会计
+  - 进销存
+  - 企业管理
+  - 自建财务
+platforms:
+  - linux
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - self-hostable
+tagline:
+  zh: 全球最著名的 100% 开源企业财务会计、进销存与 ERP 管理套件，零模块阉割
+  en: The world’s leading 100% open-source accounting, inventory, manufacturing, and ERP suite with no paid enterprise locks
+description:
+  zh: 不同于通过锁死核心功能逼你买企业版的“伪开源”软件，ERPNext 将多币种复式记账、发票税务、采购库存、生产制造、项目管理、人事薪资与 CRM 全部以 GPL-3.0 协议完整开放。
+  en: Unlike open-core ERPs that paywall essential modules, ERPNext releases its complete accounting, billing, inventory, manufacturing, HR, payroll, and CRM modules under GPL-3.0.
+review:
+  zh: |
+    许多标榜开源的商业管理软件一旦你要导出财务报表或加第 2 个仓库就跳出付费墙。ERPNext 坚持 100% 纯开源（GPL-3.0），从创业工作室的发票记账到制造工厂的 BOM 进销存全部免费包含，自托管部署无任何人数限制。
+  en: |
+    While most business suites cripple their community editions, ERPNext is 100% GPL-3.0 open source—giving small businesses and studios full double-entry accounting, inventory, invoicing, and HR on their own server for free.

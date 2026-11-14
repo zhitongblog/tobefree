@@ -1,0 +1,40 @@
+name: FreeTube
+accent: "#0284C7"
+initials: FT
+category: media
+price: free
+license: GPL-3.0
+website: https://freetubeapp.io
+download: https://freetubeapp.io/#download
+repo: https://github.com/FreeTubeApp/FreeTube
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - YouTube桌面版
+  - 无广告播放器
+  - SponsorBlock
+  - 隐私保护
+  - 免登录
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 专为注重隐私的桌面用户打造的开源无广告 YouTube 客户端，订阅数据纯本地保存
+  en: The private, open-source desktop YouTube player that keeps your subscriptions and history on your own computer
+description:
+  zh: 无需注册或登录 Google 账号即可在 Windows、macOS 和 Linux 上管理频道订阅、播放列表与观看历史。内置去广告、SponsorBlock 自动跳过恰饭口播、DeArrow 去标题党封面与多主题界面。
+  en: Watch YouTube on Windows, macOS, and Linux without ads, tracking cookies, or a Google account—complete with local subscription databases, SponsorBlock, and DeArrow clickbait-remover integration.
+review:
+  zh: |
+    如果你经常在电脑上看 YouTube 教程或评测，FreeTube 是体验最纯粹的开源桌面播放器：不用登录账号就能本地订阅几百个频道并按分类建文件夹，原生自带 SponsorBlock 自动跳过恰饭软广和 DeArrow 替换震惊体缩略图。
+  en: |
+    FreeTube is the premier desktop YouTube client for privacy-conscious users: all your subscriptions and watch history live in a local database on your disk, with SponsorBlock and DeArrow built right in.

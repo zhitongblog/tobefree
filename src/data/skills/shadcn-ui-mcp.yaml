@@ -1,0 +1,40 @@
+kind: mcp
+name: shadcn/ui Official & Community MCP
+accent: "#09090B"
+initials: SC
+license: MIT
+website: https://ui.shadcn.com
+repo: https://github.com/Jpisnice/shadcn-ui-mcp-server
+install: npx -y @jpisnice/shadcn-ui-mcp-server
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - shadcn-ui
+  - React组件
+  - Tailwind
+  - Radix-UI
+  - 前端MCP
+clients:
+  - Claude Code
+  - Cursor
+  - Windsurf
+  - Cline
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+tagline:
+  zh: 让 AI 编程助手实时读取最新 shadcn/ui 组件源码、Blocks 模板与使用规范的开源 MCP 服务
+  en: MCP server providing coding agents with live access to shadcn/ui component source code, demos, and blocks
+description:
+  zh: 解决大模型使用旧版 shadcn/ui 命令（如已废弃的 shadcn-ui CLI）或乱编组件 Props 的痛点，支持直接拉取 React、Svelte、Vue 版本的最新组件源码与页面级 Blocks。
+  en: Eliminates hallucinated props and deprecated CLI commands by giving your coding agent direct access to the latest shadcn/ui component implementations, installation instructions, and dashboard blocks.
+review:
+  zh: |
+    大模型写 shadcn/ui 最常犯的错就是还在敲早已废弃的 `npx shadcn-ui@latest`，或者自己瞎编不存在的组件属性。挂载这款 MCP 后，Agent 每次写前端前都能直接查到最新的组件源码与官方示例，一次跑通。
+  en: |
+    Stops LLMs from running deprecated shadcn-ui CLI commands or inventing imaginary component props by feeding live component source code and block templates straight into Cursor or Claude Code.

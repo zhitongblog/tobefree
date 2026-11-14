@@ -1,0 +1,40 @@
+name: Bearer CLI
+accent: "#6366F1"
+initials: BR
+category: privacy
+price: free
+license: Apache-2.0
+website: https://github.com/Bearer/bearer
+download: https://github.com/Bearer/bearer/releases
+repo: https://github.com/Bearer/bearer
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 隐私数据流
+  - 安全扫描
+  - SAST
+  - 合规审计
+  - 敏感数据检测
+platforms:
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+tagline:
+  zh: 专注于敏感隐私数据流（PII）追踪与 OWASP 漏洞检测的开源静态安全扫描器
+  en: Open-source SAST scanner that tracks sensitive data flows (PII) and OWASP security risks in your code
+description:
+  zh: 深入分析代码中个人敏感数据（密码、手机号、邮箱、医疗财务记录）的采集、存储、日志打印与第三方传输路径，发现未加密存储、SQL 注入与敏感信息泄露隐患。
+  en: Maps how sensitive user data flows through your application—catching unencrypted storage, accidental PII logging, weak crypto, and OWASP Top 10 vulnerabilities offline.
+review:
+  zh: |
+    很多时候代码没有明显的语法漏洞，却把用户的手机号或 Token 明文打进了日志文件。Bearer CLI 专门追踪「敏感数据在代码里的流动轨迹」，帮你离线生成隐私数据流向报告与安全体检清单。
+  en: |
+    Bearer goes beyond syntax checks by tracing how sensitive data moves through your codebase—spotting accidental PII logging, weak encryption, and OWASP flaws completely offline.

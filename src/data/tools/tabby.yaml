@@ -1,0 +1,42 @@
+name: Tabby
+accent: "#D97706"
+initials: TB
+category: ai
+price: free
+license: Apache-2.0
+website: https://tabby.tabbyml.com
+download: https://github.com/TabbyML/tabby/releases
+repo: https://github.com/TabbyML/tabby
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 代码补全
+  - Copilot自建平替
+  - Rust
+  - 本地大模型
+  - 内网AI编程
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 用 Rust 编写的开源自托管 AI 代码补全与编程助手服务，GitHub Copilot 的内网私有化平替
+  en: Self-hosted, open-source AI coding assistant written in Rust — a private on-premise alternative to GitHub Copilot
+description:
+  zh: 无需依赖外部 DBMS 或云服务，单条命令即可在本地显卡或公司内网服务器上拉起高性能代码行内补全（FIM）、代码库问答（Answer Engine）与 VS Code / JetBrains / Vim 插件服务端。
+  en: Deploys as a self-contained Rust binary or Docker container on consumer GPUs or Apple Silicon, providing low-latency inline code completion, repository RAG chat, and IDE extensions.
+review:
+  zh: |
+    如果你想体验类似 GitHub Copilot 的毫秒级行内代码自动补全，但公司严禁代码出内网、或者不想交月费，用 Rust 编写的 Tabby 是部署最简单的自建方案：一条命令就能在自己的显卡或 Mac 上跑起专属补全服务端。
+  en: |
+    Tabby is the easiest way to self-host your own GitHub Copilot replacement: written in Rust, it serves fast fill-in-the-middle code completions and repo-aware chat from your own GPU or Mac.

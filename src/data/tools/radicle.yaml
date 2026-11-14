@@ -1,0 +1,42 @@
+name: Radicle
+accent: "#5555FF"
+initials: RD
+category: dev
+price: free
+license: MIT / Apache-2.0
+website: https://radicle.xyz
+download: https://radicle.xyz/download
+repo: https://seed.radicle.xyz/nodes/seed.radicle.xyz/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 去中心化Git
+  - P2P代码托管
+  - 本地优先
+  - 开源协作
+  - 加密签名
+platforms:
+  - macos
+  - linux
+  - cli
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 构建在 Git 之上的本地优先、点对点（P2P）去中心化代码托管与评审网络
+  en: Local-first, peer-to-peer code collaboration stack built on Git with cryptographic identities
+description:
+  zh: 不仅代码本身是分布式的，连 Issue 缺陷追踪、Patch（Pull Request）代码评审与讨论也都直接存储在本地 Git 仓库中并通过加密签名点对点同步，断网照常提 PR 与审代码，永不惧中心化平台封号或宕机。
+  en: Stores issues, patches (PRs), and code reviews directly inside Git as cryptographically signed objects synced peer-to-peer—allowing full offline code review and censorship-resistant collaboration.
+review:
+  zh: |
+    Git 本身是去中心化的，但开发者却把 Issue 和 PR 全部锁在了 GitHub 一家公司的中心化数据库里。Radicle 把 Issue 和代码评审也变成了本地 Git 对象，用公钥就是你的账号，断网在飞机上也能完整审阅和批注 PR。
+  en: |
+    Git is decentralized, yet issues and pull requests usually live on centralized servers. Radicle stores issues and patches inside Git itself, enabling offline code review and peer-to-peer replication.

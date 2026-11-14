@@ -1,0 +1,41 @@
+name: vLLM
+accent: "#3B82F6"
+initials: VL
+category: ai
+price: free
+license: Apache-2.0
+website: https://docs.vllm.ai
+download: https://github.com/vllm-project/vllm/releases
+repo: https://github.com/vllm-project/vllm
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 大模型推理引擎
+  - PagedAttention
+  - OpenAI兼容API
+  - 高吞吐
+  - 本地部署
+platforms:
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - self-hostable
+tagline:
+  zh: 行业标准的开源高吞吐大语言模型推理与服务引擎，首创 PagedAttention 显存优化
+  en: High-throughput, memory-efficient open-source inference and serving engine for LLMs powered by PagedAttention
+description:
+  zh: 通过 PagedAttention、连续批处理（Continuous Batching）与前缀缓存（Prefix Caching）将本地显卡并发推理吞吐量提升数倍，原生提供 100% 兼容 OpenAI API 的本地服务端。
+  en: Maximizes GPU utilization with PagedAttention, continuous batching, quantization (AWQ/GPTQ/FP8), and speculative decoding, exposing a drop-in OpenAI-compatible local API server.
+review:
+  zh: |
+    当你需要让多个 Agent 并发调用本地模型（如配合 Gas Town 跑多 Agent 编码，或跑高频分类任务）时，普通推理工具排队严重，而 vLLM 能把单张显卡的并发吞吐榨干到极致，是开源大模型服务端的事实标准。
+  en: |
+    When running concurrent coding agents or local team inference, vLLM is the undisputed open-source standard for high-throughput, low-latency LLM serving.

@@ -1,0 +1,44 @@
+name: Kolibri
+accent: "#996189"
+initials: KL
+category: learning
+price: free
+license: MIT
+website: https://learningequality.org/kolibri/
+download: https://learningequality.org/kolibri/download/
+repo: https://github.com/learningequality/kolibri
+featured: true
+popular: false
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 离线教育
+  - 可汗学院
+  - 儿童学习
+  - 无网教学
+  - 百科课程
+platforms:
+  - windows
+  - macos
+  - linux
+  - android
+  - web
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: 专为纯离线环境打造的开源教育平台，可把可汗学院、PhET 科学实验等海量免费课程装进本机
+  en: Offline-first open-source learning platform bringing Khan Academy, PhET simulations, and open textbooks anywhere without internet
+description:
+  zh: 由非营利组织 Learning Equality 开发。支持按需下载数学、物理、编程、外语与儿童启蒙等开放教育资源包，在完全断网的电脑、树莓派或局域网平板上提供带交互练习的完整学习体验。
+  en: Built by non-profit Learning Equality, Kolibri lets you download curated channels (Khan Academy, PhET interactive science simulations, Sikana, OpenStax) and run a full interactive classroom completely offline.
+review:
+  zh: |
+    不想让孩子在学习时顺手刷短视频网页，或者在没有网络的环境下怎么学数学和科学？Kolibri 可以把可汗学院（Khan Academy）全套视频题库、PhET 互动物理化学实验室直接下载到你的电脑里，拔掉网线也能完整做题和学习，真正纯粹的公益开源之作。
+  en: |
+    Kolibri is a remarkable MIT-licensed project: download Khan Academy videos, interactive math exercises, and PhET science simulations once, and let kids or students learn in a 100% distraction-free, offline environment.

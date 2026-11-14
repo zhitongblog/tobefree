@@ -131,6 +131,46 @@ export function writeTool(input, { overwrite = false } = {}) {
 // Supporter wall ------------------------------------------------------------
 
 export const SUPPORTERS_DIR = join(ROOT, 'src', 'data', 'supporters');
+export const SKILLS_DIR = join(ROOT, 'src', 'data', 'skills');
+export const COLLECTIONS_DIR = join(ROOT, 'src', 'data', 'collections');
+
+export function listSkills() {
+  if (!existsSync(SKILLS_DIR)) return [];
+  return readdirSync(SKILLS_DIR)
+    .filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'))
+    .map((f) => {
+      const slug = f.replace(/\.ya?ml$/, '');
+      const data = yaml.load(readFileSync(join(SKILLS_DIR, f), 'utf8'));
+      return { slug, file: f, data };
+    });
+}
+
+export function listCollections() {
+  if (!existsSync(COLLECTIONS_DIR)) return [];
+  return readdirSync(COLLECTIONS_DIR)
+    .filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'))
+    .map((f) => {
+      const slug = f.replace(/\.ya?ml$/, '');
+      const data = yaml.load(readFileSync(join(COLLECTIONS_DIR, f), 'utf8'));
+      return { slug, file: f, data };
+    });
+}
+
+/** Validate a collection entry and check references against known tool/skill slugs. */
+export function validateCollection(col, toolSlugs, skillSlugs) {
+  const errs = [];
+  const req = (cond, msg) => { if (!cond) errs.push(msg); };
+  req(col.title?.zh && col.title?.en, 'title.zh and title.en are required');
+  req(col.description?.zh && col.description?.en, 'description.zh and description.en are required');
+  req(col.intro?.zh && col.intro?.en, 'intro.zh and intro.en are required');
+  for (const t of col.tools || []) {
+    req(toolSlugs.has(t), `dangling tool reference in collection: "${t}"`);
+  }
+  for (const s of col.skills || []) {
+    req(skillSlugs.has(s), `dangling skill reference in collection: "${s}"`);
+  }
+  return errs;
+}
 
 export const SUPPORTER_KINDS = (() => {
   const m = CONSTS_SRC.match(/export const SUPPORTER_KINDS = \[([^\]]+)\] as const;/);

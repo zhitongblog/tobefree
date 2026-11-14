@@ -1,0 +1,42 @@
+name: Semgrep OSS
+accent: "#10B981"
+initials: SG
+category: dev
+price: free
+license: LGPL-2.1
+website: https://semgrep.dev
+download: https://github.com/semgrep/semgrep/releases
+repo: https://github.com/semgrep/semgrep
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 静态代码分析
+  - SAST
+  - 代码审计
+  - 漏洞检测
+  - 多语言
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 支持 30+ 编程语言的极速开源静态代码分析（SAST）引擎，像写普通代码一样写审计规则
+  en: Fast, open-source static analysis engine for finding bugs, security vulnerabilities, and anti-patterns across 30+ languages
+description:
+  zh: 无需编译目标项目或学习复杂的抽象语法树（AST）DSL，直接用贴近源码本身的语法匹配复杂代码缺陷，内置数千条社区开源安全规则，支持纯离线命令行扫描。
+  en: Analyzes source code locally without requiring compilation, using intuitive pattern rules that look like the target language itself across Python, JS/TS, Go, Rust, Java, C++, and more.
+review:
+  zh: |
+    传统静态代码分析工具要么慢如蜗牛，要么写一条自定义规则得先学半个月编译原理。Semgrep 的规则语法直观得就像带省略号的源代码，单机离线扫描速度极快，非常适合用来给 AI 写的代码做安全与规范门禁。
+  en: |
+    Semgrep makes static analysis fast and approachable: its pattern syntax looks just like the code you already write, and its open-source CLI scans repositories offline in seconds.

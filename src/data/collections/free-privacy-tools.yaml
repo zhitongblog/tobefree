@@ -41,6 +41,15 @@ tools:
   - invidious
   - piped
   - libretube
+  - gitleaks
+  - trivy
+  - osv-scanner
+  - bearer
+  - nuclei
+  - metadata-cleaner
+  - onionshare
+  - pocket-id
+  - authelia
 skills:
   - searxng-mcp
 featured: true

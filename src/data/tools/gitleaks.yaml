@@ -1,0 +1,42 @@
+name: Gitleaks
+accent: "#EF4444"
+initials: GL
+category: privacy
+price: free
+license: MIT
+website: https://gitleaks.io
+download: https://github.com/gitleaks/gitleaks/releases
+repo: https://github.com/gitleaks/gitleaks
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 密钥扫描
+  - 防泄密
+  - Git安全
+  - Pre-commit
+  - DevSecOps
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 极速开源 Git 密钥与密码泄露扫描神器，在代码提交前拦截 API Key 外泄
+  en: Fast open-source secret scanner for detecting hardcoded passwords, API keys, and tokens in Git repos
+description:
+  zh: 用 Go 语言编写的静态密钥检测工具。可扫描整个 Git 历史提交记录、本地工作目录或挂载为 pre-commit 钩子，毫秒级揪出误写的 AWS/OpenAI/数据库密钥与私钥。
+  en: Scans Git commit history, directories, and staged files for hardcoded API keys, tokens, and private keys—running completely offline in milliseconds or as a pre-commit hook.
+review:
+  zh: |
+    用 AI 编程助手写代码时，最怕一不小心把带有真实 API Key 的配置文件 `git push` 到公开仓库。Gitleaks 是防范密钥外泄的标准守门员：单二进制文件、零网络外联，把它配置进本地 pre-commit hook 后，任何包含密钥的提交都会在本地被瞬间拦截。
+  en: |
+    Accidentally committing an API key to Git takes seconds to happen and hours to clean up. Written in Go under the MIT license, Gitleaks scans your repo history or pre-commit staging area offline in milliseconds.

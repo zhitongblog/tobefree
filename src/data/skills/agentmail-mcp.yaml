@@ -1,0 +1,39 @@
+kind: mcp
+name: AgentMail MCP
+accent: "#2563EB"
+initials: AM
+license: MIT
+website: https://agentmail.to
+repo: https://github.com/agentmail-to/agentmail-mcp
+install: npx -y agentmail-mcp
+featured: false
+popular: false
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 邮件MCP
+  - Agent收件箱
+  - 自动化通知
+  - 邮件收发
+  - 工作流
+clients:
+  - Claude Desktop
+  - Claude Code
+  - Cursor
+  - OpenClaw
+  - Any MCP client
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+tagline:
+  zh: 专为 AI Agent 打造的开源收发信箱 MCP 服务，无需暴露个人主邮箱即可让 Agent 独立处理邮件
+  en: Open-source MCP server giving AI agents their own dedicated email inboxes for sending, receiving, and parsing threads
+description:
+  zh: 避免把包含全部私人隐私的个人主邮箱密码直接交给 AI。为 Agent 分配专用收件箱，通过标准 MCP 工具读取来信、解析附件、自动起草回复与触发异步通知工作流。
+  en: Instead of handing your personal Gmail credentials to an autonomous agent, AgentMail MCP equips agents with dedicated programmable inboxes to read threads, process attachments, and send replies.
+review:
+  zh: |
+    让自主运行的 AI Agent（如 OpenClaw）直接绑定你的私人主邮箱存在极大的安全隐患。AgentMail MCP 通过为 Agent 提供独立的编程专用收件箱，既实现了邮件自动化处理，又实现了与个人隐私邮箱的物理隔离。
+  en: |
+    Giving an autonomous agent full access to your personal inbox is risky. AgentMail MCP provides isolated, agent-native email tools so your assistant can handle correspondence safely.

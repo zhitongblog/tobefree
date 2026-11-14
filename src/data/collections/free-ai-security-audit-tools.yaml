@@ -27,7 +27,7 @@ tools:
   - nuclei
 skills:
   - cloudflare-security-audit
-  - trailofbits-security-skills
+  - trailofbits-skills
   - semgrep-mcp
   - mcp-skylos
 featured: true

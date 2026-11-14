@@ -36,7 +36,14 @@ tools:
   - akaunting
   - invoiceninja
   - maybe
-skills: []
+  - erpnext
+  - bigcapital
+  - budget-board
+  - fava
+  - posnic
+  - rotki
+skills:
+  - stripe-mcp
 featured: true
 added: '2026-09-18'
 faq:

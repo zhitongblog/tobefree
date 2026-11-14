@@ -1,0 +1,40 @@
+name: Lunacy
+accent: "#3B82F6"
+initials: LN
+category: creative
+price: free
+license: Freeware (Icons8)
+website: https://icons8.com/lunacy
+download: https://icons8.com/lunacy
+repo: ""
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 矢量设计
+  - Sketch跨平台
+  - 离线UI设计
+  - Figma导入
+  - 免费设计软件
+platforms:
+  - windows
+  - macos
+  - linux
+badges:
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+tagline:
+  zh: 支持纯本地离线运行、原生读写 .sketch 与导入 Figma 文件的跨平台免费矢量 UI 设计软件
+  en: Fast, offline-first free vector UI design software for Windows, macOS, and Linux with native .sketch support
+description:
+  zh: 不强制上云、不收月租，打开本地安装包即可直接离线画 UI 原型与矢量图标。原生支持 .sketch 格式读写与 Figma 文件导入，内置去背景、占位头像与矢量插画素材库。
+  en: Works 100% offline with local files on Windows, macOS, and Linux—natively opening and saving .sketch files without a Mac, importing Figma files, and running fast on modest hardware.
+review:
+  zh: |
+    如果你讨厌所有设计稿都被锁在云端网页里、断网就打不开，或者需要在 Windows/Linux 电脑上打开客户发来的苹果 `.sketch` 设计稿，Lunacy 是难得的真免费、免登录、纯本地离线可用的原生桌面设计软件。
+  en: |
+    When you want a fast native desktop UI editor that saves real files to your local disk and opens .sketch or Figma files offline on Windows, macOS, and Linux without a subscription, Lunacy delivers.

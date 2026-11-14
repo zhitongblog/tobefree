@@ -1,0 +1,43 @@
+name: frp
+accent: "#2563EB"
+initials: FP
+category: remote
+price: free
+license: Apache-2.0
+website: https://gofrp.org
+download: https://github.com/fatedier/frp/releases
+repo: https://github.com/fatedier/frp
+featured: true
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 内网穿透
+  - 反向代理
+  - 远程访问
+  - P2P打洞
+  - Go
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - offline
+  - no-signup
+  - cross-platform
+  - self-hostable
+tagline:
+  zh: GitHub 8.5万+ 星的王牌开源内网穿透与高性能反向代理工具，轻松从外网访问家庭 NAS 与内网服务
+  en: Fast, battle-tested open-source reverse proxy and NAT traversal tool (85k+ stars) for exposing local services securely
+description:
+  zh: 支持 TCP、UDP、HTTP、HTTPS、STCP（加密安全内网穿透）与 XTCP（点对点打洞直连），包含连接池、端口复用、带宽限制、负载均衡与可视化状态面板。
+  en: Exposes services behind a NAT or firewall to the internet or private peers over TCP, UDP, HTTP/HTTPS, and P2P XTCP tunnels with built-in encryption, auth, and dashboards.
+review:
+  zh: |
+    只要玩过家庭 NAS、软路由或自建服务器，frp 就是绕不开的国民级开源神器。用一台最便宜的云服务器跑 frps，或者开启 XTCP 点对点直连模式，就能在外随时满速访问家里的远程桌面、影音库与代码库，完全免费无带宽限速。
+  en: |
+    With over 85,000 stars on GitHub, frp is the gold standard for self-hosted NAT traversal and reverse proxying—free of commercial bandwidth caps or connection timeouts.

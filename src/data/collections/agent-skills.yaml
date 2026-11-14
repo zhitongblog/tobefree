@@ -65,6 +65,14 @@ skills:
   - anthropic-knowledge-work-plugins
   - playwright-cli-skill
   - awesome-claude-plugins
+  - 0xfurai-claude-code-subagents
+  - awesome-claude-code-subagents
+  - claude-code-templates
+  - gsd
+  - rust-coding-skills
+  - superpowers-skills
+  - tauri-v2-skills
+  - wshobson-agents
 featured: true
 added: '2026-09-24'
 faq:

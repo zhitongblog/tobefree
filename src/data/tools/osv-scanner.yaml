@@ -1,0 +1,41 @@
+name: OSV-Scanner
+accent: "#4285F4"
+initials: OS
+category: privacy
+price: free
+license: Apache-2.0
+website: https://google.github.io/osv-scanner/
+download: https://github.com/google/osv-scanner/releases
+repo: https://github.com/google/osv-scanner
+featured: false
+popular: true
+selfMade: false
+added: '2026-11-14'
+tags:
+  - 依赖漏洞扫描
+  - Google开源
+  - OSV数据库
+  - SBOM
+  - 开源安全
+platforms:
+  - windows
+  - macos
+  - linux
+  - cli
+badges:
+  - open-source
+  - no-ads
+  - no-tracking
+  - no-signup
+  - cross-platform
+tagline:
+  zh: Google 官方开源的精准依赖漏洞扫描器，直连全球最大开源漏洞库 OSV.dev
+  en: Google’s official open-source vulnerability scanner powered by the OSV.dev database
+description:
+  zh: 直接解析项目中的 package-lock.json、pnpm-lock.yaml、Cargo.lock、go.mod、requirements.txt 与容器镜像，精准匹配真正影响当前代码版本的已知开源漏洞并给出最小升级修复方案。
+  en: Reads lockfiles (npm, pnpm, Cargo, Go, PyPI, Maven), SBOMs, and container layers to match dependencies against the distributed OSV vulnerability database and suggest minimal-bump fixes.
+review:
+  zh: |
+    由 Google 安全团队用 Go 编写并开源，OSV-Scanner 的最大优势是直接对接开放、无商业门槛的 OSV.dev 权威数据库，不仅误报极低，还能自动计算出「破坏性最小」的依赖升级路径。
+  en: |
+    Built in Go by Google’s open-source security team, OSV-Scanner checks your project lockfiles against the open OSV.dev database and computes guided remediation upgrades with zero registration.

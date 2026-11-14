@@ -41,6 +41,9 @@ tools:
   - agent-browser
   - gastown
   - lightpanda
+  - openhands
+  - tabby
+  - semgrep
 skills:
   - serena
   - context7
@@ -58,6 +61,14 @@ skills:
   - codebase-memory-mcp
   - mcp-skylos
   - roundtable-mcp
+  - 0xfurai-claude-code-subagents
+  - awesome-claude-code-subagents
+  - claude-code-templates
+  - gsd
+  - rust-coding-skills
+  - superpowers-skills
+  - tauri-v2-skills
+  - wshobson-agents
 featured: true
 added: '2026-09-08'
 faq:

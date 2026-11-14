@@ -3,7 +3,7 @@ title:
   en: Free Open-Source Games
 description:
   zh: 五个免费开源的游戏与游戏工具：方块沙盒、即时战略、卡丁车、国际象棋，以及《我的世界》Java 版启动器。没有内购、没有广告、没有体力值。
-  en: 'Five free and open-source games and game tools: a block sandbox, a real-time strategy game, a kart racer, chess, and a Minecraft Java Edition launcher. No in-app purchases, no ads, no energy meters.'
+  en: "Five free and open-source games and game tools: a block sandbox, a real-time strategy game, a kart racer, chess, and a Minecraft Java Edition launcher. No in-app purchases, no ads, no energy meters."
 intro:
   zh: 免费游戏这个词已经被「免费下载、内购赚钱」占住了：开局送一点，卡关时弹礼包，体力用完等半小时或者付钱。开源游戏是另一套逻辑，代码和素材公开，靠志愿者和捐款维持，没有一个需要从你身上挣回开发成本的运营团队。这份清单里的游戏都能完整玩到底，不用付钱解锁内容。Prism Launcher 是个例外，启动器本身免费开源，但《我的世界》要自己买，页面里写清楚了。
   en: '"Free game" has been claimed by free-to-download, pay-to-progress: a little given at the start, a bundle offer when you get stuck, an energy meter that refills in half an hour or for money. Open-source games work on different logic — code and assets are public, the work is sustained by volunteers and donations, and there is no operations team that has to earn the development cost back from you. Every game on this list can be played through without paying to unlock content. Prism Launcher is the exception: the launcher is free and open source, but Minecraft itself has to be bought, and its page says so.'
@@ -27,6 +27,7 @@ tools:
   - openra
   - wesnoth
   - shattered-pixel-dungeon
+  - unciv
 skills: []
 featured: false
 added: '2026-09-24'
